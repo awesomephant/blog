@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:700|PT+Serif:400,400italic);
+
+$black: rgb(30,30,30);
+$white: #fff;
+
+$red: #FF5447;
+$blue: #006DFF;
+$lightgray: rgb(240,240,240);
+
+$serif: 'PT Serif', garamound, serif;
+$sans: 'PT Sans Caption', 'sans-serif';
+
+@mixin bp($point) {
+	@if $point == l {
+		@media (min-width: 65rem) { @content; }
+	}
+	@else if $point == m {
+		@media (min-width: 45rem) { @content; }
+	}
+	@else if $point == s {
+		@media (min-width: 35rem) { @content; }
+	}
+}

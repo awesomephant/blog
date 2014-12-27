@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class='post'>
+	<header class="post-header">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-via="awesomephant" data-size="large" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		
+		<img class='post-banner' src="{{site.url}}/assets/{{page.banner}}" alt="">
+		<h1 class="post-title">{{ page.title }}</h1>
+		
+		<aside class='post-author'>
+			<h2 class='author-name'>Max Koehler - {{ page.date | date: "%b %-d, %Y" }}</h2>		</aside>
+
+  	</header>
+   	<main class='post-main'>
+    	<p class="post-intro">
+			{{page.intro}}
+    	</p>
+	    {{ content }} 
+	</main>
+</article>

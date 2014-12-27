@@ -1,0 +1,14 @@
+{
+	"name": "rk",
+	"author": "@awesomephant",
+	"devDependencies": {
+		"grunt-shell": "*",
+		"grunt-contrib-watch": "*",
+		"grunt-contrib-sass": "*",
+		"grunt-contrib-uglify": "*",
+		"grunt-contrib-cssmin": "*",
+		"grunt-autoprefixer": "*",
+		"grunt-browser-sync": "*"
+
+	}
+}

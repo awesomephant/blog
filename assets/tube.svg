@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150mm"
+   height="56mm"
+   viewBox="0 0 150 56"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91+devel r"
+   sodipodi:docname="tube.svg"
+   style="enable-background:new"
+   inkscape:export-filename="/home/max/Dropbox/dev/blog/assets/tube.png"
+   inkscape:export-xdpi="254"
+   inkscape:export-ydpi="254">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4514">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend4516" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4514-3">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend4516-7" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4514-3-2">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend4516-7-9" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4514-3-2-8">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend4516-7-9-9" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4514-3-2-2">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend4516-7-9-7" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4514-3-2-8-6">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend4516-7-9-9-4" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="307.89498"
+     inkscape:cy="53.836299"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(0,-241.00001)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4136"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="scale(0.26458335)"><flowRegion
+         id="flowRegion4138"><rect
+           id="rect4140"
+           width="1354.2858"
+           height="694.28571"
+           x="-288.57144"
+           y="-37.480316" /></flowRegion><flowPara
+         id="flowPara4142" /></flowRoot>    <rect
+       style="enable-background:new;filter:url(#filter4514);fill:#4e59ff;fill-opacity:0.81568627;stroke:none;stroke-width:1.53299582;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4752-6"
+       width="475.49988"
+       height="71.12178"
+       x="-237.74992"
+       y="237.74994"
+       transform="matrix(0.18708867,-0.18708866,0.18708866,0.18708867,-49.432468,191.06011)" />
+    <rect
+       style="enable-background:new;filter:url(#filter4514);display:inline;opacity:1;fill:#ff7f4e;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4507-0"
+       width="349.49625"
+       height="119.23457"
+       x="-174.74812"
+       y="-293.9827"
+       transform="matrix(0.24790983,-0.24790981,-0.24790983,-0.24790981,39.738154,213.64549)" />
+    <ellipse
+       ry="158.59396"
+       rx="158.59395"
+       style="enable-background:new;filter:url(#filter4514-3);display:inline;opacity:1;fill:#ff7f4e;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4505-14-1"
+       cx="190.31274"
+       cy="190.31276"
+       transform="matrix(0.09255122,0,0,0.09255122,45.032956,231.2363)" />
+    <rect
+       style="enable-background:new;filter:url(#filter4514);fill:#4e59ff;fill-opacity:0.81568627;stroke:none;stroke-width:1.53299582;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4752"
+       width="125.80934"
+       height="18.817636"
+       x="-177.19292"
+       y="288.19788"
+       transform="rotate(-44.999999)" />
+    <ellipse
+       ry="158.59396"
+       rx="158.59395"
+       style="enable-background:new;filter:url(#filter4514-3-2-8);display:inline;opacity:1;fill:#ffff58;fill-opacity:0.85128204;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4505-14-1-5-8"
+       cx="190.31274"
+       cy="190.31276"
+       transform="matrix(0.09255122,0,0,0.09255122,103.60597,254.36162)" />
+    <rect
+       style="enable-background:new;filter:url(#filter4514);display:inline;opacity:1;fill:#ffff58;fill-opacity:0.75384617;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4507"
+       width="100.64388"
+       height="34.335789"
+       x="-221.18694"
+       y="-217.5432"
+       transform="matrix(0.70710678,-0.70710677,-0.70710678,-0.70710677,0,1.2868693e-6)" />
+    <ellipse
+       ry="158.59396"
+       rx="158.59395"
+       style="enable-background:new;filter:url(#filter4514-3-2);display:inline;opacity:1;fill:#4e59ff;fill-opacity:0.82564104;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4505-14-1-5"
+       cx="190.31274"
+       cy="190.31276"
+       transform="matrix(0.09255122,0,0,0.09255122,11.872516,254.57707)" />
+    <ellipse
+       ry="158.59396"
+       rx="158.59395"
+       style="enable-background:new;filter:url(#filter4514-3-2-2);display:inline;opacity:1;fill:#4e59ff;fill-opacity:0.81568627;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4505-14-1-5-3"
+       cx="190.31274"
+       cy="190.31276"
+       transform="matrix(0.09255122,0,0,0.09255122,54.012811,249.14824)" />
+    <ellipse
+       ry="158.59396"
+       rx="158.59395"
+       style="enable-background:new;filter:url(#filter4514-3-2-8-6);display:inline;opacity:1;fill:#ffff58;fill-opacity:0.85128204;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4505-14-1-5-8-9"
+       cx="190.31274"
+       cy="190.31276"
+       transform="matrix(0.09255122,0,0,0.09255122,34.77115,277.78271)" />
+  </g>
+</svg>

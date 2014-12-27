@@ -1,0 +1,193 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:700|PT+Serif:400,400italic);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+}
+
+a {
+  color: #006DFF;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #338aff;
+}
+
+body {
+  font-family: "PT Sans Caption", "sans-serif";
+}
+
+.site-header {
+  border-top: 1px solid #1e1e1e;
+  padding: 2rem 5%;
+  margin-top: 3rem;
+}
+
+.header-social {
+  list-style: none;
+}
+
+.post-list {
+  list-style: none;
+}
+.post-list li {
+  border-bottom: 1px solid #dddddd;
+}
+.post-list span {
+  display: block;
+}
+.post-list .post-date {
+  color: #1e1e1e;
+  font-weight: normal;
+  font-size: .8rem;
+}
+.post-list a {
+  padding: 1rem 5%;
+  display: block;
+  text-decoration: none;
+}
+.post-list a:hover, .post-list a:focus {
+  background: #f0f0f0;
+}
+.post-list h2 {
+  font-family: "PT Serif", garamound, serif;
+  color: #1e1e1e;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-bottom: .2em;
+}
+.post-list .post-meta {
+  color: #9e9e9e;
+  font-size: .9rem;
+}
+
+.post {
+  font-family: "PT Serif", garamound, serif;
+  font-size: 18px;
+}
+
+.post-header {
+  font-family: "PT Sans Caption", "sans-serif";
+  color: #1e1e1e;
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+  padding-left: 5%;
+  line-height: 1.2;
+  position: relative;
+}
+
+.twitter-share-button {
+  position: absolute;
+  top: 1rem;
+  left: calc(5% + 1rem);
+  border-radius: 2px;
+}
+
+.post-banner {
+  width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.post-main {
+  line-height: 1.54;
+  padding: 0 5%;
+  max-width: 60rem;
+}
+.post-main p {
+  margin-bottom: 1rem;
+}
+.post-main figure {
+  border-radius: 4px;
+  border: 1px solid gainsboro;
+  margin-bottom: 1rem;
+  max-width: 20rem;
+}
+@media (min-width: 45rem) {
+  .post-main figure {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}
+.post-main figure:hover, .post-main figure:focus {
+  border: 1px solid #f0f0f0;
+}
+.post-main figure a {
+  display: block;
+  padding: 1rem;
+}
+.post-main figure a:hover, .post-main figure a:focus {
+  text-decoration: none;
+}
+.post-main figure a:after {
+  content: attr(href);
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  text-overflow: ellipsis;
+  color: #a3a3a3;
+  font-size: 14px;
+}
+.post-main figcaption {
+  color: #515151;
+  font-size: .8rem;
+}
+.post-main img {
+  width: 100%;
+  display: block;
+  margin-bottom: .5rem;
+}
+
+sup {
+  font-size: .8em;
+}
+
+.footnotes {
+  line-height: 1.54;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  color: gray;
+  font-size: .9rem;
+}
+.footnotes li {
+  list-style: inside decimal;
+  margin-bottom: 1em;
+}
+.footnotes li a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.post-intro {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 45rem) {
+  .post-intro {
+    font-size: 1.5rem;
+  }
+}
+
+.post-author {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+@media (min-width: 45rem) {
+  .post-author {
+    position: absolute;
+    right: 10%;
+    bottom: 1rem;
+    padding-top: 0;
+  }
+}
+
+.author-name {
+  font-weight: normal;
+  font-family: "PT Serif", garamound, serif;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -11,3 +11,4 @@ twitter_username: awesomephant
 # Build settings
 markdown: kramdown
 exclude: ["node_modules"]
+permalink: /:year/:title/

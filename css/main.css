@@ -19,16 +19,6 @@ body {
   font-family: "PT Sans Caption", "sans-serif";
 }
 
-.site-header {
-  border-top: 1px solid #1e1e1e;
-  padding: 2rem 5%;
-  margin-top: 3rem;
-}
-
-.header-social {
-  list-style: none;
-}
-
 .post-list {
   list-style: none;
 }
@@ -66,11 +56,11 @@ body {
 .post {
   font-family: "PT Serif", garamound, serif;
   font-size: 18px;
+  color: #1e1e1e;
 }
 
 .post-header {
   font-family: "PT Sans Caption", "sans-serif";
-  color: #1e1e1e;
   font-size: 1.8rem;
   padding-bottom: 1rem;
   padding-left: 5%;
@@ -135,11 +125,6 @@ body {
   color: #515151;
   font-size: .8rem;
 }
-.post-main img {
-  width: 100%;
-  display: block;
-  margin-bottom: .5rem;
-}
 
 sup {
   font-size: .8em;
@@ -187,7 +172,6 @@ sup {
 .author-name {
   font-weight: normal;
   font-family: "PT Serif", garamound, serif;
-  font-style: italic;
 }
 
 /*# sourceMappingURL=main.css.map */

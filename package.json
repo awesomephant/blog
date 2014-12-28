@@ -5,7 +5,7 @@
 		"grunt-shell": "*",
 		"grunt-contrib-watch": "*",
 		"grunt-contrib-sass": "*",
-		"grunt-contrib-uglify": "*",
+		"grunt-contrib-imagemin": "*",
 		"grunt-contrib-cssmin": "*",
 		"grunt-autoprefixer": "*",
 		"grunt-browser-sync": "*"

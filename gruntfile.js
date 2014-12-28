@@ -41,6 +41,17 @@ module.exports = function(grunt) {
 			dest: 'css'
 		},
 	},
+		
+	imagemin: {                          // Task
+		dynamic: {                         // Another target
+			files: [{
+				expand: true,                  // Enable dynamic expansion
+				cwd: 'assets/',                   // Src matches are relative to this path
+				src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+				dest: 'assets/'                  // Destination path prefix
+			}]
+		}
+	},
 
 	browserSync: {
     	dev: {
@@ -65,9 +76,9 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-autoprefixer');
 
-	grunt.loadNpmTasks('grunt-contrib-uglify');
-
-	grunt.registerTask('default', ['sass', 'autoprefixer', 'shell:jekyllBuild']);
+	grunt.loadNpmTasks('grunt-contrib-imagemin');
+	
+	grunt.registerTask('default', ['imagemin', 'sass', 'autoprefixer', 'shell:jekyllBuild']);
 	grunt.registerTask('up', ['browserSync', 'watch']);
 
 };

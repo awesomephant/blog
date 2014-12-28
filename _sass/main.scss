@@ -170,15 +170,27 @@ sup {
 
 .post-author {
 	font-size: 1rem;
-	padding-top: 1rem;
-	@include bp(m){
-		position: absolute;
-		right: 10%;
-		bottom: 1rem;
-		padding-top: 0;
-	}
 }
 .author-name {
 	font-weight: normal;
 	font-family: $serif;
+	margin-bottom: 1rem;
+}
+
+.post-content {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	@include bp(m){
+		flex-direction: row;
+	}
+}
+
+.post-aside {
+	padding: 1rem 5%;
+	flex-basis: 20%;
+	
+	@include bp(m){
+		padding: 0;
+	}
 }

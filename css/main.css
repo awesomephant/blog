@@ -158,20 +158,33 @@ sup {
 
 .post-author {
   font-size: 1rem;
-  padding-top: 1rem;
-}
-@media (min-width: 45rem) {
-  .post-author {
-    position: absolute;
-    right: 10%;
-    bottom: 1rem;
-    padding-top: 0;
-  }
 }
 
 .author-name {
   font-weight: normal;
   font-family: "PT Serif", garamound, serif;
+  margin-bottom: 1rem;
+}
+
+.post-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+@media (min-width: 45rem) {
+  .post-content {
+    flex-direction: row;
+  }
+}
+
+.post-aside {
+  padding: 1rem 5%;
+  flex-basis: 20%;
+}
+@media (min-width: 45rem) {
+  .post-aside {
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

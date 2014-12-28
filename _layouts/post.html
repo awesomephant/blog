@@ -8,15 +8,31 @@ layout: default
 		
 		<img class='post-banner' src="{{site.url}}/assets/{{page.banner}}" alt="">
 		<h1 class="post-title">{{ page.title }}</h1>
-		
-		<aside class='post-author'>
-			<h2 class='author-name'>Max Koehler - {{ page.date | date: "%b %-d, %Y" }}</h2>		</aside>
-
   	</header>
+   	<div class='post-content'>
    	<main class='post-main'>
     	<p class="post-intro">
 			{{page.intro}}
     	</p>
 	    {{ content }} 
 	</main>
+	<aside class='post-aside'>
+		<section class='post-author'>
+			<h2 class='author-name'>Max Koehler - {{ page.date | date: "%b %-d, %Y" }}</h2>
+			<a href="https://twitter.com/awesomephant" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @awesomephant</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</section>
+	<section class='ad'>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- post sidebar -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-9106872314967448"
+     data-ad-slot="7782235613"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</section>
+	</aside>
+	</div>
 </article>

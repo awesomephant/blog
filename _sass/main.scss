@@ -21,20 +21,6 @@ body {
 	font-family: $sans;
 }
 
-.home {
-}
-
-.site-header {
-	border-top: 1px solid $black;
-	padding: 2rem 5%;
-	margin-top: 3rem;
-}
-
-.header-social {
-	list-style: none;
-}
-
-
 .post-list {
 	list-style: none;
 
@@ -79,11 +65,11 @@ body {
 .post {
 	font-family: $serif;
 	font-size: 18px;
-	}
+	color: $black;
+}
 
 .post-header {
 	font-family: $sans;
-	color: $black;
 	font-size: 1.8rem;
 	padding-bottom: 1rem;
 	padding-left: 5%;
@@ -147,15 +133,8 @@ body {
 	}
 
 	figcaption {
-		//font-family: $sans;
 		color: lighten($black, 20);
 		font-size: .8rem;
-	}
-
-	img {
-		width: 100%;
-		display: block;
-		margin-bottom: .5rem;
 	}
 }
 
@@ -199,9 +178,7 @@ sup {
 		padding-top: 0;
 	}
 }
-
 .author-name {
 	font-weight: normal;
 	font-family: $serif;
-	font-style: italic;
 }

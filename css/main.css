@@ -191,4 +191,9 @@ sup {
   overflow-x: hidden;
 }
 
+.site-footer {
+  padding: 0 5%;
+  padding-bottom: 2rem;
+}
+
 /*# sourceMappingURL=main.css.map */

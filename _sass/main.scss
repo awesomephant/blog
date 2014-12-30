@@ -181,7 +181,7 @@ sup {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-	@include bp(m){
+	@include bp(l){
 		flex-direction: row;
 	}
 }
@@ -189,13 +189,17 @@ sup {
 .post-aside {
 	padding: 1rem 5%;
 	flex-basis: 20%;
-	@include bp(m){
+	@include bp(l){
 		padding: 0;
+		padding-right: 5%;
 	}
 }
 
 .ad {
 	overflow-x: hidden;
+	background: pink;
+	width:336px;
+	height:280px;
 }
 
 .site-footer {

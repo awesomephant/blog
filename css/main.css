@@ -171,7 +171,7 @@ sup {
   width: 100%;
   flex-direction: column;
 }
-@media (min-width: 45rem) {
+@media (min-width: 65rem) {
   .post-content {
     flex-direction: row;
   }
@@ -181,14 +181,18 @@ sup {
   padding: 1rem 5%;
   flex-basis: 20%;
 }
-@media (min-width: 45rem) {
+@media (min-width: 65rem) {
   .post-aside {
     padding: 0;
+    padding-right: 5%;
   }
 }
 
 .ad {
   overflow-x: hidden;
+  background: pink;
+  width: 336px;
+  height: 280px;
 }
 
 .site-footer {

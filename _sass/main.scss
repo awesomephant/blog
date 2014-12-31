@@ -32,10 +32,15 @@ body {
 		width: 250px;
 		display: block;
 		position: absolute;
-		top: -30%;
-		left: -20%;
+		top: -30px;
+		left: -100px;
 		z-index: -10;
 		border-radius: 100%;
+		@include bp(m){
+			height: 400px;
+			width: 400px;
+			top: -100px;
+		}
 	}
 }
 
@@ -65,7 +70,7 @@ body {
     }
     
 	a {
-		padding: 1rem 5%;
+		padding: 1rem;
 		display: block;
 		border-radius: 5px;
 		border: 1px solid $black;

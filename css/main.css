@@ -71,6 +71,10 @@ body {
 .post-list a:hover, .post-list a:focus {
   background: #f0f0f0;
 }
+.post-list .post-title {
+  font-family: "PT Serif", garamound, serif;
+  font-weight: bold;
+}
 
 .post-excerpt {
   color: #1e1e1e;

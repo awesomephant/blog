@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:700|PT+Serif:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,11 +20,37 @@ body {
   font-family: "PT Sans Caption", "sans-serif";
 }
 
+.site-header {
+  padding: 0 5%;
+  padding-top: 3rem;
+  position: relative;
+}
+.site-header:before {
+  content: '';
+  background: rgba(255, 94, 48, 0.9);
+  height: 250px;
+  width: 250px;
+  display: block;
+  position: absolute;
+  top: -30%;
+  left: -20%;
+  z-index: -10;
+  border-radius: 100%;
+}
+
+.site-story {
+  font-family: "PT Sans Caption", "sans-serif";
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #1e1e1e;
+}
+
 .post-list {
   list-style: none;
 }
 .post-list li {
-  border-bottom: 1px solid #dddddd;
+  padding: 5%;
 }
 .post-list span {
   display: block;
@@ -36,21 +63,19 @@ body {
 .post-list a {
   padding: 1rem 5%;
   display: block;
+  border-radius: 5px;
+  border: 1px solid #1e1e1e;
   text-decoration: none;
+  color: inherit;
 }
 .post-list a:hover, .post-list a:focus {
   background: #f0f0f0;
 }
-.post-list h2 {
-  font-family: "PT Serif", garamound, serif;
+
+.post-excerpt {
   color: #1e1e1e;
+  font-family: "PT Serif", garamound, serif;
   font-weight: normal;
-  font-size: 1.2rem;
-  margin-bottom: .2em;
-}
-.post-list .post-meta {
-  color: #9e9e9e;
-  font-size: .9rem;
 }
 
 .post {

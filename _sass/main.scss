@@ -21,11 +21,37 @@ body {
 	font-family: $sans;
 }
 
+.site-header {
+	padding: 0 5%;
+	padding-top: 3rem;
+	position: relative;
+	&:before {
+		content: '';
+		background: rgba($red, .9);
+		height: 250px;
+		width: 250px;
+		display: block;
+		position: absolute;
+		top: -30%;
+		left: -20%;
+		z-index: -10;
+		border-radius: 100%;
+	}
+}
+
+.site-story {
+	font-family: $sans;
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 1.4;
+	color: $black;
+}
+
 .post-list {
 	list-style: none;
 
 	li {
-		border-bottom: 1px solid lighten($black, 75);
+		padding: 5%;
 	}
 
     span {
@@ -41,25 +67,24 @@ body {
 	a {
 		padding: 1rem 5%;
 		display: block;
+		border-radius: 5px;
+		border: 1px solid $black;
 		text-decoration: none;
+		color: inherit;
 
 		&:hover, &:focus {
 			background: $lightgray;
 		}
 	}
+	
+	.post-title {
+	}	
+}
 
-	h2 {
-		font-family: $serif;
-		color: $black;
-		font-weight: normal;
-		font-size: 1.2rem;
-		margin-bottom: .2em;
-	}
-
-	.post-meta {
-			color: lighten($black, 50);
-			font-size: .9rem;
-	}
+.post-excerpt {
+	color: $black;
+	font-family: $serif;
+	font-weight: normal;
 }
 
 .post {

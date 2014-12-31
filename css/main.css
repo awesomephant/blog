@@ -24,6 +24,7 @@ body {
   padding: 0 5%;
   padding-top: 3rem;
   position: relative;
+  margin-bottom: 5vh;
 }
 .site-header:before {
   content: '';
@@ -55,28 +56,28 @@ body {
 
 .post-list {
   list-style: none;
+  padding: 0 5%;
 }
 .post-list li {
-  padding: 5%;
+  list-style: none;
 }
 .post-list span {
   display: block;
 }
 .post-list .post-date {
-  color: #1e1e1e;
   font-weight: normal;
   font-size: .8rem;
 }
 .post-list a {
-  padding: 1rem;
+  color: #1e1e1e;
+  padding: 1rem 0;
   display: block;
-  border-radius: 5px;
-  border: 1px solid #1e1e1e;
+  border-bottom: 1px solid #1e1e1e;
   text-decoration: none;
   color: inherit;
 }
 .post-list a:hover, .post-list a:focus {
-  background: #f0f0f0;
+  color: #323232;
 }
 .post-list .post-title {
   font-family: "PT Serif", garamound, serif;
@@ -84,7 +85,6 @@ body {
 }
 
 .post-excerpt {
-  color: #1e1e1e;
   font-family: "PT Serif", garamound, serif;
   font-weight: normal;
 }

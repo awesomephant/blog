@@ -25,6 +25,7 @@ body {
 	padding: 0 5%;
 	padding-top: 3rem;
 	position: relative;
+	margin-bottom: 5vh;
 	&:before {
 		content: '';
 		background: rgba($red, .9);
@@ -54,9 +55,10 @@ body {
 
 .post-list {
 	list-style: none;
+	padding: 0 5%;
 
 	li {
-		padding: 5%;
+		list-style: none;
 	}
 
     span {
@@ -64,21 +66,20 @@ body {
     }
     
     .post-date {
-        color: $black;
         font-weight: normal;
         font-size: .8rem;
     }
     
 	a {
-		padding: 1rem;
+        color: $black;
+		padding: 1rem 0;
 		display: block;
-		border-radius: 5px;
-		border: 1px solid $black;
+		border-bottom: 1px solid $black;
 		text-decoration: none;
 		color: inherit;
 
 		&:hover, &:focus {
-			background: $lightgray;
+			color: lighten($black, 8);
 		}
 	}
 	
@@ -89,7 +90,6 @@ body {
 }
 
 .post-excerpt {
-	color: $black;
 	font-family: $serif;
 	font-weight: normal;
 }

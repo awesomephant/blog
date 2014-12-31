@@ -91,8 +91,16 @@ body {
 
 .post {
   font-family: "PT Serif", garamound, serif;
-  font-size: 18px;
+  font-size: 1.1rem;
+  line-height: 1.54;
+  hyphens: auto;
   color: #1e1e1e;
+}
+@media (min-width: 65rem) {
+  .post {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
 }
 
 .post-header {
@@ -118,9 +126,8 @@ body {
 }
 
 .post-main {
-  line-height: 1.54;
   padding: 0 5%;
-  max-width: 60rem;
+  max-width: 55rem;
 }
 .post-main p {
   margin-bottom: 1rem;

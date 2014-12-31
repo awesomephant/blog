@@ -96,7 +96,13 @@ body {
 
 .post {
 	font-family: $serif;
-	font-size: 18px;
+	font-size: 1.1rem;
+	line-height: 1.54;
+	hyphens: auto;
+	@include bp(l){
+		font-size: 1.2rem;
+		line-height: 1.6;
+	}
 	color: $black;
 }
 
@@ -123,9 +129,8 @@ body {
 }
 
 .post-main {
-	line-height: 1.54;
 	padding: 0 5%;
-	max-width: 60rem;
+	max-width: 55rem;
 
 	p {
 		margin-bottom: 1rem;

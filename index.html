@@ -11,7 +11,7 @@ layout: default
 	      <li>
 	          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                      <span class='post-title'>{{ post.title }}</span>
-                     <div class="post-excerpt">{{ post.excerpt | truncatewords: 30}}</div> 
+                     <span class="post-date">{{ post.date |  date_to_string}}</div> 
               </a>
 	      </li>
 	    {% endfor %}

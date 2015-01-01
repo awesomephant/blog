@@ -18,47 +18,72 @@ a {
 }
 
 body {
-	font-family: $sans;
+	font-family: $body;
 }
 
 .site-header {
-	padding: 0 5%;
-	padding-top: 3rem;
-	position: relative;
-	margin-bottom: 5vh;
-	&:before {
-		content: '';
-		background: rgba($red, .9);
-		height: 250px;
-		width: 250px;
-		display: block;
-		position: absolute;
-		top: -30px;
-		left: -100px;
-		z-index: -10;
-		border-radius: 100%;
-		@include bp(m){
-			height: 400px;
-			width: 400px;
-			top: -100px;
+	padding: 2rem 5%;
+	padding-top: 15vh;
+	background-image: url(../assets/banner.svg);
+	background-size: cover;
+	@include bp(l){
+		padding-top: 5rem;
+	}
+	color: #fff;
+	font-family: $display;
+}
+
+.site-title {
+	margin-bottom: 1em;
+}
+
+.site-story {
+	font-weight: bold;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	font-size: 1.5rem;
+	@include bp(m){
+		max-width: 80%;
+		font-size: 2rem;
+	}
+	@include bp(l){
+		max-width: 70%;
+		font-size: 2.5rem;
+	}
+}
+
+.site-nav {
+	display: flex;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	max-width: 20rem;
+	a {
+		flex-grow: 1;
+		padding: 1rem;
+		color: white;
+		text-align: center;
+		flex-basis: 50%;
+		border-right: 1px solid $lightgray;
+		
+		&:last-of-type {
+			border-right: none;
 		}
 	}
 }
 
-.site-story {
-	font-family: $sans;
-	font-size: 1.4rem;
-	font-weight: bold;
-	line-height: 1.4;
-	color: $black;
-}
-
 .post-list {
 	list-style: none;
-	padding: 0 5%;
+	font-family: $display;
+	@include bp(m){
+		font-size: 1.2rem;
+		padding: 0 5%;
+		width: 70%;
+	}
 
 	li {
 		list-style: none;
+		background: #fff;
+		border-bottom: 1px solid gray;
 	}
 
     span {
@@ -66,53 +91,54 @@ body {
     }
     
     .post-date {
-        font-weight: normal;
-        font-size: .8rem;
+        font-weight: bold;
+        font-size: 1rem;
+		color: $black;
     }
     
 	a {
         color: $black;
-		padding: 1rem 0;
+		padding: 1rem;
 		display: block;
-		border-bottom: 1px solid $black;
 		text-decoration: none;
 		color: inherit;
-
-		&:hover, &:focus {
-			color: lighten($black, 8);
-		}
 	}
 	
 	.post-title {
-		font-family: $serif;
-		font-weight: bold;
+		margin-top: 1em;
+		margin-bottom: .5em;
+		font-size: 1.1rem;
+		line-height: 1.5;
+		color: $black;
 	}	
 }
 
 .post-excerpt {
-	font-family: $serif;
 	font-weight: normal;
 }
 
 .post {
-	font-family: $serif;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	line-height: 1.54;
 	hyphens: auto;
 	@include bp(l){
-		font-size: 1.2rem;
 		line-height: 1.6;
 	}
 	color: $black;
 }
 
 .post-header {
-	font-family: $sans;
-	font-size: 1.8rem;
+	font-family: $display;
+	font-size: 1.4rem;
 	padding-bottom: 1rem;
 	padding-left: 5%;
 	line-height: 1.2;
 	position: relative;
+	
+	h1 {
+		padding-right: 1rem;
+		line-height: 1.55;
+	}
 }
 
 .twitter-share-button {
@@ -185,6 +211,8 @@ sup {
 	padding-bottom: 2rem;
 	color: gray;
 	font-size: .9rem;
+	font-family: $display;
+	max-width: 30em;
 	
 	li {
 		list-style: inside decimal;
@@ -198,19 +226,10 @@ sup {
 
 .post-intro {
 	font-size: 1.2rem;
+	line-height: 1.7;
 	@include bp(m){
 		font-size: 1.5rem;
 	}
-	//font-style: italic;
-	margin-bottom: 1rem;
-}
-
-.post-author {
-	font-size: 1rem;
-}
-.author-name {
-	font-weight: normal;
-	font-family: $serif;
 	margin-bottom: 1rem;
 }
 

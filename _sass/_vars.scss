@@ -1,15 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:700|PT+Serif:400,400italic);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic|Merriweather+Sans:700,400);
 
-$black: rgb(30,30,30);
+$black: #131c25;
 $white: #fff;
 
-$red: #ff5e30;
+$red: #ff6c3b;
 $blue: #006DFF;
+$yellow: #fff251;
 $lightgray: rgb(240,240,240);
 
-$serif: 'PT Serif', garamound, serif;
-$sans: 'PT Sans Caption', 'sans-serif';
+$body: 'Merriweather', 'serif';
+$display: 'Merriweather Sans', 'sans-serif';
 
 @mixin bp($point) {
 	@if $point == l {

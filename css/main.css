@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:700|PT+Serif:400,400italic);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic|Merriweather+Sans:700,400);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,99 +16,130 @@ a:hover, a:focus {
 }
 
 body {
-  font-family: "PT Sans Caption", "sans-serif";
+  font-family: "Merriweather", "serif";
 }
 
 .site-header {
-  padding: 0 5%;
-  padding-top: 3rem;
-  position: relative;
-  margin-bottom: 5vh;
+  padding: 2rem 5%;
+  padding-top: 15vh;
+  background-image: url(../assets/banner.svg);
+  background-size: cover;
+  color: #fff;
+  font-family: "Merriweather Sans", "sans-serif";
 }
-.site-header:before {
-  content: '';
-  background: rgba(255, 94, 48, 0.9);
-  height: 250px;
-  width: 250px;
-  display: block;
-  position: absolute;
-  top: -30px;
-  left: -100px;
-  z-index: -10;
-  border-radius: 100%;
-}
-@media (min-width: 45rem) {
-  .site-header:before {
-    height: 400px;
-    width: 400px;
-    top: -100px;
+@media (min-width: 65rem) {
+  .site-header {
+    padding-top: 5rem;
   }
 }
 
+.site-title {
+  margin-bottom: 1em;
+}
+
 .site-story {
-  font-family: "PT Sans Caption", "sans-serif";
-  font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.4;
-  color: #1e1e1e;
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+@media (min-width: 45rem) {
+  .site-story {
+    max-width: 80%;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 65rem) {
+  .site-story {
+    max-width: 70%;
+    font-size: 2.5rem;
+  }
+}
+
+.site-nav {
+  display: flex;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  max-width: 20rem;
+}
+.site-nav a {
+  flex-grow: 1;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  flex-basis: 50%;
+  border-right: 1px solid #f0f0f0;
+}
+.site-nav a:last-of-type {
+  border-right: none;
 }
 
 .post-list {
   list-style: none;
-  padding: 0 5%;
+  font-family: "Merriweather Sans", "sans-serif";
+}
+@media (min-width: 45rem) {
+  .post-list {
+    font-size: 1.2rem;
+    padding: 0 5%;
+    width: 70%;
+  }
 }
 .post-list li {
   list-style: none;
+  background: #fff;
+  border-bottom: 1px solid gray;
 }
 .post-list span {
   display: block;
 }
 .post-list .post-date {
-  font-weight: normal;
-  font-size: .8rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #131c25;
 }
 .post-list a {
-  color: #1e1e1e;
-  padding: 1rem 0;
+  color: #131c25;
+  padding: 1rem;
   display: block;
-  border-bottom: 1px solid #1e1e1e;
   text-decoration: none;
   color: inherit;
 }
-.post-list a:hover, .post-list a:focus {
-  color: #323232;
-}
 .post-list .post-title {
-  font-family: "PT Serif", garamound, serif;
-  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #131c25;
 }
 
 .post-excerpt {
-  font-family: "PT Serif", garamound, serif;
   font-weight: normal;
 }
 
 .post {
-  font-family: "PT Serif", garamound, serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.54;
   hyphens: auto;
-  color: #1e1e1e;
+  color: #131c25;
 }
 @media (min-width: 65rem) {
   .post {
-    font-size: 1.2rem;
     line-height: 1.6;
   }
 }
 
 .post-header {
-  font-family: "PT Sans Caption", "sans-serif";
-  font-size: 1.8rem;
+  font-family: "Merriweather Sans", "sans-serif";
+  font-size: 1.4rem;
   padding-bottom: 1rem;
   padding-left: 5%;
   line-height: 1.2;
   position: relative;
+}
+.post-header h1 {
+  padding-right: 1rem;
+  line-height: 1.55;
 }
 
 .twitter-share-button {
@@ -165,7 +195,7 @@ body {
   font-size: 14px;
 }
 .post-main figcaption {
-  color: #515151;
+  color: #364f68;
   font-size: .8rem;
 }
 
@@ -179,6 +209,8 @@ sup {
   padding-bottom: 2rem;
   color: gray;
   font-size: .9rem;
+  font-family: "Merriweather Sans", "sans-serif";
+  max-width: 30em;
 }
 .footnotes li {
   list-style: inside decimal;
@@ -191,22 +223,13 @@ sup {
 
 .post-intro {
   font-size: 1.2rem;
+  line-height: 1.7;
   margin-bottom: 1rem;
 }
 @media (min-width: 45rem) {
   .post-intro {
     font-size: 1.5rem;
   }
-}
-
-.post-author {
-  font-size: 1rem;
-}
-
-.author-name {
-  font-weight: normal;
-  font-family: "PT Serif", garamound, serif;
-  margin-bottom: 1rem;
 }
 
 .post-content {

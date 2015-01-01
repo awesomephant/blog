@@ -66,8 +66,9 @@ body {
   flex-grow: 1;
   padding: 1rem;
   color: white;
+  display: inline-block;
   text-align: center;
-  flex-basis: 50%;
+  flex-basis: 33%;
   border-right: 1px solid #f0f0f0;
 }
 .site-nav a:last-of-type {

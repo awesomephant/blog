@@ -61,8 +61,9 @@ body {
 		flex-grow: 1;
 		padding: 1rem;
 		color: white;
+		display: inline-block;
 		text-align: center;
-		flex-basis: 50%;
+		flex-basis: 33%;
 		border-right: 1px solid $lightgray;
 		
 		&:last-of-type {

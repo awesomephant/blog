@@ -19,18 +19,15 @@ a {
 
 body {
 	font-family: $body;
+	color: $black;
 }
 
 .site-header {
 	padding: 2rem 5%;
-	padding-top: 15vh;
-	background-image: url(../assets/banner.svg);
 	background-size: cover;
 	@include bp(l){
 		padding-top: 5rem;
 	}
-	color: #fff;
-	font-family: $display;
 }
 
 .site-title {
@@ -38,7 +35,9 @@ body {
 }
 
 .site-story {
+	font-family: $body;
 	font-weight: bold;
+	font-style: italic;
 	line-height: 1.4;
 	margin-bottom: 1em;
 	font-size: 1.5rem;
@@ -54,17 +53,19 @@ body {
 
 .site-nav {
 	display: flex;
-	border: 1px solid #fff;
-	border-radius: 5px;
+	border: 1px solid $black;
+	width: 100%;
 	max-width: 20rem;
+	font-family: $display;
 	a {
 		flex-grow: 1;
-		padding: 1rem;
-		color: white;
+		padding: 1em;
+		font-size: .9rem;
 		display: inline-block;
 		text-align: center;
 		flex-basis: 33%;
-		border-right: 1px solid $lightgray;
+		color: $black;
+		border-right: 1px solid $black;
 		
 		&:last-of-type {
 			border-right: none;
@@ -74,17 +75,18 @@ body {
 
 .post-list {
 	list-style: none;
-	font-family: $display;
+	font-family: $body;
+	padding: 0 5%;
+	padding-top: 10%;
+	
 	@include bp(m){
 		font-size: 1.2rem;
-		padding: 0 5%;
 		width: 70%;
 	}
 
 	li {
 		list-style: none;
-		background: #fff;
-		border-bottom: 1px solid gray;
+		margin-bottom: 2rem;
 	}
 
     span {
@@ -92,30 +94,33 @@ body {
     }
     
     .post-date {
-        font-weight: bold;
         font-size: 1rem;
-		color: $black;
+		color: gray;
+		font-family: $display;
+
     }
     
 	a {
         color: $black;
-		padding: 1rem;
 		display: block;
 		text-decoration: none;
 		color: inherit;
 	}
 	
 	.post-title {
-		margin-top: 1em;
+		margin-top: .5em;
 		margin-bottom: .5em;
 		font-size: 1.1rem;
 		line-height: 1.5;
-		color: $black;
-	}	
+		color: $blue;
+		font-weight: bold;
+		width: 70%
+	}
 }
 
 .post-excerpt {
 	font-weight: normal;
+	line-height: 1.5;
 }
 
 .post {

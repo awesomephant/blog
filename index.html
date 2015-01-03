@@ -6,13 +6,23 @@ layout: default
 <section class="post-list">
 	
 	  <ul>
-	    {% for post in site.posts %}
-	      <li>
-	          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-			<span class="post-date">{{ post.date |  date_to_string}}</span>
-              <h2 class='post-title'>{{ post.title }}</h2>
-              <div class="post-excerpt">{{ post.excerpt | truncatewords: 40 }}</div> 
-              </a>
+	  <li class='latest-post'>
+			<a href="{{ site.posts.first.url | prepend: site.baseurl }}"><h3 class="post-quote">{{ site.posts.first.quote | markdownify}}</h3></a>
+	  		<div class="post-info">
+	  		<h2 class="post-title">{{site.posts.first.title}}</h2>
+	  		<date class="post-date">{{ site.posts.first.date | date: "%B %-d, %Y"}}</date>
+	  		</div>
+		  	</li>  
+      
+      {% for post in site.posts %}
+    		<li>
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+					<date class="post-date">{{ post.date | date: "%B %-d, %Y"}}</date>
+	     	    	<h2 class='post-title'>{{ post.title }}</h2>
+     				<div class="post-teaser">
+						{{ post.intro }}
+     				</div>
+      			</a>
 	      </li>
 	    {% endfor %}
 	  </ul>

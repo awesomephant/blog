@@ -1,15 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic|Merriweather+Sans:700,400);
-
 $black: #131c25;
 $white: #fff;
 
-$red: #ff6c1e;
-$blue: #2c44ff;
-$yellow: #fff251;
+$red: #ff6952;
+$blue: #5b4dff;
+$yellow: #ffdd4a;
 $lightgray: rgb(230,230,230);
 
 $body: 'Merriweather', 'serif';
-$display: 'Merriweather Sans', 'sans-serif';
+$display: 'museo-sans', 'sans-serif';
+
+$sans: "Helvetica", sans-serif;
 
 @mixin bp($point) {
 	@if $point == l {

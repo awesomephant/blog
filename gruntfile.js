@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 
 	autoprefixer: {
    		options: {
-			 browsers: ['last 2 versions', 'ios 7']
+			 browsers: ['last 2 versions']
 		},
 	    multiple_files: {
 			expand: true,
@@ -78,7 +78,7 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	
-	grunt.registerTask('default', ['imagemin', 'sass', 'autoprefixer', 'shell:jekyllBuild']);
+	grunt.registerTask('default', ['sass', 'autoprefixer', 'shell:jekyllBuild']);
 	grunt.registerTask('up', ['browserSync', 'watch']);
 
 };

@@ -339,9 +339,13 @@ sup {
     padding-top: 1rem;
   }
 }
+.post-aside section {
+  margin-bottom: 1rem;
+}
 
 .ad {
   overflow-x: hidden;
+  border-radius: 4px;
   border: 1px solid lightgray;
 }
 

@@ -327,10 +327,15 @@ sup {
 		padding-left: 5%;
 		padding-top: 1rem;
 	}
+	
+	section {
+		margin-bottom: 1rem;
+	}
 }
 
 .ad {
 	overflow-x: hidden;
+	border-radius: 4px;
 	border: 1px solid lightgray;
 }
 

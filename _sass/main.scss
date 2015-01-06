@@ -172,6 +172,8 @@ body {
 .post {
 	font-size: 1rem;
 	line-height: 1.54;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "liga" 1;
 	hyphens: auto;
 	@include bp(l){
 		line-height: 1.6;
@@ -193,6 +195,12 @@ body {
 	padding: 0 5%;
 	padding-top: 1em;
 	margin-bottom: 1rem;
+	@include bp(m){
+		margin-bottom: 2rem;
+	}
+	@include bp(l){
+		margin-bottom: 3rem;
+	}
 	.post-title {
 		font-weight: 900;	
 		line-height: 1.4;
@@ -209,7 +217,8 @@ body {
 .post-main {
 	padding: 0 5%;
 	max-width: 55rem;
-	line-height: 1.6;
+	line-height: 1.5;
+	font-size: 1.3rem;
 
 	p {
 		margin-bottom: 1rem;
@@ -271,12 +280,16 @@ sup {
 	margin-top: 2rem;
 	padding-bottom: 2rem;
 	color: gray;
+	font-family: $sans;
 	font-size: .9rem;
-	font-style: italic;
 	max-width: 30em;
 	
+	ol {
+		margin-left: 1rem;
+	}
+	
 	li {
-		list-style: inside decimal;
+		list-style: outside decimal;
 		margin-bottom: 1em;
 		a {
 			color: inherit;
@@ -286,10 +299,10 @@ sup {
 }
 
 .post-intro {
-	font-size: 1.2rem;
-	line-height: 1.7;
+	font-size: 1.7rem;
+	line-height: 1.5;
 	@include bp(m){
-		font-size: 1.5rem;
+		font-size: 2.2rem;
 	}
 	margin-bottom: 1rem;
 }
@@ -305,15 +318,20 @@ sup {
 
 .post-aside {
 	padding: 1rem 5%;
-	flex-basis: 20%;
+	flex-basis: 300px;
+	font-family: $display;
+	font-weight: 300;
+	color: gray;
 	@include bp(l){
 		padding: 0;
-		padding-right: 5%;
+		padding-left: 5%;
+		padding-top: 1rem;
 	}
 }
 
 .ad {
 	overflow-x: hidden;
+	border: 1px solid lightgray;
 }
 
 .site-footer {

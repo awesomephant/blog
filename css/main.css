@@ -16,7 +16,7 @@ a:hover, a:focus {
 }
 
 body {
-  font-family: "Merriweather", "serif";
+  font-family: "adobe-garamond-pro", "serif";
   color: #131c25;
 }
 
@@ -164,7 +164,7 @@ body {
   color: #fff;
 }
 .latest-post .post-intro {
-  font-family: "Merriweather", "serif";
+  font-family: "adobe-garamond-pro", "serif";
   max-width: 35rem;
 }
 
@@ -176,6 +176,8 @@ body {
 .post {
   font-size: 1rem;
   line-height: 1.54;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1;
   hyphens: auto;
   color: #131c25;
 }
@@ -199,6 +201,16 @@ body {
   padding-top: 1em;
   margin-bottom: 1rem;
 }
+@media (min-width: 45rem) {
+  .post-header {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 65rem) {
+  .post-header {
+    margin-bottom: 3rem;
+  }
+}
 .post-header .post-title {
   font-weight: 900;
   line-height: 1.4;
@@ -216,7 +228,8 @@ body {
 .post-main {
   padding: 0 5%;
   max-width: 55rem;
-  line-height: 1.6;
+  line-height: 1.5;
+  font-size: 1.3rem;
 }
 .post-main p {
   margin-bottom: 1rem;
@@ -274,12 +287,15 @@ sup {
   margin-top: 2rem;
   padding-bottom: 2rem;
   color: gray;
+  font-family: "Helvetica", sans-serif;
   font-size: .9rem;
-  font-style: italic;
   max-width: 30em;
 }
+.footnotes ol {
+  margin-left: 1rem;
+}
 .footnotes li {
-  list-style: inside decimal;
+  list-style: outside decimal;
   margin-bottom: 1em;
 }
 .footnotes li a {
@@ -288,13 +304,13 @@ sup {
 }
 
 .post-intro {
-  font-size: 1.2rem;
-  line-height: 1.7;
+  font-size: 1.7rem;
+  line-height: 1.5;
   margin-bottom: 1rem;
 }
 @media (min-width: 45rem) {
   .post-intro {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -311,17 +327,22 @@ sup {
 
 .post-aside {
   padding: 1rem 5%;
-  flex-basis: 20%;
+  flex-basis: 300px;
+  font-family: "museo-sans", "sans-serif";
+  font-weight: 300;
+  color: gray;
 }
 @media (min-width: 65rem) {
   .post-aside {
     padding: 0;
-    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1rem;
   }
 }
 
 .ad {
   overflow-x: hidden;
+  border: 1px solid lightgray;
 }
 
 .site-footer {

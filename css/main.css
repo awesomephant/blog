@@ -227,7 +227,7 @@ body {
 
 .post-main {
   padding: 0 5%;
-  max-width: 55rem;
+  max-width: 60rem;
   line-height: 1.5;
   font-size: 1.3rem;
 }
@@ -317,7 +317,7 @@ sup {
 .post-content {
   display: flex;
   width: 100%;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 @media (min-width: 65rem) {
   .post-content {
@@ -327,7 +327,6 @@ sup {
 
 .post-aside {
   padding: 1rem 5%;
-  flex-basis: 300px;
   font-family: "museo-sans", "sans-serif";
   font-weight: 300;
   color: gray;

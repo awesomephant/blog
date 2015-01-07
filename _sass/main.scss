@@ -216,7 +216,7 @@ body {
 
 .post-main {
 	padding: 0 5%;
-	max-width: 55rem;
+	max-width: 60rem;
 	line-height: 1.5;
 	font-size: 1.3rem;
 
@@ -310,7 +310,7 @@ sup {
 .post-content {
 	display: flex;
 	width: 100%;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	@include bp(l){
 		flex-direction: row;
 	}
@@ -318,7 +318,6 @@ sup {
 
 .post-aside {
 	padding: 1rem 5%;
-	flex-basis: 300px;
 	font-family: $display;
 	font-weight: 300;
 	color: gray;

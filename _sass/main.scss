@@ -247,9 +247,37 @@ body {
 		a {
 			display: block;
 			padding: 1rem;
+			position: relative;
 			
 			&:hover, &:focus {
 				text-decoration: none;
+			}
+			
+			&:before {
+				position: absolute;
+				bottom: calc(1rem + .2em);
+				right: 1rem;
+				color: $black;
+				font-family: $sans;
+				font-weight: bold;
+				padding: .4em .5em;
+				display: block;
+				vertical-align: center;
+				font-size: .5rem;
+				border-radius: 2px;
+				text-align: center;
+				text-transform: uppercase;
+				letter-spacing: .05em;
+
+			}
+			
+			&[href*=jpg]:before{
+				content: "Image";
+				background: $lightgray;
+			}
+			&[href*=pdf]:before{
+				content: "PDF";
+				background: $lightgray;
 			}
 			
 			&:after {
@@ -257,7 +285,7 @@ body {
 				display: block;
 				overflow: hidden;
 				white-space: nowrap;
-				width: 100%;
+				width: 85%;
 				text-overflow: ellipsis;
 				color: darken($lightgray, 30);
 				font-size: 14px;

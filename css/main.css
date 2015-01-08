@@ -259,16 +259,41 @@ body {
 .post-main figure a {
   display: block;
   padding: 1rem;
+  position: relative;
 }
 .post-main figure a:hover, .post-main figure a:focus {
   text-decoration: none;
+}
+.post-main figure a:before {
+  position: absolute;
+  bottom: calc(1rem + .2em);
+  right: 1rem;
+  color: #131c25;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  padding: .4em .5em;
+  display: block;
+  vertical-align: center;
+  font-size: .5rem;
+  border-radius: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.post-main figure a[href*=jpg]:before {
+  content: "Image";
+  background: #e6e6e6;
+}
+.post-main figure a[href*=pdf]:before {
+  content: "PDF";
+  background: #e6e6e6;
 }
 .post-main figure a:after {
   content: attr(href);
   display: block;
   overflow: hidden;
   white-space: nowrap;
-  width: 100%;
+  width: 85%;
   text-overflow: ellipsis;
   color: #9a9a9a;
   font-size: 14px;

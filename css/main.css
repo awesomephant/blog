@@ -16,7 +16,7 @@ a:hover, a:focus {
 }
 
 body {
-  font-family: "adobe-garamond-pro", "serif";
+  font-family: "calluna", "serif";
   color: #131c25;
 }
 
@@ -164,7 +164,7 @@ body {
   color: #fff;
 }
 .latest-post .post-intro {
-  font-family: "adobe-garamond-pro", "serif";
+  font-family: "calluna", "serif";
   max-width: 35rem;
 }
 

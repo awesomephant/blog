@@ -6,9 +6,16 @@ layout: default
 		<h1 class="post-title">{{ page.title }}</h1>
 	</header>
    	<div class='post-content'>   	
-    	<aside class='post-aside'>
+      	<main class='post-main'>
+       	<p class="post-intro">
+			{{page.intro}}
+		</p>
+  	
+       {{ content }} 
+	</main>
+		<aside class='post-aside'>
     	<section>
-    		<p>Published 	<date class="post-date">{{ page.date | date: "%B %-d, %Y"}}</date></p>
+    		<p>Published <date class="post-date">{{ page.date | date: "%B %-d, %Y"}}</date></p>
     	</section>
 	<section class='ad'>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -23,13 +30,6 @@ layout: default
 </section>
 	</aside>
 
-      	<main class='post-main'>
-       	<p class="post-intro">
-			{{page.intro}}
-		</p>
-  	
-       {{ content }} 
-	</main>
 	</div>
 </article>
 {% include header.html %}

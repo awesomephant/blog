@@ -344,7 +344,7 @@ sup {
 .post-content {
   display: flex;
   width: 100%;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 @media (min-width: 65rem) {
   .post-content {
@@ -361,7 +361,6 @@ sup {
 @media (min-width: 65rem) {
   .post-aside {
     padding: 0;
-    padding-left: 5%;
     padding-top: 1rem;
   }
 }

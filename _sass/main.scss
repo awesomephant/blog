@@ -340,7 +340,7 @@ sup {
 .post-content {
 	display: flex;
 	width: 100%;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	@include bp(l){
 		flex-direction: row;
 	}
@@ -353,7 +353,6 @@ sup {
 	color: gray;
 	@include bp(l){
 		padding: 0;
-		padding-left: 5%;
 		padding-top: 1rem;
 	}
 	

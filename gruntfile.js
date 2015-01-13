@@ -31,13 +31,10 @@ module.exports = function(grunt) {
 	},
 
 	autoprefixer: {
-   		options: {
-			 browsers: ['last 2 versions']
-		},
-	    multiple_files: {
+	    main: {
 			expand: true,
 			flatten: true,
-			src: 'build/css/main.css',
+			src: 'css/main.css',
 			dest: 'css'
 		},
 	},

@@ -2,18 +2,15 @@
 layout: default
 ---
 
-	
-<section class="post-list">
-	
-	  <ul>
-	  <li class='latest-post'>
-			<a href="{{ site.posts.first.url | prepend: site.baseurl }}"><h3 class="post-quote">{{ site.posts.first.quote | markdownify}}</h3></a>
+<section class='posts'>	
+		  <div class='latest-post'>
+			<a class="post-quote" href="{{ site.posts.first.url | prepend: site.baseurl }}"><h3>{{ site.posts.first.quote}}</h3></a>
 	  		<div class="post-info">
 	  		<h2 class="post-title">{{site.posts.first.title}}</h2>
 	  		<date class="post-date">{{ site.posts.first.date | date: "%B %-d, %Y"}}</date>
 	  		</div>
-		  	</li>  
-      
+		  	</div>
+	  <ul class="post-list">      
       {% for post in site.posts %}
     		<li>
 				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">

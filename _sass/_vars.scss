@@ -11,6 +11,8 @@ $display: 'museo-sans', 'sans-serif';
 
 $sans: "Helvetica", sans-serif;
 
+$fast: 290ms;
+
 @mixin bp($point) {
 	@if $point == l {
 		@media (min-width: 65rem) { @content; }

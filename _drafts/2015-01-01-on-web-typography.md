@@ -8,11 +8,15 @@ intro: I just finished Jason Santa Maria's latest book, “On Web Typography”.
 
 ---
 
-I read the book over the course of a couple of days. The first chapter, titled "How we Read" at home on my laptop. The next two or three at work on some crappy Android tablet I stole from a conference room. I finished it on a crowded bus on my phone. Spreading the reading experience out over different devices and contexts like that isn't uncommon today. In fact, that's the way most people read.
+Before I talk about what I thought of the book, it might be interesting to note how I read it. The first chapter at home on my laptop. The next two or three at work on some crappy Android tablet I stole from a conference room. I finished it on a crowded bus on my phone. That's how I read most books today. In fact, that's the way most people read not only books, but also news articles, blog posts and status updates. The modern reading experience is spread out over the dozens of devices and contexts we use and find ourselves in every day.
 
-Web typography has to account for all these different factors and create a reading experience that's pleasant and doesn't get in the way of what people are trying to do.
+Designing an experience works across all those different environments seems like an almost impossible task. Jason Santa Maria doesn't deny this, but makes an important point: *You don't have to start from zero.*
 
-*On Web Typography*
+There's been generations of typographers before ours, and lots of the guidelines they developed for print still apply on the web. Both mediums have 
+
+<figure>
+	<a href="http://en.wikipedia.org/wiki/File:BellCenInk.svg">Ink traps in Jim Hood's Bell Centennial</a>
+</figure>
 
 ##There's a reason for curly quotes
 Curly quotes or, as Santa Maria calls them, "smart quotes" always seemed to me like one of those things only designers would care about. Normal people won't even notice the difference between curly and straight quotes, right? Wrong. They make your shit easier to read for everyone. In fact, straight quotes were only invented when typewriters came up and manufacturers had to save space on the keyboard.
@@ -21,6 +25,3 @@ Typography has lots of little details like this, and each of them makes the read
 
 ##Good typography pays off
 There's this point in the very first chapter that I had never thought of: If your content is hard to read, people prpbably won't read it. If your typography fails, your design fails. As Santa Maria puts it "they're just one click away from cat GIFs".
-
-##I Should Probably Buy a Typeface
-Making good typefaces takes skill and time. That's why those typefaces cost money.

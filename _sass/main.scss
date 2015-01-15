@@ -279,7 +279,7 @@ body {
 
 			}
 			
-			&[href*=jpg]:before{
+			&[href*=jpg]:before, &[href*=svg]:before, &[href*=png]:before{
 				content: "Image";
 				background: $lightgray;
 			}

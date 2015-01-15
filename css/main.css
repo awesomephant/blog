@@ -300,7 +300,7 @@ body {
   text-transform: uppercase;
   letter-spacing: .05em;
 }
-.post-main figure a[href*=jpg]:before {
+.post-main figure a[href*=jpg]:before, .post-main figure a[href*=svg]:before, .post-main figure a[href*=png]:before {
   content: "Image";
   background: #e6e6e6;
 }

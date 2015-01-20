@@ -228,7 +228,9 @@ body {
 	line-height: 1.5;
 	font-size: 1.2rem;
 	color: rgb(60,60,60);
-
+	@include bp(l){
+		margin-left: 10%;
+	}
 	p {
 		margin-bottom: 1rem;
 	}
@@ -349,9 +351,6 @@ sup {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-	@include bp(l){
-		flex-direction: row;
-	}
 }
 
 .post-aside {
@@ -360,7 +359,7 @@ sup {
 	font-weight: 300;
 	color: gray;
 	@include bp(l){
-		padding: 0;
+		margin-left: 10%;
 		padding-top: 1rem;
 	}
 	
@@ -373,6 +372,7 @@ sup {
 	overflow-x: hidden;
 	border-radius: 4px;
 	border: 1px solid lightgray;
+	max-width: 336px;
 }
 
 .site-footer {

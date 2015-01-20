@@ -252,6 +252,11 @@ body {
   font-size: 1.2rem;
   color: #3c3c3c;
 }
+@media (min-width: 65rem) {
+  .post-main {
+    margin-left: 10%;
+  }
+}
 .post-main p {
   margin-bottom: 1rem;
 }
@@ -370,13 +375,6 @@ sup {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media (min-width: 65rem) {
-  .post-content {
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-}
 
 .post-aside {
   padding: 1rem 5%;
@@ -386,7 +384,7 @@ sup {
 }
 @media (min-width: 65rem) {
   .post-aside {
-    padding: 0;
+    margin-left: 10%;
     padding-top: 1rem;
   }
 }
@@ -398,6 +396,7 @@ sup {
   overflow-x: hidden;
   border-radius: 4px;
   border: 1px solid lightgray;
+  max-width: 336px;
 }
 
 .site-footer {

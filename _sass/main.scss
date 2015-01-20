@@ -78,14 +78,15 @@ body {
 
 .post-list {
 	padding-bottom: 2rem;
-	column-count: 2;
 	@include bp(m){
+		column-count: 2;
 		font-size: 1.2rem;
 	}
 
 	li {
 		list-style: none;
 		display: inline-block;
+		margin-bottom: 1.5rem;
 	}
     
     .post-date {
@@ -141,7 +142,7 @@ body {
 		}
 		
 		&:after {
-			margin-top: .25em;
+			margin-top: .75em;
 			width: 4em;
 			height: 1px;
 			display: block;

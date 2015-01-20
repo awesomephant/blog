@@ -87,18 +87,19 @@ body {
 
 .post-list {
   padding-bottom: 2rem;
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2;
 }
 @media (min-width: 45rem) {
   .post-list {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
     font-size: 1.2rem;
   }
 }
 .post-list li {
   list-style: none;
   display: inline-block;
+  margin-bottom: 1.5rem;
 }
 .post-list .post-date {
   font-size: 1rem;
@@ -156,7 +157,7 @@ body {
   text-decoration: none;
 }
 .latest-post .post-quote:after {
-  margin-top: .25em;
+  margin-top: .75em;
   width: 4em;
   height: 1px;
   display: block;

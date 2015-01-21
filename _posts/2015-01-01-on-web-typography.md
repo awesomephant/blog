@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thoughts on Jason Santa Maria's “On Web Typography”"
+title: "Thoughts on Jason Santa Maria’s “On Web Typography”"
 date: 2015-01-21 12:51:32
 categories: ""
 quote: "Normal people won't even notice the difference between curly and straight quotes, right?"

@@ -1,27 +1,35 @@
 ---
 layout: post
 title: "Thoughts on Jason Santa Maria's “On Web Typography”"
-date: 2015-01-01 12:51:32
+date: 2015-01-21 12:51:32
 categories: ""
 quote: "Normal people won't even notice the difference between curly and straight quotes, right?"
-intro: I just finished Jason Santa Maria's latest book, “On Web Typography”. Here's what I took away from it.
+intro: I just finished Jason Santa Maria's latest book, “On Web Typography”, here's what I took away from it.
 
 ---
 
-Before I talk about what I thought of the book, it might be interesting to note how I read it. The first chapter at home on my laptop. The next two or three at work on some crappy Android tablet I stole from a conference room. I finished it on a crowded bus on my phone. That's how I read most books today. In fact, that's the way most people read not only books, but also news articles, blog posts and status updates. The modern reading experience is spread out over the dozens of devices and contexts we use and find ourselves in every day.
+Before I talk about what I thought about the book[^1], it might be interesting to note the way I read it. The first chapter at home on my laptop. The next two or three at work on some crappy Android tablet I stole from a conference room. I finished it on a crowded bus on my phone. That's how I read most books today. In fact, that's the way most people consume not only books, but also news articles, blog posts and social media updates. The modern reading experience is spread out over the dozens of devices and contexts we use and find ourselves in every day.
 
-Designing an experience works across all those different environments seems like an almost impossible task. Jason Santa Maria doesn't deny this, but makes an important point: *You don't have to start from zero.*
+##You don't have to start from zero.
 
-There's been generations of typographers before ours, and lots of the guidelines they developed for print still apply on the web. Both mediums have 
+Designing an experience that works across all those different environments seems like an almost impossible task. Jason Santa Maria doesn't deny this, but makes an important point: *You don't have to start from zero.*
+
+There's been generations of typographers before ours, and they were all trying to achieve the same thing we do today: Making things easy to read. Of course, some of their (brilliant) ideas, like designing letterforms specifically to account for low-quality paper and fast-paced printing techniques[^2] solve problems that don't exist on the web. Guidelines for spacing, hierarchy, punctuation and choosing typefaces, however, hold up.
+
+These guidelines give us a solid foundation to work on the new, unsolved problems that come up on the web.[^3]
 
 <figure>
-	<a href="http://en.wikipedia.org/wiki/File:BellCenInk.svg">Ink traps in Jim Hood's Bell Centennial</a>
+	<a href="http://en.wikipedia.org/wiki/File:BellCenInk.svg">Ink traps in Matthew Carter's Bell Centennial</a>
 </figure>
 
-##There's a reason for curly quotes
-Curly quotes or, as Santa Maria calls them, "smart quotes" always seemed to me like one of those things only designers would care about. Normal people won't even notice the difference between curly and straight quotes, right? Wrong. They make your shit easier to read for everyone. In fact, straight quotes were only invented when typewriters came up and manufacturers had to save space on the keyboard.
+##Readabillity is Key
+In my work for Wikipedia I regulary see people (presumably designers) get *offended* when they spot straight quotes or a minus sign where a dash would be appropiate. It always seemed to me that details like this would only ever be noticed by designers and be of little practical use. Normal people won't notice the difference between curly and straight quotes, right? Well, wrong.
 
-Typography has lots of little details like this, and each of them makes the reading experience a bit better.
+Unlike the people complaining on Wikipedia, Santa Maria makes a very clear case: Typographic conventions are meant to make text easier to read. That's it. There's nothing mystical around them, and it's in fact worth questioning if they're still serving their purpose once in a while[^4].
 
-##Good typography pays off
-There's this point in the very first chapter that I had never thought of: If your content is hard to read, people prpbably won't read it. If your typography fails, your design fails. As Santa Maria puts it "they're just one click away from cat GIFs".
+And users do notice good typography. If your content is cumbersome to read, people will look at cat gifs instead. That's my takeaway.
+
+[^1]: *On Web Typography* by Jason Santa Maria (2014), available at [A Book Apart](http://www.abookapart.com/products/on-web-typography). It's great. Go buy it.
+[^2]: Nick Sherman wrote a great article about *Bell Centennial*, the typeface AT&T designed specifically for their telephone books. [Bell Centennial, Form & Function. A detailed look at he telephone book typeface (2005)](http://nicksherman.com/articles/bellCentennial.html)
+[^3]: Like, for example, making type readable on different screen sizes or working with fallback fonts.
+[^4]: For example, award-winning designer Daniel Will-Harris asks if ligatures are really that useful, or even detremental to the reading experience. [Ligature Schmigature](http://www.will-harris.com/ligatures.htm)

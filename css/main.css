@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -50,7 +49,7 @@ body {
   line-height: 1.4;
   margin-bottom: 1em;
   line-height: 1.3;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 @media (min-width: 45rem) {
   .site-story {
@@ -69,6 +68,7 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 .site-nav a {
+  -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -100,87 +100,51 @@ body {
   list-style: none;
   display: inline-block;
   margin-bottom: 1.5rem;
+  width: 100%;
 }
 .post-list .post-date {
-  font-size: 1rem;
+  font-size: .9rem;
   display: block;
+  right: 1rem;
+  top: 1rem;
   margin-bottom: .5em;
+  font-family: "Helvetica", sans-serif;
+  color: #2d4258;
+}
+@media (min-width: 35rem) {
+  .post-list .post-date {
+    position: absolute;
+  }
 }
 .post-list a {
+  padding: 1rem;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
   display: block;
   text-decoration: none;
   color: inherit;
   border-radius: 5px;
-  transition: 290ms;
+  -webkit-transition: 290ms;
+          transition: 290ms;
 }
 .post-list a:hover, .post-list a:focus {
   background: rgba(230, 230, 230, 0.7);
 }
 .post-list .post-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   font-family: "museo-sans", "sans-serif";
   margin-bottom: .25em;
 }
+@media (min-width: 35rem) {
+  .post-list .post-title {
+    width: calc(100% - 8rem);
+  }
+}
 .post-list .post-teaser {
   line-height: 1.5;
   max-width: 35em;
-}
-
-.latest-post {
-  margin-bottom: 6rem;
-}
-.latest-post .post-quote {
-  font-family: "museo-sans", "sans-serif";
-  line-height: 1.2;
-  display: block;
-  padding-top: 1em;
-  font-size: 10vw;
-  margin-bottom: .25em;
-  color: #131c25;
-}
-@media (min-width: 35rem) {
-  .latest-post .post-quote {
-    font-size: 8vw;
-  }
-}
-@media (min-width: 45rem) {
-  .latest-post .post-quote {
-    font-size: 6vw;
-  }
-}
-.latest-post .post-quote h3 {
-  font-weight: 900;
-}
-.latest-post .post-quote:hover, .latest-post .post-quote:focus {
-  color: #243547;
-  text-decoration: none;
-}
-.latest-post .post-quote:after {
-  margin-top: .75em;
-  width: 4em;
-  height: 1px;
-  display: block;
-  background: #131c25;
-  content: '';
-}
-.latest-post .post-date, .latest-post post-title, .latest-post .post-intro {
-  font-size: 1.2rem;
-}
-.latest-post .post-date {
-  font-style: italic;
-  margin-bottom: .5rem;
-}
-.latest-post .post-date:before {
-  content: '– ';
-}
-.latest-post .post-title {
-  display: inline;
-  font-size: 1.1rem;
-}
-.latest-post .post-intro {
-  font-family: "calluna", "serif";
-  max-width: 35rem;
 }
 
 .post-excerpt {
@@ -367,10 +331,13 @@ sup {
 }
 
 .post-content {
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;

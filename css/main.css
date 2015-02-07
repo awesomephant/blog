@@ -172,7 +172,6 @@ body {
 }
 
 .twitter-share-button {
-  position: absolute;
   top: 1rem;
   left: calc(5% + 1rem);
   border-radius: 2px;
@@ -345,14 +344,14 @@ sup {
 
 .post-aside {
   padding: 1rem 5%;
-  font-family: "museo-sans", "sans-serif";
+  font-family: "Helvetica", sans-serif;
   font-weight: 300;
   color: gray;
+  font-size: 1.1rem;
 }
 @media (min-width: 65rem) {
   .post-aside {
-    margin-left: 10%;
-    padding-top: 1rem;
+    padding-left: 15%;
   }
 }
 .post-aside section {

@@ -158,7 +158,6 @@ body {
 
 
 .twitter-share-button {
-	position: absolute;
 	top: 1rem;
 	left: calc(5% + 1rem);
 	border-radius: 2px;
@@ -318,16 +317,17 @@ sup {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
+	
 }
 
 .post-aside {
 	padding: 1rem 5%;
-	font-family: $display;
+	font-family: $sans;
 	font-weight: 300;
-	color: gray;
+	color: gray;	
+	font-size: 1.1rem;
 	@include bp(l){
-		margin-left: 10%;
-		padding-top: 1rem;
+		padding-left: 15%;
 	}
 	
 	section {

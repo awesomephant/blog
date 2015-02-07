@@ -248,12 +248,16 @@ body {
 
 			}
 			
-			&[href*=jpg]:before, &[href*=svg]:before, &[href*=png]:before{
+			&[href*=jpg]:before, &[href*=svg]:before, &[href*=png]:before, &[href*=flickr]:before{
 				content: "Image";
 				background: $lightgray;
 			}
 			&[href*=pdf]:before{
 				content: "PDF";
+				background: $lightgray;
+			}
+			&[href*=youtube]:before, &[href*=vimeo]:before{
+				content: "Video";
 				background: $lightgray;
 			}
 			

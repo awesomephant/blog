@@ -269,12 +269,16 @@ body {
   text-transform: uppercase;
   letter-spacing: .05em;
 }
-.post-main figure a[href*=jpg]:before, .post-main figure a[href*=svg]:before, .post-main figure a[href*=png]:before {
+.post-main figure a[href*=jpg]:before, .post-main figure a[href*=svg]:before, .post-main figure a[href*=png]:before, .post-main figure a[href*=flickr]:before {
   content: "Image";
   background: #e6e6e6;
 }
 .post-main figure a[href*=pdf]:before {
   content: "PDF";
+  background: #e6e6e6;
+}
+.post-main figure a[href*=youtube]:before, .post-main figure a[href*=vimeo]:before {
+  content: "Video";
   background: #e6e6e6;
 }
 .post-main figure a:after {

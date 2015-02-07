@@ -7,6 +7,10 @@ banner: newusers.svg
 intro: "I had this random thought when I was watching an old interview with Paul Rand."
 ---
 
+<figure>
+	<a href="https://www.youtube.com/watch?v=Ta4ef1xBeMA">Miggs B with Paul Rand</a>
+</figure>
+
 Designers seem to go through three distinct phases when it comes to talking about and explaining their work.
 
 ##1. I can make things look cool

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Here's my 2015 UCAS Statement."
+title:  "Here’s my 2015 UCAS Statement."
 date:   2015-02-19 21:51:32
 categories: "University"
 banner: newusers.svg
-intro: "Part of the application process at British universities is writing a statement where you explain why you've choosen your particular courses. Here's mine."
+intro: "Part of the application process at British universities is writing a statement where you explain why you’ve choosen your particular courses. Here’s mine."
 ---
 
 When people ask why I want to go into graphic design, I always end up telling the same story.

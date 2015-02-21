@@ -21,4 +21,4 @@ Sure, I love playing around with typefaces, colours and shapes. I experiment wit
 
 I think going to university will allow me to get a lot closer to that goal. I can't wait to jump in.
 
-I originally published a slightly longer version of the London Underground Story on my blog, at [www.maxkoehler.com/2014/tube](www.maxkoehler.com/2014/tube)
+I originally published a slightly longer version of the London Underground Story on my blog, at [www.maxkoehler.com/2014/tube](http://www.maxkoehler.com/2014/tube)

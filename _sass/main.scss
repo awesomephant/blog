@@ -156,46 +156,42 @@ body {
 	color: $black;
 }
 
-
-.twitter-share-button {
-	top: 1rem;
-	left: calc(5% + 1rem);
-	border-radius: 2px;
-}
-
 .post-header {
 	font-family: $display;
 	font-size: 8vw;
 	padding: 0 5%;
+	border-bottom: 1px solid $lightgray;
 	padding-top: 1em;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 	@include bp(m){
-		margin-bottom: 2rem;
-	}
-	@include bp(l){
 		margin-bottom: 3rem;
 	}
+	@include bp(l){
+		margin-bottom: 3.5rem;
+	}
 	.post-title {
-		font-weight: 900;	
-		line-height: 1.4;
+		font-weight: 900;
+		margin-bottom: .2em;
+		line-height: 1.2;
 		@include bp(m){
 			line-height: 1.1;
 		}
 	}
 	.post-date {
-		color: rgba($black, .6);
-		font-size: .5em;
+		color: darken($lightgray, 20);
+		font-size: .75rem;
+		margin-bottom: 1rem;
 	}
 }
 
 .post-main {
 	padding: 0 5%;
-	max-width: 60rem;
-	line-height: 1.5;
-	font-size: 1.2rem;
+	max-width: 50rem;
+	line-height: 1.53;
+	font-size: 1.1rem;
 	color: rgb(60,60,60);
 	@include bp(l){
-		margin-left: 10%;
+		margin-left: 0%;
 	}
 	p {
 		margin-bottom: 1rem;
@@ -308,11 +304,12 @@ sup {
 }
 
 .post-intro {
-	font-size: 1.2em;
+	font-size: 1.1rem;
 	color: rgb(40,40,40);
 	line-height: 1.5;
+	max-width: 30em;
 	@include bp(m){
-		font-size: 1.4em;
+		font-size: 1.4rem;
 	}
 	margin-bottom: 1rem;
 }
@@ -321,6 +318,11 @@ sup {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
+	@include bp(m){
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+		padding-left: 5%;
+	}
 	
 }
 
@@ -330,8 +332,9 @@ sup {
 	font-weight: 300;
 	color: gray;	
 	font-size: 1.1rem;
-	@include bp(l){
-		padding-left: 15%;
+	@include bp(m){
+		padding: 0;
+		flex-basis: 200px;
 	}
 	
 	section {
@@ -339,12 +342,39 @@ sup {
 	}
 }
 
+.share {
+	ul {
+		list-style: none;
+		font-size: .8rem;
+	}
+}
+
 .ad {
-	border-radius: 4px;
-	border: 1px solid lightgray;
+	margin: 0 auto;
+	max-width: 500px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.related-post {
+	padding: 1rem;
+	border-radius: 3px;
+	border: 1px solid $lightgray;
+	border-bottom-width: 2px;
+}
+
+.related-post-title {
+	margin-top: 0;
 }
 
 .site-footer {
 	padding: 0 5%;
 	padding-bottom: 2rem;
+}
+
+.aside-name {
+	color: darken($lightgray, 5);
+	font-family: $display;
+	font-size: 1rem;
+	margin-bottom: .5em;
 }

@@ -4,23 +4,28 @@ layout: default
 <article class='post'>
 	<header class="post-header">
 		<h1 class="post-title">{{ page.title }}</h1>
+		<p class="post-intro">
+			{{page.intro}}
+		</p>
+		<p class='post-date'>Published <date>{{ page.date | date: "%B %-d, %Y"}}</date></p>
 	</header>
    	<div class='post-content'>   	
       	<main class='post-main'>
-       	<p class="post-intro">
-			{{page.intro}}
-		</p>
-  	
-       {{ content }} 
-       	<a href="https://twitter.com/share" class="twitter-share-button" data-via="awesomephant" data-size="large" data-related="awesomephant" data-count="none">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-	</main>
+    	{{ content }} 
+		</main>
 		<aside class='post-aside'>
-    	<section class="share"> </section>
-    	<section>
-    		<p>Published <date class="post-date">{{ page.date | date: "%B %-d, %Y"}}</date></p>
-    	</section>
-	<section class='ad'>
+   		<section class='share'>
+ 			<ul>
+ 				<li>Share This:</li>
+ 				<li><a href="http://twitter.com/intent/tweet?url=http://www.maxkoehler.com{{ page.url | uri_escape }}&text={{ page.title | uri_escape }}&via=awesomephant">Twitter</a></li>
+ 				<li><a href="http://www.facebook.com/sharer.php?u=http://www.maxkoehler.com{{ page.url | uri_escape }}&t={{ page.title | uri_escape }}">Facebook</a></li>
+ 				<li><a href="https://plus.google.com/share?url=http://www.maxkoehler.com{{ page.url | uri_escape }}">Google+</a></li>
+ 			</ul>
+		</section>
+	</aside>
+	</div>
+</article>
+<section class='ad'>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- post responsive -->
 <ins class="adsbygoogle"
@@ -32,8 +37,4 @@ layout: default
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </section>
-	</aside>
-
-	</div>
-</article>
 {% include header.html %}

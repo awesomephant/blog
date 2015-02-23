@@ -204,7 +204,15 @@ body {
 		margin-bottom: .5rem;
 		margin-top: 1rem;
 	}
-
+	
+	img {
+		max-width: 100%;
+		
+		@include bp(m){
+			max-width: 120%;
+		}
+	}
+	
 	figure {
 		border-radius: 4px;
 		border: 1px solid darken($lightgray, 8);

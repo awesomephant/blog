@@ -211,6 +211,8 @@ body {
 		@include bp(m){
 			display: inline-block;
 			margin-right: 1rem;
+			float: left;
+			margin-left: -2rem;
 		}
 		&:hover, &:focus {
 			border: 1px solid $lightgray;

@@ -224,6 +224,8 @@ body {
   .post-main figure {
     display: inline-block;
     margin-right: 1rem;
+    float: left;
+    margin-left: -2rem;
   }
 }
 .post-main figure:hover, .post-main figure:focus {

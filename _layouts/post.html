@@ -10,10 +10,7 @@ layout: default
 		<p class='post-date'>Published <date>{{ page.date | date: "%B %-d, %Y"}}</date></p>
 	</header>
    	<div class='post-content'>   	
-      	<main class='post-main'>
-    	{{ content }} 
-		</main>
-		<aside class='post-aside'>
+      	<aside class='post-aside'>
    		<section class='share'>
  			<ul>
  				<li>Share This:</li>
@@ -23,6 +20,9 @@ layout: default
  			</ul>
 		</section>
 	</aside>
+      	<main class='post-main'>
+    	{{ content }} 
+		</main>
 	</div>
 </article>
 <section class='ad'>

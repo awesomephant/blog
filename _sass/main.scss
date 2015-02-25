@@ -44,19 +44,15 @@ body {
 
 .site-story {
 	font-family: $display;
-	font-weight: 700;
+	font-weight: 900;
 	max-width: 30em;
-	text-align: center;
 	margin: 0 auto;
 	line-height: 1.4;
 	margin-bottom: 1em;
 	line-height: 1.3;
 	font-size: 1.6rem;
 	@include bp(m){
-		font-size: 2rem;
-	}
-	@include bp(l){
-		font-size: 4vw;
+		font-size: 6vw;
 	}
 }
 
@@ -78,21 +74,21 @@ body {
 }
 
 .posts {
-	padding: 1rem 5%;
 }
 
 .post-list {
 	padding-bottom: 2rem;
 	@include bp(m){
-		column-count: 2;
 		font-size: 1.2rem;
 	}
 
 	li {
 		list-style: none;
+		padding: 1rem 5vw;
 		display: inline-block;
 		margin-bottom: 1.5rem;
 		width: 100%;
+		border-bottom: 1px solid $lightgray;
 	}
     
     .post-date {
@@ -104,27 +100,21 @@ body {
 		font-family: $sans;
 		color: lighten($black, 15);
 		@include bp(s){
-			position: absolute;
 		}
     }
     
 	a {
-		padding: 1rem;
-		position: relative;
 		border-radius: 5px;
-		border: 1px solid darken($lightgray, 10);
+		background: #fff;
 		display: block;
 		text-decoration: none;
-		color: inherit;
 		border-radius: 5px;
 		transition: $fast;
-		&:hover, &:focus {
-			background: rgba($lightgray, .7);
-		}
 	}
 	
 	.post-title {
         font-size: 1.3rem;
+		line-height: 1.55;
 		@include bp(s){
 			width: calc(100% - 8rem);
 		}
@@ -325,10 +315,14 @@ sup {
 .post-content {
 	display: flex;
 	width: 100%;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	@include bp(m){
-		flex-direction: row-reverse;
-		justify-content: flex-end;
+		display: block;
+	}
+	@include bp(l){
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
 		padding-left: 5%;
 	}
 	
@@ -340,9 +334,13 @@ sup {
 	font-weight: 300;
 	color: gray;	
 	font-size: 1.1rem;
+	flex-basis: 200px;
 	@include bp(m){
+		float: left;
+	}
+	
+	@include bp(l){
 		padding: 0;
-		flex-basis: 200px;
 	}
 	
 	section {
@@ -353,7 +351,11 @@ sup {
 .share {
 	ul {
 		list-style: none;
-		font-size: .8rem;
+		font-size: 1rem;
+	}
+	
+	li {
+		margin-bottom: .25em;
 	}
 }
 

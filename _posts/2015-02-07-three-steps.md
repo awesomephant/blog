@@ -19,10 +19,6 @@ In many professions, things seem very difficult in the beginning but get easier 
 In design, it's the other way around. When I *aquired*[^1] a copy of Helvetica Neue and decreased the kerning, I felt like I had figured out design. I'd nudge things around until it happened to look cool, throw some random colours at it and call it a day. Good times.
 
 <figure>
-	<a href="https://www.flickr.com/photos/zaphod_beeblebrox/9736537892/">Logo for a youth organisation</a>
-</figure>
-
-<figure>
 	<a href="https://www.flickr.com/photos/zaphod_beeblebrox/9060247000/">Logo proposal for an adult education centre</a>
 </figure>
 

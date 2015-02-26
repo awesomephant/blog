@@ -14,7 +14,10 @@ $sans: "Helvetica", sans-serif;
 $fast: 290ms;
 
 @mixin bp($point) {
-	@if $point == l {
+	@if $point == xl {
+		@media (min-width: 100rem) { @content; }
+	}
+	@else if $point == l {
 		@media (min-width: 65rem) { @content; }
 	}
 	@else if $point == m {

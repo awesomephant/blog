@@ -176,14 +176,15 @@ body {
 
 .post-main {
 	padding: 0 5%;
-	max-width: 50rem;
 	line-height: 1.53;
 	font-size: 1.1rem;
 	color: rgb(60,60,60);
 	@include bp(l){
+		width: 85%;
 		margin-left: 0%;
 	}
 	p {
+		max-width: 50em;
 		margin-bottom: 1rem;
 	}
 	
@@ -212,7 +213,8 @@ body {
 			display: inline-block;
 			margin-right: 1rem;
 			float: left;
-			margin-left: -2rem;
+			margin-bottom: -1rem;
+			margin-left: -3em;
 		}
 		&:hover, &:focus {
 			border: 1px solid $lightgray;
@@ -273,6 +275,28 @@ body {
 	figcaption {
 		color: lighten($black, 20);
 		font-size: .8rem;
+	}
+}
+
+.gallery {
+	list-style: none;
+	column-gap: 8px;
+	@include bp(m){
+		column-count: 2;
+	}
+	
+	@include bp(xl){
+		column-count: 3;
+	}
+	
+	li {
+		display: inline-block;
+		
+		img, object {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
 	}
 }
 

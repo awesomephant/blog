@@ -186,17 +186,18 @@ body {
 
 .post-main {
   padding: 0 5%;
-  max-width: 50rem;
   line-height: 1.53;
   font-size: 1.1rem;
   color: #3c3c3c;
 }
 @media (min-width: 65rem) {
   .post-main {
+    width: 85%;
     margin-left: 0%;
   }
 }
 .post-main p {
+  max-width: 50em;
   margin-bottom: 1rem;
 }
 .post-main h2 {
@@ -225,7 +226,8 @@ body {
     display: inline-block;
     margin-right: 1rem;
     float: left;
-    margin-left: -2rem;
+    margin-bottom: -1rem;
+    margin-left: -3em;
   }
 }
 .post-main figure:hover, .post-main figure:focus {
@@ -280,6 +282,35 @@ body {
 .post-main figcaption {
   color: #364f68;
   font-size: .8rem;
+}
+
+.gallery {
+  list-style: none;
+  -webkit-column-gap: 8px;
+     -moz-column-gap: 8px;
+          column-gap: 8px;
+}
+@media (min-width: 45rem) {
+  .gallery {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+  }
+}
+@media (min-width: 100rem) {
+  .gallery {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+  }
+}
+.gallery li {
+  display: inline-block;
+}
+.gallery li img, .gallery li object {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 sup {

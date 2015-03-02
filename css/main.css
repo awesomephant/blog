@@ -290,27 +290,24 @@ body {
      -moz-column-gap: 8px;
           column-gap: 8px;
 }
-@media (min-width: 45rem) {
-  .gallery {
-    -webkit-column-count: 2;
-       -moz-column-count: 2;
-            column-count: 2;
-  }
-}
-@media (min-width: 100rem) {
-  .gallery {
-    -webkit-column-count: 3;
-       -moz-column-count: 3;
-            column-count: 3;
-  }
-}
 .gallery li {
   display: inline-block;
+  margin-bottom: 4rem;
+  max-width: 100%;
 }
-.gallery li img, .gallery li object {
+.gallery li .desc {
+  margin-bottom: 0;
+  padding: .5rem 0;
+  font-size: .9rem;
+  font-family: "Helvetica", sans-serif;
+  color: #737373;
+}
+.gallery li img {
   display: block;
-  width: 100%;
+  width: auto;
   height: auto;
+  max-width: 100%;
+  max-height: 90vh;
 }
 
 sup {

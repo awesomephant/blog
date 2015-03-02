@@ -286,12 +286,9 @@ body {
 
 .gallery {
   list-style: none;
-  -webkit-column-gap: 8px;
-     -moz-column-gap: 8px;
-          column-gap: 8px;
 }
 .gallery li {
-  display: inline-block;
+  display: block;
   margin-bottom: 4rem;
   max-width: 100%;
 }

@@ -279,18 +279,9 @@ body {
 }
 
 .gallery {
-	list-style: none;
-	column-gap: 8px;
-	@include bp(m){
-		//column-count: 2;
-	}
-	
-	@include bp(xl){
-		//column-count: 3;
-	}
-	
+	list-style: none;	
 	li {
-		display: inline-block;
+		display: block;
 		margin-bottom: 4rem;
 		max-width: 100%;
 		

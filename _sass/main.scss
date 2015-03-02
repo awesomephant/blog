@@ -385,22 +385,27 @@ sup {
 	}
 }
 
+.aside-full {
+	padding: 1rem 5%;
+	border-top: 1px solid $lightgray;
+	
+	@include bp(m){
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+}
+
 .ad {
-	margin: 0 auto;
-	max-width: 500px;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+	border-bottom: 1px solid $lightgray;
 }
 
 .related-post {
-	padding: 1rem;
-	border-radius: 3px;
-	border: 1px solid $lightgray;
-	border-bottom-width: 2px;
 }
 
 .related-post-title {
 	margin-top: 0;
+	font-family: $display;
+	font-size: 2rem;
 }
 
 .site-footer {
@@ -409,8 +414,8 @@ sup {
 }
 
 .aside-name {
-	color: darken($lightgray, 5);
+	color: darken($lightgray, 10);
 	font-family: $display;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	margin-bottom: .5em;
 }

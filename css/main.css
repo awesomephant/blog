@@ -419,22 +419,25 @@ sup {
   margin-bottom: .25em;
 }
 
-.ad {
-  margin: 0 auto;
-  max-width: 500px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.aside-full {
+  padding: 1rem 5%;
+  border-top: 1px solid #e6e6e6;
+}
+@media (min-width: 45rem) {
+  .aside-full {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
-.related-post {
-  padding: 1rem;
-  border-radius: 3px;
-  border: 1px solid #e6e6e6;
-  border-bottom-width: 2px;
+.ad {
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .related-post-title {
   margin-top: 0;
+  font-family: "museo-sans", "sans-serif";
+  font-size: 2rem;
 }
 
 .site-footer {
@@ -443,8 +446,8 @@ sup {
 }
 
 .aside-name {
-  color: #d9d9d9;
+  color: #cdcdcd;
   font-family: "museo-sans", "sans-serif";
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: .5em;
 }

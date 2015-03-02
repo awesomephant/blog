@@ -9,7 +9,7 @@ layout: default
 		</p>
 		<p class='post-date'>Published <date>{{ page.date | date: "%B %-d, %Y"}}</date></p>
 	</header>
-   	<div class='post-content'>   	
+   	<div class='post-content'>
       	<aside class='post-aside'>
    		<section class='share'>
  			<ul>
@@ -21,11 +21,18 @@ layout: default
 		</section>
 	</aside>
       	<main class='post-main'>
-    	{{ content }} 
+    	{{ content }}
 		</main>
 	</div>
 </article>
-<section class='ad'>
+<aside class='aside-full related-post'>
+	<h3 class='aside-name'>Read Next:</h3>
+		{% for post in site.related_posts limit:1 %}
+			<h2 class="related-post-title"><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+			{% endfor %}
+</aside>
+<aside class='aside-full ad'>
+	<h3 class='aside-name'>Advertisment</h3>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- post responsive -->
 <ins class="adsbygoogle"
@@ -36,5 +43,5 @@ layout: default
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-</section>
+</aside>
 {% include header.html %}

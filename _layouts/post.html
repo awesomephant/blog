@@ -28,7 +28,7 @@ layout: default
 <aside class='aside-full related-post'>
 	<h3 class='aside-name'>Read Next:</h3>
 		{% for post in site.related_posts limit:1 %}
-			<h2 class="related-post-title"><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+			<h2 class="related-post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 			{% endfor %}
 </aside>
 <aside class='aside-full ad'>

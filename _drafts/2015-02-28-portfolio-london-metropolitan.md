@@ -33,15 +33,7 @@ intro: "Name: Max Köhler, Student ID: 15019193, Course: BA GRAPHIC DESIGN"
 ##Photography
 
 <ul class='gallery'>
-<li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/16652528995" title="Chicago by awesomephant, on Flickr"><img src="https://farm9.staticflickr.com/8567/16652528995_0e83c37cdc_b.jpg" width="768" height="1024" alt="Chicago"></a></li>
-
-
-	<li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/15244091690" title="Untitled by awesomephant, on Flickr">
-		<img src="https://farm6.staticflickr.com/5600/15244091690_db67fa62ac_c.jpg" width="800" height="600" alt="Untitled">
-	</a>
-</li>
-
-
+<li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/16242995270" title="Untitled by awesomephant, on Flickr"><img src="https://farm8.staticflickr.com/7442/16242995270_21dbca363f_b.jpg" width="768" height="1024" alt="Untitled"></a></li>
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/14484764297" title="Tree by awesomephant, on Flickr"><img src="https://farm6.staticflickr.com/5237/14484764297_3267b07ba3_b.jpg" width="768" height="1024" alt="Tree"></a></li>
 
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/16327024949" title="chicago by awesomephant, on Flickr"><img src="https://farm9.staticflickr.com/8561/16327024949_9a43e349ab_b.jpg" width="685" height="1024" alt="chicago"></a></li>
@@ -55,6 +47,7 @@ intro: "Name: Max Köhler, Student ID: 15019193, Course: BA GRAPHIC DESIGN"
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/15749702184" title="street by awesomephant, on Flickr"><img src="https://farm8.staticflickr.com/7377/15749702184_bb9b906deb_b.jpg" width="727" height="1024" alt="street"></a></li>
 
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/13848544244" title="Red Riding Hood by awesomephant, on Flickr"><img src="https://farm4.staticflickr.com/3719/13848544244_4e99bc164e_b.jpg" width="726" height="1024" alt="Red Riding Hood"></a></li>
+<li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/15403092023" title="Star Wars! by awesomephant, on Flickr"><img src="https://farm8.staticflickr.com/7530/15403092023_b2dd56f834_b.jpg" width="714" height="1024" alt="Star Wars!"></a></li>
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/15350762171" title="test by awesomephant, on Flickr"><img src="https://farm4.staticflickr.com/3909/15350762171_7f87c2bb60_b.jpg" width="719" height="1024" alt="test"></a></li>
 
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/15347827771" title="batman: the dark knight by awesomephant, on Flickr"><img src="https://farm3.staticflickr.com/2941/15347827771_6093b50c8d_b.jpg" width="686" height="1024" alt="batman: the dark knight"></a></li>

@@ -3,6 +3,7 @@ layout: post
 title: "Portfolio for London Metropolitan University"
 date: 2015-02-24 12:51:32
 categories: ""
+thumb: "https://farm9.staticflickr.com/8598/16698215035_e84caced00_h.jpg"
 intro: "Name: Max Köhler, Student ID: 15019193, Course: BA GRAPHIC DESIGN"
 
 ---

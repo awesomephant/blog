@@ -7,11 +7,11 @@ intro: "Name: Max Köhler, Student ID: 15019193, Course: BA GRAPHIC DESIGN"
 
 ---
 
-Non-digital work has been photographed and slightly adjusted in contrast to come closer to the original viewing experience. Click each image for a larger version.
+Non-digital work has been photographed and slightly adjusted in contrast to accommodate for viewing on a screen. Click each image for a larger version.
 
 As a recent example of my writing, I'd like to suggest [Thoughts on Jason Santa Maria's "On Web Typography"](http://maxkoehler.com/2015/on-web-typography/).
 
-##Illustration
+##Illustration, Posters
 <ul class='gallery'>
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/16698215035" title="Ink Work by awesomephant, on Flickr"><img src="https://farm9.staticflickr.com/8598/16698215035_e84caced00_h.jpg" width="1139" height="1600" alt="Ink Work"></a><p class='desc'>Birds, Pencil and Ink, 1/2015</p></li>
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/16672273116" title="Ink Work by awesomephant, on Flickr"><img src="https://farm9.staticflickr.com/8678/16672273116_38e81cf2f3_h.jpg" width="1135" height="1600" alt="Ink Work"></a><p class='desc'>Feathers, Pencil and Ink, 12/2014</p></li>
@@ -19,6 +19,7 @@ As a recent example of my writing, I'd like to suggest [Thoughts on Jason Santa 
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/15749702184" title="street by awesomephant, on Flickr"><img src="https://farm8.staticflickr.com/7377/15749702184_bb9b906deb_b.jpg" width="727" height="1024" alt="street"></a><p class="desc">Street with Neon Signage, Digital Pixel Art, 1/2015</p></li>
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/13848544244" title="Red Riding Hood by awesomephant, on Flickr"><img src="https://farm4.staticflickr.com/3719/13848544244_4e99bc164e_b.jpg" width="726" height="1024" alt="Red Riding Hood"></a><p class="desc">Red Riding Hood, Digital Pixel Art, 4/2014</p></li>
 
+<li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/14163097316" title="spidey 2 by awesomephant, on Flickr"><img src="https://farm6.staticflickr.com/5545/14163097316_d6d0568c4c_h.jpg" width="1131" height="1600" alt="spidey 2"></a><p class="desc">Poster for "The Amazing Spiderman", digital, Typeface: Helvetica Neue, 2/2014</p></li>
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/15403092023" title="Star Wars! by awesomephant, on Flickr"><img src="https://farm8.staticflickr.com/7530/15403092023_b2dd56f834_b.jpg" width="714" height="1024" alt="Star Wars!"></a><p class="desc">Poster for "Star Wars: The Force Awakens", digital, Typeface: uni 05_53, 12/2014</p></li>
 
 
@@ -35,7 +36,7 @@ The x-axis represents the longitude (London, at 0°, being in the center). The y
 <ul class='gallery'>
 <li>
 	<a href="https://www.flickr.com/photos/zaphod_beeblebrox/16404283729" title="plot by awesomephant, on Flickr"><img src="https://farm9.staticflickr.com/8600/16404283729_8eddab45cf_h.jpg" width="1600" height="1089" alt="plot"></a>
-	<p class="desc">Good Morning Twitter, Preliminary Plot, Data Visualisation, ~17.000 Tweets, Anotated Printout</p>
+	<p class="desc">Good Morning Twitter, Preliminary Plot, Data Visualisation, ~17.000 Tweets, Annotated Printout</p>
 </li>
 <li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/16402688960" title="plot by awesomephant, on Flickr"><img src="https://farm9.staticflickr.com/8595/16402688960_c4b48cb5e2_b.jpg" width="683" height="1024" alt="plot"></a><p class="desc">Good Morning Twitter, Preliminary Plot, Data Visualisation, ~17.000 Tweets, Typeface: Ubuntu Mono</p></li>
 <li>

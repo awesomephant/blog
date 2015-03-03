@@ -196,8 +196,12 @@ body {
     margin-left: 0%;
   }
 }
-.post-main p {
+.post-main p, .post-main ul, .post-main ol {
   max-width: 40rem;
+  margin-bottom: 1rem;
+}
+.post-main li {
+  margin-left: 1rem;
   margin-bottom: 1rem;
 }
 .post-main h2 {
@@ -217,25 +221,34 @@ body {
 }
 .post-main figure {
   border-radius: 4px;
+  padding: 1rem;
+  overflow: hidden;
   border: 1px solid #d2d2d2;
   margin-bottom: 1rem;
-  max-width: 20rem;
 }
 @media (min-width: 45rem) {
   .post-main figure {
+    max-width: 25rem;
     display: inline-block;
     margin-right: 1rem;
     float: left;
     margin-bottom: -1rem;
+  }
+}
+@media (min-width: 65rem) {
+  .post-main figure {
     margin-left: -3em;
   }
 }
-.post-main figure:hover, .post-main figure:focus {
-  border: 1px solid #e6e6e6;
+.post-main figure img {
+  width: calc(100% + 2rem);
+  max-width: none;
+  margin-left: -1rem;
+  margin-top: -1rem;
+  height: auto;
 }
 .post-main figure a {
   display: block;
-  padding: 1rem;
   position: relative;
 }
 .post-main figure a:hover, .post-main figure a:focus {
@@ -243,8 +256,8 @@ body {
 }
 .post-main figure a:before {
   position: absolute;
-  bottom: calc(1rem + .2em);
-  right: 1rem;
+  bottom: .2rem;
+  right: .5rem;
   color: #131c25;
   font-family: "Helvetica", sans-serif;
   font-weight: bold;
@@ -280,8 +293,10 @@ body {
   font-size: 14px;
 }
 .post-main figcaption {
-  color: #364f68;
+  color: gray;
   font-size: .8rem;
+  padding-top: .5rem;
+  font-family: "Helvetica", sans-serif;
 }
 
 .gallery {
@@ -290,6 +305,7 @@ body {
 .gallery li {
   display: block;
   margin-bottom: 4rem;
+  margin-left: 0;
   max-width: 100%;
 }
 .gallery li .desc {
@@ -414,6 +430,7 @@ sup {
 }
 
 .aside-full {
+  clear: both;
   padding: 1rem 5%;
   border-top: 1px solid #e6e6e6;
 }

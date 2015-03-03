@@ -37,9 +37,9 @@ The x-axis represents the longitude (London, at 0°, being in the center). The y
 <ul class='gallery'>
 <li>
 	<a href="https://www.flickr.com/photos/zaphod_beeblebrox/16404283729" title="plot by awesomephant, on Flickr"><img src="https://farm9.staticflickr.com/8600/16404283729_8eddab45cf_h.jpg" width="1600" height="1089" alt="plot"></a>
-	<p class="desc">Good Morning Twitter, Preliminary Plot, Data Visualisation, ~17.000 Tweets, Annotated Printout</p>
+	<p class="desc">Good Morning Twitter, Preliminary Plot, Data Visualisation, ~17.000 Tweets, Annotated Printout, 2/2015</p>
 </li>
-<li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/16402688960" title="plot by awesomephant, on Flickr"><img src="https://farm9.staticflickr.com/8595/16402688960_c4b48cb5e2_b.jpg" width="683" height="1024" alt="plot"></a><p class="desc">Good Morning Twitter, Preliminary Plot, Data Visualisation, ~17.000 Tweets, Typeface: Ubuntu Mono</p></li>
+<li><a href="https://www.flickr.com/photos/zaphod_beeblebrox/16402688960" title="plot by awesomephant, on Flickr"><img src="https://farm9.staticflickr.com/8595/16402688960_c4b48cb5e2_b.jpg" width="683" height="1024" alt="plot"></a><p class="desc">Good Morning Twitter, Preliminary Plot, Data Visualisation, ~17.000 Tweets, Typeface: Ubuntu Mono, 2/2015</p></li>
 <li>
 	<a href="https://www.flickr.com/photos/zaphod_beeblebrox/16407299477" title="plot a final by awesomephant, on Flickr"><img src="https://farm9.staticflickr.com/8586/16407299477_13fe26948d_h.jpg" width="1200" height="1600" alt="plot a final"></a><p class='desc'>Good Morning Twitter Final Plot, Data Visualisation, ~17.000 Tweets, Typefaces: Ubuntu Mono, Press Start 2P, 2/2015 </p>
 </li>

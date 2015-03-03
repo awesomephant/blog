@@ -196,7 +196,7 @@ body {
     margin-left: 0%;
   }
 }
-.post-main p, .post-main ul, .post-main ol {
+.post-main p, .post-main ul, .post-main ol, .post-main .gist {
   max-width: 40rem;
   margin-bottom: 1rem;
 }
@@ -211,13 +211,8 @@ body {
   margin-bottom: .5rem;
   margin-top: 1rem;
 }
-.post-main img {
+.post-main img, .post-main iframe {
   max-width: 100%;
-}
-@media (min-width: 45rem) {
-  .post-main img {
-    max-width: 120%;
-  }
 }
 .post-main figure {
   border-radius: 4px;

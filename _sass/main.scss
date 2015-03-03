@@ -183,7 +183,7 @@ body {
 		width: 85%;
 		margin-left: 0%;
 	}
-	p, ul, ol {
+	p, ul, ol, .gist {
 		max-width: 40rem;
 		margin-bottom: 1rem;
 	}
@@ -201,12 +201,8 @@ body {
 		margin-top: 1rem;
 	}
 	
-	img {
+	img, iframe {
 		max-width: 100%;
-		
-		@include bp(m){
-			max-width: 120%;
-		}
 	}
 	
 	figure {

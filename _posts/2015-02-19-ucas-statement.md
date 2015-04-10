@@ -14,7 +14,7 @@ We rushed from Harrods to the British Museum, to some train station that apparen
 The twist happens when I get to the part of the story where we get back to the coach the evening, and the entire orchestra tells the exact same story. Everybody has had the same smooth, empowering experience getting around London. Everybody felt smart. Everybody felt safe. Then I say something like: "We weren't actually smart. The people who designed the signage systems in the tube were the smart ones. Us, and everybody else finding their way around London each day, that's the result of good design work."
 
 <figure class='full'>
-	<img src="http://www.bbc.co.uk/london/travel/downloads/tube_map.gif" alt="2014 London Tube Map"/>
+	<img src="https://farm8.staticflickr.com/7686/17102210885_044e62da24_b.jpg" alt="2014 London Tube Map"/>
 	<figcaption>2014 London Tube Map</figcaption>
 </figure>	
 

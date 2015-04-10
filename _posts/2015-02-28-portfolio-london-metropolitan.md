@@ -8,6 +8,10 @@ intro: "Name: Max Köhler, Student ID: 15019193, Course: BA GRAPHIC DESIGN"
 
 ---
 
+<aside class='note'>
+	<p></p>
+</aside>
+
 Non-digital work has been photographed and slightly adjusted in contrast to accommodate for viewing on a screen. Click each image for a larger version.
 
 As a recent example of my writing, I'd like to suggest [Thoughts on Jason Santa Maria's "On Web Typography"](http://maxkoehler.com/2015/on-web-typography/).

@@ -18,7 +18,7 @@ There's been generations of typographers before ours, and they were all trying t
 
 These guidelines give us a solid foundation to work on the new, unsolved problems that come up on the web.[^3]
 
-<figure>
+<figure class='aside'>
 	<a href="http://en.wikipedia.org/wiki/File:BellCenInk.svg">Ink traps in Matthew Carter's Bell Centennial</a>
 </figure>
 

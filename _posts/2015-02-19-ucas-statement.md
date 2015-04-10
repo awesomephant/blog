@@ -13,6 +13,11 @@ It's about the time me and a couple of friends were in London for an orchestra e
 We rushed from Harrods to the British Museum, to some train station that apparently shows up in the Harry Potter movies back to Hyde Park where out coach was waiting. None of us had ever been to London before, so we felt incredibly smart for finding our way around the city so easily, hopping from one train onto another without stopping or looking at the tube map.
 The twist happens when I get to the part of the story where we get back to the coach the evening, and the entire orchestra tells the exact same story. Everybody has had the same smooth, empowering experience getting around London. Everybody felt smart. Everybody felt safe. Then I say something like: "We weren't actually smart. The people who designed the signage systems in the tube were the smart ones. Us, and everybody else finding their way around London each day, that's the result of good design work."
 
+<figure class='full'>
+	<img src="http://www.bbc.co.uk/london/travel/downloads/tube_map.gif" alt="2014 London Tube Map"/>
+	<figcaption>2014 London Tube Map</figcaption>
+</figure>	
+
 This is probably where I should end the story, but I usually can't help but talk about Harry Beck's tube map, or Johnston Sans, or colour theory while my audience slowly backs away.
 
 The point is this: I want to become a designer to help people get stuff done. To me, design isn't about aesthetics, it's about solving problems within constraints. I find the seats at train stations far more interesting design-wise than the ones that sell for thousands of pounds at "designer stores". I find Bell Centennial (the typeface specifically designed to be readable on low-quality phonebook paper) far more exciting than Helvetica Neue (the typeface that looks cool in bold).

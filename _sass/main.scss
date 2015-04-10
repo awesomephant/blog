@@ -203,9 +203,21 @@ body {
 	
 	img, iframe {
 		max-width: 100%;
+		display: block;
+	}
+		
+	.full {
+		max-width: 100%;
+		margin-bottom: 1rem;
+		@include bp(m){
+			max-width: calc(40rem + 10%);
+			position: relative;
+			left: -5%;
+	
+		}
 	}
 	
-	figure {
+	.aside {
 		border-radius: 4px;
 		padding: 1rem;
 		overflow: hidden;
@@ -213,7 +225,7 @@ body {
 		margin-bottom: 1rem;
 
 		@include bp(m){
-			max-width: 25rem;
+			max-width: 20rem;
 			display: inline-block;
 			margin-right: 1rem;
 			float: left;

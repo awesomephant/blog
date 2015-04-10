@@ -213,8 +213,20 @@ body {
 }
 .post-main img, .post-main iframe {
   max-width: 100%;
+  display: block;
 }
-.post-main figure {
+.post-main .full {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+@media (min-width: 45rem) {
+  .post-main .full {
+    max-width: calc(40rem + 10%);
+    position: relative;
+    left: -5%;
+  }
+}
+.post-main .aside {
   border-radius: 4px;
   padding: 1rem;
   overflow: hidden;
@@ -222,8 +234,8 @@ body {
   margin-bottom: 1rem;
 }
 @media (min-width: 45rem) {
-  .post-main figure {
-    max-width: 25rem;
+  .post-main .aside {
+    max-width: 20rem;
     display: inline-block;
     margin-right: 1rem;
     float: left;
@@ -231,25 +243,25 @@ body {
   }
 }
 @media (min-width: 65rem) {
-  .post-main figure {
+  .post-main .aside {
     margin-left: -3em;
   }
 }
-.post-main figure img {
+.post-main .aside img {
   width: calc(100% + 2rem);
   max-width: none;
   margin-left: -1rem;
   margin-top: -1rem;
   height: auto;
 }
-.post-main figure a {
+.post-main .aside a {
   display: block;
   position: relative;
 }
-.post-main figure a:hover, .post-main figure a:focus {
+.post-main .aside a:hover, .post-main .aside a:focus {
   text-decoration: none;
 }
-.post-main figure a:before {
+.post-main .aside a:before {
   position: absolute;
   bottom: .2rem;
   right: .5rem;
@@ -265,19 +277,19 @@ body {
   text-transform: uppercase;
   letter-spacing: .05em;
 }
-.post-main figure a[href*=jpg]:before, .post-main figure a[href*=svg]:before, .post-main figure a[href*=png]:before, .post-main figure a[href*=flickr]:before {
+.post-main .aside a[href*=jpg]:before, .post-main .aside a[href*=svg]:before, .post-main .aside a[href*=png]:before, .post-main .aside a[href*=flickr]:before {
   content: "Image";
   background: #e6e6e6;
 }
-.post-main figure a[href*=pdf]:before {
+.post-main .aside a[href*=pdf]:before {
   content: "PDF";
   background: #e6e6e6;
 }
-.post-main figure a[href*=youtube]:before, .post-main figure a[href*=vimeo]:before {
+.post-main .aside a[href*=youtube]:before, .post-main .aside a[href*=vimeo]:before {
   content: "Video";
   background: #e6e6e6;
 }
-.post-main figure a:after {
+.post-main .aside a:after {
   content: attr(href);
   display: block;
   overflow: hidden;

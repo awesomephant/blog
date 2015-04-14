@@ -77,6 +77,13 @@ body {
 
 .post-list {
   padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 @media (min-width: 45rem) {
   .post-list {
@@ -85,11 +92,40 @@ body {
 }
 .post-list li {
   list-style: none;
-  padding: 1rem 5vw;
-  display: inline-block;
-  margin-bottom: 1.5rem;
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
   width: 100%;
+  position: relative;
   border-bottom: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+}
+.post-list li:first-child {
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+  border-top: 1px solid #e6e6e6;
+}
+.post-list li:first-child .post-title {
+  font-size: 2rem;
+}
+@media (min-width: 35rem) {
+  .post-list li {
+    -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+  }
+}
+@media (min-width: 45rem) {
+  .post-list li {
+    -webkit-flex-basis: 33.33%;
+        -ms-flex-preferred-size: 33.33%;
+            flex-basis: 33.33%;
+  }
+}
+.post-list li:hover, .post-list li:focus {
+  text-decoration: none;
+  background-color: #efeffd;
 }
 .post-list .post-date {
   font-size: .9rem;
@@ -100,14 +136,15 @@ body {
   font-family: "Helvetica", sans-serif;
   color: #2d4258;
 }
-.post-list a {
-  border-radius: 5px;
-  background: #fff;
+.post-list .post-link {
   display: block;
+  padding: 2rem;
+  position: relative;
+  color: #131c25;
+  height: 100%;
+}
+.post-list .post-link:hover, .post-list .post-link:focus {
   text-decoration: none;
-  border-radius: 5px;
-  -webkit-transition: 290ms;
-          transition: 290ms;
 }
 .post-list .post-title {
   font-size: 1.3rem;
@@ -115,11 +152,6 @@ body {
   font-weight: 700;
   font-family: "museo-sans", "sans-serif";
   margin-bottom: .25em;
-}
-@media (min-width: 35rem) {
-  .post-list .post-title {
-    width: calc(100% - 8rem);
-  }
 }
 .post-list .post-teaser {
   line-height: 1.5;

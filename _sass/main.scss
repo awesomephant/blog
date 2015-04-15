@@ -143,7 +143,15 @@ body {
     
 	.post-link {
 		display: block;
-		padding: 2rem;
+		padding-left: 5%;
+		padding-right: 5%;
+			@include bp(s){
+			padding-left: 2rem;
+			padding-right: 2rem;
+		}
+
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 		position: relative;
 		color: $black;
 		height: 100%;
@@ -475,6 +483,13 @@ sup {
 .ad {
 	border-bottom: 1px solid $lightgray;
 	padding-bottom: 2rem;
+	overflow-x: hidden;
+	
+	.ad-container {
+		@include bp(s){
+			padding-left: 2rem;
+		}
+	}
 }
 
 .site-footer {
@@ -487,5 +502,8 @@ sup {
 	font-family: $display;
 	font-size: 1.2rem;
 	margin-bottom: 1em;
-	padding-left: 2rem;
+	padding-left: 5%;
+	@include bp(s){
+		padding-left: 2rem;
+	}
 }

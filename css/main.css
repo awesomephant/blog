@@ -162,10 +162,19 @@ body {
 }
 .post-list .post-link {
   display: block;
-  padding: 2rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   position: relative;
   color: #131c25;
   height: 100%;
+}
+@media (min-width: 35rem) {
+  .post-list .post-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 .post-list .post-link:hover, .post-list .post-link:focus {
   text-decoration: none;
@@ -510,6 +519,12 @@ sup {
 .ad {
   border-bottom: 1px solid #e6e6e6;
   padding-bottom: 2rem;
+  overflow-x: hidden;
+}
+@media (min-width: 35rem) {
+  .ad .ad-container {
+    padding-left: 2rem;
+  }
 }
 
 .site-footer {
@@ -522,5 +537,10 @@ sup {
   font-family: "museo-sans", "sans-serif";
   font-size: 1.2rem;
   margin-bottom: 1em;
-  padding-left: 2rem;
+  padding-left: 5%;
+}
+@media (min-width: 35rem) {
+  .aside-name {
+    padding-left: 2rem;
+  }
 }

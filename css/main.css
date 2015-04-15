@@ -247,6 +247,16 @@ body {
   max-width: 100%;
   display: block;
 }
+.post-main .note {
+  background: #e6e6e6;
+  padding: 1rem;
+}
+.post-main .note:before {
+  content: "Note: ";
+  font-weight: bold;
+  font-family: "Helvetica", sans-serif;
+  font-size: .9rem;
+}
 .post-main .full {
   max-width: 100%;
   margin-bottom: 1rem;

@@ -73,22 +73,40 @@ body {
 	}
 }
 
-.posts {
-}
-
 .post-list {
 	padding-bottom: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+
 	@include bp(m){
 		font-size: 1.2rem;
 	}
 
 	li {
+		&:first-child {
+			flex-basis: 100%;
+			border-top: 1px solid $lightgray;
+			.post-title {
+				font-size: 2rem;
+			}
+		}
 		list-style: none;
-		padding: 1rem 5vw;
-		display: inline-block;
-		margin-bottom: 1.5rem;
+		flex-basis: 100%;
+		
+		@include bp(s){
+			flex-basis: 50%;
+		}
+		@include bp(m){
+			flex-basis: 33.33%;
+		}
 		width: 100%;
+		position: relative;
 		border-bottom: 1px solid $lightgray;
+		border-right: 1px solid $lightgray;
+		&:hover, &:focus {
+			text-decoration: none;
+			background-color: lighten($blue, 48);
+		}
 	}
     
     .post-date {
@@ -103,21 +121,20 @@ body {
 		}
     }
     
-	a {
-		border-radius: 5px;
-		background: #fff;
+	.post-link {
 		display: block;
-		text-decoration: none;
-		border-radius: 5px;
-		transition: $fast;
+		padding: 2rem;
+		position: relative;
+		color: $black;
+		height: 100%;
+		&:hover, &:focus {
+			text-decoration: none;
+		}
 	}
 	
 	.post-title {
         font-size: 1.3rem;
 		line-height: 1.55;
-		@include bp(s){
-			width: calc(100% - 8rem);
-		}
 		font-weight: 700;
 		font-family: $display;
 		margin-bottom: .25em;
@@ -207,6 +224,18 @@ body {
 		display: block;
 	}
 		
+	.note {
+		background: $lightgray;
+		padding: 1rem;
+		
+		&:before {
+			content: "Note: ";
+			font-weight: bold;
+			font-family: $sans;
+			font-size: .9rem;
+		}
+	}
+	
 	.full {
 		max-width: 100%;
 		margin-bottom: 1rem;

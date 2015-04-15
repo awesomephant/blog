@@ -27,9 +27,18 @@ layout: default
 </article>
 <aside class='aside-full related-post'>
 	<h3 class='aside-name'>Read Next:</h3>
-		{% for post in site.related_posts limit:1 %}
-			<h2 class="related-post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-			{% endfor %}
+		<ul class="post-list">
+		{% for post in site.related_posts limit:3 %}
+			<li>
+			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+			<h2 class='post-title'>{{ post.title }}</h2>
+     		<div class="post-teaser">
+				{{ post.intro }}
+     		</div>
+    		</a>
+      	</li>
+		{% endfor %}
+		</ul>
 </aside>
 <aside class='aside-full ad'>
 	<h3 class='aside-name'>Advertisement</h3>

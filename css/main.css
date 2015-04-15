@@ -76,7 +76,6 @@ body {
 }
 
 .post-list {
-  padding-bottom: 2rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -84,6 +83,16 @@ body {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+  border-bottom: 1px solid #e6e6e6;
+}
+.post-list.home li:first-child {
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+  border-top: 1px solid #e6e6e6;
+}
+.post-list.home li:first-child .post-title {
+  font-size: 2rem;
 }
 @media (min-width: 45rem) {
   .post-list {
@@ -97,17 +106,8 @@ body {
           flex-basis: 100%;
   width: 100%;
   position: relative;
-  border-bottom: 1px solid #e6e6e6;
-  border-right: 1px solid #e6e6e6;
-}
-.post-list li:first-child {
-  -webkit-flex-basis: 100%;
-      -ms-flex-preferred-size: 100%;
-          flex-basis: 100%;
   border-top: 1px solid #e6e6e6;
-}
-.post-list li:first-child .post-title {
-  font-size: 2rem;
+  border-right: 1px solid #e6e6e6;
 }
 @media (min-width: 35rem) {
   .post-list li {
@@ -480,24 +480,15 @@ sup {
 
 .aside-full {
   clear: both;
-  padding: 1rem 5%;
-  border-top: 1px solid #e6e6e6;
-}
-@media (min-width: 45rem) {
-  .aside-full {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
+  margin-top: 2rem;
 }
 
 .ad {
   border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 2rem;
 }
-
-.related-post-title {
-  margin-top: 0;
-  font-family: "museo-sans", "sans-serif";
-  font-size: 2rem;
+.ad iframe {
+  margin-left: 2rem;
 }
 
 .site-footer {
@@ -509,5 +500,6 @@ sup {
   color: #cdcdcd;
   font-family: "museo-sans", "sans-serif";
   font-size: 1.2rem;
-  margin-bottom: .5em;
+  margin-bottom: 1em;
+  padding-left: 2rem;
 }

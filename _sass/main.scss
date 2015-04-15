@@ -74,22 +74,22 @@ body {
 }
 
 .post-list {
-	padding-bottom: 2rem;
 	display: flex;
 	flex-wrap: wrap;
-
-	@include bp(m){
-		font-size: 1.2rem;
-	}
-
-	li {
-		&:first-child {
+	border-bottom: 1px solid $lightgray;
+	&.home li:first-child {
 			flex-basis: 100%;
 			border-top: 1px solid $lightgray;
 			.post-title {
 				font-size: 2rem;
 			}
 		}
+	
+	@include bp(m){
+		font-size: 1.2rem;
+	}
+
+	li {
 		list-style: none;
 		flex-basis: 100%;
 		
@@ -101,7 +101,7 @@ body {
 		}
 		width: 100%;
 		position: relative;
-		border-bottom: 1px solid $lightgray;
+		border-top: 1px solid $lightgray;
 		border-right: 1px solid $lightgray;
 		&:hover, &:focus {
 			text-decoration: none;
@@ -447,26 +447,18 @@ sup {
 
 .aside-full {
 	clear: both;
-	padding: 1rem 5%;
-	border-top: 1px solid $lightgray;
-	
+	margin-top: 2rem;
 	@include bp(m){
-		padding-top: 2rem;
-		padding-bottom: 2rem;
 	}
 }
 
 .ad {
 	border-bottom: 1px solid $lightgray;
-}
+	padding-bottom: 2rem;
 
-.related-post {
-}
-
-.related-post-title {
-	margin-top: 0;
-	font-family: $display;
-	font-size: 2rem;
+	iframe {
+		margin-left: 2rem;
+	}
 }
 
 .site-footer {
@@ -478,5 +470,6 @@ sup {
 	color: darken($lightgray, 10);
 	font-family: $display;
 	font-size: 1.2rem;
-	margin-bottom: .5em;
+	margin-bottom: 1em;
+	padding-left: 2rem;
 }

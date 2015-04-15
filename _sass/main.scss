@@ -23,11 +23,28 @@ body {
 }
 
 .site-header {
-	padding: 2rem 5%;
-	background: url(../assets/bg.svg);
+	padding: 2rem;
+	background: url(../assets/bird.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top center;
+	background-position: center;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		background: rgba($black, .5);
+		@include bp(m){
+			background: rgba($black, .4);
+		}
+		@include bp(l){
+			background: linear-gradient(rgba($black, .2), rgba($black, .35));
+		}
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	
 	@include bp(l){
 		padding-top: 5rem;
 	}
@@ -46,9 +63,11 @@ body {
 	font-family: $display;
 	font-weight: 900;
 	max-width: 30em;
+	color: #fff;
 	margin: 0 auto;
 	line-height: 1.4;
-	margin-bottom: 1em;
+	position: relative;
+	z-index: 10;
 	line-height: 1.3;
 	font-size: 1.6rem;
 	@include bp(m){
@@ -58,8 +77,9 @@ body {
 
 .site-nav {
 	width: 100%;
-	text-align: center;
 	font-family: $sans;
+	position: relative;
+	z-index: 10;
 	a {
 		flex-grow: 1;
 		padding: 1em;
@@ -116,7 +136,7 @@ body {
 		top: 1rem;
 		margin-bottom: .5em;
 		font-family: $sans;
-		color: lighten($black, 15);
+		color: rgba($black, .4);
 		@include bp(s){
 		}
     }

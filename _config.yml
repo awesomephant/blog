@@ -2,7 +2,7 @@
 title: Max Koehler
 description: I’m Max Koehler. This is the story of me trying to become a graphic designer.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://maxkoehler.com" # the base hostname & protocol for your site
 twitter_username: awesomephant
 
 # Build settings

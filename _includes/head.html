@@ -16,6 +16,11 @@
 	<meta property="og:image" content="{% if page.thumb %}{{ page.thumb }}{% endif %}" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 	<meta property="article:author" content="https://www.facebook.com/max.kohler.31392"/>
+	{% if page.id %}
+	<meta property="og:type" content="article" />
+	{% else %}
+	<meta property="og:type" content="website" />
+	{% endif %}
 	
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:creator" content="@awesomephant">

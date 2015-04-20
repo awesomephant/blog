@@ -2,8 +2,7 @@
 layout: post
 title:  "Three ways to talk about design work"
 date:   2015-02-07 12:51:32
-categories: ""
-banner: newusers.svg
+tags: "Thoughts"
 intro: "I had this random thought when I was watching an old interview with Paul Rand."
 ---
 

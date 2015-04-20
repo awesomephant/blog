@@ -20,12 +20,17 @@ body {
 }
 
 .site-header {
-  padding: 2rem;
+  padding: 5%;
   background: url(../assets/banner-2.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+}
+@media (min-width: 45rem) {
+  .site-header {
+    padding: 2rem;
+  }
 }
 @media (min-width: 65rem) {
   .site-header {
@@ -89,21 +94,23 @@ body {
           flex-wrap: wrap;
   border-bottom: 1px solid #e6e6e6;
 }
-.post-list.home li:first-child {
+.post-list.home .post-list-post:first-child {
   -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
   border-top: 1px solid #e6e6e6;
 }
-.post-list.home li:first-child .post-title {
-  font-size: 2rem;
+@media (min-width: 45rem) {
+  .post-list.home .post-list-post:first-child .post-title {
+    font-size: 2rem;
+  }
 }
 @media (min-width: 45rem) {
   .post-list {
     font-size: 1.2rem;
   }
 }
-.post-list li {
+.post-list .post-list-post {
   list-style: none;
   -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
@@ -114,20 +121,20 @@ body {
   border-right: 1px solid #e6e6e6;
 }
 @media (min-width: 35rem) {
-  .post-list li {
+  .post-list .post-list-post {
     -webkit-flex-basis: 50%;
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
   }
 }
 @media (min-width: 45rem) {
-  .post-list li {
+  .post-list .post-list-post {
     -webkit-flex-basis: 33.33%;
         -ms-flex-preferred-size: 33.33%;
             flex-basis: 33.33%;
   }
 }
-.post-list li:hover, .post-list li:focus {
+.post-list .post-list-post:hover, .post-list .post-list-post:focus {
   text-decoration: none;
   background-color: #efeffd;
 }
@@ -168,12 +175,7 @@ body {
 }
 .post-list .post-teaser {
   line-height: 1.5;
-  max-width: 35em;
-}
-
-.post-excerpt {
-  font-weight: normal;
-  line-height: 1.5;
+  margin-bottom: .5em;
 }
 
 .post {
@@ -201,6 +203,7 @@ body {
   padding: 0 5%;
   border-bottom: 1px solid #e6e6e6;
   padding-top: 1em;
+  padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
 @media (min-width: 45rem) {
@@ -226,7 +229,7 @@ body {
 .post-header .post-date {
   color: #b3b3b3;
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: .4em;
 }
 
 .post-main {
@@ -408,6 +411,26 @@ sup {
 .footnotes li a {
   color: inherit;
   text-decoration: underline;
+}
+
+.post-tags {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-tag {
+  display: inline-block;
+  font-family: "Helvetica", sans-serif;
+  color: white;
+  margin-right: .5em;
+  background: #162134;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 2px;
 }
 
 .post-intro {

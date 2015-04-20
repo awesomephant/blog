@@ -8,13 +8,18 @@ layout: default
 <section class='posts'>	
 	  <ul class="post-list home">      
       {% for post in site.posts %}
-    	<li>
+    	<li class='post-list-post'>
 			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-			<date class="post-date">{{ post.date | date: "%B %-d, %Y"}}</date>
+                <date class="post-date">{{ post.date | date: "%B %-d, %Y"}}</date>
     			<h2 class='post-title'>{{ post.title }}</h2>
      		<div class="post-teaser">
 				{{ post.intro }}
      		</div>
+	        <ul class='post-tags'>
+                {% for tag in post.tags %}
+                    <li class='post-tag'>{{ tag | remove: ',' }}</li>
+                {% endfor %}
+            </ul>
     		</a>
       	</li>
 	    {% endfor %}

@@ -2,7 +2,7 @@
 layout: post
 title:  "Here’s my 2015 UCAS Statement."
 date:   2015-02-19 21:51:32
-categories: "University"
+tags: "University, Thoughts"
 thumb: "https://farm8.staticflickr.com/7686/17102210885_044e62da24_b.jpg"
 intro: "Part of the application process at British universities is writing a statement where you explain why you’ve choosen your particular courses. Here’s mine."
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Portfolio for University of East London"
 date: 2015-02-24 12:51:32
-categories: ""
+tags: "University"
 thumb: "https://farm9.staticflickr.com/8598/16698215035_e84caced00_h.jpg"
 intro: "Name: Max Köhler, Applicant ID: 1515354, Course: BA GRAPHIC DESIGN"
 

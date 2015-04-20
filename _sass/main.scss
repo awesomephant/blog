@@ -23,7 +23,10 @@ body {
 }
 
 .site-header {
-	padding: 2rem;
+	padding: 5%;
+    @include bp(m){
+        padding: 2rem;
+    }
 	background: url(../assets/banner-2.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -82,11 +85,13 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	border-bottom: 1px solid $lightgray;
-	&.home li:first-child {
+	&.home .post-list-post:first-child {
 			flex-basis: 100%;
 			border-top: 1px solid $lightgray;
 			.post-title {
-				font-size: 2rem;
+				@include bp(m){
+                    font-size: 2rem;
+                }
 			}
 		}
 
@@ -94,7 +99,7 @@ body {
 		font-size: 1.2rem;
 	}
 
-	li {
+	.post-list-post {
 		list-style: none;
 		flex-basis: 100%;
 
@@ -155,13 +160,8 @@ body {
 
 	.post-teaser {
 		line-height: 1.5;
-		max-width: 35em;
+        margin-bottom: .5em;
 	}
-}
-
-.post-excerpt {
-	font-weight: normal;
-	line-height: 1.5;
 }
 
 .post {
@@ -182,6 +182,7 @@ body {
 	padding: 0 5%;
 	border-bottom: 1px solid $lightgray;
 	padding-top: 1em;
+    padding-bottom: 1rem;
 	margin-bottom: 2rem;
 	@include bp(m){
 		margin-bottom: 3rem;
@@ -200,8 +201,8 @@ body {
 	.post-date {
 		color: darken($lightgray, 20);
 		font-size: 1rem;
-		margin-bottom: 1rem;
-	}
+        margin-bottom: .4em;
+    }
 }
 
 .post-main {
@@ -398,6 +399,23 @@ sup {
 			text-decoration: underline;
 		}
 	}
+}
+
+.post-tags {
+    list-style: none;
+    display: flex;
+}
+
+.post-tag {
+    display: inline-block;
+    font-family: $sans;
+    color: white;
+    margin-right: .5em;
+    background: $blue-dark;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 2px;
 }
 
 .post-intro {

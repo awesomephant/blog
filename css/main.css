@@ -21,31 +21,11 @@ body {
 
 .site-header {
   padding: 2rem;
-  background: url(../assets/bird.jpg);
+  background: url(../assets/banner-2.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-}
-.site-header:before {
-  content: '';
-  position: absolute;
-  background: rgba(19, 28, 37, 0.5);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-@media (min-width: 45rem) {
-  .site-header:before {
-    background: rgba(19, 28, 37, 0.4);
-  }
-}
-@media (min-width: 65rem) {
-  .site-header:before {
-    background: -webkit-linear-gradient(rgba(19, 28, 37, 0.2), rgba(19, 28, 37, 0.35));
-    background: linear-gradient(rgba(19, 28, 37, 0.2), rgba(19, 28, 37, 0.35));
-  }
 }
 @media (min-width: 65rem) {
   .site-header {

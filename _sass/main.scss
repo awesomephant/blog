@@ -24,31 +24,16 @@ body {
 
 .site-header {
 	padding: 2rem;
-	background: url(../assets/bird.jpg);
+	background: url(../assets/banner-2.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
-	&:before {
-		content: '';
-		position: absolute;
-		background: rgba($black, .5);
-		@include bp(m){
-			background: rgba($black, .4);
-		}
-		@include bp(l){
-			background: linear-gradient(rgba($black, .2), rgba($black, .35));
-		}
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-	}
-	
+
 	@include bp(l){
 		padding-top: 5rem;
 	}
-	
+
 	.header-home & {
 		background-position: bottom center;
 		padding-top: 20vw;
@@ -86,7 +71,7 @@ body {
 		font-size: .9rem;
 		display: inline-block;
 		text-align: center;
-		
+
 		&:last-of-type {
 			border-right: none;
 		}
@@ -104,7 +89,7 @@ body {
 				font-size: 2rem;
 			}
 		}
-	
+
 	@include bp(m){
 		font-size: 1.2rem;
 	}
@@ -112,7 +97,7 @@ body {
 	li {
 		list-style: none;
 		flex-basis: 100%;
-		
+
 		@include bp(s){
 			flex-basis: 50%;
 		}
@@ -128,7 +113,7 @@ body {
 			background-color: lighten($blue, 48);
 		}
 	}
-    
+
     .post-date {
         font-size: .9rem;
 		display: block;
@@ -140,7 +125,7 @@ body {
 		@include bp(s){
 		}
     }
-    
+
 	.post-link {
 		display: block;
 		padding-left: 5%;
@@ -159,7 +144,7 @@ body {
 			text-decoration: none;
 		}
 	}
-	
+
 	.post-title {
         font-size: 1.3rem;
 		line-height: 1.55;
@@ -167,7 +152,7 @@ body {
 		font-family: $display;
 		margin-bottom: .25em;
 	}
-	
+
 	.post-teaser {
 		line-height: 1.5;
 		max-width: 35em;
@@ -224,7 +209,7 @@ body {
 	line-height: 1.53;
 	font-size: 1.1rem;
 	color: rgb(60,60,60);
-	
+
 	@include bp(l){
 		width: 85%;
 		margin-left: 0%;
@@ -233,12 +218,12 @@ body {
 		max-width: 40rem;
 		margin-bottom: 1rem;
 	}
-	
+
 	li {
 		margin-left: 1rem;
 		margin-bottom: 1rem;
 	}
-	
+
 	h2 {
 		font-family: $display;
 		font-weight: 700;
@@ -246,16 +231,16 @@ body {
 		margin-bottom: .5rem;
 		margin-top: 1rem;
 	}
-	
+
 	img, iframe {
 		max-width: 100%;
 		display: block;
 	}
-		
+
 	.note {
 		background: $lightgray;
 		padding: 1rem;
-		
+
 		&:before {
 			content: "Note: ";
 			font-weight: bold;
@@ -263,7 +248,7 @@ body {
 			font-size: .9rem;
 		}
 	}
-	
+
 	.full {
 		max-width: 100%;
 		margin-bottom: 1rem;
@@ -271,10 +256,10 @@ body {
 			max-width: calc(40rem + 10%);
 			position: relative;
 			left: -5%;
-	
+
 		}
 	}
-	
+
 	.aside {
 		border-radius: 4px;
 		padding: 1rem;
@@ -289,11 +274,11 @@ body {
 			float: left;
 			margin-bottom: -1rem;
 		}
-		
+
 		@include bp(l){
 			margin-left: -3em;
 		}
-				
+
 		img {
 			width: calc(100% + 2rem);
 			max-width: none;
@@ -301,15 +286,15 @@ body {
 			margin-top: -1rem;
 			height: auto;
 		}
-		
+
 		a {
 			display: block;
 			position: relative;
-			
+
 			&:hover, &:focus {
 				text-decoration: none;
 			}
-			
+
 			&:before {
 				position: absolute;
 				bottom: .2rem;
@@ -327,7 +312,7 @@ body {
 				letter-spacing: .05em;
 
 			}
-			
+
 			&[href*=jpg]:before, &[href*=svg]:before, &[href*=png]:before, &[href*=flickr]:before{
 				content: "Image";
 				background: $lightgray;
@@ -340,7 +325,7 @@ body {
 				content: "Video";
 				background: $lightgray;
 			}
-			
+
 			&:after {
 				content: attr(href);
 				display: block;
@@ -363,13 +348,13 @@ body {
 }
 
 .gallery {
-	list-style: none;	
+	list-style: none;
 	li {
 		display: block;
 		margin-bottom: 4rem;
 		margin-left: 0;
 		max-width: 100%;
-		
+
 		.desc {
 			margin-bottom: 0;
 			padding: .5rem 0;
@@ -377,7 +362,7 @@ body {
 			font-family: $sans;
 			color: darken($lightgray, 45);
 		}
-		
+
 		img {
 			display: block;
 			width: auto;
@@ -400,11 +385,11 @@ sup {
 	font-family: $sans;
 	font-size: .9rem;
 	max-width: 30em;
-	
+
 	ol {
 		margin-left: 1rem;
 	}
-	
+
 	li {
 		list-style: outside decimal;
 		margin-bottom: 1em;
@@ -439,24 +424,24 @@ sup {
 		justify-content: flex-start;
 		padding-left: 5%;
 	}
-	
+
 }
 
 .post-aside {
 	padding: 1rem 5%;
 	font-family: $sans;
 	font-weight: 300;
-	color: gray;	
+	color: gray;
 	font-size: 1.1rem;
 	flex-basis: 200px;
 	@include bp(m){
 		float: left;
 	}
-	
+
 	@include bp(l){
 		padding: 0;
 	}
-	
+
 	section {
 		margin-bottom: 1rem;
 	}
@@ -467,7 +452,7 @@ sup {
 		list-style: none;
 		font-size: 1rem;
 	}
-	
+
 	li {
 		margin-bottom: .25em;
 	}
@@ -484,7 +469,7 @@ sup {
 	border-bottom: 1px solid $lightgray;
 	padding-bottom: 2rem;
 	overflow-x: hidden;
-	
+
 	.ad-container {
 		@include bp(s){
 			padding-left: 2rem;

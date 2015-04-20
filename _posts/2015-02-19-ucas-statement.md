@@ -8,7 +8,7 @@ intro: "Part of the application process at British universities is writing a sta
 ---
 
 <p class='full note'>
-	Apparently this statement isn't completely awful. Since this post was published, I got multiple offers, including one from Camberwell College of Arts (Part of the University if the Arts London) were I will start studying graphic design in September 2015.
+	Apparently this statement isn't completely awful. Since this post was published, I got multiple offers, including one from Camberwell College of Arts (Part of the University of the Arts London) were I will start studying graphic design in September 2015.
 </p>
 
 When people ask why I want to go into graphic design, I always end up telling the same story.
@@ -20,7 +20,7 @@ The twist happens when I get to the part of the story where we get back to the c
 <figure class='full'>
 	<img src="https://farm8.staticflickr.com/7686/17102210885_044e62da24_b.jpg" alt="2014 London Tube Map"/>
 	<figcaption>2014 London Tube Map</figcaption>
-</figure>	
+</figure>
 
 This is probably where I should end the story, but I usually can't help but talk about Harry Beck's tube map, or Johnston Sans, or colour theory while my audience slowly backs away.
 

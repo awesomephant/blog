@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="header-home">
-	{% include header.html %}	
+	{% include header.html %}
 </div>
-<section class='posts'>	
-	  <ul class="post-list home">      
+<section class='posts'>
+	  <ul class="post-list home">
       {% for post in site.posts %}
     	<li class='post-list-post'>
 			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -15,11 +15,7 @@ layout: default
      		<div class="post-teaser">
 				{{ post.intro }}
      		</div>
-	        <ul class='post-tags'>
-                {% for tag in post.tags %}
-                    <li class='post-tag'>{{ tag | remove: ',' }}</li>
-                {% endfor %}
-            </ul>
+	     	{% include tags.html %}
     		</a>
       	</li>
 	    {% endfor %}

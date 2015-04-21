@@ -8,11 +8,7 @@ layout: default
 			{{page.intro}}
 		</p>
 		<p class='post-date'>Published <date>{{ page.date | date: "%B %-d, %Y"}}</date> in</p>
-		<ul class='post-tags'>
-                {% for tag in page.tags %}
-                    <li class='post-tag'>{{ tag | remove: ',' }}</li>
-                {% endfor %}
-        </ul>
+		{% include tags.html %}
 	</header>
    	<div class='post-content'>
       	<aside class='post-aside'>

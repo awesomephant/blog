@@ -178,16 +178,18 @@ body {
 
 .post-header {
 	font-family: $display;
-	font-size: 8vw;
+	font-size: 2rem;
 	padding: 0 5%;
 	border-bottom: 1px solid $lightgray;
-	padding-top: 1em;
+	padding-top: 2em;
     padding-bottom: 1rem;
 	margin-bottom: 2rem;
 	@include bp(m){
 		margin-bottom: 3rem;
 	}
 	@include bp(l){
+		font-size: 8vw;
+		padding-top: 1em;
 		margin-bottom: 3.5rem;
 	}
 	.post-title {
@@ -206,17 +208,14 @@ body {
 }
 
 .post-main {
-	padding: 0 5%;
 	line-height: 1.53;
-	font-size: 1.1rem;
+	font-size: 1.15rem;
 	color: rgb(60,60,60);
+	max-width: 50rem;
 
-	@include bp(l){
-		width: 85%;
-		margin-left: 0%;
-	}
 	p, ul, ol, .gist {
-		max-width: 40rem;
+		width: 90%;
+		margin: 0 auto;
 		margin-bottom: 1rem;
 	}
 
@@ -234,14 +233,12 @@ body {
 	}
 
 	img, iframe {
-		max-width: 100%;
+		width: 100%;
 		display: block;
 	}
 
 	.note {
-		background: $lightgray;
-		padding: 1rem;
-
+		color: rgb(120,120,120);
 		&:before {
 			content: "Note: ";
 			font-weight: bold;
@@ -253,12 +250,6 @@ body {
 	.full {
 		max-width: 100%;
 		margin-bottom: 1rem;
-		@include bp(m){
-			max-width: calc(40rem + 10%);
-			position: relative;
-			left: -5%;
-
-		}
 	}
 
 	.aside {
@@ -439,42 +430,12 @@ sup {
 	@include bp(l){
 		display: flex;
 		flex-direction: row;
-		justify-content: flex-start;
+		justify-content: center;
 		padding-left: 5%;
 	}
 
 }
 
-.post-aside {
-	padding: 1rem 5%;
-	font-family: $sans;
-	font-weight: 300;
-	color: gray;
-	font-size: 1.1rem;
-	flex-basis: 200px;
-	@include bp(m){
-		float: left;
-	}
-
-	@include bp(l){
-		padding: 0;
-	}
-
-	section {
-		margin-bottom: 1rem;
-	}
-}
-
-.share {
-	ul {
-		list-style: none;
-		font-size: 1rem;
-	}
-
-	li {
-		margin-bottom: .25em;
-	}
-}
 
 .aside-full {
 	clear: both;

@@ -199,10 +199,10 @@ body {
 
 .post-header {
   font-family: "museo-sans", "sans-serif";
-  font-size: 8vw;
+  font-size: 2rem;
   padding: 0 5%;
   border-bottom: 1px solid #e6e6e6;
-  padding-top: 1em;
+  padding-top: 2em;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
@@ -213,6 +213,8 @@ body {
 }
 @media (min-width: 65rem) {
   .post-header {
+    font-size: 8vw;
+    padding-top: 1em;
     margin-bottom: 3.5rem;
   }
 }
@@ -233,19 +235,14 @@ body {
 }
 
 .post-main {
-  padding: 0 5%;
   line-height: 1.53;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   color: #3c3c3c;
-}
-@media (min-width: 65rem) {
-  .post-main {
-    width: 85%;
-    margin-left: 0%;
-  }
+  max-width: 50rem;
 }
 .post-main p, .post-main ul, .post-main ol, .post-main .gist {
-  max-width: 40rem;
+  width: 90%;
+  margin: 0 auto;
   margin-bottom: 1rem;
 }
 .post-main li {
@@ -260,12 +257,11 @@ body {
   margin-top: 1rem;
 }
 .post-main img, .post-main iframe {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .post-main .note {
-  background: #e6e6e6;
-  padding: 1rem;
+  color: #787878;
 }
 .post-main .note:before {
   content: "Note: ";
@@ -276,13 +272,6 @@ body {
 .post-main .full {
   max-width: 100%;
   margin-bottom: 1rem;
-}
-@media (min-width: 45rem) {
-  .post-main .full {
-    max-width: calc(40rem + 10%);
-    position: relative;
-    left: -5%;
-  }
 }
 .post-main .aside {
   border-radius: 4px;
@@ -474,44 +463,12 @@ sup {
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-left: 5%;
   }
-}
-
-.post-aside {
-  padding: 1rem 5%;
-  font-family: "Helvetica", sans-serif;
-  font-weight: 300;
-  color: gray;
-  font-size: 1.1rem;
-  -webkit-flex-basis: 200px;
-      -ms-flex-preferred-size: 200px;
-          flex-basis: 200px;
-}
-@media (min-width: 45rem) {
-  .post-aside {
-    float: left;
-  }
-}
-@media (min-width: 65rem) {
-  .post-aside {
-    padding: 0;
-  }
-}
-.post-aside section {
-  margin-bottom: 1rem;
-}
-
-.share ul {
-  list-style: none;
-  font-size: 1rem;
-}
-.share li {
-  margin-bottom: .25em;
 }
 
 .aside-full {

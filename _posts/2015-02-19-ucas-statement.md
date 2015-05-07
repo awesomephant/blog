@@ -7,8 +7,8 @@ thumb: "https://farm8.staticflickr.com/7686/17102210885_044e62da24_b.jpg"
 intro: "Part of the application process at British universities is writing a statement where you explain why you’ve choosen your particular courses. Here’s mine."
 ---
 
-<p class='full note'>
-	Apparently this statement isn't completely awful. Since this post was published, I got multiple offers, including one from Camberwell College of Arts (Part of the University of the Arts London) were I will start studying graphic design in September 2015.
+<p class='note'>
+	Since this post was published, I got multiple offers, including one from Camberwell College of Arts (Part of the University of the Arts London) were I will start studying graphic design in September 2015.
 </p>
 
 When people ask why I want to go into graphic design, I always end up telling the same story.

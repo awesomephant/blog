@@ -3,24 +3,13 @@ layout: default
 ---
 <article class='post'>
 	<header class="post-header">
+		<p class='post-date'>Published <date>{{ page.date | date: "%B %-d, %Y"}}</date> in</p>
 		<h1 class="post-title">{{ page.title }}</h1>
 		<p class="post-intro">
 			{{page.intro}}
 		</p>
-		<p class='post-date'>Published <date>{{ page.date | date: "%B %-d, %Y"}}</date> in</p>
-		{% include tags.html %}
 	</header>
    	<div class='post-content'>
-      	<aside class='post-aside'>
-   		<section class='share'>
- 			<ul>
- 				<li>Share This:</li>
- 				<li><a href="http://twitter.com/intent/tweet?url=http://www.maxkoehler.com{{ page.url | uri_escape }}&text={{ page.title | uri_escape }}&via=awesomephant">Twitter</a></li>
- 				<li><a href="http://www.facebook.com/sharer.php?u=http://www.maxkoehler.com{{ page.url | uri_escape }}&t={{ page.title | uri_escape }}">Facebook</a></li>
- 				<li><a href="https://plus.google.com/share?url=http://www.maxkoehler.com{{ page.url | uri_escape }}">Google+</a></li>
- 			</ul>
-		</section>
-	</aside>
       	<main class='post-main'>
     	{{ content }}
 		</main>
@@ -40,20 +29,5 @@ layout: default
       	</li>
 		{% endfor %}
 		</ul>
-</aside>
-<aside class='aside-full ad'>
-	<h3 class='aside-name'>Advertisement</h3>
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<div class="ad-container">
-		<!-- post responsive -->
-		<ins class="adsbygoogle"
-    		 style="display:block"
- 	  		 data-ad-client="ca-pub-9106872314967448"
-		     data-ad-slot="7394858816"
-		     data-ad-format="auto"></ins>
-		<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-	</div>
 </aside>
 {% include header.html %}

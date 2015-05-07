@@ -332,10 +332,13 @@ body {
 	}
 
 	figcaption {
-		color: darken($lightgray, 40);
 		font-size: .8rem;
 		padding-top: .5rem;
 		font-family: $sans;
+		padding-left: 5%;
+		@include bp(m){
+			padding-left: 0;
+		}
 	}
 }
 

@@ -347,10 +347,15 @@ body {
   font-size: 14px;
 }
 .post-main figcaption {
-  color: gray;
   font-size: .8rem;
   padding-top: .5rem;
   font-family: "Helvetica", sans-serif;
+  padding-left: 5%;
+}
+@media (min-width: 45rem) {
+  .post-main figcaption {
+    padding-left: 0;
+  }
 }
 
 .gallery {

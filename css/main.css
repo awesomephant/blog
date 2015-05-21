@@ -80,7 +80,7 @@ body {
   -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #131c25;
 }
 @media (min-width: 45rem) {
   .post-list.home .post-list-post:first-child .post-title {

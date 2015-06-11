@@ -7,17 +7,24 @@ layout: default
 </div>
 <section class='posts'>
 	  <ul class="post-list home">
-      {% for post in site.posts %}
-    	<li class='post-list-post'>
+		{% for post in site.posts %}
+
+    	{% capture day %}{{ post.date | date: '%Y' }}{% endcapture %}
+    	{% capture nday %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+
+    	{% if day != nday %}
+    	    <li class="date">
+				<canvas class='date-bg'></canvas>
+				<h3>{{ post.date | date: "%Y" }}</h3>
+			</li>
+    	{% endif %}
+		<li class='post-list-post'>
 			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                <date class="post-date">{{ post.date | date: "%B %-d, %Y"}}</date>
-    			<h2 class='post-title'>{{ post.title }}</h2>
-     		<div class="post-teaser">
-				{{ post.intro }}
-     		</div>
-	     	{% include tags.html %}
-    		</a>
-      	</li>
-	    {% endfor %}
+				<date class="post-date">{{ post.date | date: "%B %-d, %Y"}}</date>
+				<h2 class='post-title'>{{ post.title }}</h2>
+			</a>
+		</li>
+	{% endfor %}
+
 	  </ul>
 </section>

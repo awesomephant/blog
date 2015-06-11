@@ -6,12 +6,12 @@
 }
 
 a {
-  color: #2121d6;
+  color: #6372ff;
   text-decoration: none;
 }
 a:hover, a:focus {
   text-decoration: underline;
-  color: #4747e3;
+  color: #96a0ff;
 }
 
 body {
@@ -19,15 +19,13 @@ body {
   color: #131c25;
 }
 
-.site-header {
-  padding: 5% 2rem;
-  position: relative;
-  height: 200px;
+.header-home {
+  border-bottom: 1px solid #131c25;
 }
-.site-header canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+.site-header {
+  padding: 2rem 2rem;
+  position: relative;
 }
 
 .site-title {
@@ -36,14 +34,13 @@ body {
 
 .site-story {
   font-family: "museo-sans", "sans-serif";
-  font-weight: 900;
   max-width: 30em;
   color: #131c25;
   line-height: 1.4;
   position: relative;
   z-index: 10;
   line-height: 1.3;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .site-nav {
@@ -76,23 +73,37 @@ body {
           flex-wrap: wrap;
   border-bottom: 1px solid #e6e6e6;
 }
-.post-list.home .post-list-post:first-child {
-  -webkit-flex-basis: 100%;
-      -ms-flex-preferred-size: 100%;
-          flex-basis: 100%;
-  border-top: 1px solid #131c25;
-}
-@media (min-width: 45rem) {
-  .post-list.home .post-list-post:first-child .post-title {
-    font-size: 2rem;
-  }
-}
 @media (min-width: 45rem) {
   .post-list {
     font-size: 1.2rem;
   }
 }
-.post-list .post-list-post {
+.post-list .date {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 2.5rem;
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  overflow: hidden;
+}
+@media (min-width: 35rem) {
+  .post-list .date {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+.post-list .date h3 {
+  z-index: 20;
+  position: relative;
+  font-weight: normal;
+}
+.post-list .date canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.post-list li {
   list-style: none;
   -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
@@ -100,25 +111,6 @@ body {
   width: 100%;
   position: relative;
   border-top: 1px solid #e6e6e6;
-  border-right: 1px solid #e6e6e6;
-}
-@media (min-width: 35rem) {
-  .post-list .post-list-post {
-    -webkit-flex-basis: 50%;
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%;
-  }
-}
-@media (min-width: 45rem) {
-  .post-list .post-list-post {
-    -webkit-flex-basis: 33.33%;
-        -ms-flex-preferred-size: 33.33%;
-            flex-basis: 33.33%;
-  }
-}
-.post-list .post-list-post:hover, .post-list .post-list-post:focus {
-  text-decoration: none;
-  background-color: #efeffd;
 }
 .post-list .post-date {
   font-size: .9rem;
@@ -136,7 +128,6 @@ body {
   padding-top: 2rem;
   padding-bottom: 2rem;
   position: relative;
-  color: #131c25;
   height: 100%;
 }
 @media (min-width: 35rem) {
@@ -147,11 +138,13 @@ body {
 }
 .post-list .post-link:hover, .post-list .post-link:focus {
   text-decoration: none;
+  background-color: #f7f7f7;
+  text-decoration: none;
 }
 .post-list .post-title {
-  font-size: 1.3rem;
+  color: #1E2D40;
+  font-size: 1.4rem;
   line-height: 1.55;
-  font-weight: 700;
   font-family: "museo-sans", "sans-serif";
   margin-bottom: .25em;
 }

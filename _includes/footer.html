@@ -4,8 +4,7 @@ var bg;
 var COLORS = [
 	'#0edeb5',
 	'#3fd9ff',
-	'#ffff5e',
-	'#6372ff'
+	'#ffff5e'
 ];
 
 var COLORS_BG = [
@@ -15,30 +14,29 @@ var COLORS_BG = [
 	//'#d2e8f1',
 ]
 
-function getRandomInt(min, max) {
-	return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+var draw = function(el){
+	el.width = document.documentElement.clientWidth || document.body.clientWidth;;
+	el.height = 200;
+	bg = el.getContext('2d');
 
-var init = function() {
-	canvas = document.getElementById('header-bg');
-	canvas.width = document.documentElement.clientWidth || document.body.clientWidth;;
-	canvas.height = 200;
-	bg = canvas.getContext('2d');
+	bg.globalCompositeOperation = "multiply";
 
-	var radius = getRandomInt(10, 30);
-	var distance = radius * 2.8 * getRandomInt(1.2, 1.5);
+	var radius = getRandomInt(8, 20);
+	var distance = radius * 2.5 * getRandomInt(1.1, 1.2);
 	var angle = getRandomInt(1, 12);
 	var x = 0;
 	var y = 0;
+	var offset = getRandomInt(3, 10);
+
 
 	bg.fillStyle = COLORS_BG[getRandomInt(0, COLORS_BG.length - 1)];
 
-	bg.fillRect(0, 0, canvas.width, canvas.height)
+	bg.fillRect(0, 0, el.width, el.height)
 
 	bg.fillStyle = COLORS[getRandomInt(0, COLORS.length - 1)];
 
-	for (var i = 0; y < canvas.height + 500; i++) {
-			for (var j = 0; x < canvas.width + 200; j++) {
+	for (var i = 0; y < el.height + 500; i++) {
+			for (var j = 0; x < el.width + 200; j++) {
 					var x = distance * j;
 					bg.beginPath();
 					bg.arc(x, y - angle * j, radius, 0, 2 * Math.PI);
@@ -46,6 +44,17 @@ var init = function() {
 			}
 			y += distance;
 			x = 0;
+	}
+}
+
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+var init = function() {
+	var els = document.getElementsByClassName('date-bg');
+	for (var a = 0; a < els.length; a++){
+		draw(els[a]);
 	}
 }
 

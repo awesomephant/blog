@@ -22,16 +22,13 @@ body {
 	color: $black;
 }
 
-.site-header {
-	padding: 5% 2rem;
-	position: relative;
-	height: 200px;
+.header-home {
+	border-bottom: 1px solid $black;
+}
 
-	canvas {
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
+.site-header {
+	padding: 2rem 2rem;
+	position: relative;
 }
 
 .site-title {
@@ -40,14 +37,13 @@ body {
 
 .site-story {
 	font-family: $display;
-	font-weight: 900;
 	max-width: 30em;
 	color: $black;
 	line-height: 1.4;
 	position: relative;
 	z-index: 10;
 	line-height: 1.3;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .site-nav {
@@ -72,38 +68,43 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	border-bottom: 1px solid $lightgray;
-	&.home .post-list-post:first-child {
-			flex-basis: 100%;
-			border-top: 1px solid $black;
-			.post-title {
-				@include bp(m){
-                    font-size: 2rem;
-                }
-			}
-		}
-
 	@include bp(m){
 		font-size: 1.2rem;
 	}
 
-	.post-list-post {
+	.date {
+		padding-left: 5%;
+		padding-right: 5%;
+		font-size: 2.5rem;
+		position: relative;
+		@include bp(s){
+			padding-left: 2rem;
+			padding-right: 2rem;
+		}
+
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		overflow: hidden;
+
+		h3 {
+			z-index: 20;
+			position: relative;
+			font-weight: normal;
+		}
+
+		canvas {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	li {
 		list-style: none;
 		flex-basis: 100%;
-
-		@include bp(s){
-			flex-basis: 50%;
-		}
-		@include bp(m){
-			flex-basis: 33.33%;
-		}
 		width: 100%;
 		position: relative;
 		border-top: 1px solid $lightgray;
-		border-right: 1px solid $lightgray;
-		&:hover, &:focus {
-			text-decoration: none;
-			background-color: lighten($blue, 48);
-		}
 	}
 
     .post-date {
@@ -118,11 +119,12 @@ body {
 		}
     }
 
+
 	.post-link {
 		display: block;
 		padding-left: 5%;
 		padding-right: 5%;
-			@include bp(s){
+		@include bp(s){
 			padding-left: 2rem;
 			padding-right: 2rem;
 		}
@@ -130,17 +132,18 @@ body {
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 		position: relative;
-		color: $black;
 		height: 100%;
 		&:hover, &:focus {
+			text-decoration: none;
+			background-color: darken(#fff, 3);
 			text-decoration: none;
 		}
 	}
 
 	.post-title {
-        font-size: 1.3rem;
+		color: $midnight;
+        font-size: 1.4rem;
 		line-height: 1.55;
-		font-weight: 700;
 		font-family: $display;
 		margin-bottom: .25em;
 	}

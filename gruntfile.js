@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 			livereload: false,
 		},
 		main: {
-			files: ['*/*.scss', './_layouts/*.html', './_includes/*.html', '*.html', './_posts/*.md', './_drafts/*.md'],
+			files: ['*/*.scss', './_layouts/*.html', './_includes/*.html', '*.html', './_posts/*.md', './_drafts/*.md', './assets/**/*'],
 			tasks: ['default'],
 		}
 	},
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 			command : 'jekyll build --drafts'
 		}
 	},
-	
+
 	sass: {
 		dist: {
 			options: {
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
 			dest: 'css'
 		},
 	},
-		
+
 	imagemin: {                          // Task
 		dynamic: {                         // Another target
 			files: [{
@@ -62,8 +62,8 @@ module.exports = function(grunt) {
 				watchTask: true // < VERY important
 			}
 		}
-	}	
-		
+	}
+
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
@@ -74,7 +74,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-autoprefixer');
 
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
-	
+
 	grunt.registerTask('default', ['sass', 'autoprefixer', 'shell:jekyllBuild']);
 	grunt.registerTask('up', ['browserSync', 'watch']);
 

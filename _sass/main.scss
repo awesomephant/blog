@@ -22,13 +22,18 @@ body {
 	color: $black;
 }
 
-.header-home {
-	border-bottom: 1px solid $black;
-}
-
 .site-header {
 	padding: 2rem 2rem;
-	position: relative;
+	color: $midnight;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+
+	.twitter {
+		font-family: $sans;
+		color: $blue;
+		font-size: 14px;
+	}
 }
 
 .site-title {
@@ -38,8 +43,8 @@ body {
 .site-story {
 	font-family: $display;
 	max-width: 30em;
-	color: $black;
 	line-height: 1.4;
+	color: $midnight;
 	position: relative;
 	z-index: 10;
 	line-height: 1.3;
@@ -67,6 +72,7 @@ body {
 .post-list {
 	display: flex;
 	flex-wrap: wrap;
+	color: $midnight;
 	border-bottom: 1px solid $lightgray;
 	@include bp(m){
 		font-size: 1.2rem;
@@ -85,6 +91,8 @@ body {
 		padding-top: 3rem;
 		padding-bottom: 3rem;
 		overflow: hidden;
+		border-top: 1px solid $midnight;
+		border-bottom:1px solid $midnight;
 
 		h3 {
 			z-index: 20;

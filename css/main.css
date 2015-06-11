@@ -16,16 +16,29 @@ a:hover, a:focus {
 
 body {
   font-family: "Georgia", "serif";
-  color: #131c25;
-}
-
-.header-home {
-  border-bottom: 1px solid #131c25;
+  color: #182434;
 }
 
 .site-header {
   padding: 2rem 2rem;
-  position: relative;
+  color: #203045;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.site-header .twitter {
+  font-family: "Helvetica", sans-serif;
+  color: #6372ff;
+  font-size: 14px;
 }
 
 .site-title {
@@ -35,8 +48,8 @@ body {
 .site-story {
   font-family: "museo-sans", "sans-serif";
   max-width: 30em;
-  color: #131c25;
   line-height: 1.4;
+  color: #203045;
   position: relative;
   z-index: 10;
   line-height: 1.3;
@@ -71,6 +84,7 @@ body {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+  color: #203045;
   border-bottom: 1px solid #e6e6e6;
 }
 @media (min-width: 45rem) {
@@ -86,6 +100,8 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   overflow: hidden;
+  border-top: 1px solid #203045;
+  border-bottom: 1px solid #203045;
 }
 @media (min-width: 35rem) {
   .post-list .date {
@@ -119,7 +135,7 @@ body {
   top: 1rem;
   margin-bottom: .5em;
   font-family: "Helvetica", sans-serif;
-  color: rgba(19, 28, 37, 0.4);
+  color: rgba(24, 36, 52, 0.4);
 }
 .post-list .post-link {
   display: block;
@@ -142,7 +158,7 @@ body {
   text-decoration: none;
 }
 .post-list .post-title {
-  color: #1E2D40;
+  color: #203045;
   font-size: 1.4rem;
   line-height: 1.55;
   font-family: "museo-sans", "sans-serif";
@@ -164,7 +180,7 @@ body {
      -moz-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
-  color: #131c25;
+  color: #182434;
 }
 @media (min-width: 65rem) {
   .post {
@@ -287,7 +303,7 @@ body {
   position: absolute;
   bottom: .2rem;
   right: .5rem;
-  color: #131c25;
+  color: #182434;
   font-family: "Helvetica", sans-serif;
   font-weight: bold;
   padding: .4em .5em;

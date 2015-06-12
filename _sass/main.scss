@@ -26,13 +26,21 @@ body {
 	padding: 2rem 2rem;
 	color: $midnight;
 	display: flex;
-	align-items: baseline;
+	flex-direction: column;
+    @include bp(m){
+        flex-direction: row;
+    }
+    align-items: baseline;
 	justify-content: space-between;
 
 	.twitter {
 		font-family: $sans;
 		color: $blue;
 		font-size: 14px;
+        margin-top: 1em;
+        @include bp(m){
+            margin-top: 0;
+        }
 	}
 }
 
@@ -116,9 +124,11 @@ body {
 	}
 
 	.related-post & li{
-		flex-basis: 33.33%;
-		border-right: 1px solid $lightgray;
-	}
+        @include bp(m){
+    		flex-basis: 33.33%;
+    		border-right: 1px solid $lightgray;
+        }
+    }
 
     .post-date {
         font-size: .9rem;
@@ -180,7 +190,8 @@ body {
 }
 
 .post-thumb {
-    width: 100%;
+    width: 95%;
+    display: block;
     margin-bottom: 1rem;
 }
 

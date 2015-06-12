@@ -22,23 +22,26 @@ body {
 .site-header {
   padding: 2rem 2rem;
   color: #203045;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-  -webkit-align-items: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+}
+@media (min-width: 45rem) {
+  .site-header {
+    flex-direction: row;
+  }
 }
 .site-header .twitter {
   font-family: "Helvetica", sans-serif;
   color: #6372ff;
   font-size: 14px;
+  margin-top: 1em;
+}
+@media (min-width: 45rem) {
+  .site-header .twitter {
+    margin-top: 0;
+  }
 }
 
 .site-title {
@@ -63,10 +66,7 @@ body {
   z-index: 10;
 }
 .site-nav a {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   padding: 1em;
   font-size: .9rem;
   display: inline-block;
@@ -77,13 +77,8 @@ body {
 }
 
 .post-list {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  flex-wrap: wrap;
   color: #203045;
   border-bottom: 1px solid #e6e6e6;
 }
@@ -121,18 +116,16 @@ body {
 }
 .post-list li {
   list-style: none;
-  -webkit-flex-basis: 100%;
-      -ms-flex-preferred-size: 100%;
-          flex-basis: 100%;
+  flex-basis: 100%;
   width: 100%;
   position: relative;
   border-top: 1px solid #e6e6e6;
 }
-.related-post .post-list li {
-  -webkit-flex-basis: 33.33%;
-      -ms-flex-preferred-size: 33.33%;
-          flex-basis: 33.33%;
-  border-right: 1px solid #e6e6e6;
+@media (min-width: 45rem) {
+  .related-post .post-list li {
+    flex-basis: 33.33%;
+    border-right: 1px solid #e6e6e6;
+  }
 }
 .post-list .post-date {
   font-size: .9rem;
@@ -179,13 +172,8 @@ body {
   font-size: 1rem;
   line-height: 1.54;
   text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "liga" 1;
-     -moz-font-feature-settings: "liga" 1;
-          font-feature-settings: "liga" 1;
-  -webkit-hyphens: auto;
-     -moz-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  font-feature-settings: "liga" 1;
+  hyphens: auto;
   color: #182434;
 }
 @media (min-width: 65rem) {
@@ -195,7 +183,8 @@ body {
 }
 
 .post-thumb {
-  width: 100%;
+  width: 95%;
+  display: block;
   margin-bottom: 1rem;
 }
 
@@ -411,9 +400,6 @@ sup {
 
 .post-tags {
   list-style: none;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -443,16 +429,9 @@ sup {
 }
 
 .post-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-  -webkit-flex-direction: column-reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 @media (min-width: 45rem) {
   .post-content {
@@ -498,3 +477,5 @@ sup {
     padding-left: 2rem;
   }
 }
+
+/*# sourceMappingURL=main.css.map */

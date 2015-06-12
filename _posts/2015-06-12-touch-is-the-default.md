@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Touch is the Default"
+title:  "Touch is the Baseline"
 date:   2015-06-12 14:01:32
 tags: "Thoughts"
 thumb: "https://farm1.staticflickr.com/309/18559540749_c59366e7f2_b.jpg"
@@ -18,7 +18,7 @@ This idea isn’t new. It’s a widely adopted pattern across mobile operating s
 
 It’s interesting to see an interface that was originally designed around the limited input methods of a mobile device moved back to a desktop application. I think we're going to see a lot more of that, soon.
 
-Touch is now the default. Phones and tablets have been outselling desktop PCs for a while[^2], and more and more new desktop PCs have touch screens. People have become extremely proficient at using touch screens and interface patterns like the one I described have become part of our muscle memory. Mouse and keyboard as primary input methods, and interfaces that rely on those input methods have an uncertain future.
+Touch is now the baseline. Phones and tablets have been outselling desktop PCs for a while[^2], and more and more new desktop PCs have touch screens. People have become extremely proficient at using touch screens and interface patterns like the one I described have become part of our muscle memory. Mouse and keyboard as primary input methods, and interfaces that rely on those input methods have an uncertain future.
 
 ##A physical keyboard is an opportunity for progressive enhancement.
 

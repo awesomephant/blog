@@ -128,6 +128,12 @@ body {
   position: relative;
   border-top: 1px solid #e6e6e6;
 }
+.related-post .post-list li {
+  -webkit-flex-basis: 33.33%;
+      -ms-flex-preferred-size: 33.33%;
+          flex-basis: 33.33%;
+  border-right: 1px solid #e6e6e6;
+}
 .post-list .post-date {
   font-size: .9rem;
   display: block;
@@ -204,7 +210,7 @@ body {
 }
 @media (min-width: 65rem) {
   .post-header {
-    font-size: 8vw;
+    font-size: 5vw;
     padding-top: 1em;
     margin-bottom: 3.5rem;
   }
@@ -231,7 +237,7 @@ body {
   color: #3c3c3c;
   max-width: 50rem;
 }
-.post-main p, .post-main ul, .post-main ol, .post-main .gist {
+.post-main p, .post-main ul, .post-main ol, .post-main .gist, .post-main h2, .post-main h3 {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 1rem;
@@ -387,7 +393,7 @@ sup {
   max-width: 30em;
 }
 .footnotes ol {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 .footnotes li {
   list-style: outside decimal;
@@ -450,20 +456,7 @@ sup {
 }
 @media (min-width: 65rem) {
   .post-content {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-left: 5%;
+    padding-left: 10%;
   }
 }
 

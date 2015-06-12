@@ -115,6 +115,11 @@ body {
 		border-top: 1px solid $lightgray;
 	}
 
+	.related-post & li{
+		flex-basis: 33.33%;
+		border-right: 1px solid $lightgray;
+	}
+
     .post-date {
         font-size: .9rem;
 		display: block;
@@ -186,7 +191,7 @@ body {
 		margin-bottom: 3rem;
 	}
 	@include bp(l){
-		font-size: 8vw;
+		font-size: 5vw;
 		padding-top: 1em;
 		margin-bottom: 3.5rem;
 	}
@@ -211,7 +216,7 @@ body {
 	color: rgb(60,60,60);
 	max-width: 50rem;
 
-	p, ul, ol, .gist {
+	p, ul, ol, .gist, h2, h3 {
 		width: 90%;
 		margin: 0 auto;
 		margin-bottom: 1rem;
@@ -380,7 +385,7 @@ sup {
 	max-width: 30em;
 
 	ol {
-		margin-left: 1rem;
+		margin-left: 2rem;
 	}
 
 	li {
@@ -429,10 +434,7 @@ sup {
 		display: block;
 	}
 	@include bp(l){
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		padding-left: 5%;
+		padding-left: 10%;
 	}
 
 }

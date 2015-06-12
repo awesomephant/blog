@@ -3,6 +3,7 @@ layout: post
 title:  "Touch is the Default"
 date:   2015-06-12 14:01:32
 tags: "Thoughts"
+thumb: "https://farm1.staticflickr.com/309/18559540749_c59366e7f2_b.jpg"
 intro: "I just noticed Google Photos on desktop is doing an interesting thing about the way you select images."
 ---
 

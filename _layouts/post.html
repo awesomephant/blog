@@ -11,6 +11,9 @@ layout: default
 	</header>
    	<div class='post-content'>
       	<main class='post-main'>
+    	{% if page.thumb %}
+            <img class='post-thumb' src="{{ page.thumb }}" alt="">
+        {% endif %}
     	{{ content }}
 		</main>
 	</div>

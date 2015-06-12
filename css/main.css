@@ -194,6 +194,11 @@ body {
   }
 }
 
+.post-thumb {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
 .post-header {
   font-family: "museo-sans", "sans-serif";
   font-size: 2rem;

@@ -1,0 +1,209 @@
+.post-intro {
+	font-size: 1.1rem;
+	color: rgb(40,40,40);
+	line-height: 1.5;
+	max-width: 30em;
+	@include bp(m){
+		font-size: 1.4rem;
+	}
+	margin-bottom: 1rem;
+}
+
+.post-content {
+	width: 100%;
+	@include bp(m){
+		display: block;
+	}
+	@include bp(l){
+		padding-left: 10%;
+	}
+
+}
+
+.post-thumb {
+    width: 95%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.post-header {
+	font-family: $display;
+	font-size: 2rem;
+	padding: 0 5%;
+	border-bottom: 1px solid $lightgray;
+	padding-top: 2em;
+    padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	@include bp(m){
+		margin-bottom: 3rem;
+	}
+	@include bp(l){
+		font-size: 5vw;
+		padding-top: 1em;
+		margin-bottom: 3.5rem;
+	}
+	.post-title {
+		font-weight: 900;
+		margin-bottom: .2em;
+		line-height: 1.2;
+		@include bp(m){
+			line-height: 1.1;
+		}
+	}
+	.post-date {
+		color: darken($lightgray, 20);
+		font-size: 1rem;
+        margin-bottom: .4em;
+    }
+}
+
+.post-main {
+    text-rendering: optimizeLegibility;
+	font-feature-settings: "liga" 1;
+	hyphens: auto;
+	@include bp(l){
+		line-height: 1.6;
+	}
+	color: $black;
+
+	font-size: 1.15rem;
+	max-width: 50rem;
+
+	p, ul, ol, .gist, h2, h3 {
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+
+	li {
+		margin-left: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	h2 {
+		font-family: $display;
+		font-weight: 700;
+		font-size: 1.1rem;
+		margin-bottom: .5rem;
+		margin-top: 1rem;
+	}
+
+	img, iframe {
+		width: 100%;
+		display: block;
+	}
+
+	.note {
+		color: rgb(120,120,120);
+		&:before {
+			content: "Note: ";
+			font-weight: bold;
+			font-family: $sans;
+			font-size: .9rem;
+		}
+	}
+
+	.full {
+		max-width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	.aside {
+		border-radius: 4px;
+		padding: 1rem;
+		border: 1px solid darken($lightgray, 8);
+		margin-bottom: 1rem;
+
+		img {
+			width: calc(100% + 2rem);
+			max-width: none;
+			margin-left: -1rem;
+			margin-top: -1rem;
+			height: auto;
+		}
+
+		a {
+			display: block;
+			position: relative;
+
+			&:hover, &:focus {
+				text-decoration: none;
+			}
+
+			&:before {
+				position: absolute;
+				bottom: .2rem;
+				right: .5rem;
+				color: $black;
+				font-family: $sans;
+				font-weight: bold;
+				padding: .4em .5em;
+				display: block;
+				vertical-align: center;
+				font-size: .5rem;
+				border-radius: 2px;
+				text-align: center;
+				text-transform: uppercase;
+				letter-spacing: .05em;
+
+			}
+
+			&[href*=jpg]:before, &[href*=svg]:before, &[href*=png]:before, &[href*=flickr]:before{
+				content: "Image";
+				background: $lightgray;
+			}
+			&[href*=pdf]:before{
+				content: "PDF";
+				background: $lightgray;
+			}
+			&[href*=youtube]:before, &[href*=vimeo]:before{
+				content: "Video";
+				background: $lightgray;
+			}
+
+			&:after {
+				content: attr(href);
+				display: block;
+				overflow: hidden;
+				white-space: nowrap;
+				width: 85%;
+				text-overflow: ellipsis;
+				color: darken($lightgray, 30);
+				font-size: 14px;
+			}
+		}
+	}
+
+	figcaption {
+		font-size: .8rem;
+		padding-top: .5rem;
+		font-family: $sans;
+		padding-left: 5%;
+		@include bp(m){
+			padding-left: 0;
+		}
+	}
+}
+
+.footnotes {
+	line-height: 1.54;
+	margin-top: 2rem;
+	padding-bottom: 2rem;
+	color: gray;
+	font-family: $sans;
+	font-size: .9rem;
+	max-width: 30em;
+
+	ol {
+		margin-left: 2rem;
+	}
+
+	li {
+		list-style: outside decimal;
+		margin-bottom: 1em;
+		a {
+			color: inherit;
+			text-decoration: underline;
+		}
+	}
+}

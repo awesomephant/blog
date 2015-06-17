@@ -76,19 +76,6 @@ sup {
   font-size: 1.5rem;
 }
 
-.post-intro {
-  font-size: 1.1rem;
-  color: #282828;
-  line-height: 1.5;
-  max-width: 30em;
-  margin-bottom: 1rem;
-}
-@media (min-width: 45rem) {
-  .post-intro {
-    font-size: 1.4rem;
-  }
-}
-
 .post-thumb {
   width: 95%;
   display: block;
@@ -120,6 +107,17 @@ sup {
   width: 100%;
   max-width: 70rem;
   margin: 0 auto;
+}
+.post-header .post-intro {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+@media (min-width: 45rem) {
+  .post-header .post-intro {
+    padding-right: 20em;
+    font-size: 1.4rem;
+  }
 }
 .post-header .post-title {
   font-weight: 900;

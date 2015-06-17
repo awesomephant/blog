@@ -1,13 +1,3 @@
-.post-intro {
-	font-size: 1.1rem;
-	color: rgb(40,40,40);
-	line-height: 1.5;
-	max-width: 30em;
-	@include bp(m){
-		font-size: 1.4rem;
-	}
-	margin-bottom: 1rem;
-}
 
 .post-thumb {
     width: 95%;
@@ -37,6 +27,15 @@
 		width: 100%;
 		max-width: 70rem;
 		margin: 0 auto;
+	}
+	.post-intro {
+		font-size: 1.1rem;
+		line-height: 1.5;
+		@include bp(m){
+			padding-right: 20em;
+			font-size: 1.4rem;
+		}
+		margin-bottom: 1rem;
 	}
 
 	.post-title {

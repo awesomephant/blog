@@ -387,7 +387,7 @@ sup {
 }
 .timeline:before {
   content: '';
-  background: #182434;
+  background: #e6e6e6;
   width: 2px;
   position: absolute;
   top: 8px;

@@ -89,20 +89,6 @@ sup {
   }
 }
 
-.post-content {
-  width: 100%;
-}
-@media (min-width: 45rem) {
-  .post-content {
-    display: block;
-  }
-}
-@media (min-width: 65rem) {
-  .post-content {
-    padding-left: 10%;
-  }
-}
-
 .post-thumb {
   width: 95%;
   display: block;
@@ -115,7 +101,7 @@ sup {
   padding: 0 5%;
   border-bottom: 1px solid #e6e6e6;
   padding-top: 2em;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
 @media (min-width: 45rem) {
@@ -130,17 +116,26 @@ sup {
     margin-bottom: 3.5rem;
   }
 }
+.post-header .post-title, .post-header .post-intro, .post-header .post-date {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
 .post-header .post-title {
   font-weight: 900;
   margin-bottom: .2em;
   line-height: 1.2;
 }
-@media (min-width: 45rem) {
+@media (min-width: 65rem) {
   .post-header .post-title {
     line-height: 1.1;
+    position: relative;
+    left: -2.5%;
+    width: 105%;
   }
 }
 .post-header .post-date {
+  width: 100%;
   color: #b3b3b3;
   font-size: 1rem;
   margin-bottom: .4em;
@@ -155,6 +150,9 @@ sup {
      -moz-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.55;
   color: #182434;
   font-size: 1.15rem;
   max-width: 50rem;
@@ -164,13 +162,10 @@ sup {
     line-height: 1.6;
   }
 }
-.post-main p, .post-main ul, .post-main ol, .post-main .gist, .post-main h2, .post-main h3 {
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 1rem;
+.post-main ul, .post-main ol {
+  list-style-position: inside;
 }
-.post-main li {
-  margin-left: 1rem;
+.post-main p, .post-main ul, .post-main ol, .post-main li, .post-main .gist, .post-main h2, .post-main h3 {
   margin-bottom: 1rem;
 }
 .post-main h2 {
@@ -388,4 +383,21 @@ sup {
   margin-bottom: .5rem;
   font-size: 1.3rem;
   padding-left: 2rem;
+}
+
+.work-list {
+  -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+  -webkit-column-gap: 1px;
+     -moz-column-gap: 1px;
+          column-gap: 1px;
+}
+.work-list li {
+  display: inline-block;
+  width: 100%;
+}
+.work-list img {
+  display: block;
+  width: 100%;
 }

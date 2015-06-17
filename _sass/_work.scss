@@ -1,0 +1,14 @@
+.work-list {
+    columns: 2;
+    column-gap: 1px;
+
+    li {
+        display: inline-block;
+        width: 100%;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}

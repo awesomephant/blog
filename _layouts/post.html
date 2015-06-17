@@ -14,7 +14,30 @@ layout: default
     	{% if page.thumb %}
             <img class='post-thumb' src="{{ page.thumb }}" alt="">
         {% endif %}
+
     	{{ content }}
+
+		{% if page.timeline %}
+			<ol class="timeline">
+			{% for item in page.timeline %}
+				<li class="timeline-item">
+					<main>
+						<date>{{item.date}}</date>
+						<h2>{{item.title}}</h2>
+						<p class=description''>{{item.description}}</p>
+					</main>
+					<ul class="files">
+						{% for file in item.files %}
+							<li class='file'>
+								<a href="{{ file.url }}">{{ file.title }}</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endfor %}
+			</ol>
+        {% endif %}
+
 		</main>
 	</div>
 </article>

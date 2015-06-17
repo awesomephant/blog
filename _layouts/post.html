@@ -22,7 +22,7 @@ layout: default
 			{% for item in page.timeline %}
 				<li class="timeline-item">
 					<main>
-						<date>{{item.date}}</date>
+						<date class='date'>{{item.date}}</date>
 						<h2>{{item.title}}</h2>
 						<p class=description''>{{item.description}}</p>
 					</main>
@@ -34,7 +34,12 @@ layout: default
 						{% endfor %}
 					</ul>
 				</li>
-			{% endfor %}
+				{% endfor %}
+				<li class='timeline-start'>
+					<date class='date'>{{ page.date | date: "%B %-d, %Y"}}</date>
+					<h2>Project Started</h2>
+					<canvas class='date-bg'></canvas>
+				</li>
 			</ol>
         {% endif %}
 

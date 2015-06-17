@@ -7,13 +7,6 @@ var COLORS = [
 	'#ffff5e'
 ];
 
-var COLORS_BG = [
-	//'#2c2c8c',
-	'#fff',
-	//'#f3f3f3',
-	//'#d2e8f1',
-]
-
 var draw = function(el){
 	el.width = document.documentElement.clientWidth || document.body.clientWidth;;
 	el.height = 200;
@@ -27,11 +20,6 @@ var draw = function(el){
 	var x = 0;
 	var y = 0;
 	var offset = getRandomInt(3, 10);
-
-
-	bg.fillStyle = COLORS_BG[getRandomInt(0, COLORS_BG.length - 1)];
-
-	bg.fillRect(0, 0, el.width, el.height)
 
 	bg.fillStyle = COLORS[getRandomInt(0, COLORS.length - 1)];
 

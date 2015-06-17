@@ -1,0 +1,65 @@
+.timeline {
+    list-style: none;
+    padding-left: 2rem;
+    position: relative;
+    &:before {
+        content: '';
+        background: $black;
+        width: 2px;
+        position: absolute;
+        top: 8px;
+        bottom: 0;
+        display: block;
+        left: 7px;
+    }
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 2rem;
+
+    &:before {
+        content: '';
+        background: $lightblue;
+        width: 16px;
+        height: 16px;
+        border-radius: 100%;
+        display: block;
+        position: absolute;
+        left: -2rem;
+        top: 6px;
+    }
+
+
+    .date {
+        font-family: $sans;
+        color: rgba($black, .4);
+        font-size: 1rem;
+    }
+}
+
+.timeline-start {
+    position: relative;
+    left: -2rem;
+    z-index: 100;
+    overflow: hidden;
+    padding: 1rem;
+    color: white;
+    font-family: $display;
+    max-width: 30rem;
+    border-radius: 5px;
+    text-align: center;
+    canvas {
+        background: $blue;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -100;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+}

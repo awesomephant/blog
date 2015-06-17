@@ -5,7 +5,7 @@ date: 2015-06-17
 intro:
 timeline:
     -   title: Content Inventory
-        description: Zwicker & Partner has a very content-heavy site with lots of useful articles for patients and doctors they’re collaborating with. With the content inventory, we’ll be able to work out which content is the most valuable and which might need to be revised or updated.
+        description: Zwicker & Partner has a very content-heavy site with lots of useful articles for patients and medical professionals. With the content inventory, we’ll be able to work out which content is the most valuable and which might need to be revised or updated. Based on that we’ll figure out the content strategy for the new site.
         date: June 18, 2015
         files:
             -   title: Current Website

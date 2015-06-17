@@ -118,7 +118,7 @@ sup {
 }
 .post-header .post-title, .post-header .post-intro, .post-header .post-date {
   width: 100%;
-  max-width: 50rem;
+  max-width: 70rem;
   margin: 0 auto;
 }
 .post-header .post-title {
@@ -129,9 +129,6 @@ sup {
 @media (min-width: 65rem) {
   .post-header .post-title {
     line-height: 1.1;
-    position: relative;
-    left: -2.5%;
-    width: 105%;
   }
 }
 .post-header .post-date {
@@ -442,7 +439,23 @@ sup {
   z-index: -100;
 }
 .timeline-start h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0;
   padding: 0;
+}
+@media (min-width: 45rem) {
+  .timeline-start h2 {
+    font-size: 2rem;
+  }
+}
+
+.files {
+  display: inline-block;
+}
+@media (min-width: 45rem) {
+  .files {
+    -webkit-columns: 2;
+       -moz-columns: 2;
+            columns: 2;
+  }
 }

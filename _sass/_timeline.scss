@@ -58,8 +58,18 @@
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        @include bp(m){
+            font-size: 2rem;
+        }
         margin: 0;
         padding: 0;
+    }
+}
+
+.files {
+    display: inline-block;
+    @include bp(m){
+        columns: 2;
     }
 }

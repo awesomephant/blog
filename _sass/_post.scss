@@ -35,7 +35,7 @@
 
 	.post-title, .post-intro, .post-date {
 		width: 100%;
-		max-width: 50rem;
+		max-width: 70rem;
 		margin: 0 auto;
 	}
 
@@ -45,9 +45,6 @@
 		line-height: 1.2;
 		@include bp(l){
 			line-height: 1.1;
-			position: relative;
-			left: -2.5%;
-			width: 105%;
 		}
 	}
 	.post-date {

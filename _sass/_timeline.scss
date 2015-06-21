@@ -5,12 +5,12 @@
     &:before {
         content: '';
         background: $lightgray;
-        width: 2px;
+        width: 1px;
         position: absolute;
         top: 8px;
         bottom: 0;
         display: block;
-        left: 7px;
+        left: 6px;
     }
 }
 
@@ -20,9 +20,9 @@
 
     &:before {
         content: '';
-        background: $lightblue;
-        width: 16px;
-        height: 16px;
+        background: $blue;
+        width: 14px;
+        height: 14px;
         border-radius: 100%;
         display: block;
         position: absolute;
@@ -46,30 +46,12 @@
     padding: 1rem;
     color: white;
     font-family: $display;
-    max-width: 30rem;
+    max-width: 18rem;
     border-radius: 5px;
-    text-align: center;
-    canvas {
-        background: $blue;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -100;
-    }
-
+    background: $blue;
     h2 {
         font-size: 1.5rem;
-        @include bp(m){
-            font-size: 2rem;
-        }
         margin: 0;
         padding: 0;
-    }
-}
-
-.files {
-    display: inline-block;
-    @include bp(m){
-        columns: 2;
     }
 }

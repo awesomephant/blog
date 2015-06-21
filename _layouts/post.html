@@ -38,7 +38,6 @@ layout: default
 				<li class='timeline-start'>
 					<date class='date'>{{ page.date | date: "%B %-d, %Y"}}</date>
 					<h2>Project Started</h2>
-					<canvas class='date-bg'></canvas>
 				</li>
 			</ol>
         {% endif %}
@@ -46,16 +45,4 @@ layout: default
 		</main>
 	</div>
 </article>
-<aside class='aside-full related-post'>
-	<h3 class='aside-name'>Read Next:</h3>
-		<ul class="post-list">
-		{% for post in site.related_posts limit:3 %}
-			<li class='post-list-post'>
-			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-				<h2 class='post-title'>{{ post.title }}</h2>
-			</a>
-      	</li>
-		{% endfor %}
-		</ul>
-</aside>
 {% include header.html %}

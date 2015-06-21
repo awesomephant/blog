@@ -147,6 +147,7 @@ sup {
           hyphens: auto;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 5rem;
   line-height: 1.55;
   color: #182434;
   font-size: 1.15rem;
@@ -388,12 +389,12 @@ sup {
 .timeline:before {
   content: '';
   background: #e6e6e6;
-  width: 2px;
+  width: 1px;
   position: absolute;
   top: 8px;
   bottom: 0;
   display: block;
-  left: 7px;
+  left: 6px;
 }
 
 .timeline-item {
@@ -402,9 +403,9 @@ sup {
 }
 .timeline-item:before {
   content: '';
-  background: #3fd9ff;
-  width: 16px;
-  height: 16px;
+  background: #6372ff;
+  width: 14px;
+  height: 14px;
   border-radius: 100%;
   display: block;
   position: absolute;
@@ -425,35 +426,12 @@ sup {
   padding: 1rem;
   color: white;
   font-family: "museo-sans", "sans-serif";
-  max-width: 30rem;
+  max-width: 18rem;
   border-radius: 5px;
-  text-align: center;
-}
-.timeline-start canvas {
   background: #6372ff;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -100;
 }
 .timeline-start h2 {
   font-size: 1.5rem;
   margin: 0;
   padding: 0;
-}
-@media (min-width: 45rem) {
-  .timeline-start h2 {
-    font-size: 2rem;
-  }
-}
-
-.files {
-  display: inline-block;
-}
-@media (min-width: 45rem) {
-  .files {
-    -webkit-columns: 2;
-       -moz-columns: 2;
-            columns: 2;
-  }
 }

@@ -43,13 +43,6 @@
 		border-top: 1px solid $lightgray;
 	}
 
-	.related-post & li{
-        @include bp(m){
-    		flex-basis: 33.33%;
-    		border-right: 1px solid $lightgray;
-        }
-    }
-
     .post-date {
         font-size: .9rem;
 		display: block;
@@ -68,8 +61,8 @@
 			padding-right: 2rem;
 		}
 
-		padding-top: 2rem;
-		padding-bottom: 2rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 		&:hover, &:focus {
 			background-color: darken(#fff, 3);
 			text-decoration: none;
@@ -78,8 +71,9 @@
 
 	.post-title {
 		color: $midnight;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
 		line-height: 1.55;
 		font-family: $display;
+        font-weight: 400;
 	}
 }

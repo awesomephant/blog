@@ -2,19 +2,12 @@
 layout: default
 ---
 <article class='post'>
-	<header class="post-header">
-		<p class='post-date'>Published <date>{{ page.date | date: "%B %-d, %Y"}}</date></p>
+    <date class='post-date'>{{ page.date | date: "%B %-d, %Y"}}</date>
 		<h1 class="post-title">{{ page.title }}</h1>
 		<p class="post-intro">
 			{{page.intro}}
 		</p>
-	</header>
-   	<div class='post-content'>
-      	<main class='post-main'>
-    	{% if page.thumb %}
-            <img class='post-thumb' src="{{ page.thumb }}" alt="">
-        {% endif %}
-
+        
     	{{ content }}
 
 		{% if page.timeline %}
@@ -42,7 +35,5 @@ layout: default
 			</ol>
         {% endif %}
 
-		</main>
-	</div>
 </article>
 {% include header.html %}

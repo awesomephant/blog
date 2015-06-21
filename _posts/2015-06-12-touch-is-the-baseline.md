@@ -7,6 +7,8 @@ thumb: "https://farm1.staticflickr.com/309/18559540749_c59366e7f2_b.jpg"
 intro: "I just noticed Google Photos on desktop is doing an interesting thing about the way you select images."
 ---
 
+![Touch is the baseline header illustration](https://farm1.staticflickr.com/309/18559540749_c59366e7f2_b.jpg)
+
 Selecting files in most desktop operating systems works like this: You click a file to select it. When you select a different file, it *deselects the first one*. To select multiple files, you either hold shift and click or drag open a box.
 
 In Google Photos[^1] it's different. You can click an image to select it, but if you click on another image it *adds that second image to your selection*. When you click a third image, it adds that to your selection, too.

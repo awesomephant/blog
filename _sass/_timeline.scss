@@ -30,7 +30,10 @@
         top: 6px;
     }
 
-
+    .file {
+        margin-bottom: .25rem;
+    }
+    
     .date {
         font-family: $sans;
         color: rgba($black, .4);
@@ -43,7 +46,7 @@
     left: -2rem;
     z-index: 100;
     overflow: hidden;
-    padding: 1rem;
+    padding: 1rem 2rem;
     color: white;
     font-family: $display;
     max-width: 18rem;

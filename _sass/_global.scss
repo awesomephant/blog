@@ -27,7 +27,10 @@ sup {
 }
 
 .site-header {
-	padding: 2rem 2rem;
+    padding: 5%;
+    @include bp(m){
+    	padding: 2rem;
+    }
 	color: $midnight;
 	display: flex;
 	flex-direction: column;

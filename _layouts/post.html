@@ -3,37 +3,36 @@ layout: default
 ---
 <article class='post'>
     <date class='post-date'>{{ page.date | date: "%B %-d, %Y"}}</date>
-		<h1 class="post-title">{{ page.title }}</h1>
-		<p class="post-intro">
-			{{page.intro}}
-		</p>
+	<h1 class="post-title">{{ page.title }}</h1>
+	<p class="post-intro">
+		{{page.intro}}
+	</p>
         
-    	{{ content }}
+    {{ content }}
 
-		{% if page.timeline %}
-			<ol class="timeline">
-			{% for item in page.timeline %}
-				<li class="timeline-item">
-					<main>
-						<date class='date'>{{item.date}}</date>
-						<h2>{{item.title}}</h2>
-						<p class=description''>{{item.description}}</p>
-					</main>
-					<ul class="files">
-						{% for file in item.files %}
-							<li class='file'>
-								<a href="{{ file.url }}">{{ file.title }}</a>
-							</li>
-						{% endfor %}
-					</ul>
-				</li>
-				{% endfor %}
-				<li class='timeline-start'>
-					<date class='date'>{{ page.date | date: "%B %-d, %Y"}}</date>
-					<h2>Project Started</h2>
-				</li>
-			</ol>
+	{% if page.timeline %}
+		<ol class="timeline">
+		{% for item in page.timeline %}
+	        <li class="timeline-item">
+		        <main>
+    		    	<date class='date'>{{item.date}}</date>
+        			<h2>{{item.title}}</h2>
+        			<p class=description''>{{item.description}}</p>
+	        	</main>
+				<ul class="files">
+				    {% for file in item.files %}
+					<li class='file'>
+					    <a href="{{ file.url }}">{{ file.title }}</a>
+				    </li>
+					{% endfor %}
+				</ul>
+            </li>
+			{% endfor %}
+			<li class='timeline-start'>
+			    <date class='date'>{{ page.date | date: "%B %-d, %Y"}}</date>
+				<h2>Project Started</h2>
+            </li>
+        </ol>
         {% endif %}
-
 </article>
 {% include header.html %}

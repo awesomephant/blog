@@ -15,8 +15,8 @@ layout: default
 		{% for item in page.timeline %}
 	        <li class="timeline-item">
 		        <main>
-    		    	<date class='date'>{{item.date}}</date>
-        			<h2>{{item.title}}</h2>
+    		    	
+        			<h2>{{item.title}} <date class='date'>{{item.date}}</date></h2>
         			<p class=description''>{{item.description}}</p>
 	        	</main>
 				<ul class="files">

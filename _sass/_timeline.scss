@@ -17,7 +17,7 @@
 .timeline-item {
     position: relative;
     padding-bottom: 2rem;
-
+        
     &:before {
         content: '';
         background: $blue;
@@ -35,7 +35,6 @@
     }
     
     .date {
-        font-family: $sans;
         color: rgba($black, .4);
         font-size: 1rem;
     }
@@ -46,9 +45,9 @@
     left: -2rem;
     z-index: 100;
     overflow: hidden;
+    font-family: $display;
     padding: 1rem 2rem;
     color: white;
-    font-family: $display;
     max-width: 18rem;
     border-radius: 5px;
     background: $blue;

@@ -1,6 +1,7 @@
 .post-date {
     font-family: $display;
-    font-weight: 400;
+    font-weight: 500;
+    color: lightgray;
 }
 
 .post-intro {
@@ -25,12 +26,12 @@
 	max-width: 40em;
     &:before {
         content: '';
-        height: 10px;
+        height: 2px;
         width: 100%;
         position: absolute;
         top: 0;
         left: 0;
-        background: $yellow;
+        background: $green;
     }
     
     .post-title {
@@ -39,8 +40,12 @@
         @include bp(m){
             font-size: 2.5rem;
         }
-        line-height: 1.3;
-        font-weight: 600;
+        @include bp(l){
+            font-size: 3.5rem;
+        }
+        line-height: 1.2;
+        margin-bottom: .5rem;
+        font-weight: 900;
     }
 
     
@@ -53,9 +58,9 @@
 	}
 
 	h2 {
-		font-family: $display;
-		font-weight: 300;
-		font-size: 1.3rem;
+		font-weight: 500;
+        font-family: $display;
+		font-size: 1.2rem;
 		margin-bottom: .5rem;
 		margin-top: 1rem;
 	}

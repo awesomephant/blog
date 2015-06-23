@@ -4,6 +4,15 @@ title: "Zwicker & Partner Responsive Redesign"
 date: 2015-06-17
 intro: "I'll be redesigning my the website for Zwicker & Partner and documenting the process here."
 timeline:
+    -   title: Page Prototypes
+        description: Rough drafts for the article and category views.
+        date: June 23, 2015
+        files:
+            -   title: Category Page
+                url: http://maxkoehler.com/rk-design-direction/hub.html
+            -   title: Article Page
+                url: http://maxkoehler.com/rk-design-direction/article.html
+        
     -   title: Establishing Design Direction
         description: We're making some basic descisions on typography, colours and imagery. Doing this before we build any full layouts allows us to iterate faster.
         date: June 21, 2015

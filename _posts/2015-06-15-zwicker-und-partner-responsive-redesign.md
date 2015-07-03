@@ -4,6 +4,25 @@ title: "Zwicker & Partner Responsive Redesign"
 date: 2015-06-17
 intro: "I'll be redesigning my the website for Zwicker & Partner and documenting the process here."
 timeline:
+    -   title: Beta Site launched
+        description: Moving from HTML templates to the actual Wordpress implementation. This will allow the client team to start work on real content while getting comfortable with the new CMS long before launch.
+        date: July 5, 2015
+        files: 
+            -   title: Home Page
+                url: http://wordpress.radiologen-konstanz.de
+            -   title: Doctors' Information
+                url: http://wordpress.radiologen-konstanz.de/arzte/
+            -   title: Patients' Information
+                url: http://wordpress.radiologen-konstanz.de/patienten/
+            -   title: About page
+                url: http://wordpress.radiologen-konstanz.de/uber/
+    -   title: Content Template
+        description: We'll be combining some of the smaller pieces of content into longer articles. The template will ensure consistency in style and structure across the site.
+        date: July 2, 2015
+        files: 
+            -   title: Content Template
+                url: https://docs.google.com/document/d/1nWz5id7elPgUEBNMZo6jE4P02oIoxTGVD7GXC0K9TVc/edit?usp=sharing
+            
     -   title: Page Prototypes
         description: Rough drafts for the article and category views.
         date: June 23, 2015

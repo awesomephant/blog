@@ -11,12 +11,12 @@ body {
 }
 
 a {
-  color: #0027ff;
+  color: #0045ff;
   text-decoration: none;
 }
 a:hover, a:focus {
   text-decoration: underline;
-  color: #3352ff;
+  color: #336aff;
 }
 
 sup {
@@ -25,20 +25,29 @@ sup {
 
 .site-header {
   padding: 2rem 5%;
-  color: #0027ff;
+  color: #0045ff;
   border-bottom: 100px solid beige;
   margin-bottom: 2rem;
 }
-.site-header .twitter {
+
+.twitter {
   font-family: "Helvetica", sans-serif;
-  color: #0027ff;
+  text-align: center;
+  max-width: 20rem;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 1px solid #e6e6e6;
+  color: #cdcdcd;
   font-size: 14px;
-  margin-top: 1em;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: block;
+  border-bottom-width: 2px;
 }
-@media (min-width: 45rem) {
-  .site-header .twitter {
-    margin-top: 0;
-  }
+.twitter:hover, .twitter:focus {
+  border-color: #0045ff;
+  text-decoration: none;
 }
 
 .site-story {
@@ -46,7 +55,7 @@ sup {
   position: relative;
   z-index: 10;
   line-height: 1.3;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: .5rem;
 }
 
@@ -229,19 +238,12 @@ sup {
 }
 
 .post-list {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
   position: relative;
-  padding-left: 15%;
   color: #203045;
 }
 @media (min-width: 45rem) {
   .post-list {
+    padding-left: 15%;
     font-size: 1.2rem;
   }
 }
@@ -369,7 +371,7 @@ sup {
   color: white;
   max-width: 18rem;
   border-radius: 5px;
-  background: #0027ff;
+  background: #0045ff;
 }
 .timeline-start h2 {
   font-size: 1.5rem;

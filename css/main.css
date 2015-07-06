@@ -11,12 +11,12 @@ body {
 }
 
 a {
-  color: #6372ff;
+  color: #0027ff;
   text-decoration: none;
 }
 a:hover, a:focus {
   text-decoration: underline;
-  color: #96a0ff;
+  color: #3352ff;
 }
 
 sup {
@@ -24,43 +24,14 @@ sup {
 }
 
 .site-header {
-  padding: 5%;
-  color: #203045;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: baseline;
-  -webkit-align-items: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-@media (min-width: 45rem) {
-  .site-header {
-    padding: 2rem;
-  }
-}
-@media (min-width: 45rem) {
-  .site-header {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
+  padding: 2rem 5%;
+  color: #0027ff;
+  border-bottom: 100px solid beige;
+  margin-bottom: 2rem;
 }
 .site-header .twitter {
   font-family: "Helvetica", sans-serif;
-  color: #6372ff;
+  color: #0027ff;
   font-size: 14px;
   margin-top: 1em;
 }
@@ -71,24 +42,25 @@ sup {
 }
 
 .site-story {
-  font-family: "museo-sans", "sans-serif";
-  max-width: 30em;
-  line-height: 1.4;
-  color: #203045;
+  font-family: "aktiv-grotesk", "sans-serif";
   position: relative;
   z-index: 10;
   line-height: 1.3;
   font-size: 1.5rem;
+  margin-bottom: .5rem;
 }
 
 .post-date {
-  font-family: "museo-sans", "sans-serif";
+  font-family: "aktiv-grotesk", "sans-serif";
   font-weight: 500;
   color: lightgray;
+  display: block;
 }
 
 .post-intro {
   font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 @media (min-width: 45rem) {
   .post-intro {
@@ -106,7 +78,7 @@ sup {
       -ms-hyphens: auto;
           hyphens: auto;
   width: 90%;
-  padding-top: 2rem;
+  padding-top: 4rem;
   margin: 0 auto;
   margin-bottom: 2rem;
   line-height: 1.5;
@@ -117,29 +89,12 @@ sup {
 }
 .post:before {
   content: '';
-  height: 2px;
+  height: 40px;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  background: #0edeb5;
-}
-.post .post-title {
-  font-family: "museo-sans", "sans-serif";
-  font-size: 1.5rem;
-  line-height: 1.2;
-  margin-bottom: .5rem;
-  font-weight: 900;
-}
-@media (min-width: 45rem) {
-  .post .post-title {
-    font-size: 2.5rem;
-  }
-}
-@media (min-width: 65rem) {
-  .post .post-title {
-    font-size: 3.5rem;
-  }
+  background: beige;
 }
 .post ul, .post ol {
   list-style-position: inside;
@@ -147,12 +102,22 @@ sup {
 .post p, .post ul, .post ol, .post li, .post .gist, .post h2, .post h3 {
   margin-bottom: 1rem;
 }
-.post h2 {
-  font-weight: 500;
-  font-family: "museo-sans", "sans-serif";
+.post .post-date {
+  text-align: center;
+  width: 100%;
+}
+.post .post-title {
+  font-weight: 700;
+  font-family: "aktiv-grotesk", "sans-serif";
   font-size: 1.2rem;
   margin-bottom: .5rem;
-  margin-top: 1rem;
+  text-align: center;
+  margin-top: .2rem;
+}
+@media (min-width: 45rem) {
+  .post .post-title {
+    font-size: 1.5rem;
+  }
 }
 .post img, .post iframe {
   width: 110%;
@@ -271,8 +236,9 @@ sup {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+  position: relative;
+  padding-left: 15%;
   color: #203045;
-  border-bottom: 1px solid #e6e6e6;
 }
 @media (min-width: 45rem) {
   .post-list {
@@ -283,28 +249,19 @@ sup {
   padding-left: 5%;
   padding-right: 5%;
   font-size: 2.5rem;
-  position: relative;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  overflow: hidden;
-  border-top: 1px solid #203045;
-  border-bottom: 1px solid #203045;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
-@media (min-width: 35rem) {
+@media (min-width: 45rem) {
   .post-list .date {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    position: absolute;
+    left: 5%;
+    padding: 0;
   }
 }
 .post-list .date h3 {
-  z-index: 20;
-  position: relative;
-  font-weight: normal;
-}
-.post-list .date canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
+  font-family: "aktiv-grotesk", "sans-serif";
+  font-weight: 600;
 }
 .post-list li {
   list-style: none;
@@ -312,13 +269,11 @@ sup {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
   position: relative;
-  border-top: 1px solid #e6e6e6;
 }
 .post-list .post-date {
   font-size: .9rem;
   display: block;
-  margin-bottom: .5em;
-  font-family: "Helvetica", sans-serif;
+  margin-bottom: .1em;
   color: rgba(24, 36, 52, 0.4);
 }
 .post-list .post-link {
@@ -335,15 +290,15 @@ sup {
   }
 }
 .post-list .post-link:hover, .post-list .post-link:focus {
-  background-color: #f7f7f7;
+  background-color: #fafafa;
   text-decoration: none;
 }
 .post-list .post-title {
   color: #203045;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.55;
-  font-family: "museo-sans", "sans-serif";
-  font-weight: 400;
+  font-family: "aktiv-grotesk", "sans-serif";
+  font-weight: 500;
 }
 
 .aside-full {
@@ -351,7 +306,7 @@ sup {
 }
 
 .aside-name {
-  font-family: "museo-sans", "sans-serif";
+  font-family: "aktiv-grotesk", "sans-serif";
   color: #cdcdcd;
   margin-bottom: .5rem;
   font-size: 1.3rem;
@@ -371,7 +326,7 @@ sup {
   top: 8px;
   bottom: 0;
   display: block;
-  left: 6px;
+  left: 3px;
 }
 
 .timeline-item {
@@ -380,9 +335,9 @@ sup {
 }
 .timeline-item:before {
   content: '';
-  background: #6372ff;
-  width: 14px;
-  height: 14px;
+  background: #e6e6e6;
+  width: 7px;
+  height: 7px;
   border-radius: 100%;
   display: block;
   position: absolute;
@@ -392,8 +347,15 @@ sup {
 .timeline-item .file {
   margin-bottom: .25rem;
 }
+.timeline-item h2 {
+  font-family: "aktiv-grotesk", "sans-serif";
+}
+.timeline-item .description {
+  margin-top: -.5rem;
+}
 .timeline-item .date {
-  color: rgba(24, 36, 52, 0.4);
+  padding-left: .5rem;
+  color: #e6e6e6;
   font-size: 1rem;
 }
 
@@ -402,12 +364,12 @@ sup {
   left: -2rem;
   z-index: 100;
   overflow: hidden;
-  font-family: "museo-sans", "sans-serif";
+  font-family: "aktiv-grotesk", "sans-serif";
   padding: 1rem 2rem;
   color: white;
   max-width: 18rem;
   border-radius: 5px;
-  background: #6372ff;
+  background: #0027ff;
 }
 .timeline-start h2 {
   font-size: 1.5rem;

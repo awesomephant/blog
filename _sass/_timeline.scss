@@ -10,7 +10,7 @@
         top: 8px;
         bottom: 0;
         display: block;
-        left: 6px;
+        left: 3px;
     }
 }
 
@@ -20,9 +20,9 @@
         
     &:before {
         content: '';
-        background: $blue;
-        width: 14px;
-        height: 14px;
+        background: $lightgray;
+        width: 7px;
+        height: 7px;
         border-radius: 100%;
         display: block;
         position: absolute;
@@ -34,8 +34,17 @@
         margin-bottom: .25rem;
     }
     
+    h2 {    
+        font-family: $display;
+    }
+    
+    .description {
+        margin-top: -.5rem;
+    }
+    
     .date {
-        color: rgba($black, .4);
+        padding-left: .5rem;
+        color: $lightgray;
         font-size: 1rem;
     }
 }

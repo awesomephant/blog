@@ -1,8 +1,9 @@
 .post-list {
 	display: flex;
 	flex-wrap: wrap;
-	color: $midnight;
-	border-bottom: 1px solid $lightgray;
+	position: relative;
+    padding-left: 15%;
+    color: $midnight;
 	@include bp(m){
 		font-size: 1.2rem;
 	}
@@ -11,28 +12,17 @@
 		padding-left: 5%;
 		padding-right: 5%;
 		font-size: 2.5rem;
-		position: relative;
-		@include bp(s){
-			padding-left: 2rem;
-			padding-right: 2rem;
-		}
-
-		padding-top: 3rem;
-		padding-bottom: 3rem;
-		overflow: hidden;
-		border-top: 1px solid $midnight;
-		border-bottom:1px solid $midnight;
-
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+        @include bp(m){
+            position: absolute;
+            left: 5%;    
+            padding: 0;
+        }
+		
 		h3 {
-			z-index: 20;
-			position: relative;
-			font-weight: normal;
-		}
-
-		canvas {
-			position: absolute;
-			top: 0;
-			left: 0;
+            font-family: $display;
+            font-weight: 600;
 		}
 	}
 
@@ -40,14 +30,12 @@
 		list-style: none;
 		flex-basis: 100%;
 		position: relative;
-		border-top: 1px solid $lightgray;
 	}
 
     .post-date {
         font-size: .9rem;
 		display: block;
-		margin-bottom: .5em;
-		font-family: $sans;
+		margin-bottom: .1em;
 		color: rgba($black, .4);
     }
 
@@ -64,16 +52,16 @@
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		&:hover, &:focus {
-			background-color: darken(#fff, 3);
+			background-color: darken(#fff, 2);
 			text-decoration: none;
 		}
 	}
 
 	.post-title {
 		color: $midnight;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
 		line-height: 1.55;
 		font-family: $display;
-        font-weight: 400;
+        font-weight: 500;
 	}
 }

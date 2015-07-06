@@ -1,10 +1,8 @@
 .post-list {
-	display: flex;
-	flex-wrap: wrap;
 	position: relative;
-    padding-left: 15%;
     color: $midnight;
 	@include bp(m){
+        padding-left: 15%;
 		font-size: 1.2rem;
 	}
 

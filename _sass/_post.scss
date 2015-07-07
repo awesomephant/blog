@@ -19,8 +19,7 @@
 	font-feature-settings: "liga" 1;
 	hyphens: auto;
 	width: 90%;
-    padding-top: 4rem;
-	margin: 0 auto;
+    margin: 0 auto;
     margin-bottom: 2rem;
 	line-height: 1.5;
 	color: $black;
@@ -29,6 +28,7 @@
 	max-width: 40em;
     &:before {
         content: '';
+        display: none;
         height: 40px;
         width: 100%;
         position: absolute;

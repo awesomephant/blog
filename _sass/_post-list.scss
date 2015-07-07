@@ -1,7 +1,9 @@
 .post-list {
 	position: relative;
     color: $midnight;
-	@include bp(m){
+	padding-top: 5rem;
+    
+    @include bp(m){
         padding-left: 15%;
 		font-size: 1.2rem;
 	}
@@ -13,6 +15,7 @@
 		padding-top: 1rem;
 		padding-bottom: 1rem;
         @include bp(m){
+            border-bottom: 0;
             position: absolute;
             left: 5%;    
             padding: 0;
@@ -28,6 +31,7 @@
 		list-style: none;
 		flex-basis: 100%;
 		position: relative;
+        border-bottom: 1px solid rgba($lightgray, .5);
 	}
 
     .post-date {
@@ -35,6 +39,7 @@
 		display: block;
 		margin-bottom: .1em;
 		color: rgba($black, .4);
+        
     }
 
 
@@ -57,8 +62,11 @@
 
 	.post-title {
 		color: $midnight;
-        font-size: 1.4rem;
-		line-height: 1.55;
+        font-size: 1.3rem;
+        @include bp(m){
+            font-size: 1.4rem;
+        }
+        line-height: 1.55;
 		font-family: $display;
         font-weight: 500;
 	}

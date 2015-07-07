@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 			livereload: false,
 		},
 		main: {
-			files: ['*/*.scss', './_layouts/*.html', './_includes/*.html', '*.html', './_posts/*.md', './_drafts/*.md', './assets/**/*'],
+			files: ['*/*.scss', './_layouts/*.html', './_includes/*.html', '*.html', './_posts/*.md', './_drafts/*.md', 'assets/**/*'],
 			tasks: ['default'],
 		}
 	},

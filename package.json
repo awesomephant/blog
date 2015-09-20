@@ -3,12 +3,18 @@
 	"author": "@awesomephant",
 	"devDependencies": {
 		"grunt-shell": "*",
+		"grunt-contrib-clean": "*",
+		"grunt-contrib-copy": "*",
+		"grunt-contrib-compress": "*",
+		"grunt-aws-s3": "*",
 		"grunt-contrib-watch": "*",
 		"grunt-contrib-sass": "*",
 		"grunt-contrib-imagemin": "*",
-		"grunt-contrib-cssmin": "*",
-		"grunt-autoprefixer": "*",
+		"grunt-responsive-images": "*",
+		"grunt-contrib-htmlmin": "*",
+		"grunt-postcss": "*",
+		"autoprefixer-core": "*",
+		"cssnano": "*",
 		"grunt-browser-sync": "*"
-
 	}
 }

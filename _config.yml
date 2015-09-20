@@ -7,5 +7,5 @@ twitter_username: awesomephant
 
 # Build settings
 markdown: kramdown
-exclude: ["node_modules"]
+exclude: ["node_modules", "aws-keys.json", "package.json", "gruntfile.js", "_sass", ".sass-cache", ".git"]
 permalink: /:year/:title/

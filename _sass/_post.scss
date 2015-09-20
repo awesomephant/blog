@@ -18,14 +18,21 @@
     text-rendering: optimizeLegibility;
 	font-feature-settings: "liga" 1;
 	hyphens: auto;
-	width: 90%;
-    margin: 0 auto;
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 	line-height: 1.5;
 	color: $black;
-    font-family: $body;
+  font-family: $body;
 	font-size: 18px;
-	max-width: 40em;
+  background: #fff;
+	max-width: 55rem;
+  padding: 5%;
+
+  @include bp(m){
+	  width: 90%;
+    margin-left: 5%;
+    padding: 3rem 5rem;
+
+  }
     &:before {
         content: '';
         display: none;
@@ -36,7 +43,7 @@
         left: 0;
         background: beige;
     }
-    
+
 	ul, ol {
 		list-style-position: inside;
 	}
@@ -44,12 +51,12 @@
 	p, ul, ol, li, .gist, h2, h3 {
 		margin-bottom: 1rem;
 	}
-    
+
     .post-date {
         text-align: center;
         width: 100%;
     }
-    
+
 	.post-title {
         font-weight: 700;
         font-family: $display;
@@ -64,7 +71,7 @@
 
 	img, iframe {
 		width: 110%;
-        margin-left: -5%;
+    margin-left: -5%;
 		display: block;
 	}
 

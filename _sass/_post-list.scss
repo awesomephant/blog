@@ -1,26 +1,32 @@
 .post-list {
-	position: relative;
+		position: relative;
     color: $midnight;
-	padding-top: 5rem;
-    
+		background-color: white;
+		max-width: 55rem;
+		padding: 0;
+		padding-top: 3rem;
+
     @include bp(m){
-        padding-left: 15%;
+		padding: 2rem;
+		padding-top: 4rem;
+    padding-left: 12%;
+		margin-left: 5%;
 		font-size: 1.2rem;
 	}
 
 	.date {
 		padding-left: 5%;
 		padding-right: 5%;
-		font-size: 2.5rem;
+		font-size: 2rem;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
         @include bp(m){
             border-bottom: 0;
             position: absolute;
-            left: 5%;    
+            left: 5%;
             padding: 0;
         }
-		
+
 		h3 {
             font-family: $display;
             font-weight: 600;
@@ -31,40 +37,39 @@
 		list-style: none;
 		flex-basis: 100%;
 		position: relative;
-        border-bottom: 1px solid rgba($lightgray, .5);
 	}
 
+
     .post-date {
-        font-size: .9rem;
+    font-size: 1rem;
 		display: block;
 		margin-bottom: .1em;
-		color: rgba($black, .4);
-        
+		color: rgba($black, .5);
     }
 
 
 	.post-link {
 		display: block;
-		padding-left: 5%;
-		padding-right: 5%;
+		padding: 1rem 5%;
+		border-bottom: 1px solid;
+		border-bottom-color: $lightgray;
+		transition: 200ms border-bottom-color;
 		@include bp(s){
-			padding-left: 2rem;
-			padding-right: 2rem;
+			padding: 2rem 5%;
 		}
 
-		padding-top: 1rem;
-		padding-bottom: 1rem;
 		&:hover, &:focus {
-			background-color: darken(#fff, 2);
+			background-color: rgba(black, .051);
 			text-decoration: none;
+			border-bottom-color: lighten($blue, 20);
 		}
 	}
 
 	.post-title {
-		color: $midnight;
-        font-size: 1.3rem;
+		color: $black;
+        font-size: 1.2rem;
         @include bp(m){
-            font-size: 1.4rem;
+            font-size: 1.3rem;
         }
         line-height: 1.55;
 		font-family: $display;

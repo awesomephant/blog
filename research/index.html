@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% include header.html %}
+
+<ul class="research">
+  {% for item in site.data.research %}
+  {% if item.name %}
+  <li class="research-item research-primary">
+    <img class='research-item-image' src="{{ site.url }}/assets/research/{{ item.name }}-medium.jpg" srcset="{{ site.url }}/assets/research/{{ item.name }}-small.jpg 320w, {{ site.url }}/assets/research/{{ item.name }}-medium.jpg 640w, {{ site.url }}/assets/research/{{ item.name }}-big.jpg 1000w, {{ site.url }}/assets/research/{{ item.name }}-huge.jpg 1500w" alt="{{item.title | url_escape}}">
+    <div class="research-item-info">
+      <h2 class="research-item-title">{{ item.title | markdownify | strip_html}}<date>{{ item.date }}<date></h2>
+      <div class="research-item-description">{{ item.description | markdownify }}</div>
+    </div>
+  </li>
+  {% else %}
+  <li class="research-item research-secondary">
+    <img class='research-item-image' src="{{ item.url }}" alt='{{item.title | escape}}'>
+    <div class="research-item-info">
+      <h2 class="research-item-title">{{ item.title | markdownify | strip_html}}<date>{{ item.date }}<date> </h2>
+      <div class="research-item-description">{{ item.description | markdownify }}<a class='research-item-source' href="{{item.source}}">Source</a></div>
+    </div>
+  </li>
+  {% endif %}
+
+  {% endfor %}
+</ul>

@@ -4,25 +4,13 @@ layout: default
 
 {% include header.html %}
 
-<section class='posts'>
-	  <ul class="post-list home">
-		{% for post in site.posts %}
-
-    	{% capture day %}{{ post.date | date: '%Y' }}{% endcapture %}
-    	{% capture nday %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-
-    	{% if day != nday %}
-    	    <li class="date">
-				<h3>{{ post.date | date: "%Y" }}</h3>
-			</li>
-    	{% endif %}
-		<li class='post-list-post'>
-			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-				<date class="post-date">{{ post.date | date: "%B %-d, %Y"}}</date>
-				<h2 class='post-title'>{{ post.title }}</h2>
-			</a>
-		</li>
-	{% endfor %}
-
-	  </ul>
-</section>
+<ul class='projects'>
+    {% for p in site.data.projects %}
+    <li>
+        <a style="background-color: {{ p.color }}; background-image: url(./assets/{{ p.image }})" class='project' href="{{ p.url }}">
+            <h2 class="project-title">{{ p.title }}</h2>
+            <p class="project-description">{{ p.desc }}</p>
+        </a>
+    </li>
+    {% endfor %}
+</ul>

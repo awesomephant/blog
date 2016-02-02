@@ -8,14 +8,12 @@ $red: #FF6134;
 $lightblue: #3fd9ff;
 $lightgray: rgb(240,240,240);
 $blue-dark: #162134;
-$bg: rgb(240,240,240);
-
+$bg: rgb(20,20,20);
 
 $body: Georgia, 'serif';
-$display: 'aktiv-grotesk', 'Helvetica', 'sans-serif';
+$display: 'futura-pt', 'Helvetica', 'sans-serif';
 
 $sans: "Helvetica", sans-serif;
-
 $fast: 290ms;
 
 @mixin bp($point) {

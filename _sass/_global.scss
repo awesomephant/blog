@@ -30,8 +30,8 @@ sup {
 .site-header {
     padding: 2rem 5%;
     margin-bottom: -7rem;
-		padding-bottom: 10rem;
-		padding-top: 4rem;
+	padding-bottom: 10rem;
+	padding-top: 4rem;
 }
 .twitter {
 	font-family: $sans;
@@ -54,30 +54,16 @@ sup {
 }
 
 .site-home {
-	color: $black;
+	color: white;
 	display: block;
 	font-size: 1.5rem;
 	font-family: $display;
+    font-weight: 500;
 	max-width: 55rem;
 	line-height: 1.4;
 	margin-bottom: 1rem;
 	a {
-		color: $black;
+		color: white;
 		text-decoration: underline;
-	}
-}
-
-.site-nav a{
-	color: $black;
-	font-family: $display;
-	margin-right: .5rem;
-	padding-bottom: 5px;
-	border-bottom: 2px solid;
-	border-bottom-color: rgba($black, 0);
-	transition: .3s;
-
-	&:hover, &:focus {
-		text-decoration: none;
-		border-bottom-color: rgba($black, .4);
 	}
 }

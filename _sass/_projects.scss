@@ -1,0 +1,30 @@
+.projects {
+    padding: 0 5%;
+    list-style: none;
+    display: flex;
+}
+
+.project {
+    display: block;
+    padding: 1rem;
+    font-family: $display;
+    color: white;
+    transition: $fast;
+    background-size: cover;
+    padding-top: 6rem;
+    &:hover, &:focus {
+        transform: scale(.98);
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.project-title {
+    font-weight: normal;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+
+.project-description {
+    font-size: 1.1rem;
+}

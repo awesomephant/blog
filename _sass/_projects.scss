@@ -2,6 +2,7 @@
     padding: 0 5%;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .project {
@@ -12,7 +13,8 @@
     transition: $fast;
     background-size: cover;
     padding-top: 6rem;
-    margin-right: .2rem;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
     &:hover, &:focus {
         transform: scale(.98);
         color: white;
@@ -27,5 +29,5 @@
 }
 
 .project-description {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }

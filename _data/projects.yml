@@ -2,11 +2,17 @@
   desc: Notes from graphic design lectures at Camberwell College of Arts
   url: http://www.maxkoehler.com/notes
   image: notes.png
-  color: "#7F32FF"
+  color: "#3D4CFF"
   
 - title: Letterpress* Experiments
   desc: '* Art students love letterpress'
   url: https://goo.gl/photos/xoFBqmSPWrnuHCfm9
   image: letterpress.png
-  color: '#FF4735'
+  color: '#674CFF'
+  
+- title: Photography
+  desc: 'Fair warning: Might be random. Also, check out @awesomephant on Instagram'
+  url: https://goo.gl/photos/5ECDNgR1PiFQq8su5
+  image: photography.png
+  color: '#7C00FF'
  

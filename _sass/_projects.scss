@@ -3,15 +3,17 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .project {
     display: block;
-    padding: 1rem;
+    padding: 1.5rem;
     font-family: $display;
     color: white;
     transition: $fast;
-    background-size: cover;
+    background-size: 100%;
+    background-position: top;
     padding-top: 6rem;
     margin-right: .5rem;
     margin-bottom: .5rem;
@@ -24,10 +26,10 @@
 
 .project-title {
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin-bottom: 0;
 }
 
 .project-description {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }

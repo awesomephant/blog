@@ -8,11 +8,15 @@
   desc: '* Art students love letterpress'
   url: https://goo.gl/photos/xoFBqmSPWrnuHCfm9
   image: letterpress.png
-  color: '#674CFF'
+  color: '#FFDC00'
   
 - title: Photography
   desc: 'Slightly random. Also, check out @awesomephant on Instagram'
   url: https://goo.gl/photos/5ECDNgR1PiFQq8su5
   image: photography.png
-  color: '#7C00FF'
+  color: '#00E4FF'
  
+- title: Unit 1 Essay
+  desc: 'To what extent are the principles and methods of the Bauhaus relevant to designers today?'
+  url: 'https://docs.google.com/document/d/1LFarzZhd_-3P2wpeiNpXQ82No1Cz-N7Af7JdN905z20/pub'
+  color: '#FF4730'

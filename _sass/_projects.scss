@@ -3,30 +3,34 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .project {
     display: block;
-    padding: 1.5rem;
     font-family: $display;
-    color: white;
     transition: $fast;
     background-size: 100%;
     background-position: top;
-    padding-top: 6rem;
+    border-radius: 2px;
+    padding-top: 16rem;
     margin-right: .5rem;
+    color: $black;
     margin-bottom: .5rem;
     &:hover, &:focus {
         transform: scale(.98);
-        color: white;
         text-decoration: none;
     }
 }
 
+.project-meta {
+    background: white;
+    padding: 1rem;
+}
+
 .project-title {
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-bottom: 0;
 }
 

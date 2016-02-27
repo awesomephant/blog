@@ -7,9 +7,11 @@ layout: default
 <ul class='projects'>
     {% for p in site.data.projects %}
     <li>
-        <a style="background-color: {{ p.color }}; background-image: url(./assets/{{ p.image }})" class='project' href="{{ p.url }}">
-            <h2 class="project-title">{{ p.title }}</h2>
-            <p class="project-description">{{ p.desc }}</p>
+        <a style="background-color: {{ p.color }};" class='project' href="{{ p.url }}">
+            <div class="project-meta">
+                <h2 class="project-title">{{ p.title }}</h2>
+                <p class="project-description">{{ p.desc }}</p>
+            </div>
         </a>
     </li>
     {% endfor %}

@@ -2,7 +2,7 @@
   url: 'https://goo.gl/photos/Lo441Kj6nC6ZUAUn9'
   desc: 'Hand-drawn type and other such things'
   color: '#fff'
-  image: 'assets/lettering.jpg'
+  image: './assets/lettering.jpg'
   
 - title: 'Zwicker & Partner Responsive Redesign'
   desc: "Shiny new website and refined content strategy for my dad's surgery"

@@ -1,27 +1,30 @@
+- title: Lettering
+  url: 'https://goo.gl/photos/Lo441Kj6nC6ZUAUn9'
+  desc: 'Hand-drawn type and other such things'
+  color: '#fff'
+  image: 'assets/lettering.jpg'
+  
 - title: 'Zwicker & Partner Responsive Redesign'
   desc: "Shiny new website and refined content strategy for my dad's surgery"
   url: 'http://www.radiologen-konstanz.de/'
-  color: '#00B43C'
+  color: '#67BA3C'
 
 - title: Lecture Notes 
   desc: Notes from graphic design lectures at Camberwell College of Arts
   url: http://www.maxkoehler.com/notes
-  image: notes.png
   color: "#3D4CFF"
   
-- title: Letterpress* Experiments
-  desc: '* Art students love letterpress'
+- title: Letterpress Experiments
+  desc: "Who doesn't love letterpress"
   url: https://goo.gl/photos/xoFBqmSPWrnuHCfm9
-  image: letterpress.png
   color: '#FFDC00'
   
 - title: Photography
-  desc: 'Slightly random. Also, check out @awesomephant on Instagram'
+  desc: 'Possibly a bit random'
   url: https://goo.gl/photos/5ECDNgR1PiFQq8su5
-  image: photography.png
-  color: '#00E4FF'
+  color: '#FF4715'
  
 - title: Unit 1 Essay
   desc: 'To what extent are the principles and methods of the Bauhaus relevant to designers today?'
   url: 'https://docs.google.com/document/d/1LFarzZhd_-3P2wpeiNpXQ82No1Cz-N7Af7JdN905z20/pub'
-  color: '#FF4730'
+  color: '#771BFF'

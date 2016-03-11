@@ -10,6 +10,7 @@
     display: block;
     font-family: $display;
     transition: $fast;
+    min-width: 15rem;
     background-size: 120%;
     background-position: center;
     border-radius: 2px;

@@ -9,12 +9,15 @@
 body {
 	font-family: $body;
 	color: $black;
-	background: $bg;
+ 	background: url('../assets/bg.svg');
+    background-size: 1500px;
+    background-position: center;
+    padding: 5%;
 }
 
 a {
-	color: $blue;
-	text-decoration: none;
+	color: inherit;
+	text-decoration: underline;
 
 	&:hover, &:focus {
 		text-decoration: underline;
@@ -27,38 +30,17 @@ sup {
 	font-size: .8em;
 }
 
-.site-header {
-    padding: 2rem 5%;
-    margin-bottom: -7rem;
-	padding-bottom: 10rem;
-	padding-top: 4rem;
-}
-.twitter {
-	font-family: $sans;
-    text-align: center;
-    max-width: 20rem;
-    padding: 1rem;
-    border-radius: 2px;
-    border: 1px solid $blue;
-    color: $blue;
-	font-size: 14px;
-    margin: 0 auto;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-    display: block;
-    border-bottom-width: 2px;
-    &:hover, &:focus {
-        border-color: $blue;
-        text-decoration: none;
-    }
-}
-
-.site-home {
+.site-home, .projects, .hi {
 	display: block;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
+    
 	font-family: $display;
     font-weight: 500;
-	max-width: 55rem;
+	max-width: 20em;
 	line-height: 1.4;
 	margin-bottom: 1rem;
+}
+
+.hi {
+    margin-bottom: 2rem;
 }

@@ -30,10 +30,15 @@ sup {
 	font-size: .8em;
 }
 
+.heart {
+    position: relative;
+    top: 3px;
+    right: -10px;
+}
+
 .site-home, .projects, .hi {
 	display: block;
-	font-size: 1.5rem;
-    
+	font-size: 1.8rem;
 	font-family: $display;
     font-weight: 500;
 	max-width: 20em;

@@ -9,10 +9,10 @@
 body {
 	font-family: $body;
 	color: $black;
- 	background: url('../assets/bg.svg');
-    background-size: 1500px;
+ 	//background: url('../assets/bg.svg');
+    background-color: lighten(yellowgreen, 10);
+	background-size: 1500px;
     background-position: center;
-    padding: 5%;
 }
 
 a {
@@ -38,14 +38,21 @@ sup {
 
 .site-home, .projects, .hi {
 	display: block;
-	font-size: 1.8rem;
-	font-family: $display;
-    font-weight: 500;
-	max-width: 20em;
+	padding: 1rem 5%;
+	font-size: 1.5rem;
+	@include bp(m){
+		font-size: 2.5rem
+	}
+	@include bp(l){
+		font-size: 4rem;
+	}
+	color: white;
+	max-width: 40em;
+	font-family: 'report', 'Times New Roman', Times, serif;
+    font-weight: 800;
 	line-height: 1.4;
-	margin-bottom: 1rem;
 }
 
 .hi {
-    margin-bottom: 2rem;
+    padding-top: 4rem;
 }

@@ -8,7 +8,7 @@ intro: "For my most recent uni project I designed a display typeface and adopted
 class: "laser" 
 ---
 
-##Material
+## Material
 
 - 3mm Acrylic (About £16 for an A2 sheet)
 - 18mm MDF board (about £7)
@@ -24,7 +24,7 @@ class: "laser"
 ## Drawing the Typeface
 I assume at this point you have either drawn or picked out the typeface you’ll adapt for letterpress. For my project I drew a sans-serif, uppercase display type.
 
-##Getting ready for the Laser cutter
+## Getting ready for the Laser cutter
 
 ![Letterforms ready to be cut](/assets/laser.png)
 
@@ -42,7 +42,7 @@ If your typeface has disconnected parts - like this shadow variant I made - you 
 
 Get your file to the laser cutter, start the machine and wait! In my case it took about an hour to complete 30 letterforms. If your acrylic sheet has protective film on it, it's best to leave it until you're ready to print.
 
-##Mounting
+## Mounting
 
 For our letters to be usable in letterpress (together with regular letterpress type) we’ll have to bring the face up to 23.3mm - this is called [type high](https://en.wikipedia.org/wiki/Movable_type#Type-founding). (I should say that if you're outside the United Kingdom, the US or Canada you might need a different height - check with your letterpress technician.)
 
@@ -60,7 +60,7 @@ Next, glue the acrylic letters on the right MDF blocks - I found that regular PV
 
 You could repeat this process and stick a piece of greyboard underneath each letter to get close to type high. Since I had limited time, I just laid on big sheet of greyboard on the bed of the printing press.
 
-##Printing
+## Printing
 
 ![letterpress](/assets/laser-print.jpg)
 *One of the first type samples I printed*

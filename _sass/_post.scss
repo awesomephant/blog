@@ -1,8 +1,18 @@
 .laser {
+	margin-top: 2rem;
+}
+.laser:before {
+	width: 100%;
+	top: 0;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	display: block;
+	content: '';
 	background-image: url('/assets/laser-bg.svg');
 	background-repeat: no-repeat;
-	background-size: 1000px;
-	background-position: top -500px left 0;
+	background-size: cover;
+	background-position: bottom;
 }
 .post-date {
     font-family: $display;

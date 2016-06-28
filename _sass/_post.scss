@@ -32,7 +32,10 @@
 	font-family: $sans;
 	max-width: 60rem;
 	font-size: 18px;
-	padding: 8%;
+	padding: 5%;
+	@include bp(m){
+		padding: 8%;
+	}
 	line-height: 1.53;
 	
 	p, ul, ol {
@@ -52,7 +55,9 @@
 	
 	img + em {
 		font-style: normal;
-		font-size: 15px;
+		font-size: 14px;
+		line-height: 1.2;
+		display: block;
 		padding-top: .5rem;
 	}
 }

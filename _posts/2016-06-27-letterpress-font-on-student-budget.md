@@ -62,7 +62,7 @@ You could repeat this process and stick a piece of greyboard underneath each let
 
 ## Printing
 
-![letterpress](/assets/laser-print.jpg)
+![letterpress](/assets/laser-print.JPG)
 *One of the first type samples I printed*
 
 From this point, it’s just normal letterpress! Below are some of the prints I made for my project. Note the crisp edges and minimal texture the acrylic creates - almost like type metal. MDF or plywood (which can also be lasercut) give you a slightly more textured look.

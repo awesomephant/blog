@@ -37,7 +37,7 @@ I ended up just setting an Illustrator artboard to the size of my acrylic sheet 
 
 If your typeface has disconnected parts - like this shadow variant I made - you might want to consider adding some “bridges” so they won’t fall apart when they come out the laser cutter. You can always file away the bridge once the type is mounted.
 
-![finished letters](/assets/laser-letters.jpg)
+![finished letters](/assets/laser-letters.JPG)
 *Letters fresh out the laser cutter, ready to be mounted.*
 
 Get your file to the laser cutter, start the machine and wait! In my case it took about an hour to complete 30 letterforms. If your acrylic sheet has protective film on it, it's best to leave it until you're ready to print.

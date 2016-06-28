@@ -2,7 +2,7 @@
 layout: default
 ---
 {% include header.html %}
-<article class='post'>
+<article class='post {{page.class}}'>
     <date class='post-date'>{{ page.date | date: "%B %-d, %Y"}}</date>
 	<h1 class="post-title">{{ page.title }}</h1>
 	<p class="post-intro">
@@ -35,6 +35,10 @@ layout: default
             </li>
         </ol>
         {% endif %}
-<a href="https://www.twitter.com/awesomephant" class="twitter">Follow @awesomephant</a>
+
+<p class="bio">
+	Max Kohler is a graphic design student at the University of the Arts London. He gets excited about technology, type and sometimes politics. Follow him on Twitter or Instagram <a href="https://www.twitter.com/maxakohler" class="twitter">@maxakohler</a> or hire him for design work at awesomephant@gmail.com.
+
+</p>
 </article>
 

@@ -9,9 +9,6 @@
 body {
 	font-family: $body;
 	color: $black;
- 	//background: url('../assets/bg.svg');
-    background-color: lighten(yellowgreen, 10);
-	background-size: 1500px;
     background-position: center;
 }
 
@@ -38,18 +35,18 @@ sup {
 
 .site-home, .projects, .hi {
 	display: block;
-	padding: 1rem 5%;
-	font-size: 1.5rem;
+	padding: 0 5%;
+	font-size: 1.1rem;
 	@include bp(m){
-		font-size: 2.5rem
+		font-size: 1.2rem
 	}
 	@include bp(l){
-		font-size: 4rem;
+		font-size: 1.3rem;
 	}
-	color: white;
-	max-width: 40em;
-	font-family: 'report', 'Times New Roman', Times, serif;
-    font-weight: 800;
+	color: rgb(25,25,25);
+	max-width: 50em;
+	font-family: 'Helvetica', 'Times New Roman', Times, serif;
+    font-weight: 100;
 	line-height: 1.4;
 }
 

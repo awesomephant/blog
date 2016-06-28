@@ -27,15 +27,18 @@ I assume at this point you have either drawn or picked out the typeface you’ll
 ## Getting ready for the Laser cutter
 
 ![Letterforms ready to be cut](/assets/laser.png)
+*This is one of two vector files I sent to the laser cutter.*
+
+Laser cutters usually work with standard Illustrator files (but make sure to check with your technician). Make sure you convert the letters to outlines before you send them off.
 
 Since acrylic sheet isn’t exactly cheap, you want to try and fit as many letterforms as possible on one sheet. There is [software to do this](http://svgnest.com/), but it can take a lot of processing power to get to a decent result.
 
 I ended up just setting an Illustrator artboard to the size of my acrylic sheet and arranging the letters by hand. Once that’s done, remember to flip the letterforms - they will come out the right way once you print them. 
 
 ![letters with bridges](/assets/laser-shadow.png)
-*Highlighted sections were added so the letter stays in one piece.*
+*Highlighted sections were added so the letters stay together in one piece.*
 
-If your typeface has disconnected parts - like this shadow variant I made - you might want to consider adding some “bridges” so they won’t fall apart when they come out the laser cutter. You can always file away the bridge once the type is mounted.
+If your typeface has disconnected parts - like this [shadow variant](https://goo.gl/photos/re4WpUwtbGJu9Euo7) I made - you might want to consider adding some “bridges” so they won’t fall apart when they come out the laser cutter. Once the type is mounted you can easily file some material off the bridges so they won't show up in print.
 
 ![finished letters](/assets/laser-letters.JPG)
 *Letters fresh out the laser cutter, ready to be mounted.*
@@ -62,9 +65,9 @@ You could repeat this process and stick a piece of greyboard underneath each let
 
 ## Printing
 
-![letterpress](/assets/laser-print.JPG)
-*One of the first type samples I printed*
+From this point, it’s just normal letterpress! Note the crisp edges and minimal texture the acrylic creates - almost like type metal. MDF or plywood (which can also be lasercut) give you a slightly more textured look.
 
-From this point, it’s just normal letterpress! Below are some of the prints I made for my project. Note the crisp edges and minimal texture the acrylic creates - almost like type metal. MDF or plywood (which can also be lasercut) give you a slightly more textured look.
+![letterpress](/assets/laser-print.JPG)
+*One of the first type samples I printed. [Here's some more](https://goo.gl/photos/xoFBqmSPWrnuHCfm9)*
 
 Like I said at the start, this process is by no means perfect. But I hope it can be a starting point for your project - if you decide to try this, let me know! I'd love to hear what you learn along the way. 

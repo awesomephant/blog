@@ -3,7 +3,7 @@ layout: post
 title:  "How to make a letterpress typeface on a student budget"
 date:   2016-06-27 14:01:32
 tags: ""
-thumb: "https://raw.githubusercontent.com/awesomephant/awesomephant.github.io/master/assets/Artboard%201.jpg"
+thumb: "https://raw.githubusercontent.com/awesomephant/awesomephant.github.io/master/assets/laser-alphabet.JPG"
 intro: "For my most recent uni project I designed a display typeface and adopted it for traditional letterpress. Since I only had four weeks to do it, I developed process that is cheap, easy to execute and only uses basic tools and equipment."
 class: "laser" 
 ---

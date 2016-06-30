@@ -22,8 +22,14 @@ class: "laser"
 - Illustrator CC
 
 ## Drawing the Typeface
-I assume at this point you have either drawn or picked out the typeface you’ll adapt for letterpress. For my project I drew a sans-serif, uppercase display type.
 
+I assume at this point you have either drawn or picked out the typeface you’ll adapt for letterpress. Generally simpler, solid shapes will be easier to work with.
+
+![Type specimen](/assets/laser-type-sample.svg)
+*For my project I drew this 19th century-style display type.*
+
+ If you're using typeface with very thin strokes or sharp serifs it might be worth doing a test on the laser cutter. You might have to increase the scale or pick a heavier weight to get a decent quality cut. Once you're sure the typeface will work, you can start preparing the alphabet to be cut. 
+ 
 ## Getting ready for the Laser cutter
 
 ![Letterforms ready to be cut](/assets/laser.png)

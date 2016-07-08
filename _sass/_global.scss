@@ -33,9 +33,8 @@ sup {
     right: -10px;
 }
 
-.site-home, .projects, .hi {
+.site-home, .projects{
 	display: block;
-	padding: 0 5%;
 	font-size: 1.1rem;
 	@include bp(m){
 		font-size: 1.2rem
@@ -48,8 +47,4 @@ sup {
 	font-family: 'Helvetica', 'Times New Roman', Times, serif;
     font-weight: 100;
 	line-height: 1.4;
-}
-
-.hi {
-    padding-top: 4rem;
 }

@@ -2,17 +2,19 @@
 layout: default
 ---
 
-{% include header.html %}
-<p class='hi'>Hello!</p>
-		<p class='site-home'>I'm Max, a graphic design student at UAL. Say hi on <a href="https://www.twitter.com/maxakohler" title="@maxakohler on Twitter">Twitter</a>, <a href="http://www.instagram.com/maxakohler" title='@maxakohler on Instagram'>Instagram</a> or  <a href="mailto:awesomephant@gmail.com">Email</a><span class="heart">♡</span>️</p>
-<p class='projects'>
-    Recent projects include: 
-    {% for p in site.data.projects %}
-        <a class='project' href="{{ p.url }}">
-                {{ p.title }}</a>, 
-    {% endfor %}
-    {% for post in site.posts %}
-        <a href="{{ post.url }}">
-                {{ post.title }}</a>, 
-    {% endfor %}
-</p>
+<article class="post">
+    {% include bio.html %}
+    <h3>Recent projects include:</h3>
+    <ul class='projects'>
+        {% for p in site.data.projects %}
+        <li><a class='project' href="{{ p.url }}">{{ p.title }}</a></li>
+        {% endfor %}
+    </ul>
+    
+    <h3>Writing</h3>
+    <ul class='projects'>
+        {% for post in site.posts %}
+        <li><a class='project' href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</article>

@@ -41,3 +41,17 @@ sup {
     font-weight: 100;
 	line-height: 1.4;
 }
+
+.site-header {
+	border-bottom: 1px dotted $black;
+	padding: 1rem 8%;
+	font-family: $sans;
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.cover-image {
+	max-width: 40rem;
+}

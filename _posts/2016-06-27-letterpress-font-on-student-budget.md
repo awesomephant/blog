@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to make a letterpress typeface on a student budget"
+title:  "How to make a Lasercut typeface for Letterpress"
 date:   2016-06-27 14:01:32
 tags: ""
 thumb: "https://raw.githubusercontent.com/awesomephant/awesomephant.github.io/master/assets/laser-alphabet.JPG"

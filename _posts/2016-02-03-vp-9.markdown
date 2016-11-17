@@ -1,0 +1,102 @@
+---
+layout: post
+title:  "Robert Pybus"
+date:   2016-02-03 10:30:00
+teacher: Robert Pybus
+unit: 'VP'
+abstract: ""
+website: 'http://pybism.com/'
+---
+
+## Background
+
+Brighton Illustation degree
+Until 5 years ago in-house illustrator for greeting cards, very commercial
+In-house work not very easy to find
+Struggled to get his own ideas in, Got fired
+
+Got in touch with uni friends at [Marshmallow Laser Feast](http://marshmallowlaserfeast.com/)
+
+<iframe src="https://player.vimeo.com/video/26001848?title=0&byline=0&portrait=0" width="800" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+Helped them on their first project for Vodaphone **(Projection mapping is awesome)**
+
+Marshmallow Laser Feast did commercial work, but they brought their own ambitions and ideas to the table. This inspired me to start doing more independent work in between projects.
+
+<iframe src="https://player.vimeo.com/video/34021153" width="800" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+Video for Sony, more advanced projection mapping this time around.
+
+- The personal illustrations were sort of a response to limiting greeting cards
+- Fully digital illustrations, but used textures and linework to give it a tactle feeling. Creates ambiguity as to how the images were created.
+
+## Influences
+
+![woodblock fish](http://www.vam.ac.uk/users/sites/default/files/e.10605-1886_27_1000.jpg)
+
+- Japanese woodblock prints, [Kuniyoshi](https://en.wikipedia.org/wiki/Utagawa_Kuniyoshi). Simplified shappes, strong narrative, creates patterns in his images
+- [M. C. Esher](https://en.wikipedia.org/wiki/M._C._Escher)
+- [Mobius](https://en.wikipedia.org/wiki/Jean_Giraud). Strong line work, pen and ink texture
+- [Heath Robinson](https://en.wikipedia.org/wiki/W._Heath_Robinson). Crazy, useless contraptions, political carricatures
+- [Bernard Krigstein](https://en.wikipedia.org/wiki/Bernard_Krigstein). Sense of movement in sequential work
+- Old, cheaply printed comic books, oversaturated colours
+- Fuzzy 80s cartoons with weird storylines and lots of stuff going on on the screen
+
+## Getting Work
+
+- Made a website, put his personal work up
+- The internet and social media give you the opportunity to share your work
+- Other people can share your work for you
+- Got some exposure, led to first [feature on it's nice that](http://www.itsnicethat.com/articles/rob-pybus)
+![branding](http://payload179.cargocollective.com/1/1/45142/5892441/Screen%20shot%202013-06-27%20at%2021.15.41_o.png)
+- Led to interest from clients, first project was rebranding for Nickelodeon. [(More on that project)](http://pybism.com/Nickelodeon)
+
+![chase](http://payload153.cargocollective.com/1/1/45142/5361694/Chase_web_o.jpg)
+
+- Got interested in telling stories in images. Started to incorporate skewed perspective, strange scenarios, surreal elements, limited colour palette
+- Was approached to make first piece for an exhibition at the Seven Agency offices in Holborn. [(More on that project)](http://pybism.com/7x7-exhibition)
+
+![new republic](http://payload307.cargocollective.com/1/1/45142/8448365/master-comp_03qt.gif)
+- First editorial job was for [Wired](http://pybism.com/Wired-Magazine). Started animating elements in the illustration.
+- Got more  opportunities for animated work for other publishing companies like [New Republic](http://pybism.com/New-Republic-Magazine), [New York Times](http://pybism.com/New-York-Times)
+
+- [Original Source animation commission](http://pybism.com/Original-Source). Inspired by 80s cartoons.
+- All this time did storyboard work to keep the lights on.
+- Started doing more character work, drew people from the street
+
+<iframe width="800" height="400" src="https://www.youtube.com/embed/6Olt-ZtV_CE" frameborder="0" allowfullscreen></iframe>
+Worked with Marshmallow Laser Feast on [Squarepusher](http://pybism.com/Squarepusher-Stor-Eiglass) VR music video
+
+## Standup Stuff
+
+- "Living Cartoon" at [Edinburgh Fringe](http://www.heroesoffringe.com/show.asp?ShowID=3422)
+- Puts on white clothes and puts himself into animated scenes (Kind of basic projection mapping)
+- Looking at ways to integrate the audience into whats happening on the screen
+
+## Questions
+
+### What course did you do at Brighton University? 
+
+I did BA Illustration. It was also durig that time that I got interested in animation and things.
+
+### Can you talk a bit more about how the Squarepusher VR experience was created? How did you collaborate with programmers, animators and so on? 
+
+It all starts with big storyboard. I've done a lot of storyboard work, so that worked well. We then brought in animators, programmers (who had with VR before) to discuss what could and could not be done based on the given timeframe and technical limitations.
+
+We had to do some clever things to save memory and processing power, like limiting the number of shapes and using the same architecture more than once with different textures.
+
+Traditional storytelling doesn't really translate to VR where you don't know what the person will be looking at.
+
+### During your career, did you ever have to sit down and teach yourself about things like perspective?
+
+I did learn some of my technique at Brighton, but other than that it's lots of experimenting. Sketching things out, taking them to a finished stage and looking at how things work and what works and what doesn't.
+And this works the same way with technology (projection mapping, VR). I picked up a lot of skills from programmers I worked with, and on top of that there's tons of recources freely available online.
+
+### What percentage of your editorial clients want animated images?
+
+Around half and half. A lot of publications are not printed anymore, animation is definitely on the rise. If you can make animation a part of your skillset it can generate a lot of work for you. If your work allows for it, do experiment with animation.
+Also, you don't need to be a fully trained animator to make subtle things move.
+
+### You mentioned you work primarily in Illustrator, but your work does have a lot of texture. Can you talk about how you achieve that? 
+
+All my work is done in Illustrator. It's a good device to save labour. It makes it easier to make patterns, repeat things and bend elements around. I then use other software to add textures to get that tactile feeling. The good thing about software is that you can just use it for one particular thing without being an expert.

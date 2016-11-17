@@ -16,7 +16,6 @@
 }
 
 .post-date {
-    font-family: $display;
     font-weight: 500;
     color: lightgray;
     display: block;
@@ -41,6 +40,7 @@
 }
 .post {
 	font-family: $sans;
+	background: white;
 	max-width: 60rem;
 	font-size: 18px;
 	padding: 5%;
@@ -99,12 +99,6 @@
 		}
 	}
 }
-
-.bio {
-	color: gray !important;
-	margin-top: 4rem;
-}
-
 code {
 	color: $green;
 }

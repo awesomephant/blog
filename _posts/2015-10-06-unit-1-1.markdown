@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Introduction to the Unit"
+date:   2015-10-06 22:05:12
+teacher: Dr. Sheena Calvert
+unit: '1-1'
+abstract: "We study the history of design to rethink own practice better, and to understand what it means to be modern. Modernism has its roots in the industrial revolution, which changed aesthetics, the way we live and the world around us."
+presentation: 'http://moodle.arts.ac.uk/pluginfile.php/454866/mod_page/content/8/Unit%201%20Lecture%201%20R%5Bevolutions%5D%20in%20Design.pdf'
+---
+
+
+## Why do we study design history?
+Design history is a tool we can use to understand our own work better. It helps us understand what it means to be modern. We need to be active about knowledge, challenge it. "Knowledge is not for knowing, knowledge is for cutting"
+
+## Industrial revolution
+
+The industrial revolution brought huge changes in agriculture and industry. Modernity is about progress.
+
+![Andrews](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Thomas_Gainsborough_-_Mr_and_Mrs_Andrews.jpg/1200px-Thomas_Gainsborough_-_Mr_and_Mrs_Andrews.jpg)
+Thomas Gainsborough: Mr and Mrs Andrews, 1750
+
+Darby Casting Iron pots - iron mass production
+
+![Coal](http://ichef.bbci.co.uk/arts/yourpaintings/images/paintings/scmu/large/lw_scmu_1952_0452_large.jpg)
+Coalbrookdale by night 1801
+
+With industrial progress comes change to the way people live
+
+## Separation of Labour
+Way of production that allows each worker to focus on just one small task. This allows for greater productivity, the use of specialised machines. Leads to a loss of ownership, the individual worker has no connection to the final product.
+
+modernity is about adopting an attitude to change
+
+## Neoclassicism
+during the 1800s, people retreating to the past
+![vase](https://upload.wikimedia.org/wikipedia/commons/9/91/Portland_Vase_V%26A.jpg)
+wedgwood vase
+invented the catalogue pretty much
+
+slavery medal
+
+chrystal palace hyde park
+
+Adrian Forly, Objects of desire
+watt, fabric production
+
+modernism has its root in enlightenment
+
+## Globalisation
+Starting with the invention of the electrical telegraph, globalisation has taken the separation of labour to a new level.
+
+
+<iframe width="1280" height="400" src="https://www.youtube.com/embed/x4eLsRUbtBk" frameborder="0" allowfullscreen></iframe>
+Jennifer Baichwal: Manufactured Landscapes (Opening Sequence), 2008

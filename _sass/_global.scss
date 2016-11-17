@@ -7,9 +7,8 @@
 }
 
 body {
-	font-family: $body;
+	font-family: $sans;
 	color: $black;
-    background-position: center;
 }
 
 a {
@@ -18,7 +17,7 @@ a {
 
 	&:hover, &:focus {
 		text-decoration: underline;
-		color: lighten($blue, 10);
+		color: rgba($black, .7);
 	}
 }
 
@@ -27,31 +26,25 @@ sup {
 	font-size: .8em;
 }
 
-.site-home, .projects{
-	display: block;
-	font-size: 1.1rem;
-	@include bp(m){
-		font-size: 1.2rem
-	}
-	@include bp(l){
-		font-size: 1.3rem;
-	}
-	color: rgb(25,25,25);
-	max-width: 50em;
-    font-weight: 100;
-	line-height: 1.4;
-}
-
 .site-header {
-	border-bottom: 1px dotted $black;
 	padding: 1rem 8%;
-	font-family: $sans;
-
 	a {
+		font-weight: normal;
 		text-decoration: none;
 	}
 }
 
-.cover-image {
-	max-width: 40rem;
+.home-section {
+	padding: 2rem;
+	margin-bottom: -1rem;
+	font-family: $display;
+	font-size: 1.2rem;
+}
+
+.bio {
+	padding: 2rem;
+	font-family: $display;
+	font-weight: bold;
+	padding-top: 20vh;
+	font-size: 1.5rem;
 }

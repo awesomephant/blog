@@ -2,20 +2,33 @@
 layout: default
 ---
 
-<article class="post">
-    <img class='cover-image' src="http://www.maxkoehler.com/assets/chelsea-alphabet-full.JPG" alt="">
+<main class="site-content">
     {% include bio.html %}
-    <h3>Recent projects include:</h3>
-    <ul class='projects'>
-        {% for p in site.data.projects %}
-        <li><a class='project' href="{{ p.url }}">{{ p.title }}</a></li>
-        {% endfor %}
+
+    <h2 class='home-section'>Recent Work</h2>
+
+    <ul class='work-list'>
+        {%for project in site.data.projects%}
+        <li class='work-list-item work-list-item-text'>
+            <a href="{{project.url}}">
+  {{project.title}}
+            </a>
+        </li>
+        {%endfor%}
     </ul>
-    
-    <h3>Writing</h3>
-    <ul class='projects'>
+
+    <h2 class='home-section'>Writing</h2>
+    <ul class='post-list'>
         {% for post in site.posts %}
-        <li><a class='project' href="{{ post.url }}">{{ post.title }}</a></li>
+        <li class='post-list-post'>
+            <date class='post-list-date'>{{post.date|date: '%B %d, %Y'}}</date>
+            <h2 class="post-list-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {%if post.intro or post.abstract%}
+            <p class='post-list-intro'>{{post.intro}}</p>
+            <p class='post-list-intro'>{{post.abstract%}}</p>
+            {%endif%}
+        </li>
         {% endfor %}
     </ul>
-</article>
+    </article>
+</main>

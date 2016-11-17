@@ -1,18 +1,23 @@
-.post-list {
-    column-count: 1;
-    @include bp(s){
-        column-count: 2
-    }
+.site-home {
+    display: flex;
+    flex-direction: column;
+    max-width: 70rem;
     @include bp(m){
-        column-count: 3;
+        flex-direction: row;
     }
-    column-gap: 0;
+
+    .bio {
+            flex-basis: 30%;
+    }
+}
+.post-list {
+    flex-basis: 70%;
 }
 
 .post-list-date {
     font-family: $sans;
     font-size: .8rem;
-    color: #00BA41;
+    color: $green;
     font-weight: bold;
     display: block;
     margin-bottom: .5rem;
@@ -23,20 +28,18 @@
     display: inline-block;
     width: 100%;
     padding: 1.5rem;
-    border-right: 1px solid lightgray;
     border-top: 1px solid lightgray;
     background: white;
 }
 
 .post-list-title a{
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-family: $display;
     font-weight: bold;
 }
 
 .post-list-intro {
-    padding-top: .5rem;
     font-size: 1.2rem;
     line-height: 1.45;
     color: gray;

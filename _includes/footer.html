@@ -1,0 +1,25 @@
+<script>
+	function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+var el = document.getElementById('world')
+var c = el.getContext('2d');
+c.canvas.width  = window.innerWidth;
+c.canvas.height = window.innerHeight;
+
+var count = 30;
+var grid = 50;
+var columnCount = Math.floor(window.innerWidth / grid)
+
+
+for (var i = 0; i < count; i++){
+	c.fillStyle = randomColor({luminosity: 'light'});
+	var x = getRandomInt(0, columnCount) * grid
+	var y = getRandomInt(0, columnCount) * grid
+	var w = getRandomInt(0, columnCount) * grid
+	var h = getRandomInt(0, columnCount) * grid
+	c.fillRect(x,y,w,h)
+}
+
+</script>

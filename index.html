@@ -4,24 +4,33 @@ layout: default
 
 {% include header.html %}
 <main class="site-home">
+    <section>
     <h2>Currently working on</h2>
     <ul>
         <li><a href="http://www.maxkoehler.com/assemblypoint-redesign/">Assembly Point Website Redesign</a></li>
     </ul>
+    </section>
 
+    <section>
     <h2>Past Projects</h2>
     <ul>
         {%for p in site.data.projects%}
             <li><a href="{{p.url}}">{{p.title}}</a><date>{{p.date}}</date></li>
         {%endfor%}
     </ul>
+    </section>
+    <section>
     <h2>Writing</h2>
     <ul>
      {%for post in site.posts%}
-        <li><a href="{{post.url}}">{%if post.unit%}<span>(Lecture Notes) </span>{%endif%}{{post.title}}</a>
+        <li>
         <p class="post-meta">
             <date>{{ post.date | date: '%b %d, %Y' }}</date>
-        </p></li>
+            {%if post.unit%}<span>(Lecture Notes) </span>{%endif%}
+        </p>
+        <a href="{{post.url}}">{{post.title}}</a>
+    </li>
     {%endfor%}
     </ul>
+    </section>
 </main>

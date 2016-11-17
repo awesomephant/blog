@@ -47,15 +47,27 @@ sup {
 	font-family: $mono;
 	padding: 2rem;
 	font-size: .9rem;
-	date {
+	section {
+		display: flex;
+		flex-direction: column;
+		border-top: 1px solid lightgray;
+		padding-top: .5rem;
+		@include bp(m){
+			flex-direction: row;
+		}
+	}
+	.post-meta {
+
 		color: gray;
 		font-size: .7rem;
 	}
 	h2 {
 		margin-bottom: .2rem;
+		flex-basis: 20%;
 	}
 
 	ul {
+		flex-basis: 80%;
 		margin-bottom: 1.5rem;
 		@include bp(m){
 			column-count: 2;
@@ -65,8 +77,9 @@ sup {
 
 	li {
 		list-style: none;
-		display: flex;
-		justify-content: space-between;
+		display: inline-block;
+		margin-bottom: .5rem;
+		width: 100%;
 	}
 	a {
 		text-decoration: none;

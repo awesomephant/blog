@@ -1,5 +1,11 @@
 .post-list {
-    column-count: 3;
+    column-count: 1;
+    @include bp(s){
+        column-count: 2
+    }
+    @include bp(m){
+        column-count: 3;
+    }
     column-gap: 0;
 }
 

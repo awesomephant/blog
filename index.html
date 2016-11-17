@@ -4,24 +4,13 @@ layout: default
 
 <main class="site-content">
     {% include bio.html %}
-
-    <h2 class='home-section'>Recent Work</h2>
-
-    <ul class='work-list'>
-        {%for project in site.data.projects%}
-        <li class='work-list-item work-list-item-text'>
-            <a href="{{project.url}}">
-  {{project.title}}
-            </a>
-        </li>
-        {%endfor%}
-    </ul>
-
-    <h2 class='home-section'>Writing</h2>
     <ul class='post-list'>
         {% for post in site.posts %}
         <li class='post-list-post'>
             <date class='post-list-date'>{{post.date|date: '%B %d, %Y'}}</date>
+            {%if post.image%}
+                <img class='post-list-image' src="{{post.image}}" alt="">
+            {%endif%}
             <h2 class="post-list-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
             {%if post.intro or post.abstract%}
             <p class='post-list-intro'>{{post.intro}}</p>

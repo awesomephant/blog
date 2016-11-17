@@ -27,18 +27,50 @@ sup {
 }
 
 .site-header {
-	padding: 1rem 8%;
+	padding: 2rem;
+	font-family: $mono;
 	a {
-		font-weight: normal;
+		font-weight: bold;
+		color: blue;
+		font-size: 1.2rem;
 		text-decoration: none;
+		&:hover, &:focus {
+			color: lighten(blue, 20);
+		}
+	}
+	nav a{
+		display: block;
 	}
 }
 
-.home-section {
+.site-home {
+	font-family: $mono;
 	padding: 2rem;
-	margin-bottom: -1rem;
-	font-family: $display;
-	font-size: 1.2rem;
+	font-size: .9rem;
+	date {
+		color: gray;
+		font-size: .7rem;
+	}
+	h2 {
+		margin-bottom: .2rem;
+	}
+
+	ul {
+		margin-bottom: 1.5rem;
+		@include bp(m){
+			column-count: 2;
+		}
+		column-gap: 2rem;
+	}
+
+	li {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+	}
+	a {
+		text-decoration: none;
+	}
 }
 
 .bio {

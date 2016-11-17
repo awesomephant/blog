@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
 $black: darken(#203045, 5);
 $white: #fff;
 $lightgray: rgb(240,240,240);
 
 $yellow: #ffd547;
-$green: #00BA41;
+$green: teal;
 $blue: #00E6FF;
 $pink: #FF1C98;
 
+$mono: "Space Mono";
 $display: "Helvetica", sans-serif;
 $sans: "Helvetica", sans-serif;
 $fast: 290ms;

@@ -2,22 +2,26 @@
 layout: default
 ---
 
+{% include header.html %}
 <main class="site-home">
-    {% include bio.html %}
-    <ul class='post-list'>
-        {% for post in site.posts %}
-        <li class='post-list-post'>
-            <date class='post-list-date'>{{post.date|date: '%B %d, %Y'}}</date>
-            {%if post.image%}
-                <img class='post-list-image' src="{{post.image}}" alt="">
-            {%endif%}
-            <h2 class="post-list-title"><a href="{{ post.url }}">{%if post.unit%}Lecture Notes: {%endif%}{{ post.title }}</a></h2>
-            {%if post.intro or post.abstract%}
-            <p class='post-list-intro'>{{post.intro}}</p>
-            <p class='post-list-intro'>{{post.abstract%}}</p>
-            {%endif%}
-        </li>
-        {% endfor %}
+    <h2>Currently working on</h2>
+    <ul>
+        <li><a href="http://www.maxkoehler.com/assemblypoint-redesign/">Assembly Point Website Redesign</a></li>
     </ul>
-    </article>
+
+    <h2>Past Projects</h2>
+    <ul>
+        {%for p in site.data.projects%}
+            <li><a href="{{p.url}}">{{p.title}}</a><date>{{p.date}}</date></li>
+        {%endfor%}
+    </ul>
+    <h2>Writing</h2>
+    <ul>
+     {%for post in site.posts%}
+        <li><a href="{{post.url}}">{%if post.unit%}<span>(Lecture Notes) </span>{%endif%}{{post.title}}</a>
+        <p class="post-meta">
+            <date>{{ post.date | date: '%b %d, %Y' }}</date>
+        </p></li>
+    {%endfor%}
+    </ul>
 </main>

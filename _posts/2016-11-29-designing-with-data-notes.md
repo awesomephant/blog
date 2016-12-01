@@ -3,8 +3,8 @@ layout: post
 title:  "Lecture Notes: Designing with Data"
 date: 2016-11-29 10:01:32
 tags: "lecture notes"
-thumb: ""
-intro: ""
+thumb: "http://www.maxkoehler.com/assets/bigbangdata-balloons.jpg"
+intro: "Here's my notes from two back-to-back talks on how the UK government uses design and data science to make better policy by Cat Drew and Laura Malan."
 ---
 
 ## Data and Design in Policymaking
@@ -167,13 +167,13 @@ police data, using data to improve crime victims experience
 online crime recording tool
 got qualitative feedback 
 
-## hows this gonna chnage in the future
+## How is data-driven design going to change in the future?
 gonna get a lot more data from the nternet of things
 doctors will be able to remotely diagnose
 robots driving cars
 data ethics will become more important
 
-## hpw do u avoid biases
+## Hpw do you avoid biases in your design process
 nyc street bump app biased towards rich people
 historic data might have biases (racial biases, gender biases)
 you risk just conforming, perpetuating biases

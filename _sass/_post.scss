@@ -39,15 +39,15 @@
 	width: 100%;
 }
 .post {
-	font-family: $sans;
+	font-family: $serif;
 	background: white;
 	max-width: 60rem;
-	font-size: 18px;
+	font-size: 19px;
 	padding: 5%;
 	@include bp(m){
 		padding: 8%;
 	}
-	line-height: 1.53;
+	line-height: 1.56;
 	
 	p, ul, ol {
 		color: rgb(50,50,50);
@@ -68,6 +68,7 @@
 	h2 {
 		font-size: 1.2rem;
 		margin-bottom: .2rem;
+		font-family: $sans;
 	}
 
 	h3 {
@@ -76,6 +77,10 @@
 		margin-bottom: 1rem;
 		font-size: 1.2rem;
 		
+	}
+
+	.note {
+		color: gray;
 	}
 	
 	img + em {
@@ -109,4 +114,21 @@ pre.highlight {
 	padding: .5rem;
 	margin-bottom: 1rem;
 	overflow-x: auto;
+}
+
+.gallery {
+	display: flex;
+	width: 100%;
+	margin-bottom: 1rem;
+	@include bp(m){
+		width: 110%;
+	}
+	img {
+		display: block;
+		min-width: 0;
+		height: auto;
+		margin-right: 1rem;
+		align-self: flex-start;
+		flex-shrink: 1;
+	}
 }

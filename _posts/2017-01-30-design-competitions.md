@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Let’s stop wasting our time on design competitions"
-date: 2016-09-14 10:01:32
+date: 2017-01-30 10:00:00
 tags: ""
 thumb: ""
 intro: "I’m in the final year of a design degree, and one of my final projects is to answer a competition brief. It sounds good in principle — work on a project set by a real company and get some exposure if your work is good."

@@ -1,0 +1,30 @@
+@media print {
+	.post {
+		padding: 2rem;
+		p {
+			max-width: 40em;
+			font-size: 11pt;
+		}
+		a:after {
+			text-decoration: none !important;
+			content: ' ('attr(href)') ';
+		}
+		.gallery {
+			page-break-inside: avoid;
+		}
+		.post-intro {
+			font-size: 14pt;
+		
+		}
+		h2 {
+			font-size: 14pt;
+			page-break-after: avoid;
+		}
+
+	}
+
+
+	.site-header {
+		display: none;
+	}
+}

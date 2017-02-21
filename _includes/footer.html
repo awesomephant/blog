@@ -1,32 +1,39 @@
 <script>
-	function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
 
-var el = document.getElementById('world')
-var c = el.getContext('2d');
-c.canvas.width  = window.innerWidth;
-c.canvas.height = window.innerHeight;
+    var drawBoxes = function (c) {
+        c.canvas.width = window.innerWidth;
+        c.canvas.height = window.innerHeight;
 
-var count = 30;
-var grid = 50;
-var columnCount = Math.floor(window.innerWidth / grid)
+        var count = 30;
+        var grid = 50;
+        var columnCount = Math.floor(window.innerWidth / grid)
 
 
-for (var i = 0; i < count; i++){
-	c.fillStyle = randomColor({luminosity: 'light'});
-	var x = getRandomInt(0, columnCount) * grid
-	var y = getRandomInt(0, columnCount) * grid
-	var w = getRandomInt(0, columnCount) * grid
-	var h = getRandomInt(0, columnCount) * grid
-	c.fillRect(x,y,w,h)
-}
+        for (var i = 0; i < count; i++) {
+            c.fillStyle = randomColor({ luminosity: 'light' });
+            var x = getRandomInt(0, columnCount) * grid
+            var y = getRandomInt(0, columnCount) * grid
+            var w = getRandomInt(0, columnCount) * grid
+            var h = getRandomInt(0, columnCount) * grid
+            c.fillRect(x, y, w, h)
+        }
+    }
+
+    var el = document.getElementById('world')
+    if (c) {
+        var c = el.getContext('2d');
+        drawBoxes(c);
+    }
+
 
     var canvas = document.createElement('canvas');
     canvas.width = 16;
     canvas.height = 16;
     var ctx = canvas.getContext('2d');
-    ctx.fillStyle = randomColor({luminosity: 'light'});
+    ctx.fillStyle = randomColor({ luminosity: 'light' });
     ctx.fillRect(0, 0, 16, 16);
     var link = document.createElement('link');
     link.type = 'image/x-icon';
@@ -34,5 +41,25 @@ for (var i = 0; i < count; i++){
     link.href = canvas.toDataURL("image/x-icon");
     document.getElementsByTagName('head')[0].appendChild(link);
 
+
+    var insertAfter = function (newNode, referenceNode) {
+        referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+    }
+    var linksToFootnotes = function () {
+        var links = document.querySelectorAll('.post a')
+        var footnotes = '';
+        for (var i = 0; i < links.length; i++) {
+            footnotes += '<li>' + links[i].getAttribute('href') + '</li>';
+            var text = links[i].innerHTML;
+            links[i].innerHTML = text + '<sup class="ref">' + i + '</sup>';
+        }
+        var el = document.createElement('ul')
+        el.classList.add('footnotes')
+        el.innerHTML = footnotes;
+        var post = document.querySelector('.post');
+        insertAfter(el, post)
+    }
+
+    linksToFootnotes();
 
 </script>

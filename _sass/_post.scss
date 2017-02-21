@@ -132,3 +132,22 @@ pre.highlight {
 		flex-shrink: 1;
 	}
 }
+
+.ref {
+	display: none;
+}
+
+.footnotes {
+	list-style: decimal;
+	font-size: 9pt;
+	display: none;
+	column-count: 2;
+	column-gap: 2rem;
+	padding: 2rem;
+	max-width: 40rem;
+	border-top: 1px solid lightgray;
+	li {
+		margin-bottom: .2rem;
+		width: 90%;
+	}
+}

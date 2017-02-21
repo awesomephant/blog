@@ -1,14 +1,20 @@
 @media print {
+		.footnotes {
+			display: block;
+		}
+		.ref {
+			display: inline;
+		}
 	.post {
 		padding: 2rem;
 		p {
 			max-width: 40em;
 			font-size: 11pt;
 		}
-		a:after {
+		a {
 			text-decoration: none !important;
-			content: ' ('attr(href)') ';
 		}
+
 		.gallery {
 			page-break-inside: avoid;
 		}

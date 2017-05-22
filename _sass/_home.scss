@@ -10,7 +10,9 @@
 }
 
 .site-home {
+	@include bp (m){
 	padding: 2rem;
+	}
 	section {
 		padding-top: .5rem;
 	}
@@ -42,7 +44,11 @@
 }
 
 .home-image {
-	padding-right: 10%;
+	margin-top: 1rem;
+	@include bp(m){
+		margin-top: 0;
+		padding-right: 10%;
+	}
 	margin-bottom: 1rem;
 	img {
 		display: block;
@@ -62,10 +68,10 @@
 	max-height: 0;
 	max-width: 40rem;
 	overflow: hidden;
-	transition: 300ms;
+	transition: 500ms;
 	color: gray;
 	.active & {
-		max-height: 8rem;
+		max-height: 10rem;
 	}
 	a {
 		display: block;

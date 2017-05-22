@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to make a Lasercut typeface for Letterpress"
+title:  "Adopting a Digital Typeface for Letterpress Printing"
 date:   2016-06-27 14:01:32
 tags: ""
 thumb: "https://raw.githubusercontent.com/awesomephant/awesomephant.github.io/master/assets/laser-alphabet.JPG"
@@ -73,7 +73,8 @@ You could repeat this process and stick a piece of greyboard underneath each let
 
 From this point, it’s just normal letterpress! Note the crisp edges and minimal texture the acrylic creates - almost like type metal. MDF or plywood (which can also be lasercut) give you a slightly more textured look.
 
-![letterpress](/assets/laser-print.JPG)
+![letterpress](/assets/laser-letterpress.jpg)
+![letterpress](/assets/laser-print.jpg)
 *One of the first type samples I printed. [Here's some more](https://goo.gl/photos/xoFBqmSPWrnuHCfm9)*
 
 Like I said at the start, this process is by no means perfect. But I hope it can be a starting point for your project - if you decide to try this, let me know! I'd love to hear what you learn along the way. 

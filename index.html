@@ -1,37 +1,66 @@
 ---
 layout: default
 ---
-<canvas id="world" class='site-background'></canvas>
 {% include header.html %}
 <main class="site-home">
-    <section>
-    <h2>Currently working on</h2>
-    <ul>
-        <li><a href="http://www.maxkoehler.com/assemblypoint-redesign/">Assembly Point Website Redesign</a></li>
-        <li><a href="http://www.maxkoehler.com/race-criminal-justice/#england-and-wales">A thing on criminal justice</a></li>
-    </ul>
-    </section>
-
-    <section>
-    <h2>Past Projects</h2>
-    <ul>
-        {%for p in site.data.projects%}
-            <li><a href="{{p.url}}">{{p.title}}</a><date>{{p.date}}</date></li>
-        {%endfor%}
-    </ul>
-    </section>
-    <section>
-    <h2>Writing</h2>
-    <ul>
-     {%for post in site.posts%}
-        <li>
-        <p class="post-meta">
-            <date>{{ post.date | date: '%b %d, %Y' }}</date>
-            {%if post.unit%}<span>(Lecture Notes) </span>{%endif%}
+    <div class="home-image">
+        <img src="./assets/creature.jpg" alt="">
+        <p class="home-image-caption">
+            Development image for <a href="http://www.maxkoehler.com/vr-lab/app/room.html">Pygmalion's Spectacles</a>
         </p>
-        <a href="{{post.url}}">{{post.title}}</a>
-    </li>
-    {%endfor%}
-    </ul>
+    </div>
+    <section>
+        <h2>Work</h2>
+        <ul>
+            {%for p in site.data.projects%}
+            <li>
+                <date data-year='{{p.year}}' class="project-year">{{p.year}}</date><a class='project-toggle' href="#1">{{p.title}}</a>
+                <date>{{p.date}}</date>
+                <div class="project-details">
+                    {{p.desc}}
+                    <a href="{{p.url}}">View Project</a>
+                </div>
+            </li>
+            {%endfor%}
+        </ul>
+    </section>
+    <section>
+        <h2>Lab</h2>
+        <ul>
+            {%for p in site.data.lab%}
+            <li>
+                <date data-year='{{p.year}}' class="project-year">{{p.year}}</date><a href="{{p.url}}">{{p.title}}</a>
+                <date>{{p.date}}</date>
+            </li>
+            {%endfor%}
+        </ul>
+
+    </section>
+    <section>
+        <h2>Writing</h2>
+        <ul>
+            {%for post in site.posts%}
+            <li>
+                <date class='project-year' data-year="{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</date>
+                <a href="{{post.url}}">{{post.title}}</a>
+            </li>
+            {%endfor%}
+            <li>
+                <a href="http://www.maxkoehler.com/notes">Lecture Notes</a>
+            </li>
+        </ul>
     </section>
 </main>
+
+<script>
+    console.log('hi')
+    var links = document.querySelectorAll('.project-toggle');
+    console.log(links)
+    for (var i = 0; i < links.length; i++){
+        links[i].addEventListener('click', function(e){
+            var el = e.target.parentNode;
+            console.log(el.classList)
+            el.classList.toggle('active')
+        })
+    }
+</script>

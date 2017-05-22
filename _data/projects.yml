@@ -1,44 +1,20 @@
-- title: Unit 3 Essay
-  url: https://docs.google.com/document/d/1eWblf0Dqg_0JJmpkVDiM5jebMYk868LaarFu6Deb5bc/pub
-  desc: "Basically 2000 words on road signage"
-  
-- title: 'Albertron 3000'
-  url: 'http://www.maxkoehler.com/chatbot/'
-  desc: 'I think conversational interfaces are super exciting so I made a chat robot that tells you about me. Not egocentric at all'
-  color: '#1D1430'
+- title: "Pygmalion's Spectacles"
+  url: 'http://www.maxkoehler.com/vr-lab/app/room.html'
+  year: 2017
+  desc: An exploration of web-based virtual reality for my final project at Camberwell College of Arts. 
 
-- title: 'Animation'
-  url: 'https://goo.gl/photos/SHfbcZ3VaUTkZY3v5'
-  desc: 'Moving stuff'
-  color: '#FF0093'
+- title: 'Met Office Data Visualisation'
+  url: 'http://www.maxkoehler.com/metoffice-graphic/'
+  year: 2017
+  desc: Course project dealing with client-side data visualisation.
 
-- title: Lettering
-  url: 'https://goo.gl/photos/Lo441Kj6nC6ZUAUn9'
-  desc: 'Hand-drawn type and other such things'
-  color: '#fff'
-  image: 'https://lh3.googleusercontent.com/joG6G8ng9Qjf09vkfI09IxePJVQ_W23Egj_P6w1E6x0YGmLExLpxbxV6Isw9ohVyEvnIgPGUI7W9hqmtvdIw8txlpc9ZC9dDA_e6MW3_VjZClzdGKeDA1TgegYeTet8K7h6pXCifYPcXAb1H9gVMICaVff181TIpSYCcHsnKgAk5XfY-BtHGOss4nr6z-nNLPf62CBeJZlL_9xTxiJJePFBPVf19dsbbsSgfXrPxoeiWyYvfhXV7WlTY_p1CCxXOha_bzmrW07M5gHQLqxqoCBawuOGnnbx5G-ZiUw0be34pNKle-421aR22MeoI0FqcwMBHLNJwzn2UcSxW9ZIppiBwbzBxGrg3NtclgFBiXV_S0hzjdfpylP1cZ0waacsTkv2kHJLWJfEXQzu_t77TEqQOK_Gf-t7Os3mMML3SOHfnZKvmdGYALPSjITUPJjAVl9dt4vP5kfOhJErkA-zX2V6IoYPPgsx41p2ee847RWWdboRlrDlpVfZT8aHNQmlYawsfbI5ceUhvhPKca5NvgYHkZ30YCOP3uIS5i8SoZwkbXlpJ=s918-w735-h918-no'
+- title: 'Assemblypoint Website'
+  url: 'http://a3f.ff2.mwp.accessdomain.com/'
+  year: 2017
+  desc: Design, content strategy and Wordpress development of a new, expanded website for South-London based gallery Assembly Point.
   
-- title: 'Zwicker & Partner Responsive Redesign'
-  desc: "Shiny new website and refined content strategy for my dad's surgery"
+- title: 'Zwicker & Partner Website'
+  desc: "Design, content strategy and development for my local radiologist."
   url: 'http://www.radiologen-konstanz.de/'
   color: '#67BA3C'
-
-- title: Lecture Notes 
-  desc: Notes from graphic design lectures at Camberwell College of Arts
-  url: http://www.maxkoehler.com/notes
-  color: "#3D4CFF"
-  
-- title: Letterpress Experiments
-  desc: "Who doesn't love letterpress"
-  url: https://goo.gl/photos/xoFBqmSPWrnuHCfm9
-  color: '#FFDC00'
-  
-- title: Photography
-  desc: 'Possibly a bit random'
-  url: https://goo.gl/photos/5ECDNgR1PiFQq8su5
-  color: '#FF4715'
- 
-- title: Unit 1 Essay
-  desc: 'To what extent are the principles and methods of the Bauhaus relevant to designers today?'
-  url: 'https://docs.google.com/document/d/1LFarzZhd_-3P2wpeiNpXQ82No1Cz-N7Af7JdN905z20/pub'
-  color: '#771BFF'
+  year: 2015

@@ -3,12 +3,14 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-size: inherit;
+	font-size: 1.1rem;
+	font-weight: normal;
 }
 
 body {
 	font-family: $sans;
 	color: $black;
+	padding: 2%;
 }
 
 a {
@@ -17,7 +19,7 @@ a {
 
 	&:hover, &:focus {
 		text-decoration: underline;
-		color: rgba($black, .7);
+		color: lighten(blue, 12);
 	}
 }
 
@@ -26,80 +28,12 @@ sup {
 	font-size: .8em;
 }
 
-.site-header {
-	padding: 2rem;
-	font-family: $mono;
-	a {
-		font-weight: bold;
-		color: blue;
-		font-size: 1.2rem;
-		text-decoration: none;
-		&:hover, &:focus {
-			color: lighten(blue, 20);
-		}
-	}
-	nav a{
-		display: block;
-	}
-}
-
-.site-background {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	bottom: 0;
-	z-index: -100;
-}
-
-.site-home {
-	font-family: $mono;
-	padding: 2rem;
-	font-size: .9rem;
-	section {
-		display: flex;
-		flex-direction: column;
-		border-top: 1px solid black;
-		padding-top: .5rem;
-		@include bp(m){
-			flex-direction: row;
-		}
-	}
-	.post-meta {
-
-		color: gray;
-		font-size: .7rem;
-	}
-	h2 {
-		margin-bottom: .2rem;
-		flex-basis: 20%;
-	}
-
-	ul {
-		flex-basis: 80%;
-		margin-bottom: 1.5rem;
-		@include bp(m){
-			column-count: 2;
-		}
-		column-gap: 2rem;
-	}
-
-	li {
-		list-style: none;
-		display: inline-block;
-		margin-bottom: .5rem;
-		width: 100%;
-	}
+.site-nav {
+	@extend %uppercase;
+	display: flex;
+	justify-content: space-between;
 	a {
 		text-decoration: none;
+		margin-right: 1rem;
 	}
-}
-
-.bio {
-	padding: 2rem;
-	font-family: $display;
-	font-weight: bold;
-	font-size: 1.2rem;
-	margin-bottom: 2rem;
-	max-width: 30em;
-	line-height: 1.4;
 }

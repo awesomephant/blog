@@ -13,41 +13,37 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
+	pointer-events: none;
 }
 
 .post-date {
     font-weight: 500;
-    color: lightgray;
     display: block;
 }
 
 .post-intro {
-    font-size: 1.2rem;
     padding-bottom: 1rem;
 	line-height: 1.5;
-    @include bp(m){
-        font-size: 1.5rem;
-    }
+	font-family: $sans;
 }
 
 .post-title {
-	font-family: $sans;	
-	font-size: 1.5rem;
+	font-family: $sans;
+	margin-bottom: 2rem;
+	font-weight: bold;
 }
 
 .post-date {
 	width: 100%;
 }
 .post {
-	font-family: $serif;
 	background: white;
-	max-width: 60rem;
-	font-size: 19px;
+	max-width: 50rem;
 	padding: 5%;
 	@include bp(m){
 		padding: 8%;
 	}
-	line-height: 1.56;
+	line-height: 1.55;
 	
 	p, ul, ol {
 		color: rgb(50,50,50);
@@ -66,17 +62,14 @@
 	}
 	
 	h2 {
-		font-size: 1.2rem;
-		margin-bottom: .2rem;
-		font-family: $sans;
+		margin-top: 1.5rem;
+		color: gray;
+		margin-bottom: .5rem;
 	}
 
 	h3 {
 		color: gray;
-		font-weight: normal;
 		margin-bottom: 1rem;
-		font-size: 1.2rem;
-		
 	}
 
 	.note {
@@ -85,7 +78,6 @@
 	
 	img + em {
 		font-style: normal;
-		font-size: 14px;
 		line-height: 1.2;
 		display: block;
 		padding-top: .5rem;
@@ -136,8 +128,21 @@ pre.highlight {
 .ref {
 	display: none;
 }
-
 .footnotes {
+	font-size: .9rem;
+	ul, ol{
+		margin-left: 0;
+	@include bp(m){
+		column-count: 2;
+		column-gap: 2rem;
+	}
+	}
+	li {
+		margin-left: 1rem;
+		margin-bottom: .5rem;
+	}
+}
+.print-footnotes {
 	list-style: decimal;
 	font-size: 9pt;
 	display: none;

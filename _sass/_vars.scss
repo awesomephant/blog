@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Space+Mono');
-
 $black: darken(#203045, 5);
 $white: #fff;
 $lightgray: rgb(240,240,240);
@@ -9,9 +7,8 @@ $green: teal;
 $blue: #00E6FF;
 $pink: #FF1C98;
 
-$mono: "Space Mono";
 $display: "Helvetica", sans-serif;
-$sans: "Helvetica", sans-serif;
+$sans: "acumin-pro", "Helvetica", sans-serif;
 $serif: "Georgia", serif;
 $fast: 290ms;
 
@@ -28,4 +25,10 @@ $fast: 290ms;
 	@else if $point == s {
 		@media (min-width: 35rem) { @content; }
 	}
+}
+
+%uppercase {
+    text-transform: uppercase;
+    letter-spacing: .01em;
+
 }

@@ -4,10 +4,7 @@ layout: default
 {% include header.html %}
 <main class="site-home">
     <div class="home-image">
-        <img src="./assets/creature.jpg" alt="">
-        <p class="home-image-caption">
-            Development image for <a href="http://www.maxkoehler.com/vr-lab/app/room.html">Pygmalion's Spectacles</a>
-        </p>
+        <img id='js-banner' src="#1" alt="">
     </div>
     <section>
         <h2>Work</h2>
@@ -53,7 +50,12 @@ layout: default
 </main>
 
 <script>
-    console.log('hi')
+    function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+    var images = ['creature.jpg', 'ball.gif', 'gradient-prints.jpg', 'laser.png']
+    var banner = document.querySelector('#js-banner')
     var links = document.querySelectorAll('.project-toggle');
     console.log(links)
     for (var i = 0; i < links.length; i++){
@@ -63,4 +65,7 @@ layout: default
             el.classList.toggle('active')
         })
     }
+
+    banner.setAttribute('src', '/assets/' + images[getRandomInt(0, images.length - 1)])
+
 </script>

@@ -1,79 +1,78 @@
 .site-header {
-    max-width: 40rem;
+	font-size: 1.8rem;
+	line-height: 1.35;
+    max-width: 25em;
+	margin-bottom: 2rem;
 	a {
+		text-decoration: none;
+		border-bottom: 1px solid $black;
 		&:hover, &:focus {
-			color: lighten(blue, 12);
+			color: lighten($black, 12);
 		}
-	}
-	nav a{
 	}
 }
 
 .site-home {
-	@include bp (m){
-	padding: 2rem;
-	}
-	section {
-		padding-top: .5rem;
-	}
-    .project-year {
-        margin-right: 1rem;
-    }
-	h2 {
-		margin-bottom: .2rem;
-		font-weight: bold;
-	}
-	ul {
-		flex-basis: 80%;
-		margin-bottom: 1.5rem;
-		@include bp(m){
-//			column-count: 4;
-		}
-		column-gap: 2rem;
-	}
-
-	li {
-		list-style: none;
-		display: inline-block;
-		margin-bottom: .2rem;
-		width: 100%;
-	}
-	a {
-		text-decoration: none;
-	}
-}
-
-.home-image {
-	margin-top: 1rem;
 	@include bp(m){
-		margin-top: 0;
-		padding-right: 10%;
+//		padding-left: $indent;
+		display: flex;
 	}
-	margin-bottom: 1rem;
-	img {
-		display: block;
-		max-width: 100%;
+
+	section {
+		flex-basis:50%;
+		padding-right: 1rem;
+	}
+
+	h2 {
+		margin-bottom: 1rem;
 	}
 }
 
-.home-image-caption, .home-image-caption a {
-	text-align: right;
-	color: gray;
-	max-width: 100%;
-	padding-top: .2rem;
-	font-size: .9rem;
+.project-list {
+	max-width: 50rem;
+	margin-bottom: 2rem;
 }
 
-.project-details {
-	max-height: 0;
-	max-width: 40rem;
-	overflow: hidden;
-	transition: 500ms;
-	color: gray;
-	.active & {
-		max-height: 10rem;
+.project-list-item {
+	padding-top: .25rem;
+	display: block;
+	text-decoration: none;
+	display: flex;
+	justify-content: flex-start;
+
+	&:hover, &:focus {
+		color: $black;
+		text-decoration: line-through;
 	}
-	a {
+}
+
+.project-tags {
+	flex-grow: 1;
+	display: none;
+	@include bp(m){
 		display: block;
 	}
+}
+
+.project-tag {
+	text-transform: capitalize;
+	&:after {
+		content: ', '
+	}
+	&:last-child:after {
+		content: '';
+	}
+}
+
+.project-year {
+	margin-right: 1rem;
+}
+
+.project-title {
+	flex-basis: 50%;
+	flex-grow: 1;
+}
+
+.project-tags {
+	flex-basis: 30%;
 }

@@ -11,7 +11,7 @@ $display: "Helvetica", sans-serif;
 $sans: "acumin-pro", "Helvetica", sans-serif;
 $serif: "Georgia", serif;
 $fast: 290ms;
-
+$indent: 10%;
 @mixin bp($point) {
 	@if $point == xl {
 		@media (min-width: 100rem) { @content; }

@@ -24,13 +24,24 @@
 .post-intro {
     padding-bottom: 1rem;
 	line-height: 1.5;
-	font-family: $sans;
+	font-size: 1.5rem;
 }
 
 .post-title {
-	font-family: $sans;
 	margin-bottom: 2rem;
-	font-weight: bold;
+	line-height: 1.4;
+}
+
+.project-wrap {
+	display: flex;
+}
+
+.project-back {
+	text-decoration: none;
+	flex-basis: $indent;
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 .post-date {
@@ -38,13 +49,10 @@
 }
 .post {
 	background: white;
-	max-width: 50rem;
-	padding: 5%;
-	@include bp(m){
-		padding: 8%;
-	}
+	max-width:45rem;
+	font-size: 1.1rem;
+	font-weight: 600;
 	line-height: 1.55;
-	
 	p, ul, ol {
 		color: rgb(50,50,50);
 		margin-bottom: 1rem;
@@ -63,7 +71,7 @@
 	
 	h2 {
 		margin-top: 1.5rem;
-		color: gray;
+		font-weight: 600;
 		margin-bottom: .5rem;
 	}
 

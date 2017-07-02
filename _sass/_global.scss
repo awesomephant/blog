@@ -1,16 +1,21 @@
-
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-size: 1.1rem;
+	font-size: inherit;
 	font-weight: normal;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
 }
 
 body {
 	font-family: $sans;
 	color: $black;
-	padding: 3%;
+	padding: 1.5rem 3%;
+	min-height: 100%;
 }
 
 a {
@@ -19,7 +24,7 @@ a {
 
 	&:hover, &:focus {
 		text-decoration: underline;
-		color: lighten(blue, 12);
+		color: rgba($black, .7);
 	}
 }
 
@@ -28,12 +33,27 @@ sup {
 	font-size: .8em;
 }
 
-.site-nav {
-	@extend %uppercase;
+.site-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1rem 3%;
+}
+
+.footer-nav {
 	display: flex;
 	justify-content: space-between;
-	a {
-		text-decoration: none;
-		margin-right: 1rem;
+	color: lighten(gray, 15);
+	font-size: .9rem;
+	@include bp(m){
+		font-size: 1rem;
 	}
+	a, span {
+		text-align: center;
+		text-decoration: none;
+	}
+}
+
+.footer-message {
 }

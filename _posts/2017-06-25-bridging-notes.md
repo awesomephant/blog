@@ -117,3 +117,64 @@ Make a mindmap about the dissertation
   - [Experimental Jetset](https://www.experimentaljetset.nl/250/)
   - David Farenthold (WaPo) [Article on Trump's fake Time cover](https://www.washingtonpost.com/politics/a-time-magazine-with-trump-on-the-cover-hangs-in-his-golf-clubs-its-fake/2017/06/27/0adf96de-5850-11e7-ba90-f5875b7d1876_story.html?utm_term=.6ed1bdf81837)
   - [Joost Grootens](http://www.joostgrootens.nl/)
+
+## Thursday, June 29
+
+## Jake Notes
+
+Trees and ballpoint drawings are about labour
+a machine doing it for you
+people always ask how ""
+the work of art in the age of mechanical reproduction
+yuri suzuki
+muaic, use of technology in music
+rube goldberg machines
+needlessly elaborate
+news from nowhere, william morris
+
+sam winston
+birth day
+abstract data stuff
+
+machine drawings become about content
+romeo and juliet is sort f the opposite, super irrational etc
+
+## Friday, June 30
+### PRP talks
+#### Lettie
+Mandalas created from a system
+Ancient art, ancient cultures
+Carl Jung
+Pollock
+
+#### Ben
+
+Dissertation on board games on the silk road
+
+#### Margot
+
+feminism and censorship of female bodies
+in the past the curch used to dictate what people were allowed to show, now it's sillicon valley 
+dissertation on the same thing
+how it used to be in art in the past vs now on tfhe internet
+Original 60s feminism vs our modern view on things
+
+#### Luke
+
+Public spaces and human behaviour
+hospitals always have the same lighting, can't tell wether it's day or night
+fear of empty spaces
+andreas gursky
+
+### Research Questions
+
+- Forgotten Bauhaus Buildings in Southern Germany
+- Uber and the quetion of ethics in interaction design
+- How does image recognition software reflect biases in tech
+- How does interaction design shape the modern service economy
+
+### Assignments
+
+Write a 400 word or more dissertation proposal
+This can be bullet points, more or less expanded
+Based on the questions, do some initial research

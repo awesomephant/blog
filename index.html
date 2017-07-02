@@ -3,69 +3,39 @@ layout: default
 ---
 {% include header.html %}
 <main class="site-home">
-    <div class="home-image">
-        <img id='js-banner' src="#1" alt="">
-    </div>
     <section>
         <h2>Work</h2>
-        <ul>
+        <nav class='project-list'>
             {%for p in site.data.projects%}
-            <li>
-                <date data-year='{{p.year}}' class="project-year">{{p.year}}</date><a class='project-toggle' href="#1">{{p.title}}</a>
-                <date>{{p.date}}</date>
-                <div class="project-details">
-                    {{p.desc}}
-                    <a href="{{p.url}}">View Project</a>
-                </div>
-            </li>
-            {%endfor%}
-        </ul>
-    </section>
-    <section>
+            <a href='{{ p.url }}' class='project-list-item'>
+                <date data-year='{{p.year}}' class="project-year">{{p.year}}</date>
+                <h3 class='project-title'>{{p.title}}</h3>
+                <p class='project-tags'>{% for tag in p.tags %}<span class='project-tag'>{{tag}}</span>{% endfor %}</p>
+            </a>
+            {% endfor %}
+        </nav>
         <h2>Lab</h2>
-        <ul>
+        <nav class='project-list'>
             {%for p in site.data.lab%}
-            <li>
-                <date data-year='{{p.year}}' class="project-year">{{p.year}}</date><a href="{{p.url}}">{{p.title}}</a>
-                <date>{{p.date}}</date>
-            </li>
-            {%endfor%}
-        </ul>
-
+            <a href='{{ p.url }}' class='project-list-item'>
+                <date data-year='{{p.year}}' class="project-year">{{p.year}}</date>
+                <h3 class='project-title'>{{p.title}}</h3>
+            </a>
+            {% endfor %}
+        </nav>
     </section>
     <section>
         <h2>Writing</h2>
-        <ul>
+        <nav class='project-list'>
             {%for post in site.posts%}
-            <li>
+            <a href="{{post.url}}" class='project-list-item'>
                 <date class='project-year' data-year="{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</date>
-                <a href="{{post.url}}">{{post.title}}</a>
-            </li>
+                <h3 class='project-title'>{{post.title}}</h3>
+            </a>
             {%endfor%}
-            <li>
-                <a href="http://www.maxkoehler.com/notes">Lecture Notes</a>
-            </li>
-        </ul>
+            <a href="http://www.maxkoehler.com/notes" class='project-list-item'>
+                <h3 class='project-title'>Lecture Notes</h3>
+            </a>
+        </nav>
     </section>
 </main>
-
-<script>
-    function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-    var images = ['creature.jpg', 'gradient-prints.jpg', 'laser.png']
-    var banner = document.querySelector('#js-banner')
-    var links = document.querySelectorAll('.project-toggle');
-    console.log(links)
-    for (var i = 0; i < links.length; i++){
-        links[i].addEventListener('click', function(e){
-            var el = e.target.parentNode;
-            console.log(el.classList)
-            el.classList.toggle('active')
-        })
-    }
-
-    banner.setAttribute('src', '/assets/' + images[getRandomInt(0, images.length - 1)])
-
-</script>

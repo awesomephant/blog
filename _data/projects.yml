@@ -1,20 +1,42 @@
+- title: "Camberwell FdA Degree Show"
+  url: './work/camberwell-fda-show'
+  year: 2017
+  tags:
+    - identity
+    - web
+
+- title: "Aside London"
+  url: './work/aside-london'
+  year: 2017
+  tags:
+    - web
+
+- title: 'Assemblypoint'
+  url: './work/ap-website'
+  year: 2017
+  tags: 
+    - web
+  desc: Design, content strategy and Wordpress development of a new, expanded website for South-London based gallery Assembly Point.
+
 - title: "Pygmalion's Spectacles"
   url: 'http://www.maxkoehler.com/vr-lab/app/room.html'
   year: 2017
-  desc: An exploration of web-based virtual reality for my final project at Camberwell College of Arts. 
+  desc: An exploration of web-based virtual reality for my final project at Camberwell College of Arts.
+  tags:
+    - Virtual Reality
 
 - title: 'Met Office Data Visualisation'
   url: 'http://www.maxkoehler.com/metoffice-graphic/'
   year: 2017
   desc: Course project dealing with client-side data visualisation.
+  tags: 
+    - web
+    - data
 
-- title: 'Assemblypoint Website'
-  url: 'http://a3f.ff2.mwp.accessdomain.com/'
-  year: 2017
-  desc: Design, content strategy and Wordpress development of a new, expanded website for South-London based gallery Assembly Point.
-  
-- title: 'Zwicker & Partner Website'
+- title: 'Zwicker & Partner'
   desc: "Design, content strategy and development for my local radiologist."
   url: 'http://www.radiologen-konstanz.de/'
   color: '#67BA3C'
   year: 2015
+  tags:
+    - web

@@ -1,17 +1,14 @@
+<footer class="site-footer">
+    <nav class="footer-nav">
+        <a href="mailto:hi@maxkoehler.com">hi@maxkoehler.com</a>
+        <span class="footer-message" id='js-footer-message'></span>
+        <a href="https://www.twitter.com/maxakohler">@maxakohler</a>
+    </nav>
+</footer>
 <script>
-    var canvas = document.createElement('canvas');
-    canvas.width = 16;
-    canvas.height = 16;
-    var ctx = canvas.getContext('2d');
-    ctx.fillStyle = randomColor({ luminosity: 'light' });
-    ctx.fillRect(0, 0, 16, 16);
-    var link = document.createElement('link');
-    link.type = 'image/x-icon';
-    link.rel = 'shortcut icon';
-    link.href = canvas.toDataURL("image/x-icon");
-    document.getElementsByTagName('head')[0].appendChild(link);
-
-
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
     var insertAfter = function (newNode, referenceNode) {
         referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
     }
@@ -32,21 +29,16 @@
         }
     }
 
-    var randomizeYearColors = function () {
-        var years = [2014, 2015, 2016, 2017, 2018];
-        var head = document.querySelector('.site-header');
-        var css = '';
-        for (var i = 0; i < 2; i++) {
-            css += '[data-year="' + years[i] + '"]{color:' + randomColor({luminosity: 'bright', hue: 'green'}) + ';}\n'
-        }
-        for (var i = 2; i < years.length; i++) {
-            css += '[data-year="' + years[i] + '"]{color:' + randomColor({luminosity: 'bright', hue: 'blue'}) + ';}\n'
-        }
-        var el = document.createElement('style');
-        el.innerHTML = css;
-        insertAfter(el, head)
-        console.log(css);
-    }
     linksToFootnotes();
+
+    var footerMessages = [
+        'Will draw for $$$',
+        'Designy Designy',
+        'Certified Millenial',
+        'Is that an em dash in your pocket?',
+    ]
+
+    var fm = document.querySelector('#js-footer-message');
+    fm.innerHTML = footerMessages[getRandomInt(0, footerMessages.length - 1)];
 
 </script>

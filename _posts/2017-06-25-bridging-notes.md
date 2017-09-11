@@ -174,7 +174,33 @@ andreas gursky
 - How does interaction design shape the modern service economy
 
 ### Assignments
-
 Write a 400 word or more dissertation proposal
 This can be bullet points, more or less expanded
 Based on the questions, do some initial research
+
+
+### Dissertation Proposal
+Initial interest came up when I learned theres a number of buildings in my hometown by Hermann Blomeier - a student of Mies van der Rohe's at the bauhaus (an one of its last graduates). Most of these were built in the 60s, when the economy had started to recover. The list includes a rowing club, a ferry terminal and a water treatment plant. (There seems to be a small amount of academic research on this, but I havent' been able to source the bulk of it yet)
+
+I'm interested in the less high-profile bulidings designed by baauhaus-trained architects. It's generally accepted that few designs coming out of the bauhaus ever made it to mass production - Breuers steel tube chairs being one of them. However this doesn't seem to be the case for architecture - even while the bauhaus was still active, teachers and graduates completed a number of projects. There are of course the Barcelona-Pavillion, the Haus am Horn and the bauhaus building itself, but van der Rohe, Gropius and others also built a number of factories, housing estates and municipal buildings (Engels, Meyer 2006).
+
+There doesn't seem to exist a proper database of bauhaus buldings, the closest I could find was the book by Meyer and Engels - potential for some primary research over the summer.
+
+An interesting aspect might be to see ow these buldings were judged, used and changed over time. This varied considerably between east and west Germany - While the communist government held up the bauhaus buildings for their economic use of materials and futuristic outlook, the west regarded them as "an episode to be got over" (Birkhauser, 1998). The buildings have also been modified over time - the rowing club in my hometown bears little resemblance to the original drawings. It would be interesting to find out if mid-century modernism is seeing a similar revival as brutalism is in this country.
+
+greenwhich town hall
+from bauhaus to our house
+pessac worker bulidings
+by le corbusier
+people changing the buildign as soon as they were sold, putting up flower pots etc, painting the walls
+
+anna ridler
+
+
+email sheena
+proposal
+article on people pretending to be robots
+images of rowing club
+do presentation on evaluation and proposal on both dissertation and ips
+draft of the presentation ready by monday 17th
+write dissertation 500 words, will be printed and people wll annotate each others work

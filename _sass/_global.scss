@@ -24,7 +24,6 @@ a {
 
 	&:hover, &:focus {
 		text-decoration: underline;
-		color: rgba($black, .7);
 	}
 }
 
@@ -42,15 +41,12 @@ sup {
 }
 
 .footer-nav {
-	display: flex;
-	justify-content: space-between;
-	color: lighten(gray, 15);
 	font-size: .9rem;
 	@include bp(m){
 		font-size: 1rem;
 	}
 	a, span {
-		text-align: center;
+		display: block;
 		text-decoration: none;
 	}
 }

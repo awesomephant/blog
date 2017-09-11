@@ -1,78 +1,71 @@
+body {
+	overflow-x: hidden;
+}
 .site-header {
-	font-size: 1.8rem;
 	line-height: 1.35;
-    max-width: 25em;
-	margin-bottom: 2rem;
+    max-width: 35em;
+	margin-bottom: 1rem;
+	@include ts(m);
 	a {
 		text-decoration: none;
-		border-bottom: 1px solid $black;
 		&:hover, &:focus {
-			color: lighten($black, 12);
+			text-decoration: line-through;
 		}
 	}
 }
 
+.eye {
+	position: absolute;
+	bottom: -20%;
+	right: -5%;
+	z-index: -10;
+	width: 60%;
+}
+
+#eye-blue {
+	fill: white !important;
+	stroke: white !important;
+}
+
+#iris {
+	polygon {
+		fill: white !important;
+	}
+}
+
 .site-home {
-	@include bp(m){
-//		padding-left: $indent;
-		display: flex;
-	}
-
-	section {
-		flex-basis:50%;
-		padding-right: 1rem;
-	}
-
 	h2 {
-		margin-bottom: 1rem;
+		@include ts(m);
 	}
 }
 
 .project-list {
-	max-width: 50rem;
 	margin-bottom: 2rem;
+	max-width: 90%;
+}
+
+.project-title {
+	display: inline-block;
 }
 
 .project-list-item {
-	padding-top: .25rem;
-	display: block;
+	display: inline-block;
+	margin-right: 1rem;
+	font-weight: 600;
 	text-decoration: none;
-	display: flex;
-	justify-content: flex-start;
-
+	@include ts(m);
 	&:hover, &:focus {
-		color: $black;
-		text-decoration: line-through;
-	}
-}
-
-.project-tags {
-	flex-grow: 1;
-	display: none;
-	@include bp(m){
-		display: block;
-	}
-}
-
-.project-tag {
-	text-transform: capitalize;
-	&:after {
-		content: ', '
-	}
-	&:last-child:after {
-		content: '';
+		text-decoration: none;
+		.project-title {
+			text-decoration: line-through;
+		}
 	}
 }
 
 .project-year {
-	margin-right: 1rem;
-}
-
-.project-title {
-	flex-basis: 50%;
-	flex-grow: 1;
-}
-
-.project-tags {
-	flex-basis: 30%;
+	position: relative;
+	top: -.12rem;
+	font-size: 1rem;
+	letter-spacing: .01em;
+	padding-left: .2rem;
 }

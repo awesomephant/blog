@@ -22,9 +22,6 @@
 }
 
 .post-intro {
-    padding-bottom: 1rem;
-	line-height: 1.5;
-	font-size: 1.5rem;
 }
 
 .post-title {
@@ -49,12 +46,11 @@
 }
 .post {
 	background: white;
-	max-width:45rem;
-	font-size: 1.1rem;
+	@include ts(text);
 	font-weight: 600;
-	line-height: 1.55;
+	line-height: 1.45;
 	p, ul, ol {
-		color: rgb(50,50,50);
+		color: $black;
 		margin-bottom: 1rem;
 	}
 	
@@ -71,7 +67,6 @@
 	
 	h2 {
 		margin-top: 1.5rem;
-		font-weight: 600;
 		margin-bottom: .5rem;
 	}
 
@@ -162,4 +157,12 @@ pre.highlight {
 		margin-bottom: .2rem;
 		width: 90%;
 	}
+}
+
+.post-header {
+	@include ts(m);
+}
+.post-content {
+	max-width: 45rem;
+	font-family: $text;	
 }

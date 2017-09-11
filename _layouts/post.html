@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-
-<div class="project-wrap">
-<a href='/' class="project-back">Writing</a>
+{% include header-collapsed.html %}
 <article class='post {{page.class}}'>
-    <date class='post-date'>{{ page.date | date: "%B %-d, %Y"}}</date>
-	<h1 class="post-title">{{ page.title }}</h1>
+	<header class="post-header">
+		<date class='post-date'>{{ page.date | date: "%B %-d, %Y"}}</date>
+		<h1 class="post-title">{{ page.title }}</h1>
+	</header>
+	<div class="post-content">
 	<p class="post-intro">
 		{{page.intro}}
 	</p>
-        
-    {{ content }}
+	{{ content }}
+	</div>
 </article>
-</div>

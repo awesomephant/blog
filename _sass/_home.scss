@@ -3,9 +3,13 @@ body {
 }
 .site-header {
 	line-height: 1.35;
+	font-size: 1.2rem;
     max-width: 35em;
 	margin-bottom: 1rem;
-	@include ts(m);
+	@include bp(m){
+		font-size: 1.5rem;
+
+	}
 	a {
 		text-decoration: none;
 		&:hover, &:focus {
@@ -15,11 +19,17 @@ body {
 }
 
 .eye {
-	position: absolute;
-	bottom: -20%;
-	right: -5%;
-	z-index: -10;
-	width: 60%;
+	position: fixed;
+	top: 70vh;
+	right: -22%;
+	z-index: -100;
+	@include bp(m){
+		position: absolute;
+		top: auto;
+		bottom: -40%;
+		right: -5%;
+		width: 60%;
+	}
 }
 
 #eye-blue {
@@ -33,27 +43,56 @@ body {
 	}
 }
 
+.home {
+	@include bp(m){
+		overflow-y: hidden;
+	}
+
+}
+
 .site-home {
 	h2 {
-		@include ts(m);
+		font-size: 1.2rem;
+		font-weight: bold;
+		@include bp(m){
+			font-weight: normal;
+			font-size: 1.5rem;
+		}
 	}
 }
 
 .project-list {
 	margin-bottom: 2rem;
-	max-width: 90%;
+	@include bp(m){
+		max-width: 90%;
+	}
 }
 
 .project-title {
 	display: inline-block;
+	font-size: 1.1rem;
+	@include bp(m){
+		font-size: 1.5rem;
+	}
 }
 
 .project-list-item {
-	display: inline-block;
-	margin-right: 1rem;
 	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
 	text-decoration: none;
-	@include ts(m);
+	align-items: baseline;
+	border-bottom: 1px solid rgba($black, .2);
+	width: 100%;
+	padding: .5rem 0;
+	@include bp(m){
+		padding: 0;
+		padding-bottom: .2rem;
+		border-bottom: 0;
+		width: auto;
+		display: inline-block;
+		margin-right: 1rem;
+	}
 	&:hover, &:focus {
 		text-decoration: none;
 		.project-title {
@@ -63,9 +102,12 @@ body {
 }
 
 .project-year {
-	position: relative;
-	top: -.12rem;
-	font-size: 1rem;
-	letter-spacing: .01em;
-	padding-left: .2rem;
+	font-size: .8rem;
+	@include bp(m){
+		position: relative;
+		top: -.15rem;
+		font-size: 1rem;
+		letter-spacing: .01em;
+		padding-left: .2rem;
+	}
 }

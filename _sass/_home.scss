@@ -20,7 +20,7 @@ body {
 
 .eye {
 	position: fixed;
-	top: 70vh;
+	top: 50vh;
 	right: -22%;
 	z-index: -100;
 	@include bp(m){

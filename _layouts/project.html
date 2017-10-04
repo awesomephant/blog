@@ -4,17 +4,22 @@ layout: default
 
 {% include header-collapsed.html %}
 
-<article class='project {{page.class}}'>
+<article style='background-color: {{page.color}}' class='project {{page.class}}'>
 	<header class="project-info">
-		<h1 class="single-project-title">{{ page.title }}</h1>
-		<date class='single-project-date'>{{ page.year }}</date>
-		<p class="project-copy">
+		<h1 class="single-project-title">{{ page.title }} ({{page.year}})</h1>
+		<div class="project-copy">
 			{{ content }}
-		</p>
+		</div>
 	</header>
-	<div class="project-images">
+	<div class="project-content">
+		{% if page.project_url %}
+		<figure class="screenshot">
+			<iframe src="{{page.project_url}}" frameborder="0"></iframe>
+		</figure>
+		{% endif %}
+
 		{% for i in page.images %}
-			<img src="{{ i }}" alt="">
+		<img src="{{ i }}" alt="">
 		{% endfor %}
 	</div>
 </article>

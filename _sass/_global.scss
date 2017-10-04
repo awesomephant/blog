@@ -14,7 +14,6 @@ html {
 body {
 	font-family: $sans;
 	color: $black;
-	padding: 3%;
 	min-height: 100%;
 }
 
@@ -30,6 +29,27 @@ a {
 
 sup {
 	font-size: .8em;
+}
+
+.site-header {
+	line-height: 1.35;
+	font-size: 1.2rem;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	@include bp(m){
+		font-size: 1.5rem;
+	}
+	&.expanded {
+		max-width: 50rem;
+	}
+	a {
+		text-decoration: none;
+		&:hover, &:focus {
+			text-decoration: line-through;
+		}
+	}
 }
 
 .site-footer {

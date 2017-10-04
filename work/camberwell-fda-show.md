@@ -2,9 +2,9 @@
 layout: project
 title: Camberwell FdA Illustration & FdA Graphic Design Degree Show
 year: 2017
+project_url: 'http://www.anicepair.co.uk'
 images: 
     - '/assets/camberwell-show/stickers.png'
-    - '/assets/camberwell-show/website.png'
     - '/assets/camberwell-show/poster.jpg'
 ---
 

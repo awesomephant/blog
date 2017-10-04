@@ -1,23 +1,6 @@
 body {
 	overflow-x: hidden;
 }
-.site-header {
-	line-height: 1.35;
-	font-size: 1.2rem;
-    max-width: 35em;
-	margin-bottom: 1rem;
-	@include bp(m){
-		font-size: 1.5rem;
-
-	}
-	a {
-		text-decoration: none;
-		&:hover, &:focus {
-			text-decoration: line-through;
-		}
-	}
-}
-
 .eye {
 	position: fixed;
 	top: 50vh;
@@ -51,6 +34,7 @@ body {
 }
 
 .site-home {
+	padding: 0 1rem;
 	h2 {
 		font-size: 1.2rem;
 		font-weight: bold;

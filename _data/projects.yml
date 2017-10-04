@@ -44,3 +44,11 @@
   tags: 
     - web
     - data
+- title: 'Zwicker & Partner Website'
+  url: 'https://www.radiologen-konstanz.de/'
+  year: 2016
+  image: 'gradient-prints.jpg'
+  desc: Course project dealing with client-side data visualisation.
+  tags: 
+    - web
+    - data

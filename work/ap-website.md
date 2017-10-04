@@ -1,8 +1,12 @@
 ---
 layout: project
 title: Assemblypoint Website
+year: 2017
+color: '#FFD2CC'
+project_url: 'http://assemblypoint.xyz/'
+screenshots: '/assets/ap-screen.png'
 ---
 
-![Website](/assets/camberwell-show/website.png)
-![Stickers](/assets/camberwell-show/stickers.png)
-![Poster](/assets/camberwell-show/poster.jpg)
+Design, content strategy and Wordpress development of a new, expanded website for South-London based gallery Assembly Point.
+
+[assemblypoint.xyz](http://assemblypoint.xyz/)

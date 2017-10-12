@@ -49,6 +49,8 @@ When Gropius stepped down as director of the Bauhaus in 1927, Hannes Meyer conti
 
 ## References
 
+[Working Bibliography](https://docs.google.com/spreadsheets/d/e/2PACX-1vTq5ZS3tXh968wpGc0dGZl-6LfgrdHeuTvKjCh4i--em5lspsC-q3ICF7FrK3HlGEtE0Qih9OEtRkyX/pubhtml)
+
 - Droste, M. (1993). Bauhaus. Köln: Taschen.
 - Engels, H. (2001). Bauhaus-Architektur. München: Prestel.
 - Möller, W. (2015). The co-op principle. Leipzig: Spector Books.

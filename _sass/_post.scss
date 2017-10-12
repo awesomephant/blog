@@ -48,6 +48,7 @@
 	background: white;
 	@include ts(text);
 	font-weight: 600;
+	padding-left: 1rem;
 	line-height: 1.45;
 	p, ul, ol {
 		color: $black;

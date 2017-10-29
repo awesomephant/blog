@@ -1,74 +1,26 @@
 <script>
-    function getRandomInt(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-    var insertAfter = function (newNode, referenceNode) {
-        referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-    }
-    var linksToFootnotes = function () {
-        var links = document.querySelectorAll('.post a')
-        var post = document.querySelector('.post');
-        var footnotes = '';
-        if (links && post) {
-            for (var i = 0; i < links.length; i++) {
-                footnotes += '<li>' + links[i].getAttribute('href') + '</li>';
-                var text = links[i].innerHTML;
-                links[i].innerHTML = text + '<sup class="ref">' + i + '</sup>';
-            }
-            var el = document.createElement('ul')
-            el.classList.add('print-footnotes')
-            el.innerHTML = footnotes;
-            insertAfter(el, post)
-        }
-    }
-    linksToFootnotes();
-    var windowWidth, windowHeight, eyeRad, irisRad, eyeX, eyeY, outerBox;
-var eyes;
-var initEyes = function() {
-	eyes = document.querySelectorAll(".eye");
-	var eyeWhite = document.getElementById("eye-white");
-    eyeWhite.style.fill = randomColor({luminosity: 'light'});
-    eyeWhite.style.stroke = 'white'
-};
-var trackEye = function(e, el) {
-	var eyeWhite = el.getElementById("eye-white");
-	var iris = el.getElementById("iris");
-	var irisBox = iris.getBBox();
-	var outerBox = eyeWhite.getBBox();
-	windowWidth = window.innerWidth;
-	windowHeight = window.innerHeight;
-	eyeRad = outerBox.width;
-	irisRad = irisBox.width;
-	var svgBox = el.getBoundingClientRect();
-	var w = svgBox.right - svgBox.left;
-	var h = svgBox.bottom - svgBox.top;
-	eyeX = svgBox.left + w / 2;
-	eyeY = svgBox.top + h / 2;
-	var x = e.pageX;
-	var y = e.pageY;
-	var xp, yp;
-	if (x < eyeX) {
-		xp = (1 - x / eyeX) * -1;
-	} else {
-		xp = (x - eyeX) / (windowWidth - eyeX);
+	function getRandomInt(min, max) {
+		return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
-	if (y < eyeY) {
-		yp = (1 - y / eyeY) * -1;
-	} else {
-		yp = (y - eyeY) / (windowHeight - eyeY);
+	var insertAfter = function (newNode, referenceNode) {
+		referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 	}
-
-	//Multiply by .7 to prevent iris from going outside the eye at diagonal positions
-	var irisX = xp * (eyeRad - irisRad) / 2 * 0.75;
-	var irisY = yp * ((eyeRad - irisRad) / 2) * 0.7;
-	iris.style.transform = "translate(" + irisX + "px," + irisY + "px)";
-};
-
-initEyes();
-document.addEventListener("mousemove", function(e) {
-	for (var i = 0; i < eyes.length; i++) {
-		trackEye(e, eyes[i]);
+	var linksToFootnotes = function () {
+		var links = document.querySelectorAll('.post a')
+		var post = document.querySelector('.post');
+		var footnotes = '';
+		if (links && post) {
+			for (var i = 0; i < links.length; i++) {
+				footnotes += '<li>' + links[i].getAttribute('href') + '</li>';
+				var text = links[i].innerHTML;
+				links[i].innerHTML = text + '<sup class="ref">' + i + '</sup>';
+			}
+			var el = document.createElement('ul')
+			el.classList.add('print-footnotes')
+			el.innerHTML = footnotes;
+			insertAfter(el, post)
+		}
 	}
-});
+	linksToFootnotes();
 
 </script>

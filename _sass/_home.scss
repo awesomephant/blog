@@ -1,48 +1,19 @@
 body {
 	overflow-x: hidden;
 }
-.eye {
-	position: fixed;
-	top: 50vh;
-	right: -22%;
-	z-index: -100;
-	@include bp(m){
-		position: absolute;
-		top: auto;
-		bottom: -40%;
-		right: -5%;
-		width: 60%;
-	}
-}
-
-#eye-blue {
-	fill: white !important;
-	stroke: white !important;
-}
-
-#iris {
-	polygon {
-		fill: white !important;
-	}
-}
 
 .home {
+	background: $black;
+	color: white;
+	font-size: 1.2rem;
 	@include bp(m){
-		overflow-y: hidden;
+		font-weight: normal;
+		font-size: 1.5rem;
 	}
-
 }
 
 .site-home {
-	padding: 0 1rem;
-	h2 {
-		font-size: 1.2rem;
-		font-weight: bold;
-		@include bp(m){
-			font-weight: normal;
-			font-size: 1.5rem;
-		}
-	}
+	padding: 0 3%;
 }
 
 .project-list {
@@ -54,10 +25,6 @@ body {
 
 .project-title {
 	display: inline-block;
-	font-size: 1.1rem;
-	@include bp(m){
-		font-size: 1.5rem;
-	}
 }
 
 .project-list-item {

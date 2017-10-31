@@ -5,7 +5,10 @@ body {
 .home {
 	background: $black;
 	color: white;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
+	@include bp(s){
+		font-size: 1.2rem;
+	}
 	@include bp(m){
 		font-weight: normal;
 		font-size: 1.5rem;
@@ -14,6 +17,13 @@ body {
 
 .site-home {
 	padding: 0 3%;
+
+	h2 {
+		margin-bottom: .5rem;
+		@include bp(m){
+			margin: 0;
+		}
+	}
 }
 
 .project-list {
@@ -27,15 +37,45 @@ body {
 	display: inline-block;
 }
 
+.project-year {
+	display: none;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	@include bp(m){
+		display: inline-block !important;
+		margin: 0;
+	}
+}
+
+// What follows are workarounds for $(first())
+.project-list > a[data-year='2017'] .project-year {
+    display: inline-block;
+}
+.project-list > a[data-year='2017'] ~ a[data-year='2017'] .project-year {
+	display: none;
+}
+.project-list > a[data-year='2016'] .project-year {
+    display: inline-block;
+}
+.project-list > a[data-year='2016'] ~ a[data-year='2016'] .project-year {
+	display: none;
+}
+.project-list > a[data-year='2016'] .project-year {
+    display: inline-block;
+}
+.project-list > a[data-year='2016'] ~ a[data-year='2016'] .project-year {
+	display: none;
+}
+
 .project-list-item {
 	font-weight: 600;
 	display: flex;
-	justify-content: space-between;
+	flex-flow: column-reverse;
 	text-decoration: none;
 	align-items: baseline;
 	border-bottom: 1px solid rgba($black, .2);
 	width: 100%;
-	padding: .5rem 0;
+	padding-bottom: .25em;
 	@include bp(m){
 		padding: 0;
 		padding-bottom: .2rem;

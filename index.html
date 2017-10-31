@@ -8,7 +8,7 @@ class: home
         <h2>(Work)</h2>
         <nav class='project-list'>
             {%for p in site.data.projects%}
-            <a href='{{ p.url }}' class='project-list-item'>
+            <a data-year="{{ p.year }}" href='{{ p.url }}' class='project-list-item'>
                 <h3 class='project-title'>{{p.title}}
                 </h3>
                 <date data-year='{{p.year}}' class="project-year"> {{p.year}}</date>
@@ -20,7 +20,7 @@ class: home
         <h2>(Writing)</h2>
         <nav class='project-list'>
             {%for post in site.posts%}
-            <a href="{{post.url}}" class='project-list-item'>
+            <a data-year="{{ post.date | date: '%Y' }}" href="{{post.url}}" class='project-list-item'>
                 <h3 class='project-title'>
                     {% if post.shortTitle %}
                     {{ post.shortTitle }}

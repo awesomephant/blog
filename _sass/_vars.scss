@@ -1,4 +1,5 @@
-$black: rgb(20,20,22);
+$black: rgb(20,20,22
+);
 $white: #fff;
 $lightgray: rgb(232,230,230);
 
@@ -9,9 +10,9 @@ $pink: #FFB7B7;
 
 @import url("https://use.typekit.net/uof8tbt.css");
 
-$text: "Helvetica", sans-serif;
 $sans: "franklin-gothic-urw", "Georgia", sans-serif;
 $serif: "Georgia", serif;
+$text: $serif;
 $fast: 290ms;
 $indent: 5%;
 

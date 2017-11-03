@@ -18,7 +18,8 @@
 
 .post-date {
     font-weight: 500;
-    display: block;
+	display: block;
+	font-size: 1.1rem;
 }
 
 .post-intro {
@@ -26,7 +27,13 @@
 
 .post-title {
 	margin-bottom: 2rem;
-	line-height: 1.4;
+	font-weight: 900;
+	font-size: 1.5rem;
+	line-height: 1.2;
+	@include bp(m){
+		font-size: 2.5rem;
+		letter-spacing: -.01em;
+	}
 }
 
 .project-wrap {
@@ -45,11 +52,12 @@
 	width: 100%;
 }
 .post {
-	background: white;
-	@include ts(text);
+	background: white;	
 	font-weight: 600;
 	padding-left: 1rem;
-	line-height: 1.45;
+	font-size: 18px;
+	line-height: 1.54;
+
 	p, ul, ol {
 		color: $black;
 		margin-bottom: 1rem;
@@ -59,29 +67,57 @@
 		margin-left: 1.3rem;
 	}
 	
-	img {
+	img, video {
 		width: 100%;
 		@include bp(m){
 			width: 110%;
+			margin-left: -5%;
 		}
 	}
 	
 	h2 {
-		margin-top: 1.5rem;
-		margin-bottom: .5rem;
+		margin-top: 1rem;
+		font-family: $sans;
+		margin-bottom: .25rem;
 		font-weight: 600;
-		font-size: 1.3rem;
+		font-size: 1.1em;
 	}
-
+	
 	h3 {
+		font-size: 1.1em;
+		font-family: $sans;
 		color: gray;
-		margin-bottom: 1rem;
+		margin-bottom: .25rem;
 	}
 
 	.note {
 		color: gray;
 	}
 	
+	table {
+		margin-bottom: 1rem;
+		font-size: 1rem;
+	}
+
+	th{
+		font-weight: bold;
+		border-bottom: 1px solid $black;
+	}
+
+	th, td {
+		padding-right: 1rem;
+		padding-top: .4rem;
+		padding-bottom: .4rem;
+	}
+	
+	tr, thead {
+		border-bottom: 1px solid rgba($black, .3);
+	}
+
+	tr:last-of-type {
+		border-bottom: 0;
+	}
+
 	img + em {
 		font-style: normal;
 		line-height: 1.2;
@@ -164,8 +200,15 @@ pre.highlight {
 
 .post-header {
 	@include ts(m);
+	@include bp(m){
+		margin: 0 auto;
+		max-width: 45rem;
+	}
 }
 .post-content {
 	max-width: 45rem;
-	font-family: $text;	
+	font-family: $text;
+	@include bp(m){
+		margin: 0 auto;
+	}	
 }

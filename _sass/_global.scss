@@ -11,6 +11,11 @@ html {
 	position: relative;
 }
 
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 body {
 	font-family: $sans;
 	color: $black;
@@ -33,13 +38,14 @@ sup {
 
 .site-header {
 	line-height: 1.35;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	padding: 3%;
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	@include bp(m){
-		font-size: 1.5rem;
+		padding: 2rem 3%;
+		font-size: 1.3rem;
 	}
 	&.expanded {
 		max-width: 50rem;

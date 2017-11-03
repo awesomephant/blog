@@ -15,8 +15,9 @@ Turns out my steppers and drivers worked just fine, I just didn't have enough vo
 Managed to solder pins on my EasyDrivers, they fit nicely into the breadboards now. Hopefully I didn't cook any of the components.
 
 ![Driver](/assets/unit-10/driver.jpg)
-![Driver](/assets/unit-10/arduino.jpg)
 BA Graphic Design level soldering
+
+![Driver](/assets/unit-10/arduino.jpg)
 
 ## October 15, 2017
 I found out you can get AutoCAD for free as a student, so I used that to draw up the shaft supports I need to build. What a good piece of software. (I can't believe I ever thought it was a good idea to do this in Illustrator) 
@@ -86,8 +87,27 @@ It consists of a [mending plate](https://www.screwfix.com/p/mending-plates-zinc-
 
 I repeated this on both sides, connected by the driveshaft. I then connected the stepper (happy to report the EasyDriver survived my soldering) and it works! 
 
-<video loop autoplay src='/assets/unit-10/motor.mp4'></video>
+<video loop controls autoplay src='/assets/unit-10/motor.mp4'></video>
 
-It's moving _very_ slowly at the moment, but I should be able to fix that by going from 1/8 microstepping to 1/4 or 1/2 - effectively reducing the resolution by half and doubling the speed. The EasyDriver has two ports two do this ([Logic table](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide#hardware-overview)) which means I'll be able to adjust speed/resolution based on the drawing I'm trying to do.
+It's moving _very_ slowly at the moment, but I should be able to fix that by going from 1/8 microstepping to 1/4 or 1/2 - effectively reducing the resolution by half and doubling the speed. The EasyDriver has two ports two do this which means I'll be able to adjust speed/resolution based on the drawing I'm trying to do.
 
 Still missing a shaft support and stepper for the Y-axis.
+
+## November 2, 2017
+
+I managed to double the speed of the slide using this logic table:
+
+|MS1|MS2| Microstep Resolution
+|---|---|--------------------
+|Low  | Low | Full Step (2 Phase)
+|High  | Low	| Half Step
+|Low  | High	| Quarter Step
+|High  | High	| Eigth Step
+
+[Logic table source](https://learn.sparkfun.com/tutorials/easy-driver-hook-up-guide#hardware-overview)
+
+However apparently you get less torque the bigger the steps are? The lowest that would work reliably is quarter steps. [This article would suggest it's way more complicated](http://www.geckodrive.com/microstep-full-step-torque)
+
+I've also laid out the x-axis platform, which needs to fit a stepper, the belt attachment, two shaft supports and its own belt support. I'm running the belt in between the two bearings so it shouldn't get stuck. I've realised the pen should probably go between the bearings as well to reduce leverage that could twist the platform.
+
+Ordered some wire to connect the second stepper once it arrives.

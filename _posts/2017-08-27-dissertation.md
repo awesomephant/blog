@@ -5,7 +5,7 @@ shortTitle: "Camberwell GD Dissertation"
 date: 2017-06-25 10:00:00
 tags: ""
 thumb: ""
-intro: "The Bauhaus today is remembered mostly for its physical artifacts: Steel tube furniture, household appliances put together from geometric shapes, New Typography, all set against the backdrop of flat-roofed, pristine white architecture. The philosophical and political struggle that led to these outcomes seems distant to us. Reading some of the manifestos published at the Bauhaus, written in somewhat stilted 1920s German and printed in long lines of sans-serif type can only give us a faint idea of the monumental endeavour the Bauhausler were engaged in."
+intro: "The Bauhaus today is remembered mostly for its physical artifacts: Steel tube furniture, household appliances put together from geometric shapes, New Typography, all set against the backdrop of flat-roofed, pristine white architecture. The philosophical and political struggle that led to these outcomes seems distant to us. Reading some of the manifestos published at the Bauhaus, written in somewhat stilted 1920s German can only give us a faint idea of the monumental endeavour the Bauhausler were engaged in."
 ---
 
 Having found themselves in a country still recovering from the first world war, with new technology changing every aspect of life, they took it upon them to design the new world, one teapot at a time. What emerged was a vision for society in which citizens, architecture, product design, agriculture, entertainment, science and art would exist together in one unified, "rational" programme: Modernism. To the young people at the Bauhaus, this idea must have felt utterly within reach: In a country struggling to recover from the first World War, with violent revolutions going on in Europe and new technology changing every aspect of life, change seemed inevitable. (Moller, 2015)
@@ -22,7 +22,7 @@ I'm laying out this background to explain the confilct I'm trying to reconcile. 
 
 So the question I'm trying to answer is this: How does the modernist notion of rational, universal solutions to problems of everyday life hold up when faced with inherently individualistic everyday people? Were the Bauhausler aware of this conflict, and were trying to reconcile it? Can we see physical evidence of the conflict in the built environment, and has its manifestation changed over time? The last question seems especially relevant today, close to the 2019 Bauhaus centenary: Like in the beginning of the 20th century, we're again in the middle of a fundamental economic shift. Where in Gropius' day growing industrial production created the needs for new forms of living, longer life expectancy and automated production are challenging our notions of work and living today.
 
-To answer these questions, we must return to the physical artifiacts of the historical Bauhaus. Careful examination of these artifacts and how they have fared over the last 100 years might allow us to draw conclusions on the larger ideological concepts they manifest.
+To answer these questions, we must return to the physical artifiacts of the historical Bauhaus. Careful examination of these artifacts and how they have fared over the last 100 years might allow us to draw conclusions on the larger ideological concepts they manifest. 
 
 There is a wide range of physical artifacts we might chose look at: Bauhaus students were engaged in weaving, interior decoration, furniture-making as well as painting, graphic design and advertising, and many well-known products of these activities survive in archives, exhibitions and museum shops around the world.
 
@@ -32,7 +32,7 @@ The B3 also illustrates an issue shared by many Bauhaus designs. While the work 
 
 However of all the disciplines taught at the Bauhaus, one stands out above all the others: "The ultimate goal of all art" at the Bauhaus, as Gropius declares in the 1919 manifesto, is architecture. Over 50 building projects were completed by members of the Bauhaus between 1919 and 1930, and countless mroe after the school disbanded (Engels, 2001). This count includes buildings that were built by Gropius and others relatively independently from the Bauhaus, but some were the result of the type of cross-discipline collaboration that was at the core of the Bauhaus idea. These large-scale projects addressed real-world issues (ie. housing shortages), while at the same time serving as classroom experiments at the Bauhaus.
 
-A few of these buildings have become instantly recognisable: The Sommerfeld House (1920), the Haus am Horn (1923) and The Bauhaus Building and Master's houses in Dessau (1925-26). However, it is the more obscure examples of Bauhaus architecture 
+A few of these buildings have become instantly recognisable: The Sommerfeld House (1920, destroyed 1945), the Haus am Horn (1923) and The Bauhaus Building and Master's houses in Dessau (1925-26). However, it is the more obscure examples of Bauhaus architecture 
 
 However, many more have escaped public attention for most of their existence. They were never regarded as architectural monuments, but used by the public like any other building - Many of them didn't receive heritage protection until very recently. As such they were altered, extended, worn down and painted over with little hesitation. We could lament this loss of architectural history (and people do), but in our search for evidence as to the success (or failure) of modernism, we couldn't get luckier. Here we have the physical manifestations of 1920s modernist ideals, tested mercilessly by regular people through decades of war, reconstruction and changing political regimes up to the present day. 
 
@@ -41,8 +41,6 @@ However, many more have escaped public attention for most of their existence. Th
 As mentioned above, architecture plays a central role in the 1919 Bauhaus manifesto. In it, Gropius calls for a "new unity of art and craft", the "ultimate goal" of which would be architecture. Despite the fact architecture formed the centre of Bauhaus ideas, it took Gropius three years (?) to establish a formal architecture department. Up to that point he had arranged for students to take classes at a traditional technical school in Weimar. 
 
 The way architecture was taught at the Bauhaus changed significantly during its existence, reflecting shifts in thinking within the Bauhaus and the cultural landscape of Weimar.
-
-
 
 This was reinforced from 1928, when Swiss architect Hannes Meyer took over the post of director from Walter Gropius. Meyer described archietcture not as an artistic problem, but one "of organisation", which he was determined to solve with mathematical accuracy. His architectural drawings are filled with tables and graphs describing the results of soil analysis, sunlight calculations and weather observations at the building site. Under the brief tenure of Mies van der Rohe from 1930 to 1933 the understanding of architecture at the Bauhaus shifted away from the strict functionalism of Hannes Meyer toward a more aesthetically-driven exploration of space. 
 
@@ -67,21 +65,21 @@ Another idea Gropius adopted from garden is that of mirrored floor plans. By pos
 
 ## Alterations in the 1920s
 
-We see the first major deviation from Gropius' plan the day the first families moved in. Few families could afford the RM 1350 for Marcel Breuer's specially designed furniture set, so they brought in an ecclectic collection of regular furniture, wallpapers and curtains, which often fit aw
+We see the first major deviation from Gropius' plan the day the first families moved in. Few families could afford the RM 1350 for Marcel Breuer's specially designed furniture set, so they brought in an ecclectic collection of traditional furniture, wallpapers and curtains, which made an awkward fit in Gropius' small floor plans.
 
 Following the initial construction, heat insulation quickly became a concern. Anectotal accounts describe how doors and windows would freeze shut during the first winter. This was a direct result of shortcomings in the design.
 
 1. The steel frame, single glass windows chosen by Gropius were cutting-edge technology at the time. As such, they were not only a third more expensive than traditional wooden windows but also caused major heat loss due to their size and lack of insulation. Most of the original windows were replaced smaller, wooden windows by the mid-1930s. The new windows were also set much lower than the original windows, which started 1.40m above floor level (Gropius had made this choice to increase teh usable floor area)
 2. The thin outer walls formed another heat escape route. This was a direct result of their industrialised production - since their concrete slabs all had the same dimensions, heat bridges could form between the gaps. Home-owners addressed this by errecting secondary brick facades shortly after the initial construction.
 
-Some individuals also began selling goods out of their houses, moving further away from the notion of centralised consumption.
+Some individuals also began selling goods out of their houses, moving further away from the notion of centralised consumption. This practice continues to date, as figure ? shows. 
 
 ## Alterations in Nazi Germany
 The Bauhaus was always criticised as a source of communist thinking by right-wing observers. In the 1930s, the nazis usd their freshly-seized power to make a number of alterations to the Torten Settlement (after earlier plans to rebuild it from the ground had proven financially unviable). Dessau architect and long-time critic of Gropius, Kurt Eisner was comissioned to develop a scheme to replace all of Gropius' steel windows with wooden ones. While this did also address construction issues, it was primarily seen as a propaganda victory by the nazis.
 
-Visually, changing the window positions broke up Gropius' continuous facade into individual units.
+Visually, changing the window positions broke up Gropius' continuous facade into individual units. A pavement and more pronounced seperation between neighbouring front gardens were also added in this period.
 
-A contemporary newspaper report celebrates the changes, describing how the "middle-eastern flat roofed architecture has been restored to German forms". (This strangely racist critique of modernist architecture is a recurring motif among critics of the Bauhaus at the time).
+A contemporary newspaper report celebrates the changes, describing how the "middle-eastern flat roofed architecture has been restored to German forms". (This strangely racist critique of modernist architecture is a recurring motif among critics of modern architecture at the time).
 
 The desire to contrast modernist buildings with what was seen as proper, "volkisch" architecture might also explain why the Bauhaus building itself was surrounded by a grouping of pitched-roof, traditionally-built apartment buildings during this time.
 
@@ -89,9 +87,11 @@ The desire to contrast modernist buildings with what was seen as proper, "volkis
 
 Immediately after the war, a number of buildings in Torten had to be rebuilt - Dessau, being the site of a Junkers factory had become a bombing target. Since little building material was available, many original components were re-used.
 
-As the economic situation stabilised, people's focus tunrned toward expanding their living space. Houses were expanded into the garden, and in many cases the roof terrace in the back was enclosed to create an additional room. Most of the original dry toilets were replaced with regular flush toilets. Contemporary photographs also suggest that the orignal above-ground electricity lines were moved underground during this period, removing another part of the industrial aesthetic. 
+As the economic situation stabilised, people's focus tunrned toward expanding their living space. Houses were expanded into the garden, and in many cases the roof terrace in the back was enclosed to create an additional room. Most of the original dry toilets were replaced with regular flush toilets. Schwarting makes the observation that the reason these expansions could be done relatively easily was the construction of the buildings, in which only the side walls were load-bearing. The argument can be made that Gropius did in fact choose this construction method with later expansions in mind. This would be in line with his thinking regarding modular housing which can be expanded and downsized with the changing size of the family. 
 
-One of the more memorable images from this time (fig ?) shows a row of houses, each with a tall anteanna used to illegally receive West-German TV. This is in a way a reversal of the earlier power structure: Rather than implementing a set of political ideals from the top down through architecture (as Gropius had done), individuals are making an architectural change to get around politically motivated restrictions. 
+Contemporary photographs also suggest that the orignal above-ground electricity lines were moved underground during this period, removing another element of industrial aesthetic from the view of the observer. 
+
+One of the more memorable images from this time (fig ?) shows a row of houses, each with a tall anteanna supposedly used to illegally receive West-German TV. This is in a way a reversal of the earlier power structure: Rather than implementing a set of political ideals from the top down through architecture (as Gropius had done), individuals are making an architectural change to get around politically motivated restrictions. 
 
 During this period the use of the gardens also changed substantially. As the need for individual food production became less pronounced, the gardens take up the role of a leisure space. Car-ownership also becomes more common. Since the original streets are to narrow to provide the needed parking space, this moves into the garden. Many home owners build garages and carports, sometimes following, sometimes veering away from the visual language of the main building. the gravel path seperating the gardens becomes a secondary road. 
 
@@ -102,6 +102,8 @@ None of these changes were done according to a central programme, but rather fol
 
 Another significant set of changes to Torten come after the Berlin wall, largely due to the emergence of DIY-retail. With an abundance of facade materials, garden decorations, windows, doors and roofing materials suddenly available, home-owners made a series of individual changes that define the settlement today. 
 
+Figures ? through ? show a wide variety of doors, windows, fittings, landscaping features and seasonal decorations. Surprisingly, elements of the original buildings such as house numbers and door handles still appear throughout the settlement, however not always in their original location - Figure ? shows original house numbers attached to a garage door along the secondary road.
+
 Recognition of architectural heritage, some of the buildings have been aquired by the local government and returned to their original state. There was some legislation put in place in the late 1990s to prevent major structural changes, although as Schwarting points out this has its own set of problems - some of the regulations prescribe things that are inconsistent with the original drawings. Maybe bring up tehe issue of colour here - we only have black and white photographs of the buildings giving the impression that they were all pristine white, when in reality they maybe had quite subtle colour choices.
 
 Today, Torten is fully enveloped by industrial and residential areas built at various times. 
@@ -110,7 +112,11 @@ Today, Torten is fully enveloped by industrial and residential areas built at va
 
 Dessau torten isn't a clear cut case, they had to make compromises on materials, steel windows weren't as good as they are today, the concrete they made on site wasn't gerat etc. but it was all going in the correct direction. Stress the organisational aspect, also the fact it was governement funded is maybe a new thing? Basically the idea that modernism has survived in the sense that the torten buildings are flexible enough to be changed. maybe the futurist idea that part of their movement was the idea that the movement would eventually die. Socialism hasn't happened obviously, but this wasn't always the intention of teh bauhaus, moholy nagy was more in favour of working with industry. notion of using rationale, science to make architecture cheaper has survived, although the idea of big social housing developments isn't as popular anymore (maybe show chemistry worker's city by former bauhausler, la housing blocks as examples)
 
-Inequality, housing shortages today, people aren't as afraid of socialism anymore. Society has progressed from a Fordian industrial workforce to a service economy - production and transportation is more and more automated, posing the question wether the way we live needs to change in a major way again.  Maybe the young-odl thing is a major point to be made here - people living in a collective way, in pre-frabricated houses (ie. RVs, also there has to be  a russian constructivist flying house version of RVs, also the theme parks are a bit like a housing estate, you even buy into a certain social programme and dress code when you live in one of those places - compare hannes Meyer's trade union school where he used scoiology to determin people should live in groups of certain sizes and built the whole environment based on that)
+Inequality, housing shortages today, people aren't as afraid of socialism anymore. Society has progressed from a Fordian industrial workforce to a service economy - production and transportation is more and more automated, posing the question wether the way we live needs to change in a major way again.
+
+Deane Simpson offers an interesting perspective on this in her 2015 book "The Young Old: Urban Utopias of an Ageing Society". In it, the author describes a new class of people created: the young old. These are people in their 50s and 60s, who have the financial means to retire and yet are healthy enough to continue to live an active life. Much like the industrial worker of the early 20th century, this is an entirely new class of people created by technological progress. Where in the 19th century the invention of the steam engine and fordist production methods brought about the industrial worker, it is andvances in medicine, nutrition and living conditions that cerated the young old. Like the industrial worker, the young old demand new solutions to the problem of housing, some of which seem remarkably similar to what Gropius and others were working on a century ago.
+
+people living in a collective way, in pre-frabricated houses (ie. RVs, also there has to be  a russian constructivist flying house version of RVs, also the theme parks are a bit like a housing estate, you even buy into a certain social programme and dress code when you live in one of those places - compare hannes Meyer's trade union school where he used sociology to determin people should live in groups of certain sizes and built the whole environment based on that)
 
 ## References
 

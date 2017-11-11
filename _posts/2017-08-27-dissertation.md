@@ -104,7 +104,9 @@ Another significant set of changes to Torten come after the Berlin wall, largely
 
 Figures ? through ? show a wide variety of doors, windows, fittings, landscaping features and seasonal decorations. Surprisingly, elements of the original buildings such as house numbers and door handles still appear throughout the settlement, however not always in their original location - Figure ? shows original house numbers attached to a garage door along the secondary road.
 
-Recognition of architectural heritage, some of the buildings have been aquired by the local government and returned to their original state. There was some legislation put in place in the late 1990s to prevent major structural changes, although as Schwarting points out this has its own set of problems - some of the regulations prescribe things that are inconsistent with the original drawings. Maybe bring up tehe issue of colour here - we only have black and white photographs of the buildings giving the impression that they were all pristine white, when in reality they maybe had quite subtle colour choices.
+With the increasing public recognition of the Bauhaus and its architectural output in the 1980s, education has become a permanent part of the Torten settlement. Hannes Meyer's Konsum building houses a museum telling the story of the settlement. Individual units have been purchased by the local government and restored to their original state. 
+
+There was some legislation put in place in the late 1990s to prevent major structural changes, although as Schwarting points out this has its own set of problems - some of the regulations prescribe things that are inconsistent with the original drawings. Maybe bring up tehe issue of colour here - we only have black and white photographs of the buildings giving the impression that they were all pristine white, when in reality they maybe had quite subtle colour choices.
 
 Today, Torten is fully enveloped by industrial and residential areas built at various times. 
 

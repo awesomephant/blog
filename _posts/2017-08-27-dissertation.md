@@ -10,7 +10,7 @@ intro: "The Bauhaus today is remembered mostly for its physical artifacts: Steel
 
 Having found themselves in a country still recovering from the first world war, with new technology changing every aspect of life, they took it upon them to design the new world, one teapot at a time. What emerged was a vision for society in which citizens, architecture, product design, agriculture, entertainment, science and art would exist together in one unified, "rational" programme: Modernism. To the young people at the Bauhaus, this idea must have felt utterly within reach: In a country struggling to recover from the first World War, with violent revolutions going on in Europe and new technology changing every aspect of life, change seemed inevitable. (Moller, 2015)
 
-How exactly that change should look like, the Bauhausler never quite agreed on. The early Bauhaus was driven by the search for individual expression. Johannes Itten, with his head shaved and wearing a robe of his own design taught the now-famous Vorkurs: Here, students developed their personal means of expression through meditation, philosophy and basic exercises. The Sommerfeld House in Berlin with its ecclectic, hand-crafted decoration is an often-cited example for the expresionism of the early Bauhaus. 
+How exactly that change should look like, the Bauhausler never quite agreed on. The early Bauhaus was driven by the search for individual expression. Johannes Itten, with his head shaved and wearing a robe of his own design taught the now-famous Vorkurs: Here, students developed their personal means of expression through meditation, philosophy and basic exercises. The Sommerfeld House in Berlin with its excentric, hand-crafted decoration is an often-cited example for the expresionism of the early Bauhaus. 
 
 The Bauhaus started to move toward a more collective outlook in 1922, when Theo van Doesburg, a proponent of De Stijl began teaching at the Bauhaus. He introduced the reduction to geometric shapes and primary colours that would become the basis of "Bauhaus Style". The following year Hungarian artist Laszlo Moholy-Nagy took over teaching of the preliminary course. He replaced much of Itten's individualistic curriculum with exercises using industrial material. In the following years, objectivity and scientific rigor remained the governing thought at the Bauhaus. It was during this later period that Marcel Breuer produced furniture out of precision steel tube (then a cutting-edge material) and Marianne Brandt designed household items for mass-production (Droste, 1998).
 
@@ -22,9 +22,7 @@ There is a wide range of physical artifacts we might chose look at: Bauhaus stud
 
 We might, for instance, look at Marcel Breyer's steel tube chairs: One fo the first iterations, known as "B3" was designed in 1925 following what might be called early ergonomic guidelines, recommending "angled position of the upper body" and "elastic seat and back rests". Early models were built in collaboration with local steel manufacturers from a cutting-edge material of the day: precision steel tube. In marketing material released in 1927 Breuer uses both the functionalist design approach and the use of industrial materials as primary selling points. (It is unclear to what extent Breuer is post-rationalising here - Later he tells a story about how the inspiration for the chair came from the handlebars of a friend's bicycle, which suggests a more formalist origin).
 
-The B3 also illustrates an issue shared by many Bauhaus designs. While the work was underpinned by strong progressive ideas and intended to serve the working class, this rarely came to fruition. The B3 was picked up by a manufacturer (Standard Mobel, Berlin), but production still required a great deal of manual labour and the material, although "durable and easy to clean" remained expensive. The manufacturer's catalogue lists the B3 at RM60, which would have been about two week's wages for an average unskilled worker at the time. At £1963, the Wassily chair remains a middle class luxury more than a functional tool in a worker's household. 
-
-[...]
+The B3 also illustrates an issue shared by many Bauhaus designs. While the work was underpinned by strong progressive ideas and intended to serve the working class, this rarely came to fruition. The B3 was picked up by a manufacturer (Standard Mobel, Berlin), but production still required a great deal of manual labour and the material, although "durable and easy to clean" remained expensive. The manufacturer's catalogue lists the B3 at RM60, which would have been about two week's wages for an average unskilled worker at the time. Retailing today at £2000, the Wassily chair remains a middle class luxury more than a functional tool in a worker's household. 
 
 However of all the disciplines taught at the Bauhaus, one stands out above all the others: "The ultimate goal of all art" at the Bauhaus, as Gropius declares in the 1919 manifesto, is architecture. Over 50 building projects were completed by members of the Bauhaus between 1919 and 1930, and countless mroe after the school disbanded (Engels, 2001). This count includes buildings that were built by Gropius and others relatively independently from the Bauhaus, but some were the result of the type of cross-discipline collaboration that was at the core of the Bauhaus idea. These large-scale projects addressed real-world issues (ie. housing shortages), while at the same time serving as classroom experiments at the Bauhaus.
 
@@ -38,15 +36,12 @@ As mentioned above, architecture plays a central role in the 1919 Bauhaus manife
 
 The way architecture was taught at the Bauhaus changed significantly during its existence, reflecting shifts in thinking within the Bauhaus and the cultural landscape of Weimar.
 
-[...]
 
-This was reinforced from 1928, when Swiss architect Hannes Meyer took over the post of director from Walter Gropius. Meyer described archietcture not as an artistic problem, but one "of organisation", which he was determined to solve with mathematical accuracy. His architectural drawings are filled with tables and graphs describing the results of soil analysis, sunlight calculations and weather observations at the building site. 
+
+This was reinforced from 1928, when Swiss architect Hannes Meyer took over the post of director from Walter Gropius. Meyer described archietcture not as an artistic problem, but one "of organisation", which he was determined to solve with mathematical accuracy. His architectural drawings are filled with tables and graphs describing the results of soil analysis, sunlight calculations and weather observations at the building site. Under the brief tenure of Mies van der Rohe from 1930 to 1933 the understanding of architecture at the Bauhaus shifted away from the strict functionalism of Hannes Meyer toward a more aesthetically-driven exploration of space. 
 
 ## The Dessau-Torten Estate
-
 The example I will be primarily discussing here is the housing estate Dessau-Torten. Designed by Walter Gropius and members of the Bauhaus, it consits of 314 single-family, two-story houses across roughly six square miles. The initial construction was completed in three phases from 1926 to 1928, with later expansions added by Hannes Meyer and Richard Paulick.
-
-[describe architecture]
 
 The Dessau Torten settlement takes a unique position in the physical legacy of the Bauhaus.   
 
@@ -58,11 +53,11 @@ Torten received heritage protection in 1994, which limits the extent of structur
 
 ## Initial Construction
 
-While the Dessau government was looking for a pragmatic solution to a housing shortage, Gropius saw an opportunity to test ideas on archiectural language, construction technology and organisation on a large scale. Torten was as much a pragmatic response to a housing shortage as it was a test-environment for Bauhaus ideas - this contradiction became apparent almost immediately after initial construction. 
+While the Dessau government was looking for a pragmatic solution to a housing shortage, Gropius saw an opportunity to test ideas on archiectural language, construction technology and organisation on a large scale. The experimental natue of Torten was reinforced in 1928 when Gropius received federal grants to carry out tests regarding different contruction methods and materials. Torten was as much a pragmatic response to a housing shortage as it was a test-environment for Bauhaus ideas - this contradiction became apparent almost immediately after initial construction. 
 
-The more fundamental conflict gets to our question: The governing thought at the Bauhaus in the late 1920s was one of collectivism. By embracing mass-production 
+In this context it is also worth pointing out the contradiction between Gropius' distinctly modernist visual language (flat roofs, exposed construction, steel window frames) and the overall conception of the estate, which follows the concept of the garden city. The notion of the garden city was first proposed by Ebeneezer Howard in 1889, and runs somewhat contrary to the idea of the minimum dwelling as referenced by Gropius. Rather than "rationalising" food production in "kitchen factories that could feed 10.000" (Teige, p?), the garden city is based on the idea of individual self-sufficiency for each family. In Torten this takes the form of a 400 square metre garden attached to each dwelling. In addition, Gropius opted for specialised dry toilets (even though Torten was attached to the sewer network) to generate garden fertilizer.
 
-In this context it is worth pointing out the contradiction between Gropius' distinctly modernist visual language (flat roofs, exposed construction, steel window frames) and the overall conception of the estate, which follows the concept of the garden city. The notion of the garden city was first proposed by Ebeneezer Howard in 1889, and runs somewhat contrary to the idea of the minimum dwelling as suggeste by Teige. Rather than "rationalising" (i.e. centralising) food production in "kitchen factories that could feed 10.000" (Teige, p?), the garden city is based on the idea of individual self-sufficiency for each family. In Torten this takes the form of a 400 square metre garden attached to each dwelling. In addition, Gropius opted for specialised dry toilets (even though Torten was attached to the sewer network) to generate fertilizer for the garden.
+Another idea Gropius adopted from garden is that of mirrored floor plans. By positioning doors and windows at oppsing edges of the facade, Gropius is able to effectively blur the line between units. Rather than a row of identical houses, this creates the effect of a continuous band - a "conveyor belt for living" to adopt Le Corbusier's well-knwon phrase. 
 
 ## Alterations in the 1920s
 
@@ -76,26 +71,32 @@ Following the initial construction, heat insulation quickly became a concern. An
 Some individuals also began selling goods out of their houses, moving further away from the notion of centralised consumption.
 
 ## Alterations in Nazi Germany
-The Bauhaus was always criticised as a source of communist thinking by right-wing commentators. In the 1930s, the nazis usd their freshly-seized power to make a number of alterations to the Torten Settlement (after earlier plans to rebuild it from the ground had proven financially unviable). Dessau architect and long-time critic of Gropius, Kurt Eisner was comissioned to develop a scheme to replace all of Gropius' steel windows with wooden ones. While this did also address some construction issues, it was primarily seen as a propaganda victory by the nazis.
+The Bauhaus was always criticised as a source of communist thinking by right-wing observers. In the 1930s, the nazis usd their freshly-seized power to make a number of alterations to the Torten Settlement (after earlier plans to rebuild it from the ground had proven financially unviable). Dessau architect and long-time critic of Gropius, Kurt Eisner was comissioned to develop a scheme to replace all of Gropius' steel windows with wooden ones. While this did also address construction issues, it was primarily seen as a propaganda victory by the nazis.
 
-A contemporary newspaper report celebrates the changes, describing how the "middle-eastern flat roofed architecture has been restored to correct German forms". (This strangely racist critique of modernist architecture was a recurring theme among critics of the Bauhaus at the time).
+Visually, changing the window positions broke up Gropius' continuous facade into individual units.
 
-The desire to contrast modernist buildings with what was seen as proper, "volkisch" architecture might also explain why the Bauhaus building itself was surrounded by a grouping of pitched-roof, traditionally-built apartment buildings during this time. 
+A contemporary newspaper report celebrates the changes, describing how the "middle-eastern flat roofed architecture has been restored to German forms". (This strangely racist critique of modernist architecture is a recurring motif among critics of the Bauhaus at the time).
+
+The desire to contrast modernist buildings with what was seen as proper, "volkisch" architecture might also explain why the Bauhaus building itself was surrounded by a grouping of pitched-roof, traditionally-built apartment buildings during this time.
 
 ## Alterations in the GDR
 
-Rebuilding after bombing in the second world war, people used as much orginal material as possible due to shortage.
+Immediately after the war, a number of buildings in Torten had to be rebuilt - Dessau, being the site of a Junkers factory had become a bombing target. Since little building material was available, many original components were re-used.
 
-One of the more memorable images from this time shows a row of houses, each with a tall anteanna used to illegally receive West German TV. This is in a way a reversal of the earlier power structure: Rather than implementing a set of political ideals from the top down through architecture (as Gropius had done), individuals are making an architectural change to get around politically motivated restrictions. 
+As the economic situation stabilised, people's focus tunrned toward expanding their living space. Houses were expanded into the garden, and in many cases the roof terrace in the back was enclosed to create an additional room. Most of the original dry toilets were replaced with regular flush toilets. Contemporary photographs also suggest that the orignal above-ground electricity lines were moved underground during this period, removing another part of the industrial aesthetic. 
 
-More people got cars, so they put up garages and carports in the back gardens - at the same time self-sufficiency became less of a thing. The gravel path between the gardens becomes a secondary road.
+One of the more memorable images from this time (fig ?) shows a row of houses, each with a tall anteanna used to illegally receive West-German TV. This is in a way a reversal of the earlier power structure: Rather than implementing a set of political ideals from the top down through architecture (as Gropius had done), individuals are making an architectural change to get around politically motivated restrictions. 
+
+During this period the use of the gardens also changed substantially. As the need for individual food production became less pronounced, the gardens take up the role of a leisure space. Car-ownership also becomes more common. Since the original streets are to narrow to provide the needed parking space, this moves into the garden. Many home owners build garages and carports, sometimes following, sometimes veering away from the visual language of the main building. the gravel path seperating the gardens becomes a secondary road. 
+
+None of these changes were done according to a central programme, but rather following the individual needs and financial possibilities of home owners. 
 
 
 ## Alterations after 1989
 
-The most significant changes to Torten come after the Berlin wall. This can be attributed to increased economic prosperity and 
+Another significant set of changes to Torten come after the Berlin wall, largely due to the emergence of DIY-retail. With an abundance of facade materials, garden decorations, windows, doors and roofing materials suddenly available, home-owners made a series of individual changes that define the settlement today. 
 
-Recognition of architectural heritage, some of the buildings have been aquired by the local government and returned to their original state. legislation has been put in place to prevent major structural changes, although as Schwarting points out this has its own set of problems - some of the regulations prescribe things that are inconsistent with the original drawings. Maybe bring up tehe issue of colour here - we only have black and white photographs of the buildings giving the impression that they were all pristine white, when in reality they maybe had quite subtle colour choices.
+Recognition of architectural heritage, some of the buildings have been aquired by the local government and returned to their original state. There was some legislation put in place in the late 1990s to prevent major structural changes, although as Schwarting points out this has its own set of problems - some of the regulations prescribe things that are inconsistent with the original drawings. Maybe bring up tehe issue of colour here - we only have black and white photographs of the buildings giving the impression that they were all pristine white, when in reality they maybe had quite subtle colour choices.
 
 Today, Torten is fully enveloped by industrial and residential areas built at various times. 
 

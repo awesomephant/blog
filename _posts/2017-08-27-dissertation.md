@@ -122,7 +122,7 @@ Simpson describes the "Huis Ten Bosh" settlement in Nagasaki, Japan, which is a 
 
 The resemblance between this and Gropius' ideas is striking: Take away the pitched roofs and you have a modernist housing development. The fact that not only architecture and transportation, but also cultural events and in some ways the social fabric of the settlement (there are strict rules governing who is eligible to purchase a house) are part of a "Gesamtkunstwerk" goes far beyond what Gropius was able to do. We find the notion of using architectural intervention to design social interaction on a much smaller scale in Hannes Meyer's work: His ADGB Trade Union School near Berlin (1928-1930) is designed to break students into groups of four - this was thought to be the ideal number to accomodate learning. 
 
-people living in a collective way, in pre-frabricated houses (ie. RVs, also there has to be  a russian constructivist flying house version of RVs, also the theme parks are a bit like a housing estate, you even buy into a certain social programme and dress code when you live in one of those places - compare hannes Meyer's trade union school where he used sociology to determin people should live in groups of certain sizes and built the whole environment based on that)
+people living in a collective way, in pre-frabricated houses (ie. RVs, also there has to be  a russian constructivist flying house version of RVs, also the theme parks are a bit like a housing estate, you even buy into a certain social programme and dress code when you live in one of those places.
 
 ## References
 

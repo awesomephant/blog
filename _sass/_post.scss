@@ -58,6 +58,13 @@
 	font-size: 18px;
 	line-height: 1.54;
 
+	strong {
+		font-weight: bold;
+	}
+	em {
+		font-style: italic;
+	}
+
 	p, ul, ol {
 		color: $black;
 		margin-bottom: 1rem;

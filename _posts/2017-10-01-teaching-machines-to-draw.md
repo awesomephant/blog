@@ -138,13 +138,16 @@ I have full range of motion on the X-Axis, which is about 90cm. Because the slid
 
 Killed my laptop.
 
-I made the mistake of messing with the wiring while the machine was running. My best guess is that I made a short, which sent 12V from the motor circuit into the Arduino and my laptop's USB port. The laptop went dark immediately and wouldn't turn on anymore, needed professional repair: Wrong assumptions:
+I made the mistake of messing with the wiring while the machine was running. I hadn't soldered pins onto the ``MS1``
+and ``MS2`` switches on [October 3](#october-3-2017), so I just stuck jumper wires through the holes into the breadboard. One of these came loose, and when I tried to put it back, my laptop went black.
+
+My best guess is that I somehow made a short, which sent 12V from the motor circuit into the Arduino and my laptop's USB port. The laptop went dark immediately and wouldn't turn on anymore, needed professional repair: Wrong assumptions:
 
 1. The Arduino is idiot-proof. It's clearly not.
 2. 12V isn't enough to do any harm. It clearly is.
 3. Laptops have fuses in the usb ports. Maybe? My machine didn't need a board replacement, which indicates the 12V did get stopped somewhere.  
 
-I've bought something called a [USB Isolator](https://www.amazon.co.uk/gp/product/B00HFUDI66/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) which is designed to prevent this exact thing from happening. It goes up to 30.000V - should do. Also not going to touch any wires while there's voltage on them again.
+I've bought something called a [USB Isolator](https://www.amazon.co.uk/gp/product/B00HFUDI66/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) which is designed to prevent this exact thing from happening. It goes up to 30.000V - should do. Also not going to touch any wires while there's voltage on them again. I also put pins on the ``MS1`` and 2 switches, so no more loose wires.
 
 ## November 13, 2017
 

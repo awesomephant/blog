@@ -136,6 +136,7 @@ Dessau torten isn't a clear cut case, they had to make compromises on materials,
 - Schwarting, A. (2009). *"A new and Better World" The Dessau-Torten housing Estate and the Rationalisation of Residental Development*. In: M. Siebenbrodt, J. Wall and K. Weber, ed., Bauhaus: A Conceptual Model. Ostfildern: Hatje Cantz.
 - Schwarting, A. (2011). *Das Verschwinden der Revolution in der Renovierung*. Berlin: Gebr.Mann Verlag.
 - Schwarting, A. (2012). *Die Siedlung Dessau-Törten*, 1926 bis 1931. Leipzig: Stiftung Bauhaus Dessau.
+- Simpson, D. (2015). *The Young-Old: Urban Utopias of an Ageing Society*. Zurich: Lars Muller Publishers
 - Standard-Mobel Berlin (1927). *Cover, B 3 Club Chair, from "Breuer Metal Furniture"*. [image] Available at: https://www.harvardartmuseums.org/collections/object/53955?position=10 [Accessed 16 Nov. 2017].
 - Teige, K. and Dluhosch, E. (2002). *The Minimum Dwelling*. Cambridge: The MIT Press.
 - Wilder, C. (2016). On the Bauhaus Trail in Germany. The New York Times, [online] p.TR1. Available at: https://www.nytimes.com/2016/08/14/travel/bauhaus-germany-art-design.html [Accessed 16 Nov. 2017].

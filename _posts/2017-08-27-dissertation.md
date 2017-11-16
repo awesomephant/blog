@@ -10,7 +10,7 @@ intro: "The Bauhaus today is remembered mostly for its physical artifacts: Steel
 
 Having found themselves in a country still recovering from the first world war, with new technology changing every aspect of life, they took it upon them to design the new world, one teapot at a time. What emerged was a vision for society in which citizens, architecture, product design, agriculture, entertainment, science and art would exist together in one unified, "rational" programme: Modernism. To the young people at the Bauhaus, overlooking Dessau from their glass-wrapped studios this idea must have felt utterly within reach: In a country struggling to recover from the first World War, with violent revolutions going on in Europe and new technology changing every aspect of life, change seemed inevitable. (Moller, 2015)
 
-How exactly that change should look like, the Bauhausler never quite agreed on. The early Bauhaus was driven by the search for individual expression. Johannes Itten, with his head shaved and wearing a robe of his own design taught the now-famous Vorkurs: Here, students developed their personal means of expression through meditation, philosophy and basic exercises. The Sommerfeld House in Berlin with its excentric, hand-crafted decoration is an often-cited example for the expresionism of the early Bauhaus (Bauhaus100.de, 2017). 
+How exactly that change should look like, the Bauhausler never quite agreed on. The early Bauhaus was driven by the search for individual expression. Johannes Itten, with his head shaved and wearing a robe of his own design taught the now-famous Vorkurs: Here, students developed their personal means of expression through meditation, philosophy and basic exercises. The Sommerfeld House in Berlin with its excentric, hand-crafted decoration is an often-cited example for the expresionism of the early Bauhaus (Bauhaus100.de, 2017).
 
 The Bauhaus started to move toward a more collective outlook in 1922, when Theo van Doesburg, a proponent of De Stijl began teaching at the Bauhaus. He introduced the reduction to geometric shapes and primary colours that would come to define the "Bauhaus Style". The following year Hungarian artist Laszlo Moholy-Nagy took over teaching of the preliminary course. He replaced much of Itten's individualistic curriculum with exercises using industrial material. In the following years, objectivity and scientific rigor remained the governing thought at the Bauhaus. It was during this later period that Marcel Breuer produced furniture out of precision steel tube (then a cutting-edge material), Marianne Brandt designed household items for mass-production and Gropius himself completed some of the most iconic examples of modernist architecture (Droste, 1998).
 
@@ -48,6 +48,9 @@ This was reinforced from 1928, when Swiss architect Hannes Meyer took over the p
 
 ## The Dessau-Torten Estate
 
+![Dessau Torten Aereal Photograph](/assets/unit-9/torten-aereal.jpg)
+**Figure 1:** Aereal photograph of the Dessau Torten settlement today
+
 The example I will be primarily discussing here is the housing estate Dessau-Torten. Designed by Walter Gropius and members of the Bauhaus, it consits of 314 single-family, two-story houses across roughly six square miles. The initial construction was completed in three phases from 1926 to 1928, with later expansions added by Hannes Meyer and Richard Paulick. (Schwarting, 2012)
 
 The Dessau Torten settlement takes a unique position in the physical legacy of the Bauhaus.   
@@ -62,7 +65,13 @@ Torten received heritage protection in 1994, which limits the extent of structur
 
 While the Dessau government was looking for a pragmatic solution to a housing shortage, Gropius saw an opportunity to test ideas on archiectural language, construction technology and organisation on a large scale. The experimental natue of Torten was reinforced in 1928 when Gropius received federal grants to carry out tests regarding different contruction methods and materials. Torten was as much a pragmatic response to a housing shortage as it was a test-environment for Bauhaus ideas - this contradiction became apparent almost immediately after initial construction.
 
+![Dessau Torten Construction](/assets/unit-9/torten-construction-1.jpg)
+**Figure 2:** Contemporary photograph showing a row of houses in Dessau Torten under construction.
+
 In this context it is also worth pointing out the contradiction between Gropius' distinctly modernist visual language (flat roofs, exposed construction, steel window frames) and the overall conception of the estate, which follows the concept of the garden city. The notion of the garden city was first proposed by Ebeneezer Howard in 1889, and runs somewhat contrary to the idea of the minimum dwelling as referenced by Gropius. Rather than "rationalising" food production in "kitchen factories that could feed 10.000" (Teige, 2012 p?), the garden city is based on the idea of individual self-sufficiency for each family. In Torten this takes the form of a 400 square metre garden attached to each dwelling. In addition, Gropius opted for specialised dry toilets (even though Torten was attached to the sewer network) to generate garden fertilizer.
+
+![Dessau Torten Gardens](/assets/unit-9/torten-1920-2.jpg)
+**Figure 3:** Contemporary photograph showing the garden side of row houses in Dessau Torten.
 
 Another idea Gropius adopted from garden is that of mirrored floor plans. By positioning doors and windows at oppsing edges of the facade, Gropius is able to effectively blur the line between units. Rather than a row of identical houses, this creates the effect of a continuous band - Le Corbusier's "Machine for Living" stretched out like a conveyor belt.
 
@@ -123,6 +132,10 @@ The resemblance between this and Gropius' ideas is striking: Take away the pitch
 Dessau torten isn't a clear cut case, they had to make compromises on materials, steel windows weren't as good as they are today, the concrete they made on site wasn't gerat etc. but it was all going in the correct direction. Stress the organisational aspect, also the fact it was governement funded is maybe a new thing? Basically the idea that modernism has survived in the sense that the torten buildings are flexible enough to be changed. maybe the futurist idea that part of their movement was the idea that the movement would eventually die. Socialism hasn't happened obviously, but this wasn't always the intention of the bauhaus, moholy nagy was more in favour of working with industry. notion of using rationale, science to make architecture cheaper has survived, although the idea of big social housing developments isn't as popular anymore (maybe show chemistry worker's city by former bauhausler, la housing blocks as examples)
 
 ## List of Figures
+
+- **Figure 1:** Aereal photograph of the Dessau Torten settlement today. Unknown photographer, available at: [http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html](http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html)
+- **Figure 2:** Housing development Dessau Torten, 1926-1928: Row houses under construction. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/53030?position=91](http://www.harvardmuseums.org/collection/object/169050?position=24)
+- **Figure 3:** Housing development Dessau Torten, 1926-1928: Rooftop view of the garden side of row houses. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/169050?position=24](http://www.harvardmuseums.org/collection/object/169050?position=24)
 
 ## References
 

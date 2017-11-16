@@ -131,7 +131,7 @@ Dessau torten isn't a clear cut case, they had to make compromises on materials,
 - Edwards, G. (1985). *GDR society and social institutions*. London: Macmillan.
 - Engels, H. (2001). *Bauhaus-Architektur*. München: Prestel.
 - Gropius, W. (1930). *Bauhausbauten Dessau*. München: A. Langen.
-- Knoll.com. (2017). *Wassily Chair | Knoll*. [online] Available at: https://www.knoll.com/product/wassily-chair [Accessed 16 Nov. 2017].
+- Knoll.com. (2017). *Wassily Chair: Knoll*. [online] Available at: https://www.knoll.com/product/wassily-chair [Accessed 16 Nov. 2017].
 - Meyer, H., Kieren, M. and Lichtenstein, C. (1990). *Hannes Meyer, Architekt, 1889-1954 : Schriften der zwanziger Jahre im Reprint*. Ch-Baden [Switzerland]: Lars Müller.
 - Schwarting, A. (2009). *"A new and Better World" The Dessau-Torten housing Estate and the Rationalisation of Residental Development*. In: M. Siebenbrodt, J. Wall and K. Weber, ed., Bauhaus: A Conceptual Model. Ostfildern: Hatje Cantz.
 - Schwarting, A. (2011). *Das Verschwinden der Revolution in der Renovierung*. Berlin: Gebr.Mann Verlag.

@@ -144,7 +144,7 @@ I made the mistake of messing with the wiring while the machine was running. My 
 2. 12V isn't enough to do any harm. It clearly is.
 3. Laptops have fuses in the usb ports. Maybe? My machine didn't need a board replacement, which indicates the 12V did get stopped somewhere.  
 
-I've bought something called a [USB Isolator](https://www.amazon.co.uk/gp/product/B00HFUDI66/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) which is designed to prevent this exact thing from happening. It goes up to 30.000V - should do. 
+I've bought something called a [USB Isolator](https://www.amazon.co.uk/gp/product/B00HFUDI66/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) which is designed to prevent this exact thing from happening. It goes up to 30.000V - should do. Also not going to touch any wires while there's voltage on them again.
 
 ## November 13, 2017
 

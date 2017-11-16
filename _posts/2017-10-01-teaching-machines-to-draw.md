@@ -111,3 +111,41 @@ However apparently you get less torque the bigger the steps are? The lowest that
 I've also laid out the x-axis platform, which needs to fit a stepper, the belt attachment, two shaft supports and its own belt support. I'm running the belt in between the two bearings so it shouldn't get stuck. I've realised the pen should probably go between the bearings as well to reduce leverage that could twist the platform.
 
 Ordered some wire to connect the second stepper once it arrives.
+
+## November 9, 2017
+
+I wrote the most basic script to run the machine I could think of. Here's some pseudo code:
+
+```
+while i < 1000
+    Set stepper one to direction 0 or 1
+    Set stepper two to direction 0 or 1
+    Do 500 steps on each stepper
+    i++
+```
+
+This draws a sort of diagonal grid - the very first work to come out of the drawing machine! Mostly this is a way to have the machine moving continuously so I can tinker with things. 
+
+The whole thing is quite wobbly, however some of this might be remedied when I find a beter way than masking tape to attach the pen to the drawing platform. Bringing the pen as close to the slide as possible should help: reduces the amount of leverage.
+
+Tracey makes the point that the wobbly-ness might be part of the work: My individual handwriting is showing through me not being able to drill a hole in th right place. Though I'm hoping to get things at least a little more steady.
+
+On the Y-axis I'm clearly running at the upper limit of torque that the stepper can put out. When there is two much resistance it gets stuck and makes an awful noise. The range of motion is limited by the belt going into a skewed angle, but it's still over a metre.
+
+I have full range of motion on the X-Axis, which is about 90cm. Because the slide is much lighter and shorter (hence less tension on the belt) there aren't any torque issues. 
+
+## November 10, 2017
+
+Killed my laptop.
+
+I made the mistake of messing with the wiring while the machine was running. My best guess is that I made a short, which sent 12V from the motor circuit into the Arduino and my laptop's USB port. The laptop went dark immediately and wouldn't turn on anymore, needed professional repair: Wrong assumptions:
+
+1. The Arduino is idiot-proof. It's clearly not.
+2. 12V isn't enough to do any harm. It clearly is.
+3. Laptops have fuses in the usb ports. Maybe? My machine didn't need a board replacement, which indicates the 12V did get stopped somewhere.  
+
+I've bought something called a [USB Isolator](https://www.amazon.co.uk/gp/product/B00HFUDI66/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) which is designed to prevent this exact thing from happening. It goes up to 30.000V - should do. 
+
+## November 13, 2017
+
+Tutorial w/ Tracey

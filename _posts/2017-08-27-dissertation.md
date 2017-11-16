@@ -65,6 +65,9 @@ Torten received heritage protection in 1994, which limits the extent of structur
 
 While the Dessau government was looking for a pragmatic solution to a housing shortage, Gropius saw an opportunity to test ideas on archiectural language, construction technology and organisation on a large scale. The experimental natue of Torten was reinforced in 1928 when Gropius received federal grants to carry out tests regarding different contruction methods and materials. Torten was as much a pragmatic response to a housing shortage as it was a test-environment for Bauhaus ideas - this contradiction became apparent almost immediately after initial construction.
 
+![Dessau Waterfall](/assets/unit-9/torten-waterfall.jpg)
+**Figure 1.5:** Waterfall chart showing the order of contstruction phases in Dessau Torten
+
 ![Dessau Torten Construction](/assets/unit-9/torten-construction-1.jpg)
 **Figure 2:** Contemporary photograph showing a row of houses in Dessau Torten under construction.
 
@@ -136,6 +139,7 @@ Dessau torten isn't a clear cut case, they had to make compromises on materials,
 ## List of Figures
 
 - **Figure 1:** Aereal photograph of the Dessau Torten settlement today. Unknown photographer, available at: [http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html](http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html)
+- **Figure 1.5:** Waterfall chart showing the order of construction phases in Dessau Torten, c. 1928. Unknown artsit, Walter Gropius. Available at [https://www.harvardartmuseums.org/collections/object/30157?position=128](https://www.harvardartmuseums.org/collections/object/30157?position=128)
 - **Figure 2:** Housing development Dessau Torten, 1926-1928: Row houses under construction. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/53030?position=91](http://www.harvardmuseums.org/collection/object/169050?position=24)
 - **Figure 3:** Housing development Dessau Torten, 1926-1928: Rooftop view of the garden side of row houses. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/169050?position=24](http://www.harvardmuseums.org/collection/object/169050?position=24)
 

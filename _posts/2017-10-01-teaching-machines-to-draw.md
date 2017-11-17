@@ -152,3 +152,11 @@ I've bought something called a [USB Isolator](https://www.amazon.co.uk/gp/produc
 ## November 13, 2017
 
 Tutorial w/ Tracey
+
+## November 15, 2017
+
+Did some drawings using my freshly fixed laptop (Now being extra careful and using the USB isolator). I figured out a way to reduce the vibration in the machine: Waiting about 100ms between each command. slow things down, but the results are much nicer. 
+
+<video loop controls autoplay src='/assets/unit-10/grid.mp4'></video>
+
+I wrote some code so the machine is now aware of where it is - I can move the pen to any point on the table. By setting the two steppers to different speeds this can happen in a straight line. So far I've been using straight Javascript to make drawings - simple loops, random numbers etc. The next step will be to run SVG files through the machine. I wrote a script that converts SVG to machine instructions, but it looks like it needs some work before it is usable.

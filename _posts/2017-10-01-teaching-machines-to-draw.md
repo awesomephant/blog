@@ -159,4 +159,8 @@ Did some drawings using my freshly fixed laptop (Now being extra careful and usi
 
 <video loop controls autoplay src='/assets/unit-10/grid.mp4'></video>
 
-I wrote some code so the machine is now aware of where it is - I can move the pen to any point on the table. By setting the two steppers to different speeds this can happen in a straight line. So far I've been using straight Javascript to make drawings - simple loops, random numbers etc. The next step will be to run SVG files through the machine. I wrote a script that converts SVG to machine instructions, but it looks like it needs some work before it is usable.
+I wrote some code so the machine is now aware of where it is, which allows me to [move the pen to any point on the table](https://github.com/awesomephant/robotics/blob/6c8d4f32b5beba0490965abf3c7468a130d1f617/stepper-test.js#L93). By setting the two steppers to different speeds I can draw a straight line between arbitrary points. So far I've been using straight Javascript to make drawings - simple loops, random numbers etc. The next step will be to run SVG files through the machine.
+
+I've [adapted a script I wrote earlier this year](https://github.com/awesomephant/robotics/blob/master/svgToInstructions.js) to convert SVG files to machine instructions, but it looks like it needs some more work before it is usable. For shapes with straight lines (```<polygon>```, ```<line>)```, ```<rectangle>``` etc.) it just extracts the points. Shapes with Bezier curves in them are converted into straight line segments - if the resolution on this is high enough, you shouldn't see the difference in the drawings.
+
+[This is my git repo for all of this.](https://github.com/awesomephant/robotics)

@@ -32,22 +32,30 @@ We might, for instance, look at Marcel Breyer's steel tube chairs: One fo the fi
 
 The B3 also illustrates an issue shared by many Bauhaus designs. While the work was underpinned by strong progressive ideas and intended to serve the working class, this rarely came to fruition. The B3 was picked up by a manufacturer (Standard Mobel, Berlin), but production still required a great deal of manual labour and the material, although "durable and easy to clean" remained expensive. This disparity between Breuer's rethoric and the physical result shows the two competing interests him and other Bauhausler were trying to reconcile: On one side, they were trying to design models that could be cheaply mass-produced and improve the lives of regular people. But they were also eager to use new materials and forms even if this made their designs more expensive to produce and less practical in the short-term. These were political gestures, suggestions of a potential future as well as "rational" responses to present-day problems.
 
-However of all the disciplines taught at the Bauhaus, one stands out above all the others: "The ultimate goal of all art" at the Bauhaus, as Gropius declares in the 1919 manifesto, is architecture. Over 50 building projects were completed by members of the Bauhaus between 1919 and 1930, and countless more after the school disbanded (Engels, 2001). This count includes buildings that were built by Gropius and others relatively independently from the Bauhaus, but some were the result of the type of cross-discipline collaboration that was at the core of the Bauhaus idea. These large-scale projects addressed real-world issues while at the same time serving as classroom experiments at the Bauhaus.
+However of all the disciplines taught at the Bauhaus, one stands out above all the others: "The ultimate goal of all art" at the Bauhaus, as Gropius declares in the 1919 manifesto, is architecture. Over 50 building projects were completed by members of the Bauhaus between 1919 and 1930, and countless more after the school disbanded (Engels, 2001). This count includes buildings that were built by Gropius and others relatively independently from the Bauhaus, but some were the result of the type of cross-discipline collaboration that was at the core of the Bauhaus idea. These large-scale projects addressed real-world issues while at the same time serving as cross-discipline classroom experiments at the Bauhaus.
+
+## Architecture at the Bauhaus
+Architecture was at the centre of Bauhaus thinking from the very beginning. In the manifesto, Gropius lays out his hope for the "new building", which would unite all artistic disciplines:
+
+> So let us therefore create a new guild of craftsmen, free of the divisive class pretensions that endeavoured to raise a prideful barrier between craftsmen and artists! Let us strive for, conceive and create the new building of the future that will unite every discipline, architecture and sculpture and painting, and which will one day rise heavenwards from the million hands of craftsmen as a clear symbol of a new belief to come.' (Gropius, 1919)
+
+It is worth pointing out how Gropius is invoking medieaval imagery to talk about the future. The concept of craft guilds, which Gropius refers to in the opening sentence dates back to the 13th century. Further, the "building [...] that will unite every discipline [...] and which will rise heavenwards" is a clear reference to the medieaval cathedral. This is further emphasised by Lionel Feininger's "Cathedral" Woodcut used to illustrate the text (Burshart, 2009).  This turning back to medieaval concepts continues in the way teaching was organised at the Bauhaus: Rather than professors and students, Bauhausler were referred to as "masters" and "apprentices", with teaching taking palce primarily in the workshops. This positions Gropius' ideas, and indeed some of the early products of the Bauhaus (such as the Sommerfeld House) surprisingly close to those of the Arts and Crafts movement. 
+
+Despite his strong emphasis on building, it took Gropius three years to establish a formal architecture department. Up to that point he had arranged for students to take classes at a traditional technical school in Weimar (Droste, 1999). 
+
+![Large Scale Building Blocks](/assets/unit-9/baukasten-im-grossen.jpg)
+**Figure 0.1:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius.
+
+This was reinforced from 1928, when Swiss architect Hannes Meyer took over the post of director from Walter Gropius. While Gropius argued that the artist should be part of the building process along with other experts, Meyer demands rigorous functionalism. In a 1926 article he declares: 
+
+> Building is a biological process. Building is not an aesthetic process. Reduced to its elements, the new dwelling will be not just a machine for living, but a biological device to fulfill psychological and physical needs (Meyer 1926, Page 4)
+
+In the same publication he lists the "schedules of people inside and outside the house, physical aspects of the building site, sunlight, acoustics and psychology" as datapoints that sohuld be used to inform architectural decisions. His architectural drawings are filled with tables and graphs describing the results of soil analysis, sunlight calculations and weather observations at the building site. Under the brief tenure of Mies van der Rohe from 1930 to 1933 the understanding of architecture at the Bauhaus shifted away from the strict functionalism of Hannes Meyer toward a more aesthetically-driven exploration of space.
 
 A few of these buildings have become instantly recognisable: The Sommerfeld House (1920, destroyed 1945), the Haus am Horn (1923) and The Bauhaus Building and Master's houses in Dessau (1925-26). However, it is the more obscure examples of Bauhaus architecture 
 
 However, many more have escaped public attention for most of their existence. They were never regarded as architectural monuments, but used by the public like any other building - Many of them didn't receive heritage protection until very recently. As such they were altered, extended, worn down and painted over with little hesitation. We could lament this loss of architectural history (and people do), but in our search for evidence as to the success (or failure) of modernism, we couldn't get luckier. Here we have the physical manifestations of 1920s modernist ideals, tested mercilessly by regular people through decades of war, reconstruction and changing political regimes up to the present day. 
 
-## Architecture at the Bauhaus
-
-As mentioned above, architecture plays a central role in the 1919 Bauhaus manifesto. In it, Gropius calls for a "new unity of art and craft", the "ultimate goal" of which would be architecture. Despite the fact architecture formed the centre of Bauhaus ideas, it took Gropius three years (?) to establish a formal architecture department. Up to that point he had arranged for students to take classes at a traditional technical school in Weimar. 
-
-The way architecture was taught at the Bauhaus changed significantly during its existence, reflecting shifts in thinking within the Bauhaus and the cultural landscape of Weimar.
-
-This was reinforced from 1928, when Swiss architect Hannes Meyer took over the post of director from Walter Gropius. Meyer described archietcture not as an artistic problem, but one "of organisation", which he was determined to solve with mathematical accuracy. (Meyer, 1920) His architectural drawings are filled with tables and graphs describing the results of soil analysis, sunlight calculations and weather observations at the building site. Under the brief tenure of Mies van der Rohe from 1930 to 1933 the understanding of architecture at the Bauhaus shifted away from the strict functionalism of Hannes Meyer toward a more aesthetically-driven exploration of space. 
-
-![Large Scale Building Blocks](/assets/unit-9/baukasten-im-grossen.jpg)
-**Figure 0.1:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius.
 
 ## The Dessau-Torten Estate
 
@@ -125,6 +133,8 @@ There was some legislation put in place in the late 1990s to prevent major struc
 
 Today, Torten is fully enveloped by industrial and residential areas built at various times - against the backdrop of blocks of high-rise social housing estates in the surrounding area, it seems almost romantic. 
 
+## Is Dessau Torten a succesful experiment?
+
 ## Collectivist housing models today
 
 Inequality, housing shortages today, people aren't as afraid of socialism anymore. Society has progressed from a Fordian industrial workforce to a service economy - production and transportation is more and more automated, posing the question wether the way we live needs to change in a major way again.
@@ -148,6 +158,10 @@ Dessau torten isn't a clear cut case, they had to make compromises on materials,
 - **Figure 3:** Housing development Dessau Torten, 1926-1928: Rooftop view of the garden side of row houses. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/169050?position=24](http://www.harvardmuseums.org/collection/object/169050?position=24)
 
 ## References
+
+### Visits
+- Bauhaus Dessau. November 4, 2017
+- Housing Settlement Dessau Torten. November 4-5, 2017.
 
 - Bauhaus100.de. (2017). *Sommerfeld House, Berlin*. [online] Available at: https://www.bauhaus100.de/en/past/works/architecture/haus-sommerfeld/ [Accessed 16 Nov. 2017].
 - Droste, M. (2015). *Bauhaus*. Köln: Taschen.

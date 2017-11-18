@@ -46,6 +46,9 @@ The way architecture was taught at the Bauhaus changed significantly during its 
 
 This was reinforced from 1928, when Swiss architect Hannes Meyer took over the post of director from Walter Gropius. Meyer described archietcture not as an artistic problem, but one "of organisation", which he was determined to solve with mathematical accuracy. (Meyer, 1920) His architectural drawings are filled with tables and graphs describing the results of soil analysis, sunlight calculations and weather observations at the building site. Under the brief tenure of Mies van der Rohe from 1930 to 1933 the understanding of architecture at the Bauhaus shifted away from the strict functionalism of Hannes Meyer toward a more aesthetically-driven exploration of space. 
 
+![Large Scale Building Blocks](/assets/unit-9/baukasten-im-grossen.jpg)
+**Figure 0.1:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius.
+
 ## The Dessau-Torten Estate
 
 ![Dessau Torten Aereal Photograph](/assets/unit-9/torten-aereal.jpg)
@@ -140,6 +143,7 @@ Dessau torten isn't a clear cut case, they had to make compromises on materials,
 
 - **Figure 1:** Aereal photograph of the Dessau Torten settlement today. Unknown photographer, available at: [http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html](http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html)
 - **Figure 1.5:** Waterfall chart showing the order of construction phases in Dessau Torten, c. 1928. Unknown artsit, Walter Gropius. Available at [https://www.harvardartmuseums.org/collections/object/30157?position=128](https://www.harvardartmuseums.org/collections/object/30157?position=128)
+- **Figure 1.6:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius. Available at [https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg](https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg)
 - **Figure 2:** Housing development Dessau Torten, 1926-1928: Row houses under construction. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/53030?position=91](http://www.harvardmuseums.org/collection/object/169050?position=24)
 - **Figure 3:** Housing development Dessau Torten, 1926-1928: Rooftop view of the garden side of row houses. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/169050?position=24](http://www.harvardmuseums.org/collection/object/169050?position=24)
 

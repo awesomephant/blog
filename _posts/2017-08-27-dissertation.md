@@ -125,6 +125,9 @@ During this period the use of the gardens also changed substantially. As the nee
 
 Another significant set of changes to Torten come after the Berlin wall, largely due to the emergence of DIY-retail. With an abundance of facade materials, garden decorations, windows, doors and roofing materials suddenly available, home-owners made a series of individual changes that define the settlement today. 
 
+![Dessau Torten Doors](/assets/unit-9/dessau-doors-web.jpg)
+**Figure 4:** Photographs showing the variety of front doors in Dessau Torten. The top left photograph shows the door of Doppelreihe 35, which is the only original 1920s door remaining in the settlement. 
+
 Figures ? through ? show a wide variety of doors, windows, fittings, landscaping features and seasonal decorations. Surprisingly, elements of the original buildings such as house numbers and door handles still appear throughout the settlement, however not always in their original location - Figure ? shows original house numbers attached to a garage door along the secondary road.
 
 With the increasing public recognition of the Bauhaus and its architectural output in the 1980s, education has become a permanent part of the Torten settlement. Hannes Meyer's Konsum building houses a museum telling the story of the settlement, and signs throughout the settlement point out various points of interest. Individual units have been purchased by the local government and restored to their original state. This is a costly process however, as building components that were mass-produced in the 1920s (such as single-glass steel windows) now have to be custom-manufactured.  
@@ -156,6 +159,7 @@ Dessau torten isn't a clear cut case, they had to make compromises on materials,
 - **Figure 1.6:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius. Available at [https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg](https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg)
 - **Figure 2:** Housing development Dessau Torten, 1926-1928: Row houses under construction. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/53030?position=91](http://www.harvardmuseums.org/collection/object/169050?position=24)
 - **Figure 3:** Housing development Dessau Torten, 1926-1928: Rooftop view of the garden side of row houses. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/169050?position=24](http://www.harvardmuseums.org/collection/object/169050?position=24)
+- **Figure 4:** The author, 2017. Photographs showing the variety of front doors in Dessau-Torten [Digital Photographs].
 
 ## References
 

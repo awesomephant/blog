@@ -45,12 +45,14 @@ Christina Lodder describes these early Bauhaus ideas as part of a larger movemen
 
 ### Rational Utopia
 
-The transition to a more rational, technology-focussed outlook at the Bauhaus came after the end of the first world war with the arrivals of Theo van Doesburg and Lazlo Moholy-Nagy in Weimar. This new direction was defined by the notion that scientific progress, industrial production and rational decision-making could be employed to solve the "materialism, repressive political structures and glaring social inequalities" of the present (Lodder, Page 33). From the prespective of modernists, social degradation, disease, alcoholism and inequality issues were directly linked to the "overcrowded cities", "old and rotten buildings and poor sanitary conditions" that industralisation had left behind. 
+The transition to a more rational, technology-focussed outlook at the Bauhaus came after the end of the first world war with the arrivals of Theo van Doesburg and Lazlo Moholy-Nagy in Weimar. This new direction was defined by the notion that scientific progress, industrial production and rational decision-making could be employed to solve the "materialism, repressive political structures and glaring social inequalities" of the present (Lodder, Page 33). From the prespective of modernists crime, disease, alcoholism and scoial inequality were directly linked to the "overcrowded cities", "old and rotten buildings and poor sanitary conditions" (Le Corbusier, 1923) that industralisation had left behind. 
 Adolf Loos first talks about this idea in 1910: 
 
 > [...] Ornament is not only produced by criminals; it itself commits a crime, by damaging men's health, the national economy and cultural development. [...] Even greater is the damage ornament inflicts on the workers. As ornament is no longer a natural product of our civilization, it accordingly represents backwardness or degeneration, and the labour of the man who makes it is not adequately remunerated.  (Loos, 1910)
 
 A 1930 film titled "Das Neue Wohnen" [The new Living] illustrates this idea in striking images (Figure 0.1). Dark shots of derelict workers' homes are interspersed with scenes of domestic violence and disease. This is then set in contrast to the mdoernist vision of the future: Brightly lit shots of clean interiors with mass-produced, ornament-free furniture. The film ends with a title card announcing: "A better future will hold affordable and humane housing FOR EVERYONE" - emphasizing the aspiration for social equality that imbues modernist thinking.
+
+The change in lighting from dark to bright in The New Living is no accident: The idea that sunlight and air would benefit people's health and even cure a wide range of diseases was widespread in the 1920s, as was the notion that personal hygiene and cleansiness would lead to a better society (Wilk, 2006). We see these ideas represented throughout modernist architecture, including Gropius. 
 
 Gropius lays out his own version of these ideas in his 1925 book "Ein Versuchshaus des Bauhauses in Weimar" [A trial building by the Bauhaus in Weimar]. The title refers to the Haus am Horn in Weimar, which was built for the Bauhaus exhibition in 1923. In the introduction Gropius argues that the new age "makes it necessary to finally realise the old idea of building typical dwellinggs cheaper, better and in larger numbers to give every family access to healthy living conditions" (page 5). The way to achieve this, according to Gropius is to understand the housing problem "in its entire sociological, economical, technical and formal context". (page 5). Gropius also has some specific ideas on how these issues might be addressed. 
 
@@ -206,7 +208,8 @@ Dessau torten isn't a clear cut case, they had to make compromises on materials,
 - Standard-Mobel Berlin (1927). *Cover, B 3 Club Chair, from "Breuer Metal Furniture"*. [image] Available at: https://www.harvardartmuseums.org/collections/object/53955?position=10 [Accessed 16 Nov. 2017].
 - Teige, K. and Dluhosch, E. (2002). *The Minimum Dwelling*. Cambridge: The MIT Press.
 - Wilder, C. (2016). On the Bauhaus Trail in Germany. The New York Times, [online] p.TR1. Available at: https://www.nytimes.com/2016/08/14/travel/bauhaus-germany-art-design.html [Accessed 16 Nov. 2017].
-- Wilk, C. (2008). *Modernism 1914-1939*. London: V&A Publications.
+- Wilk, C. (2008). *The healthy body Culture* in "Modernism: Designing a New World". London: V&A Publications.
+- Lodder, C. (2008). *Searching for Utopia* in "Modernism: Designing a New World". London: V&A Publications
 - Wolfe, T. (1985). *From Bauhaus to our house*. New York: Picador.
 
 [Working Bibliography](https://docs.google.com/spreadsheets/d/e/2PACX-1vTq5ZS3tXh968wpGc0dGZl-6LfgrdHeuTvKjCh4i--em5lspsC-q3ICF7FrK3HlGEtE0Qih9OEtRkyX/pubhtml)

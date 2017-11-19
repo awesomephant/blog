@@ -115,6 +115,9 @@ I've also laid out the x-axis platform, which needs to fit a stepper, the belt a
 Ordered some wire to connect the second stepper once it arrives.
 
 ## November 9, 2017
+The stepper arrived, and it fits into the mount perfectly (thanks, [National Electrical Manufacturers Association](http://www.nema.org/Standards/About-Standards/pages/default.aspx)). Here's the full wiring setup with an Arduino, two EasyDrivers, and wires going off to the motors:
+
+![Wiring](/assets/unit-10/wiring.jpg)
 
 I wrote the most basic script to run the machine I could think of. Here's some pseudo code:
 

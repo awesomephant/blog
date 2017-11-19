@@ -83,7 +83,9 @@ I'm mounting the belt as close to the linear bearing as possible, so there's the
 
 I came up with this arrangement to attach the sliding platform to the timing belt:
 
-It consists of a [mending plate](https://www.screwfix.com/p/mending-plates-zinc-plated-76-x-16-x-10-pack/16034) which mounts with M4 screws. The belt is squeezed between it and the platform - originally I was going to use two plates below the platform, but this is simpler and has the added benefit of holding the belt up (which means it needs less tension). This way I don't need to worry about trying to join the two ends of the belt together. I can also adjust the tension when I need to.
+![Belt attachment](/assets/unit-10/belt-attachment.jpg)
+
+It's a [mending plate](https://www.screwfix.com/p/mending-plates-zinc-plated-76-x-16-x-10-pack/16034) mounted to the slide with two M4 screws. The belt is squeezed between it and the platform - originally I was going to use two plates below the platform, but this is simpler and has the added benefit of holding the belt up (which means it needs less tension). This way I don't need to worry about trying to join the two ends of the belt together. I can also adjust the tension when I need to.
 
 I repeated this on both sides, connected by the driveshaft. I then connected the stepper (happy to report the EasyDriver survived my soldering) and it works! 
 
@@ -163,6 +165,6 @@ I took some measurements to work out how far the  machine moves in a given numbe
 
 Based on this data I expanded the driver code, so the machine is now aware of where it is at all times. This allows me to [move the pen to any point on the table](https://github.com/awesomephant/robotics/blob/6c8d4f32b5beba0490965abf3c7468a130d1f617/stepper-test.js#L93). By setting the two steppers to different speeds I can draw a straight line between arbitrary points. So far I've been using straight Javascript to make drawings - simple loops, random numbers etc. The next step will be to run SVG files through the machine.
 
-I've [adapted a script I wrote earlier this year](https://github.com/awesomephant/robotics/blob/master/svgToInstructions.js) to convert SVG files to machine instructions, but it looks like it needs some more work before it is usable. For shapes with straight lines (```<polygon>```, ```<line>)```, ```<rectangle>``` etc.) it just extracts the points. Shapes with Bezier curves in them are converted into straight line segments - if the resolution on this is high enough, you shouldn't see the difference in the drawings.
+I've [adapted a script I wrote earlier this year](https://github.com/awesomephant/robotics/blob/master/svgToInstructions.js) to convert SVG files to machine instructions, but it looks like it needs some more work before it is usable. For shapes with straight lines (```<polygon>```, ```<line>)```, ```<rectangle>``` etc.) it just extracts the points. Shapes with Bezier curves in them are converted into straight line segments - if the resolution on this is high enough, it should look like a smooth curve in the drawings.
 
 [This is my git repo for all of this.](https://github.com/awesomephant/robotics)

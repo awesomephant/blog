@@ -48,10 +48,16 @@ Adolf Loos first talks about this idea in 1910:
 
 > [...] Ornament is not only produced by criminals; it itself commits a crime, by damaging men's health, the national economy and cultural development. [...] Even greater is the damage ornament inflicts on the workers. As ornament is no longer a natural product of our civilization, it accordingly represents backwardness or degeneration, and the labour of the man who makes it is not adequately remunerated.  (Loos, 1910)
 
-A 1930 film titled "Das Neue Wohnen" [The new Living] illustrates this idea in striking images (Figure 0.1). Dark shots of derelict workers' homes are interspersed with scenes of domestic violence and disease. This is then set in contrast to the mdoernist vision of the future: Brightly lit shots of clean interiors with mass-produced, ornament-free furniture. The film ends with a title card announcing: "A better future will hold affordable and humane housing FOR EVERYONE" - underlining the aspiration for social equality that imbues modernist thinking.
+A 1930 film titled "Das Neue Wohnen" [The new Living] illustrates this idea in striking images (Figure 0.1). Dark shots of derelict workers' homes are interspersed with scenes of domestic violence and disease. This is then set in contrast to the mdoernist vision of the future: Brightly lit shots of clean interiors with mass-produced, ornament-free furniture. The film ends with a title card announcing: "A better future will hold affordable and humane housing FOR EVERYONE" - emphasizing the aspiration for social equality that imbues modernist thinking.
+
+Gropius lays out his own version of these ideas in his 1925 book "Ein Versuchshaus des Bauhauses in Weimar" [A trial building by the Bauhaus in Weimar]. The title refers to the Haus am Horn in Weimar, which was built for the Bauhaus exhibition in 1923. In the introduction Gropius argues that the new age "makes it necessary to finally realise the old idea of building typical dwellinggs cheaper, better and in larger numbers to give every family access to healthy living conditions" (page 5). The way to achieve this, according to Gropius is to understand the housing problem "in its entire sociological, economical, technical and formal context". (page 5). Gropius also has some specific ideas on how these issues might be addressed. 
+
+He argues that because most people have the same basic needs, housing should be uniform and mass-produced in specialised factories. Rather than building houses individually at the building site, they should be dry-assembled from pre-manufactured components usign standardised blueprints. Gropius coins the term "large-scale building blocks" ["Baukasten im Grossen"] to describe this form of modular architecture. Figure 0.1 illustrates this idea: Individual components (labelled 1 though 6) are assembled into different "machines for living" according to the "number and needs of the inhabitants".
 
 ![Large Scale Building Blocks](/assets/unit-9/baukasten-im-grossen.jpg)
 **Figure 0.1:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius.
+
+
 
 This was reinforced from 1928, when Swiss architect Hannes Meyer took over the post of director from Walter Gropius. While Gropius argued that the artist should be part of the building process along with other experts, Meyer demands rigorous functionalism. In a 1926 article he declares: 
 

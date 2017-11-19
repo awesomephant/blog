@@ -62,15 +62,14 @@ However, many more have escaped public attention for most of their existence. Th
 ![Dessau Torten Aereal Photograph](/assets/unit-9/torten-aereal.jpg)
 **Figure 1:** Aereal photograph of the Dessau Torten settlement today
 
-The example I will be primarily discussing here is the housing estate Dessau-Torten. Designed by Walter Gropius and members of the Bauhaus, it consits of 314 single-family, two-story houses across roughly six square miles. The initial construction was completed in three phases from 1926 to 1928, with later expansions added by Hannes Meyer and Richard Paulick. (Schwarting, 2012)
+The example I will be primarily discussing here is the housing estate Dessau-Torten. Designed by Walter Gropius and members of the Bauhaus, it consits of 314 single-family, terraced houses across roughly six square miles. The initial construction was completed in three phases from 1926 to 1928, with later expansions added by Hannes Meyer and Richard Paulick. (Bauhaus Dessau, 2017)
 
 The Dessau Torten settlement takes a unique position in the physical legacy of the Bauhaus.   
 
-After a planned housing project in Weimar had failed to materialise (only one building, the Haus am Horn, was ever completed), Torten was the first opportunity for Gropius to put the ideas he had developed during the early 1920s to practice on a large scale. Indeed, the prospect of building Torten may have been a major motivation for Gropius to move the Bauhaus to Dessau in the first place. This move was part of a concerted effort by the social-democratic government of Dessau to address a housing shortage caused by a rapid growth in population following a period of industrial growth.
+After a planned housing project in Weimar had failed to materialise (only one building, the Haus am Horn, was ever completed), Torten was the first opportunity for Gropius to put the ideas he had developed during the early 1920s to practice on a large scale. In fact the prospect of building Torten was a major motivation for Gropius to move the Bauhaus to Dessau in the first place. The city of Dessau comissioned Torten to address a housing shortage caused by an influx of industrial workers that had 
 
-Torten was part of a national effort to provide affordable housing to lower-income families. Individual units in Torten were sold for between RM 9.500 and RM 10.100, or around RM30 per month - well within the reach of an average industrial worker (Gropius, 1930). The fact that units were sold off individually is ciritcal in our analysis of Torten over time. Individual ownership meant that units could be altered individually with few restrictions, making Torten an ideal case for analysis. 
+Torten was part of a national effort to provide affordable housing to lower-income families. Individual units in Torten were sold for between RM 9.500 and RM 10.100, or around RM 35 per month - well within the reach of an average industrial worker (Schwarting, 2011). The fact that units were sold off to individuals is critical: It gave home-owners the freedom to make changes to their houses with few restrictions. Over 80 years, these changes have accumulated into a rich layering of architectural details. Peeling back these layers allows us to see how Gropius' original vision was adopted over time. 
 
-Torten received heritage protection in 1994, which limits the extent of structural changes home-owners have been allowed to make since. A number of buildings have been bought by the local government and restored to their original state. (Schwarting, Matz 2012)
 
 ## Initial Construction
 
@@ -82,7 +81,9 @@ While the Dessau government was looking for a pragmatic solution to a housing sh
 ![Dessau Torten Construction](/assets/unit-9/torten-construction-1.jpg)
 **Figure 2:** Contemporary photograph showing a row of houses in Dessau Torten under construction.
 
-Figure 2 shows a section of houses in Dessau Torten under construction. It highlights the rationalised construction Gropius designed: Rather than building each house individually, a whole section of identical houses was built at once. This photograph is part of an extensive series of professionally-executed photographs documenting the construction process. The fact that such extensive documentation was done can be attributed in part to the experimental nature of Torten - Gropius' experiments had to be documented to be scientifically valid. However, this photograph is more than a neutral document: The two small figures in the background and the dramatic lighting conditions give a monumental scale to the scene. The row of houses continues beyond the right edge of the photograph, reinforcing the feeling of scale. If we assume Gropius saw and approved this photograph, it gives us a sense of the tremendous optimism this architecture embodies. 
+Figure 2 shows a section of houses in Dessau Torten under construction. It highlights the rationalised construction Gropius designed: Rather than building each house individually, a whole section of identical houses was built at once. This photograph is part of an extensive series of professionally-executed photographs documenting the construction process. The fact that such extensive documentation was done can be attributed in part to the experimental nature of Torten - Gropius' experiments had to be documented to be scientifically valid. However, this photograph is more than a neutral document: The two small figures in the background and the dramatic lighting conditions give a monumental scale to the scene. The row of houses continues beyond the right edge of the photograph, reinforcing the feeling of scale. All of this invokes the feeling of optimism and larger-than-life ambition that imbues Gropius' architecture. 
+
+This image is featured along others in Gropius' 1930 book "Bauhausbauten Dessau", which suggests that Gropius was not only aware of the image, but approved of its message. 
 
 In this context it is also worth pointing out the contradiction between Gropius' distinctly modernist visual language (flat roofs, exposed construction, steel window frames) and the overall conception of the estate, which follows the concept of the garden city. The notion of the garden city was first proposed by Ebeneezer Howard in 1889, and runs somewhat contrary to the idea of the minimum dwelling as referenced by Gropius. Rather than "rationalising" food production in "kitchen factories that could feed 10.000" (Teige, 2012 p?), the garden city is based on the idea of individual self-sufficiency for each family. In Torten this takes the form of a 400 square metre garden attached to each dwelling. In addition, Gropius opted for specialised dry toilets (even though Torten was attached to the sewer network) to generate garden fertilizer.
 
@@ -138,6 +139,8 @@ Today, Torten is fully enveloped by industrial and residential areas built at va
 
 ## Is Dessau Torten a succesful experiment?
 
+It's easy to point out flaws with Gropius' plan for Torten. In his writings he argues for an architecture that is focussed on the needs of the people. Yet in Torten he seems happy to compromise on those needs in order to try out new materials and construction methods - the amount of alterations that had to be done shortly after the initial construction speaks to this. Further, we might come to the conclusion that Gropius' aesthetic programme failed as well: The sedon their economic situation allowed it, people covered up the white facades, swapped out the steel windows and decorated their front lawns. Rather than living in the homogenous machine for living Gropius had imagined, they did everything in their power to differentiate themselves visually from their neighbours.
+
 ## Collectivist housing models today
 
 Inequality, housing shortages today, people aren't as afraid of socialism anymore. Society has progressed from a Fordian industrial workforce to a service economy - production and transportation is more and more automated, posing the question wether the way we live needs to change in a major way again.
@@ -167,7 +170,12 @@ Dessau torten isn't a clear cut case, they had to make compromises on materials,
 - Bauhaus Dessau. November 4, 2017
 - Housing Settlement Dessau Torten. November 4-5, 2017.
 
+### Online Sources
+
 - Bauhaus100.de. (2017). *Sommerfeld House, Berlin*. [online] Available at: https://www.bauhaus100.de/en/past/works/architecture/haus-sommerfeld/ [Accessed 16 Nov. 2017].
+
+### Books, Articles
+
 - Droste, M. (2015). *Bauhaus*. Köln: Taschen.
 - Edwards, G. (1985). *GDR society and social institutions*. London: Macmillan.
 - Engels, H. (2001). *Bauhaus-Architektur*. München: Prestel.

@@ -52,6 +52,9 @@ Adolf Loos first talks about this idea in 1910:
 
 A 1930 film titled "Das Neue Wohnen" [The new Living] illustrates this idea in striking images (Figure 0.1). Dark shots of derelict workers' homes are interspersed with scenes of domestic violence and disease. This is then set in contrast to the mdoernist vision of the future: Brightly lit shots of clean interiors with mass-produced, ornament-free furniture. The film ends with a title card announcing: "A better future will hold affordable and humane housing FOR EVERYONE" - emphasizing the aspiration for social equality that imbues modernist thinking.
 
+![Das Neue Wohnen](/assets/unit-9/die-neue-wohnung-web.jpg)
+**Figure 0.1**: Video stills from "Das Neue Wohnen" (1930)
+
 The change in lighting from dark to bright in The New Living is no accident: The idea that sunlight and air would benefit people's health and even cure a wide range of diseases was widespread in the 1920s, as was the notion that personal hygiene and cleansiness would lead to a better society (Wilk, 2006). We see these ideas represented throughout modernist architecture, including Gropius. 
 
 Gropius lays out his own version of these ideas in his 1925 book "Ein Versuchshaus des Bauhauses in Weimar" [A trial building by the Bauhaus in Weimar]. The title refers to the Haus am Horn in Weimar, which was built for the Bauhaus exhibition in 1923. In the introduction Gropius argues that the new age "makes it necessary to finally realise the old idea of building typical dwellinggs cheaper, better and in larger numbers to give every family access to healthy living conditions" (page 5). The way to achieve this, according to Gropius is to understand the housing problem "in its entire sociological, economical, technical and formal context". (page 5). Gropius also has some specific ideas on how these issues might be addressed. 

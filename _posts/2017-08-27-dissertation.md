@@ -43,6 +43,8 @@ It is worth pointing out how Gropius is invoking medieaval imagery to talk about
 
 Christina Lodder describes these early Bauhaus ideas as part of a larger movement in search of "spiritual utopia". She argues that "a rejection of materialism and 19th-century positivist outlooks impelled painters associated with Expressionism to infuse the work of art with a spiritual dimension, and to promote the idea that art and architecture were thereby the means of saving mankind from modernity" (Lodder, 2006 Page 24). 
 
+### Rational Utopia
+
 The transition to a more rational, technology-focussed outlook at the Bauhaus came after the end of the first world war with the arrivals of Theo van Doesburg and Lazlo Moholy-Nagy in Weimar. This new direction was defined by the notion that scientific progress, industrial production and rational decision-making could be employed to solve the "materialism, repressive political structures and glaring social inequalities" of the present (Lodder, Page 33). From the prespective of modernists, social degradation, disease, alcoholism and inequality issues were directly linked to the "overcrowded cities", "old and rotten buildings and poor sanitary conditions" that industralisation had left behind. 
 Adolf Loos first talks about this idea in 1910: 
 
@@ -52,12 +54,12 @@ A 1930 film titled "Das Neue Wohnen" [The new Living] illustrates this idea in s
 
 Gropius lays out his own version of these ideas in his 1925 book "Ein Versuchshaus des Bauhauses in Weimar" [A trial building by the Bauhaus in Weimar]. The title refers to the Haus am Horn in Weimar, which was built for the Bauhaus exhibition in 1923. In the introduction Gropius argues that the new age "makes it necessary to finally realise the old idea of building typical dwellinggs cheaper, better and in larger numbers to give every family access to healthy living conditions" (page 5). The way to achieve this, according to Gropius is to understand the housing problem "in its entire sociological, economical, technical and formal context". (page 5). Gropius also has some specific ideas on how these issues might be addressed. 
 
-He argues that because most people have the same basic needs, housing should be uniform and mass-produced in specialised factories. Rather than building houses individually at the building site, they should be dry-assembled from pre-manufactured components usign standardised blueprints. Gropius coins the term "large-scale building blocks" ["Baukasten im Grossen"] to describe this form of modular architecture. Figure 0.1 illustrates this idea: Individual components (labelled 1 though 6) are assembled into different "machines for living" according to the "number and needs of the inhabitants".
+He argues that because most people have similar basic needs, housing should be uniform and mass-produced in specialised factories. Rather than building houses individually at the building site, they should be dry-assembled from pre-manufactured components using standardised blueprints. Gropius coins the term "large-scale building blocks" ["Baukasten im Grossen"] to describe this form of modular architecture. Figure 0.1 illustrates this idea: Individual components (labelled 1 though 6) are assembled into different "machines for living" according to the "number and needs of the inhabitants".
 
 ![Large Scale Building Blocks](/assets/unit-9/baukasten-im-grossen.jpg)
 **Figure 0.1:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius.
 
-
+The artistic challenge, according to Gropius, lies in finding satisfying spatial arrangements of these building blocks. Gropius briefly mentions the idea that contrary to popular belief, smaller rooms might actually lead to better living conditions (Gropius, 1930). What he is referring to here is the idea of the "minimum dwelling"
 
 This was reinforced from 1928, when Swiss architect Hannes Meyer took over the post of director from Walter Gropius. While Gropius argued that the artist should be part of the building process along with other experts, Meyer demands rigorous functionalism. In a 1926 article he declares: 
 
@@ -152,7 +154,9 @@ Today, Torten is fully enveloped by industrial and residential areas built at va
 
 ## Is Dessau Torten a succesful experiment?
 
-It's easy to point out flaws with Gropius' plan for Torten. In his writings he argues for an architecture that is focussed on the needs of the people. Yet in Torten he seems happy to compromise on those needs in order to try out new materials and construction methods - the amount of alterations that had to be done shortly after the initial construction speaks to this. Further, we might come to the conclusion that Gropius' aesthetic programme failed as well: The sedon their economic situation allowed it, people covered up the white facades, swapped out the steel windows and decorated their front lawns. Rather than living in the homogenous machine for living Gropius had imagined, they did everything in their power to differentiate themselves visually from their neighbours.
+It's easy to point out flaws with Gropius' plan for Torten. In his writings he argues for an architecture that is focussed on the needs of the people,  yet in Torten he seems happy to compromise on those needs in order to try out new materials and construction methods - the amount of alterations that had to be done shortly after the initial construction speaks to this. Further, we might come to the conclusion that Gropius' aesthetic programme failed as well: The second their economic situation allowed it, people covered up the white facades, swapped out the steel windows and decorated their front lawns. Rather than living in the homogenous machine for living Gropius had imagined, home-owners did everything in their power to differentiate themselves visually from their neighbours.
+
+However the opposite case can also be made. Yes, people drastically changed the original floorplan to satisfy their needs. But the reason this could be done relatively easily and cheaply goes back to Gropius' modern construction, in which only the side walls are load-bearing. We can further argue that recent alterations, enabled by DIY-retail, are in fact a continuation of Gropius' concept of large-scale building blocks. Today components such as windows, doors, house numbers, garden plants and seasonal decorations are mass-produced, and designed to be assembled with little specialist knowledge or equipment - much like Gropius was imagining. 
 
 ## Collectivist housing models today
 

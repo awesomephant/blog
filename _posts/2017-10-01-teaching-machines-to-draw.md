@@ -89,7 +89,7 @@ It's a [mending plate](https://www.screwfix.com/p/mending-plates-zinc-plated-76-
 
 I repeated this on both sides, connected by the driveshaft. I then connected the stepper (happy to report the EasyDriver survived my soldering) and it works! 
 
-<video loop controls autoplay src='/assets/unit-10/motor.mp4'></video>
+<video playsinline muted loop controls autoplay src='/assets/unit-10/motor.mp4'></video>
 
 It's moving _very_ slowly at the moment, but I should be able to fix that by going from 1/8 microstepping to 1/4 or 1/2 - effectively reducing the resolution by half and doubling the speed. The EasyDriver has two ports two do this which means I'll be able to adjust speed/resolution based on the drawing I'm trying to do.
 
@@ -162,7 +162,7 @@ Tutorial w/ Tracey
 
 Did some drawings using my freshly fixed laptop (Now being extra careful and using the USB isolator). I figured out a way to reduce the vibration in the machine: Waiting about 100ms between each command. slow things down, but the results are much nicer. 
 
-<video loop controls autoplay src='/assets/unit-10/grid.mp4'></video>
+<video muted playsinline loop controls autoplay src='/assets/unit-10/grid.mp4'></video>
 
 I took some measurements to work out how far the  machine moves in a given number of steps. It's about 0.025mm per step (which seems way too precise, but i'm done messing with the microsteppign resolution for the moment), or 40 steps in a millimeter. I got slightly different results for each axis (0.023mm/step on the x-axis). I'm assuming this is due to differences in the stepper motors (they come from different manufacturers) and inconsistencies in the overall construction of the machine. 
 

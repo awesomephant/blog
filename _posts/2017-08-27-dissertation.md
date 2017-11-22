@@ -151,9 +151,12 @@ Another significant set of changes to Torten come after the Berlin wall, largely
 
 Figures ? through ? show a wide variety of doors, windows, fittings, landscaping features and seasonal decorations. Surprisingly, elements of the original buildings such as house numbers and door handles still appear throughout the settlement, however not always in their original location - Figure ? shows original house numbers attached to a garage door along the secondary road.
 
-With the increasing public recognition of the Bauhaus and its architectural output in the 1980s, education has become a permanent part of the Torten settlement. Hannes Meyer's Konsum building houses a museum telling the story of the settlement, and signs throughout the settlement point out various points of interest. Individual units have been purchased by the local government and restored to their original state. This is a costly process however, as building components that were mass-produced in the 1920s (such as single-glass steel windows) now have to be custom-manufactured.  
+![Dessau tourist signage](/assets/unit-9/dessau-map.jpg)
+**Figure 5:** Signage in Dessau-Torten pointing out various points of interest.
 
-There was some legislation put in place in the late 1990s to prevent major structural changes, although as Schwarting points out this has its own set of problems - some of the regulations prescribe things that are inconsistent with the original drawings. (Maybe bring up the issue of colour here - we only have black and white photographs of the buildings giving the impression that they were all pristine white, when in reality they maybe had quite subtle colour choices)
+With the increasing public recognition of the Bauhaus and its architectural output in the 1980s, public education has become a permanent part of the Torten settlement. In 1992 the first house was restored to its original state by a private foundation. Since then, a number of houses have been restored to various degrees by either the local government or their respective owners. (The notion of "original state" here is debatable - Many components that were mass-produced in the 1920s have to be custom-manufactured now. In the nearby Bauhaus building this goes as far as adding artificial "inconsistencies" to glass panels to achive a more "authentic" visual effect.) Further, signage pointing out various features (Fig. 5) as well as regular groups of architectural tourists enter the urban structure of the estate. Hannes Meyer's Konsum building now houses a permanent exhibition documenting the history of the estate.  
+
+There was some legislation put in place in the late 1990s to prevent major structural changes, although as Schwarting points out this has its own set of problems.
 
 Today, Torten is fully enveloped by industrial and residential areas built at various times - against the backdrop of blocks of high-rise social housing estates in the surrounding area, it seems almost romantic. 
 
@@ -165,7 +168,9 @@ However the opposite case can also be made. Yes, people drastically changed the 
 
 ## Collectivist housing models today
 
-Inequality, housing shortages today, people aren't as afraid of socialism anymore. Society has progressed from a Fordian industrial workforce to a service economy - production and transportation is more and more automated, posing the question wether the way we live needs to change in a major way again.
+Modernist social housing was in many ways a response to the emergence of a new social class - the industrial worker. After the first world war rising industrial towns like Dessau attracted an influx of workers, leading to a sudden population increase the existing housing and infrastructure wasn't fit to handle. This led to the poor living conditions modernist architects recognised and attempted to improve through large-scale urban architecture. They understood architecture not as an isolated discipline, but rather the overarching goal that would unite all otehr artistic pursuits.
+
+As Daniel Bell (1999) shows, we now find ourselves in a similar economic transition - from an economy defined by fordist, industrial production to one defined by the service sector. It is therefore worth asking the question 
 
 Architect Deane Simpson offers an interesting perspective on this in his 2015 book "The Young Old: Urban Utopias of an Ageing Society". In it, the author describes a new class of people created: the young old. These are people in their 50s and 60s, who have the financial means to retire and yet are healthy enough to continue to live an active life. Much like the industrial worker of the early 20th century, this is an entirely new class of people created by technological progress. Where in the 19th century the invention of the steam engine and fordist production methods brought about the industrial worker, it is andvances in medicine, nutrition and living conditions that cerated the young old. Like the industrial worker, the young old demand new solutions to the problem of housing, some of which seem remarkably similar to what Gropius and others were working on a century ago.
 
@@ -185,6 +190,7 @@ Dessau torten isn't a clear cut case, they had to make compromises on materials,
 - **Figure 2:** Housing development Dessau Torten, 1926-1928: Row houses under construction. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/53030?position=91](http://www.harvardmuseums.org/collection/object/169050?position=24)
 - **Figure 3:** Housing development Dessau Torten, 1926-1928: Rooftop view of the garden side of row houses. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/169050?position=24](http://www.harvardmuseums.org/collection/object/169050?position=24)
 - **Figure 4:** The author, 2017. Photographs showing the variety of front doors in Dessau-Torten [Digital Photographs].
+- **Figure 5:** The author, 2017. Photograph showing a map indicating points of interest in Dessay-Torten [Digital Photograph].
 
 ## References
 

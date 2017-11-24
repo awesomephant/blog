@@ -161,7 +161,8 @@ pre.highlight {
 	background: darken(white, 3);
 	padding: .5rem;
 	margin-bottom: 1rem;
-	overflow-x: auto;
+	font-size: .9rem;
+	white-space: pre-line;
 }
 
 .gallery {

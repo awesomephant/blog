@@ -171,3 +171,19 @@ Based on this data I expanded the driver code, so the machine is now aware of wh
 I've [adapted a script I wrote earlier this year](https://github.com/awesomephant/robotics/blob/master/svgToInstructions.js) to convert SVG files to machine instructions, but it looks like it needs some more work before it is usable. For shapes with straight lines (```<polygon>```, ```<line>)```, ```<rectangle>``` etc.) it just extracts the points. Shapes with Bezier curves in them are converted into straight line segments - if the resolution on this is high enough, it should look like a smooth curve in the drawings.
 
 [This is my git repo for all of this.](https://github.com/awesomephant/robotics)
+
+## November 24, 2017
+
+I've had three drawings stolen from the studio, which I guess is some form of compliment. Some ideas by people I talked to about the machine:
+
+- Everyone likes the little glitches and inconsistencies resulting from vibration, the motors getting stuck and ink bleeding out into the paper. This becomes especially visible in very repetitive pieces, where every little glitch stands out. 
+- The ballpoint drawings especially have a print-like quality to them - a bit like etchings.
+- Make an explicit link to Sol Lewitt, maybe feed the machine actual Sol Lewitt instructions. (This seems possible using some modern language processing model - Microsoft Bot Framework being the one I've worked with before. 
+- Find ways of feeding the machine other than Illustrator files - some degree of randomisation might lead to more interesting resutls
+- Do something where a human draws alongside the machine - similar to [this Google demo](https://blog.google/topics/machine-learning/play-duet-computer-through-machine-learning/) in which a computer accompanies a human pianist through machine learning
+- Using music to feed the machine
+- Using found imagery (off Google images) to reproduce on the machine
+- Find ways of making images that are less obviously vector-based (this would probably be some kind of cross-hatching. I am interested in creating images that are a bit less defined, more focussed on tonal differences than lines.)
+- Go up in format, either A1 or A0 (I haven't measured, but I think the largest the machine can do is somewere between A1 and A0)
+- I should oil the machine (Yes)
+- I'm interested in using 3d imagery to feed the machine - maybe topographic maps or line renderings of 3d objects. A lot of the repetition drawings I've been making are already going in this diretion.

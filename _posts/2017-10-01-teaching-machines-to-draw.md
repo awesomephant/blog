@@ -164,7 +164,7 @@ Did some drawings using my freshly fixed laptop (Now being extra careful and usi
 
 <video muted playsinline loop controls autoplay src='/assets/unit-10/grid.mp4'></video>
 
-I took some measurements to work out how far the  machine moves in a given number of steps. It's about 0.025mm per step (which seems way too precise, but i'm done messing with the microsteppign resolution for the moment), or 40 steps in a millimeter. I got slightly different results for each axis (0.023mm/step on the x-axis). I'm assuming this is due to differences in the stepper motors (they come from different manufacturers) and inconsistencies in the overall construction of the machine. 
+I took some measurements to work out how far the  machine moves in a given number of steps. It's about 0.025mm per step (which seems way too precise, but I'm done messing with the microstepping resolution for the moment), or 40 steps in a millimeter. I got slightly different results for each axis (0.023mm/step on the x-axis). I'm assuming this is due to differences in the stepper motors (they come from different manufacturers) and inconsistencies in the overall construction of the machine. 
 
 Based on this data I expanded the driver code, so the machine is now aware of where it is at all times. This allows me to [move the pen to any point on the table](https://github.com/awesomephant/robotics/blob/6c8d4f32b5beba0490965abf3c7468a130d1f617/stepper-test.js#L93). By setting the two steppers to different speeds I can draw a straight line between arbitrary points. So far I've been using straight Javascript to make drawings - simple loops, random numbers etc. The next step will be to run SVG files through the machine.
 
@@ -178,7 +178,7 @@ I've had three drawings stolen from the studio, which I guess is some form of co
 
 - Everyone likes the little glitches and inconsistencies resulting from vibration, the motors getting stuck and ink bleeding out into the paper. This becomes especially visible in very repetitive pieces, where every little glitch stands out. 
 - The ballpoint drawings especially have a print-like quality to them - a bit like etchings.
-- Make an explicit link to Sol Lewitt, maybe feed the machine actual Sol Lewitt instructions. (This seems possible using some modern language processing model - Microsoft Bot Framework being the one I've worked with before. 
+- Make an explicit link to Sol Lewitt, maybe feed the machine actual Sol Lewitt instructions. (This seems possible using some modern language processing model - Microsoft Bot Framework being the one I've worked with before. Also might be interesting to get other people involved - if they can just write instructions in English and get the results back. A bit like how you used to hand your punchcards to a technician who would run the code overnight.
 - Find ways of feeding the machine other than Illustrator files - some degree of randomisation might lead to more interesting resutls
 - Do something where a human draws alongside the machine - similar to [this Google demo](https://blog.google/topics/machine-learning/play-duet-computer-through-machine-learning/) in which a computer accompanies a human pianist through machine learning
 - Using music to feed the machine

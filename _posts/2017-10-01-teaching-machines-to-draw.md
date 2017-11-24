@@ -187,3 +187,5 @@ I've had three drawings stolen from the studio, which I guess is some form of co
 - Go up in format, either A1 or A0 (I haven't measured, but I think the largest the machine can do is somewere between A1 and A0)
 - I should oil the machine (Yes)
 - I'm interested in using 3d imagery to feed the machine - maybe topographic maps or line renderings of 3d objects. A lot of the repetition drawings I've been making are already going in this diretion.
+
+In other news, the [missing shaft support](#october-31-2017) is finally on the way. It should help make the machine more stable, maybe solve some of the issues with the y-axis getting stuck.

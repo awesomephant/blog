@@ -179,6 +179,7 @@ I've had three drawings stolen from the studio, which I guess is some form of co
 - Everyone likes the little glitches and inconsistencies resulting from vibration, the motors getting stuck and ink bleeding out into the paper. This becomes especially visible in very repetitive pieces, where every little glitch stands out. 
 - The ballpoint drawings especially have a print-like quality to them - a bit like etchings.
 - Make an explicit link to Sol Lewitt, maybe feed the machine actual Sol Lewitt instructions. (This seems possible using some modern language processing model - Microsoft Bot Framework being the one I've worked with before. Also might be interesting to get other people involved - if they can just write instructions in English and get the results back. A bit like how you used to hand your punchcards to a technician who would run the code overnight.
+- The idea that the machine reacts to its environment - me bumping into it, the belt getting stuck, people walking past it become visible in the drawings. Maybe have a whole group of people run past the machine and have it record the vibration (like a seismograph).
 - Find ways of feeding the machine other than Illustrator files - some degree of randomisation might lead to more interesting resutls
 - Do something where a human draws alongside the machine - similar to [this Google demo](https://blog.google/topics/machine-learning/play-duet-computer-through-machine-learning/) in which a computer accompanies a human pianist through machine learning
 - Using music to feed the machine

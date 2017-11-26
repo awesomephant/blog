@@ -169,9 +169,38 @@ We can see this process happening in front of us already. Deane Simpson (2015) d
 
 According to Simpson, the emergence of the Young-Old can be linked to two factors aligned with Bell's analysis of the post-industrial society. First, advances in public health, nutrition and the decline of manual labour has led to an increased life expectancy in both industrial and developing countries - doubling from 40 years in 1840 to 80 years in 2000. Medical products developed over the last century, such as the artificial hip, the contact lens, electronic hearing aids and Viagra extend the physical capabilities of the body. This is in line with Bell's notion of a shift towards human services as the primary economic sector. Secondly, the decline of the multi-generational family creates a class of retirees that has to be more self-reliant than previous generations. Again this can be linked to Bell's description of post-industrialism: "Intellectual Work" can be done independently from any physical location. This in turn creates what Simpson describes as the "[increased] mobility requirements of teh modern workforce, which drives people apart geographically" (Simpson, 2015, p ?).
 
-Where in the 19th century the invention of the steam engine and fordist production methods brought about the industrial worker, it is scientific progress and the shift from industrial to intellectual work that brings about the Young-Old. Like the industrial worker, the Young-Old demand a re-evaluation of traditional housing models. They have the desire, health and financial means to live independently (thus making the institutional homes of previous generations unfit).
+Where in the 19th century the invention of the steam engine and fordist production methods brought about the industrial worker, it is scientific progress and the shift from industrial to intellectual work that brings about the Young-Old. They have the desire, health and financial means to live independently, thus making the institutional homes of previous generations unfit. At the same time, shifts in the labour market and changes in traditional values have made the traditional model of the multi-generational household unavailable (or undersireable). The only response to this new class of people seems to be the development of new housing models.
 
-The resemblance between this and Gropius' ideas is striking: Take away the pitched roofs and tulip beds and you have a modernist housing development. The fact that not only architecture and transportation, but also cultural events and in some ways the social fabric of the settlement (there are strict rules governing who is eligible to purchase a house) are part of a "Gesamtkunstwerk" goes far beyond what Gropius was able to do. We find the notion of using architectural intervention to design social interaction on a much smaller scale in Hannes Meyer's work: His ADGB Trade Union School near Berlin (1928-1930) is designed to break students into groups of four - this was thought to be the ideal number to accomodate learning. But where Meyer was working toward a socialist future (he went on to work in the Soviet Union after he left the Bauhaus in 1930), developments like Huis Ten Bosch are privately funded and run for profit.
+Simpson describes a number of these new housing models, including the "The Villages", a vast themed retirement community outside Orlando, Florida. With a population of 157.000 in 2016 (Rocco, 2015), The Villages are not only the largest retirement commmunity in the world, but America's fastest growing city overall. In many ways, they bear a striking resemblance to the social housing developments of the 1920s: Houses are mass-produced and laid out following a pre-conceived plan. Transportation, architecture, health care, local history, media and (by virtue of age- and income segregation) the social fabric of the settlement  are part of a "Gesamtkunstwerk" of a scope far beyond what Gropius was able to do.
+
+The developers are surprisingly candid about their methods. The settlement is split up into smaller "towns", each with its own, entirely fabricated local history. The developers use techniques developed in theme parks to artificially age buildings, and even go so far as to install fictional historical artifacts and historical plaques to create a feeling of local history. All of this is done (apparently succesfully) to encourage the kind of social interaction between residents that represent an idealised idea of life in a small town.
+
+(quote here)
+
+We find the notion of using architectural intervention to design social interaction on a much smaller scale in Hannes Meyer’s work: His ADGB Trade Union School near Berlin (1928-1930) is designed to break students into groups of four - this was thought to be the ideal number to accomodate learning.
+
+In marketing material for the villages we even find echoes of the 1920s notion of heliotherapy, for instance these song lyrics from a 2011 video advert showing landscape shots and residents interacting in bright sunlight:
+
+> It's a little slice of paradise / 
+	Sunshine and golf galore /
+	Neighbours stroll the old town square 
+	And the good life is in store
+	The Villages
+	Where the sun shines all year round
+	The Villages
+	Florida's friendliest hometown
+	From our family to yours
+	  From our family to yours
+	Come on
+	  Come on down
+	We're Florida's friendliest hometown
+
+(The Villages Florida, 2011).
+
+
+
+The Villages are a fascinating case to some extent because they map so closely to 1920s modernist visions of social housing. 
+
 
 ## Conclusions
 

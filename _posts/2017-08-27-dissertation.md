@@ -167,44 +167,44 @@ Modernist social housing was in many ways a response to the emergence of a new s
 
 We can see this process happening in front of us already. Deane Simpson (2015) describes a new class of people created entirely by scientific progress and the abundance of services in the post-industrial age: the "Young-Old". First described by Berncie Neugarten in 1974, the Young-Old are people at retirement age with higher purchasing power, higher likelihood living independently from their families, more education and better health status than those previously in their age group. According sociologist Andrew Blaikic, the Young-old might be the first large demographic group in history "whose daily experience [does] no consist of work or schooling [...]" (Simpson, p13)
 
-According to Simpson, the emergence of the Young-Old can be linked to two factors aligned with Bell's analysis of the post-industrial society. First, advances in public health, nutrition and the decline of manual labour has led to an increased life expectancy in both industrial and developing countries - doubling from 40 years in 1840 to 80 years in 2000. Medical products developed over the last century, such as the artificial hip, the contact lens, electronic hearing aids and Viagra extend the physical capabilities of the body. This is in line with Bell's notion of a shift towards human services as the primary economic sector. Secondly, the decline of the multi-generational family creates a class of retirees that has to be more self-reliant than previous generations. Again this can be linked to Bell's description of post-industrialism: "Intellectual Work" can be done independently from any physical location. This in turn creates what Simpson describes as the "[increased] mobility requirements of teh modern workforce, which drives people apart geographically" (Simpson, 2015, p ?).
+According to Simpson, the emergence of the Young-Old can be linked to two factors aligned with Bell's analysis of the post-industrial society. First, advances in public health, nutrition and the decline of manual labour has led to an increased life expectancy in both industrial and developing countries - doubling from 40 years in 1840 to 80 years in 2000. Medical products developed over the last century, such as the artificial hip, the contact lens, electronic hearing aids and Viagra extend the physical capabilities of the body. This is in line with Bell's notion of a shift towards human services as the primary economic sector. Secondly, the decline of the multi-generational family creates a class of retirees that has to be more self-reliant than previous generations. Again this can be linked to Bell's description of post-industrialism: "Intellectual Work" can be done independently from any physical location. This in turn creates what Simpson describes as the "[increased] mobility requirements of the modern workforce, which drives people apart geographically" (Simpson, 2015, p ?).
 
 Where in the 19th century the invention of the steam engine and fordist production methods brought about the industrial worker, it is scientific progress and the shift from industrial to intellectual work that brings about the Young-Old. They have the desire, health and financial means to live independently, thus making the institutional homes of previous generations unfit. At the same time, shifts in the labour market and changes in traditional values have made the traditional model of the multi-generational household unavailable (or undersireable). The only response to this new class of people seems to be the development of new housing models.
 
-Simpson describes a number of these new housing models, including the "The Villages", a vast themed retirement community outside Orlando, Florida. With a population of 157.000 in 2016 (Rocco, 2015), The Villages are not only the largest retirement commmunity in the world, but America's fastest growing city overall. In many ways, they bear a striking resemblance to the social housing developments of the 1920s: Houses are mass-produced and laid out following a pre-conceived plan. Transportation, architecture, health care, local history, media and (by virtue of age- and income segregation) the social fabric of the settlement  are part of a "Gesamtkunstwerk" of a scope far beyond what Gropius was able to do.
+Simpson describes a number of these new housing models, including the "The Villages", a vast themed retirement community outside Orlando, Florida. With a population of 157.000 in 2016 (Rocco, 2015), The Villages are not only the largest retirement commmunity in the world, but America's fastest growing city overall. In many ways, they bear a striking resemblance to the social housing developments of the 1920s: Houses are mass-produced and laid out following a pre-conceived plan. Transportation, architecture, health care, local history, media and (by virtue of age- and income segregation) the social fabric of the settlement are part of a "Gesamtkunstwerk" of a scope far beyond what Gropius was able to do.
 
 The developers are surprisingly candid about their methods. The settlement is split up into smaller "towns", each with its own, entirely fabricated local history. The developers use techniques developed in theme parks to artificially age buildings, and even go so far as to install fictional historical artifacts and historical plaques to create a feeling of local history. All of this is done (apparently succesfully) to encourage the kind of social interaction between residents that represent an idealised idea of life in a small town.
 
-(quote here)
+(developer quote here)
+
+The primary means of transportation in the villages is the golf cart. This is another specific design decision by the developer: The golf cart bridges the gap between the automobile (which is costly, associated with the working life and requires a licence, which residents may have lost or never acquired in the first place if they relied on their spouse to drive) and the mobility scooter (which is slow and associated with frailty and failing health). The developer encourages golf cart use by making specific golf cart roads, bridges and tunnels part of the urban planning, and incorporating golf cart-related events (such as parades) into the social programme. This is reiterated by The Village's marketing material which often refers to points of interest being "only a short golf cart ride away".
 
 We find the notion of using architectural intervention to design social interaction on a much smaller scale in Hannes Meyer’s work: His ADGB Trade Union School near Berlin (1928-1930) is designed to break students into groups of four - this was thought to be the ideal number to accomodate learning.
 
 In marketing material for the villages we even find echoes of the 1920s notion of heliotherapy, for instance these song lyrics from a 2011 video advert showing landscape shots and residents interacting in bright sunlight:
 
-> It's a little slice of paradise / 
-	Sunshine and golf galore /
-	Neighbours stroll the old town square 
-	And the good life is in store
-	The Villages
-	Where the sun shines all year round
-	The Villages
-	Florida's friendliest hometown
-	From our family to yours
-	  From our family to yours
-	Come on
-	  Come on down
-	We're Florida's friendliest hometown
+> It's a little slice of paradise / Sunshine and golf galore / Neighbours stroll the old town square / And the good life is in store / The Villages / Where the sun shines all year round / The Villages / Florida's friendliest hometown / From our family to yours / From our family to yours / Come on / Come on down / We're Florida's friendliest hometown
 
 (The Villages Florida, 2011).
 
+The Villages are a fascinating case to some extent because they map so closely to 1920s modernist visions of social housing. Their success warrants a re-examination of modernist housing projects as a potential approach towards present housing crisis. To some extent this debate is already taking place in the United Kingdom, with emerging writers such as Owen Hatherley questioning the disdain towards modernist housing of the 1970s. This is in line with a broader re-examination of socialist ideas following a growing sense of disillusionment with the results of economic liberalism, illustrated for instance by Shrimpton et. al (2017):
 
+> Our survey findings show that Britons no longer think young people will have a
+better life than previous generations, with only around one quarter (23 per
+cent) of adults taking this view. Instead, roughly half (48 per cent) believe that
+millennials will have a worse life than their parents.
 
-The Villages are a fascinating case to some extent because they map so closely to 1920s modernist visions of social housing. 
+However, I would argue that given the magnitude of societal change we're experiencing, a more radical departure from the models of modernist housing is needed. The level of infrastrucutre and knowledge available to us should allow us to think about housing models perhaps closer to what Gropius suggested in an offhand remark in 1925:
+
+> Perhaps "mobile living-shells" ["mobile Wohngehause"], allowing us to take with us all the conveniences of a real [traditional] living standard even through relocations, are no longer too far-fetched a utopia. (Gropius, 1925 p5 )
+
+Simpson describes a model of living that seems to come close to this: A significant population of young-old retirees permanently living in motorhomes. Using advanced communication technology, satellite navigation and modern highway infrastructure, these people migrate from north to south with the seasons, communicating via the internet and parking their vehicles in semi-permanent formations for only days at a time before dispersing again.
+
+It is worth asking whether this mode of living, detached from any permanent location and built on modern technology isn't ultimately the more appropriate than earlier models in the context of a post-industrial society.
 
 
 ## Conclusions
 
-Dessau torten isn't a clear cut case, they had to make compromises on materials, steel windows weren't as good as they are today, the concrete they made on site wasn't gerat etc. but it was all going in the correct direction. Stress the organisational aspect, also the fact it was governement funded is maybe a new thing? Basically the idea that modernism has survived in the sense that the torten buildings are flexible enough to be changed. maybe the futurist idea that part of their movement was the idea that the movement would eventually die. Socialism hasn't happened obviously, but this wasn't always the intention of the bauhaus, moholy nagy was more in favour of working with industry. notion of using rationale, science to make architecture cheaper has survived, although the idea of big social housing developments isn't as popular anymore (maybe show chemistry worker's city by former bauhausler, la housing blocks as examples)
 
 ## List of Figures
 

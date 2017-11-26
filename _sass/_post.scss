@@ -171,8 +171,12 @@ pre.highlight {
 	margin-bottom: 1rem;
 	flex-wrap: wrap;
 	@include bp(m){
-		width: 160%;
-		margin-left: -30%;
+	    width: 110%;
+		margin-left: -5%;
+	}
+	@include bp(l){
+	    width: calc(100% + 20vw);
+		margin-left: -10vw;
 	}
 	img {
 		display: block;

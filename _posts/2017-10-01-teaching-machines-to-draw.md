@@ -190,3 +190,18 @@ I've had three drawings stolen from the studio, which I guess is some form of co
 - I'm interested in using 3d imagery to feed the machine - maybe topographic maps or line renderings of 3d objects. A lot of the repetition drawings I've been making are already going in this diretion.
 
 In other news, the [missing shaft support](#october-31-2017) is finally on the way. It should help make the machine more stable, maybe solve some of the issues with the y-axis getting stuck.
+
+## November 25, 2017
+
+Here's some of the images I made on the drawing machine this week. Most of were designed in Illustrator, with any randomness coming only through the machine itself (by it getting stuck, someone bumbping into it, teh pen running out of paper etc.)
+
+<div markdown="1" class='gallery'>
+![Machine drawing 1](/assets/unit-10/week-1/machine-drawing-1.jpg)
+![Machine drawing 2](/assets/unit-10/week-1/machine-drawing-2.jpg)
+![Machine drawing 3](/assets/unit-10/week-1/machine-drawing-3.jpg)
+![Machine drawing 4](/assets/unit-10/week-1/machine-drawing-4.jpg)
+![Machine drawing 5](/assets/unit-10/week-1/machine-drawing-5.jpg)
+![Machine drawing 6](/assets/unit-10/week-1/machine-drawing-6.jpg)
+![Machine drawing 7](/assets/unit-10/week-1/machine-drawing-7.jpg)
+![Machine drawing 8](/assets/unit-10/week-1/machine-drawing-8.jpg)
+</div>

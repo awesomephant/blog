@@ -141,6 +141,15 @@ During this period the use of the gardens also changed substantially. As the nee
 
 Another significant set of changes to Torten come after the Berlin wall, largely due to the emergence of DIY-retail. With an abundance of facade materials, garden decorations, windows, doors and roofing materials suddenly available, home-owners made a series of individual changes that define the settlement today. 
 
+![Dessau House 1](/assets/unit-9/house-1.jpg)
+**Figure 5.1:** House 1.
+![Dessau House 1](/assets/unit-9/house-2.jpg)
+**Figure 5.1:** House 1.
+![Dessau House 1](/assets/unit-9/house-3.jpg)
+**Figure 5.1:** House 1.
+![Dessau House 1](/assets/unit-9/house-4.jpg)
+**Figure 5.1:** House 1.
+
 ![Dessau Torten Doors](/assets/unit-9/dessau-doors-web.jpg)
 **Figure 4:** Photographs showing the variety of front doors in Dessau Torten. The top left photograph shows the door of Doppelreihe 35, which is the only original 1920s door remaining in the settlement. 
 
@@ -187,12 +196,11 @@ In marketing material for the villages we even find echoes of the 1920s notion o
 
 (The Villages Florida, 2011).
 
-The Villages are a fascinating case to some extent because they map so closely to 1920s modernist visions of social housing. Their success warrants a re-examination of modernist housing projects as a potential approach towards present housing crisis. To some extent this debate is already taking place in the United Kingdom, with emerging writers such as Owen Hatherley questioning the disdain towards modernist housing of the 1970s. This is in line with a broader re-examination of socialist ideas following a growing sense of disillusionment with the results of economic liberalism, illustrated for instance by Shrimpton et. al (2017):
+How do the villages reconcile the confilct between their essentially collectivist design with their residents' desire fo individualism? I would argue that the developer achieves this by what is essentially marketing. They emphasise the benefits of the collectivist settlement (centralised access to healthcare, unified transportation, social cohesion) while creating the perception of individual freedom and self-governance - sometimes in the same TV commercial. I would argue that part of the reason this succeeds is the overwhelming scale of The Villages: With 2.400 organised clubs (one for every 65 residents), hundreds of sport facilities and thousands of planned events *a month* (125 on the day of this writing) the developers are able to create an environment in which individual choice seems unlimited. This perception of individual freedom is reinforced through carefully planned pockets of individual expression, such as residents decorating their golf carts (Perhaps analogous to the landscaping and seasonal decorations of Torten). In instances like this, the developer gives up direct design control - though the results are fed back (in the form of developer-sponsored parades and features in developer-funded local media) into the larger "lifestyle experience" the developer creates. 
 
-> Our survey findings show that Britons no longer think young people will have a
-better life than previous generations, with only around one quarter (23 per
-cent) of adults taking this view. Instead, roughly half (48 per cent) believe that
-millennials will have a worse life than their parents.
+The Villages are a fascinating case to some extent because they map so closely to 1920s modernist visions of social housing - Simpson suggests the term "leisure socialism" to describe the work-free, yet heavily programmed life in The Villages. (Simpson, 2015, p 246). Their success warrants a re-examination of modernist housing projects as a potential approach towards present housing crisis. To some extent this debate is already taking place in the United Kingdom, with emerging writers such as Owen Hatherley questioning the disdain towards modernist housing of the 1970s. This is in line with a broader re-examination of socialist ideas following a growing sense of disillusionment with the results of economic liberalism, illustrated for instance by Shrimpton et. al (2017):
+
+> Our survey findings show that Britons no longer think young people will have a better life than previous generations, with only around one quarter (23 per cent) of adults taking this view. Instead, roughly half (48 per cent) believe that millennials will have a worse life than their parents.
 
 However, I would argue that given the magnitude of societal change we're experiencing, a more radical departure from the models of modernist housing is needed. The level of infrastrucutre and knowledge available to us should allow us to think about housing models perhaps closer to what Gropius suggested in an offhand remark in 1925:
 

@@ -77,9 +77,12 @@
 		margin-left: 1.3rem;
 	}
 	
-	blockquote {
+	blockquote p{
 		padding-left: 1em;
-		font-style: italic;
+		font-size: 1.1rem;
+		font-family: $sans;
+		line-height: 1.4;
+		color: darken($green, 5);
 	}
 	
 	img, video {

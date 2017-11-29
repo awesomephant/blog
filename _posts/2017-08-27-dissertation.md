@@ -65,7 +65,7 @@ Although these mediaval aesthetics seem opposed to the Marinetti's vision of a m
 
 ## Architecture at the Bauhaus
 
-Following the medieavalist imagery of the manifesto, work at the early Bauhaus was defined by a return to pre-industrial forms. The Sommerset House with its expressionist wooden decoration, as well as the early furniture of Marcel Breuer and Gunta Stölzl are examples of this phase (Bauhaus100, 2017). Christina Lodder places the early Bauhaus as of a larger movement in search of "spiritual utopia". She argues that "a rejection of materialism and 19th-century positivist outlooks impelled painters associated with Expressionism to infuse the work of art with a spiritual dimension, and to promote the idea that art and architecture were thereby the means of saving mankind from modernity" (Lodder, 2006 Page 24). 
+Following the medieavalist imagery of the manifesto, work at the early Bauhaus was defined by a return to pre-industrial forms. The Sommerfeld House in Berlin (1920, destroyed 1945) with its expressionist wooden decoration, as well as the early furniture of Marcel Breuer and Gunta Stölzl are examples of this phase (Bauhaus100, 2017). Christina Lodder places the early Bauhaus as of a larger movement in search of "spiritual utopia". She argues that "a rejection of materialism and 19th-century positivist outlooks impelled painters associated with Expressionism to infuse the work of art with a spiritual dimension, and to promote the idea that art and architecture were thereby the means of saving mankind from modernity" (Lodder, 2006 Page 24). 
 
 The transition to a more rational, technology-focussed outlook at the Bauhaus came after the end of the first world war with the arrivals of Theo van Doesburg and Lazlo Moholy-Nagy in Weimar. This new direction was defined by the notion that scientific progress, industrial production and rational decision-making could be employed to solve the "materialism, repressive political structures and glaring social inequalities" of the present (Lodder, Page 33). From the prespective of modernists crime, disease, alcoholism and scoial inequality were directly linked to the "overcrowded cities", "old and rotten buildings and poor sanitary conditions" (Le Corbusier, 1923) that industralisation had left behind. 
 
@@ -91,46 +91,46 @@ This was reinforced from 1928, when Swiss architect Hannes Meyer took over the p
 
 In the same publication he lists the "schedules of people inside and outside the house, physical aspects of the building site, sunlight, acoustics and psychology" as datapoints that sohuld be used to inform architectural decisions. His architectural drawings are filled with tables and graphs describing the results of soil analysis, sunlight calculations and weather observations at the building site. Under the brief tenure of Mies van der Rohe from 1930 to 1933 the understanding of architecture at the Bauhaus shifted away from the strict functionalism of Hannes Meyer toward a more aesthetically-driven exploration of space.
 
-## The Dessau-Torten Estate
+## The Dessau-Torten Settlement
 
 Over 50 building projects were completed by members of the Bauhaus between 1919 and 1930, and countless more after the school disbanded (Engels, 2001). This count includes buildings that were built by Gropius and others relatively independently from the Bauhaus, but some were the result of the type of cross-discipline collaboration that was at the core of the Bauhaus idea. These large-scale projects addressed real-world issues while at the same time serving as cross-discipline classroom experiments at the Bauhaus.
 
-A few of these buildings have become instantly recognisable: The Sommerfeld House (1920, destroyed 1945), the Haus am Horn (1923) and The Bauhaus Building and Master's houses in Dessau (1925-26). However, it is the more obscure examples of Bauhaus architecture 
-
-However, many more have escaped public attention for most of their existence. They were never regarded as architectural monuments, but used by the public like any other building - Many of them didn't receive heritage protection until very recently. As such they were altered, extended, worn down and painted over with little hesitation. We could lament this loss of architectural history (and people do), but in our search for evidence as to the success (or failure) of modernism, we couldn't get luckier. Here we have the physical manifestations of 1920s modernist ideals, tested mercilessly by regular people through decades of war, reconstruction and changing political regimes up to the present day. 
+A few of these buildings have become instantly recognisable: The Sommerfeld House (referenced above), the Haus am Horn (1923) and The Bauhaus Building and Master's houses in Dessau (1925-26). However, it is the lesser-known examples of Bauhaus architecture that might give us the most insight into the conflicts laid out above. The example I will be discussing here is the Dessau-Torten housing settlement in Dessau, Germany. Unlike other examples of pre-war modernist architecture, Dessau-Torten was subject to significant changes since its construction between 1926 and 1928 (Bauhaus Dessau, 2017). In a form of modern archeology, we can identify different layers of changes made before, during and after the second world war, right up to present day. Each layer can give us hints as to how the conflict between modernist ideas and different forms of individualism were reconciled. 
 
 ![Dessau Torten Aereal Photograph](/assets/unit-9/torten-aereal.jpg)
 **Figure 1:** Aereal photograph of the Dessau Torten settlement today
 
-The example I will be primarily discussing here is the housing estate Dessau-Torten. Designed by Walter Gropius and members of the Bauhaus, it consits of 314 single-family, terraced houses across roughly six square miles. The initial construction was completed in three phases from 1926 to 1928, with later expansions added by Hannes Meyer and Richard Paulick. (Bauhaus Dessau, 2017)
-
-The Dessau Torten settlement takes a unique position in the physical legacy of the Bauhaus.   
-
-After a planned housing project in Weimar had failed to materialise (only one building, the Haus am Horn, was ever completed), Torten was the first opportunity for Gropius to put the ideas he had developed during the early 1920s to practice on a large scale. In fact the prospect of building Torten was a major motivation for Gropius to move the Bauhaus to Dessau in the first place. The city of Dessau comissioned Torten to address a housing shortage caused by an influx of industrial workers that had 
-
-Torten was part of a national effort to provide affordable housing to lower-income families. Individual units in Torten were sold for between RM 9.500 and RM 10.100, or around RM 35 per month - well within the reach of an average industrial worker (Schwarting, 2011). The fact that units were sold off to individuals is critical: It gave home-owners the freedom to make changes to their houses with few restrictions. Over 80 years, these changes have accumulated into a rich layering of architectural details. Peeling back these layers allows us to see how Gropius' original vision was adopted over time. 
-
-
 ## Initial Construction
 
-While the Dessau government was looking for a pragmatic solution to a housing shortage, Gropius saw an opportunity to test ideas on archiectural language, construction technology and organisation on a large scale. The experimental natue of Torten was reinforced in 1928 when Gropius received federal grants to carry out tests regarding different contruction methods and materials. Torten was as much a pragmatic response to a housing shortage as it was a test-environment for Bauhaus ideas - this contradiction became apparent almost immediately after initial construction.
+After a planned housing project in Weimar had failed to materialise (only one building, the Haus am Horn, was ever completed), Torten was the first opportunity for Gropius to put the ideas he had developed during the early 1920s to practice on a large scale. In fact the prospect of building Torten, supported by the social-democratic government of Dessau, was part of the reason Gropius moved the Bauhaus to Dessau in the first place. Dessau, a rising industrial town, had seen an an influx of workers that nearly doubled its population. This led to a housing crisis which the Bauhaus was hoped to address.
+
+Torten was financed in part by the national government as part of a larger effort to provide affordable housing to lower-income families. Individual units in Torten were sold for between RM 9.500 and RM 10.100, or around RM 35 per month - well within the reach of an average industrial worker (Schwarting, 2011). The fact that units were sold off to individuals is critical: It gave home-owners the freedom to make changes to their houses with few restrictions.
 
 ![Dessau Waterfall](/assets/unit-9/torten-waterfall.jpg)
 **Figure 1.5:** Waterfall chart showing the order of contstruction phases in Dessau Torten
+
+The settlement served a double, or even triple purpose from the beginning. The Dessau government was hoping for a pragmatic solution to their housing shortage. The national government saw Torten in part as a research project to test new construction methods, granting Gropius additional funds in 1928 to carry out construction experiments and publish the results. Finally, Gropius saw Torten as a way of proving the validity of his vision of architecture, which he had written about for years.
+
+This triple purpose reflects the conflict at the centre of this essay. One one side is the city of Dessau in an effort to provide workers' housing, on the other side is Gropius, the hero architect eager to prove his ideas. We can see Gropius' eagerness in the amount of documents, photographs and films documenting the construction process of Torten. Figure 1.5 shows what today might be referred to as a waterfall chart. Each bar indicates a specific step in the construction to be carried out at a particular time. This illustrates how Gropius not only designed the architecture, but also the production process and the documentation to fit his vision. He writes about the production process in 1930:
+
+> The execution of the shells was done based on a carefully designed plan, in such a way that fixings, wall components and ceiling beams could be manufactured at the building site in a conveyor belt-like process. This limited loss time and material by design (Gropius, 1930)
+
+The visual language of Torten also seems to be inspired by the conveyor belt. 
+In addition to employing familiar clues of modernist architecture (flat roofs, exposed construction through different surface treatments, factory-like steel fixings) Gropius uses mirrored floor plans. By positioning doors and windows of each unit at oppsing edges of the facade, Gropius is able to effectively blur the line between units. Rather than a row of identical houses, this creates the effect of a continuous band - Le Corbusier's "Machine for Living" stretched out like a conveyor belt.
+
+Gropius transforms a pre-existing electrical tower into a theatrical monument to progress by placing it at the intersection of the two main roads, making it visible from almost every point of the settlement.
+
+![Dessau Torten Gardens](/assets/unit-9/torten-1920-2.jpg)
+**Figure 3:** Contemporary photograph showing the garden side of row houses in Dessau Torten.
+
+Contrary to the modernist visual language, the urban planning of the settlement follows the much earlier concept of the garden city. The notion of the garden city was first proposed by Ebeneezer Howard in 1889, the garden city is based on the idea of individual self-sufficiency for each family. In Torten this takes the form of a 400 square metre garden attached to each dwelling (Fig. 3). In addition, Gropius opted for specialised dry toilets (even though Torten was attached to the sewer network) to generate garden fertilizer. This runs contrary to the idea of the minimum dwelling that Gropius alludes to in many of his writings. Rather than "rationalising" food production in "kitchen factories that could feed 10.000" (Teige, 2012 p?), the garden city
 
 ![Dessau Torten Construction](/assets/unit-9/torten-construction-1.jpg)
 **Figure 2:** Contemporary photograph showing a row of houses in Dessau Torten under construction.
 
 Figure 2 shows a section of houses in Dessau Torten under construction. It highlights the rationalised construction Gropius designed: Rather than building each house individually, a whole section of identical houses was built at once. This photograph is part of an extensive series of professionally-executed photographs documenting the construction process. The fact that such extensive documentation was done can be attributed in part to the experimental nature of Torten - Gropius' experiments had to be documented to be scientifically valid. However, this photograph is more than a neutral document: The two small figures in the background and the dramatic lighting conditions give a monumental scale to the scene. The row of houses continues beyond the right edge of the photograph, reinforcing the feeling of scale. All of this invokes the feeling of optimism and larger-than-life ambition that imbues Gropius' architecture. 
 
-This image is featured along others in Gropius' 1930 book "Bauhausbauten Dessau", which suggests that Gropius was not only aware of the image, but approved of its message. In addition, a Berlin production company was comissioned to create a documentary showing the construction of the settlement, further underlining Gropius' view of Torten as a means of communicating his ideas. 
-
-In this context it is also worth pointing out the contradiction between Gropius' distinctly modernist visual language (flat roofs, exposed construction, factory-like steel fixtures) and the urban planning of the development, which follows the concept of the garden city. The notion of the garden city was first proposed by Ebeneezer Howard in 1889, and runs somewhat contrary to the idea of the minimum dwelling as referenced by Gropius. Rather than "rationalising" food production in "kitchen factories that could feed 10.000" (Teige, 2012 p?), the garden city is based on the idea of individual self-sufficiency for each family. In Torten this takes the form of a 400 square metre garden attached to each dwelling. In addition, Gropius opted for specialised dry toilets (even though Torten was attached to the sewer network) to generate garden fertilizer.
-
-![Dessau Torten Gardens](/assets/unit-9/torten-1920-2.jpg)
-**Figure 3:** Contemporary photograph showing the garden side of row houses in Dessau Torten.
-
-Another idea Gropius adopted from garden is that of mirrored floor plans. By positioning doors and windows at oppsing edges of the facade, Gropius is able to effectively blur the line between units. Rather than a row of identical houses, this creates the effect of a continuous band - Le Corbusier's "Machine for Living" stretched out like a conveyor belt.
+This image is featured along others in Gropius' 1930 book "Bauhausbauten Dessau", which suggests that Gropius was not only aware of the image, but approved of its message. In addition, a Berlin production company was comissioned to create a documentary showing the construction of the settlement, further underlining Gropius' view of Torten as a vehicle to communicate his ideas. 
 
 ## Alterations in the 1920s
 
@@ -141,7 +141,7 @@ Following the initial construction, heat insulation quickly became a concern. An
 1. The steel frame, single glass windows chosen by Gropius were cutting-edge technology at the time. As such, they were not only a third more expensive than traditional wooden windows but also caused major heat loss due to their size and lack of insulation. Most of the original windows were replaced smaller, wooden windows by the mid-1930s. The new windows were also set much lower than the original windows, which started 1.40m above floor level (Gropius had made this choice to increase the usable floor area)
 2. The thin outer walls formed another heat escape route. This was a direct result of their industrialised production - since their concrete slabs all had the same dimensions, heat bridges could form between the gaps. Home-owners addressed this by errecting secondary brick facades shortly after the initial construction.
 
-It is reasonable to assume that Gropius, an established architect, would have been aware of the issues that made these changes necessary. Why then did he choose "new" materials over traditional ones that would have been more effective and likely cheaper? I would argue that this is a materialisation of the dynamic outlined by Dekoven: The modernist notion of the male hero creator who "makes it new". 
+I would argue that this set of changes can be read as the home-owners' collective response to Gropius' heroic ambitions. 
 
 
 

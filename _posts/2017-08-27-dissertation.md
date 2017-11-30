@@ -26,6 +26,14 @@ Secondly, I'm going to examine the conflict between modernist architecture and t
 
 On the other side is the populist critique of modern housing as being fundamentally at odds with the people's inherent individualism, as evidenced by the ubiquitous image of the derelict block - A line of attack which originates in the 1970s. Oscar Newman's 1972 study "Defensible Space: People and Design in the Violent City" linked modernist housing with increased crime, arguing that the spatial design of housing blocks makes them inherently unsafe, and that private space, rather than public space should be prioritized. Newman's study has since been criticised as relying on overly broad assumptions about the nature of human interaction, for instance by Steventon (1996). Popular critics such as Tom Wolfe (1981) criticise modernist housing as being overly academic and fundamentally unfit for its purpose. Wolfe cites the widely publicized demolition of the Pruitt–Igoe housing estate in St. Louis in 1972 (only 20 years after its construction) as evidence for the failure of modernist principles.
 
+This popular rejection of modernist housing models on the grounds that *it doesn't reflect people's individualism* can be linked to the emergence of modern consumerism in the second half of the 20th century. As Miles (1998) shows, consumer culture emerges as a result of an increase in real wages and improved production methods suddenly making commodities available to large parts of the population. This leads to a shift from fordist principles of large-scale production and mass-market appeal to post-fordist production, in which a diversified workforce creates products designed for smaller and smaller sub-sets of consumers. As a result of this, consumption becomes a cultural act - a way of asserting your identity, belonging to a particular group or having a certain level of status. Crucially, the idea of consumer freedom is linked to the idea of political freedom. Slater (1997) argues:
+
+> To be a consumer is to make choices: to decide what you want, to consider how to spend your money to get it [...]. 'Consumer souvereignty' is an extremely compelling image of freedom: [...] it provides one of the few tangible and mundane experiences of freedom which feels personally significant to modern subjects. (slater 1997, p27)
+
+According to Slater, this link between *consumer choice* and political freedom is especially pronounced in the 1980s, when "collective and social provision gave way to radical individualism - as Thatcher put it, 'There is no such thing as a society, only individuals and their families'" (Slater 1997, p10).
+
+We see how this focus on individual consumer freedom would lead to a rejection of modernist housing in the 1970s - it is the polar opposite to the collectivist aims of the modernist movement.
+
 To see how these two conflicts manifest themselves in physcial architecture I'm going to introduce the architectural practice at the Bauhaus, placing it in the wider context of modernist thinking. I will then examine the Dessau-Torten housing settlement near Leipzig, Germany as an example of this practice. Built by Walter Gropius between 1927 and 1930, Torten has been subject to significant alterations by its residents over the last 90 years. By tracking these alterations, I will show how these underlying conflicts shift and overlap over time. In closing, I will examine more recent housing models in the context of a post-industrial economy, again discussing how the conflict between individualism and collectivist ideas is reconciled.
 
 
@@ -35,6 +43,7 @@ The emergence of modernism in the beginning of the 20th century coincides with t
 
 > We will glorify war—the world's only hygiene—militarism, patriotism, the destructive gesture of freedom-bringers, beautiful ideas worth dying for, and scorn for woman.
 > We will destroy the museums, libraries, academies of every kind, will fight moralism, feminism, every opportunistic or utilitarian cowardice.
+
 (Marinetti, 1909)
 
 Here Marinetti is laying out the idea of the heroic, hyper-male modernist creator - an idea that is ultimately reflected in the Futurist movement's support for fascism (Blum, 2014).
@@ -191,23 +200,24 @@ Figures 5.1 through 5.4 show the variety of doors, windows, house numbers, lands
 ![Dessau House 1](/assets/unit-9/house-4.jpg)
 **Figure 5.4:** House 1.
 
+There is a case to be made that these alterations are in some sense a continuation of Gropius' idea of modular architecture. DIY-retail makes mass-manufactured tools and building components accessible to large parts of the population. Produced in standard dimensions and in numbers Gropius' couldn't have imagined, these components can largely be assembled by home-owners with little specialist knowledge. Gropius' construction method, in which only the side walls are load-bearing makes chnages to the floor plan relatively easy. Though contrary to Gropius vision of a dwelling that responded to the functional needs of its residents, the majority of the most recent changes are acts of individual cultural expression.
+
 ![Dessau Torten Doors](/assets/unit-9/dessau-doors-web.jpg)
 **Figure 4:** Photographs showing the variety of front doors in Dessau Torten. The top left photograph shows the door of Doppelreihe 35, which is the only original 1920s door remaining in the settlement. 
 
 ![Dessau tourist signage](/assets/unit-9/dessau-map.jpg)
 **Figure 5:** Signage in Dessau-Torten pointing out various points of interest.
 
-With the increasing public recognition of the Bauhaus and its architectural output in the 1980s, public education has become a permanent part of the Torten settlement. In 1992 the first house was restored to its original state by a private foundation. Since then, a number of houses have been restored to various degrees by either the local government or their respective owners. (The notion of "original state" here is debatable - Many components that were mass-produced in the 1920s have to be custom-manufactured now. Further, signage pointing out various features (Fig. 5) as well as regular groups of architectural tourists enter the urban structure of the estate. Hannes Meyer's Konsum building now houses a permanent exhibition documenting the history of the estate.  
+With the increasing public recognition of the Bauhaus and its architectural output in the 1980s, public education has become a permanent part of the Torten settlement. In 1992 the first house was restored to its original state by a private foundation. Since then, a number of houses have been restored to various degrees by either the local government or their respective owners. (The notion of "original state" here is debatable - Many components that were mass-produced in the 1920s have to be custom-manufactured now).
 
-## Is Dessau Torten a succesful experiment?
+This latest development can be read as a reponse to the emergence of the post-industrial society, in which services (including health and education) replace manufacturing as the primary means of generating capital. This transition is perhaps epitomised by the large sign which now stands in front of the cenral electrical tower in Torten (Fig. 5). The top two signs point to a permanent exhibition documenting the history of the estate (housed since 2011 in Hannes Meyer's Konsum Building) and various architectural points of interest in the settlement, respectively (Moller, 2017). The bottom two signs point to an orthopedic clinic and a pharmacy, serving the largely retirement-age community of Torten. This neatly sums up the developments we'll examine in the following chapter, turning away from Torten to more recent forms of collectivist housing. 
 
-It's easy to point out flaws with Gropius' plan for Torten. In his writings he argues for an architecture that is focussed on the needs of the people,  yet in Torten he seems happy to compromise on those needs in order to try out new materials and construction methods - the amount of alterations that had to be done shortly after the initial construction speaks to this. Further, we might come to the conclusion that Gropius' aesthetic programme failed as well: The second their economic situation allowed it, people covered up the white facades, swapped out the steel windows and decorated their front lawns. Rather than living in the homogenous machine for living Gropius had imagined, home-owners did everything in their power to differentiate themselves visually from their neighbours.
-
-However the opposite case can also be made. Yes, people drastically changed the original floorplan to satisfy their needs. But the reason this could be done relatively easily and cheaply goes back to Gropius' modern construction, in which only the side walls are load-bearing. We can further argue that recent alterations, enabled by DIY-retail, are in fact a continuation of Gropius' concept of large-scale building blocks. Today components such as windows, doors, house numbers, garden plants and seasonal decorations are mass-produced, and designed to be assembled with little specialist knowledge or equipment - much like Gropius was imagining. 
 
 ## Collectivist housing models today
 
-Modernist social housing was in many ways a response to the emergence of a new social class: the industrial worker. After the first world war rising industrial towns like Dessau attracted an influx of workers, leading to a sudden population increase the existing housing and infrastructure wasn't fit to handle. This led to the poor living conditions modernist architects recognised and attempted to improve through large-scale urban developments. As Daniel Bell (1999) shows, we now find ourselves in a similar societal transition - from an industrial society to a post-industrial one. According to Bell, this transition is marked by a number of factors: Agriculture and manufacturing are replaced by sercives as the primary source of employment ("services" meaning transportation and logistics, as well as education and healthcare). Further, the importance of physical infrastructure (roads, trains) decreases as "intellectual infrastructure" (internet connections, computing power) becomes the primary way to generate capital. As the industrial revolution created the industrial worker, the transition to a post-industrial society is likely to create new classes of people with new housing needs. 
+Modernist social housing was in many ways a response to the emergence of a new social class: the industrial worker. After the first world war rising industrial towns like Dessau attracted an influx of workers, leading to a sudden population increase the existing housing and infrastructure wasn't fit to handle. This led to the poor living conditions modernist architects recognised and attempted to improve through large-scale urban developments. As Daniel Bell (1999) shows, we now find ourselves in a similar societal transition - from an industrial society to a post-industrial one. According to Bell, this transition is marked by a number of factors: Agriculture and manufacturing are replaced by sercives as the primary source of employment ("services" meaning transportation and logistics, as well as education and healthcare). Further, the importance of physical infrastructure (roads, trains) decreases as "intellectual infrastructure" (internet connections, computing power) becomes the primary way to generate capital.
+
+As the industrial revolution created the industrial worker, the transition to a post-industrial society is likely to create new classes of people with new housing needs. 
 
 We can see this process happening in front of us already. Deane Simpson (2015) describes a new class of people created entirely by scientific progress and the abundance of services in the post-industrial age: the "Young-Old". First described by Berncie Neugarten in 1974, the Young-Old are people at retirement age with higher purchasing power, higher likelihood living independently from their families, more education and better health status than those previously in their age group. According sociologist Andrew Blaikic, the Young-old might be the first large demographic group in history "whose daily experience [does] no consist of work or schooling [...]" (Simpson, p13)
 
@@ -231,7 +241,12 @@ In marketing material for the villages we even find echoes of the 1920s notion o
 
 (The Villages Florida, 2011).
 
-How do the villages reconcile the confilct between their essentially collectivist design with their residents' desire fo individualism? I would argue that the developer achieves this by what is essentially marketing. They emphasise the benefits of the collectivist settlement (centralised access to healthcare, unified transportation, social cohesion) while creating the perception of individual freedom and self-governance - sometimes in the same TV commercial. I would argue that part of the reason this succeeds is the overwhelming scale of The Villages: With 2.400 organised clubs (one for every 65 residents), hundreds of sport facilities and thousands of planned events *a month* (125 on the day of this writing) the developers are able to create an environment in which individual choice seems unlimited. This perception of individual freedom is reinforced through carefully planned pockets of individual expression, such as residents decorating their golf carts (Perhaps analogous to the landscaping and seasonal decorations of Torten). In cases like this, the developer gives up direct design control - though the results are fed back (in the form of developer-sponsored parades and features in developer-funded local media) into the larger "lifestyle experience" the developer creates. 
+How do the villages reconcile the confilct between their essentially collectivist design with their residents' desire fo individualism? I would argue that the developer achieves this by what is essentially marketing. They emphasise the benefits of the collectivist settlement (centralised access to healthcare, unified transportation, social cohesion) while creating the perception of individual freedom and self-governance - sometimes in the same TV commercial.
+
+![The Villages Golf Carts](/assets/unit-9/villages-golf-carts.jpg)
+**Figure 8:** Photograph showing golf cart customisation in the villages. 
+
+I would argue that part of the reason this succeeds is the overwhelming scale of The Villages: With 2.400 organised clubs (one for every 65 residents), hundreds of sport facilities and thousands of planned events *a month* (125 on the day of this writing) the developers are able to create an environment in which individual choice seems unlimited. This perception of individual freedom is reinforced through carefully planned pockets of individual expression, such as residents decorating their golf carts (fig. 8) - perhaps analogous to the landscaping and seasonal decorations of Torten. In cases like this, the developer gives up direct design control - though the results are fed back (in the form of developer-sponsored parades and features in developer-funded local media) into the larger "lifestyle experience" the developer creates. 
 
 ## Conclusion
 We've established that "the conflict between individualism and the collectivist ideals of modernism" is twofold, depending on how we frame the issue. Following the feminist critique of modernism, we've seen how the figure of the male hero architect stands in conflict with the egalitarian aims of the modernist movement.  We've seen this conflict played out in Walter Gropius' Dessau-Torten housing settlement, where he makes design decisions to establish his vision of the future, rather than addressing the pragmatic needs of the present.
@@ -244,49 +259,50 @@ I will end by arguing that the contineud transition to a post-industrial economy
 
 > [...] Britons no longer think young people will have a better life than previous generations, with only around one quarter (23 per cent) of adults taking this view. Instead, roughly half (48 per cent) believe that millennials will have a worse life than their parents.
 
-Indeed, emerging writers like Owen Hatherley ("Militant Modernism", 2009) and researchers like Peter Chadwick ("This Brutal World", 2016) are already shaping the conversation around the perception of modernist housing. Though I would take the position that in addition to a re-examination of modernist housing models, entirely new modes of living might be needed. In an economy that relies increasingly on intellectual labour done by an increasingly mobile workforce, perhaps this offhand remark by Gropius might gain new importance:
+Indeed, emerging writers like Owen Hatherley ("Militant Modernism", 2009) and researchers like Peter Chadwick ("This Brutal World", 2016) are already working to change the public perception of modernist housing. Though I would take the position that in addition to a re-examination of modernist housing models, entirely new modes of living might be needed. In an economy that relies increasingly on intellectual labour done by an increasingly mobile workforce, perhaps this offhand remark by Gropius might gain new importance:
 
 > Perhaps "mobile living-shells" ["mobile Wohngehause"], allowing us to take with us all the conveniences of a real [traditional] living standard even through relocations, are no longer too far-fetched a utopia. (Gropius, 1925 p5 )
 
 ## List of Figures
 
-//- **Figure 1:** Aereal photograph of the Dessau Torten settlement today. Unknown photographer, available at: [http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html](http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html)
-//- **Figure 1.5:** Waterfall chart showing the order of construction phases in Dessau Torten, c. 1928. Unknown artsit, Walter Gropius. Available at [https://www.harvardartmuseums.org/collections/object/30157?position=128](https://www.harvardartmuseums.org/collections/object/30157?position=128)
-//- **Figure 1.6:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius. Available at [https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg](https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg)
-//- **Figure 2:** Housing development Dessau Torten, 1926-1928: Row houses under construction. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/53030?position=91](http://www.harvardmuseums.org/collection/object/169050?position=24)
-//- **Figure 3:** Housing development Dessau Torten, 1926-1928: Rooftop view of the garden side of row houses. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/169050?position=24](http://www.harvardmuseums.org/collection/object/169050?position=24)
-//- **Figure 4:** The author, 2017. Photographs showing the variety of front doors in Dessau-Torten [Digital Photographs].
-//- **Figure 5:** The author, 2017. Photograph showing a map indicating points of interest in Dessay-Torten [Digital Photograph].
+- **Figure 1:** Aereal photograph of the Dessau Torten settlement today. Unknown photographer, available at: [http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html](http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html)
+- **Figure 1.5:** Waterfall chart showing the order of construction phases in Dessau Torten, c. 1928. Unknown artsit, Walter Gropius. Available at [https://www.harvardartmuseums.org/collections/object/30157?position=128](https://www.harvardartmuseums.org/collections/object/30157?position=128)
+- **Figure 1.6:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius. Available at [https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg](https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg)
+- **Figure 2:** Housing development Dessau Torten, 1926-1928: Row houses under construction. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/53030?position=91](http://www.harvardmuseums.org/collection/object/169050?position=24)
+- **Figure 3:** Housing development Dessau Torten, 1926-1928: Rooftop view of the garden side of row houses. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/169050?position=24](http://www.harvardmuseums.org/collection/object/169050?position=24)
+- **Figure 4:** The author, 2017. Photographs showing the variety of front doors in Dessau-Torten [Digital Photographs].
+- **Figure 5:** The author, 2017. Photograph showing a map indicating points of interest in Dessay-Torten [Digital Photograph].
+- **Figure 8:** Craig Currie, 2013. Photograph showing customised golf carts as part of the '2013 The Villages Golf Carts Parade'. Available at: https://photonews247.com/tag/christmas-decorated-golf-cart-the-villages-fl/ [Digital Photograph]
 
-//## References
+## References
 
 ### Visits
-//- Bauhaus Dessau. November 4, 2017
-//- Housing Settlement Dessau Torten. November 4-5, 2017.
+- Bauhaus Dessau. November 4, 2017
+- Housing Settlement Dessau Torten. November 4-5, 2017.
 
 ### Online Sources
 
-//- Bauhaus100.de. (2017). *Sommerfeld House, Berlin*. [online] Available at: https://www.bauhaus100.de/en/past/works/architecture/haus-sommerfeld/ [Accessed 16 Nov. 2017].
+- Bauhaus100.de. (2017). *Sommerfeld House, Berlin*. [online] Available at: https://www.bauhaus100.de/en/past/works/architecture/haus-sommerfeld/ [Accessed 16 Nov. 2017].
 
 ### Books, Articles
 
-//- Droste, M. (2015). *Bauhaus*. Köln: Taschen.
-//- Edwards, G. (1985). *GDR society and social institutions*. London: Macmillan.
-//- Engels, H. (2001). *Bauhaus-Architektur*. München: Prestel.
-//- Gropius, W. (1930). *Bauhausbauten Dessau*. München: A. Langen.
-//- Knoll.com. (2017). *Wassily Chair: Knoll*. [online] Available at: https://www.knoll.com/product/wassily-chair [Accessed 16 Nov. 2017].
-//- Meyer, H., Kieren, M. and Lichtenstein, C. (1990). *Hannes Meyer, Architekt, 1889-1954 : Schriften der zwanziger Jahre im Reprint*. Ch-Baden [Switzerland]: Lars Müller.
-//- Schwarting, A. (2009). *"A new and Better World" The Dessau-Torten housing Estate and the Rationalisation of Residental Development*. In: M. Siebenbrodt, J. Wall and K. Weber, ed., Bauhaus: A Conceptual Model. Ostfildern: Hatje Cantz.
-//- Schwarting, A. (2011). *Das Verschwinden der Revolution in der Renovierung*. Berlin: Gebr.Mann Verlag.
-//- Schwarting, A. (2012). *Die Siedlung Dessau-Törten*, 1926 bis 1931. Leipzig: Stiftung Bauhaus Dessau.
-//- Simpson, D. (2015). *The Young-Old: Urban Utopias of an Ageing Society*. Zurich: Lars Muller Publishers
-//- Standard-Mobel Berlin (1927). *Cover, B 3 Club Chair, from "Breuer Metal Furniture"*. [image] Available at: https://www.harvardartmuseums.org/collections/object/53955?position=10 [Accessed 16 Nov. 2017].
-//- Teige, K. and Dluhosch, E. (2002). *The Minimum Dwelling*. Cambridge: The MIT Press.
-//- Wilder, C. (2016). On the Bauhaus Trail in Germany. The New York Times, [online] p.TR1. Available at: https://www.nytimes.com/2016/08/14/travel/bauhaus-germany-art-design.html [Accessed 16 Nov. 2017].
-//- Wilk, C. (2008). *The healthy body Culture* in "Modernism: Designing a New World". London: V&A Publications.
-//- Lodder, C. (2008). *Searching for Utopia* in "Modernism: Designing a New World". London: V&A Publications
-//- Wolfe, T. (1985). *From Bauhaus to our house*. New York: Picador.
-//- Steventon, G. (1996). *Defensible space: A critical review of the theory and practice of a crime prevention strategy*. Urban Design International, Volume 1, 1996.
-//- Becket, A. (2016). *The fall and rise of the council estate*. The Guardian [available at https://www.theguardian.com/society/2016/jul/13/aylesbury-estate-south-london-social-housing]
+- Droste, M. (2015). *Bauhaus*. Köln: Taschen.
+- Edwards, G. (1985). *GDR society and social institutions*. London: Macmillan.
+- Engels, H. (2001). *Bauhaus-Architektur*. München: Prestel.
+- Gropius, W. (1930). *Bauhausbauten Dessau*. München: A. Langen.
+- Knoll.com. (2017). *Wassily Chair: Knoll*. [online] Available at: https://www.knoll.com/product/wassily-chair [Accessed 16 Nov. 2017].
+- Meyer, H., Kieren, M. and Lichtenstein, C. (1990). *Hannes Meyer, Architekt, 1889-1954 : Schriften der zwanziger Jahre im Reprint*. Ch-Baden [Switzerland]: Lars Müller.
+- Schwarting, A. (2009). *"A new and Better World" The Dessau-Torten housing Estate and the Rationalisation of Residental Development*. In: M. Siebenbrodt, J. Wall and K. Weber, ed., Bauhaus: A Conceptual Model. Ostfildern: Hatje Cantz.
+- Schwarting, A. (2011). *Das Verschwinden der Revolution in der Renovierung*. Berlin: Gebr.Mann Verlag.
+- Schwarting, A. (2012). *Die Siedlung Dessau-Törten*, 1926 bis 1931. Leipzig: Stiftung Bauhaus Dessau.
+- Simpson, D. (2015). *The Young-Old: Urban Utopias of an Ageing Society*. Zurich: Lars Muller Publishers
+- Standard-Mobel Berlin (1927). *Cover, B 3 Club Chair, from "Breuer Metal Furniture"*. [image] Available at: https://www.harvardartmuseums.org/collections/object/53955?position=10 [Accessed 16 Nov. 2017].
+- Teige, K. and Dluhosch, E. (2002). *The Minimum Dwelling*. Cambridge: The MIT Press.
+- Wilder, C. (2016). On the Bauhaus Trail in Germany. The New York Times, [online] p.TR1. Available at: https://www.nytimes.com/2016/08/14/travel/bauhaus-germany-art-design.html [Accessed 16 Nov. 2017].
+- Wilk, C. (2008). *The healthy body Culture* in "Modernism: Designing a New World". London: V&A Publications.
+- Lodder, C. (2008). *Searching for Utopia* in "Modernism: Designing a New World". London: V&A Publications
+- Wolfe, T. (1985). *From Bauhaus to our house*. New York: Picador.
+- Steventon, G. (1996). *Defensible space: A critical review of the theory and practice of a crime prevention strategy*. Urban Design International, Volume 1, 1996.
+- Becket, A. (2016). *The fall and rise of the council estate*. The Guardian [available at https://www.theguardian.com/society/2016/jul/13/aylesbury-estate-south-london-social-housing]
 
 [Working Bibliography](https://docs.google.com/spreadsheets/d/e/2PACX-1vTq5ZS3tXh968wpGc0dGZl-6LfgrdHeuTvKjCh4i--em5lspsC-q3ICF7FrK3HlGEtE0Qih9OEtRkyX/pubhtml)

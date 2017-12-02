@@ -211,14 +211,20 @@ Indeed, emerging writers like Owen Hatherley ("Militant Modernism", 2009) and re
 
 ## List of Figures
 
-- **Figure 1:** Aereal photograph of the Dessau-Törten settlement today. Unknown photographer, available at: [http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html](http://www.bauhaus-dessau.de/en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate.html)
-- **Figure 1.5:** Waterfall chart showing the order of construction phases in Dessau-Törten, c. 1928. Unknown artsit, Walter Gropius. Available at [https://www.harvardartmuseums.org/collections/object/30157?position=128](https://www.harvardartmuseums.org/collections/object/30157?position=128)
-- **Figure 1.6:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius. Available at [https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg](https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg)
-- **Figure 2:** Housing development Dessau-Törten, 1926-1928: Row houses under construction. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/53030?position=91](http://www.harvardmuseums.org/collection/object/169050?position=24)
-- **Figure 3:** Housing development Dessau-Törten, 1926-1928: Rooftop view of the garden side of row houses. Unknown photographer, available at: [http://www.harvardmuseums.org/collection/object/169050?position=24](http://www.harvardmuseums.org/collection/object/169050?position=24)
-- **Figure 4:** The author, 2017. Photographs showing the variety of front doors in Dessau-Törten [Digital Photographs].
-- **Figure 5:** The author, 2017. Photograph showing a map indicating points of interest in Dessay-Törten [Digital Photograph].
-- **Figure 8:** Craig Currie, 2013. Photograph showing customised golf carts as part of the '2013 The Villages Golf Carts Parade'. Available at: https://photonews247.com/tag/christmas-decorated-golf-cart-the-villages-fl/ [Digital Photograph]
+- **Figure 1:** Hans Richter (1930). *Die Neue Wohnung* [Video Stills].  Available at: [https://www.youtube.com/watch?v=gAUhQHRANj4] (Accessed November 17, 2017) 
+- **Figure 2:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artsit, Walter Gropius. Available at [https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg](https://www.tuwien.ac.at/fileadmin/t/tuwien/fotos/forschung/nachrichten_orig/forschnach_orig/baukasten/grafik_gropius.jpg)
+- **Figure 3:** Unidentified Photographer (ca. 1926). *Housing Development, Dessau-Törten* [Photograph]. Available at: [https://www.harvardartmuseums.org/collections/object/52799?position=65] (Accessed November 17, 2017)
+- **Figure 4:** Unidentified Artist (ca. 1928). *Waterfall chart showing the order of construction phases in Dessau-Törten* [Chart]. Available at [https://www.harvardartmuseums.org/collections/object/30157?position=128] (Accessed November 20, 2017)
+- **Figure 5:** Unidentified Photographer (ca. 1928). *Housing development Dessau-Törten: Rooftop view of the garden side of row houses* [Photograph]. Available at: [http://www.harvardmuseums.org/collection/object/169050?position=24] (Accessed November 20, 2017)
+- **Figure 6:** Unidentified Photographer (ca. 1926). *Housing development Dessau-Törten: Row houses under construction* [Photograph]. Available at: [http://www.harvardmuseums.org/collection/object/53030?position=91] (Accessed November 12, 2017)
+- **Figure 7:** Unidentified Photographer (ca. 1965). *Row houses in Dessau-Törten* [Photograph] in Schwarting, A (2011) *Das Verschwinden der Revolution in der Renovierung*. Berlin: Gebr. Mann Verlag, page 58.
+- **Figure 8:** The author (2017). *Example of a typical row house in Dessau-Törten* [Digital Photograph].
+- **Figure 9:** The author (2017). *Example of a typical row house in Dessau-Törten* [Digital Photograph].
+- **Figure 10:** The author (2017). *Example of a typical row house in Dessau-Törten* [Digital Photograph].
+- **Figure 11:** The author (2017). *Example of a typical row house in Dessau-Törten* [Digital Photograph].
+- **Figure 12:** The author (2017). *Composite photograph showing examples of front doors in Dessau-Törten* [Digital Photographs, Composite].
+- **Figure 13:** The author (2017). *Signage in Dessau-Törten* [Digital Photograph].
+- **Figure 14:** Currie, C. (2013). *Customised golf carts as part of the '2013 The Villages Golf Carts Parade'* [Digital Photograph]. Available at: [https://photonews247.com/tag/christmas-decorated-golf-cart-the-villages-fl/] (Accessed November 27, 2017)
 
 ## References
 

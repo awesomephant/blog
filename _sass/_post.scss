@@ -23,6 +23,13 @@
 }
 
 .post-intro {
+	font-family: $sans;
+	margin-top: -1.5rem;
+	padding-bottom: 2rem;
+	@include bp(m){
+		line-height: 1.45;
+		font-size: 1.6rem;
+	}
 }
 
 .post-title {
@@ -55,9 +62,10 @@
 	background: white;	
 	font-weight: 600;
 	padding-left: 1rem;
+	padding-bottom: 3rem;
 	font-size: 16px;
 	@include bp(m){
-		font-size: 18px;
+		font-size: 19px;
 	}
 	line-height: 1.54;
 
@@ -71,6 +79,9 @@
 	p, ul, ol {
 		color: $black;
 		margin-bottom: 1rem;
+		code {
+			font-size: .95rem;
+		}
 	}
 	
 	ol, ul {
@@ -157,7 +168,7 @@
 	}
 }
 code {
-	color: $black;
+	color: $green;
 }
 
 pre.highlight {
@@ -165,7 +176,7 @@ pre.highlight {
 	padding: .5rem;
 	margin-bottom: 1rem;
 	font-size: .9rem;
-	white-space: pre-line;
+	white-space: pre;
 }
 
 .gallery p{

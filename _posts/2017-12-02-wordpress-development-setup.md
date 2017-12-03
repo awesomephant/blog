@@ -33,7 +33,7 @@ my-site:
   
 ```
 
-Then you run ``vagrant up --provision``, which goes through your ``vvv-custom.yml`` file and sets up a fresh Wordpress install for each site you've configured. 
+[The documentation goes into more detail on this](https://varyingvagrantvagrants.org/docs/en-US/adding-a-new-site/). Then you run ``vagrant up --provision``, which goes through your ``vvv-custom.yml`` file and sets up a fresh Wordpress install for each site you've configured. 
 
 The default domain extension used to be ``.dev``, but apparently [Google has bought that](https://github.com/Varying-Vagrant-Vagrants/VVV/issues/583), which leads to all sorts of problems. I have a bunch of sites still configured to ``.dev`` domains, but it looks like [the migration is non-trivial](https://github.com/Varying-Vagrant-Vagrants/VVV/issues/583#issuecomment-332046448). So I'm going to leave my existing sites for now until something breaks.
 

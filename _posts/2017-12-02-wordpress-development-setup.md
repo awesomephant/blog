@@ -82,3 +82,4 @@ wp core update ; wp plugin update --all; wp theme update --all
 ## Todo
 
 - While my themes are on Github, I haven't found a compelling way to deploy from there. Might be worth just paying for a service like [FTPloy](https://ftploy.com/) that does it for you.
+- I will need to buy [WP Migrate DB Pro](https://deliciousbrains.com/wp-migrate-db-pro/) at some point to migrate data between my local Wordpress install and the live version. 

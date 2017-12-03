@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A designer's guide to GraphicsMagick"
+title:  "Notes on GraphicsMagick"
 date: 2016-09-14 10:01:32
 tags: ""
 thumb: ""

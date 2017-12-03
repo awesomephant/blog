@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A nice Wordpress dev setup"
+title:  "A nice Wordpress Development Setup"
 date: 2017-12-03 22:00:00
 tags: ""
 thumb: ""

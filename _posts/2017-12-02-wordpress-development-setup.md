@@ -18,7 +18,7 @@ All my projects run on [VVV](https://varyingvagrantvagrants.org/), which (as far
 vagrant up
 ```
 
-which spins up a virtual machine with a special Unix version that has all the stuff Wordpress needs to function - PHP, MySQL and whatever else.
+which spins up a virtual machine with a special Unix version that has all the stuff Wordpress needs to function - PHP, MySQL and whatever else. [Updating VVV can be a bit finicky](https://wpbeaches.com/update-varying-vagrant-vagrants-vvv/).
 
 To start a new Wordpress project, you open the ``vvv-custom.yml`` file and add an entry like this:
 

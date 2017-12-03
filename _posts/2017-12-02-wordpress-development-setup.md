@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "A nice Wordpress Development Setup"
+title:  "A Nice Wordpress Development Setup"
 date: 2017-12-03 22:00:00
 tags: ""
 thumb: ""
-intro: "I've been doing quite a few Wordpress sites for people lately, so I spent some time making sure I have a good development setup."
+intro: "I've been doing quite a few Wordpress sites for people lately, so I spent some time making sure I my development setup is still good to go. I'm mostly writing this for my own documentation, but maybe there's some useful bits in here for you, too."
 ---
 
-I'm mostly writing this for my own documentation, but maybe there's some useful bits in here for you, too.
-
-This setup is all command line based, but once you get used to it's **much** nicer than the [XAMPP](https://www.apachefriends.org/index.html)-based workflow I had before.
+This setup is all command line based, but once you get used to it's *much* nicer than the [XAMPP](https://www.apachefriends.org/index.html)-based workflow I had before.
 
 
 ### VVV
@@ -30,7 +28,6 @@ my-site:
     site_title: "My Cool Website"
     hosts:
         - my-cool-site.test
-  
 ```
 
 [The documentation goes into more detail on this](https://varyingvagrantvagrants.org/docs/en-US/adding-a-new-site/). Then you run ``vagrant up --provision``, which goes through your ``vvv-custom.yml`` file and sets up a fresh Wordpress install for each site you've configured. 
@@ -58,7 +55,7 @@ Works like a charm.
 
 ## Updating Wordpress using WP-CLI
 
-Another neat thing you can do is update plugins, themes and Wordpress itself right from the command line. That feels much nicer to me than clicking around the Wordpress admin.
+Another neat thing you can do is update plugins, themes and Wordpress itself right from the command line using [WP-CLI](http://wp-cli.org/). That feels much nicer to me than clicking around the Wordpress admin.
 
 The first thing you need to do is ``ssh`` into your virtual machine:
 
@@ -72,7 +69,7 @@ On my Windows machine I have to do this in Git Bash because that comes with an S
 cd /vagrant/www/my-cool-site/
 ```
 
-On my Windows machine the ``/vagrant`` folder is invisible for some reason, i.e. it doesn't show up when you do ``ls``. [This seems to be a known issue](https://stackoverflow.com/questions/28999137/cannot-see-any-files-or-folders-inside-my-vagrant-root-folder-in-my-vm), but it's no big deal since you can still ``cd`` into it.
+On my Windows machine the ``/vagrant`` folder is invisible for some reason, i.e. it doesn't show up when you run ``ls``. [This seems to be a known issue](https://stackoverflow.com/questions/28999137/cannot-see-any-files-or-folders-inside-my-vagrant-root-folder-in-my-vm), but it's no big deal since you can still ``cd`` into it.
 
 Then you can run this and walk away while your site updates itself:
 

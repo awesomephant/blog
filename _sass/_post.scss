@@ -34,12 +34,11 @@
 
 .post-title {
 	margin-bottom: 2rem;
-	font-weight: 900;
+	font-weight: 500;
 	font-size: 1.5rem;
 	line-height: 1.2;
 	@include bp(m){
-		font-size: 2.5rem;
-		letter-spacing: -.01em;
+		font-size: 2.4rem;
 	}
 }
 
@@ -108,7 +107,7 @@
 		margin-top: 1rem;
 		font-family: $sans;
 		margin-bottom: .25rem;
-		font-weight: 600;
+		font-weight: 500;
 		font-size: 1.1em;
 	}
 	

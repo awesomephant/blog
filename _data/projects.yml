@@ -29,7 +29,7 @@
   desc: Design, content strategy and Wordpress development of a new, expanded website for South-London based gallery Assembly Point.
 
 - title: "Pygmalion's Spectacles"
-  url: 'http://www.maxkoehler.com/vr-lab/app/room.html'
+  url: './work/vr-spectacles'
   year: 2017
   image: 'vr-preview.mp4'
   desc: An exploration of web-based virtual reality for my final project at Camberwell College of Arts.

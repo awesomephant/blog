@@ -52,8 +52,11 @@ sup {
 	}
 	a {
 		text-decoration: none;
+		display: inline-block;
+		border-bottom: 1px solid;
+		transition: 300ms;
 		&:hover, &:focus {
-			text-decoration: line-through;
+			transform: translateY(-2px)
 		}
 	}
 }

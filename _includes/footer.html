@@ -2,25 +2,8 @@
 	function getRandomInt(min, max) {
 		return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
-	var insertAfter = function (newNode, referenceNode) {
-		referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-	}
-	var linksToFootnotes = function () {
-		var links = document.querySelectorAll('.post a')
-		var post = document.querySelector('.post');
-		var footnotes = '';
-		if (links && post) {
-			for (var i = 0; i < links.length; i++) {
-				footnotes += '<li>' + links[i].getAttribute('href') + '</li>';
-				var text = links[i].innerHTML;
-				links[i].innerHTML = text + '<sup class="ref">' + i + '</sup>';
-			}
-			var el = document.createElement('ul')
-			el.classList.add('print-footnotes')
-			el.innerHTML = footnotes;
-			insertAfter(el, post)
-		}
-	}
-	linksToFootnotes();
-
+	document.addEventListener('DOMContentLoaded', function(){
+		var header = document.querySelector('.site-header');
+		header.style.color = randomColor();
+	}, false);
 </script>

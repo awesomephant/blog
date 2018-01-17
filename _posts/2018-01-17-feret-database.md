@@ -35,3 +35,9 @@ The way you get this database is *emailing the US department of defence*. Once y
 I'm not sure what I'm going to do with these images. I could use them to train a neural network, but they're also an interesting artifact in themselves. They're essentially a time capsule from the campus of [George Mason University](https://www2.gmu.edu/) in the 1990s - 90s haircuts etc. I also like the idea that these are images only ever intended for machines to look at. Also the fact that these are basically scientific documents created for a government agency, yet some of them are surprisingly artisitic.
 
 It reminds me of [Evidence (1977)](http://larrysultan.com/gallery/evidence/) by Larry Sultan an Mike Mandel, where they took NASA research photographs, took them out of their original context and put them in a new order that tells a story.
+
+## January 15, 2018
+
+Turns out [Trevor Paglen](http://www.paglen.com/) did some [work on the FERET images very recently](https://qz.com/1103545/macarthur-genius-trevor-paglen-reveals-what-ai-sees-in-the-human-world/). The exhibition also includes machine-generated images and some original photography - all very succesful. I'll try and get an exhibition catalogue.
+
+Paglen has been doing this work for a while. Other projects of his include [Invisible : covert operations and classified landscapes](https://libsearch.arts.ac.uk/cgi-bin/koha/opac-detail.pl?biblionumber=235160&query_desc=), a book on restricted government sites. Also [Blank Spots on the Map](https://books.google.co.uk/books/about/Blank_Spots_on_the_Map.html?id=oM8u2198DcsC&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false), which is about how governments manipulate maps to hide what they're doing. 

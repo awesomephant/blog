@@ -41,3 +41,29 @@ It reminds me of [Evidence (1977)](http://larrysultan.com/gallery/evidence/) by 
 Turns out [Trevor Paglen](http://www.paglen.com/) did some [work on the FERET images very recently](https://qz.com/1103545/macarthur-genius-trevor-paglen-reveals-what-ai-sees-in-the-human-world/). The exhibition also includes machine-generated images and some original photography - all very succesful. I'll try and get an exhibition catalogue.
 
 Paglen has been doing this work for a while. Other projects of his include [Invisible : covert operations and classified landscapes](https://libsearch.arts.ac.uk/cgi-bin/koha/opac-detail.pl?biblionumber=235160&query_desc=), a book on restricted government sites. Also [Blank Spots on the Map](https://books.google.co.uk/books/about/Blank_Spots_on_the_Map.html?id=oM8u2198DcsC&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false), which is about how governments manipulate maps to hide what they're doing. 
+
+## January 16, 2018
+
+### Readings
+
+- Paglen, T. (2016), *[Invisible Images (Your Pictures Are Looking at You)](https://thenewinquiry.com/invisible-images-your-pictures-are-looking-at-you/)*
+- Flusser, V. (1984), *[Towards A Philosophy Of Photography](https://archive.org/details/FlusserVilemTowardsAPhilosophyOfPhotography1984)*
+- Starnes, S. (2017), *[TREVOR PAGLEN: A Study of Invisible Images](https://brooklynrail.org/2017/10/artseen/TREVOR-PAGLEN-A-Study-of-Invisible-Things)*
+
+Tracey suggests I go see an exhibition called [Metadata - How we relate to images](http://www.arts.ac.uk/csm/whats-on-at-csm/lethaby-gallery/metadata/) at CSM - I've scheduled for Saturday.
+
+I've spent some more time with the FERET database, going through the images, printing some of them and reading some of the related government reports:
+
+- Phillips, Moon, Rizvi, Rauss (1999), *[The FERET Evaluation Methodology for Face-Recognition
+Algorithms](http://ai2-s2-pdfs.s3.amazonaws.com/0f0f/cf041559703998abf310e56f8a2f90ee6f21.pdf)*
+- Phillips, Rauss, Der (1996), *FERET (Face Recognition Technology) Recognition Algorithm Development and Test Results*
+
+The 1996 paper points out:
+
+> Some questions were rasied about the age, racial, and sexual distribution of the database. However, at this stage of the program, the key issue was algorithm performance on a database of a large number of individuals.
+
+This might be an area worth exploring. The photos were collected by GMU, suggesting that most of the volunteers are probably students and university staff. In some sense the whole history of institutional recism and sexism might be baked into this database?
+
+Might be good to run some analytics on gender / age / race distribution of the databse.
+
+I'm still interested in how exactly these photography sessions were conducted - how did they recruit volunteers, whose office was turned into a studio, what did people at the time say about the program etc.

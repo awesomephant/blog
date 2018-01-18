@@ -30,9 +30,13 @@ I got my hands on something called the *FERET Database*. This is a collection of
 
 The way you get this database is *emailing the US department of defence*. Once you do, they give you login details to download the database. It comes in a weird 90s format, so I had to spend some time extracting and converting the images so I could look at them.
 
-(Not sure if I can reproduce some images here)
+![FERET Images](/assets/ml/feret-grid.jpg)
+Example images from the FERET database
 
 I'm not sure what I'm going to do with these images. I could use them to train a neural network, but they're also an interesting artifact in themselves. They're essentially a time capsule from the campus of [George Mason University](https://www2.gmu.edu/) in the 1990s - 90s haircuts etc. I also like the idea that these are images only ever intended for machines to look at. Also the fact that these are basically scientific documents created for a government agency, yet some of them are surprisingly artisitic.
+
+![Evidence](/assets/ml/evidence-1977.jpg)
+Evidence (1977) by Larry Sultan and Mike Mandel. [Image Source](http://larrysultan.com/archives/wp-content/uploads/2013/06/EV_PP32_SULTAN_MANDEL_1977.jpg)
 
 It reminds me of [Evidence (1977)](http://larrysultan.com/gallery/evidence/) by Larry Sultan an Mike Mandel, where they took NASA research photographs, took them out of their original context and put them in a new order that tells a story.
 

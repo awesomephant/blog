@@ -98,3 +98,8 @@ He makes the point that places like Facebook are closely modelled on traditional
 He closes by saying that the long-term solution to this needs to be regulation - "hacks" that might be effective against recognition algorithms today will loose their effectiveness over time. 
 
 > We no longer look at images - images look at us. They no longer simply represent things, but actively intervene in everyday life. We must begin to understand these changes if we are to challenge the exceptional forms of power flowing through the invisible visual culture that we find ourselves emeshed within.
+
+Segune suggests two additional readings on photographic archives (after seeing the FERET images): 
+
+- Enwezor, O. (2008), *[Archive Fever: Photography between History and the Monument](http://moodle.arts.ac.uk/pluginfile.php?forcedownload=1&file=%2F%2F520513%2Fblock_quickmail%2Fattachment_log%2F172019%2Fenwezor-archive.pdf)*
+- Foster, H. (2004), *[An Archival Impulse ](http://moodle.arts.ac.uk/pluginfile.php?forcedownload=1&file=%2F%2F520513%2Fblock_quickmail%2Fattachment_log%2F172019%2FHal%20Foster_archival%20impulse.pdf)*

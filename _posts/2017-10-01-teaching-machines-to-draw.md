@@ -212,4 +212,4 @@ Emma suggests I look at [Wind Drawings by Cameron Robbins](http://cameronrobbins
 
 > The Wind Drawing Machines are installed in different locations to receive weather energy and translate it into an abstract format of ink drawings on paper. [...] The machines respond to wind speed and wind direction, and allow rain and sun to also play on the drawings. The principle employed here is that the wind direction orients a swiveling drawing board connected to a wind vane, while the wind speed drives a pen on a wire arm around in a cyclical motion. 
 
-I like the notion that these are abstract drawings, but also in some sense a very accurate record of a specific place at a certain time. Similar maybe to [Sam Winston's work](http://www.samwinston.com/projects/).
+I like the notion that these are abstract drawings, but also in some sense a very accurate record of a specific place at a certain time. Similar maybe to [Sam Winston's work](http://www.samwinston.com/projects/). The first thing I thought of was doing something with [Met Office Data](https://www.metoffice.gov.uk/datapoint/product/list), but that seems contrived.

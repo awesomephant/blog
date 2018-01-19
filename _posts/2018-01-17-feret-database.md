@@ -83,6 +83,11 @@ I'm still interested in how exactly these photography sessions were conducted - 
 - Pinheiro, Collobert, Dollar (2015), *[Learning to Segment Object Candidates
 ](https://arxiv.org/pdf/1506.06204.pdf)*
 
+Segune suggests two additional readings on photographic archives (after seeing the FERET images): 
+
+- Enwezor, O. (2008), *[Archive Fever: Photography between History and the Monument](http://moodle.arts.ac.uk/pluginfile.php?forcedownload=1&file=%2F%2F520513%2Fblock_quickmail%2Fattachment_log%2F172019%2Fenwezor-archive.pdf)*
+- Foster, H. (2004), *[An Archival Impulse ](http://moodle.arts.ac.uk/pluginfile.php?forcedownload=1&file=%2F%2F520513%2Fblock_quickmail%2Fattachment_log%2F172019%2FHal%20Foster_archival%20impulse.pdf)*
+
 ### Some notes on "Invisible Images (Your Pictures are Looking at You)"
 
 On a basic level, Paglen argues that existing models of visual culture are becoming less relevant because the vast majority of images are now created by machines for other machines. This has to do with the fact that a digital image is *primarily* machine-readable. You can only make it visible to human eyes for a brief moment using additional software, screens etc. 
@@ -98,8 +103,3 @@ He makes the point that places like Facebook are closely modelled on traditional
 He closes by saying that the long-term solution to this needs to be regulation - "hacks" that might be effective against recognition algorithms today will loose their effectiveness over time. 
 
 > We no longer look at images - images look at us. They no longer simply represent things, but actively intervene in everyday life. We must begin to understand these changes if we are to challenge the exceptional forms of power flowing through the invisible visual culture that we find ourselves emeshed within.
-
-Segune suggests two additional readings on photographic archives (after seeing the FERET images): 
-
-- Enwezor, O. (2008), *[Archive Fever: Photography between History and the Monument](http://moodle.arts.ac.uk/pluginfile.php?forcedownload=1&file=%2F%2F520513%2Fblock_quickmail%2Fattachment_log%2F172019%2Fenwezor-archive.pdf)*
-- Foster, H. (2004), *[An Archival Impulse ](http://moodle.arts.ac.uk/pluginfile.php?forcedownload=1&file=%2F%2F520513%2Fblock_quickmail%2Fattachment_log%2F172019%2FHal%20Foster_archival%20impulse.pdf)*

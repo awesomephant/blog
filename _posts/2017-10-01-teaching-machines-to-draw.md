@@ -205,3 +205,11 @@ Here's some of the images I made on the drawing machine this week. Most of were 
 ![Machine drawing 7](/assets/unit-10/week-1/machine-drawing-7.jpg)
 ![Machine drawing 8](/assets/unit-10/week-1/machine-drawing-8.jpg)
 </div>
+
+## January 19, 2018
+
+Emma suggests I look at [Wind Drawings by Cameron Robbins](http://cameronrobbins.com/wind-drawings/). As he describes it, 
+
+> The Wind Drawing Machines are installed in different locations to receive weather energy and translate it into an abstract format of ink drawings on paper. [...] The machines respond to wind speed and wind direction, and allow rain and sun to also play on the drawings. The principle employed here is that the wind direction orients a swiveling drawing board connected to a wind vane, while the wind speed drives a pen on a wire arm around in a cyclical motion. 
+
+I like the notion that these are abstract drawings, but also in some sense a very accurate record of a specific place at a certain time. Similar maybe to [Sam Winston's work](http://www.samwinston.com/projects/).

@@ -86,9 +86,14 @@ I'm still interested in how exactly these photography sessions were conducted - 
 Segune suggests two additional readings on photographic archives (after seeing the FERET images): 
 
 - Enwezor, O. (2008), *[Archive Fever: Photography between History and the Monument](http://moodle.arts.ac.uk/pluginfile.php?forcedownload=1&file=%2F%2F520513%2Fblock_quickmail%2Fattachment_log%2F172019%2Fenwezor-archive.pdf)*
-- Foster, H. (2004), *[An Archival Impulse ](http://moodle.arts.ac.uk/pluginfile.php?forcedownload=1&file=%2F%2F520513%2Fblock_quickmail%2Fattachment_log%2F172019%2FHal%20Foster_archival%20impulse.pdf)*
+- Foster, H. (2004), *[An Archival Impulse](http://moodle.arts.ac.uk/pluginfile.php?forcedownload=1&file=%2F%2F520513%2Fblock_quickmail%2Fattachment_log%2F172019%2FHal%20Foster_archival%20impulse.pdf)*
 
-### Some notes on "Invisible Images (Your Pictures are Looking at You)"
+![Installation view of 48 Portraits by Gerhardt Richter](/assets/ml/richter.jpg)
+[Tate Modern](http://www.tate.org.uk/art/artworks/richter-48-portraits-ar00025)
+
+She also points out [48 Portraits (1971-98)](http://www.tate.org.uk/art/artworks/richter-48-portraits-ar00025) by Gerhardt Richter.
+
+### Notes on "Invisible Images (Your Pictures are Looking at You)"
 
 On a basic level, Paglen argues that existing models of visual culture are becoming less relevant because the vast majority of images are now created by machines for other machines. This has to do with the fact that a digital image is *primarily* machine-readable. You can only make it visible to human eyes for a brief moment using additional software, screens etc. 
 
@@ -103,3 +108,30 @@ He makes the point that places like Facebook are closely modelled on traditional
 He closes by saying that the long-term solution to this needs to be regulation - "hacks" that might be effective against recognition algorithms today will loose their effectiveness over time. 
 
 > We no longer look at images - images look at us. They no longer simply represent things, but actively intervene in everyday life. We must begin to understand these changes if we are to challenge the exceptional forms of power flowing through the invisible visual culture that we find ourselves emeshed within.
+
+## January 20th, 2018
+
+### Notes on Segune's Readings
+
+(She suggested these [a few days ago](#january-17-2018))
+
+#### Archive Fever: Photography between History and the Monument
+
+This cites an essay called [The Body and the Archive (1986)](https://www.jstor.org/stable/pdf/778312.pdf?refreqid=excelsior%3A53f6ebc3ba7c0f02e549d2dd321beee4) by Allan Sekula, which talks about how photographic archives have been used as "an instrument of social control an differentiation underwritten by dubious scientific principles".
+
+![Bertillon Archive](/assets/ml/bertillon.jpg)
+[The Metropolitan Museum of Art](https://www.metmuseum.org/art/collection/search/289245?sortBy=Relevance&amp;ft=alphonse+bertillon&amp;offset=0&amp;rpp=20&amp;pos=1)
+
+Sekula talks about [Alphonse Bertillon](https://en.wikipedia.org/wiki/Alphonse_Bertillon), a French policeman who created a huge bullshit system to classify criminals based on their photographs of their faces. [The Met](https://www.metmuseum.org/art/collection#!?q=alphonse%20bertillon&perPage=20&sortBy=Relevance&sortOrder=asc&offset=0&pageSize=0) seems to have a good collection of his stuff. The Science Museum has some of the [instruments he used to measure various facial features](http://collection.sciencemuseum.org.uk/search?q=Bertillon).
+
+Similar archival projects to classify people along racial lines (The nazis were big fans).
+
+> Their projects, Sekula writes, "constitute two methoological poles of the positivist attempts to define and regulate social deviance" The criminal (for Bertillon) and the racially inferior (for Galton) exist in the netherworld of the photographic archive, and when they do assume a prominent place in that archive, it is only to dissociate them, to insist on and illuminate their difference, their archival apartness from normal society
+
+Enwezor goes on to describe a number of examples where archives are used as a way to conserve power, present existing systems of oppression as natural etc. 
+
+- The Bush administration collected a huge archive of Iraqi documents, phone conversations, emails ("Intelligence") in the hopes of finding proof of WMD. When they couldn't find any, they made up a document showing that Iraq bought yellow cake.
+- Colonial Britain was obsessed with collecting records of all sorts - they fill places like the British Museum, the NHM etc. This was a way for Britain to establish control over far-away countries.
+
+#### An Archival Impulse
+

@@ -48,6 +48,12 @@ body {
 }
 
 // What follows are workarounds for $(first())
+.project-list > a[data-year='2018'] .project-year {
+    display: inline-block;
+}
+.project-list > a[data-year='2018'] ~ a[data-year='2018'] .project-year {
+	display: none;
+}
 .project-list > a[data-year='2017'] .project-year {
     display: inline-block;
 }

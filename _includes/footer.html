@@ -17,5 +17,13 @@
 			headlines[i].appendChild(link)
 		}
 
+		let paragraphs = document.querySelectorAll('.post-content p');
+		for (let i = 0; i < paragraphs.length; i++){
+			let image = paragraphs[i].querySelector('img');
+			if (image){
+				paragraphs[i].classList.add('hasimage')
+			}
+		}
+
 	}, false);
 </script>

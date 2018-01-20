@@ -202,6 +202,21 @@ pre.highlight {
 	}
 }
 
+.post-jumplink {
+	opacity: 0;
+	color: gray;
+	padding-left: .5rem;
+	text-decoration: none;
+	transition: $fast;
+	h2:hover &, &:focus {
+		opacity: .8;
+	}
+	&:hover, &:focus {
+		text-decoration: none;
+		color: darken(gray, 8)
+	}
+}
+
 .ref {
 	display: none;
 }

@@ -79,6 +79,28 @@ gm montage -tile 5x5 -geometry 250x250+5+5 *.jpg grid.jpg
 ```-tile``` specifies how many columns and rows the montage should have. 
 ```-geometry``` defines the dimensions of each individual image in the montage and the spacing around it - in this case 250px by 250x with 5px spacing on either side.
 
+## RGB to CMYK Separations
+
+I've written a batch script based on [this Stack Overflow answer](https://stackoverflow.com/questions/32662618/need-to-generate-separate-cmyk-images-in-color-from-pdf):
+
+```
+gm convert %1.jpg -colorspace CMYK %1-cmyk.jpg
+gm convert %1-cmyk.jpg -operator All negate 1 %1-cmyk.jpg
+
+gm convert %1-cmyk.jpg -channel Cyan %1-cyan.png
+gm convert %1-cmyk.jpg -channel Yellow %1-yellow.png
+gm convert %1-cmyk.jpg -channel Magenta %1-magenta.png
+gm convert %1-cmyk.jpg -channel Black %1-key.png
+```
+
+Usage:
+
+```
+rgbToCMYK.bat myImage
+```
+
+Where ```myImage``` is the filename _without the file extension_.
+
 ## The coolest thing: You can combine any of these commands
 This is the great thing about command-line tools like this: They don't make any assumptions about what you are going to use them for. So you could combine any of these commands ([and many more](http://www.graphicsmagick.org/GraphicsMagick.html)) in any order you liked with just a few keystrokes.
 

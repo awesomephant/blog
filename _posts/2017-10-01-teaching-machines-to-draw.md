@@ -206,6 +206,10 @@ Here's some of the images I made on the drawing machine this week. Most of were 
 ![Machine drawing 8](/assets/unit-10/week-1/machine-drawing-8.jpg)
 </div>
 
+## December 20, 2017
+
+TODO instagram images
+
 ## January 19, 2018
 
 Emma suggests I look at [Wind Drawings by Cameron Robbins](http://cameronrobbins.com/wind-drawings/). As he describes it, 
@@ -213,3 +217,64 @@ Emma suggests I look at [Wind Drawings by Cameron Robbins](http://cameronrobbins
 > The Wind Drawing Machines are installed in different locations to receive weather energy and translate it into an abstract format of ink drawings on paper. [...] The machines respond to wind speed and wind direction, and allow rain and sun to also play on the drawings. The principle employed here is that the wind direction orients a swiveling drawing board connected to a wind vane, while the wind speed drives a pen on a wire arm around in a cyclical motion. 
 
 I like the notion that these are abstract drawings, but also in some sense a very accurate record of a specific place at a certain time. Similar maybe to [Sam Winston's work](http://www.samwinston.com/projects/). The first thing I thought of was doing something with [Met Office Data](https://www.metoffice.gov.uk/datapoint/product/list), but that seems contrived.
+
+## January 24, 2018
+
+TODO Random pixel shading
+
+## January 25, 2018
+
+TODO Random pixel shading layering
+
+## January 26, 2018
+
+I managed to source some [CMYK ballpoints](https://www.amazon.co.uk/gp/product/B01LY6W4MW/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1). Unfortunately, they only come in a pack of 20 together with 4 other colours that are less useful. Here's the first four-colour drawing I did, using the randomized pixel method: 
+
+Here's one using regular pixels, using [this Warhol print] (Primarily because it has bright colours, secondly because it continues the tradition of using communist leaders as test subjects):
+
+I prefer the second one a lot. Each pixel is inked much more evenly, leading to cleaner colours. The square pixels also make it easier to align each layer, although getting it perfect seems pretty difficult. I did, however, run this drawing at quarter step to save time, so there should be room for improvement if I'm willing to wait twice as long. Having developed this method of layering colours on top of each other, I'm now effectively screenprinting (as opposed to doing line drawings).
+
+Some more insights from this test:
+
+- As with earlier layered drawings, it's best to reduce the density of each layer. Otherwise you end up with thick blotches of ink with no added detail. This has the added benefit of speeding up drawing time.
+- I printed CMYK in that order because that's how it's done in normal printing.
+- As Jake points out, the colour mixing in CMYK comes from a combination of overprinting and optical mixing. In the above test, the colours seem to be pretty accurate. 
+
+## January 28, 2018: Another Drawing Machine
+
+Over the weeked I made the decision to build another drawing machine. I've been struggling for ages to find some sort of "interactive mode" for the original drawing machine. I tried building some sort of shape recognition software that would allow you to draw shapes and have the machine interpret them. I also talked about building a language-processing system that would allow people to write Sol Lewitt-style instructions and have the machine interpret them. None of that seemed too promising. 
+
+So the solution is to build a second drawing machine, one that is designed to be an interactive installation. It's going to look something like this: 
+
+I've already written some of the [control code](https://github.com/awesomephant/sineMachine). I'm using socket.io to display the function graphs in real time. 
+
+I'll need the following parts:
+
+- 2x NEMA 17 Stepper
+- 2x NEMA 17 mounting bracket
+- 2x Stepper Driver (Easydriver)
+- 12V Power supply
+- Breadboard barrel jack
+- 6x Potentiometer (ie. knobs)
+- 10x Binary Switch
+- Jumper wire
+- Breadboards
+- Arduino Uno (Another One)
+- A wooden plank to mount everything on
+- A wooden board to become the control panel
+- Fishing line
+- Various fixings
+
+Things I'm not sure about yet:
+
+- How do I mount a pen to the thing?
+- How do I attach the fishing line to the motor shafts?
+- How do I attach the drawing machine to the wall in such a way that the pen is in contact with the paper?
+
+## January 29, 2018
+
+I've started construction on the second drawing machine. I'm using a wooden clipboard from the college art shop for the control panel - seems appropriately improvised. Apparently I'm the first person to ever buy one of these in the art shop - it took them about 5 minutes to find the price in the register.
+
+I drilled holes to mount six potentiometers and wired them to the Arduino's analogue inputs:
+
+Then I plugged their readings into the code for the sine functions, and to my amazement it worked on the first try. You can twist the knobs and watch the curves on the screen change in real time. *Insert mad scientist laughter here*. There seems to be some interference between some of the potentiometers - manipulating one changes the readings of other ones in the series. Apparently this is because [some of them have too much resistance](http://forum.arduino.cc/index.php?topic=18874.0). I'll replace and see if that's fixes it.

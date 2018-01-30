@@ -135,3 +135,20 @@ Enwezor goes on to describe a number of examples where archives are used as a wa
 
 #### An Archival Impulse
 
+## January 24, 2018
+TODO CSM metadata show
+
+## January 25, 2018
+
+TODO Spoke to segune about feret images
+
+## January 26, 2018
+
+TODO Jak tutorial, discussed ways of presenting face images
+
+## January 27, 2018
+
+TODO decided to print feret images, looks like its expenive, need to talk to techinician, emailed tracey
+
+## January 29, 2018
+TODO Peer assesment

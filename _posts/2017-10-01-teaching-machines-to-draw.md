@@ -278,3 +278,7 @@ I've started construction on the second drawing machine. I'm using a wooden clip
 I drilled holes to mount six potentiometers and wired them to the Arduino's analogue inputs:
 
 Then I plugged their readings into the code for the sine functions, and to my amazement it worked on the first try. You can twist the knobs and watch the curves on the screen change in real time. *Insert mad scientist laughter here*. There seems to be some interference between some of the potentiometers - manipulating one changes the readings of other ones in the series. Apparently this is because [some of them have too much resistance](http://forum.arduino.cc/index.php?topic=18874.0). I'll replace and see if that's fixes it.
+
+### Peer assesment
+
+TODO make the 100 drawings book

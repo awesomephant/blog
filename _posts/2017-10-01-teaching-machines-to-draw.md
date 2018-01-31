@@ -5,6 +5,7 @@ date: 2017-10-01 10:00:00
 tags: ""
 thumb: ""
 intro: ""
+includesMath: true
 ---
 
 ## November 28, 2017
@@ -271,6 +272,20 @@ Things I'm not sure about yet:
 - How do I attach the fishing line to the motor shafts?
 - How do I attach the drawing machine to the wall in such a way that the pen is in contact with the paper?
 
+Using Wikipedia, I managed to cobble together the following functions to generate [sine](https://en.wikipedia.org/wiki/Sine_wave), [triangle](https://en.wikipedia.org/wiki/Triangle_wave), [sawtooth](https://en.wikipedia.org/wiki/Sawtooth_wave) and [square](https://en.wikipedia.org/wiki/Square_wave) waves that will eventually control the motors. $$a$$ is the amplitude, $$p$$ is the period, $$o$$ moves the curve up and down and $$\phi$$ moves the curve from left to right (I'm using this to animate it on screen).
+$$\DeclareMathOperator{\sgn}{sgn}$$
+$$\DeclareMathOperator{\atan}{atan}$$
+$$\DeclareMathOperator{\asin}{asin}$$
+$$\DeclareMathOperator{\cotan}{cotan}$$
+
+Sine: $$f(x) = a\sin(2\pi px + \phi) + o$$
+
+Square: $$f(x) = a \sgn\big[\sin(2\pi px + \phi)\big] + o$$ 
+
+Triangle: $$f(x) = a\arcsin\big[\sin(\frac{2\pi}{p}x + \phi)\big] + o$$
+
+Sawtooth: $$f(x) = \frac{-2a}{\pi}\arctan\big[\cot(\frac{x\pi+\phi}{2p})\big] + o$$
+
 ## January 29, 2018
 
 I've started construction on the second drawing machine. I'm using a wooden clipboard from the college art shop for the control panel - seems appropriately improvised. Apparently I'm the first person to ever buy one of these in the art shop - it took them about 5 minutes to find the price in the register.
@@ -282,3 +297,14 @@ Then I plugged their readings into the code for the sine functions, and to my am
 ### Peer assesment
 
 TODO make the 100 drawings book
+publication
+
+## January 31, 2018
+
+The flip switches for drawing machine two arrived. I'm planning to use these to 
+
+1. Switch between different functions for each stepper
+2. Toggle some sort of randomisation for each funtion parameter on each stepper
+
+I'm focussing on one for the moment. Since there are four functions to choose from, I can combine two switches in a truth table like this:
+

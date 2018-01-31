@@ -306,5 +306,11 @@ The flip switches for drawing machine two arrived. I'm planning to use these to
 1. Switch between different functions for each stepper
 2. Toggle some sort of randomisation for each funtion parameter on each stepper
 
-I'm focussing on one for the moment. Since there are four functions to choose from, I can combine two switches in a truth table like this:
+I'm focussing on one for the moment. Since there are four functions to choose from, I can combine two switches to generate four possible positions by thinking of each switch as a digit in a binary number:
 
+|Switch A|Switch B|Binary|Result|
+---------|--------|---------------------|------|
+|Open    |Open    |`00`|Sine
+|Open  |Closed    |`01`|Triangle
+|Closed    |Open  |`10`|Square
+|Closed  |Closed  |`11`|Sawtooth

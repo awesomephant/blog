@@ -247,6 +247,10 @@ Over the weeked I made the decision to build another drawing machine. I've been 
 
 So the solution is to build a second drawing machine, one that is designed to be an interactive installation. It's going to look something like this: 
 
+TODO add sketch
+
+The plan is to have it done by the [Friday](#friday-febuary-2-2018).
+
 I've already written some of the [control code](https://github.com/awesomephant/sineMachine). I'm using socket.io to display the function graphs in real time. 
 
 I'll need the following parts:
@@ -272,19 +276,19 @@ Things I'm not sure about yet:
 - How do I attach the fishing line to the motor shafts?
 - How do I attach the drawing machine to the wall in such a way that the pen is in contact with the paper?
 
-Using Wikipedia, I managed to cobble together the following functions to generate [sine](https://en.wikipedia.org/wiki/Sine_wave), [triangle](https://en.wikipedia.org/wiki/Triangle_wave), [sawtooth](https://en.wikipedia.org/wiki/Sawtooth_wave) and [square](https://en.wikipedia.org/wiki/Square_wave) waves that will eventually control the motors. $$a$$ is the amplitude, $$p$$ is the period, $$o$$ moves the curve up and down and $$\phi$$ moves the curve from left to right (I'm using this to animate it on screen).
+Using Wikipedia, I managed to cobble together the following functions to generate [sine](https://en.wikipedia.org/wiki/Sine_wave), [triangle](https://en.wikipedia.org/wiki/Triangle_wave), [sawtooth](https://en.wikipedia.org/wiki/Sawtooth_wave) and [square](https://en.wikipedia.org/wiki/Square_wave) waves that will eventually control the motors. $$a$$ is the amplitude, $$p$$ is the period, $$o$$ moves the curve up and down and $$\varphi$$ moves the curve from left to right (I'm using this to animate it on screen).
 $$\DeclareMathOperator{\sgn}{sgn}$$
 $$\DeclareMathOperator{\atan}{atan}$$
 $$\DeclareMathOperator{\asin}{asin}$$
 $$\DeclareMathOperator{\cotan}{cotan}$$
 
-Sine: $$f(x) = a\sin(2\pi px + \phi) + o$$
+Sine: $$f(x) = a\sin(2\pi px + \varphi) + o$$
 
-Square: $$f(x) = a \sgn\big[\sin(2\pi px + \phi)\big] + o$$ 
+Square: $$f(x) = a \sgn\big[\sin(2\pi px + \varphi)\big] + o$$ 
 
-Triangle: $$f(x) = a\arcsin\big[\sin(\frac{2\pi}{p}x + \phi)\big] + o$$
+Triangle: $$f(x) = a\arcsin\big[\sin(\frac{2\pi}{p}x + \varphi)\big] + o$$
 
-Sawtooth: $$f(x) = \frac{-2a}{\pi}\arctan\big[\cot(\frac{x\pi+\phi}{2p})\big] + o$$
+Sawtooth: $$f(x) = \frac{-2a}{\pi}\arctan\big[\cot(\frac{x\pi+\varphi}{2p})\big] + o$$
 
 ## January 29, 2018
 

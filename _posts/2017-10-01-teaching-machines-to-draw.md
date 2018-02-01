@@ -284,7 +284,7 @@ $$\DeclareMathOperator{\cotan}{cotan}$$
 
 Sine: $$f(x) = a\sin(2\pi px + \varphi) + o$$
 
-Square: $$f(x) = a \sgn\big[\sin(2\pi px + \varphi)\big] + o$$ 
+Square: $$f(x) = a\sgn\big[\sin(2\pi px + \varphi)\big] + o$$ 
 
 Triangle: $$f(x) = a\arcsin\big[\sin(\frac{2\pi}{p}x + \varphi)\big] + o$$
 
@@ -292,7 +292,7 @@ Sawtooth: $$f(x) = \frac{-2a}{\pi}\arctan\big[\cot(\frac{x\pi+\varphi}{2p})\big]
 
 ## January 29, 2018
 
-I've started construction on the second drawing machine. I'm using a wooden clipboard from the college art shop for the control panel - seems appropriately improvised. Apparently I'm the first person to ever buy one of these in the art shop - it took them about 5 minutes to find the price in the register.
+I've started construction on the second drawing machine. I'm using a wooden clipboard from the college art shop for the control panel - seems appropriately haphazard. Apparently I'm the first person to ever buy one of these in the art shop - it took them about 5 minutes to find the price in the register.
 
 I drilled holes to mount six potentiometers and wired them to the Arduino's analogue inputs:
 
@@ -318,3 +318,23 @@ I'm focussing on one for the moment. Since there are four functions to choose fr
 |Open  |Closed    |`01`|Triangle
 |Closed    |Open  |`10`|Square
 |Closed  |Closed  |`11`|Sawtooth
+
+## Febuary 1, 2018
+
+Got the second drawing machine working today:
+
+<video playsinline muted loop controls autoplay src='/assets/unit-10/machine-2.mp4'></video>
+
+I found out that to draw a circle (and similar shapes), the two functions need to be on different phases - otherwise you just get straight lines. At the moment I'm doing this by adding a hard coded number to $$\varphi$$, but that's not the best solution. I can't just add another knob because there are no analogue inputs left on the Arduino. However, I could add another switch to add a secondary function to the "offset" knobs. 
+
+This will make the machine needlessly complicated and more annoying to use. So I'm definitely doing it.
+Problems:
+
+- It runs pretty slow (but switching to quarter- or half stepping should fix that)
+- There is quite a bit of noise because the motors always run at full speed, coming to a sudden stop (I assume while math is being executed) and running at full speed again. A possible fix might be to run the motors slower when there is less space to cover - this way each "movement section" would be equal in length, which would at least make the noise more uniform. A different type of string (ie. fishing wire) might also help.
+- The pencil might not be the best drawing instrument to use here. While I like the hazy, out-of-focus shapes it creates, it doesn't produce results quickly enough for a possible gallery installation. I'll try out some different pens and felt-tips, as well as a softer pencil and charcoal.
+- You can't make a shape the size of the paper at the moment. This should just be a matter of tweaking [this line in the control script](https://github.com/awesomephant/sineMachine/blob/master/index.js#L75).
+
+Here's what's displayed on the screen as you manipulate the control panel:
+
+<video playsinline muted loop controls autoplay src='/assets/unit-10/machine-2-control.mp4'></video>

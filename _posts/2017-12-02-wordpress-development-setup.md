@@ -79,6 +79,13 @@ wp core update ; wp plugin update --all; wp theme update --all
 
 *How nice is that.* WP-CLI has [a lot more options](https://developer.wordpress.org/cli/commands/) to make finer-grained changes if you need to.
 
+## Installing plugins with WP-CLI
+
+```
+wp plugin instll custom-post-type-ui --activate
+wp plugin install timber-library --activate
+```
+
 ## Todo
 
 - While my themes are on Github, I haven't found a compelling way to deploy from there. Might be worth just paying for a service like [FTPloy](https://ftploy.com/) that does it for you.

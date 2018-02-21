@@ -10,6 +10,7 @@ images:
 
 Graphic Identity for the 2017 FdA Graphic Design and FdA Illustration degree show at Camberwell College of Arts.
 
+![Poster](/assets/camberwell-show/website-2.png)
 ![Poster](/assets/camberwell-show/stickers.png)
 ![Poster](/assets/camberwell-show/poster.jpg)
 

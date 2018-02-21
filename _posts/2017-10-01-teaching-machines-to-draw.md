@@ -335,6 +335,23 @@ Problems:
 - The pencil might not be the best drawing instrument to use here. While I like the hazy, out-of-focus shapes it creates, it doesn't produce results quickly enough for a possible gallery installation. I'll try out some different pens and felt-tips, as well as a softer pencil and charcoal.
 - You can't make a shape the size of the paper at the moment. This should just be a matter of tweaking [this line in the control script](https://github.com/awesomephant/sineMachine/blob/master/index.js#L75).
 
-Here's what's displayed on the screen as you manipulate the control panel:
+## Febuary 9, 2018
 
-<video playsinline muted loop controls autoplay src='/assets/unit-10/machine-2-control.mp4'></video>
+### A new plan for action
+
+Following the mid-term review with Tracey and conversations with various people.
+
+The drawing machine project needs a point. I think the point is the following:
+
+- When I was doing the first set of drawings back in [November](#november-25-2017), I was drawn to the ones where the lines start creating grey values - essentially where the drawing starts to move away from being a mathematical line diagram and towards being something more human.
+- That's why I started doing 
+
+### Book Structure 
+
+- Drawing machine progress (chronological)
+- Background research
+- Drawing machine progress
+- Original research document
+- Drawing machine progress
+
+The machine learning publication could be in a similar format.

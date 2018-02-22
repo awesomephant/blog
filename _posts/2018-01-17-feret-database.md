@@ -109,7 +109,7 @@ He closes by saying that the long-term solution to this needs to be regulation -
 
 > We no longer look at images - images look at us. They no longer simply represent things, but actively intervene in everyday life. We must begin to understand these changes if we are to challenge the exceptional forms of power flowing through the invisible visual culture that we find ourselves emeshed within.
 
-## January 20th, 2018
+## January 20, 2018
 
 ### Notes on Segune's Readings
 
@@ -152,3 +152,69 @@ TODO decided to print feret images, looks like its expenive, need to talk to tec
 
 ## January 29, 2018
 TODO Peer assesment
+
+## Febuary 14, 2018
+
+[Eigenfaces](https://en.wikipedia.org/wiki/Eigenface) are a way to represent images used in facial recognition software. First introduced by [Turk and Pentland (1991)](https://s3.amazonaws.com/academia.edu.documents/30894770/jcn.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1519322406&Signature=zUSN5N4wWx5J0GrqjQdFLMLJYto%3D&response-content-disposition=inline%3B%20filename%3DEigenfaces_for_Recognition.pdf). Below is figure 2 from that paper:
+
+![Eigenfaces](/assets/ml/eigen.png)
+[Turk, Pentland (1991)](https://s3.amazonaws.com/academia.edu.documents/30894770/jcn.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1519322406&Signature=zUSN5N4wWx5J0GrqjQdFLMLJYto%3D&response-content-disposition=inline%3B%20filename%3DEigenfaces_for_Recognition.pdf)
+
+![More Eigenfaces](/assets/ml/eigenface_reconstruction_opencv.png)
+[OpenCV](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html)
+
+## Febuary 18, 2018
+
+### Another Face Database
+
+The [National Institue for Standards and Technology](https://www.nist.gov/) (which provides the [FERET Database](#january-13-2018)) also has something called the [Multiple Encounter Dataset (MED)](https://www.nist.gov/itl/iad/image-group/special-database-32-multiple-encounter-dataset-meds). This is a database containing 683 mugshots of deceased people used to develop facial recognition software. This is starting to get much closer to [Berillion](#january-20-2018). I'm assuming by using photographs of dead people allows them to get around some privacy concerns. They've also removed (in some cases blacked out) any reference to the person's name or reason of arrest. So what you're left with is this archive of black and white photographs of people from the 60s, 70s and 80s (judging by the haircuts).
+
+![Mugshots](/assets/ml/mugshots.png)
+
+With the images comes a datafile describing the photographs:
+
+<table class='dense'>
+<thead>
+<tr>
+<td>Subject</td>
+<td>Encounter</td>
+<td>Record</td>
+<td>DOB</td>
+<td>WGT</td>
+<td>SEX</td>
+<td>HGT</td>
+<td>RAC</td>
+<td>HAI</td>
+<td>EYE</td>
+<td>PHD</td>
+<td>IMT</td>
+<td>POS</td>
+<td>VLL</td>
+<td>HLL</td>
+</tr>
+</thead>
+<tbody>
+{% for row in site.data.mugshots %}
+<tr>
+    <td>{{row.Subject}}</td>
+    <td>{{row.Encounter}}</td>
+    <td>{{row.Record}}</td>
+    <td>{{row.DOB}}</td>
+    <td>{{row.WGT}}</td>
+    <td>{{row.SEX}}</td>
+    <td>{{row.HGT}}</td>
+    <td>{{row.RAC}}</td>
+    <td>{{row.HAI}}</td>
+    <td>{{row.EYE}}</td>
+    <td>{{row.PHD}}</td>
+    <td>{{row.IMT}}</td>
+    <td>{{row.POS}}</td>
+    <td>{{row.VLL}}</td>
+    <td>{{row.HLL}}</td>
+</tr>
+{% endfor %}
+<tr><td>...</td></tr>  
+</tbody>
+</table>
+
+Interestingly this contains fields for height (ie. 5'11) weight (in lbs.) and date of birth of the detainee.

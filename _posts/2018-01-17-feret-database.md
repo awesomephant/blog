@@ -160,6 +160,8 @@ TODO Peer assesment
 ![Eigenfaces](/assets/ml/eigen.png)
 [Turk, Pentland (1991)](https://s3.amazonaws.com/academia.edu.documents/30894770/jcn.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1519322406&Signature=zUSN5N4wWx5J0GrqjQdFLMLJYto%3D&response-content-disposition=inline%3B%20filename%3DEigenfaces_for_Recognition.pdf)
 
+Something intruiging about the aesthetics of research papers.
+
 ![More Eigenfaces](/assets/ml/eigenface_reconstruction_opencv.png)
 [OpenCV](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html)
 
@@ -217,4 +219,4 @@ With the images comes a datafile describing the photographs:
 </tbody>
 </table>
 
-Interestingly this contains fields for height (ie. 5'11) weight (in lbs.) and date of birth of the detainee.
+Interestingly this contains fields for height (ie. 5'11) weight (in lbs.) and date of birth of the detainee. There are nearly equal numbers of white and black people in the photographs, which would be [in line with arrests in the U.S](https://en.wikipedia.org/wiki/Race_and_crime_in_the_United_States#Arrests_and_sentencing).

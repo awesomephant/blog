@@ -16,10 +16,10 @@
 			console.log(link)
 			headlines[i].appendChild(link)
 		}
-
+		
 		let paragraphs = document.querySelectorAll('.post-content p');
 		for (let i = 0; i < paragraphs.length; i++){
-			let image = paragraphs[i].querySelector('img');
+			let image = paragraphs[i].querySelector('img, video');
 			if (image){
 				paragraphs[i].classList.add('hasimage')
 			}

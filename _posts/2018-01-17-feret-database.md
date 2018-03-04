@@ -245,5 +245,7 @@ Facebook research uses internal databases with millions of faces. Maybe there's 
 ![AT&T Laboratory Database of Faces](/assets/ml/att.gif)
 [AT&T Laboratories Cambridge](http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html)
 
+<p class='hasImage' markdown="1">
 <video playsinline muted loop controls autoplay src='/assets/ml/rotation_101.mp4'></video>
 [University of Surrey](http://www.ee.surrey.ac.uk/CVSSP/xm2vtsdb/)
+</p>

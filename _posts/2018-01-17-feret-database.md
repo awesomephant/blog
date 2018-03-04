@@ -136,8 +136,16 @@ Enwezor goes on to describe a number of examples where archives are used as a wa
 #### An Archival Impulse
 
 ## January 24, 2018
-TODO CSM metadata show
 
+[MetaData at the Lethaby Gallery](http://www.arts.ac.uk/csm/whats-on-at-csm/lethaby-gallery/lethaby-gallery-past-exhibitions/metadata/)
+
+<div markdown='1' class='gallery'>
+
+![CSM](/assets/ml/csm1.jpg)
+![CSM](/assets/ml/csm2.jpg)
+![CSM](/assets/ml/csm3.jpg)
+![CSM](/assets/ml/csm4.jpg)
+</div>
 ## January 25, 2018
 
 TODO Spoke to segune about feret images
@@ -172,6 +180,7 @@ Something intruiging about the aesthetics of research papers.
 The [National Institue for Standards and Technology](https://www.nist.gov/) (which provides the [FERET Database](#january-13-2018)) also has something called the [Multiple Encounter Dataset (MED)](https://www.nist.gov/itl/iad/image-group/special-database-32-multiple-encounter-dataset-meds). This is a database containing 683 mugshots of deceased people used to develop facial recognition software. This is starting to get much closer to [Berillion](#january-20-2018). I'm assuming by using photographs of dead people allows them to get around some privacy concerns. They've also removed (in some cases blacked out) any reference to the person's name or reason of arrest. So what you're left with is this archive of black and white photographs of people from the 60s, 70s and 80s (judging by the haircuts).
 
 ![Mugshots](/assets/ml/mugshots.png)
+[National Institute of Standards and Technology](https://www.nist.gov/itl/iad/image-group/special-database-32-multiple-encounter-dataset-meds)
 
 With the images comes a datafile describing the photographs:
 
@@ -219,4 +228,22 @@ With the images comes a datafile describing the photographs:
 </tbody>
 </table>
 
-Interestingly this contains fields for height (ie. 5'11) weight (in lbs.) and date of birth of the detainee. There are nearly equal numbers of white and black people in the photographs, which would be [in line with arrests in the U.S](https://en.wikipedia.org/wiki/Race_and_crime_in_the_United_States#Arrests_and_sentencing).
+Interestingly this contains fields for height (ie. 5'11) weight (in lbs.) and date of birth of the detainee. 
+
+## Febuary 27, 2018
+
+![Eigenfaces](/assets/ml/eigenfaces.png)
+
+Some more face databases. I'm thinking the reason these are all from the 90s is that research doesn't need this sort of standardised database anymore - People are now working with images collected from the internet. [Labelled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/) is an example. This has the benefit of being much cheaper than taking original photographs - you can create a database that is orders of magnitudes larger for the same amount of money. Examples: 
+
+- [MegaFace](http://megaface.cs.washington.edu/), containing one million unlabelled faces. Introduced by [Kemelmacher-Shlizerman et. al, 2015](https://arxiv.org/pdf/1512.00596.pdf)
+- [YouTube Face Database](http://www.cs.tau.ac.il/~wolf/ytfaces/), containing 3,500 videos of 1,500 people.
+- [FaceScrub](http://vintage.winklerbros.net/facescrub.html), contains 100,000 images of 530 people. Paper by [Ng, Winkler 2015](http://vintage.winklerbros.net/Publications/icip2014a.pdf)
+
+Facebook research uses internal databases with millions of faces. Maybe there's something to this idea: Back in the day, collecting a database had to be a dedicated effort. Now, we're all contributing to face recognition algorithms (and other machine learning applications by way of our behaviour, movements, writing) involuntarily.
+
+![AT&T Laboratory Database of Faces](/assets/ml/att.gif)
+[AT&T Laboratories Cambridge](http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html)
+
+<video playsinline muted loop controls autoplay src='/assets/ml/rotation_101.mp4'></video>
+[University of Surrey](http://www.ee.surrey.ac.uk/CVSSP/xm2vtsdb/)

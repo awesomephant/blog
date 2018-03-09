@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assemblypoint Website
+title: Assembly Point Website
 year: 2017
 color: '#FFD2CC'
 project_url: 'http://assemblypoint.xyz/'

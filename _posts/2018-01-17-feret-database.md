@@ -258,5 +258,9 @@ This might be a fun project to get into generating things with neural networks: 
 The Dutch Polders by Bike and Schooner The Royals Take the Title ‘The Affair’ Season 2 Episode 5: Never Read the Book ‘The Walking Dead’ Season 6, Episode 4 Recap: The Making of Morgan &#8216;Homeland&#8217; Recap, Season 5, Episode 5: Can Carrie Figure Out What&#8217;s Going On With Allison? Long Lines for Story Time The Best Moments in College Football This Week Dangers for the Unwary Q. and A.: Chan Koonchung on Imagining a Non-Communist China Report on Bella Vista Health Center Inside the Trial of Sheldon Silver Jeb Bush Says He Was Unaware of Rubio PowerPoint Deck
 ```
 
-This sort of automated writing is already [widely used at mainstram outlets](https://www.wired.com/2017/02/robots-wrote-this-story/). The [Washington Post](https://www.washingtonpost.com/pr/wp/2017/09/01/the-washington-post-leverages-heliograf-to-cover-high-school-football/) seems to be leading this effort.
+This sort of automated writing is already [widely used at mainstram outlets](https://www.wired.com/2017/02/robots-wrote-this-story/). The [Washington Post](https://www.washingtonpost.com/pr/wp/2017/09/01/the-washington-post-leverages-heliograf-to-cover-high-school-football/) seems to be leading the pack.
 
+![Terminal screenshot](/assets/ml/ml-1.png)
+![Terminal screenshot](/assets/ml/ml-2.png)
+![Terminal screenshot](/assets/ml/ml-3.png)
+![Terminal screenshot](/assets/ml/ml-4.png)

@@ -260,7 +260,27 @@ The Dutch Polders by Bike and Schooner The Royals Take the Title â€˜The Affairâ€
 
 This sort of automated writing is already [widely used at mainstram outlets](https://www.wired.com/2017/02/robots-wrote-this-story/). The [Washington Post](https://www.washingtonpost.com/pr/wp/2017/09/01/the-washington-post-leverages-heliograf-to-cover-high-school-football/) seems to be leading the pack.
 
-![Terminal screenshot](/assets/ml/ml-1.png)
-![Terminal screenshot](/assets/ml/ml-2.png)
-![Terminal screenshot](/assets/ml/ml-3.png)
-![Terminal screenshot](/assets/ml/ml-4.png)
+## April 16 Tutorial Notes
+
+### Newspaper Clippings
+
+![Fake Letterpress Newspaper Clippings](/assets/ml/clippings.jpg)
+
+- Letterpress newspaper clippings are succsesful, maybe make a website to provide context. This could explain the dataset that was used, link to the relevant papers etc. 
+- This website could also have a live version of the trained model, let people create and print their own snippets (Would be good way to learn how to deploy a model). This could also be used in the show - have it generate and print loads of clippings in real time (but not on  receipt printer because everyone's doing that).
+- Figure out what it is the project talks about - Automation in journalism? Exploring one archive through generating another archive?
+
+### Large Scale Drawing Machine
+
+Continues to be a health and safety nightmare.
+
+### Machine Learning Dataset Book
+
+![ML Book Spread](/assets/ml/book-1.png)
+![ML Book Spread](/assets/ml/book-2.png)
+
+- I've narrowed the focus of this - rather than having three parts (Models, Data and Processing Power), it will just focus on the data that is used to train models.
+- The format I went for initially is way too big (should've printed some spreads earlier).
+- Tracey suggests that book editing is a bit like film editing - start with a rough cut that just gets all the content in order, then go back and refine the typography etc.
+- The book can have different layers of information that the reader can go through in different ways (I'm thinking the essay, the data visualisations, the descriptions of each dataset, and a seperate essay on the principles of machine learning would be layers like this). You signal these layers to the reader by using different paper stocks, different paper sizes etc.
+- Definitely coated for the images and uncoated for the text sections.

@@ -45,7 +45,6 @@ sup {
 	width: 100%;
 	border-bottom: 1px solid $black;
 	@include bp(m){
-		padding-left: 2rem;
 		font-size: 1.3rem;
 	}
 	a {

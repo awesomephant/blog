@@ -1,14 +1,21 @@
+- title: "Hidden Archives"
+  url: '#1'
+  year: 2018
+  image: img028.jpg
+
+- title: "Teaching Machines to Draw"
+  url: '#1'
+  year: 2018
+  image: dm2-1.jpg
+
 - title: "AvH Konstanz Lehrsammlung"
   url: 'http://avh-sammlung.de/'
   year: 2017
-  
-- title: "BA GD Summer Project"
-  url: 'https://gd-summer-project.firebaseapp.com/'
-  year: 2017
-  
+  image: avh.jpg
+
 - title: "Camberwell FdA Degree Show Identity"
   url: './work/camberwell-fda-show'
-  image: 'anicepair.mp4'
+  image: 'website.png'
   year: 2017
   tags:
     - identity
@@ -16,7 +23,7 @@
 
 - title: "Aside London Website"
   url: './work/aside-london'
-  image: 'aside.png'
+  video: 'aside-preview.mp4'
   year: 2017
   tags:
     - web
@@ -24,6 +31,7 @@
 - title: 'Assembly Point Website'
   url: './work/ap-website'
   year: 2017
+  video: "ap-preview.mp4"
   tags: 
     - web
   desc: Design, content strategy and Wordpress development of a new, expanded website for South-London based gallery Assembly Point.
@@ -31,7 +39,7 @@
 - title: "Pygmalion's Spectacles"
   url: './work/vr-spectacles'
   year: 2017
-  image: 'vr-preview.mp4'
+  video: 'vr-preview.mp4'
   desc: An exploration of web-based virtual reality for my final project at Camberwell College of Arts.
   tags:
     - Virtual Reality
@@ -44,11 +52,8 @@
   tags: 
     - web
     - data
-- title: 'Zwicker & Partner Website'
-  url: 'https://www.radiologen-konstanz.de/'
+
+- title: 'Letterpress Course Work'
+  url: '#1'
   year: 2016
-  image: 'gradient-prints.jpg'
-  desc: Course project dealing with client-side data visualisation.
-  tags: 
-    - web
-    - data
+  image: 'laser-print.jpg'

@@ -39,16 +39,14 @@ sup {
 .site-header {
 	line-height: 1.35;
 	font-size: 1rem;
-	padding: 3%;
+	padding: 1rem;
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+	border-bottom: 1px solid $black;
 	@include bp(m){
-		padding: 2rem 3%;
+		padding-left: 2rem;
 		font-size: 1.3rem;
-	}
-	&.expanded {
-		max-width: 50rem;
 	}
 	a {
 		text-decoration: none;

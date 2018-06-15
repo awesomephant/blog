@@ -27,6 +27,7 @@
     font-family: $sans;
     margin-top: -1.5rem;
     padding-bottom: 2rem;
+    padding-right: 1rem;
     @include bp(m) {
         line-height: 1.45;
         font-size: 1.6rem;
@@ -64,6 +65,7 @@
     font-weight: 600;
     padding-left: 1rem;
     padding-bottom: 3rem;
+    padding-top: 2rem;
     font-size: 16px;
     @include bp(m) {
         font-size: 19px;
@@ -179,6 +181,8 @@ pre.highlight {
     margin-bottom: 1rem;
     font-size: .9rem;
     white-space: pre;
+    overflow-x: auto;
+    width: 98%;
 }
 
 .gallery p {

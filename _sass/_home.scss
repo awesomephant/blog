@@ -1,110 +1,84 @@
-body {
-	overflow-x: hidden;
+.home {}
+
+.home-work,
+.home-writing {
+	padding: 1rem;
+	height: calc(55vh - 68px);
+	@include hideScrollbar();
+    @include bp(m) {
+		flex-basis: 50%;
+        height: calc(100vh - 68px);
+        overflow-y: scroll;
+    }
+    h2 {
+		margin-bottom: 1rem;
+        font-size: 1.4rem;
+    }
 }
 
-.home {
-	background: $black;
-	color: white;
-	font-size: 1.1rem;
-	@include bp(s){
-		font-size: 1.2rem;
+.home-writing {
+    font-size: calc(1.1rem + 1vw + 1vh);
+}
+
+.home-work {
+	font-size: 1rem;
+    width: 100%;
+	overflow: scroll;
+	border-bottom: 1px solid $black;
+	@include bp(m) {
+		border-bottom: 0;
+		border-right: 1px solid $black;
 	}
+    nav {
+		white-space: nowrap;
+		width: auto;
+    }
+}
+
+.project-list-item {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 1rem;
+	height: 100%;
+    @include bp(m) {
+		overflow: hidden;
+		display: block;
+		margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+.project-image {
+    display: block;
+	height: 35vh;
+	margin-bottom: .5rem;
 	@include bp(m){
-		font-weight: normal;
-		font-size: 1.5rem;
+		height: 80vh;
 	}
 }
 
 .site-home {
-	padding: 0 3%;
-
-	h2 {
-		margin-bottom: .5rem;
-		@include bp(m){
-			margin: 0;
-		}
-	}
-}
-
-.project-list {
-	margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
 	@include bp(m){
-		max-width: 90%;
+		flex-direction: row;
 	}
 }
 
 .project-title {
-	display: inline-block;
+    display: inline-block;
 }
 
 .project-year {
-	display: none;
-	margin-top: .5rem;
-	margin-bottom: .5rem;
-	@include bp(m){
-		display: inline-block !important;
-		margin: 0;
-	}
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 1rem;
 }
 
-// What follows are workarounds for $(first())
-.project-list > a[data-year='2018'] .project-year {
-    display: inline-block;
-}
-.project-list > a[data-year='2018'] ~ a[data-year='2018'] .project-year {
-	display: none;
-}
-.project-list > a[data-year='2017'] .project-year {
-    display: inline-block;
-}
-.project-list > a[data-year='2017'] ~ a[data-year='2017'] .project-year {
-	display: none;
-}
-.project-list > a[data-year='2016'] .project-year {
-    display: inline-block;
-}
-.project-list > a[data-year='2016'] ~ a[data-year='2016'] .project-year {
-	display: none;
-}
-.project-list > a[data-year='2016'] .project-year {
-    display: inline-block;
-}
-.project-list > a[data-year='2016'] ~ a[data-year='2016'] .project-year {
-	display: none;
-}
-
-.project-list-item {
-	font-weight: 600;
-	display: flex;
-	flex-flow: column-reverse;
-	text-decoration: none;
-	align-items: baseline;
-	border-bottom: 1px solid rgba($black, .2);
-	width: 100%;
-	padding-bottom: .25em;
-	@include bp(m){
-		padding: 0;
-		padding-bottom: .2rem;
-		border-bottom: 0;
-		width: auto;
-		display: inline-block;
-		margin-right: 1rem;
-	}
-	&:hover, &:focus {
-		text-decoration: none;
-		.project-title {
-			text-decoration: line-through;
-		}
-	}
-}
-
-.project-year {
-	font-size: .8rem;
-	@include bp(m){
-		position: relative;
-		top: -.15rem;
-		font-size: 1rem;
-		letter-spacing: .01em;
-		padding-left: .2rem;
-	}
+.writing-list-item {
+    display: block;
+    padding-right: 2rem;
+    margin-bottom: .5rem;
+    line-height: 1.1;
 }

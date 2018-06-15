@@ -1,5 +1,4 @@
-$black: rgb(20,20,22
-);
+$black: rgb(10,12,12);
 $white: #fff;
 $lightgray: rgb(232,230,230);
 
@@ -10,7 +9,7 @@ $pink: #FFB7B7;
 
 @import url("https://use.typekit.net/uof8tbt.css");
 
-$sans: "franklin-gothic-urw", "Georgia", sans-serif;
+$sans: "Suisse Int'l", "Georgia", sans-serif;
 $serif: "Georgia", serif;
 $text: $serif;
 $fast: 290ms;
@@ -23,6 +22,13 @@ $indent: 5%;
 	@if $s == 'm' {
 		font-size: 1.7rem;
 	}
+}
+
+@mixin hideScrollbar(){
+	-ms-overflow-style: none;  // IE 10+
+	&::-webkit-scrollbar { 
+        display: none; 
+    }
 }
 
 @mixin bp($point) {

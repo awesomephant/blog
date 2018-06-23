@@ -1,84 +1,60 @@
-.home {}
-
 .home-work,
 .home-writing {
 	padding: 1rem;
-	height: calc(55vh - 68px);
-	@include hideScrollbar();
-    @include bp(m) {
-		flex-basis: 50%;
-        height: calc(100vh - 68px);
-        overflow-y: scroll;
-    }
-    h2 {
-		margin-bottom: 1rem;
-        font-size: 1.4rem;
-    }
-}
-
-.home-writing {
-    font-size: calc(1.1rem + 1vw + 1vh);
-}
-
-.home-work {
-	font-size: 1rem;
-    width: 100%;
-	overflow: scroll;
-	border-bottom: 1px solid $black;
-	@include bp(m) {
-		border-bottom: 0;
-		border-right: 1px solid $black;
+	max-width: 80rem;
+	h2 {
+		padding-bottom: .5rem;
+		border-bottom: 1px solid rgba($black, .2);
 	}
-    nav {
-		white-space: nowrap;
-		width: auto;
-    }
+}
+
+.project-list {
 }
 
 .project-list-item {
-	display: inline-block;
-	vertical-align: top;
-	margin-right: 1rem;
-	height: 100%;
-    @include bp(m) {
-		overflow: hidden;
-		display: block;
-		margin-right: 0;
-        margin-bottom: 1rem;
-    }
-}
-
-.project-image {
-    display: block;
-	height: 35vh;
-	margin-bottom: .5rem;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	display: flex;
+	text-decoration: none;
+	overflow: hidden;
+	align-items: end;
+	border-bottom: 1px solid rgba($black, .2);
+	flex-wrap: wrap;
+	max-height: 5rem;
 	@include bp(m){
-		height: 80vh;
+		max-height: 3rem;
+		flex-wrap: nowrap;
+	}
+	&:hover, &:focus {
+		background: rgba($black, .01);
+		text-decoration: none;
 	}
 }
 
-.site-home {
-    display: flex;
-    flex-direction: column;
-	flex-wrap: wrap;
-	@include bp(m){
-		flex-direction: row;
+.project-image {
+	display: block;
+	flex-basis: 40%;
+	height: auto;
+	flex-shrink: 1;
+	width: 100%;
+    @include bp(m){
+		width: 60%;
+		
 	}
 }
 
 .project-title {
-    display: inline-block;
+	flex-grow: 1;
+	@include bp(m){
+		flex-basis: 40%;
+		.home-writing & {
+			flex-basis: 100%;
+		}
+	}
 }
 
 .project-year {
-    display: block;
-    margin-bottom: .5rem;
-    font-size: 1rem;
-}
-
-.writing-list-item {
-    display: block;
-    padding-right: 2rem;
-    margin-bottom: .5rem;
-    line-height: 1.1;
+	flex-basis: 5%;
+	flex-shrink: 0;
+	margin-right: 1rem;
 }

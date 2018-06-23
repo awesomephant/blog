@@ -38,22 +38,19 @@ sup {
 
 .site-header {
 	line-height: 1.35;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	padding: 1rem;
+	padding-bottom: 0;
 	display: flex;
+	margin-bottom: 6rem;
 	justify-content: space-between;
 	width: 100%;
-	border-bottom: 1px solid $black;
-	@include bp(m){
-		font-size: 1.3rem;
+	span {
+		display: block;
 	}
 	a {
-		text-decoration: none;
-		display: inline-block;
-		border-bottom: 1px solid;
-		transition: 300ms;
 		&:hover, &:focus {
-			transform: translateY(-2px)
+			opacity: .5;
 		}
 	}
 }

@@ -3,28 +3,28 @@ layout: default
 class: home
 ---
 {% include header.html %}
+
 <main class="site-home">
     <section class='home-work'>
         <h2>Graphic Design</h2>
         <nav class='project-list'>
             {%for p in site.data.projects%}
             <a data-year="{{ p.year }}" href='{{ p.url }}' class='project-list-item'>
-            {% if p.image %}
-            <img class='project-image'src="{{site.url}}/assets/projects/{{p.image}}" alt="">
-            {% endif %}
-            {% if p.video %}
-                <video class='project-image' autoplay muted playsinline loop src='{{site.url}}/assets/projects/{{p.video}}'></video>
-            {% endif %}
-                <h3 class='project-title'>{{p.title}} ({{p.year}})</h3>
+                <date class='project-year'>{{p.year}}</date>
+                <h3 class='project-title'>{{p.title}}</h3>
+                {% if p.image %}
+                <img class='project-image'src="{{site.url}}/assets/projects/{{p.image}}" alt="">
+                {% endif %}    
             </a>
             {% endfor %}
         </nav>
     </section>
     <section class='home-writing'>
-        <h2>Writing</h2>
-        <nav class='project-list'>
-            {%for post in site.posts%}
-            <a data-year="{{ post.date | date: '%Y' }}" href="{{post.url}}" class='writing-list-item'>
+            <h2>Writing</h2>
+    <nav class='project-list'>
+        {%for post in site.posts%}
+        <a data-year="{{ post.date | date: '%Y' }}" href="{{post.url}}" class='project-list-item'>
+                <date class='project-year'>{{post.date | date: '%Y'}}</date>
                 <h3 class='project-title'>
                     {% if post.shortTitle %}
                     {{ post.shortTitle }}

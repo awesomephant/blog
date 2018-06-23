@@ -19,6 +19,7 @@ table {
 body {
 	font-family: $sans;
 	color: $black;
+	font-weight: 500;
 	min-height: 100%;
 }
 
@@ -38,7 +39,7 @@ sup {
 
 .site-header {
 	line-height: 1.35;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	padding: 1rem;
 	padding-bottom: 0;
 	display: flex;

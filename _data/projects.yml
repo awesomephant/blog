@@ -1,12 +1,17 @@
+- title: "Camberwell GD Degree Show Website"
+  url: '#1'
+  year: 2018
+  image: 'ccagd-2.png'
+
 - title: "Hidden Archives"
   url: '#1'
   year: 2018
-  image: img028.jpg
+  image: 'hidden-archives.png'
 
 - title: "Teaching Machines to Draw"
   url: '#1'
   year: 2018
-  image: dm2-1.jpg
+  image: machines.png
 
 - title: "AvH Konstanz Lehrsammlung"
   url: 'http://avh-sammlung.de/'
@@ -23,7 +28,6 @@
 
 - title: "Aside London Website"
   url: './work/aside-london'
-  video: 'aside-preview.mp4'
   year: 2017
   tags:
     - web
@@ -31,7 +35,6 @@
 - title: 'Assembly Point Website'
   url: './work/ap-website'
   year: 2017
-  video: "ap-preview.mp4"
   tags: 
     - web
   desc: Design, content strategy and Wordpress development of a new, expanded website for South-London based gallery Assembly Point.

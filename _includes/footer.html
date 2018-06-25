@@ -1,7 +1,17 @@
+<footer class="site-footer">
+	<span class="footer-message"></span>
+	<a href="https://tinyletter.com/maxakohler">Sign up for my occasional newsletter</a>
+</footer>
 <script>
 	function getRandomInt(min, max) {
 		return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
+	const footerMessages = [
+		'Will draw for $$$.',
+		'Always up for a good kern.',
+		'No spec work here.',
+		'Made by an Immigrant.'
+	]
 	document.addEventListener('DOMContentLoaded', function(){
 		var header = document.querySelector('.site-header');
 	
@@ -23,6 +33,9 @@
 				paragraphs[i].classList.add('hasimage')
 			}
 		}
+
+		let footerMsg = document.querySelector('.footer-message');
+		footerMsg.innerHTML = footerMessages[getRandomInt(0, footerMessages.length - 1)]
 
 	}, false);
 </script>

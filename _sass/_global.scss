@@ -60,11 +60,12 @@ sup {
 }
 
 .site-footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	padding: 1rem 3%;
+	padding: 1rem;
+	padding-top: 5rem;
+	color: gray;
+	span {
+		display: block;
+	}
 }
 
 .footer-nav {

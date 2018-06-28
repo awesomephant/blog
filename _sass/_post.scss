@@ -13,7 +13,7 @@
 }
 .post-title {
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.2;
     @include bp(m) {
         font-size: 2.2rem;
@@ -35,6 +35,7 @@
 .post {
     font-weight: 500;
     padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 3rem;
     padding-top: 2rem;
     font-size: 16px;

@@ -1,46 +1,22 @@
-.laser {
-    margin-top: 2rem;
-}
-
-.laser:before {
-    width: 100%;
-    top: 0;
-    height: 100px;
-    position: absolute;
-    left: 0;
-    display: block;
-    content: '';
-    background-image: url('/assets/laser-bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    pointer-events: none;
+.post-header {
+    margin: 0 auto;
+    margin-bottom: 6rem; 
+    max-width: 48rem;
+    text-align: center;
+    font-family: $sans;
 }
 
 .post-date {
-    font-weight: 500;
     display: block;
     font-size: 1.1rem;
+    font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
 }
-
-.post-intro {
-    font-family: $sans;
-    margin-top: -1.5rem;
-    padding-bottom: 2rem;
-    padding-right: 1rem;
-    @include bp(m) {
-        line-height: 1.45;
-        font-size: 1.6rem;
-    }
-}
-
 .post-title {
-    margin-bottom: 2rem;
-    font-weight: 500;
+    margin-bottom: 1rem;
     font-size: 1.5rem;
     line-height: 1.2;
     @include bp(m) {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -48,39 +24,46 @@
     display: flex;
 }
 
-.project-back {
-    text-decoration: none;
-    flex-basis: $indent;
-    &:hover {
-        text-decoration: none;
+.post-content {
+    font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
+    max-width: 46rem;
+    @include bp(m) {
+        margin: 0 auto;
     }
 }
 
-.post-date {
-    width: 100%;
-}
-
 .post {
-    background: white;
-    font-weight: 600;
+    font-weight: 500;
     padding-left: 1rem;
     padding-bottom: 3rem;
     padding-top: 2rem;
     font-size: 16px;
+    font-family: $serif;
+    color: $black;
+
+    letter-spacing: .001em;
+    word-spacing: 0.001em;
+    line-height: 1.4;
     @include bp(m) {
-        font-size: 19px;
+        font-size: 1.3rem;
     }
-    line-height: 1.54;
     strong {
         font-weight: bold;
     }
     em {
         font-style: italic;
     }
+    a {
+        text-decoration: none;
+        transition: 100ms;
+        border-bottom: 1px solid darken(#EBE8D3, 8);
+        &:hover, &:focus {
+            color: rgba($green, 1);
+        }
+    }
     p,
     ul,
     ol {
-        color: $black;
         margin-bottom: 1rem;
         code {
             font-size: .95rem;
@@ -88,40 +71,44 @@
     }
     ol,
     ul {
-        margin-left: 1.3rem;
+        margin-left: 1.2em;
+    }
+    li {
+        margin-bottom: .2rem;
     }
     blockquote p {
-        padding-left: 1em;
-        font-size: 1.1rem;
-        font-family: $sans;
-        line-height: 1.4;
-        color: darken($green, 5);
+        font-style: italic;
+        border-left: 1px solid darken(#EBE8D3, 8);
+        padding-left: 1.5rem;
     }
     img,
     video {
         width: 100%;
         @include bp(m) {
-            width: 110%;
-            margin-left: -5%;
+            width: 120%;
+            margin-left: -10%;
         }
     }
     h2 {
-        margin-top: 1rem;
+        margin-top: 4rem;
         font-family: $sans;
-        margin-bottom: .25rem;
-        font-weight: 500;
-        font-size: 1.1em;
+        margin-bottom: 2rem;
+        font-size: .95em;
+        letter-spacing: .01em;
+        text-align: center;
     }
     h3 {
-        font-size: 1.1em;
+        letter-spacing: .01em;
+        font-size: .95em;
         font-family: $sans;
-        color: gray;
-        margin-bottom: .25rem;
+        margin-top: 1rem;
+        margin-bottom: .5rem;
     }
     h4 {
+        color: rgba($black, .5);
+        letter-spacing: .01em;
         font-family: $sans;
-        font-weight: 500;
-        font-size: 1rem;
+        font-size: .95em;
     }
     .note p {
         color: gray;
@@ -147,6 +134,7 @@
         font-family: $sans;
         font-size: 1rem;
         padding-top: .5rem;
+        letter-spacing: .01em;
     }
 }
 
@@ -169,10 +157,6 @@ td {
 }
 .dense thead tr {
 	border-bottom-color: $black; 
-}
-
-code {
-    color: $green;
 }
 
 pre.highlight {
@@ -258,21 +242,5 @@ pre.highlight {
     li {
         margin-bottom: .2rem;
         width: 90%;
-    }
-}
-
-.post-header {
-    @include ts(m);
-    @include bp(m) {
-        margin: 0 auto;
-        max-width: 45rem;
-    }
-}
-
-.post-content {
-    max-width: 45rem;
-    font-family: $text;
-    @include bp(m) {
-        margin: 0 auto;
     }
 }

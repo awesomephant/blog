@@ -1,4 +1,4 @@
-$black: rgb(10,12,12);
+$black: rgb(14,13,12);
 $white: #fff;
 $lightgray: rgb(232,230,230);
 
@@ -7,9 +7,13 @@ $green: #009355;
 $blue: #00E6FF;
 $pink: #FFB7B7;
 
-@import url("https://use.typekit.net/uof8tbt.css");
+@font-face {
+  font-family: "Suisse";
+  font-weight: 400;
+  src: url('https://www.assemblypoint.xyz/wp-content/themes/ap-theme/fonts/SuisseIntl-Regular-WebM.ttf') format('truetype');
+}
 
-$sans: "franklin-gothic-urw", Helvetica, sans-serif;
+$sans: "Suisse", Helvetica, sans-serif;
 $serif: "Georgia", serif;
 $text: $serif;
 $fast: 290ms;
@@ -44,10 +48,4 @@ $indent: 5%;
 	@else if $point == s {
 		@media (min-width: 35rem) { @content; }
 	}
-}
-
-%uppercase {
-    text-transform: uppercase;
-    letter-spacing: .01em;
-
 }

@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 	font-size: inherit;
-	font-weight: normal;
+	font-weight: 400;
 }
 
 html {
@@ -19,16 +19,15 @@ table {
 body {
 	font-family: $sans;
 	color: $black;
-	font-weight: 500;
 	min-height: 100%;
+	font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
 }
 
 a {
 	color: inherit;
-	text-decoration: underline;
-
+	text-decoration: none;
+	border-bottom: 1px solid darken(#EBE8D3, 8);
 	&:hover, &:focus {
-		text-decoration: underline;
 	}
 }
 
@@ -40,8 +39,9 @@ sup {
 .site-header {
 	line-height: 1.35;
 	font-size: 1.1rem;
+	letter-spacing: .01em;
 	@include bp(m){
-		font-size: calc(.8rem + .7vw);
+		font-size: calc(.8rem + .5vw);
 	}
 	padding: 1rem;
 	padding-bottom: 0;
@@ -62,22 +62,10 @@ sup {
 .site-footer {
 	padding: 1rem;
 	padding-top: 5rem;
+	font-size: .9rem;
 	color: gray;
+	letter-spacing: .001em;
 	span {
 		display: block;
 	}
-}
-
-.footer-nav {
-	font-size: .9rem;
-	@include bp(m){
-		font-size: 1rem;
-	}
-	a, span {
-		display: block;
-		text-decoration: none;
-	}
-}
-
-.footer-message {
 }

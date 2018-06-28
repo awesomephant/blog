@@ -2,10 +2,13 @@
 .home-writing {
 	padding: 1rem;
 	max-width: 80rem;
+	letter-spacing: .005em;
+	margin-bottom: 1rem;
 	h2 {
 		font-size: 1rem;
 		@include bp(m){
 			font-size: 1.2rem;
+			padding-left: calc(5% + 1rem);
 		}
 		padding-bottom: .5em;
 		border-bottom: 1px solid rgba($black, .2);
@@ -25,7 +28,7 @@
 	flex-wrap: wrap;
 	max-height: 5rem;
 	font-size: 1rem;
-	border-bottom: 1px solid rgba($black, .2);
+	border-bottom: 1px solid darken(#EBE8D3, 8);
 	@include bp(m){
 		font-size: 1.2rem;
 	}
@@ -34,14 +37,11 @@
 		flex-wrap: nowrap;
 	}
 	&:hover, &:focus {
-		background: rgba($black, .01);
+		background: rgba(#EBE8D3, .1);
 		text-decoration: none;
 		z-index: 100;
 		position: relative;
         overflow: visible;
-		.project-image {
-//			transform: translateY(-100%);
-		}
 	}
 }
 

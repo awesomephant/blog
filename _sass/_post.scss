@@ -171,26 +171,29 @@ pre.highlight {
 }
 
 .gallery p {
-    display: flex;
+    column-gap: 1rem;
+    @include bp(m){
+        column-count: 2;
+    }
+    @include bp(xl){
+        column-count: 3;
+    }
     width: 100%;
     margin-bottom: 1rem;
-    flex-wrap: wrap;
-    @include bp(m) {
-        width: 110%;
-        margin-left: -5%;
-    }
-    @include bp(l) {
-        width: calc(100% + 20vw);
-        margin-left: -10vw;
-    }
     img {
         display: block;
-        min-width: 0;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
         height: auto;
-        flex-basis: 21%;
-        margin: .5rem;
-        align-self: flex-start;
-        flex-grow: 1;
+
+    }
+}
+
+.full {
+    @include bp(m) {
+        width: 96vw;
+        margin-left: calc(-48vw + 23rem);
     }
 }
 

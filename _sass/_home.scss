@@ -11,7 +11,6 @@
 			padding-left: calc(5% + 1rem);
 		}
 		padding-bottom: .5em;
-		border-bottom: 1px solid rgba($black, .2);
 	}
 }
 
@@ -28,17 +27,17 @@
 	flex-wrap: wrap;
 	max-height: 5rem;
 	font-size: 1rem;
-	border-bottom: 1px solid darken(#EBE8D3, 8);
+	border-bottom: 0;
 	@include bp(m){
 		font-size: 1.2rem;
 	}
 	@include bp(m){
-		max-height: 3em;
+		max-height: 2em;
 		flex-wrap: nowrap;
 	}
 	&:hover, &:focus {
-		background: rgba(#EBE8D3, .1);
 		text-decoration: none;
+		color: lighten($black, 30);
 		z-index: 100;
 		position: relative;
         overflow: visible;

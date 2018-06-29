@@ -37,7 +37,7 @@ $indent: 5%;
 
 @mixin bp($point) {
 	@if $point == xl {
-		@media (min-width: 100rem) { @content; }
+		@media (min-width: 80rem) { @content; }
 	}
 	@else if $point == l {
 		@media (min-width: 65rem) { @content; }

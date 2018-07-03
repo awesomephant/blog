@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on Face Recogintion, Machine Learning"
+title:  "Notes on face recogintion, machine learning"
 date: 2018-01-17 19:15:00
 tags: ""
 thumb: ""

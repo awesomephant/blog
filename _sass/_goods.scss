@@ -1,0 +1,32 @@
+.goods-list {
+    padding: 1rem;
+    display: flex;
+    flex-grow: 0;
+}
+.good {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+.good-image {
+    margin-bottom: .2rem;
+    width: 100%;
+    display: block;
+}
+
+.good-details {
+
+}
+
+.good-price {
+    color: gray;
+}
+
+.goods-placeholder {
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    padding-top: 20vh;
+    color: lightgray;
+    font-size: calc(.5rem + 4vw)
+}

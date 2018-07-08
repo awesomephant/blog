@@ -83,7 +83,7 @@
         padding-left: 1.5rem;
     }
     img,
-    video {
+    video, iframe {
         width: 100%;
         @include bp(m) {
             width: 120%;
@@ -102,8 +102,8 @@
         letter-spacing: .01em;
         font-size: .95em;
         font-family: $sans;
-        margin-top: 1rem;
-        margin-bottom: .5rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
     }
     h4 {
         color: rgba($black, .5);
@@ -119,6 +119,9 @@
 		font-size: 1rem;
 		border-collapse: collapse;
 		border-spacing: 0;
+    }
+    iframe {
+        border: 2px solid $lightgray;
     }
     th {
         font-weight: bold;
@@ -219,7 +222,8 @@ pre.highlight {
 }
 
 .footnotes {
-    font-size: .9rem;
+    font-size: 1rem;
+    padding-top: 4rem;
     ul,
     ol {
         margin-left: 0;
@@ -246,5 +250,25 @@ pre.highlight {
     li {
         margin-bottom: .2rem;
         width: 90%;
+    }
+}
+
+.tweet-button {
+    font-family: $sans;
+    border: 1px solid $green !important;
+    border-bottom-width: 2px !important;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 2rem;
+    padding: .8rem;
+    font-size: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+        margin-right: .5rem;
+    }
+    path {
+        fill: $green;
     }
 }

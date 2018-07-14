@@ -51,14 +51,12 @@ sup {
 	padding-bottom: .5em;
 	letter-spacing: .01em;
 	white-space: nowrap;
-	animation: 11s marquee ease-in-out infinite alternate;
 	@include bp(m){
 		font-size: $font-size-medium;
 	}
 	@include bp(l){
 		white-space: normal;
 		padding-bottom: 1.5em;
-		animation: none;
 		span {
 			display: block;
 		}

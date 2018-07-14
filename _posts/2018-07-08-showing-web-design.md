@@ -10,7 +10,7 @@ twitter_blurb: '"Documenting Web Design Work" by @maxakohler'
 
 ## Let's look at some options
 
-Here are some methods I've seen other people use to present web design work, listed roughly in order of elaborate-ness.
+I'll list them roughly in order of elaborate-ness.
 
 ### Linking to the live site
 

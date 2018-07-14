@@ -1,4 +1,7 @@
+@charset "utf-8";
+
 $black: rgb(14,13,12);
+$gray: rgb(167, 163, 157);
 $white: #fff;
 $lightgray: rgb(232,230,230);
 
@@ -17,7 +20,10 @@ $sans: "Suisse", Helvetica, sans-serif;
 $serif: "Georgia", serif;
 $text: $serif;
 $fast: 290ms;
-$indent: 5%;
+$padding: calc(1rem + .5vw) calc(1rem + .5vw);
+$font-size-medium: calc(1rem + .5vw);
+$font-size-big: calc(.8rem + 2vw);
+
 
 @mixin ts($s){
 	@if $s == 'text' {
@@ -42,10 +48,21 @@ $indent: 5%;
 	@else if $point == l {
 		@media (min-width: 65rem) { @content; }
 	}
+	@else if $point == ml {
+		@media (min-width: 55rem) { @content; }
+	}
 	@else if $point == m {
 		@media (min-width: 45rem) { @content; }
+	}
+	@else if $point == ms {
+		@media (min-width: 38rem) { @content; }
 	}
 	@else if $point == s {
 		@media (min-width: 35rem) { @content; }
 	}
+}
+
+@keyframes marquee {
+	from {text-indent: 0%}
+	to {text-indent: -55em}
 }

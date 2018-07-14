@@ -20,7 +20,12 @@ body {
 	font-family: $sans;
 	color: $black;
 	min-height: 100%;
-	font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
+	overflow-x: hidden;
+	font-feature-settings:"pnum" 1, "kern" 1;
+	display: grid;
+	grid-template: auto / repeat(10, 1fr);
+	grid-column-gap: $padding;
+
 }
 
 a {
@@ -38,21 +43,30 @@ sup {
 
 .site-header {
 	line-height: 1.35;
-	font-size: 1.1rem;
+	font-size: calc(.8rem + 2vw);
+	border-bottom: 1px solid $black;
+	padding: $padding;
+	overflow-x: hidden;
+	padding-top: .5em;
+	padding-bottom: .5em;
 	letter-spacing: .01em;
+	white-space: nowrap;
+	animation: 11s marquee ease-in-out infinite alternate;
 	@include bp(m){
-		font-size: calc(.8rem + .5vw);
+		font-size: $font-size-medium;
 	}
-	padding: 1rem;
-	padding-bottom: 0;
+	@include bp(l){
+		white-space: normal;
+		padding-bottom: 1.5em;
+		animation: none;
+		span {
+			display: block;
+		}
+	}
+	grid-area: auto / span 10;
 	display: flex;
-	margin-bottom: 6rem;
 	align-items: baseline;
 	justify-content: space-between;
-	width: 100%;
-	span {
-		display: block;
-	}
 	a {
 		&:hover, &:focus {
 			opacity: .5;
@@ -61,11 +75,17 @@ sup {
 }
 
 .site-footer {
-	padding: 1rem;
-	padding-top: 5rem;
-	font-size: .9rem;
-	color: gray;
+	padding: $padding;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-top: 1px solid $black;
+	font-size: calc(1rem + .5vw);
+	color: $black;
 	letter-spacing: .001em;
+	grid-area: auto / 1 / auto / 11;
+	a {
+		color: $gray;
+	}
 	span {
 		display: block;
 	}

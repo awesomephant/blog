@@ -1,25 +1,41 @@
 ---
 layout: default
 ---
-
-{% include header-collapsed.html %}
-
-<article style='background-color: {{page.color}}' class='project {{page.class}}'>
-	<header class="project-info">
-		<h1 class="single-project-title">{{ page.title }} ({{page.year}})</h1>
-		<div class="project-copy">
-			{{ content }}
-		</div>
-	</header>
-	<div class="project-content">
-		{% if page.project_url %}
-		<figure class="screenshot">
-			<iframe src="{{page.project_url}}" frameborder="0"></iframe>
-		</figure>
-		{% endif %}
-
-		{% for i in page.images %}
-		<img src="{{ i }}" alt="">
+<article class='project {{page.class}}'>
+		<header class='project-header'>
+				<a href="/" class='project-back'>Graphic Design</a>
+			<h1>{{page.title}}</h1>
+		</header>
+	<section class="project-images">
+		{% for image in page.images %}
+		<img src="{{image}}" alt="">
 		{% endfor %}
-	</div>
+	</section>
+	<ul class="project-meta">
+		<li class="project-meta-item">
+			<em class="project-meta-title">Date</em>
+			{{page.date}}
+		</li>
+		<li class="project-meta-item">
+			<em class="project-meta-title">Role</em>
+			<ul>
+				{% for role in page.roles %}
+				<li>{{role}}</li>
+				{% endfor %}
+			</ul>
+		</li>
+		{% if page.team %}
+		<li class="project-meta-item">
+			<em class="project-meta-title">Team</em>
+			<ul>
+				{% for person in page.team %}
+				<li>{{person}}</li>
+				{% endfor %}
+			</ul>
+		</li>
+		{% endif %}
+	</ul>
+	<main class="project-copy">
+			{{ content }}
+	</main>
 </article>

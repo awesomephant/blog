@@ -1,39 +1,63 @@
+.site-home {
+	grid-area: 2 / 1 / auto / 11;
+}
 .home-work,
 .home-writing {
-	padding: 1rem;
-	max-width: 80rem;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
 	letter-spacing: .005em;
-	margin-bottom: 1rem;
+	position: relative;
 	h2 {
 		font-size: 1rem;
+		transform: rotate(90deg) rotateY(0) translateY(-1em);
+		transform-origin: center left;
+		grid-area: auto / 1 / auto / 1;
+		position: absolute;
+		white-space: nowrap;
+		top: 0;
+		transition: $fast;
 		@include bp(m){
-			font-size: 1.2rem;
-			padding-left: calc(5% + 1rem);
+			font-size: $font-size-medium;
+			transform: none;
+			white-space: normal;
+			padding: $padding;
+			position: static;
+			padding-top: .2em;
+			grid-area: auto / 1 / auto / 3;
 		}
-		padding-bottom: .5em;
 	}
+}
+
+.home-writing {
+	border-top: 1px solid $black; 
 }
 
 .project-list {
+	grid-area: auto / 2 / auto / 11;
+	border-left: 1px solid $black;
+	@include bp(m){
+		grid-area: auto / 3 / auto / 11;
+	}
+}
+
+.project-image {
+	display: none;
 }
 
 .project-list-item {
-	padding-bottom: 1em;
-	padding-top: .6em;
-	display: flex;
+	padding: .5em;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-column-gap: $padding;
 	text-decoration: none;
-	overflow: hidden;
-	align-items: end;
-	flex-wrap: wrap;
-	max-height: 5rem;
 	font-size: 1rem;
-	border-bottom: 0;
 	@include bp(m){
-		font-size: 1.2rem;
+		padding: .2em;
+		font-size: $font-size-medium;
 	}
-	@include bp(m){
-		max-height: 2em;
-		flex-wrap: nowrap;
+	border-bottom: 1px solid $black;
+	&:last-of-type {
+		border-bottom: 0;
 	}
 	&:hover, &:focus {
 		text-decoration: none;
@@ -44,34 +68,36 @@
 	}
 }
 
-.project-image {
-	display: block;
-	flex-basis: 40%;
-	transition: 300ms;
-	height: auto;
-	flex-shrink: 1;
-	pointer-events: none;
-	width: 100%;
-	margin-top: .2rem;
-    @include bp(m){
-		margin-top: 0rem;
-		width: 60%;
-		
-	}
-}
-
 .project-title {
-	flex-grow: 1;
-	@include bp(m){
-		flex-basis: 40%;
-		.home-writing & {
-			flex-basis: 100%;
+	grid-area: auto / 2 / auto / 11;
+	position: relative;
+	&:after {
+		content: '';
+		bottom: 0;
+		width: 1px;
+		background: $black;
+		position: absolute;
+		height: calc(100% + 1em);
+		left: -.5em;
+		top: -.5em;
+		@include bp(m){
+			height: calc(100% + .45em);
+			top: -.2em;
 		}
 	}
 }
 
 .project-year {
-	flex-basis: 5%;
-	flex-shrink: 0;
-	margin-right: 1rem;
+	grid-area: auto / 1 / auto / 2;
+	position: relative;
+	padding-left: .2em;
+	&:before {
+		content: "'";
+		@include bp(s){
+			content: '20'
+		}
+	}
+	&.blank:before {
+		display: none;
+	}
 }

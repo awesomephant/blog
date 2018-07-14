@@ -1,9 +1,9 @@
 .post-header {
-    margin: 0 auto;
-    margin-bottom: 6rem; 
-    max-width: 48rem;
-    text-align: center;
-    font-family: $sans;
+    @extend .project-header;
+    grid-area: 2 / 1 / auto / 11 !important;
+    @include bp(m){
+        grid-area: 2 / 2 / auto / 11 !important;
+    }
 }
 
 .post-date {
@@ -12,41 +12,53 @@
     font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
 }
 .post-title {
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
+    font-size: $font-size-big;
     line-height: 1.2;
-    @include bp(m) {
-        font-size: 2.2rem;
-    }
-}
-
-.project-wrap {
-    display: flex;
 }
 
 .post-content {
     font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
-    max-width: 46rem;
-    @include bp(m) {
-        margin: 0 auto;
+    max-width: 35em;
+}
+
+.post-meta {
+    font-size: calc(1rem + .1vw);
+    grid-area: 3 / 1 / auto / 11;
+    display: flex;
+    padding: $padding;
+    padding-bottom: 3em;
+    @include bp(m){
+        grid-area: 3 / 2 / auto / 8;
     }
+    @include bp(l){
+        grid-area: 3 / 2 / auto / 6;
+    }
+    @include bp(xl){
+        display: block;
+        column-count: 1;
+        grid-area: 3 / 2 / auto / 4;
+    }
+    list-style: none;
 }
 
 .post {
     font-weight: 500;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: $padding;
     padding-bottom: 3rem;
-    padding-top: 2rem;
-    font-size: 16px;
+    font-size: 17px;
     font-family: $serif;
     color: $black;
-
+    grid-area: 4 / 1 / auto / 11;
     letter-spacing: .001em;
     word-spacing: 0.001em;
     line-height: 1.4;
     @include bp(m) {
         font-size: 1.3rem;
+        grid-area: auto / 2  / auto / 10;
+    }
+    @include bp(xl){
+        grid-area: auto / 4 / auto / 9;
+        font-size: 1.45rem;
     }
     strong {
         font-weight: bold;
@@ -84,26 +96,31 @@
     }
     img,
     video, iframe {
-        width: 100%;
-        @include bp(m) {
-            width: 120%;
+        width: 110%;
+        margin-left: -5%;
+        @include bp(m){
             margin-left: -10%;
+            width: 120%;
+        }
+        @include bp(xl){
+            margin: 0;
+            width: 130%;
         }
     }
     h2 {
-        margin-top: 4rem;
+        margin-top: 2em;
+        margin-bottom: 1em;
         font-family: $sans;
-        margin-bottom: 2rem;
-        font-size: .95em;
+        font-size: 1.1em;
         letter-spacing: .01em;
-        text-align: center;
     }
     h3 {
         letter-spacing: .01em;
         font-size: .95em;
         font-family: $sans;
-        margin-top: 4rem;
-        margin-bottom: 1rem;
+        margin-top: 2em;
+        color: $gray;
+        margin-bottom: 1em;
     }
     h4 {
         color: rgba($black, .5);
@@ -136,7 +153,10 @@
     }
     .hasimage {
         font-family: $sans;
-        font-size: 1rem;
+        font-size: .8rem;
+        @include bp(m){
+            font-size: 1rem;
+        }
         padding-top: .5rem;
         letter-spacing: .01em;
     }
@@ -167,10 +187,19 @@ pre.highlight {
     background: darken(white, 3);
     padding: .5rem;
     margin-bottom: 1rem;
-    font-size: .9rem;
+    font-size: 1.3rem;
     white-space: pre;
     overflow-x: auto;
     width: 98%;
+}
+.language-css {
+    &:before {
+        position: relative;
+        content: 'CSS';
+        font-family: $sans;
+        font-size: .9rem;
+        color: gray;
+    }
 }
 
 .gallery p {
@@ -250,25 +279,5 @@ pre.highlight {
     li {
         margin-bottom: .2rem;
         width: 90%;
-    }
-}
-
-.tweet-button {
-    font-family: $sans;
-    border: 1px solid $green !important;
-    border-bottom-width: 2px !important;
-    border-radius: 3px;
-    text-decoration: none;
-    margin-top: 2rem;
-    padding: .8rem;
-    font-size: 1rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    svg {
-        margin-right: .5rem;
-    }
-    path {
-        fill: $green;
     }
 }

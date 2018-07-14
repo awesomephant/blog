@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Pygmalion's Spectacles
 year: 2017
 color: '#FFD2CC'

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Alexander von Humboldt Gymnasium Lehrsammlung
+title: Alexander von Humboldt Gymnasium Study Collection
 date: January—May 2018
 team:
     - Franz Kohler
@@ -15,6 +15,8 @@ roles:
   - Content Strategy
 ---
 
-I designed and built a new website for Assembly Point, an art gallery in South London. We worked together to figure out the different types of content they produce and how it should be displayed - exhibitions, events, edition items and so on. I continue to work with the good people of AP to expand and improve the site. 
+I designed and built an online database of the biological study collecton at my _Gymnasium_ in Konstanz, Germany. At the time of this writing roughly a third of the collection is catalogued.
+
+The site is built on Wordpress, allowing different members of the team to add photographs and information in a structured way.
 
 [Suisse Int'l](https://www.swisstypefaces.com/fonts/suisse/) is used throughout. View the live site at [avh-sammlung.de](http://avh-sammlung.de/).

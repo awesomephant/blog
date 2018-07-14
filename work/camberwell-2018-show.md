@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Camberwell Graphic Design 2018 Degree Show Website
+title: Camberwell Graphic Design 2018 Degree Show
 date: May—June 2018
 project_url: 'http://assemblypoint.xyz/'
 team:
@@ -12,13 +12,22 @@ team:
     - Ben Browning
 images: 
   - /assets/projects/ccagd-2.png
-  - /assets/projects/ccagd-3.png
-  - /assets/projects/ccagd-1.png
+  - /assets/projects/stream.png
+  - /assets/projects/stream-2.png
+  - /assets/projects/stream-3.png
 roles:
   - Web Design
   - Web Development
 ---
 
-I designed and built a new website for Assembly Point, an art gallery in South London. We worked together to figure out the different types of content they produce and how it should be displayed - exhibitions, events, edition items and so on. I continue to work with the good people of AP to expand and improve the site. 
+I worked on the website for the 2018 Graphic Design Degree Show at Camberwell College of Arts with creative direction from Shawn Sawyers and development help from Ben Browning.  
 
-[GT America Extended](http://www.gt-america.com/) is used throughout the identity. View the live site at [camberwell2018.com](http://camberwell2018.com/).
+We built the site on [Jekyll](https://jekyllrb.com/), with a Google Document acting as the database. This allowed different members of the team to update the content of the site without touching code or logging into a content management system.
+
+The central feature of the site is a live broadcast of the exhibition space. Using the Twitch API, we were able to build a custom stream player to fit into the larger identity.
+
+We decided to randomise the images of students' work each time the page is loaded to highlight the wide spectrum of work being produced on the course. 
+
+[GT America Extended](http://www.gt-america.com/) by [Grilli Type](https://www.grillitype.com/) is used throughout the identity.
+
+View the live site at [camberwell2018.com](http://camberwell2018.com/).

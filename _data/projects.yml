@@ -1,24 +1,21 @@
-- title: "Camberwell GD Degree Show Website"
+- title: "Camberwell GD Degree Show"
   url: '/work/camberwell-2018-show'
   year: 2018
-  image: 'ccagd-2.png'
 
 - title: "Hidden Archives"
   url: '#1'
   year: 2018
-  image: 'hidden-archives.png'
 
 - title: "Teaching Machines to Draw"
-  url: '#1'
+  url: '/work/drawing-machines'
   year: 2018
-  image: machines.png
 
-- title: "AvH Konstanz Lehrsammlung"
+- title: "AvH Konstanz Study Collection"
   url: './work/avh-sammlung'
   year: 2017
   image: avh.jpg
 
-- title: "Camberwell FdA Degree Show Identity"
+- title: "Camberwell FdA Degree Show"
   url: './work/camberwell-fda-show'
   image: 'website.png'
   year: 2017
@@ -51,7 +48,3 @@
   url: './work/met-office'
   year: 2017
   image: 'gradient-prints.jpg'
-
-- title: 'Radiologen Konstanz'
-  url: '/work/zwicker-partner'
-  year: 2016

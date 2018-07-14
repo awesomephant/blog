@@ -30,7 +30,7 @@
         border-right: 1px solid $black;
         padding-top: 0;
     }
-    img {
+    img, video {
         display: block;
         width: 100%;
         margin-bottom: 1em;
@@ -96,4 +96,11 @@ a.project-back {
     font-size: $font-size-medium;
     color: $gray;
     padding-top: .2em;
+}
+
+.project-next {
+    padding: $padding;
+    border-top: 1px solid $black;
+    grid-area: auto / 1 / auto / 11;
+    font-size: $font-size-medium;
 }

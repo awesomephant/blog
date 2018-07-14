@@ -7,6 +7,9 @@ layout: default
 			<h1>{{page.title}}</h1>
 		</header>
 	<section class="project-images">
+		{% for v in page.videos %}
+		<video src='{{v}}' muted loop autoplay></video>
+		{% endfor %}
 		{% for image in page.images %}
 		<img src="{{image}}" alt="">
 		{% endfor %}
@@ -34,6 +37,13 @@ layout: default
 			</ul>
 		</li>
 		{% endif %}
+		<li class="project-meta-item">
+				<em class="project-meta-title">Share</em>
+				<nav>
+					<a href='https://twitter.com/intent/tweet?text={{page.twitter_blurb | url_escape}} {{site.url}}{{page.url}}'>Twitter</a>
+					<a href="http://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}">Facebook</a>
+				</nav>
+			</li>
 	</ul>
 	<main class="project-copy">
 			{{ content }}

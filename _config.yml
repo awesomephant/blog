@@ -1,9 +1,9 @@
 # Site settings
-title: Max Koehler
-description: I’m Max Koehler. This is the story of me trying to become a graphic designer.
+title: Max Kohler
+description: "Max Kohler is a graphic designer based in London."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maxkoehler.com" # the base hostname & protocol for your site
-twitter_username: awesomephant
+twitter_username: maxakohler
 
 # Build settings
 markdown: kramdown

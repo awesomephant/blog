@@ -24,7 +24,7 @@ I worked on the website for the 2018 Graphic Design Degree Show at Camberwell Co
 
 We built the site on [Jekyll](https://jekyllrb.com/), with a Google Document acting as the database. This allowed different members of the team to update the content of the site without touching code or logging into a content management system.
 
-The central feature of the site is a live broadcast of the exhibition space. Using the Twitch API, we were able to build a custom stream player to fit into the larger identity.
+The central feature of the site is a live broadcast of the exhibition space. Using the [Twitch API](https://dev.twitch.tv/), we were able to build a custom stream player to fit into the larger identity.
 
 We decided to randomise the images of students' work each time the page is loaded to highlight the wide spectrum of work being produced on the course. 
 

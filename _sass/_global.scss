@@ -32,6 +32,10 @@ a {
 	color: inherit;
 	text-decoration: none;
 	border-bottom: 1px solid $gray;
+	transition: 100ms;
+	&:hover, &:focus {
+		color: $gray;
+	}
 }
 
 
@@ -49,7 +53,9 @@ sup {
 	padding-bottom: .5em;
 	letter-spacing: .01em;
 	white-space: nowrap;
+	animation: 12s marquee ease-in-out alternate infinite;
 	@include bp(m){
+		animation: none;
 		font-size: $font-size-medium;
 	}
 	@include bp(l){
@@ -63,11 +69,6 @@ sup {
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
-	a {
-		&:hover, &:focus {
-			opacity: .5;
-		}
-	}
 }
 
 .site-footer {
@@ -79,10 +80,16 @@ sup {
 	color: $black;
 	letter-spacing: .001em;
 	grid-area: auto / 1 / auto / 11;
-	a {
-		color: $gray;
-	}
 	span {
 		display: block;
 	}
+	a:hover, a:focus {
+		color: $gray;
+	}
+}
+
+.footer-copyright {
+	font-size: .9rem;
+	padding-top: 1em;
+	color: $gray;
 }

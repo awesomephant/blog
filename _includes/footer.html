@@ -1,6 +1,9 @@
 <footer class="site-footer">
 	<span class="footer-message"></span>
 	<a href="https://tinyletter.com/maxakohler">Sign up for my occasional newsletter</a>
+	<span class='footer-copyright'>
+		© {{'now' | date: "%Y"}}
+	</span>
 </footer>
 <script>
 	function getRandomInt(min, max) {
@@ -52,10 +55,10 @@
 		window.addEventListener('deviceorientation', function (e) {
 			var y = e.gamma; // In degree in the range [-90,90]
 			if (!ticking) {
-				window.requestAnimationFrame(function () {
-					handleOrientation(y);
-					ticking = false;
-				});
+//				window.requestAnimationFrame(function () {
+//					handleOrientation(y);
+//					ticking = false;
+//				});
 
 				ticking = true;
 

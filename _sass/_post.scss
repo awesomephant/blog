@@ -119,14 +119,13 @@
         font-size: .95em;
         font-family: $sans;
         margin-top: 2em;
-        color: $gray;
         margin-bottom: 1em;
     }
     h4 {
-        color: rgba($black, .5);
-        letter-spacing: .01em;
+        text-transform: uppercase;
+        letter-spacing: .05em;
         font-family: $sans;
-        font-size: .95em;
+        font-size: .7em;
     }
     .note p {
         color: gray;
@@ -183,14 +182,37 @@ td {
 	border-bottom-color: $black; 
 }
 
+.line-number {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding-right: .5rem;
+    color: $gray;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: .9em;
+    background: white;
+    span {
+        display: block;
+        text-align: right;
+    }
+}
+
 pre.highlight {
-    background: darken(white, 3);
-    padding: .5em;
+    display: flex;
+    position: relative;
+    left: -.8em;
     margin-bottom: 1em;
     font-size: .95em;
     white-space: pre;
     overflow-x: auto;
-    width: 98%;
+    border-radius: 2px;
+    background: darken(white, 3);
+    code {
+        display: block;
+        padding: .5rem;
+
+    }
 }
 
 [class*=language-]{
@@ -233,19 +255,14 @@ pre.highlight {
 }
 
 .post-jumplink {
-    opacity: 0;
-    color: gray;
-    padding-left: .5rem;
+    color: $gray;
+    padding-right: .5em;
     text-decoration: none;
     transition: $fast;
-    h2:hover &,
-    &:focus {
-        opacity: .8;
-    }
+    border-bottom: 0 !important;
     &:hover,
     &:focus {
-        text-decoration: none;
-        color: darken(gray, 8)
+        color: darken($gray, 18) !important;
     }
 }
 

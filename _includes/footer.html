@@ -15,10 +15,22 @@
 		'Unpaid internships are illegal.',
 		'Made by an immigrant.'
 	]
+	const addLineNumbers = function () {
+		var pre = document.getElementsByTagName('pre'),
+			pl = pre.length;
+		for (var i = 0; i < pl; i++) {
+			pre[i].innerHTML = '<span class="line-number"></span>' + pre[i].innerHTML + '<span class="cl"></span>';
+			var num = pre[i].innerHTML.split(/\n/).length;
+			for (var j = 0; j < (num - 1); j++) {
+				var line_num = pre[i].getElementsByTagName('span')[0];
+				line_num.innerHTML += '<span>' + (j + 1) + '</span>';
+			}
+		}
+	}
 	document.addEventListener('DOMContentLoaded', function () {
 		var header = document.querySelector('.site-header');
 
-		let headlines = document.querySelectorAll('.post-content h2[id]');
+		let headlines = document.querySelectorAll('.post-content h2[id], .post-content h3[id]');
 		console.log(headlines)
 		for (let i = 0; i < headlines.length; i++) {
 			let link = document.createElement('a')
@@ -26,7 +38,7 @@
 			link.innerHTML = '#'
 			link.classList.add('post-jumplink')
 			console.log(link)
-			headlines[i].appendChild(link)
+			headlines[i].insertAdjacentElement('afterbegin', link)
 		}
 
 		let paragraphs = document.querySelectorAll('.post-content p');
@@ -40,31 +52,7 @@
 		let footerMsg = document.querySelector('.footer-message');
 		footerMsg.innerHTML = footerMessages[getRandomInt(0, footerMessages.length - 1)]
 
+		addLineNumbers();
+
 	}, false);
-
-	// Header Interaction
-
-	var header = document.querySelector('.site-header');
-	var ticking = false;
-
-	function handleOrientation(y) {
-		y += 90;
-		header.style.textIndent = (y * 1) - 130 + 'em';
-	}
-	if (window.matchMedia("(max-width: 45rem)").matches) {
-		window.addEventListener('deviceorientation', function (e) {
-			var y = e.gamma; // In degree in the range [-90,90]
-			if (!ticking) {
-//				window.requestAnimationFrame(function () {
-//					handleOrientation(y);
-//					ticking = false;
-//				});
-
-				ticking = true;
-
-			}
-		});
-
-	}
-
 </script>

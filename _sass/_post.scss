@@ -79,9 +79,7 @@
     ol {
         margin-bottom: 1rem;
         code {
-            @include bp(m){
-                font-size: 1.2em;
-            }
+            font-size: 1em;
         }
     }
     ol,
@@ -194,15 +192,18 @@ pre.highlight {
     overflow-x: auto;
     width: 98%;
 }
-.language-css {
+
+[class*=language-]{
     &:before {
         position: relative;
-        content: 'CSS';
-        font-family: $sans;
-        font-size: .9rem;
-        color: gray;
-    }
+         font-family: $sans;
+         font-size: .9rem;
+         color: gray;
+     }
 }
+
+.language-css:before {content: 'CSS';}
+.language-html:before {content: 'HTML';}
 
 .gallery p {
     column-gap: 1rem;

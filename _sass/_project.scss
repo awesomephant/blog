@@ -104,3 +104,24 @@ a.project-back {
     grid-area: auto / 1 / auto / 11;
     font-size: $font-size-medium;
 }
+
+.image-fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    opacity: 0;
+    background-position: center;
+    background-color: $black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: opacity 300ms;
+    z-index: 100;
+    @include cursor(cross);
+    &.active {
+        pointer-events: all;
+        opacity: 1;
+    }
+}

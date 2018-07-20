@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div class="image-fullscreen"></div>
 <article class='project {{page.class}}'>
 		<header class='project-header'>
 				<a href="/" class='project-back'>Graphic Design</a>
@@ -11,7 +12,7 @@ layout: default
 		<video src='{{v}}' muted loop autoplay></video>
 		{% endfor %}
 		{% for image in page.images %}
-		<img src="{{image}}" alt="">
+		<img class='project-image' src="{{image}}" alt="">
 		{% endfor %}
 	</section>
 	<ul class="project-meta">

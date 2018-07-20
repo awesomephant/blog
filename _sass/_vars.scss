@@ -41,6 +41,12 @@ $font-size-big: calc(.8rem + 2vw);
     }
 }
 
+@mixin cursor($name){
+    // Source: https://gist.github.com/dsdsdsdsdsds/bd142334efcd81f0b30e
+    cursor: url("../assets/cursors/cursor-#{$name}.svg") 0 0, pointer; /* FF */
+    cursor: -webkit-image-set(url("../assets/cursors/cursor-#{$name}.png") 1x, url("../assets/cursors/cursor-#{$name}@2x.png") 2x) 0 0, pointer; /* Webkit */
+}
+
 @mixin bp($point) {
 	@if $point == xl {
 		@media (min-width: 80rem) { @content; }

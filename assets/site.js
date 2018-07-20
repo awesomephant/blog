@@ -46,10 +46,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let projectImages = document.querySelectorAll('.project-image');
     let projectImageOverlay = document.querySelector('.image-fullscreen');
+    if (projectImageOverlay){
 
-    projectImageOverlay.addEventListener('click', function(){
-        this.classList.remove('active');
-    })
+        projectImageOverlay.addEventListener('click', function(){
+            this.classList.remove('active');
+        })
+    }
     
     for (let i = 0; i < projectImages.length; i++){
         let pi = projectImages[i];
@@ -59,5 +61,16 @@ document.addEventListener('DOMContentLoaded', function () {
             projectImageOverlay.style.backgroundImage = 'url(' + this.getAttribute('src') + ')';
         })
     }
+
+    // Sort out home hover
+    let homeItems = document.querySelectorAll('.project-list-item, .post-list-item');
+    console.log(homeItems)
+    for (let i = 0; i < homeItems.length; i++){
+        homeItems[i].addEventListener('mouseover', function(){
+            let year = this.getAttribute('data-year');
+            this.parentNode.setAttribute('data-active-year', year);
+        })
+    }
+    
     
 }, false);

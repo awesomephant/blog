@@ -7,6 +7,11 @@
 	grid-template-columns: repeat(10, 1fr);
 	letter-spacing: .005em;
 	position: relative;
+	&:hover, &:focus {
+		h2 {
+			color: $gray;
+		}
+	}
 	h2 {
 		font-size: 1rem;
 		transform: rotate(90deg) rotateY(0) translateY(-1em);
@@ -15,7 +20,7 @@
 		position: absolute;
 		white-space: nowrap;
 		top: 0;
-		transition: $fast;
+		transition: transform $fast;
 		@include bp(m){
 			font-size: $font-size-medium;
 			transform: none;
@@ -61,7 +66,7 @@
 	}
 	&:hover, &:focus {
 		text-decoration: none;
-		color: lighten($black, 30);
+		color: $gray;
 		z-index: 100;
 		position: relative;
         overflow: visible;
@@ -100,4 +105,21 @@
 	&.blank:before {
 		display: none;
 	}
+}
+
+[data-year='2018'] ~ [data-year='2018'] .project-year,
+[data-year='2017'] ~ [data-year='2017'] .project-year,
+[data-year='2016'] ~ [data-year='2016'] .project-year
+{
+	visibility: hidden;
+	&:after {
+		display: none
+	}
+}
+
+[data-active-year='2018'] date[data-year='2018'],
+[data-active-year='2017'] date[data-year='2017'],
+[data-active-year='2016'] date[data-year='2016'],
+{
+	color: $gray;
 }

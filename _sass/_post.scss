@@ -2,7 +2,7 @@
     @extend .project-header;
     grid-area: 2 / 1 / auto / 11 !important;
     @include bp(m){
-        grid-area: 2 / 2 / auto / 11 !important;
+        grid-area: 2 / 3 / auto / 11 !important;
     }
 }
 
@@ -12,7 +12,6 @@
     font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
 }
 .post-title {
-    font-size: $font-size-big;
     line-height: 1.2;
 }
 
@@ -22,21 +21,21 @@
 }
 
 .post-meta {
-    font-size: calc(1rem + .1vw);
+    font-size: $ms--1;
     grid-area: 3 / 1 / auto / 11;
     display: flex;
     padding: $padding;
     padding-bottom: 3em;
     @include bp(m){
-        grid-area: 3 / 2 / auto / 8;
+        grid-area: 3 / 1 / auto / 8;
     }
     @include bp(l){
-        grid-area: 3 / 2 / auto / 6;
+        grid-area: 3 / 1 / auto / 6;
     }
     @include bp(xl){
         display: block;
         column-count: 1;
-        grid-area: 3 / 2 / auto / 4;
+        grid-area: 3 / 1 / auto / 4;
     }
     list-style: none;
 }
@@ -45,20 +44,16 @@
     font-weight: 500;
     padding: $padding;
     padding-bottom: 3rem;
-    font-size: 17px;
-    font-family: $serif;
+    font-family: $sans;
+    font-size: $ms-1;
     color: $black;
     grid-area: 4 / 1 / auto / 11;
-    letter-spacing: .001em;
-    word-spacing: 0.001em;
     line-height: 1.4;
     @include bp(m) {
-        font-size: 1.3rem;
-        grid-area: auto / 2  / auto / 10;
+        grid-area: auto / 2  / auto / 11;
     }
     @include bp(xl){
-        grid-area: auto / 4 / auto / 9;
-        font-size: 1.45rem;
+        grid-area: 3 / 3 / auto / 11;
     }
     strong {
         font-weight: bold;
@@ -74,65 +69,54 @@
             color: $gray;
         }
     }
-    p,
-    ul,
-    ol {
-        margin-bottom: 1rem;
-        code {
-            font-size: 1em;
-        }
-    }
     ol,
-    ul {
-        margin-left: 1.2em;
+    ul,
+    p {
+        margin-bottom: .5em;
     }
     li {
         margin-bottom: .2rem;
     }
     blockquote p {
-        font-style: italic;
-        border-left: 1px solid darken(#EBE8D3, 8);
-        padding-left: 1.5rem;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        font-size: $ms-1 - .15;
+        padding-left: 1em;
     }
     img,
     video, iframe {
         width: 110%;
         margin-left: -5%;
         @include bp(m){
-            margin-left: -10%;
-            width: 120%;
-        }
-        @include bp(xl){
-            margin: 0;
-            width: 130%;
+            margin-left: -5%;
+            width: 110%;
         }
     }
     h2 {
         margin-top: 2em;
         margin-bottom: 1em;
         font-family: $sans;
-        font-size: 1.1em;
+        text-align: center;
+        font-feature-settings: none;
         letter-spacing: .01em;
+        word-spacing: .002em;
+        text-transform: uppercase;
     }
     h3 {
-        letter-spacing: .01em;
-        font-size: .95em;
-        font-family: $sans;
-        margin-top: 2em;
-        margin-bottom: 1em;
+        text-decoration: underline;
+        margin-top: 1em;
+        margin-bottom: .2em;
     }
     h4 {
-        text-transform: uppercase;
-        letter-spacing: .05em;
+        font-size: $ms-0;
+        margin-top: .1em;
         font-family: $sans;
-        font-size: .7em;
     }
     .note p {
         color: gray;
     }
     table {
         margin-bottom: 1rem;
-		font-size: 1rem;
 		border-collapse: collapse;
 		border-spacing: 0;
     }
@@ -151,12 +135,10 @@
         border-bottom: 0;
     }
     .hasimage {
-        font-family: $sans;
-        font-size: .8rem;
-        @include bp(m){
-            font-size: 1rem;
-        }
         padding-top: .5rem;
+        font-size: $ms--1;
+        text-align: center;
+        margin-bottom: 1em;
         letter-spacing: .01em;
     }
 }
@@ -167,8 +149,7 @@ td {
     padding-top: .4rem;
     padding-bottom: .4rem;
     .dense & {
-		font-family: $sans;
-		font-size: .9rem;
+        font-size: $ms--1;
         padding-top: .2rem;
         padding-bottom: .3rem;
         padding-right: .6rem;
@@ -190,7 +171,7 @@ td {
     color: $gray;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    font-size: .9em;
+    font-size: $ms--1;
     background: white;
     span {
         display: block;
@@ -203,7 +184,7 @@ pre.highlight {
     position: relative;
     left: -.8em;
     margin-bottom: 1em;
-    font-size: .95em;
+    font-size: $ms-0;
     white-space: pre;
     overflow-x: auto;
     border-radius: 2px;
@@ -218,9 +199,8 @@ pre.highlight {
 [class*=language-]{
     &:before {
         position: relative;
-         font-family: $sans;
-         font-size: .9rem;
-         color: gray;
+         font-size: $ms--1;
+         color: $gray;
      }
 }
 
@@ -259,10 +239,13 @@ pre.highlight {
     padding-right: .5em;
     text-decoration: none;
     transition: $fast;
+    position: absolute;
+    left: -1em;
     border-bottom: 0 !important;
-    &:hover,
-    &:focus {
-        color: darken($gray, 18) !important;
+    opacity: 0;
+    h2:hover &, h3:hover &,
+    h2:focus &, h3:hover & {
+        opacity: 1;
     }
 }
 
@@ -271,7 +254,7 @@ pre.highlight {
 }
 
 .footnotes {
-    font-size: 1rem;
+    font-size: $ms-0;
     padding-top: 4rem;
     ul,
     ol {
@@ -284,20 +267,5 @@ pre.highlight {
     li {
         margin-left: 1rem;
         margin-bottom: .5rem;
-    }
-}
-
-.print-footnotes {
-    list-style: decimal;
-    font-size: 9pt;
-    display: none;
-    column-count: 2;
-    column-gap: 2rem;
-    padding: 2rem;
-    max-width: 40rem;
-    border-top: 1px solid lightgray;
-    li {
-        margin-bottom: .2rem;
-        width: 90%;
     }
 }

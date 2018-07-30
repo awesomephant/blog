@@ -11,6 +11,10 @@ html {
 	position: relative;
 }
 
+:root {
+	font-size: 1.15rem;
+}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -44,7 +48,7 @@ sup {
 
 .site-header {
 	line-height: 1.35;
-	font-size: calc(.8rem + 2vw);
+	font-size: $ms-1;
 	border-bottom: 1px solid $black;
 	padding: $padding;
 	overflow-x: hidden;
@@ -55,11 +59,10 @@ sup {
 	animation: 12s marquee ease-in-out alternate infinite;
 	@include bp(m){
 		animation: none;
-		font-size: $font-size-medium;
 	}
 	@include bp(l){
 		white-space: normal;
-		padding-bottom: 1.5em;
+		padding-bottom: 1em;
 		span {
 			display: block;
 		}
@@ -75,7 +78,7 @@ sup {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	border-top: 1px solid $black;
-	font-size: calc(1rem + .5vw);
+	font-size: $ms-1;
 	color: $black;
 	letter-spacing: .001em;
 	grid-area: auto / 1 / auto / 11;
@@ -88,7 +91,7 @@ sup {
 }
 
 .footer-copyright {
-	font-size: .9rem;
+	font-size: $ms--1;
 	padding-top: 1em;
 	color: $gray;
 }

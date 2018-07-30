@@ -5,10 +5,7 @@ $gray: rgb(167, 163, 157);
 $white: #fff;
 $lightgray: rgb(232,230,230);
 
-$yellow: #ffd547;
-$green: #009355;
-$blue: #00E6FF;
-$pink: #FFB7B7;
+@import url("https://use.typekit.net/uof8tbt.css");
 
 @font-face {
   font-family: "Suisse";
@@ -16,23 +13,22 @@ $pink: #FFB7B7;
   src: url('https://www.assemblypoint.xyz/wp-content/themes/ap-theme/fonts/SuisseIntl-Regular-WebM.ttf') format('truetype');
 }
 
-$sans: "Suisse", Helvetica, sans-serif;
-$serif: "Georgia", serif;
+$sans: "Suisse";
+$serif: "Georgia";
 $text: $serif;
 $fast: 290ms;
 $padding: calc(1rem + .5vw) calc(1rem);
-$font-size-medium: calc(1rem + .5vw);
-$font-size-big: calc(.8rem + 2vw);
 
-
-@mixin ts($s){
-	@if $s == 'text' {
-		font-size: 1.1rem;
-	}
-	@if $s == 'm' {
-		font-size: 1.7rem;
-	}
-}
+// https://www.modularscale.com/?1.05&em&1.2
+// Minor third scale
+$ms-5: 2.488rem;
+$ms-4: 2.074rem;
+$ms-3: 1.728rem;
+$ms-2: 1.44rem;
+$ms-1: 1.2rem;
+$ms-0: 1rem;
+$ms--1: .833rem;
+$ms--2: .694rem;
 
 @mixin hideScrollbar(){
 	-ms-overflow-style: none;  // IE 10+

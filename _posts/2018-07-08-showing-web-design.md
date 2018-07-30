@@ -4,7 +4,7 @@ title:  "Documenting web design work"
 date: 2018-07-08 10:00:00
 tags: ""
 thumb: "http://www.maxkoehler.com/assets/showing-design/facebook.jpeg"
-intro: "If you're a person who makes websites for people, you probably want to show that work in a portfolio of some kind. What's the best way to do that?"
+intro: "If you make websites for people, you probably want to show that work in a portfolio of some kind. What's the best way to do that?"
 twitter_blurb: '"Documenting Web Design Work" by @maxakohler'
 ---
 

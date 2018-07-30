@@ -1,5 +1,9 @@
 .site-home {
 	grid-area: 2 / 1 / auto / 11;
+	font-size: $ms-0;
+	@include bp(m){
+		font-size: $ms-1;
+	}
 }
 .home-work,
 .home-writing {
@@ -18,7 +22,6 @@
 		}
 	}
 	h2 {
-		font-size: 1rem;
 		transform: rotate(90deg) rotateY(0) translateY(-1em);
 		transform-origin: center left;
 		grid-area: auto / 1 / auto / 1;
@@ -27,7 +30,6 @@
 		top: 0;
 		transition: transform $fast;
 		@include bp(m){
-			font-size: $font-size-medium;
 			transform: none;
 			white-space: normal;
 			padding: $padding;
@@ -60,10 +62,8 @@
 	grid-template-columns: repeat(8, 1fr);
 	grid-column-gap: $padding;
 	text-decoration: none;
-	font-size: 1rem;
 	@include bp(m){
 		padding: .2em;
-		font-size: $font-size-medium;
 	}
 	border-bottom: 1px solid $black;
 	&:last-of-type {

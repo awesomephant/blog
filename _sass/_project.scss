@@ -8,8 +8,9 @@
 
 .project-header {
     grid-area: 1 / 1 / auto / 11;
-    font-size: $font-size-big;
+    font-size: $ms-3;
     @include bp(m){
+        font-size: $ms-4;
         grid-area: 1 / 2 / auto / 10;
         padding-top: 2em;
         padding-bottom: 4em;
@@ -41,10 +42,9 @@
 }
 
 .project-meta {
-    font-size: calc(1rem + .1vw);
+    font-size: $ms--1;
     grid-area: 2 / 1 / auto / 11;
     column-count: 2;
-    padding: $padding;
     padding-top: 1em;
     @include bp(m){
         grid-area: 2 / 2 / auto / 8;
@@ -75,11 +75,11 @@
 }
 
 .project-copy {
-    font-size: calc(1rem + .5vw);
+    font-size: $ms-0;
     grid-area: 4 / 1 / auto / 11;
-    padding: $padding;
     padding-top: 1em;
     padding-bottom: 2em;
+    padding-right: 1em;
     @include bp(xl){
         padding-top: 0em;
         padding-bottom: 0em;
@@ -93,7 +93,7 @@
 
 a.project-back {
     border-bottom: 0;
-    font-size: $font-size-medium;
+    font-size: $ms-0;
     color: $gray;
     padding-top: .2em;
 }
@@ -102,7 +102,7 @@ a.project-back {
     padding: $padding;
     border-top: 1px solid $black;
     grid-area: auto / 1 / auto / 11;
-    font-size: $font-size-medium;
+    font-size: $ms-2;
 }
 
 .image-fullscreen {

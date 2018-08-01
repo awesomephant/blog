@@ -4,9 +4,6 @@ $black: rgb(14,13,12);
 $gray: rgb(167, 163, 157);
 $white: #fff;
 $lightgray: rgb(232,230,230);
-
-@import url("https://use.typekit.net/uof8tbt.css");
-
 @font-face {
   font-family: "Suisse";
   font-weight: 400;
@@ -16,7 +13,7 @@ $lightgray: rgb(232,230,230);
 $sans: "Suisse";
 $serif: "Georgia";
 $text: $serif;
-$fast: 290ms;
+$fast: 300ms;
 $padding: calc(1rem + .5vw) calc(1rem);
 
 // https://www.modularscale.com/?1.05&em&1.2

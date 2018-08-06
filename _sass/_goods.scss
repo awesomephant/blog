@@ -1,4 +1,19 @@
-.good-active {
+.badge {
+    font-size: 0;
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    z-index: 100;
+    border-bottom: 0;
+    transition: 1s;
+    animation: rotatoPotato 12s linear infinite forwards;
+    &:hover svg{
+        transform: scale(1.1);
+    }
+    svg {
+        transition: $fast;
+        width: 7rem;
+    }
 }
 .goods-list {
     padding: 1rem;
@@ -35,6 +50,7 @@
 
 .good-image, .good-image-animation {
     width: 100%;
+    transform-origin: top left;
     display: block;
 }
 
@@ -67,7 +83,7 @@
 }
 
 .single-good {
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
     left: 0;
@@ -78,7 +94,8 @@
     padding: 1em;
     min-height: 100vh;
     z-index: 100;
-    transition: $fast;
+    transition: opacity $fast;
+    padding-top: 90vh;
     transition-delay: opacity 100ms;
     .good-active & {
         opacity: 1;

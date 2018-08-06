@@ -4,8 +4,10 @@
   {% include head.html %}
 
   <body class='{{ page.class }}'>
-{% include header.html %}
-	    {{ content }}
-	{% include footer.html %}
+  <div class="site-wrapper">
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
   </body>
+</div>
 </html>

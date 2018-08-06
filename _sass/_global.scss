@@ -26,10 +26,7 @@ body {
 	min-height: 100%;
 	overflow-x: hidden;
 	font-feature-settings:"pnum" 1, "kern" 1;
-	display: grid;
-	grid-template: auto / repeat(10, 1fr);
-	grid-column-gap: $padding;
-
+	
 }
 
 a {
@@ -44,6 +41,13 @@ a {
 
 sup {
 	font-size: .8em;
+}
+
+.site-wrapper {
+	display: grid;
+	grid-template: auto / repeat(10, 1fr);
+	grid-column-gap: $padding;
+	overflow-y: hidden;
 }
 
 .site-header {

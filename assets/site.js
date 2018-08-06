@@ -1,3 +1,8 @@
+var state = {
+    goodActive: false,
+    oldScrollPosition: 0
+}
+
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -72,37 +77,65 @@ document.addEventListener('DOMContentLoaded', function () {
         })
     }
 
+    // Sort out shop section
+
     let goods = document.querySelectorAll('.good');
-    let state = {
-        goodActive: false,
-    }
+    let siteWrapper = document.querySelector('.site-wrapper');
+
     let allAnimationImages = document.querySelectorAll('.good-image-animation');
     let openGood = function (activeGood) {
+        console.log(window.scrollY)
         let animationImage = activeGood.querySelector('.good-image-animation');
+        let singleGoodEl = document.querySelector('.single-good');
+        state.oldScrollPosition = window.scrollY;
+        singleGoodEl.style.top = window.scrollY + 'px';
+        let detailsBox = singleGoodEl.getBoundingClientRect();
+        setTimeout(function(){
+            window.scrollTo(0,0)
+            singleGoodEl.style.top = '0px';
+            siteWrapper.style.maxHeight = detailsBox.height + 'px';
+            let newBox = animationImage.getBoundingClientRect();
+            animationImage.style.top = newBox.y * -1 + 'px';
+        }, 300)
+        
         state.goodActive = true;
         animationImage.style.zIndex = 200;
         document.body.classList.add('good-active')
         let box = animationImage.getBoundingClientRect();
-        let scaleFactor = (window.innerHeight / box.height) * .95;
+        let scaleFactor = 1;
+        let clientWidth = document.body.clientWidth;
+
+        // TODO: Be smarter about this, figure out how the image should scale based on its aspect ratio
+        scaleFactor = (window.innerWidth / box.width) * .8;
+       
         let h = box.height * scaleFactor;
         let w = box.width * scaleFactor;
-        xReference = window.innerWidth / 2 + 100;
-        let offsetTop = -(box.top - ((h - box.height) / 2)) * .95;
-        let offsetLeft = (xReference - box.left) - w / 2;
+        let leftAfterScale =  box.left;
+        let topAfterScale =  box.top;
+        xReference = clientWidth / 2;
+        let offsetTop = (0 - topAfterScale);
+        let offsetLeft = (xReference - leftAfterScale) - w / 2;
         animationImage.style.transform = 'translateX(' + offsetLeft + 'px) translateY(' + offsetTop + 'px) scale(' + scaleFactor + ')';
         activeGood.classList.add('active')
     }
     let closeGood = function (activeGood) {
+        console.log(state)
         let animationImage = activeGood.querySelector('.good-image-animation');
         document.body.classList.remove('good-active')
+        siteWrapper.style.maxHeight = 'none';
         activeGood.classList.remove('active')
         animationImage.style.transform = '';
+        animationImage.style.top = '0px';
+        window.scrollTo(0, state.oldScrollPosition)
+        let singleGoodEl = document.querySelector('.single-good');
+        singleGoodEl.style.top = state.oldScrollPosition + 'px';
+
         state.goodActive = false;
         setTimeout(function () {
             for (let i = 0; i < allAnimationImages.length; i++) {
                 allAnimationImages[i].style.zIndex = 0;
             }
-        }, 600)
+        }, 300)
     }
     for (let i = 0; i < goods.length; i++) {
         goods[i].addEventListener('click', function () {
@@ -118,8 +151,14 @@ document.addEventListener('DOMContentLoaded', function () {
     closeGoodButton.addEventListener('click', function (e) {
         e.preventDefault();
         let image = document.querySelector('.good.active');
-        console.log(image)
         closeGood(image);
+    })
+
+    document.addEventListener('keyup', function(e){
+        if (e.keyCode === 27){
+            let image = document.querySelector('.good.active');
+            closeGood(image);
+        }
     })
 
 

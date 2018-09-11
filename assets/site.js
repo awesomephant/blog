@@ -77,8 +77,33 @@ document.addEventListener('DOMContentLoaded', function () {
         })
     }
 
-    // Sort out shop section
+    // Sort out custom cursor
+    var last_known_scroll_position = 0;
+    var ticking = false;
+    let cursorEl = document.querySelector('.cursor')
+    function handleCursor(position) {
+      //cursorEl.style.transform = 'translateX(' + (position.x - 10) + 'px) translateY(' + (position.y - 5) + 'px)';
+      cursorEl.style.left = (position.x - 10) + 'px';
+      cursorEl.style.top = (position.y - 5) + 'px';
+    }
 
+    window.addEventListener('mousemove', function(e) {
+        last_known_position = {
+            x: e.clientX,
+            y: e.clientY
+        };
+
+        if (!ticking) {
+            window.requestAnimationFrame(function() {
+                handleCursor(last_known_position);
+                ticking = false;
+            }); 
+            ticking = true;
+        }
+  
+    });
+
+    // Sort out shop section
     let goods = document.querySelectorAll('.good');
     let siteWrapper = document.querySelector('.site-wrapper');
 
@@ -148,18 +173,21 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     let closeGoodButton = document.querySelector('#close-good');
-    closeGoodButton.addEventListener('click', function (e) {
-        e.preventDefault();
-        let image = document.querySelector('.good.active');
-        closeGood(image);
-    })
+    if (closeGoodButton){
 
-    document.addEventListener('keyup', function(e){
-        if (e.keyCode === 27){
+        closeGoodButton.addEventListener('click', function (e) {
+            e.preventDefault();
             let image = document.querySelector('.good.active');
             closeGood(image);
-        }
-    })
+        })
+        
+        document.addEventListener('keyup', function(e){
+            if (e.keyCode === 27){
+                let image = document.querySelector('.good.active');
+                closeGood(image);
+            }
+        })
+    }
 
 
 }, false);

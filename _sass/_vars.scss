@@ -1,21 +1,19 @@
 @charset "utf-8";
-
-$black: rgb(14,13,12);
+$black: rgb(14, 13, 12);
 $gray: rgb(167, 163, 157);
 $white: #fff;
-$lightgray: rgb(232,230,230);
+$lightgray: rgb(232, 230, 230);
 @font-face {
-  font-family: "Suisse";
-  font-weight: 400;
-  src: url('https://www.assemblypoint.xyz/wp-content/themes/ap-theme/fonts/SuisseIntl-Regular-WebM.ttf') format('truetype');
+    font-family: "Suisse";
+    font-weight: 400;
+    src: url('https://www.assemblypoint.xyz/wp-content/themes/ap-theme/fonts/SuisseIntl-Regular-WebM.ttf') format('truetype');
 }
 
 $sans: "Suisse";
 $serif: "Georgia";
 $text: $serif;
 $fast: 300ms;
-$padding: calc(1rem + .5vw) calc(1rem);
-
+$padding: calc(1rem+.5vw) calc(1rem);
 // https://www.modularscale.com/?1.05&em&1.2
 // Minor third scale
 $ms-5: 2.488rem;
@@ -26,47 +24,84 @@ $ms-1: 1.2rem;
 $ms-0: 1rem;
 $ms--1: .833rem;
 $ms--2: .694rem;
-
-@mixin hideScrollbar(){
-	-ms-overflow-style: none;  // IE 10+
-	&::-webkit-scrollbar { 
-        display: none; 
+@mixin hideScrollbar() {
+    -ms-overflow-style: none; // IE 10+
+    &::-webkit-scrollbar {
+        display: none;
     }
 }
 
-@mixin cursor($name){
+@mixin cursor($name) {
     // Source: https://gist.github.com/dsdsdsdsdsds/bd142334efcd81f0b30e
-    cursor: url("../assets/cursors/cursor-#{$name}.svg") 0 0, pointer; /* FF */
-    cursor: -webkit-image-set(url("../assets/cursors/cursor-#{$name}.png") 1x, url("../assets/cursors/cursor-#{$name}@2x.png") 2x) 0 0, pointer; /* Webkit */
+    cursor: url("../assets/cursors/cursor-#{$name}.svg") 0 0,
+    pointer;
+    /* FF */
+    cursor: -webkit-image-set(url("../assets/cursors/cursor-#{$name}.png") 1x,
+    url("../assets/cursors/cursor-#{$name}@2x.png") 2x) 0 0,
+    pointer;
+    /* Webkit */
+}
+
+%textlink {
+	text-decoration: none;
+	color: inherit;
+    background-image: linear-gradient(to right, $lightgray 0%, $lightgray 100%);
+    background-position: 0 1.2em;
+    background-repeat: repeat-x;
+    background-size: 100% 2px;
+    &:hover,
+    &:focus {
+        background-image: linear-gradient(to right, $gray 0%, $gray 100%);
+    }
 }
 
 @mixin bp($point) {
-	@if $point == xl {
-		@media (min-width: 80rem) { @content; }
-	}
-	@else if $point == l {
-		@media (min-width: 65rem) { @content; }
-	}
-	@else if $point == ml {
-		@media (min-width: 55rem) { @content; }
-	}
-	@else if $point == m {
-		@media (min-width: 45rem) { @content; }
-	}
-	@else if $point == ms {
-		@media (min-width: 38rem) { @content; }
-	}
-	@else if $point == s {
-		@media (min-width: 35rem) { @content; }
-	}
+    @if $point==xl {
+        @media (min-width: 80rem) {
+            @content;
+        }
+    }
+    @else if $point==l {
+        @media (min-width: 65rem) {
+            @content;
+        }
+    }
+    @else if $point==ml {
+        @media (min-width: 55rem) {
+            @content;
+        }
+    }
+    @else if $point==m {
+        @media (min-width: 45rem) {
+            @content;
+        }
+    }
+    @else if $point==ms {
+        @media (min-width: 38rem) {
+            @content;
+        }
+    }
+    @else if $point==s {
+        @media (min-width: 35rem) {
+            @content;
+        }
+    }
 }
 
 @keyframes marquee {
-	from {text-indent: 0%}
-	to {text-indent: -55em}
+    from {
+        text-indent: 0%
+    }
+    to {
+        text-indent: -55em
+    }
 }
 
 @keyframes rotatoPotato {
-	from {transform: rotate(0deg)}
-	to {transform: rotate(-360deg)}
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(-360deg)
+    }
 }

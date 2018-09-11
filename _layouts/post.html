@@ -16,7 +16,13 @@ layout: default
 </ul>
 		<header class="post-header">
 			<a href="/" class='project-back'>Writing</a>
-			<h1 class="post-title">{{ page.title }}</h1>
+			<h1 class="post-title">
+			{% if page.external_link %}
+				<a href="{{page.external_link}}">{{page.title}}</a>
+			{% else %}
+			{{ page.title }}
+			{% endif %}
+			</h1>
 		</header>
 <article class='post {{page.class}}'>
 	<div class="post-content">

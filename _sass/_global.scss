@@ -57,6 +57,7 @@ sup {
 	overflow-x: hidden;
 	padding-top: .5em;
 	padding-bottom: .5em;
+	padding-left: .5em;
 	letter-spacing: .01em;
 	white-space: nowrap;
 	animation: 12s marquee ease-in-out alternate infinite;
@@ -79,6 +80,7 @@ sup {
 .site-footer {
 	padding: $padding;
 	padding-top: 1em;
+	padding-left: .5em;
 	padding-bottom: 1em;
 	border-top: 1px solid $black;
 	font-size: $ms-1;

@@ -11,6 +11,7 @@
 .home-work,
 .home-writing {
 	display: grid;
+	padding-left: .5em;
 	grid-template-columns: repeat(10, 1fr);
 	letter-spacing: .005em;
 	position: relative;

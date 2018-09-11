@@ -26,10 +26,12 @@ body {
 	min-height: 100%;
 	overflow-x: hidden;
 	font-feature-settings:"pnum" 1, "kern" 1;
+	@include bp(m){
 	cursor: none;
 	* {
 		cursor: none;
 	}
+}
 }
 
 .cursor {
@@ -38,6 +40,10 @@ body {
 	left: 0;
 	width: calc(60px + 1vw);
 	pointer-events: none;
+	display: none;
+	@include bp(m){
+		display: block;
+	}
 }
 
 a {

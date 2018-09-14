@@ -2,7 +2,10 @@
     @extend .project-header;
     grid-area: 2 / 1 / auto / 11 !important;
     @include bp(m){
-        grid-area: 2 / 3 / auto / 11 !important;
+        grid-area: 2 / 2 / auto / 10 !important;
+    }
+    @include bp(xl){
+        grid-area: 2 / 3 / auto / 8 !important;
     }
 }
 
@@ -27,10 +30,7 @@
     padding: $padding;
     padding-bottom: 3em;
     @include bp(m){
-        grid-area: 3 / 1 / auto / 8;
-    }
-    @include bp(l){
-        grid-area: 3 / 1 / auto / 6;
+        grid-area: 3 / 2 / auto / 8;
     }
     @include bp(xl){
         display: block;

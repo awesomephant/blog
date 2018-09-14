@@ -57,12 +57,12 @@ $ms--2: .694rem;
 
 @mixin bp($point) {
     @if $point==xl {
-        @media (min-width: 80rem) {
+        @media (min-width: 85rem) {
             @content;
         }
     }
     @else if $point==l {
-        @media (min-width: 65rem) {
+        @media (min-width: 70rem) {
             @content;
         }
     }

@@ -67,48 +67,73 @@ Although these mediaeval aesthetics seem opposed to the Marinetti's vision of a 
 Following the revivalist imagery of the manifesto, work at the early Bauhaus was defined by a return to pre-industrial forms. The Sommerfeld House in Berlin (1920, destroyed 1945) with its expressionist wooden decoration, as well as the early furniture of Marcel Breuer and Gunta Stölzl and some of the early pottery are examples of this phase (Bauhaus100, 2017). Christina Lodder places the early Bauhaus as part of a larger artistic movement in search of "spiritual utopia". She argues that "a rejection of materialism and 19th-century positivist outlooks" following the First World War inspired expressionist artists "to infuse [their work] with a spiritual dimension, and to promote the idea that art and architecture were thereby the means of saving mankind from modernity" (Lodder, 2008, p. 24).
 
 The transition to a more rational, technology-focused outlook at the Bauhaus came in 1922 with the arrivals of Theo van Doesburg and Lazlo Moholy-Nagy in Weimar. This new direction was defined by the notion that scientific progress, industrial production and rational decision-making could be employed to solve the "materialism, repressive political structures and glaring social inequalities" of the present (Lodder, 2008, p. 33). From the prespective of modernists, crime, disease, alcoholism and scoial inequality were directly linked to the "overcrowded cities", "old and rotten buildings and poor sanitary conditions" (Le Corbusier, 1923) that industralisation had left behind. 
+
 A 1930 film titled 'Die Neue Wohnung' [The New Dwelling] illustrates this idea in striking images (fig. 1). Dark shots of derelict workers' homes are interspersed with scenes of domestic violence and disease. This is then set in contrast to the mdoernist vision of the future: Brightly lit shots of clean interiors with mass-produced, ornament-free furniture. The film ends with a title card announcing: "A better future will hold affordable and humane housing FOR EVERYONE" (Richter, 1930) — emphasizing the aspiration for social equality that imbues modernist thinking.
+
 ![Das Neue Wohnen](/assets/unit-9/die-neue-wohnung-web.jpg)
 **Figure 1:** Video stills from 'The New Dwelling' ['Die Neue Wohnung'], a 1930 film showing the benefits of modernist housing.
+
 The change in lighting from dark to light in The New Living is no accident: Access to sunlight and air is a central aim of modernist architecture. This can be linked to the belief the benefits of heliotherapy (the idea that sunlight and air could cure diseases), which was widespread in the 1920s, as was the notion that personal hygiene and cleansiness would lead to a better society (Wilk, 2006). We see Gropius implementing these ideas in Törten by using unusually large windows combined with relatively small floorspace, and floors and furniture that would be easy to clean.
+
 Gropius lays out his own version of these ideas in his 1925 book "Ein Versuchshaus des Bauhauses in Weimar" [A trial building by the Bauhaus in Weimar]. The title refers to the Haus am Horn in Weimar, which was built for the Bauhaus exhibition in 1923. In the introduction Gropius argues that the new age "makes it necessary to finally realise the old idea of building typical dwellinggs cheaper, better and in larger numbers to give every family access to healthy living conditions" (Gropius 1930, page 5). The way to achieve this, according to Gropius is to understand the housing problem "in its entire sociological, economical, technical and formal context". (Gropius 1930, page 5). Gropius also offers specific ideas on how these issues might be addressed. 
 He argues that because most people have similar basic needs, housing should be uniform and mass-produced in specialised factories. Rather than building houses individually at the building site, they should be dry-assembled from premanufactured components using standardised blueprints. Gropius coins the term "large-scale building blocks" ['Baukasten im Grossen'] to describe this form of modular architecture. Figure 2 illustrates this idea: Individual components (labeled 1 through 6) are assembled into different "machines for living" according to the "number and needs of the inhabitants".
+
 ![Large Scale Building Blocks](/assets/unit-9/baukasten-im-grossen.jpg)
 **Figure 2:** Illustration showing the concept of Gropius' "Large-Scale Building Blocks", published in Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar, 1925. Unknown artist, Walter Gropius.
+
 The artistic challenge, according to Gropius, lies in finding satisfying spatial arrangements of these building blocks. Gropius briefly mentions the idea that contrary to popular belief, smaller, well-lit room might actually lead to better living conditions — again echoing the common belief in the benefits of sunlight. (Gropius, 1930). 
+
 ## The Dessau-Törten Settlement
+
 Over 50 building projects were completed by members of the Bauhaus between 1919 and 1930, and many more after the school disbanded (Engels, 2001). This count includes buildings that were built by Gropius and others relatively independently from the Bauhaus, but some were the result of the type of cross-discipline collaboration that was at the core of the Bauhaus idea. These large-scale projects addressed real-world issues while at the same time serving as classroom experiments at the Bauhaus.
 A few of these buildings have become instantly recognisable: The Sommerfeld House (referenced above), the Haus am Horn (1923) and the Bauhaus building and Master's houses in Dessau (1925-26). However, it is the lesser-known examples of Bauhaus architecture that might give us the most insight into the conflict between individualism and collectivism. The Dessau-Törten housing settlement in Dessau, Germany is one such example. Unlike other examples of pre-war modernist architecture, Dessau-Törten was subject to significant changes since its construction between 1926 and 1928 (Bauhaus Dessau, 2017). In a form of modern archeology, we can identify different layers of changes made before, during and after the Second World War up to present day. Each layer can give us hints as to how the conflict between modernist ideas and different forms of individualism was reconciled. 
+
 ![Dessau-Törten establishing shot](/assets/unit-9/torten-electrical.jpg)
 **Figure 3:** Photograph showing Dessau-Törten shortly after its completion, ca. 1926.
+
 ## Initial Construction
+
 After a planned housing project in Weimar had failed to materialise (only one building, the Haus am Horn, was ever completed), Törten was the first opportunity for Gropius to put the ideas he had developed during the early 1920s to practice on a large scale. In fact the prospect of building Törten, supported by the social-democratic government of Dessau, was part of the reason Gropius moved the Bauhaus to Dessau in the first place. Dessau, a rising industrial town, had seen an an influx of workers that nearly doubled its population. This led to a housing crisis which the Bauhaus was hoped to address. (Dessau-Törten, 2017)
 Törten was financed in part by the national government as part of a larger effort to provide affordable housing to lower-income families. Individual units were sold for between RM 9.500 and RM 10.100, or around RM 35 per month — well within the reach of an average industrial worker (Gropius, 1930). The fact that units were sold off to individuals is critical: It allowed homeowners to make changes to their houses with few restrictions.
+
 ![Dessau Waterfall](/assets/unit-9/torten-waterfall.jpg)
+
 **Figure 4:** Waterfall chart showing the order of contstruction phases in Dessau-Törten
+
 The settlement served a double, or even triple purpose from the beginning. The Dessau government was hoping for a pragmatic solution to their housing shortage. The national government saw Törten in part as a research project to test new construction methods, granting Gropius additional funds in 1928 to carry out construction experiments and publish the results. Finally, Gropius saw Törten as a way of proving the validity of his vision of architecture, which he had written about for years (Schwarting, 2012).
+
 This triple purpose reflects the conflict at the centre of this essay. One one side is the city of Dessau in a pragmatic effort to provide workers' housing. On the other side is Gropius, the hero architect eager to prove his ideas. We can see Gropius' eagerness reflected in the amount of documents, photographs and films documenting the construction process of Törten. Figure 3 shows what today might be referred to as a waterfall chart. Each bar indicates a specific step in the construction to be carried out at a particular time. This illustrates how Gropius not only designed the architecture, but also the production process and the documentation to fit his vision. He writes about the production process in 1930:
 
 > The execution of the shells was done based on a carefully designed plan, in such a way that fixings, wall components and ceiling beams could be manufactured at the building site in a conveyor belt-like process. This method effectively  limited loss of time and material [...] (Gropius, 1930)
 
 In addition to the construction process, Fordist production methods also seem to have inspired the visual language of Törten. In addition to familiar clues of modernist architecture (flat roofs, exposed construction through different surface treatments, factory-like steel fixings) Gropius emplys mirrored floor plans, positioning doors and windows of each unit at oppsing edges of the facade. This allows Gropius to effectively blur the line between units, creating the effect of a continuous band rather than a row of individual houses - Le Corbusier's vertical "Machine for Living" becomes a horizontal "living conveyor belt" (Schwarting, 2011).
 In what we might read as a heroic gesture (by the hero architect), Gropius transforms a pre-existing electrical tower into a monument to technological progress by placing it at the intersection of the two main roads, making it visible from almost every point of the settlement (fig. 3).
+
 ![Dessau-Törten Gardens](/assets/unit-9/torten-1920-2.jpg)
 **Figure 5:** Contemporary photograph showing the garden side of row houses in Dessau-Törten.
+
 Contrary to the modernist visual language, the urban planning of Törten follows the much earlier concept of the garden city. The notion of the garden city was first proposed by Ebeneezer Howard in 1889, the garden city is based on the idea of individual self-sufficiency for each family (Ward, 1992). In Törten this takes the form of a 400 square metre garden attached to each dwelling (Fig. 3). This runs contrary to the idea of the minimum dwelling that Gropius alludes to in his writings. Rather "rationalising" living functions by centralising them as called for by proponents of the minimum dwelling (Teige, 2012 page 344), the garden city spreads out food production, preparation and recreational space across each individual dwelling. 
+
 ![Dessau-Törten Construction](/assets/unit-9/torten-construction-1.jpg)
 **Figure 6:** Contemporary photograph showing a row of houses in Dessau-Törten under construction.
+
 Figure 6 shows a section of houses in Dessau-Törten under construction. It highlights the rationalised construction method Gropius designed: Rather than building each house individually, a whole section of identical houses was built at once, allowing for greater efficiency. This photograph is part of an extensive series of professionally-executed photographs documenting the construction process. The fact that such extensive documentation was done can be attributed in part to the experimental nature of Törten — Gropius' experiments had to be documented to be scientifically valid. However, this photograph is more than a neutral document: The two small figures in the background and the dramatic lighting conditions give a monumental scale to the scene. The row of houses continues beyond the right edge of the photograph, reinforcing the effect of an endless conveyor belt. All of this invokes the feeling of optimism and larger-than-life ambition that imbues Gropius' architecture. 
 This image is featured along others in Gropius' 1930 book "Bauhausbauten Dessau", which suggests that Gropius was not only aware of the image, but approved of its message. In addition, a Berlin production company was comissioned to create a documentary showing the construction of the settlement, further underlining Gropius' view of Törten as a vehicle to communicate his ideas (Paulick, 1926). 
+
 ## Alterations before the Second World War
+
 We see the first major deviation from Gropius' plan the day the first families moved in. Few families could afford the RM1350 for Marcel Breuer's specially designed furniture set, so they brought in an ecclectic collection of traditional furniture, wallpapers and curtains, which made an awkward fit in Gropius' small floor plans (Schwarting, 2012). This is perhaps the first instance in which Gropius' ambition runs up against the economic realities of the 1920s. 
+
 Following the initial construction, heat insulation quickly became a concern. Anectotal accounts describe how doors and windows would freeze shut during the first winter (Dessau-Törten, 2017). This was a direct result of shortcomings in the design.
 
 1. The steel frame, single glass windows chosen by Gropius were cutting-edge technology at the time. As such, they were not only a third more expensive than traditional wooden windows but also caused major heat loss due to their size and lack of insulation. Most of these windows were replaced smaller, wooden windows within 10 years of the initial construction.
+
 2. The thin outer walls formed another route for heat to escape. This was a direct result of their industrialised production — since the concrete slabs used to build the walls all had the same dimensions, heat bridges could form between the gaps. Homeowners addressed this by erecting secondary brick facades shortly after the initial construction. (Schwarting, 2011)
 
 I would argue that this set of changes can be read as the homeowners' collective response to Gropius' heroic ambitions. Gropius, an established architect, would likely have been aware of the heat insulation issues caused by his choice of construction method and window fittings. The fact he proceeds anyway speaks to the conflict between Gropius' desire to make a clean break with the past and to share his vision of the future and the needs of the people at the centre of that vision. Yes, steel windows might be more expensive now, we could imagine him reasoning, but they will be much cheaper once industrial production has caught up. Gropius says as much in 1930, admitting that it would take the construction industry some time to adjust to the new way of building (Gropius, 1930). In this case, the individualised ownership of the dwellings gives the people upper hand in this conflict. 
+
 When the Nazis come to power in the 1930s, they mount a concerted effort to replace all of Gropius' steel windows that still remained. This removed the visual effect of Gropius' "conveyor belt" by re-emphasising the lines between neighbouring houses. The addition of fences, hedges and flower beds between dwellings added to this (Schwarting, 2011).
+
 This came after earlier plans to rebuild Törten from the ground had proven financially unviable and was fashioned into a propaganda victory by the right-wing press at the time. About half an hour up the road, the Bauhaus building itself was surrounded by a grouping of pitched-roof, traditionally-built apartment buildings during this period (Bauhaus building, 2017).
 While a full survey of fascist aesthetics is beyond the scope of this essay, we can place this coordinated effort to alter existing architecture, emphasising individual expression over the collective in the broader context Nazi propaganda. As Koepnick (1999) points out,
 
@@ -138,10 +163,13 @@ Figures 8 through 12 show the variety of doors, windows, house numbers, landscap
 
 ![Dessau House 1](/assets/unit-9/house-1.jpg)
 **Figure 8:** Photograph showing the house at 38 Mittelring, one of two dwellings remaining close to the original condition.
+
 ![Dessau House 2](/assets/unit-9/house-2.jpg)
 **Figure 9:** Photograph showing a dwelling in Dessau-Törten with layers of architectural alterations including facade material, roofing, windows and landscaping.
+
 ![Dessau House 3](/assets/unit-9/house-3.jpg)
 **Figure 10:** Photograph showing a dwelling in Dessau-Törten with layers of architectural alterations including facade material, roofing, windows and landscaping.
+
 ![Dessau House 4](/assets/unit-9/house-4.jpg)
 **Figure 11:** Photograph showing a dwelling in Dessau-Törten with layers of architectural alterations including facade material, roofing, windows and landscaping.
 

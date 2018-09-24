@@ -240,6 +240,7 @@ Indeed, emerging writers like Owen Hatherley ("Militant Modernism", 2009) and re
 
 ## List of Figures
 
+<div class='footnotes' markdown='1'>
 - **Figure 1:** Hans Richter (1930). *Die Neue Wohnung* [Video Stills].  Available at: [https://www.youtube.com/watch?v=gAUhQHRANj4] (Accessed November 17, 2017) 
 - **Figure 2:** Unidentified Artist, Walter Gropius (1925). *Illustration showing the concept of Gropius' 'Large-Scale Building Blocks'* [Illustration]. In Gropius, W. (1925) *Bauhausbuch 3: Ein Versuchshaus des Bauhauses in Weimar*. Weimar: Verlag der Bauhaus-Universität Weimar, page 6. 
 - **Figure 3:** Unidentified Photographer (ca. 1926). *Housing Development, Dessau-Törten* [Photograph]. Available at: [https://www.harvardartmuseums.org/collections/object/52799?position=65] (Accessed November 17, 2017)
@@ -254,16 +255,20 @@ Indeed, emerging writers like Owen Hatherley ("Militant Modernism", 2009) and re
 - **Figure 12:** The author (2017). *Composite photograph showing examples of front doors in Dessau-Törten* [Digital Photographs, Composite].
 - **Figure 13:** The author (2017). *Signage in Dessau-Törten* [Digital Photograph].
 - **Figure 14:** Currie, C. (2013). *Customised golf carts as part of the '2013 The Villages Golf Carts Parade'* [Digital Photograph]. Available at: [https://photonews247.com/tag/christmas-decorated-golf-cart-the-villages-fl/] (Accessed November 27, 2017)
+</div>
 
 ## References
 
 ### Visits
 
+<div class='footnotes' markdown='1'>
 - Bauhaus Dessau (November 4, 2017). Dessau, Germany (Permanent)
 - Housing Settlement Dessau-Törten (November 4-5, 2017). Dessau, Germany (Permanent)
-
+</div
+>
 ### Online Sources
 
+<div class='footnotes' markdown='1'>
 - Bauhaus100.de. (2017). *Sommerfeld House, Berlin*. [online] Available at: https://www.bauhaus100.de/en/past/works/architecture/haus-sommerfeld/ [Accessed 16 Nov. 2017].
 - Moller, W. (2017). Email to Werner Moller, November 22, 2017.
 - Bauhaus-dessau.de. (2017). Dessau-Torten Housing Estate by Walter Gropius (1926-28). [online] Available at: http://www.bauhaus-dessau.de/index.php?en/architecture/bauhaus-buildings-in-dessau/dessau-toerten-housing-estate [Accessed 2 Dec. 2017].
@@ -273,9 +278,10 @@ Indeed, emerging writers like Owen Hatherley ("Militant Modernism", 2009) and re
 - Husemann, R. (2016). Geistige Grenzgänger. [online] Süddeutsche.de. Available at: http://www.sueddeutsche.de/politik/westfernsehen-in-der-ddr-geistige-grenzgaenger-1.3010277 [Accessed 1 Dec. 2017].
 - Schneider, M. (2016). The Villages is nation's fastest growing, again. [online] OrlandoSentinel.com. Available at: http://www.orlandosentinel.com/news/lake/os-ap-the-villages-is-nations-fastest-growing-20160324-story.html [Accessed 1 Dec. 2017].
 - Shrimpton, H., Skinner, G. and Hall, S. (2017). The Millennial Bug: Public attitudes on the living standards of different generations. [PDF] Resolution Foundation. Available at: http://www.resolutionfoundation.org/app/uploads/2017/09/The-Millennial-Bug.pdf [Accessed 2 Dec. 2017].
+</div>
 
 ### Books, Articles
-
+<div class='footnotes' markdown='1'>
 - Bell, D. (1973). The coming of post-industrial society: a venture in social forecasting. New York: Basic Books.
 - Blum, C. (2014). Marvellous Masculinity: Futurist Strategies of Self-Transfiguration through the Maelstrom of Modernity. In: N. Lusty and J. Murphet, ed., Modernism and Masculinity. Cambridge: Cambridge University Press.
 - Bushart, M. (2009). At the Beginning, a misunderstanding: Feininger's Cathedral and the Bauhaus Manifesto. In: M. Siebenbrodt, J. Wall and K. Weber, ed., Bauhaus: A Conceptual Model. Ostfildern: Hatje Cantz
@@ -304,3 +310,4 @@ Indeed, emerging writers like Owen Hatherley ("Militant Modernism", 2009) and re
 - Newman, O. (1972). Defensible space: People and Design in the Violent City. London: Architectural Press.
 - Slater, D. (1997). Consumer culture and Modernity. Cambridge: Polity Press.
 - Ward, S. (2005). The Garden City: Past, present and future. Abingdon: Routledge.
+</div>

@@ -21,7 +21,7 @@
 				<dc:creator>{{ 'Max Kohler' | xml_escape }}</dc:creator>
 				<description>
                 {% if post.intro %}
-                {{ post.intro | xml_escape }}
+                {{ post.intro | markdownify | xml_escape }}
                 {% endif %}
                 {{ post.content | xml_escape }}
                 </description>

@@ -1,11 +1,48 @@
 .post-header {
-    @extend .project-header;
-    grid-area: 2 / 1 / auto / 11 !important;
+    grid-area: 1 / 1 / auto / 11;
+    font-size: $ms-3;
+    padding: $padding;
+    line-height: 1.3;
+    font-family: $serif;
+    font-weight: 700;
+    grid-area: 2 / 1 / auto / 11;
     @include bp(m){
-        grid-area: 2 / 2 / auto / 10 !important;
+        font-size: $ms-4;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        grid-area: 2 / 2 / auto / 10;
     }
     @include bp(xl){
-        grid-area: 2 / 3 / auto / 8 !important;
+        grid-area: 2 / 3 / auto / 8;
+    }
+    &.hasThumbnail {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+        @include bp(l){
+            grid-area: 2 / 2 / auto / 10;
+            flex-flow: row-reverse;
+            align-items: center;
+        }
+    }
+    h1, h1 > a {
+        font-weight: bold;
+        padding-bottom: .2em;
+    }
+}
+
+.post-thumbnail {
+    min-width: 100%;
+    min-height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: $padding;
+    @include bp(l){
+        min-width: 50%;
+        min-height: 50vh;
+        width: auto;
     }
 }
 
@@ -18,34 +55,46 @@
     line-height: 1.2;
 }
 
+.post-intro {
+    font-size: $ms-1;
+    max-width: 35em;
+    a {
+        @extend %textlink;
+    }
+}
+
 .post-content {
     font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
-    max-width: 35em;
+    max-width: 40em;
+    a {
+        @extend %textlink;
+    }
 }
 
 .post-meta {
     font-size: $ms--1;
+    font-family: $serif;
     grid-area: 3 / 1 / auto / 11;
     display: flex;
-    padding: $padding;
-    padding-bottom: 3em;
-    @include bp(m){
-        grid-area: 3 / 2 / auto / 8;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    @include bp(l){
+        flex-flow: column;
     }
-    @include bp(xl){
-        display: block;
-        column-count: 1;
-        grid-area: 3 / 1 / auto / 4;
+    a {
+        @extend %textlink;
     }
     list-style: none;
 }
 
 .post {
     font-weight: 500;
-    padding: $padding;
+    padding-left: $padding;
+    padding-right: $padding;
     padding-bottom: 3rem;
-    font-family: $sans;
-    font-size: $ms-1;
+    font-family: $serif;
+    font-size: $ms-0;
+    word-spacing: -.1em;
     color: $black;
     grid-area: 4 / 1 / auto / 11;
     line-height: 1.4;
@@ -64,15 +113,11 @@
     a {
         text-decoration: none;
         transition: 100ms;
-        border-bottom: 1px solid $gray;
-        &:hover, &:focus {
-            color: $gray;
-        }
     }
     ol,
     ul,
     p {
-        margin-bottom: .5em;
+        margin-bottom: .8em;
     }
     li {
         margin-bottom: .2rem;
@@ -80,30 +125,28 @@
     blockquote p {
         padding-top: .5em;
         padding-bottom: .5em;
-        font-size: $ms-1 - .15;
+        font-size: $ms-0;
         padding-left: 1em;
     }
     img,
     video, iframe {
-        width: 110%;
-        margin-left: -5%;
-        @include bp(m){
-            margin-left: -5%;
-            width: 110%;
+        width: 100%;
+        @include bp(l){
+            width: 120%;
+        }
+        @include bp(xl){
+            width: 135%;
         }
     }
     h2 {
         margin-top: 2em;
         margin-bottom: 1em;
-        font-family: $sans;
-        text-align: center;
-        font-feature-settings: none;
-        letter-spacing: .01em;
-        word-spacing: .002em;
-        text-transform: uppercase;
+        font-size: $ms-3;
+        font-weight: bold;
+        line-height: 1.2;
     }
     h3 {
-        text-decoration: underline;
+        font-weight: bold;
         margin-top: 1em;
         margin-bottom: .2em;
     }
@@ -137,9 +180,8 @@
     .hasimage {
         padding-top: .5rem;
         font-size: $ms--1;
-        text-align: center;
         margin-bottom: 1em;
-        letter-spacing: .01em;
+        line-height: 1.3;
     }
 }
 
@@ -171,7 +213,7 @@ td {
     color: $gray;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    font-size: $ms--1;
+    font-size: $ms--2;
     background: white;
     span {
         display: block;
@@ -185,8 +227,7 @@ pre.highlight {
     left: -.8em;
     margin-bottom: 1em;
     font-size: $ms-0;
-    white-space: pre;
-    overflow-x: auto;
+    white-space: pre-wrap;
     border-radius: 2px;
     background: darken(white, 3);
     code {
@@ -209,13 +250,14 @@ pre.highlight {
 
 .gallery p {
     column-gap: 1rem;
+    width: 100%;
     @include bp(m){
+        width: 130%;
         column-count: 2;
     }
     @include bp(xl){
         column-count: 3;
     }
-    width: 100%;
     margin-bottom: 1rem;
     img {
         display: block;
@@ -236,16 +278,33 @@ pre.highlight {
 
 .post-jumplink {
     color: $gray;
-    padding-right: .5em;
+    display: inline-block;
+    width: 1.5rem;
+    margin-left: -1.5rem;
+    position: relative;
+    bottom: 0em;
     text-decoration: none;
     transition: $fast;
-    position: absolute;
-    left: -1em;
-    border-bottom: 0 !important;
+    background-image: none !important;
     opacity: 0;
-    h2:hover &, h3:hover &,
-    h2:focus &, h3:hover & {
+    svg {
+        width: 1.2rem;
+    }
+    h3 & {
+        bottom: -.2em;
+    }
+    path {
+        transition: $fast;
+        fill: $gray;
+    }
+    h2:hover &, h3:hover & {
         opacity: 1;
+    }
+    &:hover, &:focus {
+        opacity: 1;
+        path {
+            fill: $black;
+        }
     }
 }
 
@@ -254,8 +313,11 @@ pre.highlight {
 }
 
 .footnotes {
-    font-size: $ms-0;
-    padding-top: 4rem;
+    font-size: $ms--1;
+    padding-top: 1rem;
+    @include bp(m){
+        width: 120%;
+    }
     ul,
     ol {
         margin-left: 0;

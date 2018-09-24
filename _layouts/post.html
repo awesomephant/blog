@@ -1,20 +1,11 @@
 ---
 layout: default
 ---
-<ul class="post-meta">
-		<li class="project-meta-item">
-			<em class="project-meta-title">Published</em>
-			{{ page.date | date: "%B %-d, %Y"}}{{ page.year }}
-		</li>
-		<li class="project-meta-item">
-				<em class="project-meta-title">Share</em>
-				<nav>
-					<a href='https://twitter.com/intent/tweet?text={{page.twitter_blurb | url_escape}} {{site.url}}{{page.url}}'>Twitter</a>
-					<a href="http://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}">Facebook</a>
-				</nav>
-			</li>
-</ul>
-		<header class="post-header">
+<header class="post-header {% if page.thumbnail %}hasThumbnail{% endif %}">
+			{% if page.thumbnail %}
+			<div style="background-image: url({{page.thumbnail}})" class='post-thumbnail'></div>
+			{% endif %}
+			<div class='header-copy'>
 			<a href="/" class='project-back'>Writing</a>
 			<h1 class="post-title">
 			{% if page.external_link %}
@@ -23,17 +14,52 @@ layout: default
 			{{ page.title }}
 			{% endif %}
 			</h1>
+			<div class="post-intro">
+		    {{page.intro | markdownify}}
+		 </div>
+		 <ul class="post-meta">
+			 <li class="project-meta-item">
+				 <em class="project-meta-title">Published</em>
+				 {{ page.date | date: "%B %-d, %Y"}}{{ page.year }}
+				</li>
+				{% if page.roles %}
+				<li class="project-meta-item">
+					<em class="project-meta-title">Role</em>
+					<ul>
+						{% for role in page.roles %}
+						<li>{{role}}</li>
+						{% endfor %}
+					</ul>
+				</li>
+				{% endif %}
+				{% if page.team %}
+				<li class="project-meta-item">
+					<em class="project-meta-title">Team</em>
+					<ul>
+						{% for person in page.team %}
+						<li>{{person}}</li>
+						{% endfor %}
+					</ul>
+				</li>
+				{% endif %}
+				{% if page.coverImageCredit %}
+				<li class="project-meta-item">
+					<em class="project-meta-title">Cover Image</em>
+					{{page.coverImageCredit | markdownify}}
+				</li>
+				{% endif %}
+			</ul>
+		</div>
 		</header>
 <article class='post {{page.class}}'>
 	<div class="post-content">
-	<p class="post-intro">
-		{{page.intro}}
-	</p>
+
 {{ content }}
 
 	</div>
 </article>
 
+{% unless page.roles %}
 <div class="project-next">
 	Read next: 
   {% if page.previous.url %}
@@ -42,3 +68,4 @@ layout: default
     <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
   {% endif %}
 </div>
+{% endunless %}

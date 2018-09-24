@@ -3,17 +3,19 @@ $black: rgb(14, 13, 12);
 $gray: rgb(167, 163, 157);
 $white: #fff;
 $lightgray: rgb(232, 230, 230);
+
 @font-face {
     font-family: "Suisse";
     font-weight: 400;
     src: url('https://www.assemblypoint.xyz/wp-content/themes/ap-theme/fonts/SuisseIntl-Regular-WebM.ttf') format('truetype');
 }
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
 
 $sans: "Suisse";
-$serif: "Georgia";
+$serif: "Work Sans";
 $text: $serif;
 $fast: 300ms;
-$padding: calc(1rem + .5vw) 1rem;
+$padding: calc(1rem + .5vw);
 // https://www.modularscale.com/?1.05&em&1.2
 // Minor third scale
 $ms-5: 2.488rem;
@@ -22,7 +24,7 @@ $ms-3: 1.728rem;
 $ms-2: 1.44rem;
 $ms-1: 1.2rem;
 $ms-0: 1rem;
-$ms--1: .833rem;
+$ms--1: .89rem;
 $ms--2: .694rem;
 @mixin hideScrollbar() {
     -ms-overflow-style: none; // IE 10+
@@ -46,7 +48,7 @@ $ms--2: .694rem;
 	text-decoration: none;
 	color: inherit;
     background-image: linear-gradient(to right, $lightgray 0%, $lightgray 100%);
-    background-position: 0 1.2em;
+    background-position: 0 1.05em;
     background-repeat: repeat-x;
     background-size: 100% 2px;
     &:hover,
@@ -88,14 +90,6 @@ $ms--2: .694rem;
     }
 }
 
-@keyframes marquee {
-    from {
-        text-indent: 0%
-    }
-    to {
-        text-indent: -55em
-    }
-}
 
 @keyframes rotatoPotato {
     from {

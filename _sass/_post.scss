@@ -7,7 +7,6 @@
     font-weight: 700;
     grid-area: 2 / 1 / auto / 11;
     @include bp(m){
-        font-size: $ms-4;
         padding-top: 2em;
         padding-bottom: 2em;
         grid-area: 2 / 2 / auto / 10;
@@ -38,8 +37,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    margin-left: $padding;
+    margin-bottom: 1rem;
     @include bp(l){
+        margin-left: $padding;
         min-width: 50%;
         min-height: 50vh;
         width: auto;
@@ -52,12 +52,13 @@
     font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
 }
 .post-title {
-    line-height: 1.2;
+    line-height: 1.15;
+    max-width: 20em;
 }
 
 .post-intro {
     font-size: $ms-1;
-    max-width: 35em;
+    max-width: 30em;
     a {
         @extend %textlink;
     }
@@ -78,9 +79,6 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 1em;
-    @include bp(l){
-        flex-flow: column;
-    }
     a {
         @extend %textlink;
     }
@@ -100,9 +98,6 @@
     line-height: 1.4;
     @include bp(m) {
         grid-area: auto / 2  / auto / 11;
-    }
-    @include bp(xl){
-        grid-area: 3 / 3 / auto / 11;
     }
     strong {
         font-weight: bold;
@@ -133,9 +128,6 @@
         width: 100%;
         @include bp(l){
             width: 120%;
-        }
-        @include bp(xl){
-            width: 135%;
         }
     }
     h2 {
@@ -202,7 +194,7 @@ td {
 	font-weight: bold;
 }
 .dense thead tr {
-	border-bottom-color: $black; 
+	border-bottom-color: $black;
 }
 
 .line-number {

@@ -10,16 +10,12 @@ team:
     - Joshua Attwood
     - William Eels
     - Ben Browning
-images: 
-
+thumbnail: /assets/projects/ccagd-2.png 
+intro: I worked on the website for the 2018 Graphic Design Degree Show at Camberwell College of Arts with creative direction from Shawn Sawyers and development help from Ben Browning.  
 roles:
   - Web Design
   - Web Development
 ---
-
-![](/assets/projects/ccagd-2.png)
-
-I worked on the website for the 2018 Graphic Design Degree Show at Camberwell College of Arts with creative direction from Shawn Sawyers and development help from Ben Browning.  
 
 We built the site on [Jekyll](https://jekyllrb.com/), with a Google Document acting as the database. This allowed different members of the team to update the content of the site without touching code or logging into a content management system.
 

@@ -87,3 +87,16 @@ Instagram has a grd, which is a visual grammar you can mae use of.
 ## Performance
 
 Visual Essays don't have to happen in a book. ie. Nostalgia is a visual essay.
+
+## Tutorial notes
+
+- Connect the lichen database to the images
+- Use the methods used to collect the images on more artifacts (such as the printed-out database)
+- Bring in coordinates, establish scale of the microscopic photographs
+- Think about how images might be presented in space
+- The interesting thing is how a seemingly dead, neutral surface (such as a wall in a city) is actually fiercly negotiated between all these different species of animals, systems, weather, air pollution etc.)
+- See also the essay on decay from the reading list - the wall isn't a static object, it's constantly in a state of decay, beign turned back into raw material where it came from. Glass turns back into chrystal, bread starts to rot as soon as it leaves the oven.
+- We tend to think of nature as contained in parks, but it's actually all around us, living inside our built structures
+- The british lichen society might be an interesting research area, who are these people making and recording these observations
+- Definitely match up the site I recorded with the correct line in the database - attacking the site from different angles
+- All of this is very reminiscent of Powers of 10

@@ -26,7 +26,7 @@ const addLineNumbers = function () {
 }
 document.addEventListener('DOMContentLoaded', function () {
     let headlines = document.querySelectorAll('.post-content h2[id], .post-content h3[id]');
-    console.log(headlines)
+    
     for (let i = 0; i < headlines.length; i++) {
         let link = document.createElement('a')
         link.setAttribute('href', '#' + headlines[i].id)
@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     let paragraphs = document.querySelectorAll('.post-content p');
+    
     for (let i = 0; i < paragraphs.length; i++) {
         let image = paragraphs[i].querySelector('img, video');
         if (image) {
@@ -65,6 +66,14 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log(this);
             projectImageOverlay.style.backgroundImage = 'url(' + this.getAttribute('src') + ')';
         })
+    }
+
+    let taskItems = document.querySelectorAll('.task-list-item');
+    for (let i = 0; i < taskItems.length; i++){
+        let done = taskItems[i].querySelector('[checked=checked]')
+        if (done){
+            taskItems[i].classList.add('done')
+        }
     }
 
     // Sort out home hover

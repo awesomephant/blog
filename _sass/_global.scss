@@ -45,9 +45,7 @@ body {
 		display: block;
 	}
 }
-
 a {
-	text-decoration: none;
     color: inherit;
 }
 sup {
@@ -57,8 +55,6 @@ sup {
 .site-wrapper {
 	display: grid;
 	grid-template: auto / repeat(10, 1fr);
-	grid-column-gap: $padding;
-	overflow-y: hidden;
 }
 
 .site-header {
@@ -69,8 +65,8 @@ sup {
 	padding-top: .5em;
 	padding-bottom: .5em;
 	letter-spacing: .01em;
+	text-align: center;
 	a {
-		@extend %textlink;
 		background-position: 0 1.2em;
     }
 	
@@ -83,18 +79,18 @@ sup {
 			display: block;
 		}
 	}
-	grid-area: auto / span 10;
+	grid-area: auto / span 12;
 	display: flex;
 	align-items: baseline;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .site-footer {
 	padding: $padding;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	border-top: 1px solid $black;
 	font-size: $ms-1;
+	text-align: center;
 	color: $black;
 	letter-spacing: .001em;
 	grid-area: 40 / 1 / auto / 11;

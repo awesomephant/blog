@@ -12,20 +12,23 @@ $lightgray: rgb(232, 230, 230);
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
 
 $sans: "Suisse";
-$serif: "Work Sans";
+$serif: "Georgia";
 $text: $serif;
 $fast: 300ms;
 $padding: calc(1rem + .5vw);
 // https://www.modularscale.com/?1.05&em&1.2
 // Minor third scale
-$ms-5: 2.488rem;
-$ms-4: 2.074rem;
-$ms-3: 1.728rem;
-$ms-2: 1.44rem;
-$ms-1: 1.2rem;
-$ms-0: 1rem;
-$ms--1: .89rem;
-$ms--2: .694rem;
+$ratio: 1.2;
+$ms-0: 1.06rem;
+
+$ms-1: $ms-0 * $ratio;
+$ms-2: $ms-1 * $ratio;
+$ms-3: $ms-2 * $ratio;
+$ms-4: $ms-3 * $ratio;
+$ms-5: $ms-4 * $ratio;
+$ms--1: $ms-0 / $ratio;
+$ms--2: $ms--1 / $ratio;
+
 @mixin hideScrollbar() {
     -ms-overflow-style: none; // IE 10+
     &::-webkit-scrollbar {

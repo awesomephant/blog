@@ -217,3 +217,12 @@ Visual Essays don't have to happen in a book — see *Nostalgia*.
 - [x] Scott McCloud: *Understanding Comics*
 
 > There is no specified format and we ask you to think carefully about appropriate outcomes for your visual investigations. This might extend to book, wall based, object based and projection based work.
+
+<p data-height="705" data-theme-id="33564" data-slug-hash="JmwayP" data-default-tab="result" data-user="maxakohler" data-pen-title="Reaction Diffusion" class="codepen">See the Pen <a href="https://codepen.io/maxakohler/pen/JmwayP/">Reaction Diffusion</a> by Max Kohler (<a href="https://codepen.io/maxakohler">@maxakohler</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+### Tutorial notes
+
+I talked about the way the mosaic photographs were made — moving the USB microscope along the surface millimetre by millimetre. The movement was then repeated in Photoshop when I stitched the images together.
+
+The book is designed to [add a secondary voice](#introducing-a-new-diagrammatic-voice-to-make-an-argument) to the argument. While the microscopic photographs map out the site spatially, the book shows the same space changing over time.

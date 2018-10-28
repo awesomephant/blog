@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Visual Forensics"
+title:  "Notes on Visual Forensics"
 date: 2018-10-18 10:00:00
 tags: ""
 thumb: ''
@@ -20,7 +20,7 @@ intro: "Notes on the Visual Forensics elective at the RCA"
 - [x] Maria Fusco: *[Master Rock](https://vimeo.com/142818895)*
 - [x] Charles and Ray Eames (1977): *Powers of Ten*	
 - [x] *[The Art of Japanese Life: Nature](https://www.youtube.com/watch?v=kAN6zJKlAHI)*
-- [ ] William Kentridge: *Six Drawing Lessons*
+- [x] William Kentridge: *Six Drawing Lessons*
 - [x] Hito Steyerl: *[In Defense of the Poor Image](https://www.e-flux.com/journal/10/61362/in-defense-of-the-poor-image/)*
 - [x] *Strange Days: Memories of the Future* at 180, The Strand
 - [ ] *Surreal Science* at Whitechapel Gallery
@@ -209,7 +209,7 @@ Visual Essays don't have to happen in a book — see *Nostalgia*.
 
 ## October 26, 2018
 
-### Reading
+### Reading for week three
 
 - [ ] Georges Perec: *Species of Spaces*
 - [ ] John Berger: *Ways of Seeing*
@@ -218,11 +218,33 @@ Visual Essays don't have to happen in a book — see *Nostalgia*.
 
 > There is no specified format and we ask you to think carefully about appropriate outcomes for your visual investigations. This might extend to book, wall based, object based and projection based work.
 
-<p data-height="705" data-theme-id="33564" data-slug-hash="JmwayP" data-default-tab="result" data-user="maxakohler" data-pen-title="Reaction Diffusion" class="codepen">See the Pen <a href="https://codepen.io/maxakohler/pen/JmwayP/">Reaction Diffusion</a> by Max Kohler (<a href="https://codepen.io/maxakohler">@maxakohler</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+### Outcomes and Crit Notes
 
-### Tutorial notes
+I talked about the way the mosaic photographs were made — moving the USB microscope along the surface millimetre by millimetre (within a 1' by 1' square I defined). The movement was then repeated in Photoshop when I stitched the images together. The final collages were laser-printed at a large format for the crit.
 
-I talked about the way the mosaic photographs were made — moving the USB microscope along the surface millimetre by millimetre. The movement was then repeated in Photoshop when I stitched the images together.
+I did secondary research on lichen in a number of different directions — there's the [British Lichen Society](http://www.britishlichensociety.org.uk/), and also the [database of lichen sightings](#october-16-2018) which they contribute to. I mapped a section of the database onto a map of London, but unfortunately the sightings don't all have individual coordinates associated with them. Instead they're all grouped into maybe a dozen sets of coordinates which I'm sure has a good reason, but doesn't make for a very nice visualization.
 
-The book is designed to [add a secondary voice](#introducing-a-new-diagrammatic-voice-to-make-an-argument) to the argument. While the microscopic photographs map out the site spatially, the book shows the same space changing over time.
+The Natural History Museum has one of the [largest collections of lichen specimens](http://www.nhm.ac.uk/our-science/collections/botany-collections/lichen-collections.html) in the world, containing about 400.000 items. They're beautiful:
+
+![Specimen of Lichen at the Natural History Museum, London](/assets/vf/nhm.jpg)
+Specimen of Lecanora vitellina var. reflexa Nyl. (BM001096649) [The Natural History Museum](http://data.nhm.ac.uk/object/a569c613-34a7-43d1-a49e-04ec2b70d3ef)
+
+I'm also still interested in diagramming the embankment in different ways, maybe developing this drawing I made at the site:
+
+![Diagram of the site](/assets/vf/site-diagram.jpg)
+
+Eventually, I decided to focus on the Turing Patterns. I wrote a [Javascript implementation](https://codepen.io/maxakohler/pen/JmwayP/) of the [Gray-Scott algorithm](http://www.karlsims.com/rd.html) so I could control everything about the simulation. After experimenting for a while, I found a few sets of parameters that led to patterns that matched the lichen photographs very closely. I then wrote a [Puppeteer](https://github.com/GoogleChrome/puppeteer) script that takes a screenshot of the simulation every few seconds. Using the script, I generated a series of images using different parameters. I then printed and bound these into a book in chronological order:
+
+<div class='gallery' markdown='1'>
+![Book spread showing full bleed turing patterns](/assets/vf/book-1.jpg)
+![Book spread showing full bleed turing patterns](/assets/vf/book-2.jpg)
+![Book spread showing full bleed turing patterns](/assets/vf/book-6.jpg)
+![Book spread showing full bleed turing patterns](/assets/vf/book-3.jpg)
+![Book spread showing full bleed turing patterns](/assets/vf/book-4.jpg)
+![Book spread showing full bleed turing patterns](/assets/vf/book-5.jpg)
+</div>
+
+The book is designed to [add a secondary voice](#introducing-a-new-diagrammatic-voice-to-make-an-argument) to the argument. There is also the idea that the book maps a single environment as it changes over time (while the photographic collages move across the surface spatially). I'm imagining it like this:
+
+![Diagram showing images along spatial and temporal dimensions](/assets/vf/space-diagram.svg)
+**A**: Photographic collage, **B**: Turing-Pattern book.

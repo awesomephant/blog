@@ -248,3 +248,77 @@ The book is designed to [add a secondary voice](#introducing-a-new-diagrammatic-
 
 ![Diagram showing images along spatial and temporal dimensions](/assets/vf/space-diagram.svg)
 **A**: Photographic collage, **B**: Turing-Pattern book.
+
+## November 9, 2018: Materiality
+
+### Reading for November 9
+
+- [x] Peter Fischli & David Weiss: *[The Way Things Go](https://www.youtube.com/watch?v=GXrRC3pfLnE)* (3 mins) 
+- [x] Sarah Sze: *[Meaning between Things](http://channel.louisiana.dk/video/sarah-sze-meaning-between-things)* (12 Mins)
+
+### Brief for Novemeber 9
+
+> Hi All, It was great to see your responses to ‘Image’ in last week’s review session and to share ideas, thoughts and comments within your groups. During Across RCA, please complete the primer task attached. This will inform the next session, a workshop to begin our exploration of 'Materiality'. We introduced some background ideas at the end of our last session and here are the reference links if anyone would like to watch the short films again;
+
+[Materiality Brief (DOCX)](https://drive.google.com/file/d/1eGyu4c5s6UvY7fuSf8tR9dh8h3U4vYxN/view)
+
+The brief is to find a *Process*, a *Material*, an *Object* and a *Tool* and write a few words about each. It also suggests to think of these as seperate things, so that's what I'm doing below:
+
+### Process: Tuning an Instrument
+
+I have personal experience here of course. I remember learning to tune your own violin to be a pretty big step, and it took me forever to learn how to do it. Part of it is hearing: First, you tune your A string to whatever reference you're using — another violin, a tuning fork or a piano. Then, you adjust each string to the A string - first the D, which is a fith below A. Then G, a fith below D. Finally E, a fith above A. There's also a muscle memory component — how do you hold your hand on the pegs to achieve the right amount of leverage? Unlike guitar tuners, these are just tapered pieces of wood stuck into a hole.
+
+In orchestra performances, every player goes through this process at the beginning of a performance. It always happens the same way: Orchestra walks on, Applause, Orchestra sits down, Concert Master walks on, Applause, Concert Master turns around — this is the command to tune. It always happens in the same order: Wind, Brass, Strings from low to high. Finally, conductor (and soloist) walk on.
+
+### Material: NIST Special Database 32 (MEDS-1)
+
+Curry, Fonds et al. (2009): *[NIST Special Database 32 Data Description Document](https://ws680.nist.gov/publication/get_pdf.cfm?pub_id=904685)*
+
+I originally found this during by undergrad [at Camberwell](http://www.maxkoehler.com/2018/feret-database/#febuary-18-2018), but didn't really do anything with it at the time.
+
+![NIST 32 Samples](/assets/ml/mugshots.png)
+
+<div class='table-container'>
+<table class='dense'>
+<thead>
+<tr>
+<td>img_dname</td>
+<td>img_name</td>
+<td>subject_id</td>
+<td>enc_num</td>
+<td>img_num</td>
+<td>age_phd</td>
+<td>inv_phd</td>
+<td>sex</td>
+<td>rac</td>
+<td>hgt</td>
+<td>wgt</td>
+<td>label</td>
+</tr>
+</thead>
+<tbody>
+{% for row in site.data.nist-32 %}
+<tr>
+<td>{{row.img_dname}}</td>
+<td>{{row.img_name}}</td>
+<td>{{row.subject_id}}</td>
+<td>{{row.enc_num}}</td>
+<td>{{row.img_num}}</td>
+<td>{{row.age_phd}}</td>
+<td>{{row.inv_phd}}</td>
+<td>{{row.sex}}</td>
+<td>{{row.rac}}</td>
+<td>{{row.hgt}}</td>
+<td>{{row.wgt}}</td>
+<td>{{row.label}}</td>
+</tr>
+{% endfor %}
+<tr><td>...</td></tr>  
+</tbody>
+</table>
+</div>
+
+I consider databases like this one materials because they're *the stuff algortihms* are made from. By themselves, there basically useless — many contain many more instances than you could ever look at in a lifetime, and they're usually pretty monotenous. They only become meaningful when they're turned *into* something.
+
+### Object
+### Tool

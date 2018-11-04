@@ -12,3 +12,17 @@ intro: "Earlier this year (towards the end of my undergrad) I started to record 
 I did experiment with some pre-built networks, such as [DCGAN](https://github.com/carpedm20/DCGAN-tensorflow) by and [char-rnn](https://github.com/sherjilozair/char-rnn-tensorflow), but I didn't really undestand what was happening under the surface. More importantly, I couldn't modify these networks to change their outputs (apart from tweaking some hyperparameters).
 
 The focus of the next few months is going to be to change that. As with [earlier projects](/2017/teaching-machines-to-draw/), I will be taking notes here as I go along.
+
+## Ideas for a workshop
+
+Sheena suggested I might run a workshop with [Interpolate](http://interpolate.org.uk/) on the subject of machine learning. This comes after a discussion at [Designing a Feminist Alexa](http://www.maxkoehler.com/notes/2018/10/19/feminist-alexa.html). We agreed that there seems to be an awful lot of magical thinking among humanities-folk about what machine learning is. To me, it often feels like these debates are floating in thin air. Arguments seem to be based more on Black Mirror episodes and Ted Talks than the papers where the working mechanisms of neural networks are being developed.
+
+The goal of the workshop would be to dispel some of those myths, and give people some low-level understanding of what they're talking about. I'm proposing to do this by having a group of people train a neural network by hand — using nothing but pen, paper, and maybe a basic calculator. Over the course of a few hours, we'd build up a network using string and index cards pinned to the wall. Once the network is sufficiently trained, we'd use it to generate some kind of outcome.
+
+I'm imagining it like the scene in [Apollo 13](https://images-assets.nasa.gov/image/s70-34986/s70-34986~orig.jpg) where engineers in mission control are working out orbital mechanics using [slide rules](https://en.wikipedia.org/wiki/Slide_rule).
+
+The main question is: *What kind of task do we train this network on?* It has to be simple enough to be accomplished by a small network with limited computing power, yet complex enough to keep people interested.
+
+- **MNIST Digit recognition** would be possible from a technical standpoint. Classification might be a bit dry, but maybe an opportunity to talk about social/political issues.
+- **Image generation** would be great for outcomes, but hard to achieve given the recources. It could work if the images were extremely low resolution? But then teh results might be hard to distinguish from random pixels.
+- **Text generation**. A recurrant net would probably be hard to convey. Outcomes could be useful though.

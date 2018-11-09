@@ -6,6 +6,7 @@ tags: ""
 thumb: ''
 thumbnail: '/assets/vf/vf-banner.png'
 coverImageCredit: Lichen
+includesMath: true
 intro: "Notes on the Visual Forensics elective at the RCA" 
 ---
 
@@ -270,55 +271,28 @@ I have personal experience here of course. I remember learning to tune your own 
 
 In orchestra performances, every player goes through this process at the beginning of a performance. It always happens the same way: Orchestra walks on, Applause, Orchestra sits down, Concert Master walks on, Applause, Concert Master turns around — this is the command to tune. It always happens in the same order: Wind, Brass, Strings from low to high. Finally, conductor (and soloist) walk on.
 
-### Material: NIST Special Database 32 (MEDS-1)
+### Material: The Enron Corpus
 
-Curry, Fonds et al. (2009): *[NIST Special Database 32 Data Description Document](https://ws680.nist.gov/publication/get_pdf.cfm?pub_id=904685)*
-
+[What the Enron Corpus Says About Us](https://www.newyorker.com/magazine/2017/07/24/what-the-enron-e-mails-say-about-us)
 I originally found this during by undergrad [at Camberwell](http://www.maxkoehler.com/2018/feret-database/#febuary-18-2018), but didn't really do anything with it at the time.
-
-![NIST 32 Samples](/assets/ml/mugshots.png)
-
-<div class='table-container'>
-<table class='dense'>
-<thead>
-<tr>
-<td>img_dname</td>
-<td>img_name</td>
-<td>subject_id</td>
-<td>enc_num</td>
-<td>img_num</td>
-<td>age_phd</td>
-<td>inv_phd</td>
-<td>sex</td>
-<td>rac</td>
-<td>hgt</td>
-<td>wgt</td>
-<td>label</td>
-</tr>
-</thead>
-<tbody>
-{% for row in site.data.nist-32 %}
-<tr>
-<td>{{row.img_dname}}</td>
-<td>{{row.img_name}}</td>
-<td>{{row.subject_id}}</td>
-<td>{{row.enc_num}}</td>
-<td>{{row.img_num}}</td>
-<td>{{row.age_phd}}</td>
-<td>{{row.inv_phd}}</td>
-<td>{{row.sex}}</td>
-<td>{{row.rac}}</td>
-<td>{{row.hgt}}</td>
-<td>{{row.wgt}}</td>
-<td>{{row.label}}</td>
-</tr>
-{% endfor %}
-<tr><td>...</td></tr>  
-</tbody>
-</table>
-</div>
 
 I consider databases like this one materials because they're *the stuff algortihms* are made from. By themselves, there basically useless — many contain many more instances than you could ever look at in a lifetime, and they're usually pretty monotenous. They only become meaningful when they're turned *into* something.
 
-### Object
-### Tool
+- **Object**: Styrofoam Head
+- **Tool**: Kitchen Blender (Braun)
+
+We spent the morning handling the material and arranging it by various criteria:
+
+- Density, as in $$p = \frac{m}{V}$$
+- Density, as in [opacity](https://en.wikipedia.org/wiki/Opacity_(optics)): $$I(x)=I_{0}e^{-\kappa p x}$$
+- Density, as in consitency
+- Monetary value (how much would these be to buy?)
+- Raw material value (if you melted these down, how much would they be worth?)
+- Sentimental value (here we can only go by assumption — if your dad lost a leg in the Ibuprofen factory, that's going to have sentimental value for you)
+- Photographic value (how much light does it reflect?)
+
+![VF Table](/assets/vf-table-1.jpg)
+![VF Table](/assets/vf-table-2.jpg)
+![VF Table](/assets/vf-table-3.jpg)
+
+The task for the next session is to generate a visual outcome on *an aspect of materiality in time/space*.

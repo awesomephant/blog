@@ -296,3 +296,8 @@ We spent the morning handling the material and arranging it by various criteria:
 ![VF Table](/assets/vf-table-3.jpg)
 
 The task for the next session is to generate a visual outcome on *an aspect of materiality in time/space*.
+
+## November 10, 2018
+
+![Maths notes](/assets/cabinet_053_hunt_katherine_002.jpg)
+“The strange operation & mistery of numbers.” Peter’s Mundy’s notation of all possible changes on three, four, five, and six bells in his travel journal “Itinerarium Mundi.” Entry made after Mundy’s visit to London in 1654. [Cabinet Magazine](http://cabinetmagazine.org/issues/53/hunt.php)

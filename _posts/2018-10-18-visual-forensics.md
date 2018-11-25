@@ -40,7 +40,11 @@ intro: "Notes on the Visual Forensics elective at the RCA"
 The first task is to document ```51°30’37.6”N 0°06’56.3”W```, the true geographical centre of London. Using a USB Microscope, a digital camera and graph paper, I document a 1' × 1' square on the embankment.
 
 ![Microscope 1](/assets/vf/site-overview-colour.jpg)
+
+<p class='full' markdown='1'>
 ![Microscope 1](/assets/vf/micro-1.jpg)
+</p>
+
 ![Walk 1](/assets/vf/walk-0.png)
 
 ## October 16, 2018
@@ -299,5 +303,7 @@ The task for the next session is to generate a visual outcome on *an aspect of m
 
 ## November 10, 2018
 
+<p class='full hasImage' markdown='1'>
 ![Maths notes](/assets/cabinet_053_hunt_katherine_002.jpg)
 “The strange operation & mistery of numbers.” Peter’s Mundy’s notation of all possible changes on three, four, five, and six bells in his travel journal “Itinerarium Mundi.” Entry made after Mundy’s visit to London in 1654. [Cabinet Magazine](http://cabinetmagazine.org/issues/53/hunt.php)
+</p>

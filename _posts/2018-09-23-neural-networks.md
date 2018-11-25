@@ -26,3 +26,8 @@ The main question is: *What kind of task do we train this network on?* It has to
 - **MNIST Digit recognition** would be possible from a technical standpoint. Classification might be a bit dry, but maybe an opportunity to talk about social/political issues.
 - **Image generation** would be great for outcomes, but hard to achieve given the recources. It could work if the images were extremely low resolution? But then teh results might be hard to distinguish from random pixels.
 - **Text generation**. A recurrant net would probably be hard to convey. Outcomes could be useful though.
+
+## November 22, 2018: Some more specific workshop ideas
+
+- The dataset will be a combination of images from the FERET database (scaled down to 13 × 20 = 260 pixels) and random images from CIFAR-10 cropped/scaled to the same size.
+- We'll be training a linear classifier that distinguishes between two classes: ``face`` and ``no face``. (I think it's easy enough to make the connection from that to a full neural network) using SVM loss and vanilla gradient descent.

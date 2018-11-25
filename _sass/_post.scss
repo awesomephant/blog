@@ -1,29 +1,21 @@
+.layout-post {
+    background: rgb(254,254,254)
+
+}
 .post-header {
-    grid-area: 1 / 1 / auto / 11;
     font-size: $ms-3;
-    padding: $padding;
     line-height: 1.3;
     font-family: $sans;
     font-weight: 700;
-    grid-area: 2 / 1 / auto / 11;
+    margin: 0 auto;
+    max-width: 42rem;
+
     @include bp(m){
         padding-top: 2em;
         padding-bottom: 2em;
-        grid-area: 2 / 2 / auto / 10;
     }
     @include bp(xl){
         grid-area: 2 / 2 / auto / 8;
-    }
-    &.hasThumbnail {
-        display: flex;
-        justify-content: flex-end;
-        flex-flow: column;
-        align-items: center;
-        @include bp(l){
-            grid-area: 2 / 2 / auto / 10;
-            flex-flow: row-reverse;
-            align-items: center;
-        }
     }
     h1, h1 > a {
         padding-bottom: .2em;
@@ -58,12 +50,12 @@
 
 .post-intro {
     font-size: $ms-1;
-    max-width: 40em;
 }
 
 .post-content {
     font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
-    max-width: 42em;
+    max-width: 42rem;
+    margin: 0 auto;
     a {
         text-decoration: underline;
     }
@@ -90,7 +82,7 @@
     grid-area: 4 / 1 / auto / 11;
     line-height: 1.4;
     @include bp(m) {
-        grid-area: auto / 2  / auto / 11;
+        grid-area: auto / 1  / auto / 12;
     }
     strong {
         font-weight: bold;
@@ -121,6 +113,7 @@
     video, iframe {
         width: 100%;
         @include bp(l){
+            margin-left: -5%;
             width: 110%;
         }
     }
@@ -197,9 +190,6 @@
     }
 }
 
-.dense {
-}
-
 th,
 td {
     padding-right: 1rem;
@@ -270,6 +260,7 @@ pre.highlight {
     width: 100%;
     @include bp(m){
         width: 130%;
+        margin-left: -15%;
         column-count: 2;
     }
     @include bp(xl){
@@ -287,10 +278,18 @@ pre.highlight {
 }
 
 .full {
-    @include bp(m) {
-        width: 96vw;
-        margin-left: calc(-48vw + 23rem);
+    img {
+        margin-bottom: .5rem;
+        width: calc(100% + 40vw);
+        margin-left: -20vw;
     }
+    @include bp(m) {
+        width: 100vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        margin-left: calc((100vw - 42rem) / 2 * -1);
+    }
+
 }
 
 .post-jumplink {

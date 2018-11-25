@@ -1,10 +1,8 @@
 ---
 layout: default
 ---
+<article class='post {{page.class}}'>
 <header class="post-header {% if page.thumbnail %}hasThumbnail{% endif %}">
-			{% if page.thumbnail %}
-			<div style="background-image: url({{page.thumbnail}})" class='post-thumbnail'></div>
-			{% endif %}
 			<div class='header-copy'>
 			<h1 class="post-title">
 			{% if page.external_link %}
@@ -41,30 +39,12 @@ layout: default
 					</ul>
 				</li>
 				{% endif %}
-				{% if page.coverImageCredit %}
-				<li class="project-meta-item">
-					<em class="project-meta-title">Cover Image</em>
-					{{page.coverImageCredit | markdownify}}
-				</li>
-				{% endif %}
 			</ul>
 		</div>
 		</header>
-<article class='post {{page.class}}'>
 	<div class="post-content">
 
 {{ content }}
 
 	</div>
 </article>
-
-{% unless page.roles %}
-<div class="project-next">
-	Read next: 
-  {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
-  {% else if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
-</div>
-{% endunless %}

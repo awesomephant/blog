@@ -43,7 +43,12 @@ layout: default
 		</div>
 		</header>
 	<div class="post-content">
-
+		{% for v in page.videos %}
+		<video src='{{v}}' muted loop autoplay></video>
+		{% endfor %}
+		{% for image in page.images %}
+		<img class='project-image' src="{{image}}" alt="">
+		{% endfor %}
 {{ content }}
 
 	</div>

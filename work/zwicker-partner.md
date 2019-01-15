@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Zwicker & Partner
 date: Febuary — May 2016
 images: 

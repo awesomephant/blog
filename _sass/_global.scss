@@ -59,30 +59,20 @@ sup {
 
 .site-header {
 	line-height: 1.35;
-	font-size: $ms-0;
+	font-size: $ms-1;
 	padding: $padding;
 	overflow-x: hidden;
 	padding-top: .5em;
 	padding-bottom: .5em;
 	letter-spacing: .01em;
-	text-align: center;
 	a {
 		background-position: 0 1.2em;
     }
 	
-	@include bp(m){
-		font-size: $ms-1;
-	}
-	@include bp(l){
-		padding-bottom: .5em;
-		span {
-			display: block;
-		}
-	}
 	grid-area: auto / span 12;
-	display: flex;
-	align-items: baseline;
-	justify-content: center;
+	@include bp(l){
+		grid-area: auto / span 8;
+	}
 }
 
 .site-footer {
@@ -90,7 +80,6 @@ sup {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	font-size: $ms-1;
-	text-align: center;
 	color: $black;
 	letter-spacing: .001em;
 	grid-area: 40 / 1 / auto / 11;

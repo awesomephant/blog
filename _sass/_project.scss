@@ -2,11 +2,12 @@
     flex-basis: 50%;
     margin-bottom: 1rem;
     max-width: 20em;
+    margin-left: 0 !important;
     ul {
         list-style: none;
     }
 }
-.project-meta-title {
+em.project-meta-title {
     display: block;
     color: $gray;
     font-style: normal;

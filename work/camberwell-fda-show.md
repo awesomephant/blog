@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Camberwell FdA Illustration & FdA Graphic Design Degree Show Identity
 date: June 2017
 team: 

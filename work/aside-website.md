@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Aside London
 date: June 2017
 roles: 

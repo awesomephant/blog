@@ -9,7 +9,10 @@ class: home
             {%for p in site.data.projects%}
             <a data-year="{{ p.year }}" href='{{ p.url }}' class='project-list-item'>
                 <date data-year="{{ p.year }}" class='project-year'>{{p.year | remove: '20'}}</date>
-                <h3 class='project-title'>{{p.title}}</h3>
+                
+                <h3 class='project-title'>{% if p.image %}
+                    <img class='project-list-image' src="/assets/projects/{{p.image}}" alt="">
+                    {% endif %}{{p.title}}</h3>
             </a>
             {% endfor %}
         </nav>

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Assembly Point
 date: August 2017
 roles:

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Teaching machines to draw
 date: January—August 2018
 roles:

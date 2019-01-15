@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Alexander von Humboldt Gymnasium Study Collection
 date: January—May 2018
 team:

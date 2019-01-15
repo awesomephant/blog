@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Pygmalion's Spectacles
 date: May—June 2017
 videos:

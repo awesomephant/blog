@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Met Office YCN Brief
 date: 2017
 images: 

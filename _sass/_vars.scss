@@ -4,14 +4,8 @@ $gray: rgb(167, 163, 157);
 $white: #fff;
 $lightgray: rgb(232, 230, 230);
 
-@font-face {
-    font-family: "Suisse";
-    font-weight: 400;
-    src: url('https://www.assemblypoint.xyz/wp-content/themes/ap-theme/fonts/SuisseIntl-Regular-WebM.ttf') format('truetype');
-}
-
-$sans: "Suisse";
-$serif: "Georgia";
+$serif: "Times New Roman";
+$sans: sans-serif;
 $text: $serif;
 $fast: 300ms;
 $padding: calc(1rem + .5vw);

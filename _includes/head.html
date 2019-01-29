@@ -41,5 +41,24 @@
 	{% if page.includesMath %}
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>	{%
 	endif %}
+	{% if page.includesMusic %}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/abcjs/3.1.1/abcjs_basic-min.js" type="text/javascript"></script>
+	<script>
+		function renderMusic() {
+			let els = document.querySelectorAll('.music')
+			for (let i = 0; i < els.length; i++) {
+				el = els[i];
+				let _id = 'music-' + i;
+				el.setAttribute('id', _id);
+				let data = String(el.innerHTML);
+				console.log(data)
+				ABCJS.renderAbc(el, data);
+			}
+			return true;
+		}
+	
+		window.addEventListener('DOMContentLoaded', renderMusic);
+	</script>
+	{% endif %}
 	<link href="feed.xml" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)" />
 </head>

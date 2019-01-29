@@ -57,6 +57,7 @@
 	}
 }
 
+[data-year='2019'] ~ [data-year='2019'] .project-year,
 [data-year='2018'] ~ [data-year='2018'] .project-year,
 [data-year='2017'] ~ [data-year='2017'] .project-year,
 [data-year='2016'] ~ [data-year='2016'] .project-year
@@ -67,6 +68,7 @@
 	}
 }
 
+[data-active-year='2019'] date[data-year='2019'],
 [data-active-year='2018'] date[data-year='2018'],
 [data-active-year='2017'] date[data-year='2017'],
 [data-active-year='2016'] date[data-year='2016'],

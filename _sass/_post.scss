@@ -1,9 +1,8 @@
 .layout-post {
-    background: rgb(254,254,254)
 
 }
 .post-header {
-    font-size: $ms-3;
+    font-size: $ms-4;
     line-height: 1.3;
     font-family: $sans;
     font-weight: 700;
@@ -18,6 +17,7 @@
         grid-area: 2 / 2 / auto / 8;
     }
     h1, h1 > a {
+        font-weight: bold;
         padding-bottom: .2em;
     }
 }
@@ -76,7 +76,7 @@
     padding-right: $padding;
     padding-bottom: 3rem;
     font-family: $serif;
-    font-size: $ms-1;
+    font-size: 1.2rem;
     word-spacing: -.05em;
     color: $black;
     grid-area: 4 / 1 / auto / 11;
@@ -121,7 +121,7 @@
         font-family: $sans;
         margin-top: 2em;
         margin-bottom: 1em;
-        font-size: $ms-1;
+        font-size: $ms-2;
         line-height: 1.2;
     }
     h3 {
@@ -333,18 +333,24 @@ pre.highlight {
 .footnotes {
     font-size: $ms--1;
     padding-top: 1rem;
-    @include bp(m){
-        width: 120%;
-    }
+    font-family: $sans;
     ul,
     ol {
         margin-left: 0;
+        counter-reset: 'fnli';
+        list-style: none;
         @include bp(m) {
             column-count: 2;
             column-gap: 2rem;
         }
     }
     li {
+        &:before {
+            content: counter(fnli);
+            margin-left: -1em;
+            margin-right: .5em;
+        }
+        counter-increment: fnli;
         margin-left: 1rem;
         margin-bottom: .5rem;
     }

@@ -1,6 +1,7 @@
 .site-home {
 	grid-area: 2 / 1 / auto / 11;
 	font-size: $ms-0;
+	max-width: 45em;
 	padding: 1rem;
 	@include bp(m){
 		font-size: $ms-2;
@@ -10,8 +11,8 @@
 	font-family: $serif;
 	margin-bottom: 1.5em;
 	h2 {
-		margin-left: 12.5%;
-		padding-bottom: 1em;
+		font-size: $ms-1;
+		font-family: $sans;
 	}
 }
 
@@ -23,11 +24,13 @@
 }
 
 .project-list-item {
-	display: grid;
-	grid-template-columns: repeat(8, 1fr);
 	text-decoration: none;
-	&:last-of-type {
-		border-bottom: 0;
+	display: inline;
+	&:after {
+		content: ', '
+	}
+	&:last-of-type:after {
+		content: '';
 	}
 	&:hover, &:focus {
 		text-decoration: none;
@@ -38,40 +41,5 @@
 }
 
 .project-title {
-	grid-area: auto / 2 / auto / 11;
-	position: relative;
-}
-
-.project-year {
-	grid-area: auto / 1 / auto / 2;
-	position: relative;
-	padding-left: .2em;
-	&:before {
-		content: "'";
-		@include bp(s){
-			content: '20'
-		}
-	}
-	&.blank:before {
-		display: none;
-	}
-}
-
-[data-year='2019'] ~ [data-year='2019'] .project-year,
-[data-year='2018'] ~ [data-year='2018'] .project-year,
-[data-year='2017'] ~ [data-year='2017'] .project-year,
-[data-year='2016'] ~ [data-year='2016'] .project-year
-{
-	visibility: hidden;
-	&:after {
-		display: none
-	}
-}
-
-[data-active-year='2019'] date[data-year='2019'],
-[data-active-year='2018'] date[data-year='2018'],
-[data-active-year='2017'] date[data-year='2017'],
-[data-active-year='2016'] date[data-year='2016'],
-{
-	color: $gray;
+	display: inline-block;
 }

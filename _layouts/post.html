@@ -2,46 +2,47 @@
 layout: default
 ---
 <article class='post {{page.class}}'>
-<header class="post-header {% if page.thumbnail %}hasThumbnail{% endif %}">
-			<div class='header-copy'>
-			<h1 class="post-title">
-			{% if page.external_link %}
-				<a href="{{page.external_link}}">{{page.title}}</a>
-			{% else %}
-			{{ page.title }}
+	{% if page.thumbnail %}
+		<img src="{{page.thumbnail}}" alt="{{post.title}}"/>
+	{% endif %}
+	<header class="post-header {% if page.thumbnail %}hasThumbnail{% endif %}">
+		<ul class="post-meta">
+			<li class="project-meta-item">
+				{{ page.date | date: "%B %-d, %Y"}}{{ page.year }}
+			</li>
+			{% if page.roles %}
+			<li class="project-meta-item">
+				<em class="project-meta-title">Role</em>
+				<ul>
+					{% for role in page.roles %}
+					<li>{{role}}</li>
+					{% endfor %}
+				</ul>
+			</li>
 			{% endif %}
+			{% if page.team %}
+			<li class="project-meta-item">
+				<em class="project-meta-title">Team</em>
+				<ul>
+					{% for person in page.team %}
+					<li>{{person}}</li>
+					{% endfor %}
+				</ul>
+			</li>
+			{% endif %}
+		</ul>
+		<div class='header-copy'>
+			<h1 class="post-title">
+				{% if page.external_link %}
+				<a href="{{page.external_link}}">{{page.title}}</a>
+				{% else %}
+				{{ page.title }}
+				{% endif %}
 			</h1>
 			<div class="post-intro">
-		    {{page.intro | markdownify}}
-		 </div>
-		 <ul class="post-meta">
-			 <li class="project-meta-item">
-				 <em class="project-meta-title">Published</em>
-				 {{ page.date | date: "%B %-d, %Y"}}{{ page.year }}
-				</li>
-				{% if page.roles %}
-				<li class="project-meta-item">
-					<em class="project-meta-title">Role</em>
-					<ul>
-						{% for role in page.roles %}
-						<li>{{role}}</li>
-						{% endfor %}
-					</ul>
-				</li>
-				{% endif %}
-				{% if page.team %}
-				<li class="project-meta-item">
-					<em class="project-meta-title">Team</em>
-					<ul>
-						{% for person in page.team %}
-						<li>{{person}}</li>
-						{% endfor %}
-					</ul>
-				</li>
-				{% endif %}
-			</ul>
-		</div>
-		</header>
+				{{page.intro | markdownify}}
+			</div>
+	</header>
 	<div class="post-content">
 		{% for v in page.videos %}
 		<video src='{{v}}' muted loop autoplay></video>
@@ -49,7 +50,7 @@ layout: default
 		{% for image in page.images %}
 		<img class='project-image' src="{{image}}" alt="">
 		{% endfor %}
-{{ content }}
+		{{ content }}
 
 	</div>
 </article>

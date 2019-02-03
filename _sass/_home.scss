@@ -8,17 +8,17 @@
 	}
 }
 .home-work, .home-writing {
-	font-family: $serif;
+	font-family: $sans;
 	margin-bottom: 1.5em;
 	h2 {
-		font-size: $ms-1;
+		font-size: $ms-2;
 		font-family: $sans;
 	}
 }
 
 .project-list-image {
 	display: inline-block;
-	max-height: $ms-2;
+	max-height: $ms-3;
 	width: auto;
 	vertical-align: middle;
 }

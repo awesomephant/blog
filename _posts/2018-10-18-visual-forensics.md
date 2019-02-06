@@ -308,5 +308,28 @@ The task for the next session is to generate a visual outcome on *an aspect of m
 “The strange operation & mistery of numbers.” Peter’s Mundy’s notation of all possible changes on three, four, five, and six bells in his travel journal “Itinerarium Mundi.” Entry made after Mundy’s visit to London in 1654. [Cabinet Magazine](http://cabinetmagazine.org/issues/53/hunt.php)
 </p>
 
-## Colour
-## Language
+## Notes for Friday, Febuary 8th
+
+> Reflect on all work produced as part of VISUAL FORENSICS through IMAGE, MATERIALITY, COLOUR, LANGUAGE. Include (physical) examples of all work. What worked? What was a surprise? What did you uncover? Did this constitute a step forward in your working methods? What connections have you observed in your approach to the module? Have any threads emerged?
+
+- I think whenever I managed to come up with some (obsessive) process, it led to good outcomes: The lichen tile photographs, the New York Times book, and to some extent the time video (although with that project there's less obsessive manual collecting of data. But still, there's a process — training a DNN to predict video frames — that's repeated with different inputs, parameters etc. to create the final piece)
+- Spreadsheets are generally a good idea
+- I think the main step forward here was to work with images in a more fluid way - treating them as raw material in different ways.
+- I kind of enjoyed working out responses to different briefs on different subject material — apart from the ML piece, the subjects of these pieces don't really relate to my overarching research interest. But I think that's okay - they relate in terms of process.
+
+> What are the key-themes, aspects, processes and/or concepts informing your practice?
+- I think the overarching theme is clearly approaching these ontological questions with a scientific, algorithm-based method. I choose the word *algorithm* (raher than *coding*) because some of the stuff was done very manually: Photographing the lichen for hours and spending like three days screenshotting New York Times articles. But these processes are still algorithms in the sense that there's a clearly defined series of rules and decisions that I follow over and over again.
+- The archive is a recurring theme
+- Secondary research (the Turing paper, the NHM samples)
+
+> What have you been reading or looking at during this module?
+
+- I've been making these [gradient drawings](/2019/gradient-drawings/) based on the work of Xenakis, so I've been reading about harmonic series and old architecture
+- Maths: Statistics, Computer Vision, machine learning maths. Doing this Stanford course on machine vision.
+- Re-read some key text on the archive: Body and the Archive, Archive Fever
+- Some basic photography theory: Barthes, Elkins
+- Forensic architecture definitely a key reference
+
+> What is your relationship to the idea of 'FORENSICS'? How are you using, interrogating, understanding and developing this idea?
+
+- I think the word Forensics describes looking at the world in a very careful, methodical way (common to art and science). It's also (in my opinion) a way of looking that's somehow detached from personal feelings, instead trying to achive some level of "objectiveness" (but also realising that that's never fully possible).

@@ -112,3 +112,14 @@ A lot of papers use Amazon Mechanical Turk to validate results or generate train
 ### Machines generating images
 
 Maybe talk about a specific model: Pix2pix would seem to be a good candidate.
+
+
+## Group tutorial notes
+
+### Keywords (6-10)
+- Archive
+- Database
+- Computer Vision
+- Machine learning
+- Algorthm
+- Photography

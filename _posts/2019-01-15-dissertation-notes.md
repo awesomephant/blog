@@ -108,18 +108,63 @@ A lot of papers use Amazon Mechanical Turk to validate results or generate train
 
 - The Atlantic: [The Internet Is Enabling a New Kind of Poorly Paid Hell](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/)
 
-
 ### Machines generating images
 
 Maybe talk about a specific model: Pix2pix would seem to be a good candidate.
 
-
 ## Group tutorial notes
 
 ### Keywords (6-10)
-- Archive
-- Database
-- Computer Vision
-- Machine learning
-- Algorthm
-- Photography
+
+1. Archive
+2. Database
+3. Computer Vision
+4. Machine Learning
+5. Reverse Turing Test
+6. Digital Photography
+7. Operational Images
+8. Digital Economy
+
+### Map
+
+> a current ‘map’ of the dissertation (including key themes / writers / artists / examples)
+
+I think it's probably necessary to talk about real-world examples of computer vision having social consequences, but the ultimate goal is to get to a more fundamental question: How do we have to look at photography in the age of the database? Also, the age of the database has been going on for far longer than neural networks have been in the public consciousness.
+
+<div class='full' markdown='1'>
+![Flow](/assets/dissertation/flow.svg)
+</div>
+
+### Images
+
+<div class='gallery full' markdown='1'>
+![pix2pix](/assets/ml/pix2pix.png)
+![pix2pix](/assets/ml/72-outputs.png)
+![pix2pix face](/assets/ml/fb-pose.png)
+![pix2pix face](/assets/ml/feret.jpg)
+![pix2pix face](/assets/ml/perceptron.png)
+![pix2pix face](/assets/ml/paglen-5b.jpg)
+![pix2pix face](/assets/ml/andy.gif)
+![NIST Mugshot](/assets/ml/mugshot.png)
+![DGAN research image](/assets/ml/test-arrange-dgan.png)
+![Eigenfaces](/assets/ml/eigen.png)
+![pix2pix research image](/assets/ml/n1.png)
+![Linear classification templates](/assets/ml/templates-2.jpg)
+![Convnet activations](/assets/ml/conv-activations.png)
+![Citizens of the 20th century](/assets/ml/sander.jpg)
+</div>
+
+### Key Texts
+
+- Barthes (1980): *Camera Lucida*
+- Sekula (1984): *The body and the archive*
+- Elkins (2011): *What photography is*
+- Isola, Zhu, Zhou, Efros (2016): *Image-to-Image Translation with Conditional Adversarial Networks*
+- Paglen (2016): *Invisible Images (Your Pictures Are Looking at You)*
+- Steyerl (2016): *A Sea of Data: Apophenia and Pattern (Mis-)Recognition*
+- Lecture notes from CS231n at Stanford
+- Sorting things out: Classification and its consequences
+
+### New writing
+
+> a short piece of writing (approx. half a page / one page) that you are happy to share with the group. The writing doesn't need to be a summary of your thinking, it can be a new piece of writing that is responding to one of your key ideas... and it can be quite rough! It might be helpful to bring some text that you would like feedback on - whether it is the style of writing, the ideas contained within... or a combination of both.

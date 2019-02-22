@@ -94,3 +94,18 @@ Ways of subverting machines/systems:
 - Cory Arcangel: *Beat the Champ*. Not unlike people having their Amazon Echo and Google Home talk to each other.
 
 All of these tend to go back to the human creator: Look at was this genius artist made this machine do. *Sunspring* is (maybe) more of an equal collaboration. [Obvious Art](https://obvious-art.com/) made the Sotheby's painting.
+
+## Friday, Febuary 22
+
+This week: *Time* and the digital.
+
+- *Realtime* only becomes a thing when there's an alternative.
+- Early TV was *only live*. To show a film, they would point a TV camera at a projection of a film.
+- Annabel Nicolson (1973): *Reel Time*. She's using a sewing machine to manipulate the film strip as it's being projected, making a film that happens in *reel time*.
+- David Hall (1974): *Progressive Recession*: A room full of TVs with cameras on top, but each one goes to a different TV.
+- Nam June Paik (1965): *Nixon*. This si the thing in the Tate with the two TVs being distorted by electromagnets.
+- Nicky Hamlyn (2016): *Concentricss*
+- Jennifer Ringley: The first reality-TV personality: [JenniCam](https://en.wikipedia.org/wiki/Jennifer_Ringley)(1996).
+- The Academic: Bear Claw
+
+Recursive instagram story

@@ -1,42 +1,65 @@
 .site-home {
 	grid-area: 2 / 1 / auto / 11;
 	font-size: $ms-0;
-	max-width: 45em;
-	padding: 1rem;
+	padding: 1.5rem;
 	@include bp(m){
-		font-size: $ms-2;
+		font-size: $ms-1;
 	}
-}
-.home-work, .home-writing {
-	font-family: $sans;
-	margin-bottom: 1.5em;
-	h2 {
-		font-size: $ms-2;
-		font-family: $sans;
+	@include bp(l){
+		display: flex;
 	}
 }
 
-.project-list-image {
-	display: inline-block;
-	max-height: $ms-3;
-	width: auto;
-	vertical-align: middle;
+.home-work {
+	@include bp(l){
+		flex-basis: 40%;
+		flex-shrink: 0;
+		margin-right: 3rem;
+	}
+
+}
+
+.home-work, .home-writing {
+	font-family: $sans;
+	margin-bottom: 2em;
+	h2 {
+		font-size: $ms-1;
+		font-family: $sans;
+		margin-bottom: .5em;
+		@include bp(s){
+			margin-left: 4.5rem;
+		}
+	}
+}
+
+.project-year {
+	margin-right: .2rem;
+	font-size: $ms--2;
+	display: block;
+	@include bp(s){
+		display: inline-block;
+		font-size: $ms-0;
+		margin-right: .5em;
+	}
+	@include bp(m){
+		font-size: $ms-1;
+	}
+	&.blank {
+		width: $ms-0 * 3;
+	}
 }
 
 .project-list-item {
+	margin-bottom: .5em;
+	line-height: 1.2;
+	@include bp(s){
+		margin-bottom: .1em;
+	}
 	text-decoration: none;
-	display: inline;
-	&:after {
-		content: ', '
-	}
-	&:last-of-type:after {
-		content: '';
-	}
+	display: block;
 	&:hover, &:focus {
 		text-decoration: none;
 		color: $gray;
-		position: relative;
-        overflow: visible;
 	}
 }
 

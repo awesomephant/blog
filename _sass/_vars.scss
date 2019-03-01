@@ -2,17 +2,19 @@
 $black: rgb(14, 13, 12);
 $gray: rgb(167, 163, 157);
 $white: #fff;
-$lightgray: rgb(232, 230, 230);
+$lightgray: #e8e6e6;
 
-$serif: "Times New Roman", serif;
-$sans: Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,600');
+
+$serif: "IBM Plex Sans", serif;
+$sans: $serif;
 $text: $serif;
 $fast: 300ms;
 $padding: calc(1rem + .5vw);
 // https://www.modularscale.com/?1.05&em&1.2
 // Minor third scale
 $ratio: 1.2;
-$ms-0: 1.06rem;
+$ms-0: 1.15rem;
 
 $ms-1: $ms-0 * $ratio;
 $ms-2: $ms-1 * $ratio;

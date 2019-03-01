@@ -41,6 +41,7 @@ body {
 	width: calc(60px + 1vw);
 	pointer-events: none;
 	display: none;
+	transition: transform $fast;
 	@include bp(m){
 		display: block;
 	}
@@ -64,12 +65,13 @@ sup {
 	overflow-x: hidden;
 	padding-top: .5em;
 	padding-bottom: .5em;
-	letter-spacing: .01em;
-	a {
-		background-position: 0 1.2em;
-    }
-	
+	letter-spacing: .01em;	
 	grid-area: auto / span 12;
+	span {
+		@include bp(l){
+			display: block;
+		}
+	}
 	@include bp(l){
 		grid-area: auto / span 8;
 	}

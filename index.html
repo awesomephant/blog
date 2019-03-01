@@ -8,11 +8,9 @@ class: home
         <nav class='project-list'>
             {%for p in site.data.projects%}
             <a href='{{ p.url }}' class='project-list-item'>
+                <span class="project-year">{{p.year}}</span>
                 <h3 class='project-title'>
-                        {{p.title}}
-                    {% if p.image %}
-                    <img class='project-list-image' src="/assets/projects/{{p.image}}" alt="">
-                    {% endif %}
+                    {{p.title}}
                 </h3>
             </a>
             {% endfor %}
@@ -23,6 +21,7 @@ class: home
         <nav class='project-list'>
             {%for post in site.posts%}
             <a href="{{post.url}}" class='project-list-item h-entry'>
+                <span class="project-year">{{ post.date | date: "%Y" }}</span>
                 <h3 class='project-title p-name'>
                     {% if post.shortTitle %}
                     {{ post.shortTitle }}

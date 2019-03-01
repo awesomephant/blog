@@ -26,7 +26,7 @@ const addLineNumbers = function () {
 }
 document.addEventListener('DOMContentLoaded', function () {
     let headlines = document.querySelectorAll('.post-content h2[id], .post-content h3[id]');
-    
+
     for (let i = 0; i < headlines.length; i++) {
         let link = document.createElement('a')
         link.setAttribute('href', '#' + headlines[i].id)
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     let paragraphs = document.querySelectorAll('.post-content p');
-    
+
     for (let i = 0; i < paragraphs.length; i++) {
         let image = paragraphs[i].querySelector('img, video, iframe');
         if (image) {
@@ -69,9 +69,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     let taskItems = document.querySelectorAll('.task-list-item');
-    for (let i = 0; i < taskItems.length; i++){
+    for (let i = 0; i < taskItems.length; i++) {
         let done = taskItems[i].querySelector('[checked=checked]')
-        if (done){
+        if (done) {
             taskItems[i].classList.add('done')
         }
     }
@@ -91,25 +91,36 @@ document.addEventListener('DOMContentLoaded', function () {
     var ticking = false;
     let cursorEl = document.querySelector('.cursor')
     function handleCursor(position) {
-      //cursorEl.style.transform = 'translateX(' + (position.x - 10) + 'px) translateY(' + (position.y - 5) + 'px)';
-      cursorEl.style.left = (position.x - 10) + 'px';
-      cursorEl.style.top = (position.y - 5) + 'px';
+        //cursorEl.style.transform = 'translateX(' + (position.x - 10) + 'px) translateY(' + (position.y - 5) + 'px)';
+        let margin = 5;
+        
+        if (position.x < margin ||
+            position.x > (window.innerWidth - margin) ||
+            position.y < margin ||
+            position.y > (window.innerHeight - margin))
+        {
+            cursorEl.style.transform = "scale(0)";
+        } else {
+            cursorEl.style.transform = "scale(1)";
+        }
+        cursorEl.style.left = (position.x - 10) + 'px';
+        cursorEl.style.top = (position.y - 5) + 'px';
     }
 
-    window.addEventListener('mousemove', function(e) {
+    window.addEventListener('mousemove', function (e) {
         last_known_position = {
             x: e.clientX,
             y: e.clientY
         };
 
         if (!ticking) {
-            window.requestAnimationFrame(function() {
+            window.requestAnimationFrame(function () {
                 handleCursor(last_known_position);
                 ticking = false;
-            }); 
+            });
             ticking = true;
         }
-  
+
     });
 
     // Sort out shop section
@@ -124,14 +135,14 @@ document.addEventListener('DOMContentLoaded', function () {
         state.oldScrollPosition = window.scrollY;
         singleGoodEl.style.top = window.scrollY + 'px';
         let detailsBox = singleGoodEl.getBoundingClientRect();
-        setTimeout(function(){
-            window.scrollTo(0,0)
+        setTimeout(function () {
+            window.scrollTo(0, 0)
             singleGoodEl.style.top = '0px';
             siteWrapper.style.maxHeight = detailsBox.height + 'px';
             let newBox = animationImage.getBoundingClientRect();
             animationImage.style.top = newBox.y * -1 + 'px';
         }, 300)
-        
+
         state.goodActive = true;
         animationImage.style.zIndex = 200;
         document.body.classList.add('good-active')
@@ -141,11 +152,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // TODO: Be smarter about this, figure out how the image should scale based on its aspect ratio
         scaleFactor = (window.innerWidth / box.width) * .8;
-       
+
         let h = box.height * scaleFactor;
         let w = box.width * scaleFactor;
-        let leftAfterScale =  box.left;
-        let topAfterScale =  box.top;
+        let leftAfterScale = box.left;
+        let topAfterScale = box.top;
         xReference = clientWidth / 2;
         let offsetTop = (0 - topAfterScale);
         let offsetLeft = (xReference - leftAfterScale) - w / 2;
@@ -182,16 +193,16 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     let closeGoodButton = document.querySelector('#close-good');
-    if (closeGoodButton){
+    if (closeGoodButton) {
 
         closeGoodButton.addEventListener('click', function (e) {
             e.preventDefault();
             let image = document.querySelector('.good.active');
             closeGood(image);
         })
-        
-        document.addEventListener('keyup', function(e){
-            if (e.keyCode === 27){
+
+        document.addEventListener('keyup', function (e) {
+            if (e.keyCode === 27) {
                 let image = document.querySelector('.good.active');
                 closeGood(image);
             }

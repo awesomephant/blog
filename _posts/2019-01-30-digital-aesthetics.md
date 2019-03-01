@@ -103,9 +103,28 @@ This week: *Time* and the digital.
 - Early TV was *only live*. To show a film, they would point a TV camera at a projection of a film.
 - Annabel Nicolson (1973): *Reel Time*. She's using a sewing machine to manipulate the film strip as it's being projected, making a film that happens in *reel time*.
 - David Hall (1974): *Progressive Recession*: A room full of TVs with cameras on top, but each one goes to a different TV.
-- Nam June Paik (1965): *Nixon*. This si the thing in the Tate with the two TVs being distorted by electromagnets.
+- Nam June Paik (1965): *Nixon*. This is the thing in the Tate with the two TVs being distorted by electromagnets.
 - Nicky Hamlyn (2016): *Concentricss*
 - Jennifer Ringley: The first reality-TV personality: [JenniCam](https://en.wikipedia.org/wiki/Jennifer_Ringley)(1996).
 - The Academic: Bear Claw
 
 Recursive instagram story
+
+## Friday, March 1
+
+- Hockney drawings on TV in the 80s and on iPad now
+- When you project a Hockney iPad drawing on your wall you can have an original Hockney in your room. He says that these images are meant to be accessible, but he hasn't got a website where they're all collected. INstead he emails them to select people and we scrape them off Google images.
+- Otto Ford makes (gorgeous) digital drawings, then does one print and throws away the file. Arguably this is shying away from the problem.
+- *Art in the Age of Mechanical Reproduction*
+
+![Otto Ford](/assets/ford.jpg)
+Otto Ford [Source](https://www.artrabbit.com/events/collider)
+
+- Cindy Sherman [has an Instagram](https://www.instagram.com/cindysherman/)
+- [Facetime with Cindy Sherman](https://www.wmagazine.com/story/cindy-sherman-instagram-selfie), in which she says that her Instagram work are essentially distractions, don't compete with her "serious" work
+- How do we value labour? Using an app in the same way Sherman and Hockney do doesn't take the same skill that doing a painting or printing a photograph do.
+- Maybe we can see Cindy Sherman's Instagram as readymade photography?
+- [Rachel MacLean](https://www.tate.org.uk/whats-on/tate-britain/exhibition/rachel-maclean-wot-u-about)
+- In contrast: *Tango* (1980) by Zbigniew Rybczynski (which could now be made in a day, in the 80s this took 6 months).
+- Maybe the Sherman and Hockney digital images are a kind of pop art, like Warhol Soup Cans?
+- *Shot on iPhone Campaign* doesn't show the product, but the process. Sherman doing the same thing (showing what it's like to use phone apps, not screenshots of them)

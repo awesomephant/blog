@@ -60,13 +60,17 @@ sup {
 
 .site-header {
 	line-height: 1.35;
-	font-size: $ms-1;
 	padding: $padding;
 	overflow-x: hidden;
 	padding-top: .5em;
-	padding-bottom: .5em;
+	padding-bottom: 2em;
 	letter-spacing: .01em;	
 	grid-area: auto / span 12;
+	font-size: $ms-0;
+	@include bp(m){
+		padding-bottom: .5em;
+		font-size: $ms-1;
+	}
 	span {
 		@include bp(l){
 			display: block;

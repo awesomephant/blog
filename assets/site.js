@@ -10,7 +10,8 @@ const footerMessages = [
     'Always up for a good kern.',
     'Thanks for your eyeballs.',
     'Unpaid internships are illegal.',
-    'Made by an immigrant.'
+    'Made by an immigrant.',
+    'Your friendly neighbourhood hackerman.',
 ]
 const addLineNumbers = function () {
     var pre = document.getElementsByTagName('pre'),
@@ -50,24 +51,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     addLineNumbers();
 
-    let projectImages = document.querySelectorAll('.project-image');
-    let projectImageOverlay = document.querySelector('.image-fullscreen');
-    if (projectImageOverlay) {
-
-        projectImageOverlay.addEventListener('click', function () {
-            this.classList.remove('active');
-        })
-    }
-
-    for (let i = 0; i < projectImages.length; i++) {
-        let pi = projectImages[i];
-        pi.addEventListener('click', function (e) {
-            projectImageOverlay.classList.add('active');
-            console.log(this);
-            projectImageOverlay.style.backgroundImage = 'url(' + this.getAttribute('src') + ')';
-        })
-    }
-
     let taskItems = document.querySelectorAll('.task-list-item');
     for (let i = 0; i < taskItems.length; i++) {
         let done = taskItems[i].querySelector('[checked=checked]')
@@ -77,15 +60,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Sort out home hover
-    let homeItems = document.querySelectorAll('.project-list-item, .post-list-item');
-    console.log(homeItems)
-    for (let i = 0; i < homeItems.length; i++) {
-        homeItems[i].addEventListener('mouseover', function () {
-            let year = this.getAttribute('data-year');
-            this.parentNode.setAttribute('data-active-year', year);
-        })
-    }
+    for (i = 2016; i < 2020; i++){
+        let writingEl = document.querySelector(`.home-writing [data-year="${i}"]`)
+        let workEl = document.querySelector(`.home-work [data-year="${i}"]`)
 
+        if (writingEl){
+            writingEl.classList.add('first')
+        }
+        if (workEl){
+            workEl.classList.add('first')
+        }
+    }
     // Sort out custom cursor
     var last_known_scroll_position = 0;
     var ticking = false;
@@ -93,12 +78,11 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleCursor(position) {
         //cursorEl.style.transform = 'translateX(' + (position.x - 10) + 'px) translateY(' + (position.y - 5) + 'px)';
         let margin = 5;
-        
+
         if (position.x < margin ||
             position.x > (window.innerWidth - margin) ||
             position.y < margin ||
-            position.y > (window.innerHeight - margin))
-        {
+            position.y > (window.innerHeight - margin)) {
             cursorEl.style.transform = "scale(0)";
         } else {
             cursorEl.style.transform = "scale(1)";

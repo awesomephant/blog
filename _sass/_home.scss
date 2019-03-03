@@ -23,10 +23,11 @@
 	font-family: $sans;
 	margin-bottom: 2em;
 	h2 {
-		font-size: $ms-1;
+		font-size: $ms-0;
 		font-family: $sans;
 		margin-bottom: .5em;
-		@include bp(s){
+		@include bp(m){
+			font-size: $ms-1;
 			margin-left: 4.5rem;
 		}
 	}
@@ -36,13 +37,27 @@
 	margin-right: .2rem;
 	font-size: $ms--2;
 	display: block;
+	display: none;
+	font-size: $ms-0;
+	margin-right: .5em;
+	.first & {
+		display: block;
+		margin-top: 1.5rem;
+		margin-bottom: .5rem;
+	}
 	@include bp(s){
 		display: inline-block;
 		font-size: $ms-0;
-		margin-right: .5em;
+		.first & {
+			display: inline-block;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
 	}
 	@include bp(m){
 		font-size: $ms-1;
+		margin-right: .8em;
+		flex-shrink: 0;
 	}
 	&.blank {
 		width: $ms-0 * 3;
@@ -50,10 +65,11 @@
 }
 
 .project-list-item {
-	margin-bottom: .5em;
+	margin-bottom: .1em;
 	line-height: 1.2;
 	@include bp(s){
 		margin-bottom: .1em;
+		display: flex;
 	}
 	text-decoration: none;
 	display: block;

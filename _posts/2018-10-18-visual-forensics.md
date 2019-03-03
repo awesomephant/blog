@@ -14,9 +14,9 @@ intro: "Notes on the Visual Forensics elective at the RCA"
 ## Reading
 
 - [x] David Batchelor: *[Chromophobia](https://approachestopainting.files.wordpress.com/2013/01/163577202-chromophobia-david-batchelor.pdf)*
-- [ ] William Gass: *[On Being Blue](https://www.scribd.com/document/254987042/On-Being-Blue)*
+- [x] William Gass: *[On Being Blue](https://www.scribd.com/document/254987042/On-Being-Blue)*
 - [x] Tim Ingold: *[Lines: A Brief History](https://taskscape.files.wordpress.com/2011/03/lines-a-brief-history.pdf)*
-- [ ] Petra Lange-Berndt: *Materiality*
+- [x] Petra Lange-Berndt: *Materiality*
 - [ ] Catherine Malabou: *Ontology of the Accident: An Essay on Destructive Plasticity*
 - [x] Maria Fusco: *[Master Rock](https://vimeo.com/142818895)*
 - [x] Charles and Ray Eames (1977): *Powers of Ten*	
@@ -24,8 +24,8 @@ intro: "Notes on the Visual Forensics elective at the RCA"
 - [x] William Kentridge: *Six Drawing Lessons*
 - [x] Hito Steyerl: *[In Defense of the Poor Image](https://www.e-flux.com/journal/10/61362/in-defense-of-the-poor-image/)*
 - [x] *Strange Days: Memories of the Future* at 180, The Strand
-- [ ] *Surreal Science* at Whitechapel Gallery
-- [ ] Christian Marclay: *The Clock* (Tate Modern)
+- [x] *Surreal Science* at Whitechapel Gallery
+- [x] Christian Marclay: *The Clock* (Tate Modern)
 - [x] Lindsay Seers: *[I am a Viewfinder](https://www.tate.org.uk/art/artists/lindsay-seers-12601/lindsay-seers-i-turned-myself-camera)*
 
 [Collected images](https://photos.app.goo.gl/Wb7qeVUeRGfywSTw9)
@@ -333,3 +333,68 @@ The task for the next session is to generate a visual outcome on *an aspect of m
 > What is your relationship to the idea of 'FORENSICS'? How are you using, interrogating, understanding and developing this idea?
 
 - I think the word Forensics describes looking at the world in a very careful, methodical way (common to art and science). It's also (in my opinion) a way of looking that's somehow detached from personal feelings, instead trying to achive some level of "objectiveness" (but also realising that that's never fully possible).
+
+## Friday 1 March: Is this Tomorrow?
+
+[Is this Tomorrow?](https://www.whitechapelgallery.org/exhibitions/is-this-tomorrow/) at the Whitechapel is a re-creation of the 1956 show called *This is tomorrow*. From what I understand, that one was full of post-war optimism (this is the time of the great social projects) while this one seems much darker.
+
+### mono office
+
+- Drawing attention to the exhibition infrastructure (by pointing arrows at it)
+- Very highly finished. Wooden frames with precisely sized prints maybe recall the 1956 show
+
+### 6a architects
+
+- Agriculture equipment (pre-manufactured steel, cast plastic) vs gallery surroundings (wood panel floor, high ceilings, skylights). Probably the opposite environment to where you'd normally encounter an enclosure like this.
+- See also *[Handbook of Tyranny](https://www.lars-mueller-publishers.com/handbook-tyranny)*
+- Non-human architecture
+
+### Numbers
+
+- Show lacks some traditional gallery devices (unlike a place like the Tate, or the NHM, pieces here aren't numbered). Maybe a function of everything being freshly commissioned.
+- Some pieces contain numbers, like the sheep enclosure (printed serial number on steel parts) and the mono office piece (introduces its own internal labelling system)
+
+### Marina Tabassum Architects
+
+- Another piece that interacts with the exhibition environment: You look up this stone-age type hole in the ceiling (although covered in sickly, candy-coloured spraypaint) but what you see isn't the sky, but smoke detectors, light fixtures, pipes.
+- Robot cavepaintings
+
+### Salvador Mundi Experience
+
+- Probably not too far off what the actual Museum is going to be like.
+- Self-referential: The piece has a schematic drawing of itself bolted to the outside
+- Ambiguos whether we're looking at a piece or an architectural model of a piece.
+
+### Black barriers
+
+- More readymade architecture, not unlike the sheep enclosure (but for people). Apart from these being painted black, they're probably made from the same steel tubing.
+- Also something about the temporary nature of these structures - designed to be moved around, slotted in wherever people's movement needs to be restrained.
+- Together, they form this huge black mass. Motion-activated loudspeakers give the impression that the things are awake, collecting data, phoning home.
+
+### Bio-Reactor
+
+- Not sure how the back-projected bird and the bioreactor/screen setup are connected.
+- Draws on scifi-aesthetic: Tubes, wires, random photos, all unlabelled, leading to a slightly cryptic screen at the front of the piece. Very unlike the *mono office* piece.
+
+## Notes on the Canal Museum Show
+
+> Please prepare a digital presentation and bring any physical work that you have made so far. Your presentation should cover: Concepts, Process, How it relates to a 'forensic' approach, What you have made so far, Supporting material (including relevant work from past projects), Potential modes of presentation and display structures, How you want people to engage with the work, Proposed space required within the Canal Museum.
+
+We understand that the work might change and we are not expecting you to know exactly what the work will look like at this stage but this statement of intent will be really useful in helping develop the work in the coming months and in curating the exhibition/event. 
+
+The building used to be a storage facility for ice blocks imported from Norway.
+
+- [The canal museum on the ice trade](http://www.canalmuseum.org.uk/ice/iceimport.htm)
+- James Graham, Caitlin Blanchfield, Alissa Anderson, Jordan Carver, Jacob Moore (Editors) 2016: *[Climates: Architecture and the Planetary Imaginary](https://www.arch.columbia.edu/books/catalog/138-climates-architecture-and-the-planetary-imaginary)*
+- Pars Foundation (2007): *[Findings on Ice](https://www.parsfoundation.com/Findings-on-Ice)*
+
+![The sound of ice melting](/assets/vf/ice-melting.jpg)
+Paul Kos (1970), *Sound of Ice Melting*. Via [Discover Magazine](http://blogs.discovermagazine.com/imageo/2013/03/27/unintended-art-of-the-anthropocene-the-sound-of-ice-melting/#.VgIQuI9Viko)
+
+This piece was originally made in response to the Vietnam War (The microphones recall a press conference), but now the immediate association is climate change / the anthroposcene. [Kadist on the piece](https://kadist.org/work/sound-of-ice-melting/).
+
+![Ice core showing band of volcanic ash](/assets/vf/ice-core.jpg)
+Ice core from the *[West Antarctic Ice Sheet](http://www.waisdivide.unh.edu/)* project. The dark band is a layer of volcanic ash that settled on the ice sheet approximately 21,000 years ago. Via the [National Science Foundation](https://www.nsf.gov/news/news_images.jsp?cntn_id=134908)
+
+- [NASA Introduction to Ice Cores](https://climate.nasa.gov/news/2616/core-questions-an-introduction-to-ice-cores/)
+- Wikipedia has a [list of all the ice cores](https://en.wikipedia.org/wiki/List_of_ice_cores)

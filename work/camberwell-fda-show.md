@@ -16,6 +16,7 @@ images:
     - /assets/camberwell-show/stickers.png
     - /assets/camberwell-show/website-2.png
     - /assets/camberwell-show/poster.jpg
+    - /assets/camberwell-show/poster-back.jpg
     - /assets/camberwell-show/week2.png
     - /assets/camberwell-show/label.jpg
 ---

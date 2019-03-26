@@ -101,6 +101,12 @@ rgbToCMYK.bat myImage
 
 Where ```myImage``` is the filename _without the file extension_.
 
+## Write the filename into the image
+
+```
+gm mogrify  -output-directory output -fill white -pointsize 25 -font Arial -draw "text 10,30 '%t'" *.png
+```
+
 ## The coolest thing: You can combine any of these commands
 This is the great thing about command-line tools like this: They don't make any assumptions about what you are going to use them for. So you could combine any of these commands ([and many more](http://www.graphicsmagick.org/GraphicsMagick.html)) in any order you liked with just a few keystrokes.
 

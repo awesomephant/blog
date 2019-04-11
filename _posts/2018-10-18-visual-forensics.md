@@ -398,3 +398,11 @@ Ice core from the *[West Antarctic Ice Sheet](http://www.waisdivide.unh.edu/)* p
 
 - [NASA Introduction to Ice Cores](https://climate.nasa.gov/news/2616/core-questions-an-introduction-to-ice-cores/)
 - Wikipedia has a [list of all the ice cores](https://en.wikipedia.org/wiki/List_of_ice_cores)
+
+### To Do
+
+- [x] Collect training data (~1800 image pairs at one-hour interval should be enough)
+- [ ] Process ice images into A/B dataset for pix2pix, taking into account different shooting intervals
+- [ ] Train pix2pix model (probably for a few days)
+- [ ] Deploy the model and build an interface that powers the installation. This needs to take an image, make a prediction, display the result and add some details like timestamps and so on. Ideally web-based for future appolications.
+

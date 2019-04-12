@@ -1,18 +1,43 @@
+@page {
+	margin-top: 10mm;
+	margin-bottom: 20mm;
+}
 @media print {
-		.footnotes {
-			display: block;
-		}
-		.ref {
-			display: inline;
-		}
+	.ref {
+		display: inline;
+	}
+	.post-content {
+		max-width: 30em;
+		margin-right: auto;
+		margin-left: 10mm;
+	}
 	.post {
 		padding: 2rem;
 		p, li {
-			max-width: 40em;
 			font-size: 11pt;
 		}
 		a {
 			text-decoration: none !important;
+		}
+
+		img {
+			page-break-inside: avoid;
+		}
+		blockquote p {
+			padding-left: 0;
+			font-size: 14pt;
+		}
+		.hasimage {
+			font-size: 10pt;
+			text-align: center !important;
+			img {
+				max-height: 15cm;
+				max-width: 100%;
+				width: auto;
+				display: block;
+				margin: 0 auto;
+				margin-bottom: .5rem;
+			}
 		}
 
 		.gallery {
@@ -30,7 +55,7 @@
 	}
 
 
-	.site-header {
+	.site-header, .site-footer {
 		display: none;
 	}
 }

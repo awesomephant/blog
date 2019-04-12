@@ -79,6 +79,7 @@
     font-size: $ms-0;
     word-spacing: -.05em;
     color: $black;
+    hyphens: auto;
     grid-area: 4 / 1 / auto / 11;
     line-height: 1.4;
     @include bp(m) {
@@ -158,6 +159,17 @@
     }
     tr:last-of-type {
         border-bottom: 0;
+    }
+    hr {
+        &:before {
+            content: '***';
+            letter-spacing: .05em;
+            color: $black;
+        }
+        margin-top: 2em;
+        margin-bottom: 2em;
+        border: 0;
+        text-align: center;
     }
     a {
         text-decoration: none;
@@ -304,7 +316,16 @@ pre.highlight {
         padding-right: 20vw;
         margin-left: calc((100vw - 42rem) / 2 * -1);
     }
-
+    &.lightgray, &.dark {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    &.lightgray {
+        background: $lightgray;
+    }
+    &.dark {
+        background: $black;
+    }
 }
 
 .post-jumplink {
@@ -360,11 +381,13 @@ pre.highlight {
     li {
         &:before {
             content: counter(fnli);
-            margin-left: -1em;
-            margin-right: .5em;
+            margin-left: -1.5em;
+            margin-right: .8em;
+            text-align: right;
         }
         counter-increment: fnli;
         margin-left: 1rem;
+        display: inline-block;
         margin-bottom: .5rem;
     }
 }

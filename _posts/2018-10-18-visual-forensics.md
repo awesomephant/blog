@@ -406,3 +406,18 @@ Ice core from the *[West Antarctic Ice Sheet](http://www.waisdivide.unh.edu/)* p
 - [ ] Train pix2pix model (probably for a few days)
 - [ ] Deploy the model and build an interface that powers the installation. This needs to take an image, make a prediction, display the result and add some details like timestamps and so on. Ideally web-based for future appolications.
 
+## Show Setup
+
+1. Plug webcam into USB extension and into computer
+2. Frame using antive camera app
+3. Close native camera app
+4. In Anaconda prompt:
+    1. ```cd D:\Projects\visual-forensics\show-piece```
+    2. ```node .```
+5. Open localhost:3000 in Chrome
+6. From browser command line: Run ```startCycle()```
+7. Close devtools, F11 for fullscreen
+
+...
+
+8: Kill server from command line, close browser

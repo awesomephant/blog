@@ -36,7 +36,6 @@
 .project-year {
 	margin-right: .2rem;
 	font-size: $ms--2;
-	display: block;
 	display: none;
 	font-size: $ms-0;
 	margin-right: .5em;
@@ -46,7 +45,6 @@
 		margin-bottom: .5rem;
 	}
 	@include bp(s){
-		display: inline-block;
 		font-size: $ms-0;
 		.first & {
 			display: inline-block;
@@ -70,12 +68,19 @@
 	@include bp(s){
 		margin-bottom: .1em;
 		display: flex;
+		padding-left: 3.2em;
+	}
+	&.first {
+		padding-left: 0;
 	}
 	text-decoration: none;
 	display: block;
 	&:hover, &:focus {
 		text-decoration: none;
 		color: $gray;
+		.project-year {
+			color: $black;
+		}
 	}
 }
 

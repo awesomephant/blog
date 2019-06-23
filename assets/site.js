@@ -99,7 +99,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (!ticking) {
             window.requestAnimationFrame(function () {
-                handleCursor(last_known_position);
                 ticking = false;
             });
             ticking = true;

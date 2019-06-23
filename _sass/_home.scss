@@ -30,6 +30,15 @@
 	}
 }
 
+.home-thumb {
+	grid-column-end: span 10;
+	max-width: 100%;
+	display: none;
+	@include bp(m){
+		display: block;
+	}
+}
+
 .project-year {
 	margin-right: .2rem;
 	font-size: $ms--2;

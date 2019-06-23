@@ -25,7 +25,9 @@ body {
 	color: $black;
 	min-height: 100%;
 	overflow-x: hidden;
+	background: rgb(250,250,250);
 	font-feature-settings:"pnum" 1, "kern" 1;
+	padding-bottom: 5rem;
 	@include bp(m){
 	cursor: none;
 	* {
@@ -69,7 +71,6 @@ sup {
 	font-size: $ms-0;
 	@include bp(m){
 		padding-bottom: .5em;
-		font-size: $ms-1;
 	}
 	span {
 		@include bp(l){
@@ -85,10 +86,12 @@ sup {
 	padding: $padding;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	font-size: $ms-1;
+	font-size: $ms-0;
 	color: $black;
 	letter-spacing: .001em;
 	grid-area: 40 / 1 / auto / 11;
+	position: absolute;
+	bottom: 0;
 	span {
 		display: block;
 	}

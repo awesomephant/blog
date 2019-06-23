@@ -2,9 +2,7 @@
 	grid-area: 2 / 1 / auto / 11;
 	font-size: $ms-0;
 	padding: 1.5rem;
-	@include bp(m){
-		font-size: $ms-1;
-	}
+	max-width: 65em;
 	@include bp(l){
 		display: flex;
 	}
@@ -27,8 +25,7 @@
 		font-family: $sans;
 		margin-bottom: .5em;
 		@include bp(m){
-			font-size: $ms-1;
-			margin-left: 4.5rem;
+			margin-left: 3.2rem;
 		}
 	}
 }
@@ -53,8 +50,8 @@
 		}
 	}
 	@include bp(m){
-		font-size: $ms-1;
-		margin-right: .8em;
+		width: 3.2rem;
+		margin-right: 0;
 		flex-shrink: 0;
 	}
 	&.blank {
@@ -68,7 +65,7 @@
 	@include bp(s){
 		margin-bottom: .1em;
 		display: flex;
-		padding-left: 3.2em;
+		padding-left: 3.2rem;
 	}
 	&.first {
 		padding-left: 0;

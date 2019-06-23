@@ -13,18 +13,7 @@ const footerMessages = [
     'Made by an immigrant.',
     'Your friendly neighbourhood hackerman.',
 ]
-const addLineNumbers = function () {
-    var pre = document.getElementsByTagName('pre'),
-        pl = pre.length;
-    for (var i = 0; i < pl; i++) {
-        pre[i].innerHTML = '<span class="line-number"></span>' + pre[i].innerHTML + '<span class="cl"></span>';
-        var num = pre[i].innerHTML.split(/\n/).length;
-        for (var j = 0; j < (num - 1); j++) {
-            var line_num = pre[i].getElementsByTagName('span')[0];
-            line_num.innerHTML += '<span>' + (j + 1) + '</span>';
-        }
-    }
-}
+
 document.addEventListener('DOMContentLoaded', function () {
     let headlines = document.querySelectorAll('.post-content h2[id], .post-content h3[id]');
 
@@ -49,8 +38,6 @@ document.addEventListener('DOMContentLoaded', function () {
     let footerMsg = document.querySelector('.footer-message');
     footerMsg.innerHTML = footerMessages[getRandomInt(0, footerMessages.length - 1)]
 
-    addLineNumbers();
-
     let taskItems = document.querySelectorAll('.task-list-item');
     for (let i = 0; i < taskItems.length; i++) {
         let done = taskItems[i].querySelector('[checked=checked]')
@@ -71,126 +58,4 @@ document.addEventListener('DOMContentLoaded', function () {
             workEl.classList.add('first')
         }
     }
-    // Sort out custom cursor
-    var last_known_scroll_position = 0;
-    var ticking = false;
-    let cursorEl = document.querySelector('.cursor')
-    function handleCursor(position) {
-        //cursorEl.style.transform = 'translateX(' + (position.x - 10) + 'px) translateY(' + (position.y - 5) + 'px)';
-        let margin = 5;
-
-        if (position.x < margin ||
-            position.x > (window.innerWidth - margin) ||
-            position.y < margin ||
-            position.y > (window.innerHeight - margin)) {
-            cursorEl.style.transform = "scale(0)";
-        } else {
-            cursorEl.style.transform = "scale(1)";
-        }
-        cursorEl.style.left = (position.x - 10) + 'px';
-        cursorEl.style.top = (position.y - 5) + 'px';
-    }
-
-    window.addEventListener('mousemove', function (e) {
-        last_known_position = {
-            x: e.clientX,
-            y: e.clientY
-        };
-
-        if (!ticking) {
-            window.requestAnimationFrame(function () {
-                ticking = false;
-            });
-            ticking = true;
-        }
-
-    });
-
-    // Sort out shop section
-    let goods = document.querySelectorAll('.good');
-    let siteWrapper = document.querySelector('.site-wrapper');
-
-    let allAnimationImages = document.querySelectorAll('.good-image-animation');
-    let openGood = function (activeGood) {
-        console.log(window.scrollY)
-        let animationImage = activeGood.querySelector('.good-image-animation');
-        let singleGoodEl = document.querySelector('.single-good');
-        state.oldScrollPosition = window.scrollY;
-        singleGoodEl.style.top = window.scrollY + 'px';
-        let detailsBox = singleGoodEl.getBoundingClientRect();
-        setTimeout(function () {
-            window.scrollTo(0, 0)
-            singleGoodEl.style.top = '0px';
-            siteWrapper.style.maxHeight = detailsBox.height + 'px';
-            let newBox = animationImage.getBoundingClientRect();
-            animationImage.style.top = newBox.y * -1 + 'px';
-        }, 300)
-
-        state.goodActive = true;
-        animationImage.style.zIndex = 200;
-        document.body.classList.add('good-active')
-        let box = animationImage.getBoundingClientRect();
-        let scaleFactor = 1;
-        let clientWidth = document.body.clientWidth;
-
-        // TODO: Be smarter about this, figure out how the image should scale based on its aspect ratio
-        scaleFactor = (window.innerWidth / box.width) * .8;
-
-        let h = box.height * scaleFactor;
-        let w = box.width * scaleFactor;
-        let leftAfterScale = box.left;
-        let topAfterScale = box.top;
-        xReference = clientWidth / 2;
-        let offsetTop = (0 - topAfterScale);
-        let offsetLeft = (xReference - leftAfterScale) - w / 2;
-        animationImage.style.transform = 'translateX(' + offsetLeft + 'px) translateY(' + offsetTop + 'px) scale(' + scaleFactor + ')';
-        activeGood.classList.add('active')
-    }
-    let closeGood = function (activeGood) {
-        console.log(state)
-        let animationImage = activeGood.querySelector('.good-image-animation');
-        document.body.classList.remove('good-active')
-        siteWrapper.style.maxHeight = 'none';
-        activeGood.classList.remove('active')
-        animationImage.style.transform = '';
-        animationImage.style.top = '0px';
-        window.scrollTo(0, state.oldScrollPosition)
-        let singleGoodEl = document.querySelector('.single-good');
-        singleGoodEl.style.top = state.oldScrollPosition + 'px';
-
-        state.goodActive = false;
-        setTimeout(function () {
-            for (let i = 0; i < allAnimationImages.length; i++) {
-                allAnimationImages[i].style.zIndex = 0;
-            }
-        }, 300)
-    }
-    for (let i = 0; i < goods.length; i++) {
-        goods[i].addEventListener('click', function () {
-            if (state.goodActive) {
-                closeGood(this)
-            } else {
-                openGood(this);
-            }
-        })
-    }
-
-    let closeGoodButton = document.querySelector('#close-good');
-    if (closeGoodButton) {
-
-        closeGoodButton.addEventListener('click', function (e) {
-            e.preventDefault();
-            let image = document.querySelector('.good.active');
-            closeGood(image);
-        })
-
-        document.addEventListener('keyup', function (e) {
-            if (e.keyCode === 27) {
-                let image = document.querySelector('.good.active');
-                closeGood(image);
-            }
-        })
-    }
-
-
 }, false);

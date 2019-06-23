@@ -15,6 +15,3 @@ intro: "Working closely with curators Natasha Cox and Marios Stamatis, I designe
 Since the project had to be completed in less than a week, I opted for a lightweight workflow based on [Jekyll](https://jekyllrb.com). The design was developed exlusively through HTML prototyping, working closely with Marios, Natasha and the team at [Assembly Point](http://assemblypoint.xyz).
 
 Read more about the project on the [Art Licks Weekend website](https://artlicksweekend.com/online-project/), or [view the live site here](https://assemblypoint.xyz/giotpor/).
-
-![giotpor screenshot 1](/assets/giotpor-1.png)
-![giotpor screenshot 1](/assets/giotpor-2.png)

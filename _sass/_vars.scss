@@ -39,20 +39,6 @@ $ms--2: $ms--1 / $ratio;
     pointer;
     /* Webkit */
 }
-
-%textlink {
-	text-decoration: none;
-	color: inherit;
-    background-image: linear-gradient(to right, $lightgray 0%, $lightgray 100%);
-    background-position: 0 1.05em;
-    background-repeat: repeat-x;
-    background-size: 100% 2px;
-    &:hover,
-    &:focus {
-        background-image: linear-gradient(to right, $gray 0%, $gray 100%);
-    }
-}
-
 @mixin bp($point) {
     @if $point==xl {
         @media (min-width: 85rem) {

@@ -6,8 +6,6 @@ roles:
     - Web Design
     - Web Development
     - Content Strategy
-images:
-    - '/assets/ap.PNG'
 team:
     - James Edgar
     - Sam Walker

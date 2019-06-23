@@ -3,9 +3,7 @@ layout: page
 title: Colophon
 ---
 
-This site is built on [Jekyll](https://jekyllrb.com/), and hosted on [Github Pages](https://pages.github.com/). The [RSS feed is here](/feed.xml). 
-
-The typeface is [IBM Plex Sans](https://github.com/IBM/plex), designed by [Mike Abbink](https://www.mikeabbink.com/index.php?f=) et al. and served by [Google Fonts](https://fonts.google.com/).
+This site is built on [Jekyll](https://jekyllrb.com/), and hosted on [Github Pages](https://pages.github.com/). It has an [RSS feed here](/feed.xml). 
 
 The randomised footer message is <del>stolen</del> inspired by [Colophon Foundry](https://www.colophon-foundry.org/).
 

@@ -2,34 +2,11 @@
 layout: default
 ---
 <article class='post {{page.class}}'>
-	{% if page.thumbnail %}
-		<img src="{{page.thumbnail}}" alt="{{post.title}}"/>
-	{% endif %}
 	<header class="post-header {% if page.thumbnail %}hasThumbnail{% endif %}">
 		<ul class="post-meta">
 			<li class="project-meta-item">
 				{{ page.date | date: "%B %-d, %Y"}}{{ page.year }}
 			</li>
-			{% if page.roles %}
-			<li class="project-meta-item">
-				<em class="project-meta-title">Role</em>
-				<ul>
-					{% for role in page.roles %}
-					<li>{{role}}</li>
-					{% endfor %}
-				</ul>
-			</li>
-			{% endif %}
-			{% if page.team %}
-			<li class="project-meta-item">
-				<em class="project-meta-title">Team</em>
-				<ul>
-					{% for person in page.team %}
-					<li>{{person}}</li>
-					{% endfor %}
-				</ul>
-			</li>
-			{% endif %}
 		</ul>
 		<div class='header-copy'>
 			<h1 class="post-title">

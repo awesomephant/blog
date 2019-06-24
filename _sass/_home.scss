@@ -1,8 +1,11 @@
 .site-home {
 	grid-area: 2 / 1 / auto / 11;
-	font-size: $ms-0;
 	padding: 1.5rem;
 	max-width: 65em;
+	font-size: $ms--1;
+	@include bp(s){
+		font-size: $ms-0;
+	}
 	@include bp(l){
 		display: flex;
 	}
@@ -21,9 +24,12 @@
 	font-family: $sans;
 	margin-bottom: 2em;
 	h2 {
-		font-size: $ms-0;
 		font-family: $sans;
 		margin-bottom: .5em;
+		font-size: $ms--1;
+		@include bp(s){
+			font-size: $ms-0;
+		}
 		@include bp(m){
 			margin-left: 3.2rem;
 		}
@@ -39,6 +45,7 @@
 
 .home-thumb {
 	max-width: 100%;
+	max-height: 90vh;
 	display: none;
 	@include bp(m){
 		display: block;
@@ -56,6 +63,7 @@
 		margin-top: 1.5rem;
 		margin-bottom: .5rem;
 	}
+	font-size: $ms--1;
 	@include bp(s){
 		font-size: $ms-0;
 		.first & {

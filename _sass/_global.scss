@@ -50,7 +50,10 @@ sup {
 	letter-spacing: .01em;	
 	grid-area: auto / span 12;
 	z-index: 5;
-	font-size: $ms-0;
+	font-size: $ms--1;
+	@include bp(s){
+		font-size: $ms-0;
+	}
 	.home & {
 		@include bp(m){
 			color: white;

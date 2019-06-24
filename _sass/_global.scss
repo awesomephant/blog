@@ -51,6 +51,7 @@ sup {
 	grid-area: auto / span 12;
 	z-index: 5;
 	font-size: $ms--1;
+	transform: skew(15deg);
 	@include bp(s){
 		font-size: $ms-0;
 	}

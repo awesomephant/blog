@@ -25,12 +25,14 @@
 	margin-bottom: 2em;
 	h2 {
 		font-family: $sans;
-		margin-bottom: .5em;
+		margin-bottom: -1em;
+		margin-top: 2em;
+		font-weight: bold;
 		font-size: $ms--1;
 		@include bp(s){
+			margin-bottom: .5em;
+			font-weight: normal;
 			font-size: $ms-0;
-		}
-		@include bp(m){
 			margin-left: 3.2rem;
 		}
 	}

@@ -30,8 +30,14 @@
 	}
 }
 
-.home-thumb {
+.thumb-container {
+	background-image: url(/assets/pattern.png);
+	background-size: 3px;
+	image-rendering: crisp-edges;
 	grid-column-end: span 10;
+}
+
+.home-thumb {
 	max-width: 100%;
 	display: none;
 	@include bp(m){

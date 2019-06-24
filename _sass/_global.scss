@@ -70,6 +70,7 @@ sup {
 		}
 	}
 	@include bp(l){
+		font-size: 2.2vw;
 		grid-area: auto / span 8;
 	}
 }

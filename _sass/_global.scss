@@ -94,7 +94,10 @@ sup {
 .footer-copyright {
 	font-size: $ms--2;
 	padding-top: 1em;
+	max-width: 20em;
+	line-height: 1.5;
 	a {
-		padding-right: .5em;
+		display: inline-block;
+		padding-right: .2em;
 	}
 }

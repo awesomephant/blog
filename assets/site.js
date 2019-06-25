@@ -14,6 +14,11 @@ const footerMessages = [
     'Your friendly neighbourhood hackerman.',
 ]
 
+const homeThumbs = [
+    '/assets/lp-3.JPG',
+    '/assets/Exam-Documentation-298.jpg'
+]
+
 document.addEventListener('DOMContentLoaded', function () {
     let headlines = document.querySelectorAll('.post-content h2[id], .post-content h3[id]');
 
@@ -50,7 +55,6 @@ document.addEventListener('DOMContentLoaded', function () {
     for (i = 2016; i < 2020; i++){
         let writingEl = document.querySelector(`.home-writing [data-year="${i}"]`)
         let workEl = document.querySelector(`.home-work [data-year="${i}"]`)
-
         if (writingEl){
             writingEl.classList.add('first')
         }
@@ -58,4 +62,10 @@ document.addEventListener('DOMContentLoaded', function () {
             workEl.classList.add('first')
         }
     }
+
+    let homeThumb = document.querySelector('.home-thumb')
+    if (homeThumb){
+        homeThumb.setAttribute('src', homeThumbs[getRandomInt(0,homeThumbs.length - 1)])
+    }
+
 }, false);

@@ -63,6 +63,9 @@ sup {
 		@include bp(m){
 			color: white;
 		}
+		a {
+			border-color: white;
+		}
 	}
 	@include bp(m){
 		position: absolute;
@@ -73,8 +76,13 @@ sup {
 			display: block;
 		}
 	}
+	a {
+		text-decoration: none;
+		border: 1px solid $black;
+		border-radius: 100%;
+		padding: .3em;
+	}
 	@include bp(l){
-		font-size: 2.2vw;
 		grid-area: auto / span 8;
 	}
 }

@@ -15,8 +15,7 @@ const footerMessages = [
 ]
 
 const homeThumbs = [
-    '/assets/lp-3.JPG',
-    '/assets/Exam-Documentation-298.jpg'
+    '/assets/butt.png'
 ]
 
 document.addEventListener('DOMContentLoaded', function () {

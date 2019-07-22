@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emtional Tech Report Website
+title: Emotional Tech Report Website
 date:  January 2019
 ---
 

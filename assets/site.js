@@ -14,10 +14,6 @@ const footerMessages = [
     'Your friendly neighbourhood hackerman.',
 ]
 
-const homeThumbs = [
-    '/assets/butt.png'
-]
-
 document.addEventListener('DOMContentLoaded', function () {
     let headlines = document.querySelectorAll('.post-content h2[id], .post-content h3[id]');
 
@@ -61,10 +57,4 @@ document.addEventListener('DOMContentLoaded', function () {
             workEl.classList.add('first')
         }
     }
-
-    let homeThumb = document.querySelector('.home-thumb')
-    if (homeThumb){
-        homeThumb.setAttribute('src', homeThumbs[getRandomInt(0,homeThumbs.length - 1)])
-    }
-
 }, false);

@@ -1,3 +1,13 @@
+body.home {
+	$gradient-colour: seagreen;
+	background-color: lightgray;
+	background-image: radial-gradient( $gradient-colour 0%,  lighten($gradient-colour, 10) 20%, lightgray 55%, lightgray 100%);
+	background-attachment: fixed;
+	background-size: 140vmin 140vmin;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .site-home {
 	grid-area: 2 / 1 / auto / 11;
 	padding: 1.5rem;
@@ -35,22 +45,6 @@
 			font-size: $ms-0;
 			margin-left: 3.2rem;
 		}
-	}
-}
-
-.thumb-container {
-	background-image: url(/assets/pattern.png);
-	background-size: 3px;
-	image-rendering: crisp-edges;
-	grid-column-end: span 10;
-}
-
-.home-thumb {
-	max-width: 100%;
-	max-height: 90vh;
-	display: none;
-	@include bp(m){
-		display: block;
 	}
 }
 

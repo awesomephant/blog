@@ -8,7 +8,7 @@ Catalogue, poster and various incedental graphics for [Visual Forensics](https:/
 
 Designed with [Sean Steed](http://www.seansteed.com/). Thanks to [Clem Rousset](http://hereth.fr/) for typesetting advice and hand modeling.
 
-![vf poster](/assets/assets/VF-poster-max-small.png)
+![vf poster](/assets/VF-poster-max-small.png)
 ![vf catalogue](/assets/vf/edit/Exam-Documentation-043.jpg)
 ![vf catalogue](/assets/vf/edit/Exam-Documentation-049.jpg)
 ![vf catalogue](/assets/vf/edit/Exam-Documentation-051.jpg)

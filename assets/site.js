@@ -7,7 +7,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 const footerMessages = [
-    'Always up for a good kern.',
+    'Kern-y.',
     'Thanks for your eyeballs.',
     'Unpaid internships are illegal.',
     'Made by an immigrant.',

@@ -46,6 +46,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
+    // Add gallery captions
+    let galleryImages = document.querySelectorAll('.full.gallery img')
+    for (let i = 0; i < galleryImages.length; i++){
+        galleryImages[i].insertAdjacentHTML("afterend", `<span class='gallery-caption'>${galleryImages[i].getAttribute('alt')}</span>`);
+    }
+
     // Sort out home hover
     for (i = 2016; i < 2020; i++){
         let writingEl = document.querySelector(`.home-writing [data-year="${i}"]`)

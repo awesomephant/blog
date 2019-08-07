@@ -1,5 +1,5 @@
 body.home {
-	$gradient-colour: seagreen;
+	$gradient-colour: lighten(yellow, 7);
 	background-color: lightgray;
 	background-image: radial-gradient( $gradient-colour 0%,  lighten($gradient-colour, 10) 20%, lightgray 55%, lightgray 100%);
 	background-attachment: fixed;
@@ -10,7 +10,7 @@ body.home {
 
 .site-home {
 	grid-area: 2 / 1 / auto / 11;
-	padding: 1.5rem;
+	padding-left: 4em;
 	max-width: 65em;
 	font-size: $ms--1;
 	@include bp(s){
@@ -43,7 +43,7 @@ body.home {
 			margin-bottom: .5em;
 			font-weight: normal;
 			font-size: $ms-0;
-			margin-left: 3.2rem;
+			margin-left: 4rem;
 		}
 	}
 }
@@ -69,12 +69,12 @@ body.home {
 		}
 	}
 	@include bp(m){
-		width: 3.2rem;
+		width: 4rem;
 		margin-right: 0;
 		flex-shrink: 0;
 	}
 	&.blank {
-		width: $ms-0 * 3;
+		width: $ms-0 * 4;
 	}
 }
 
@@ -84,7 +84,7 @@ body.home {
 	@include bp(s){
 		margin-bottom: .1em;
 		display: flex;
-		padding-left: 3.2rem;
+		padding-left: 4rem;
 	}
 	&.first {
 		padding-left: 0;
@@ -93,10 +93,14 @@ body.home {
 	display: block;
 	&:hover, &:focus {
 		text-decoration: none;
-		color: $gray;
+		color: red;
+		mix-blend-mode: luminosity;
 		.project-year {
 			color: $black;
 		}
+	}
+	&:focus {
+		outline: 1px solid white;
 	}
 }
 

@@ -31,10 +31,6 @@ body {
 
 a {
 	color: inherit;
-	&:focus {
-		color: white !important;
-		background: $black;
-	}
 }
 sup {
 	font-size: .8em;

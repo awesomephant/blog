@@ -46,7 +46,7 @@ sup {
 	padding: $padding;
 	overflow-x: hidden;
 	padding-top: .5em;
-	padding-bottom: 30vh;
+	padding-bottom: 20vh;
 	letter-spacing: .01em;	
 	grid-area: auto / span 12;
 	z-index: 5;
@@ -63,9 +63,8 @@ sup {
 		text-decoration: underline;
 	}
 	@include bp(l){
-		padding-left: 4em;
 		padding-top: 2em;
-		grid-area: auto / span 8;
+		grid-area: 1 / 2 / auto / 10;
 	}
 }
 

@@ -10,10 +10,6 @@
         padding-top: 10rem;
         padding-bottom: 2em;
     }
-    h1, h1 > a {
-        font-weight: bold;
-        padding-bottom: .2em;
-    }
 }
 
 .post-thumbnail {
@@ -38,7 +34,9 @@
 .post-title {
     line-height: 1.15;
     max-width: 25em;
-    margin-bottom: .5em;
+    font-size: $ms-4;
+    font-weight: bold;
+    margin-top: -1rem;
 }
 
 .post-content {
@@ -100,12 +98,12 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    img,
-    video, iframe {
+    img, video, iframe {
         width: 100%;
+        display: block;
         @include bp(l){
             width: auto;
-            max-width: 60vw;
+            max-width: 80vw;
             max-height: 100vh;
         }
     }
@@ -181,7 +179,8 @@
         margin-bottom: 1em;
         line-height: 1.2;
         img {
-            margin-bottom: .2em;
+            margin-top: 2em;
+            margin-bottom: 5em;
 
         }
     }

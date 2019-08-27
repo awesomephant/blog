@@ -11,7 +11,7 @@ const footerMessages = [
     'Thanks for your eyeballs.',
     'Unpaid internships are illegal.',
     'Made by an immigrant.',
-    'Your friendly neighbourhood hackerman.',
+    '🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺',
 ]
 
 document.addEventListener('DOMContentLoaded', function () {

@@ -41,7 +41,7 @@ $ms--2: $ms--1 / $ratio;
 }
 @mixin bp($point) {
     @if $point==xl {
-        @media (min-width: 85rem) {
+        @media (min-width: 95rem) {
             @content;
         }
     }

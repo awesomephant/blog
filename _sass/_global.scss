@@ -24,9 +24,14 @@ body {
 	font-family: $sans;
 	min-height: 100%;
 	overflow-x: hidden;
-	background: rgb(250,250,250);
 	font-feature-settings:"pnum" 1, "kern" 1;
 	padding-bottom: 5rem;
+	@include bp(l){
+		border-left: 2rem solid $lightgray;
+		&.home {
+			border-left: 2rem solid white;
+		}
+	}
 }
 
 a {
@@ -43,9 +48,8 @@ sup {
 
 .site-header {
 	line-height: 1.35;
-	padding: $padding;
 	overflow-x: hidden;
-	padding-top: .5em;
+	padding: 1rem;
 	padding-bottom: 20vh;
 	letter-spacing: .01em;	
 	grid-area: auto / span 12;
@@ -54,17 +58,29 @@ sup {
 	@include bp(s){
 		font-size: $ms-0;
 	}
+	@include bp(m){
+		grid-area: 1 / 2 / auto / 10;
+		padding-left: 0;
+	}
 	span {
 		@include bp(l){
 			display: block;
 		}
 	}
 	a {
-		text-decoration: underline;
+		text-decoration: none;
+		border-radius: 2px;
+		padding-left: .1em;
+		padding-right: .1em;
+		border: 1px solid black;
+		transition: border-radius 200ms;
+		&:hover, &:focus {
+			border-radius: 20px;
+		}
 	}
 	@include bp(l){
 		padding-top: 2em;
-		grid-area: 1 / 2 / auto / 10;
+		grid-area: 1 / 5 / auto / 11;
 	}
 }
 

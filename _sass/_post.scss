@@ -30,6 +30,7 @@
 .post-date {
     display: block;
     font-size: $ms-0;
+    letter-spacing: .1em;
 }
 .post-title {
     line-height: 1.15;
@@ -37,6 +38,7 @@
     font-size: $ms-4;
     font-weight: bold;
     margin-top: -1rem;
+    margin-bottom: .2em;
 }
 
 .post-content {
@@ -178,9 +180,10 @@
         font-family: $sans;
         margin-bottom: 1em;
         line-height: 1.2;
+        margin-bottom: 5em;
         img {
+            margin-bottom: 1em;
             margin-top: 2em;
-            margin-bottom: 5em;
 
         }
     }

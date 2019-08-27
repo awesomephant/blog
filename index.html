@@ -8,12 +8,11 @@ class: home
         <h2>Work</h2>
         <nav class='project-list'>
             {%for p in site.data.projects%}
-            <a href='{{ p.url }}' data-year='{{p.year}}' class='project-list-item'>
-                <span class="project-year">{{p.year}}</span>
-                <h3 class='project-title'>
-                    {{p.title}}
-                </h3>
-            </a>
+                <a href='{{ p.url }}' data-year='{{p.year}}' class='project-list-item'>
+                    <h3 class='project-title'>
+                        {{p.title}}
+                    </h3>
+                </a>            
             {% endfor %}
         </nav>
     </section>
@@ -21,21 +20,20 @@ class: home
         <h2>Notes</h2>
         <nav class='project-list'>
             {%for post in site.posts%}
-            <a href="{{post.url}}" data-year='{{ post.date | date: "%Y" }}' class='project-list-item h-entry'>
-                <span class="project-year">{{ post.date | date: "%Y" }}</span>
-                <h3 class='project-title p-name'>
-                    {% if post.shortTitle %}
-                    {{ post.shortTitle }}
-                    {% else %}
-                    {{ post.title }}
-                    {% endif %}
-                </h3>
-            </a>
-            {%endfor%}
-            <a href="http://www.maxkoehler.com/notes" class='project-list-item'>
-                <date class='project-year blank'></date>
-                <h3 class='project-title'>Lecture Notes</h3>
-            </a>
-        </nav>
+                <a href="{{post.url}}" data-year='{{ post.date | date: "%Y" }}' class='project-list-item h-entry'>
+                    <h3 class='project-title p-name'>
+                        {% if post.shortTitle %}
+                        {{ post.shortTitle }}
+                        {% else %}
+                        {{ post.title }}
+                        {% endif %}
+                    </h3>
+                </a>
+                {%endfor%}
+                <a href="http://www.maxkoehler.com/notes" class='project-list-item'>
+                    <date class='project-year blank'></date>
+                    <h3 class='project-title'>Lecture Notes</h3>
+                </a>
+            </nav>
     </section>
 </main>

@@ -7,6 +7,7 @@
     padding: $padding;
     
     @include bp(m){
+        padding: 0;
         padding-top: 10rem;
         padding-bottom: 2em;
     }
@@ -45,6 +46,9 @@
     font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
     max-width: 42rem;
     padding: $padding;
+    @include bp(m){
+        padding: 0;
+    }
     a {
         text-decoration: underline;
     }

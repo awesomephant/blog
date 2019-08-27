@@ -6,9 +6,11 @@ date: August 2019
 
 ![Screenshot](/assets/np/Capture-19.PNG)
 
-An experimental web-based drawing tool controlled by a graphical programming interface.
+An experimental web-based drawing tool where you configure the pen by connecting nodes in a graphical programming interface.
 
-This started [as an attempt to reverse-engineer](https://codepen.io/maxakohler/pen/ydqVjO) the branding for RCA Show 2019 by [Regular Practice](http://www.regularpractice.co.uk/). It's also part of a continued exploration of visual expressions of mathematics – see [Gradient Drawings](https://www.maxkoehler.com/2019/typecast/) from earlier this year.
+This started [as an attempt to reverse-engineer](https://codepen.io/maxakohler/pen/ydqVjO) the branding for RCA Show 2019 by [Regular Practice](http://www.regularpractice.co.uk/). The idea for the node-based editor comes primarily from [Blender's shader editor](https://docs.blender.org/manual/en/latest/editors/shader_editor/index.html) (because I use it a lot), though the idea of [Flow-Based Programming](https://en.wikipedia.org/wiki/Flow-based_programming) is much older than that.
+
+It's also part of a continued exploration of visual expressions of mathematics – see [Gradient Drawings](https://www.maxkoehler.com/2019/typecast/) from earlier this year. I like the idea that even though I only wrote a handful of different nodes (a couple of colour pickers and some basic math functions), the space of possible pens is enormous. 
 
 View the [live app here](https://www.maxkoehler.com/node-paint/) (best viewed on desktop). The code is [on Github](https://github.com/awesomephant/node-paint).
 

@@ -1,6 +1,6 @@
 body.home {
-	$gradient-colour: rgb(43, 195, 94);
-	$background-color: rgb(245, 236, 227);
+	$gradient-colour: $pink;
+	$background-color: $lightgray;
 	background-image: radial-gradient(circle, $gradient-colour 0%,  lighten($gradient-colour, 10) 20%, $background-color 55%, $background-color 100%);
 	background-attachment: fixed;
 	background-size: 130%;

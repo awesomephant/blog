@@ -13,6 +13,4 @@ Shown at [Typographic Singularity 2019](http://www.content-free.net/events/typog
 ![Web application showing words from the Gutenberg Bible](/assets/bc/Capture.PNG)
 ![Web application showing words from Walter Benjamin](/assets/bc/Capture-23.PNG)
 ![Jumbled words from the Gutenberg Bible](/assets/bc/Capture-27.PNG)
-![Process screenshot showing command line interface](/assets/bc/Capture-33.PNG)
-![Printed books made from found words](/assets/bc/Exam-Documentation-174-edt.jpg)
 ![Printed books made from found words](/assets/bc/Exam-Documentation-188.jpg)

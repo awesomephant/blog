@@ -2,11 +2,12 @@
 $black: rgb(14, 13, 12);
 $gray: rgb(167, 163, 157);
 $white: #fff;
-$lightgray: rgb(245, 236, 227);
+$lightgray: rgb(248, 245, 242);
 
 $pink: rgb(255, 149, 123);
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
 
-$serif: Helvetica, Arial, sans-serif;
+$serif: 'Work Sans', Helvetica, Arial, sans-serif;
 $sans: $serif;
 $text: $serif;
 $fast: 300ms;
@@ -14,7 +15,7 @@ $padding: calc(1rem + .5vw);
 // https://www.modularscale.com/?1.05&em&1.2
 // Minor third scale
 $ratio: 1.2;
-$ms-0: 1.15rem;
+$ms-0: 1rem;
 
 $ms-1: $ms-0 * $ratio;
 $ms-2: $ms-1 * $ratio;

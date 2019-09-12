@@ -1,7 +1,8 @@
 body.home {
-	$gradient-colour: $pink;
+	$gradient-colour: rgb(251, 255, 34);
 	$background-color: $lightgray;
-	background-image: radial-gradient(circle, $gradient-colour 0%,  lighten($gradient-colour, 10) 20%, $background-color 55%, $background-color 100%);
+	//background-image: radial-gradient(circle, $gradient-colour 0%,  lighten($gradient-colour, 10) 20%, $background-color 55%, $background-color 100%);
+	background-image: linear-gradient(to left, $gradient-colour 0px,  $gradient-colour 20%, $background-color 30%, $background-color 100%);
 	background-attachment: fixed;
 	background-size: 130%;
 	background-repeat: no-repeat;
@@ -47,13 +48,8 @@ body.home {
 		}
 	h2 {
 		font-family: $sans;
-		font-weight: bold;
-		font-size: $ms--1;
 		margin-bottom: 1em;
-		@include bp(s){
-			font-weight: normal;
-			font-size: $ms-0;
-		}
+		font-size: $ms-0;
 	}
 }
 
@@ -69,7 +65,7 @@ body.home {
 	border-radius: 2px;
 	border: 1px solid transparent;
 	&:hover, &:focus {
-		border: 1px solid white;
+		text-decoration: underline;
 	}
 
 }

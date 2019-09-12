@@ -52,7 +52,7 @@ sup {
 	line-height: 1.35;
 	overflow-x: hidden;
 	padding: 1rem;
-	padding-bottom: 20vh;
+	padding-bottom: 10vh;
 	letter-spacing: .01em;	
 	grid-area: auto / span 12;
 	z-index: 5;
@@ -61,6 +61,7 @@ sup {
 		font-size: $ms-0;
 	}
 	@include bp(m){
+		padding-bottom: 20vh;
 		grid-area: 1 / 2 / auto / 10;
 		padding-left: 0;
 	}
@@ -104,7 +105,7 @@ sup {
 		display: block;
 	}
 	a:hover, a:focus {
-		color: $gray;
+		text-decoration: none;
 	}
 }
 

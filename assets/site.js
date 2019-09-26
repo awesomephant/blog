@@ -12,6 +12,7 @@ const footerMessages = [
     'Unpaid internships are illegal.',
     'Made by an immigrant.',
     '🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺',
+    'Cars to ploughshares'
 ]
 
 document.addEventListener('DOMContentLoaded', function () {

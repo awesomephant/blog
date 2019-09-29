@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on Visual Forensics"
+title:  "Visual Forensics"
 date: 2018-10-18 10:00:00
 tags: ""
 thumb: ''

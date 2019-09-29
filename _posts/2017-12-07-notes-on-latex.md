@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on LaTeX"
+title:  "LaTeX"
 date: 2017-12-03 22:00:00
 tags: ""
 thumb: ""

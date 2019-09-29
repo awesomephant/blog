@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on Neural Networks"
+title:  "Neural Networks"
 date: 2018-09-23 10:00:00
 tags: ""
 thumb: 'http://www.maxkoehler.com/assets/ml/test-arrange-dgan.png'

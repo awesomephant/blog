@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chelsea Contemporary Typography summer course notes"
+title:  "Chelsea Contemporary Typography"
 date: 2016-07-02 14:01:32
 image: '/assets/alphabet-1.jpg'
 tags: ""

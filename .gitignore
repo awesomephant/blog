@@ -3,3 +3,4 @@ _site/
 node_modules
 aws-keys.json
 tmp/
+.jekyll-cache/

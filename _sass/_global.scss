@@ -25,15 +25,6 @@ body {
 	min-height: 100vh;
 	overflow-x: hidden;
 	font-feature-settings:"pnum" 1, "kern" 1;
-	@include bp(l){
-		border-left: 2rem solid $lightgray;
-		&.home {
-			border-left: 2rem solid white;
-		}
-	}
-	@include bp(xl){
-		border-left-width: 3rem !important;
-	}
 }
 
 a {
@@ -71,19 +62,12 @@ sup {
 		}
 	}
 	a {
-		text-decoration: none;
-		border-radius: 2px;
-		padding-left: .1em;
-		padding-right: .1em;
-		border: 1px solid black;
-		transition: border-radius 200ms;
+		text-decoration: underline;
 		&:hover, &:focus {
-			border-radius: 20px;
 		}
 	}
 	@include bp(l){
 		padding-top: 2em;
-		grid-area: 1 / 5 / auto / 11;
 	}
 }
 

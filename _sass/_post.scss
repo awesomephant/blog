@@ -87,7 +87,8 @@
     }
     code {
         font-size: .8em;
-        font-family: "lucida console", monospace;
+        font-family: "IBM Plex Mono", "lucida console", monospace;
+        transform-origin: left;
     }
     ol,
     ul,
@@ -231,9 +232,9 @@ pre.highlight {
     position: relative;
     margin-bottom: 1em;
     white-space: pre-wrap;
-    border-radius: 3px;
-    border: 1px solid green;
-    color: darken(green, 2);
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
     code {
         display: block;
         padding: .5rem;

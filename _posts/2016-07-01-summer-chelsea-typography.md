@@ -7,6 +7,7 @@ tags: ""
 thumb: ""
 intro: ""
 class: "chelsea" 
+section: writing
 ---
 
 ## Week One

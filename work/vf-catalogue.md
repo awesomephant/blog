@@ -2,6 +2,7 @@
 layout: post
 title: Visual Forensics Exhibition
 date:  April 2019
+section: work
 ---
 
 Catalogue, poster and various incedental graphics for [Visual Forensics](https://twitter.com/ForensicsVisual), an RCA group show at the London Canal Museum. Suisse Int'l and Noto Sans are used throughout.

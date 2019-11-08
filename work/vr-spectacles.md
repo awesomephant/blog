@@ -13,6 +13,7 @@ images:
   - '/assets/projects/vr-3.png'
   - '/assets/projects/IMG_3880.jpg'
   - '/assets/projects/vr-2.png'
+section: work
 ---
 
 My project in my final year on the Graphic Design FdA at Camberwell was to *"make VR shit"*. I designed and built a series of vignettes exploring different visuals and interactions in virtual reality.

@@ -52,19 +52,12 @@
     - identity
     - web
 
-- title: "Aside"
+- title: "Aside London"
   url: './work/aside-website'
   year: 2017
   tags:
     - web
-
-- title: 'Assembly Point'
-  url: './work/ap-website'
-  year: 2017
-  tags:
-    - web
-  desc: Design, content strategy and Wordpress development of a new, expanded website for South-London based gallery Assembly Point.
-
+    
 - title: "Pygmalion's Spectacles"
   url: './work/vr-spectacles'
   year: 2017

@@ -6,6 +6,7 @@ date: 2017-11-01 10:00:00
 tags: ""
 thumb: ""
 intro: "We remember the Bauhaus mostly for its physical artifacts: Steel tube furniture, household appliances put together from geometric shapes, New Typography, all set against the backdrop of flat-roofed, pristine white architecture. The philosophical and political struggle that led to these outcomes seems distant to us. Reading some of the Bauhaus publications, written in somewhat stilted 1920s German can only give us a faint idea of the monumental endeavour the Bauhausler were engaged in."
+section: writing
 ---
 
 What they were working towards was vision for society in which citizens, architecture, product design, agriculture, entertainment, science and art would exist together in one unified, rational programme: Modernism. To the young people at the Bauhaus, overlooking the rising industrial town of Dessau from their glass-wrapped studios this idea must have felt utterly within reach: In a country still struggling to recover from the First World War, with violent revolutions going on in Europe and new technology changing every aspect of life, change seemed inevitable. (Wilder, 2016)

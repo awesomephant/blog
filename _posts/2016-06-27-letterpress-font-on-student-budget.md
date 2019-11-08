@@ -6,6 +6,7 @@ tags: ""
 thumb: "https://raw.githubusercontent.com/awesomephant/awesomephant.github.io/master/assets/laser-alphabet.JPG"
 intro: "For my most recent uni project I designed a display typeface and adopted it for traditional letterpress. Since I only had four weeks to do it, I developed process that is cheap, easy to execute and only uses basic tools and equipment."
 class: "laser" 
+section: writing
 ---
 
 ## Material

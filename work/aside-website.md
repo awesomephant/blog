@@ -9,6 +9,7 @@ team:
     - James Edgar
 images:
     - '/assets/aside-screen.png'
+section: work
 ---
 
 Aside is a neighbourhood restaurant in south London. I built them I simple Wordpress website that shows a different photograph each time the site loads. The identity designed by [James Edgar](http://edgar-walker.com/) is based around [Larish Neue](https://radimpesko.com/fonts/larish-neue) by Radim Pesko.

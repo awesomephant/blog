@@ -2,6 +2,7 @@
 layout: post
 title: Letterpress Course Work
 year: 2017
+section: work
 ---
 
 <div markdown='1' class='gallery full'>

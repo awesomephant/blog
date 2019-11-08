@@ -19,6 +19,7 @@ images:
     - /assets/camberwell-show/poster-back.jpg
     - /assets/camberwell-show/week2.png
     - /assets/camberwell-show/label.jpg
+section: work
 ---
 
 Graphic Identity for the 2017 FdA Graphic Design and FdA Illustration degree show at Camberwell College of Arts, London. Outcomes included a website, a risograph-printed poster and environmental graphics.

@@ -14,6 +14,7 @@ images:
     - '/assets/projects/dm2-5.jpg'
     - '/assets/projects/dm-wall.jpg'
     - '/assets/projects/dm-show.jpg'
+section: work
 ---
 
 My final year at Camberwell College of Arts was focused around the idea of teaching machines to draw. It's something that humans have been doing for a long time, from Gutenberg's printing press in the 14th, Jaquet-Droz's drawing automata in the 18th and Google's DeepDream in the 21st century. I engaged with this history through primary research, building a number of drawing machines using different mechanisms, drawing mediums and control algorithms.

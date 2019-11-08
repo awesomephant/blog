@@ -5,6 +5,7 @@ date: 2017-12-03 22:00:00
 tags: ""
 thumb: ""
 intro: "I've been doing quite a few Wordpress sites for people lately, so I spent some time making sure I my development setup is still good to go. I'm mostly writing this for my own documentation, but maybe there's some useful bits in here for you, too."
+section: writing
 ---
 
 This setup is all command line based, but once you get used to it's *much* nicer than the [XAMPP](https://www.apachefriends.org/index.html)-based workflow I had before.

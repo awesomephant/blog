@@ -13,6 +13,7 @@ roles:
   - Web Design
   - Web Development
   - Content Strategy
+section: work
 ---
 
 I designed and built an online database of the biological study collecton at my _Gymnasium_ in Konstanz, Germany. At the time of this writing roughly a third of the collection is catalogued.

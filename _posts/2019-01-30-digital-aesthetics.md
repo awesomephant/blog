@@ -7,6 +7,7 @@ thumbnail: ''
 includesMath: false
 includesMusic: false
 intro: "Notes on the Digital Aesthetics Elective at the RCA"
+section: writing
 ---
 
 ## Reading

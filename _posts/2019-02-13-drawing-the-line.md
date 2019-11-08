@@ -7,6 +7,7 @@ includesMath: false
 includesMusic: false
 intro: ""
 external_link: "http://content-free.net/articles/drawing-the-line" 
+section: writing
 ---
 
 I wrote about unpaid design projects (especially in art schools) on [Content Free](http://content-free.net/), the online publication of the visual communication programme at the RCA.

@@ -1,5 +1,6 @@
 ---
 layout: post
+section: writing
 title: "Gradient Drawings"
 date: 2019-01-15 10:00:00
 tags: ""

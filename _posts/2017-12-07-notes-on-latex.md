@@ -5,6 +5,7 @@ date: 2017-12-03 22:00:00
 tags: ""
 thumb: ""
 intro: "I just spent the last weeks writing my dissertation on Collectivist Housing. Like everyone else, I did it in Word, which was a huge pain."
+section: writing
 ---
 
 I spent at least a day and a half getting all my figures numbered correctly, making sure my bibliography was formatted correctly, all my citations were in the right format. *Numbering things, making sure data is in the right format* - sounds like something a *computer* would be good at.

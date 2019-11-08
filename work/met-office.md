@@ -12,6 +12,7 @@ roles:
   - Web Development
   - Data Visualisation
   - Writing
+section: work
 ---
 
 For this project I set out to explore different modes of data visualisation and science communication in the context of weather data. The UK Met Office makes the majority of its data publicly available, including current weather observations, weather forecasts and historical records reaching back hundreds of years.

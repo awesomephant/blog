@@ -5,6 +5,7 @@ date: 2017-01-30 10:00:00
 tags: ""
 thumb: ""
 intro: "I’m in the final year of a design degree, and one of my final projects is to answer a competition brief. It sounds good in principle — work on a project set by a real company and get some exposure if your work is good."
+section: writing
 ---
 
 Let’s look at some of the briefs that are part of my assignment. Here’s one from this year’s [D&AD Young Blood awards](https://www.dandad.org/en/d-ad-new-blood-awards/):

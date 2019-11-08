@@ -15,6 +15,7 @@ intro: I worked on the website for the 2018 Graphic Design Degree Show at Camber
 roles:
   - Web Design
   - Web Development
+section: work
 ---
 
 We built the site on [Jekyll](https://jekyllrb.com/), with a Google Document acting as the database. This allowed different members of the team to update the content of the site without touching code or logging into a content management system.

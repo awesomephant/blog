@@ -4,6 +4,7 @@ title: Poster Work
 date: Ongoing
 roles:
     - Graphic Design
+section: work
 ---
 
 <div class='full gallery' markdown='1'>

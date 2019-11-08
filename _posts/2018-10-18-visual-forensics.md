@@ -8,6 +8,7 @@ thumbnail: '/assets/vf/vf-banner.png'
 coverImageCredit: Lichen
 includesMath: true
 intro: "Notes on the Visual Forensics elective at the RCA" 
+section: writing
 ---
 
 

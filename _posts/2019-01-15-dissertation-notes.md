@@ -8,6 +8,7 @@ coverImageCredit: Lichen
 includesMath: false
 includesMusic: false
 intro: "" 
+section: writing
 ---
 
 ## Proposal (December 2018)

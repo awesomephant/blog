@@ -5,6 +5,7 @@ date: 2018-01-17 19:15:00
 tags: ""
 thumb: ""
 intro: "As part of my third year at Camberwell I'll be doing research into machine learning, computer vision etc. These are my working notes."
+section: writing
 ---
 
 ## January 2, 2018

@@ -4,6 +4,7 @@ title:  "GraphicsMagick"
 date: 2016-09-14 10:01:32
 tags: ""
 thumb: ""
+section: writing
 intro: "Graphicsmagick is a free command-line tool for editing images - It's great for making simple changes to a whole bunch of images at once."
 ---
 

@@ -6,6 +6,7 @@ tags: ""
 thumb: ""
 intro: ""
 includesMath: true
+section: writing
 ---
 
 ## November 28, 2017

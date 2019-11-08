@@ -9,6 +9,7 @@ roles:
   - Web Design
   - Web Development
   - Content Strategy
+section: work
 ---
 
 Wordpress-based website for 

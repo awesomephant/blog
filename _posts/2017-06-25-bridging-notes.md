@@ -5,6 +5,7 @@ date: 2017-06-25 10:00:00
 tags: ""
 thumb: ""
 intro: ""
+section: writing
 ---
 
 ## April 18 Bridging Talk

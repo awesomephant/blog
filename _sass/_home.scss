@@ -18,6 +18,9 @@ body.home {
 }
 
 .home-work {
+	* {
+		color: $color-work;
+	}
 	grid-area: 2 / 1 / auto / 11;
 	@include bp(m){
 		grid-area: 2 / 2 / auto / 6;
@@ -28,6 +31,9 @@ body.home {
 	
 }
 .home-writing {
+	* {
+		color: $color-writing;
+	}
 	grid-area: 3 / 1 / auto / 11;
 	@include bp(m){
 		grid-area: 2 / 6 / auto / 10;

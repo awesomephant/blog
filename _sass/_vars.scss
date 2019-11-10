@@ -19,7 +19,7 @@ $padding: calc(1rem + .5vw);
 // https://www.modularscale.com/?1.05&em&1.2
 // Minor third scale
 $ratio: 1.2;
-$ms-0: 1rem;
+$ms-0: .92rem;
 
 $ms-1: $ms-0 * $ratio;
 $ms-2: $ms-1 * $ratio;

@@ -8,7 +8,7 @@
     
     @include bp(m){
         padding: 0;
-        padding-top: 10rem;
+        padding-top: 4rem;
         padding-bottom: 2em;
     }
 }
@@ -31,10 +31,12 @@
 .post-title {
     line-height: 1.15;
     max-width: 25em;
-    font-size: $ms-4;
+    font-size: $ms-2;
     font-weight: bold;
-    margin-top: -1rem;
-    margin-bottom: .2em;
+    margin-top: -1.2rem;
+    @include bp(m){
+        font-size: $ms-5;
+    }
     a {
         font-weight: bold;
     }
@@ -42,7 +44,7 @@
 
 .post-content {
     font-feature-settings:"onum" 1, "pnum" 1, "kern" 1;
-    max-width: 42rem;
+    max-width: 38rem;
     padding: $padding;
     @include bp(m){
         padding: 0;
@@ -53,7 +55,7 @@
 }
 
 .post-meta {
-    font-size: $ms-0;
+    font-size: $ms--1;
     grid-area: 3 / 1 / auto / 11;
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +63,6 @@
 }
 
 .post {
-    
     &.section-writing * {
         color: $color-writing;
     }    
@@ -74,7 +75,7 @@
     font-size: $ms-0;
     color: $black;
     hyphens: auto;
-    grid-area: 1 / 1 / auto / 11;
+    grid-area: auto / 1 / auto / 11;
     line-height: 1.35;
     @include bp(m) {
         grid-area: auto / 2  / auto / 12;
@@ -278,35 +279,7 @@ pre.highlight {
 }
 
 .post-jumplink {
-    color: $gray;
-    display: inline-block;
-    width: 1.5rem;
-    margin-left: -1.5rem;
-    position: relative;
-    bottom: 0em;
-    text-decoration: none;
-    transition: $fast;
-    background-image: none !important;
-    opacity: 0;
-    svg {
-        width: 1.2rem;
-    }
-    h3 & {
-        bottom: -.2em;
-    }
-    path {
-        transition: $fast;
-        fill: $gray;
-    }
-    h2:hover &, h3:hover & {
-        opacity: 1;
-    }
-    &:hover, &:focus {
-        opacity: 1;
-        path {
-            fill: $black;
-        }
-    }
+    display: none;
 }
 
 .ref {

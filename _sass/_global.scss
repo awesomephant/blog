@@ -44,17 +44,16 @@ sup {
 	line-height: 1.35;
 	overflow-x: hidden;
 	padding: 1rem;
-	padding-bottom: 10vh;
-	letter-spacing: .01em;	
-	grid-area: auto / span 12;
+	padding-bottom: 4rem;
+	grid-area: 1 / 1 / auto / 10;
 	z-index: 5;
 	font-size: $ms--1;
-	@include bp(s){
-		font-size: $ms-0;
+	h1, span, a {
+		font-weight: bold;
 	}
 	@include bp(m){
-		padding-bottom: 20vh;
 		grid-area: 1 / 2 / auto / 10;
+		font-size: $ms-0;
 		padding-left: 0;
 	}
 	span {
@@ -64,8 +63,6 @@ sup {
 	}
 	a {
 		text-decoration: underline;
-		&:hover, &:focus {
-		}
 	}
 	@include bp(l){
 		padding-top: 2em;

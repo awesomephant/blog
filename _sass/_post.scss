@@ -254,19 +254,26 @@ pre.highlight {
 .language-css:before {content: 'CSS';}
 .language-html:before {content: 'HTML';}
 
-.gallery p {
+.gallery {
     column-gap: 1rem;
     width: 100%;
-    @include bp(m){
-        column-count: 2;
-        width: 70vw
-    }
     margin-bottom: 1rem;
+    li {
+        padding: 0;
+        display: inline-block;
+        margin-left: 0 !important;
+        list-style: none;
+        @include bp(_xl){
+            margin-bottom: 2rem;
+            transform: translateX(0) !important;
+        }
+    }
     img {
         display: block;
+        border-bottom: 2px solid $color-work;
         width: 100%;
         margin: 0;
-        margin-bottom: 1rem;
+        margin-bottom: .2rem;
         height: auto;
 
     }

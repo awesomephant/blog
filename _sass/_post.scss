@@ -116,7 +116,7 @@
         display: block;
         @include bp(l){
             width: auto;
-            max-width: 80vw;
+            max-width: 50rem;
             max-height: 100vh;
         }
     }

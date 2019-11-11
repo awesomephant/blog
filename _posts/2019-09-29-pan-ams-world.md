@@ -54,8 +54,4 @@ Intellectually, I know that what she and others are proposing is true, necessary
 1. I’m not aware of any similar ideas for screen-based design, maybe because we tend to assume it’s cleaner by default? It isn’t: See datacenter emissions.
 2. Hito Steyerl (2019): *Duty Free Art: Art in the Age of Planetary Civil War*, p. 18. Verso Books.
 
-<p class='note' markdown=1>
 This essay was first published on [Content Free](http://content-free.net/articles/panams-world).
-</p>
-
-

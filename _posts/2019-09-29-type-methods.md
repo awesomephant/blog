@@ -33,7 +33,7 @@ Above might be useful for bold weights down the line.
 - Horizontal stress
 
 ## 17 November
-![Type sample](/assets/type-methods/Capture-3.png)
+![Type sample](/assets/type-methods/Capture-3.PNG)
 
 V1 of the uppercase nearly finished. I'm trying to keep the wiggles in the same position vertically, so I can eventually kern the letters into each other like I did in the original lettering. Consistency is good, but might lead to the letters looking too similar (boring).
 

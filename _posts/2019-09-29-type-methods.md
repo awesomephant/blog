@@ -16,13 +16,12 @@ Hoping to develop a typeface out of this lettering I did:
 
 Maybe also take some stuff from [Node Paint](http://www.maxkoehler.com/node-paint/) (extended pen nib).
 
+![Lettering sketch](/assets/type-methods/sketch-1.jpg)
+![Lettering sketch](/assets/type-methods/sketch-2.jpg)
+
 ## 14 November
 
-<div class='full gallery' markdown ='1'>
-- ![Lettering animation frame](/assets/type-methods/0.jpg)
-- ![Lettering animation frame](/assets/type-methods/1.jpg)
-- ![Lettering animation frame](/assets/type-methods/2.jpg)
-</div>
+![Lettering animation frame](/assets/type-methods/grid.jpg)
 
 Above might be useful for bold weights down the line.
 

@@ -49,7 +49,6 @@ sup {
 	z-index: 5;
 	font-size: $ms--1;
 	h1, span, a {
-		font-weight: bold;
 	}
 	@include bp(m){
 		grid-area: 1 / 2 / auto / 10;

@@ -73,13 +73,6 @@ body.home {
 	&:hover, &:focus {
 		text-decoration: underline;
 	}
-	@for $i from 0 to 50 {
-		@include bp(m){
-			&:nth-of-type(#{$i}){
-				margin-left: .25rem * $i
-			}
-		}
-	}
 
 }
 

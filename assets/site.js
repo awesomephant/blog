@@ -12,7 +12,7 @@ const footerMessages = [
     'Unpaid internships are illegal.',
     'Made by an immigrant.',
     '🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺',
-    'Cars to ploughshares'
+    'Cars into ploughshares'
 ]
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -30,9 +30,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
     for (let i = 0; i < paragraphs.length; i++) {
         let image = paragraphs[i].querySelector('img, video, iframe');
+        let text = paragraphs[i].innerText;
         if (image) {
             paragraphs[i].classList.add('hasimage')
         }
+
+        if (text[0] === '“') {
+            paragraphs[i].classList.add('hanging')
+        }
+
+        paragraphs[i].innerHTML = paragraphs[i].innerHTML.replace(/\[\d+\]/g, `<a class='footnote' href='#1'>3</a>`)
+
+    }
+
+    let footnotes = document.querySelectorAll('.footnote')
+    for (let i = 0; i < footnotes.length; i++) {
+        footnotes[i].innerText = i+1;
     }
 
     let footerMsg = document.querySelector('.footer-message');
@@ -48,19 +61,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Add gallery captions
     let galleryImages = document.querySelectorAll('.full.gallery li')
-     for (let i = 0; i < galleryImages.length; i++){
+    for (let i = 0; i < galleryImages.length; i++) {
         galleryImages[i].style.transform = `translateX(${getRandomInt(-0, 40)}vw)`
         galleryImages[i].insertAdjacentHTML("beforeend", `<span class='gallery-caption'>${galleryImages[i].querySelector('img').getAttribute('alt')}</span>`);
     }
-    
+
     // Sort out home hover
-    for (i = 2016; i < 2020; i++){
+    for (i = 2016; i < 2020; i++) {
         let writingEl = document.querySelector(`.home-writing [data-year="${i}"]`)
         let workEl = document.querySelector(`.home-work [data-year="${i}"]`)
-        if (writingEl){
+        if (writingEl) {
             writingEl.classList.add('first')
         }
-        if (workEl){
+        if (workEl) {
             workEl.classList.add('first')
         }
     }

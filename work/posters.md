@@ -15,4 +15,5 @@ Posters for various events at the Royal College of Art, London.
 - ![Walkative Society: Dark Fibre Network Drift (2019). Letterpress (3 runs) on Southbank Book, 450x640mm.](/assets/posters/dark-fibre.jpg)
 - ![Walkative Society: London / Los Angeles (2019). Letterpress (2 runs) on Southbank Book. 640x450mm.](/assets/posters/la-london.jpg)
 - ![CARS TO PLOUGHSHARES (2019). Letterpress (1 run) on Southbank Book.](/assets/posters/ploughshares.jpg)
+- ![Chinatown on the Move (2019). Letterpress (2 run) and Inkjet on Southbank Book.](/assets/posters/chinatown.jpg)
 </div>

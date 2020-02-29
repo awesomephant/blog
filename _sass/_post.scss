@@ -113,7 +113,8 @@
         margin-bottom: 1rem;
     }
     img, video, iframe {
-        width: 100%;
+        width: auto;
+        max-width: 100%;
         display: block;
         @include bp(l){
             width: auto;

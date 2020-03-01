@@ -7,6 +7,13 @@ layout: default
 			<li class="project-meta-item">
 				{{ page.date | date: "%B %-d, %Y"}}{{ page.year }}
 			</li>
+			<li class="project-meta-item">
+				{% if page.section == 'writing' %}
+					Notes
+				{% else %}
+				{{ page.section | capitalize }}
+				{% endif %}
+			</li>
 		</ul>
 		<div class='header-copy'>
 			<h1 class="post-title">

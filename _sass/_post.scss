@@ -33,6 +33,7 @@
     max-width: 25em;
     font-size: $ms-2;
     font-weight: bold;
+    hyphens: none;
     margin-top: -1.2rem;
     @include bp(m){
         font-size: $ms-5;
@@ -55,11 +56,12 @@
 }
 
 .post-meta {
-    font-size: $ms--1;
+    font-size: $ms-0;
     grid-area: 3 / 1 / auto / 11;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    padding-bottom: 2em;
 }
 
 .post {
@@ -116,10 +118,15 @@
         width: auto;
         max-width: 100%;
         display: block;
+        border-radius: 2px;
         @include bp(l){
             width: auto;
             max-width: 50rem;
             max-height: 100vh;
+            &.full {
+                max-width: 70vw;
+                margin-bottom: 2rem;
+            }
         }
     }
     h2 {

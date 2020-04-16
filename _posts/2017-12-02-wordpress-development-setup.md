@@ -83,6 +83,7 @@ wp core update ; wp plugin update --all; wp theme update --all
 ```
 wp plugin install custom-post-type-ui --activate
 wp plugin install timber-library --activate
+wp theme install https://github.com/timber/starter-theme/archive/master.zip
 ```
 
 ## Todo

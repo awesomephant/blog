@@ -80,10 +80,11 @@ wp core update ; wp plugin update --all; wp theme update --all
 
 ## Installing plugins with WP-CLI
 
-```
+```bash
 wp plugin install custom-post-type-ui --activate
 wp plugin install timber-library --activate
 wp theme install https://github.com/timber/starter-theme/archive/master.zip
+wp theme activate starter-theme
 ```
 
 ## Todo

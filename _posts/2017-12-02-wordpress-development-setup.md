@@ -67,10 +67,8 @@ vagrant ssh
 On my Windows machine I have to do this in Git Bash because that comes with an SSH client. Then you ``cd`` into the folder that belongs to whichever site you're working on: 
 
 ```
-cd /vagrant/www/my-cool-site/
+cd srv/www/my-cool-site/
 ```
-
-On my Windows machine the ``/vagrant`` folder is invisible for some reason, i.e. it doesn't show up when you run ``ls``. [This seems to be a known issue](https://stackoverflow.com/questions/28999137/cannot-see-any-files-or-folders-inside-my-vagrant-root-folder-in-my-vm), but it's no big deal since you can still ``cd`` into it.
 
 Then you can run this and walk away while your site updates itself:
 

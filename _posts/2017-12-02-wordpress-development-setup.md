@@ -81,7 +81,7 @@ wp core update ; wp plugin update --all; wp theme update --all
 ## Installing plugins with WP-CLI
 
 ```
-wp plugin instll custom-post-type-ui --activate
+wp plugin install custom-post-type-ui --activate
 wp plugin install timber-library --activate
 ```
 

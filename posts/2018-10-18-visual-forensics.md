@@ -278,7 +278,7 @@ In orchestra performances, every player goes through this process at the beginni
 ### Material: The Enron Corpus
 
 [What the Enron Corpus Says About Us](https://www.newyorker.com/magazine/2017/07/24/what-the-enron-e-mails-say-about-us)
-I originally found this during by undergrad [at Camberwell](http://www.maxkoehler.com/2018/feret-database/#febuary-18-2018), but didn't really do anything with it at the time.
+I originally found this during by undergrad [at Camberwell](http://awesomephant.github.io/2018/feret-database/#febuary-18-2018), but didn't really do anything with it at the time.
 
 I consider databases like this one materials because they're *the stuff algortihms* are made from. By themselves, there basically useless — many contain many more instances than you could ever look at in a lifetime, and they're usually pretty monotenous. They only become meaningful when they're turned *into* something.
 

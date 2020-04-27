@@ -20,14 +20,14 @@ Next, I focused on a [dataset containing historical weather observations going b
 
 - [Spreadsheet listing observation sites](https://docs.google.com/spreadsheets/d/1xYVZw5wCWfg2fKV-0gaZSlzr7ntLmdzHnBz4iSKLSI4/pubhtml)
 - [Spreadsheet showing the Central England Temperature Record](https://docs.google.com/spreadsheets/d/1ueKlVpeMMa2wtQkjnEVAhhlANF2IMqUdLAslqiblDsY/pubhtml#)
-- [Map showing site locations](http://www.maxkoehler.com/metoffice-graphic/map.html)
-- [Significant Events](http://www.maxkoehler.com/metoffice-graphic/table.html)
-- [Line Graph](http://www.maxkoehler.com/metoffice-graphic/oxford-line.html)
-- [Animated bar chart showing monthly temperatures](http://www.maxkoehler.com/metoffice-graphic/steps.html) - Y axis showing temperature, X Axis showing 25 different observation sites, colour coding showing the amount of rain.
-- [Animated bar chart showing annual average temperatures](http://www.maxkoehler.com/metoffice-graphic/yearly.html) - Y axis showing temperature, X Axis showing different observation sites.
+- [Map showing site locations](http://awesomephant.github.io/metoffice-graphic/map.html)
+- [Significant Events](http://awesomephant.github.io/metoffice-graphic/table.html)
+- [Line Graph](http://awesomephant.github.io/metoffice-graphic/oxford-line.html)
+- [Animated bar chart showing monthly temperatures](http://awesomephant.github.io/metoffice-graphic/steps.html) - Y axis showing temperature, X Axis showing 25 different observation sites, colour coding showing the amount of rain.
+- [Animated bar chart showing annual average temperatures](http://awesomephant.github.io/metoffice-graphic/yearly.html) - Y axis showing temperature, X Axis showing different observation sites.
 
-Eventually I found [a successful way to show average](http://www.maxkoehler.com/metoffice-graphic/) temperatures as colours on a spectrum. This was the first approach I discovered that made global warming easily visible.
+Eventually I found [a successful way to show average](http://awesomephant.github.io/metoffice-graphic/) temperatures as colours on a spectrum. This was the first approach I discovered that made global warming easily visible.
 
 All visualisations were built using [d3.js](https://d3js.org/). The source code is [available on Github](https://github.com/awesomephant/metoffice-graphic).
 
-I have some thoughts on [design competitions](http://www.maxkoehler.com/2017/design-competitions/).
+I have some thoughts on [design competitions](http://awesomephant.github.io/2017/design-competitions/).

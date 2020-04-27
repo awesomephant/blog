@@ -11,9 +11,9 @@ An experimental web-based drawing tool where you configure the pen by connecting
 
 This started [as an attempt to reverse-engineer](https://codepen.io/maxakohler/pen/ydqVjO) the branding for RCA Show 2019 by [Regular Practice](http://www.regularpractice.co.uk/). The idea for the node-based editor comes primarily from [Blender's shader editor](https://docs.blender.org/manual/en/latest/editors/shader_editor/index.html) (because I use it a lot), though the idea of [Flow-Based Programming](https://en.wikipedia.org/wiki/Flow-based_programming) is much older than that. I'm using [IBM Plex Sans](https://www.ibm.com/plex/), which works beautifully as an interface typeface.
 
-It's also part of a continued exploration of visual expressions of mathematics – see [Gradient Drawings](https://www.maxkoehler.com/2019/typecast/) from earlier this year. I like the idea that even though I only wrote a handful of different nodes (a couple of colour pickers and some basic math functions), the space of possible pens is enormous.
+It's also part of a continued exploration of visual expressions of mathematics – see [Gradient Drawings](https://awesomephant.github.io/2019/typecast/) from earlier this year. I like the idea that even though I only wrote a handful of different nodes (a couple of colour pickers and some basic math functions), the space of possible pens is enormous.
 
-View the [live app here](https://www.maxkoehler.com/node-paint/) (best viewed on desktop). The code is [on Github](https://github.com/awesomephant/node-paint).
+View the [live app here](https://awesomephant.github.io/node-paint/) (best viewed on desktop). The code is [on Github](https://github.com/awesomephant/node-paint).
 
 ![Screenshot](/assets/np/Capture-23.PNG)
 

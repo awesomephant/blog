@@ -2,7 +2,7 @@
 layout: post
 title:  "Documenting web design work"
 date: 2018-07-08 10:00:00
-thumb: "http://www.maxkoehler.com/assets/showing-design/facebook.jpeg"
+thumb: "http://awesomephant.github.io/assets/showing-design/facebook.jpeg"
 intro: "If you make websites for people, you probably want to show that work in a portfolio of some kind. What's the best way to do that?"
 twitter_blurb: '"Documenting Web Design Work" by @maxakohler'
 tags: post

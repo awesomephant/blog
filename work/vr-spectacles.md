@@ -11,4 +11,4 @@ All of this was built in [A-Frame](https://aframe.io/) (with 3d-modelling in [Bl
 
 The title is a reference to the [first piece of literature to describe virtual reality goggles](https://www.gutenberg.org/files/22893/22893-h/22893-h.htm).
 
-View the finished pieces at [maxkoehler.com/vr-lab/app](http://www.maxkoehler.com/vr-lab/app/).
+View the finished pieces at [maxkoehler.com/vr-lab/app](http://awesomephant.github.io/vr-lab/app/).

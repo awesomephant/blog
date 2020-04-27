@@ -13,7 +13,7 @@ Hoping to develop a typeface out of this lettering I did:
 
 ![Cars to ploughshares poster](/assets/posters/ploughshares.jpg)
 
-Maybe also take some stuff from [Node Paint](http://www.maxkoehler.com/node-paint/) (extended pen nib).
+Maybe also take some stuff from [Node Paint](http://awesomephant.github.io/node-paint/) (extended pen nib).
 
 ![Lettering sketch](/assets/type-methods/sketch-1.jpg)
 ![Lettering sketch](/assets/type-methods/sketch-2.jpg)

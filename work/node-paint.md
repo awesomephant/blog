@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Node Paint
-date: August 2019
-section: work
+date: 2019-08-01
+tags: work
 ---
 
 ![Screenshot](/assets/np/Capture-19.PNG)

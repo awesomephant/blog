@@ -1,0 +1,155 @@
+.post {
+    grid-column: 1 / 13;
+    @include bp(m){
+        grid-column: 5 / 13;
+    }
+    max-width: 40em;
+    grid-row: 3 / auto;
+    hyphens: auto;
+    img, video {
+        max-width: 100%;
+        display: inline-block;
+        margin-bottom: .5em;
+        mix-blend-mode: multiply;
+        filter: grayscale(1) contrast(1.2);
+        &:hover {
+            filter: grayscale(0);
+        }
+    }
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: var(--green);
+        opacity: .8;
+        top: 0;
+        left: 0;
+        mix-blend-mode: screen;
+        display: none;
+    }
+    line-height: 1.15;
+    letter-spacing: .01em;
+    p {
+        margin-bottom: .8em;
+    }
+    h2 {
+        font-weight: 500;
+        margin-top: 2em;
+        margin-bottom: .2em;
+    }
+    ul, ol {
+        margin-left: 1em;
+    }
+    li {
+        margin-bottom: .1em;
+    }
+    ul li {
+        list-style: '— ';
+    }
+    blockquote {
+        padding-left: 2em;
+    }
+    .pull-double {
+        margin-left: -.26em;
+    }
+    code {
+        font-family: "IBM Plex Mono";
+        font-size: .8em;
+    }
+    pre {
+        max-width: 100%;
+        border: 1px solid var(--green);
+        border-radius: 2px;
+        overflow-x: auto;
+        padding: .5em;
+        margin-bottom: .5em;
+    }
+    .MathJax_Display {
+        display: inline !important;
+    }
+    table {
+        font-size: var(--ms--1);
+        margin-bottom: 1em;
+    }
+    thead {
+        font-weight: 500;
+    }
+    tr {
+        border-bottom: 1px solid var(--green);
+    }
+    td {
+        padding: .4em 0;
+    }
+    .footnote {
+        font-weight: bold;
+        border-bottom: 0;
+        font-size: var(--ms--1);
+        position: relative;
+        margin-left: .3em;
+        top: -.1em;
+        &:before {
+            position: relative;
+            top: -.06em;
+            content: "[";
+        }
+        &:after {
+            position: relative;
+            top: -.06em;
+            content: "]";
+        }
+    }
+    hr {
+        border: 0;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        border-bottom: 1px solid var(--green);
+    }
+    .hasimage {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        font-size: var(--ms--1);
+        position: relative;
+        img {
+            display: block;
+        }
+        a {
+            display: inline;
+        }
+    }
+}
+
+.post-meta {
+    font-size: var(--ms-0);
+    grid-column: 2 / 5;
+    font-weight: 500;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    span {
+        display: block;
+    }
+}
+
+.post-intro {
+    font-weight: 500;
+    margin-bottom: .8em;
+}
+
+.post-title {
+    font-size: var(--ms-0);
+    font-weight: 500;
+    margin-bottom: 1em;
+    max-width: 25em;
+}
+
+.footnotes {
+    font-size: var(--ms--1);
+    columns: 2;
+    column-gap: 3em;
+    margin-bottom: 1em;
+    li {
+        margin-bottom: .5em;
+        break-inside: avoid;
+    }
+}

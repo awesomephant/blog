@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Digital Direction 2020
-date: January—February 2020
-section: work
+date: 2020-01-01
+tags: work
 ---
 
 <video class='full' autoplay loop muted src='/assets/digital-direction-walkthrough.mp4'></video>

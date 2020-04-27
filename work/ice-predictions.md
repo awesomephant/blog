@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Ice Predictions
-date:  April 2019
-section: work
+date:  2019-04-01
+tags: work
 ---
 
 An attempt to visually predict the melting of ice using machine learning techniques.

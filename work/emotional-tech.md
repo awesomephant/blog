@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Emotional Tech Report Website
-date:  January 2019
-section: work
+date:  2019-01-01
+tags: work
 ---
 
 ![vf catalogue](/assets/gradient-1.png)

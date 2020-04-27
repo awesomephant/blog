@@ -1,0 +1,57 @@
+@charset "utf-8";
+@import url("https://use.typekit.net/vlg1sjx.css");
+
+
+@mixin bp($point) {
+    @if $point==xl {
+        @media (min-width: 95rem) {
+            @content;
+        }
+    }
+
+    @else if $point==l {
+        @media (min-width: 70rem) {
+            @content;
+        }
+    }
+
+    @else if $point==m {
+        @media (min-width: 45rem) {
+            @content;
+        }
+    }
+
+    @else if $point==s {
+        @media (min-width: 35rem) {
+            @content;
+        }
+    }
+}
+
+:root {
+    --font-text: "franklin-gothic-urw", Arial, sans-serif;
+    --ratio: 1.3;
+    --ms-0: 1.1rem;
+    --ms--1: calc(var(--ms-0) / var(--ratio));
+    --ms-1: calc(var(--ms-0) * var(--ratio));
+    --ms-2: calc(var(--ms-1) * var(--ratio));
+    --ms-3: calc(var(--ms-2) * var(--ratio));
+    --ms-4: calc(var(--ms-3) * var(--ratio));
+    --ms-5: calc(var(--ms-4) * var(--ratio));
+    --ms-6: calc(var(--ms-5) * var(--ratio));
+    --ms-7: calc(var(--ms-6) * var(--ratio));
+
+    --black: rgb(14, 13, 12);
+    --gray: rgb(167, 163, 157);
+    --lightgray: rgb(248, 245, 242);
+    --white: #fff;
+    --green: #022a13;
+
+    @include bp(m) {
+        --ms-0: 1.2rem;
+    }
+}
+
+body {
+    background-color: rgb(233, 237, 250);
+}

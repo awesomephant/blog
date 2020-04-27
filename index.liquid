@@ -1,0 +1,39 @@
+---
+layout: base
+class: home
+---
+
+<section class='home-work home-section'>
+    <h2>Work</h2>
+    <nav class='project-list'>
+        {% assign works = collections.work | reverse %}
+        {% for p in works %}
+        <a href='{{ p.url }}' class='project-list-item'>
+            <h3 class='project-title'>
+                {{p.data.title}}
+            </h3>
+        </a>
+        {% endfor %}
+    </nav>
+</section>
+<section class='home-writing home-section'>
+    <h2>Notes</h2>
+    <nav class='project-list'>
+        {% assign posts = collections.post | reverse %}
+        {% for post in posts %}
+        <a href="{{ post.url }}" class='project-list-item'>
+            <h3 class='project-title p-name'>
+                {% if post.data.shortTitle %}
+                {{ post.data.shortTitle }}
+                {% else %}
+                {{ post.data.title }}
+                {% endif %}
+            </h3>
+        </a>
+        {% endfor %}
+        <a href="http://www.maxkoehler.com/notes" class='project-list-item'>
+            <date class='project-year blank'></date>
+            <h3 class='project-title'>Lecture Notes</h3>
+        </a>
+    </nav>
+</section>

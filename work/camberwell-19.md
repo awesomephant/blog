@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Camberwell College of Arts Graphic Design Degree Show Website
-date:  June 2019
-section: work
+title: Camberwell Graphic Design Show 19
+date:  2019-06-01
+tags: work
 ---
 
 Website design and development, with art direction from [somethingstudios](https://www.instagram.com/somethingstudios____/). Typefaces in use are Linotype Impressum and a pre-release Caslon Rounded by Commercial Type. View the live site at [camberwellfestival.com](http://camberwellfestival.com/).

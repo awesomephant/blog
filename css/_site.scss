@@ -1,0 +1,53 @@
+.site-header {
+    margin-bottom: 1em;
+    max-width: 35em;
+    font-weight: 500;
+    grid-column: 1 / 13;
+
+    @include bp(m) {
+        grid-column: 1 / 7;
+    }
+}
+
+.home-section {
+    display: contents;
+    
+    h2 {
+        grid-column: 1 / 13;
+        
+        @include bp(m) {
+            grid-column: 2 / 13;
+        }
+        
+        font-weight: 500;
+    }
+    
+    nav {
+        margin-bottom: 2rem;
+        grid-column: 2 / 13;
+        @include bp(m) {
+            grid-column: 3 / 8;
+        }
+        display: flex;
+        align-items: flex-start;
+        flex-flow: column;
+    }
+    
+    a {
+        font-weight: 500;
+        display: inline;
+        margin-bottom: .1em;
+    }
+}
+
+.site-footer {
+    grid-column: 1 / 12;
+    grid-row: 7 / 8;
+    padding-top: 3em;
+    font-size: var(--ms--1);
+    max-width: 20em;
+
+    .footer-message {
+        display: block;
+    }
+}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pygmalion's Spectacles
-date: May—June 2017
+date: 2017-06-01
 videos:
   - '/assets/vr-preview.mp4'
 roles:

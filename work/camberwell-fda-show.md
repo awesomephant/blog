@@ -1,25 +1,13 @@
 ---
 layout: post
-title: Camberwell FdA Illustration & FdA Graphic Design Degree Show Identity
-date: June 2017
+title: Camberwell FdA Degree Show 17
+date: 2017-06-01
 thumbnail: /assets/camberwell-show/stickers.png
 team: 
     - Tallulah Harris
     - Margot Parker
     - Ben Browning
-roles: 
-    - Identity Design
-    - Web Development
-    - Web Design
-    - Illustration
-images: 
-    - /assets/camberwell-show/stickers.png
-    - /assets/camberwell-show/website-2.png
-    - /assets/camberwell-show/poster.jpg
-    - /assets/camberwell-show/poster-back.jpg
-    - /assets/camberwell-show/week2.png
-    - /assets/camberwell-show/label.jpg
-section: work
+tags: work
 ---
 
 Graphic Identity for the 2017 FdA Graphic Design and FdA Illustration degree show at Camberwell College of Arts, London. Outcomes included a website, a risograph-printed poster and environmental graphics.

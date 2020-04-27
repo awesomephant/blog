@@ -1,0 +1,44 @@
+---
+layout: base
+---
+
+<aside class="post-meta">
+	<span class="post-section post-meta-item">
+		{% assign t = tags | first %}
+		{% if t == "post" %}
+			Notes
+			{% else %}
+			Work
+		{% endif %}
+	</span>
+	<date class="post-date post-meta-item">
+		{{ date | date: "%B %d, %Y" }}
+	</date>
+	<a class='post-meta-item' href="{{url}}">Permalink</a>
+</aside>
+
+<article class='post {{page.class}} section-{{page.section}}'>
+	<header class="post-header {% if page.thumbnail %}hasThumbnail{% endif %}">
+		<div class='header-copy'>
+			<h1 class="post-title">
+				{% if external_link %}
+				<a href="{{external_link}}">{{title}}</a>
+				{% else %}
+				{{ title }}
+				{% endif %}
+			</h1>
+			<div class="post-intro">
+				{{ intro | markdownify}}
+			</div>
+	</header>
+	<div class="post-content">
+		{% for v in page.videos %}
+		<video src='{{v}}' muted loop autoplay></video>
+		{% endfor %}
+		{% for image in page.images %}
+		<img class='project-image' src="{{image}}" alt="">
+		{% endfor %}
+		{{ content }}
+
+	</div>
+</article>

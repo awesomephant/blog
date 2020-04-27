@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Book Crosses
-date:  April 2019
-section: work
+date:  2019-04-01
+tags: work
 ---
 
 A month-long investigation into the idea of using pre-existing letters, words, and sentences to compose new messages.

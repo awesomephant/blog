@@ -1,8 +1,0 @@
-<ul class='post-tags'>
-    {% for tag in post.tags %}
-        <li class='post-tag'>{{ tag | remove: ',' }}</li>
-    {% endfor %}
-    {% for tag in page.tags %}
-        <li class='post-tag'>{{ tag | remove: ',' }}</li>
-    {% endfor %}
-</ul>

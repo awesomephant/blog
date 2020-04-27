@@ -1,18 +1,13 @@
 ---
 layout: post
 title: Met Office YCN Brief
-date: 2017
+date: 2017-01-01
 images: 
   - /assets/projects/gradient-prints.jpg
   - /assets/projects/bot.png
   - /assets/projects/bot-2.PNG
   - /assets/projects/scan-table.JPG
-roles:
-  - Web Design
-  - Web Development
-  - Data Visualisation
-  - Writing
-section: work
+tags: work
 ---
 
 For this project I set out to explore different modes of data visualisation and science communication in the context of weather data. The UK Met Office makes the majority of its data publicly available, including current weather observations, weather forecasts and historical records reaching back hundreds of years.

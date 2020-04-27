@@ -2,18 +2,7 @@
 layout: post
 title: Pygmalion's Spectacles
 date: 2017-06-01
-videos:
-  - '/assets/vr-preview.mp4'
-roles:
-  - Interaction Design
-  - 3d Modelling
-  - VR Development
-images:
-  - '/assets/projects/vr-4.png'
-  - '/assets/projects/vr-3.png'
-  - '/assets/projects/IMG_3880.jpg'
-  - '/assets/projects/vr-2.png'
-section: work
+tags: ""
 ---
 
 My project in my final year on the Graphic Design FdA at Camberwell was to *"make VR shit"*. I designed and built a series of vignettes exploring different visuals and interactions in virtual reality.

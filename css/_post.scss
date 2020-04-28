@@ -13,6 +13,7 @@
         mix-blend-mode: multiply;
         filter: grayscale(1) contrast(1.2);
         &:hover {
+            mix-blend-mode: normal;
             filter: grayscale(0);
         }
     }
@@ -31,7 +32,7 @@
     line-height: 1.15;
     letter-spacing: .01em;
     p {
-        margin-bottom: .8em;
+        margin-bottom: .5em;
     }
     h2 {
         font-weight: 500;
@@ -40,6 +41,7 @@
     }
     ul, ol {
         margin-left: 1em;
+        margin-bottom: 1em;
     }
     li {
         margin-bottom: .1em;

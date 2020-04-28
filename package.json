@@ -10,7 +10,7 @@
   },
   "author": "Max Kohler",
   "license": "ISC",
-  "homepage": "/untitled-coding-workshop",
+  "homepage": "/",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.0",

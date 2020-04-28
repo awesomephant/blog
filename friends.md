@@ -2,7 +2,7 @@
 layout: post
 title: Friends
 date:  2020-04-01
-tags: ""
+tags: "About"
 ---
 
 - [Ben Browning](http://www.benbrowning.me/)

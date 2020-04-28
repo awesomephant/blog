@@ -2,7 +2,7 @@
 layout: post
 title: Pygmalion's Spectacles
 date: 2017-06-01
-tags: ""
+tags: "a"
 ---
 
 My project in my final year on the Graphic Design FdA at Camberwell was to *"make VR shit"*. I designed and built a series of vignettes exploring different visuals and interactions in virtual reality.

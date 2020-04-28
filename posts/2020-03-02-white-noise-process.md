@@ -5,8 +5,9 @@ date: 2020-03-02T17:45:09.024Z
 includesMath: false
 includesMusic: false
 intro: ""
-tags: ""
+tags: "a"
 ---
+
 ![White Noise Poster](/assets/letterpress/wn.jpg)
 
 Some notes on how I made this poster for White Noise (a series of *experimental sound sessions* at the Royal College).

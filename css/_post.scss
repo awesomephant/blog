@@ -1,8 +1,9 @@
 .post {
     grid-column: 1 / 13;
-    @include bp(m){
+    @include bp(l){
         grid-column: 5 / 13;
     }
+    width: 100%;
     max-width: 40em;
     grid-row: 3 / auto;
     hyphens: auto;
@@ -127,11 +128,15 @@
 
 .post-meta {
     font-size: var(--ms-0);
-    grid-column: 2 / 5;
+    grid-column: 2 / 12;
+    @include bp(m){
+        grid-column: 2 / 5;
+    }
     font-weight: 500;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
+    margin-bottom: 1em;
     span {
         display: block;
     }

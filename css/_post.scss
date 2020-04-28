@@ -6,6 +6,10 @@
     max-width: 40em;
     grid-row: 3 / auto;
     hyphens: auto;
+    a {
+        break-inside: avoid;
+        white-space: nowrap;
+    }
     img, video {
         max-width: 100%;
         display: inline-block;

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Alexander von Humboldt Gymnasium Study Collection
+title: AvH Study Collection
 date: 2018-01-01
 tags: work
 ---

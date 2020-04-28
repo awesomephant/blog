@@ -2,8 +2,6 @@
 layout: post
 title: RCA Posters
 date: 2020-06-01
-roles:
-    - Graphic Design
 tags: work
 ---
 

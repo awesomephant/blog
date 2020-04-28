@@ -5,7 +5,10 @@
     grid-column: 1 / 13;
 
     @include bp(m) {
-        grid-column: 1 / 7;
+        grid-column: 1 / 10;
+    }
+    @include bp(l) {
+        grid-column: 1 / 8;
     }
 }
 

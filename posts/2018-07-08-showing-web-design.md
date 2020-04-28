@@ -99,11 +99,6 @@ I found it helpful to write down a little script to remind me what I was doing: 
 
 ## Embedding the site as an iFrame
 
-<p class='hasimage'>
-<iframe src='http://assemblypoint.xyz/' height='650px' style='resize: both'></iframe>
-<a href='https://assemblypoint.xyz/'>Assemblypoint.xyz</a> by myself. 
-</p>
-
 This seems to have a lot of upsides: You don't have to mess with screenshots or recording software. It's interactive, and animations play in real time. You could even make the iFrame resizable to show off how your design works at different screen sizes. 
 
 On the downside: Since you're loading a whole website inside that iFrame, performance could be an issue. There's also the risk that the client makes some drastic change to their site. What if they bring on another designer and they start to make changes? It would be weird to have their work pop up on your portfolio. 

@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "predeploy": "npx @11ty/eleventy",
-    "deploy": "gh-pages -d _site"
+    "start": "npx @11ty/eleventy --serve"
   },
   "author": "Max Kohler",
   "license": "ISC",

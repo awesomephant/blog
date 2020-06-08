@@ -8,7 +8,7 @@ external_link: http://www.manypeoplearetyping.com/
 
 ![/assets/projects/mpat.png](/assets/projects/mpat.png)
 
-> *Many people are typing* is a new discussion platform/publication-progress about the environments, social structures, and economies where design is taught and practiced by Kat McGrath, Roland Ross, me, and Julia Schäfer.
+*Many people are typing* is a new discussion platform/publication-progress about the environments, social structures, and economies where design is taught and practiced by Kat McGrath, Roland Ross, me, and Julia Schäfer.
 
 
 Content for the site is produced in a private Slack channel, and automatically published to the website through a custom Slack app and express backend. The front-end is written in React. Design and concept by Ross, McGrath, Schäfer and me, code by me.

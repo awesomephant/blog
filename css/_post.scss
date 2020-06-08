@@ -1,7 +1,7 @@
 .post {
     grid-column: 1 / 13;
     @include bp(l){
-        grid-column: 5 / 13;
+        grid-column: 2 / 13;
     }
     width: 100%;
     max-width: 40em;
@@ -15,12 +15,6 @@
         max-width: 100%;
         display: inline-block;
         margin-bottom: .5em;
-        mix-blend-mode: multiply;
-        filter: grayscale(1) contrast(1.2);
-        &:hover {
-            mix-blend-mode: normal;
-            filter: grayscale(0);
-        }
     }
     .overlay {
         position: absolute;
@@ -132,7 +126,7 @@
     @include bp(m){
         grid-column: 2 / 5;
     }
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
@@ -148,7 +142,7 @@
 }
 
 .post-title {
-    font-size: var(--ms-0);
+    font-size: var(--ms-3);
     font-weight: 500;
     margin-bottom: 1em;
     max-width: 25em;
@@ -162,5 +156,9 @@
     li {
         margin-bottom: .5em;
         break-inside: avoid;
+    }
+    a {
+        white-space: auto;
+        line-break: anywhere;
     }
 }

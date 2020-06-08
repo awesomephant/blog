@@ -48,10 +48,13 @@
     --green: #022a13;
 
     @include bp(m) {
-        --ms-0: 1.32rem;
+        --ms-0: 1.22rem;
+    }
+    @include bp(l) {
+        --ms-0: 1.3rem;
     }
 }
 
 body {
-    background-color: rgb(233, 237, 250);
+    background-color: rgb(251, 248, 245);
 }

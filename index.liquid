@@ -5,35 +5,51 @@ class: home
 
 <section class='home-work home-section'>
     <h2>Work</h2>
-    <nav class='project-list'>
+    <ul class='project-list'>
         {% assign works = collections.work | reverse %}
+        {% assign currentYear = "" %}
         {% for p in works %}
-        <a href='{{ p.url }}' class='project-list-item'>
-            <h3 class='project-title'>
-                {{p.data.title}}
+        {% assign thisYear = p.date | date: "%Y" %}
+        <li class='project-list-item'>
+            {% if thisYear != currentYear %}
+            {% assign currentYear = thisYear %}
+            <span class="project-date">
+                {{currentYear}}
+            </span>
+            {% endif %}
+            <h3 class="project-title">
+                <a href='{{ p.url }}'>
+                    {{p.data.title}}
+                </a>
             </h3>
-        </a>
+        </li>
         {% endfor %}
-    </nav>
+    </ul>
 </section>
 <section class='home-writing home-section'>
     <h2>Notes</h2>
     <nav class='project-list'>
         {% assign posts = collections.post | reverse %}
+        {% assign currentYear = "" %}
         {% for post in posts %}
-        <a href="{{ post.url }}" class='project-list-item'>
-            <h3 class='project-title p-name'>
-                {% if post.data.shortTitle %}
-                {{ post.data.shortTitle }}
-                {% else %}
-                {{ post.data.title }}
-                {% endif %}
+        {% assign thisYear = post.date | date: "%Y" %}
+        <li class='project-list-item'>
+            {% if thisYear != currentYear %}
+            {% assign currentYear = thisYear %}
+            <span class="project-date">
+                {{currentYear}}
+            </span>
+            {% endif %}
+            <h3 class="project-title">
+                <a href="{{ post.url }}">
+                    {% if post.data.shortTitle %}
+                    {{ post.data.shortTitle }}
+                    {% else %}
+                    {{ post.data.title }}
+                    {% endif %}
+                </a>
             </h3>
-        </a>
+        </li>
         {% endfor %}
-        <a href="http://awesomephant.github.io/notes" class='project-list-item'>
-            <date class='project-year blank'></date>
-            <h3 class='project-title'>Lecture Notes</h3>
-        </a>
     </nav>
 </section>

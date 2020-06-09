@@ -1,5 +1,5 @@
 .site-header {
-    margin-bottom: 5em;
+    margin-bottom: 2em;
     max-width: 35em;
     font-weight: 400;
     grid-column: 1 / 13;
@@ -9,11 +9,41 @@
     }
 }
 
-.shading {
-    font-size: 18px;
-    display: block;
+.home-caption {
+    font-size: var(--ms--1);
+    grid-column: 9 / 13;
+    grid-row: 3 / 6;
+    line-height: 1;
+    text-align: right;
+    a {
+        border-bottom: 0;
+        text-decoration: underline;
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
+    @include bp(m){
+        grid-column: 10 / 12;
+    }
+    @include bp(xl){
+        grid-column: 8 / 11;
+    }
+
+}
+
+.home-hero {
     margin-bottom: .5em;
-    font-family: monospace;
+    grid-column: 1 / 13;
+    @include bp(m){
+        grid-column: 2 / 12;
+    }
+    @include bp(xl){
+        grid-column: 2 / 11;
+    }
+    img {
+        max-width: 100%;
+        animation: fade-in var(--fast) both;
+    }
 }
 
 .project-list-item {
@@ -28,9 +58,12 @@
     }
 
     .project-title {
-        grid-column: 3 / 12;
+        grid-column: 3 / 13;
         @include bp(m) {
-            grid-column: 5 / 12;
+            grid-column: 5 / 10;
+        }
+        @include bp(xl) {
+            grid-column: 5 / 8;
         }
 
         font-weight: 400;

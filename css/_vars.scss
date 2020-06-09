@@ -16,7 +16,7 @@
     }
 
     @else if $point==m {
-        @media (min-width: 45rem) {
+        @media (min-width: 55rem) {
             @content;
         }
     }
@@ -26,6 +26,11 @@
             @content;
         }
     }
+}
+
+@keyframes fade-in {
+    from {opacity: 0; transform: translateY(5px);}
+    to {opacity: 1; transform: translateY(0);}
 }
 
 :root {
@@ -46,6 +51,7 @@
     --lightgray: rgb(248, 245, 242);
     --white: #fff;
     --green: #022a13;
+    --fast: 300ms;
 
     @include bp(m) {
         --ms-0: 1.22rem;

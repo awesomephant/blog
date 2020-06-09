@@ -9,12 +9,6 @@ module.exports = function (eleventyConfig) {
         })
     );
 
-    eleventyConfig.addShortcode("fig", function (url, caption) {
-        return (
-            `<figure><img loading="lazy" src='/sian-website/${url}'/><figcaption>${caption}</figcaption></figure>
-            `
-        );
-    });
     eleventyConfig.addPairedShortcode("footnotes", function (todoItems) {
         return (
             `<aside class='footnotes'>

@@ -27,7 +27,7 @@ This is where I’m beginning to think that something bigger has been lost here.
 
 ---
 
-The usual response to concerns about the environmental damage cause by graphic design are technological fixes: Printing with soy-based inks on recycled paper, using lighter typefaces to save on ink, or moving from print to digital: *Please consider the environment before printing this email*.
+The usual response to concerns about the environmental damage cause by graphic design are technological fixes: Printing with soy-based inks on recycled paper, using lighter typefaces to save on ink, or moving from print to digital: *Please consider the environment before printing this email*[1].
 
 These ideas are no doubt well-intentioned, but ultimately they're incremental improvements to a deeply broken system — equivalent to replacing petrol cars with electric ones, or plastic straws with cornstarch. At best, what these proposals achieve is shift *which* natural recources we’re going to waste on consumerism.
 
@@ -42,15 +42,19 @@ The reason it’s so scary is that my entire understanding of economics, of how 
 
 Success in graphic design is measured following the same logic: Whoever gets to work with the largest print budgets, the biggest brands, whoever gets the most views, whoever shows their work in the most countries is the most succesful.
 
-But with every news story about a wild fire, heatwave, storm, or flood, that model looks more untenable. Smarter people than me are working on alternative models for design, and cultural production in general. In *Duty Free Art*, Hito Steyerl writes:
-
+But with every news story about a wild fire, heatwave, storm, or flood, that model looks more untenable. Smarter people than me are working on alternative models for design, and cultural production in general. In *Duty Free Art*[2], Hito Steyerl writes:
 
 > The contrary [to current ways of doing design] is a process that doesn’t grow via destruction, but very literally de-grows constructively. This type of construction is not creating inflation, but devolution. Not centralized competition but cooperative autonomy. Not fragmenting time and dividing people, but reducing expansion, inflation, consumption, dept, disruption, occupation, and death.
 
 Intellectually, I know that what she and others are proposing is true, necessary, and probably without alternative. But emotionally, I’m not ready to feel hopeful about that new form of design practice: I’m not done grieving the end of the old one.
 
 ## Notes
+
+{% footnotes %}
+
 1. I’m not aware of any similar ideas for screen-based design, maybe because we tend to assume it’s cleaner by default? It isn’t: See datacenter emissions.
 2. Hito Steyerl (2019): *Duty Free Art: Art in the Age of Planetary Civil War*, p. 18. Verso Books.
+
+{% endfootnotes %}
 
 This essay was first published on [Content Free](http://content-free.net/articles/panams-world).

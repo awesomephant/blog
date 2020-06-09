@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log(images)
     
     images.forEach(img => {
+        if (img.complete){
+            img.classList.add('loaded')
+            img.classList.add('cached')
+        }
         img.addEventListener('load', () => {
             img.classList.add('loaded')
         })

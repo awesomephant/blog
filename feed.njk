@@ -1,0 +1,38 @@
+---
+permalink: feed.xml
+metadata:
+  title: Max Kohler
+  url: https://maxkoehler.com/
+  author:
+    name: Max Kohler
+    email: hi@maxkoehler.com
+  feed:
+    subtitle: Max Kohler is a graphic design student at the Royal College of Art, London. Follow him on Twitter, Instagram, or email hi@maxkoehler.com for project inquiries. 
+    filename: feed.xml
+    path: feed/feed.xml
+    url: https://maxkoehler.com/feed.xml
+    id:  https://maxkoehler.com/
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.feed.subtitle }}</subtitle>
+  <link href="{{ metadata.feed.url }}" rel="self"/>
+  <link href="{{ metadata.url }}"/>
+  <updated>{{ collections.post | rssLastUpdatedDate }}</updated>
+  <id>{{ metadata.feed.id }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+<email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for post in collections.post %}
+  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}"/>
+    <updated>{{ post.date | rssDate }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

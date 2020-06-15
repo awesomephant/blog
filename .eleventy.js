@@ -1,5 +1,6 @@
 const typesetPlugin = require('eleventy-plugin-typeset');
 const pluginSass = require("eleventy-plugin-sass");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(
@@ -17,7 +18,7 @@ module.exports = function (eleventyConfig) {
             `
         );
     })
-
+    
     eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("./*.png");
@@ -26,7 +27,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("_redirects");
     eleventyConfig.addPassthroughCopy("favicon.ico");
     eleventyConfig.addPassthroughCopy("site.webmanifest");
-
+    
+    eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSass, {});
     return {}
 };

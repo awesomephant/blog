@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "author": "Max Kohler",
   "license": "ISC",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
     "eleventy-plugin-typeset": "github:liamfiddler/eleventy-plugin-typeset",
     "gh-pages": "^2.2.0"
   },

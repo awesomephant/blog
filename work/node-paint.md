@@ -3,6 +3,7 @@ layout: post
 title: Node Paint
 date: 2019-08-01
 tags: work
+category: Interactive
 ---
 
 ![Screenshot](/assets/np/Capture-19.PNG)

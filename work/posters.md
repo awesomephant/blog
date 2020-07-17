@@ -3,6 +3,7 @@ layout: post
 title: RCA Posters
 date: 2020-06-01
 tags: work
+category: Print
 ---
 
 Posters for various events at the Royal College of Art, London.

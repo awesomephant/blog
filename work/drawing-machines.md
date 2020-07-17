@@ -2,6 +2,7 @@
 layout: post
 title: Teaching machines to draw
 date: 2018-04-01
+category: Hardware
 images:
     - '/assets/projects/dm2-1.jpg'
     - '/assets/projects/red-drawing.jpg'

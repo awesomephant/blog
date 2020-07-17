@@ -3,6 +3,7 @@ layout: post
 title: AvH Study Collection
 date: 2018-01-01
 tags: work
+category: Archive
 ---
 
 I designed and built an online database of the biological study collecton at my _Gymnasium_ in Konstanz, Germany. At the time of this writing roughly a third of the collection is catalogued.

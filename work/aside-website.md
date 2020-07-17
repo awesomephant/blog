@@ -3,6 +3,7 @@ layout: post
 title: Aside London
 date: 2017-06-01
 tags: work
+category: Editorial
 images:
     - '/assets/aside-screen.png'
 ---

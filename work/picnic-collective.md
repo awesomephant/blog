@@ -4,6 +4,7 @@ title: Picnic Collective
 date: 2020-06-28
 tags: work
 external_link: https://itspicnic.co/
+category: Interactive
 ---
 
 ![ts](/assets/projects/picnic.png)

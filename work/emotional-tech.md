@@ -3,6 +3,7 @@ layout: post
 title: Emotional Tech Report Website
 date:  2019-01-01
 tags: work
+category: Editorial
 ---
 
 ![vf catalogue](/assets/gradient-1.png)

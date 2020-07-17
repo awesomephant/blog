@@ -4,6 +4,7 @@ title: Strike Radio
 date: 2020-04-25
 tags: work
 externalLink: http://strikeradio.org/
+category: Editorial
 ---
 
 ![/assets/projects/strike-radio.png](/assets/projects/strike-radio.png)

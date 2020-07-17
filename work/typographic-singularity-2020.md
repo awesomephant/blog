@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Typographic Singularity
+title: Typographic Singularity 20
 date: 2020-06-26
 tags: work
 external_link: https://www.typographicsingularity.com/
+category: Interactive
 ---
 
 ![ts](/assets/projects/ts-2020.png)

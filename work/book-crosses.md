@@ -3,6 +3,7 @@ layout: post
 title: Book Crosses
 date:  2019-04-01
 tags: work
+category: Print
 ---
 
 A month-long investigation into the idea of using pre-existing letters, words, and sentences to compose new messages.

@@ -2,16 +2,10 @@
 layout: post
 title: Camberwell Graphic Design Show 18
 date: 2018-06-01
-team:
-    - Imogen Walker
-    - Shawn Sawyers
-    - Katherine Marriot
-    - Joshua Attwood
-    - William Eels
-    - Ben Browning
 thumbnail: /assets/projects/ccagd-2.png 
 intro: I worked on the website for the 2018 Graphic Design Degree Show at Camberwell College of Arts with creative direction from Shawn Sawyers and development help from Ben Browning.  
 tags: work
+category: Event
 ---
 
 We built the site on [Jekyll](https://jekyllrb.com/), with a Google Document acting as the database. This allowed different members of the team to update the content of the site without touching code or logging into a content management system.

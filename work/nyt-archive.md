@@ -3,6 +3,7 @@ layout: post
 title: Bound in Blue Goatskin
 date: 2019-02-01
 tags: work
+category: Print
 ---
 
 In an attempt to engage with archival material in a new way, I filtered archival editions of the New York Times (ranging from the early 19th century to the early 2000s) for headlies containing references to primary colours: Red, blue, and yellow. The clippings were ordered chronologically and collected into a book.

@@ -4,6 +4,7 @@ title: Many people are typing
 date: 2020-04-26
 tags: work
 external_link: http://www.manypeoplearetyping.com/
+category: Editorial
 ---
 
 ![/assets/projects/mpat.png](/assets/projects/mpat.png)

@@ -28,6 +28,7 @@
     @include bp(xl){
         grid-column: 8 / 11;
     }
+    display: none;
 
 }
 
@@ -59,13 +60,23 @@
     .project-title {
         grid-column: 3 / 13;
         @include bp(m) {
-            grid-column: 5 / 10;
+            grid-column: 5 / 9;
         }
         @include bp(xl) {
             grid-column: 5 / 8;
         }
-
+        
         font-weight: 400;
+    }
+    .project-category {
+        display: none;
+        @include bp(m) {
+            display: block;
+            grid-column: 10 / 12;
+        }
+        @include bp(xl) {
+            grid-column: 9 / 12;
+        }
     }
 
     a {

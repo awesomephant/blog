@@ -8,6 +8,7 @@ team:
     - Margot Parker
     - Ben Browning
 tags: work
+category: Event
 ---
 
 Graphic Identity for the 2017 FdA Graphic Design and FdA Illustration degree show at Camberwell College of Arts, London. Outcomes included a website, a risograph-printed poster and environmental graphics.

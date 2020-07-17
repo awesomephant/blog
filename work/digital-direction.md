@@ -3,6 +3,7 @@ layout: post
 title: RCA Digital Direction
 date: 2020-01-01
 tags: work
+category: Event
 ---
 
 <video class='full' autoplay loop muted src='/assets/digital-direction-walkthrough.mp4'></video>

@@ -6,6 +6,7 @@ tags: post
 thumb: ""
 intro: ""
 includesMath: true
+category: Hardware
 ---
 
 ## November 28, 2017

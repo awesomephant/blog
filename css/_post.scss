@@ -1,6 +1,6 @@
 .post {
     grid-column: 1 / 13;
-    @include bp(l){
+    @include bp(m){
         grid-column: 2 / 13;
     }
     width: 100%;
@@ -55,7 +55,7 @@
         margin-left: -.26em;
     }
     code {
-        font-family: "IBM Plex Mono";
+        font-family: "IBM Plex Mono", monospace;
         font-size: .8em;
     }
     pre {

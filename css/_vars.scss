@@ -10,7 +10,7 @@
     }
 
     @else if $point==l {
-        @media (min-width: 70rem) {
+        @media (min-width: 90rem) {
             @content;
         }
     }
@@ -54,7 +54,7 @@
     --fast: 300ms;
 
     @include bp(m) {
-        --ms-0: 1.22rem;
+        --ms-0: 1.1rem;
     }
     @include bp(l) {
         --ms-0: 1.3rem;

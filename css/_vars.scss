@@ -54,13 +54,6 @@
     --fast: 300ms;
 
     @include bp(m) {
-        --ms-0: 1.1rem;
-    }
-    @include bp(l) {
         --ms-0: 1.3rem;
     }
-}
-
-body {
-    background-color: rgb(241, 243, 248);
 }

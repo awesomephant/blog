@@ -19,7 +19,12 @@ body {
     color: var(--green);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    background-color: rgb(241, 243, 248);
+    &.post {
+        background-color: white;
+    }
 }
+
 
 a {
     color: inherit;

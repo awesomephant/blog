@@ -4,7 +4,7 @@
         grid-column: 2 / 13;
     }
     width: 100%;
-    max-width: 40em;
+    max-width: 50em;
     grid-row: 3 / auto;
     hyphens: auto;
     a {
@@ -158,7 +158,10 @@
         break-inside: avoid;
     }
     a {
-        white-space: auto;
-        line-break: anywhere;
+        word-break: break-all;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+        white-space: pre-line;
     }
 }

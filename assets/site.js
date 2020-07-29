@@ -6,14 +6,7 @@ var state = {
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-const footerMessages = [
-    'Kern-y.',
-    'Thanks for your eyeballs.',
-    'Unpaid internships are illegal.',
-    'Made by an immigrant.',
-    '🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺🇪🇺',
-    'Cars into ploughshares'
-]
+
 document.addEventListener('DOMContentLoaded', function () {
     let headlines = document.querySelectorAll('.post-content h2[id], .post-content h3[id]');
     for (let i = 0; i < headlines.length; i++) {
@@ -39,13 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
     for (let i = 0; i < footnotes.length; i++) {
         footnotes[i].innerText = i + 1;
     }
-
-    let footerMsg = document.querySelector('.footer-message');
-    footerMsg.innerHTML = footerMessages[getRandomInt(0, footerMessages.length - 1)]
-
     const images = document.querySelectorAll('img')
-    console.log(images)
-    
+ 
     images.forEach(img => {
         if (img.complete){
             img.classList.add('loaded')

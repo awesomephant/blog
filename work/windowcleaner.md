@@ -13,7 +13,7 @@ category: Editorial
 
 This is the first production site I built on the Jamstack – Built using a static site generator ([Eleventy](https://www.11ty.dev/)) and deployed to a static CDN (Netlify). Because [Jose](http://josegarciaoliva.com/), who runs the society, was already comfortable with version control, we were able to work on the site directly through git without spinning up a separate CMS.
 
-The articles and events are authored as Markdown files, while the collaborative reference list is pulled in from a Google spreadsheet at during the build. Because the site is pre-built, I have to run some Javascript on the frontend to sort out time-sensitive information, like whether an event is upcoming, ongoing or past.
+The articles and events are authored as Markdown files, while the collaborative reference list is pulled in from a Google spreadsheet during the build process. Because the site is pre-built, I have to run some Javascript on the frontend to sort out time-sensitive information, like whether an event is upcoming, ongoing or past.
 
 I was pretty happy to finally find a use for Robert Slimbach's *Acumin Pro*. The heavier weights feel especiallly appropriate on this site focused on activism.
 

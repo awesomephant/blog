@@ -17,6 +17,7 @@ class: home
         {% assign works = collections.work | reverse %}
         {% assign currentYear = "" %}
         {% for p in works %}
+        {% if p.data.hidden != true %}
         {% assign thisYear = p.date | date: "%Y" %}
         <li class='project-list-item'>
             {% if thisYear != currentYear %}
@@ -32,6 +33,7 @@ class: home
             </h3>
             <span class="project-category">{{p.data.category}}</span>
         </li>
+        {% endif %}
         {% endfor %}
     </ul>
 </section>

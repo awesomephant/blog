@@ -7,7 +7,7 @@ external_link: http://www.manypeoplearetyping.com/
 category: Editorial
 ---
 
-![/assets/projects/mpat.png](/assets/projects/mpat.png)
+![/assets/projects/mpat.png](/assets/mpat.png)
 
 *Many people are typing* is a new discussion platform/publication-progress about the environments, social structures, and economies where design is taught and practiced by Kat McGrath, Roland Ross, me, and Julia Schäfer.
 

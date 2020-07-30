@@ -9,7 +9,7 @@ category: Interactive
 
 ![ts](/assets/projects/ts-2020.png)
 
-*Typographic Singularity* is an annual celebration of the experimental use of typography and language in creative practices at the Royal College of Art.
+> *Typographic Singularity* is an annual celebration of the experimental use of typography and language in creative practices at the Royal College of Art.
 
 This year's edition of the event had to move to an online platform, which I designed and implemented with Costas Kalogeropoulos, Meli Berney, William Jacobson, Nayonika Ghosh, Jack Llewellyn, Konstantina Benaki, Bakhi Haider and Camille Le Flem.
 

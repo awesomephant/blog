@@ -4,7 +4,6 @@ title: Camberwell Graphic Design Show 20
 date: 2020-07-30
 tags: work
 category: Event
-hidden: true
 ---
 
 ![Wish you were here website screenshot](/assets/ccw2020.png)

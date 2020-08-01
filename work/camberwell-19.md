@@ -11,4 +11,8 @@ Website design and development, with art direction from [somethingstudios](https
 ![Camberwell 19 Website Screenshot](/assets/camberwell-19-1.png)
 ![Camberwell 19 Website Screenshot](/assets/camberwell-19-2.png)
 
-Featured on [Hover States](https://hoverstat.es/features/camberwell-festival), [Klikkentheke](https://klikkentheke.com/websites/camberwell-festival/), and [It's Nice That](https://www.itsnicethat.com/articles/double-click-back-to-school-digital-211019).
+## Coverage
+
+- [Hover States](https://hoverstat.es/features/camberwell-festival)
+- [Klikkentheke](https://klikkentheke.com/websites/camberwell-festival/)
+- [It's Nice That](https://www.itsnicethat.com/articles/double-click-back-to-school-digital-211019)

@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         headlines[i].insertAdjacentElement('afterbegin', link)
     }
 
-    let paragraphs = document.querySelectorAll('.post-content p');
+    let paragraphs = document.querySelectorAll('.post-content p, .post-content li');
 
     for (let i = 0; i < paragraphs.length; i++) {
         let image = paragraphs[i].querySelector('img, video, iframe');

@@ -17,4 +17,7 @@ The site is built on a Postgres/Express/Socket.io backend hosted on Heroku. The 
 
 View the live site at [typographicsingularity.com](https://www.typographicsingularity.com/)
 
-Featured on [Hoverstates](https://www.hoverstat.es/features/typographic-singularity-2020) and [Fonts in Use](https://fontsinuse.com/uses/33780/typographic-singularity-2020).
+## Coverage
+
+- [Hoverstates](https://www.hoverstat.es/features/typographic-singularity-2020)
+- [Fonts in Use](https://fontsinuse.com/uses/33780/typographic-singularity-2020)

@@ -53,7 +53,7 @@ jobs:
 
 The ```on``` key at the top of the file tells Github when to run the workflow. In this case, that's whenever I ```push``` to the ```main``` branch.
 
-Then you describe what work you want the workflow to do. Per Github's documentation:
+Then you describe what work you want the workflow to do. Per [Github's documentation](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow):
 
 > Workflows must have at least one job, and jobs contain a set of steps that perform individual tasks. Steps can run commands or use an action. You can create your own actions or use actions shared by the GitHub community and customize them as needed.
 
@@ -61,8 +61,8 @@ My workflow here has one job called ```deploy``` with four steps:
 
 1. ```actions/checkout@v2``` is an action [written by Github itself](https://github.com/marketplace/actions/checkout) that downloads a fresh copy of your repository.
 1. ```Install dependencies``` runs ```yarn install``` which pulls down the dependencies I've listed in my ```package.json``` file.
-1. ```Run build command``` triggers ```yarn run build```, which in turn is pointed at a gulp task that does the actual work of compiling my Sass, packaging my Javascript and so on.[2]
-1. ```Deploy via FTP``` runs ```yarn run deploy```, which is pointed at [another gulp task](https://www.npmjs.com/package/vinyl-ftp) that uploads the files we just built to the server my Wordpress site lives on.
+1. ```Run build command``` triggers ```yarn run build```, which in turn is pointed at a gulp task that does the actual work of compiling my Sass, packaging my Javascript and whatever else I need to do.[2]
+1. ```Deploy via FTP``` runs ```yarn run deploy```, which is pointed at [another gulp task](https://www.npmjs.com/package/vinyl-ftp) that uploads the contents of the repository (including the files we just built) to the server my Wordpress site lives on.
 
 ## Secrets
 

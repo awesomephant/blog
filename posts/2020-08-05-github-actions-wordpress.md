@@ -8,7 +8,7 @@ intro: ""
 tags: post
 ---
 
-Since I started using [Netlify](https://www.netlify.com/) a few weeks ago, I've gotten extremely used to the workflow it enables you to have:
+I started using [Netlify](https://www.netlify.com/) a few weeks ago, and I've already gotten very used to the workflow it enables you to have:
 
 1. You work on a local copy of your website
 2. You push changes to Github
@@ -61,18 +61,19 @@ My workflow here has one job called ```deploy``` with four steps:
 
 1. ```actions/checkout@v2``` is an action [written by Github itself](https://github.com/marketplace/actions/checkout) that downloads a fresh copy of your repository.
 1. ```Install dependencies``` runs ```yarn install``` which pulls down the dependencies I've listed in my ```package.json``` file.
-1. ```Run build command``` runs ```yarn run build```, which in turn is pointed at a gulp task that does the actual work.[2]
-1. ```Deploy via FTP``` runs ```yarn run deploy```, which is pointed at another gulp task that uploads the files we just built to the server my Wordpress site lives on.
+1. ```Run build command``` triggers ```yarn run build```, which in turn is pointed at a gulp task that does the actual work of compiling my Sass, packaging my Javascript and so on.[2]
+1. ```Deploy via FTP``` runs ```yarn run deploy```, which is pointed at [another gulp task](https://www.npmjs.com/package/vinyl-ftp) that uploads the files we just built to the server my Wordpress site lives on.
 
 ## Secrets
 
 The last step is interesting: How does the gulp task know how to FTP into my server? I certainly don't want to put my login credentials into my repository, but how else could I tell my build process about them? Turns out Github has a mechanism called [secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) that's designed just for this purpose.
 
+
+Instead of storing the secrets inside your repository (which, again, *terrible idea*), you go into your repository's settings on Github and enter them there, where they're stored safely and well-encrypted. The interface looks like this:
+
 ![Screenshot showing github secrets interface](/assets/gh-secrets.png)
 
-Instead of storing the secrets inside your repository (which, again, *terrible idea*), you go into your repository's settings on Github and enter them there, where they're stored well-encrypted.
-
-Then, you can acess those secrets during your workflows by adding them as environment variables – that's what this section of the workflow's YAML file does:
+Then, you can acess those secrets during your workflows by adding them as environment variables to individual *steps*  – that's what the ```env``` property in my YAML file does:
 
 ```yaml
 env:

@@ -1,4 +1,4 @@
-$color-string: #df3d0c;
+$color-string: #127e36;
 
 code[class*="language-"],
 pre[class*="language-"] {
@@ -13,6 +13,7 @@ pre[class*="language-"] {
 	tab-size: 4;
 	hyphens: none;
 	background: var(--lightgray);
+	border-radius: 3px;
     color: #2a2d36;
     margin-top: 1rem;
 }
@@ -41,9 +42,8 @@ pre[class*="language-"] {
     font-family: "IBM Plex Mono";
 	padding: .1em;
     border-radius: .3em;
-    color: $color-string;
+    color: inherit;
     font-size: .8em;
-    color: $color-string;
     background: var(--lightgray);
 }
 
@@ -51,11 +51,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #898ea4;
+	color: #a3a3a3;
 }
 
 .token.punctuation {
-	color: #5e6687;
+	color: #79736f;
 }
 
 .token.namespace {
@@ -101,6 +101,7 @@ pre[class*="language-"] {
 .token.directive,
 .token.unit {
 	color: #9b831a;
+	font-style: italic;
 }
 
 .token.statement,

@@ -1,10 +1,10 @@
-.post {
+.single-post {
     grid-column: 1 / 13;
     @include bp(m){
         grid-column: 2 / 13;
     }
     width: 100%;
-    max-width: 50em;
+    max-width: 40em;
     grid-row: 3 / auto;
     hyphens: auto;
     a {
@@ -113,14 +113,14 @@
     grid-column: 2 / 12;
     @include bp(m){
         grid-column: 2 / 5;
+        padding-top: 4rem;
     }
     font-weight: 400;
     display: flex;
-    flex-flow: column;
     align-items: flex-start;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     span {
-        display: block;
+        margin-right: 1em;        
     }
 }
 
@@ -131,7 +131,7 @@
 
 .post-title {
     font-size: var(--ms-3);
-    font-weight: 600;
+    font-weight: 800;
     margin-bottom: 1em;
     max-width: 25em;
 }

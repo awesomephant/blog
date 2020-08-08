@@ -3,16 +3,8 @@ layout: base
 class: home
 ---
 
-<section class="home-hero">
-    <img src="/assets/archiver/lines.png" alt="">
-</section>
-
-<aside class="home-caption">
-    Illustration: Research image from the <a href="/posts/2019-09-29-archiver/">Tate Archive</a>. 
-</aside>
-
 <section class='home-work home-section'>
-    <h2>Work</h2>
+    <h2>Design</h2>
     <ul class='project-list'>
         {% assign works = collections.work | reverse %}
         {% assign currentYear = "" %}
@@ -38,7 +30,7 @@ class: home
     </ul>
 </section>
 <section class='home-writing home-section'>
-    <h2>Notes</h2>
+    <h2>Writing</h2>
     <nav class='project-list'>
         {% assign posts = collections.post | reverse %}
         {% assign currentYear = "" %}

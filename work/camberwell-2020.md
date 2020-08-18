@@ -26,3 +26,4 @@ View the live site at [wishyouwereherecamberwell.com](https://www.wishyouwereher
 ## Coverage
 
 - [Represent Blog](https://represent.uk.com/blog/wish-you-were-here-2020-by-camberwell-college-of-arts/)
+- [It's Nice That](https://www.itsnicethat.com/articles/double-click-august-2020-degree-show-websites-digital-180820)

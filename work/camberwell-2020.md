@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Camberwell Graphic Design Show 20
+title: Wish you were here
 date: 2020-07-30
 tags: work
 category: Event

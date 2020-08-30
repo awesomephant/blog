@@ -7,9 +7,9 @@ class: post
 	<span class="post-section post-meta-item">
 		{% assign t = tags | first %}
 		{% if t == "post" %}
-			Writing
-			{% else %}
-			{{t | capitalize}}
+		Writing
+		{% else %}
+		{{t | capitalize}}
 		{% endif %}
 	</span>
 	<date class="post-date post-meta-item">
@@ -30,6 +30,7 @@ class: post
 			<div class="post-intro">
 				{{ intro | markdownify}}
 			</div>
+		</div>
 	</header>
 	<div class="post-content">
 		{% for v in page.videos %}

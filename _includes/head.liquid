@@ -12,8 +12,8 @@
 	<meta name="twitter:creator" content="@maxakohler">
 	<meta name="twitter:site" content="@maxakohler">
 	<meta name="twitter:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
-	<meta name="twitter:description" content="{% if page.intro %}{{ page.intro }}{% endif %}">
-	<meta name="twitter:image:src" content="{% if page.thumb %}{{ page.thumb }}{% endif %}">
+	<meta name="twitter:description" content="{% if intro %}{{ intro | strip_newlines | truncate: 160 }}{% else %}Frontend Developer, Designer, Writer{% endif %}">
+	<meta name="twitter:image:src" content="{% if thumb %}https://www.maxkoehler.com/{{ thumb }}{% endif %}">
 
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">

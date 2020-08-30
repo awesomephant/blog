@@ -4,7 +4,7 @@ title: Just enough CMS
 date: 2020-08-29
 includesMath: false
 includesMusic: false
-intro: ""
+intro: "Here's a question I ask myself all the time: Does this website I'm about to build need a CMS?."
 tags: post
 ---
 

@@ -4,7 +4,7 @@
         grid-column: 2 / 13;
     }
     width: 100%;
-    max-width: 40em;
+    max-width: 35em;
     grid-row: 3 / auto;
     hyphens: auto;
     a {
@@ -109,7 +109,7 @@
 }
 
 .post-meta {
-    font-size: var(--ms-0);
+    font-size: var(--ms--1);
     grid-column: 2 / 12;
     @include bp(m){
         grid-column: 2 / 5;
@@ -131,7 +131,7 @@
 
 .post-title {
     font-size: var(--ms-3);
-    font-weight: 800;
+    font-weight: 600;
     margin-bottom: 1em;
     max-width: 25em;
 }

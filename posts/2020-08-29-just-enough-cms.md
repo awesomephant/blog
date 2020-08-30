@@ -6,9 +6,8 @@ includesMath: false
 includesMusic: false
 intro: "Here's a question I ask myself all the time: Does this website I'm about to build need a CMS?."
 tags: post
+thumb: "/assets/ccw-flow.png"
 ---
-
-Here's a question I ask myself all the time: *Does this website I'm about to build need a CMS?*.
 
 If the answer is yes, I'm creating a lot of work for myself *now*: I'll have to spin up some local development environment, think up a data structure, and write a bunch of templates. But *later* the CMS will make it really easy to update the site, so hopefully I'll make up the time I spent setting it up.
 

@@ -1,9 +1,9 @@
-$color-string: #127e36;
+$color-string: #bf1dff;
 
 code[class*="language-"],
 pre[class*="language-"] {
 	font-family: "IBM Plex Mono";
-	font-size: 1.2rem;
+	font-size: 1rem;
 	line-height: 1.3;
 	direction: ltr;
 	text-align: left;
@@ -18,18 +18,6 @@ pre[class*="language-"] {
     margin-top: 1rem;
 }
 
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-	text-shadow: none;
-	background: #dfe2f1;
-}
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
-	text-shadow: none;
-	background: #dfe2f1;
-}
-
 /* Code blocks */
 pre[class*="language-"] {
 	padding: .8em;
@@ -42,9 +30,8 @@ pre[class*="language-"] {
     font-family: "IBM Plex Mono";
 	padding: .1em;
     border-radius: .3em;
-    color: inherit;
+    color: $color-string;
     font-size: .8em;
-    background: var(--lightgray);
 }
 
 .token.comment,

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LaTeX"
+title:  "LaTeX Recipes"
 date: 2017-12-03 22:00:00
 tags: post
 thumb: ""
@@ -9,20 +9,21 @@ intro: "I just spent the last weeks writing my dissertation on Collectivist Hous
 
 I spent at least a day and a half getting all my figures numbered correctly, making sure my bibliography was formatted correctly, all my citations were in the right format. *Numbering things, making sure data is in the right format* - sounds like something a *computer* would be good at.
 
-Turns out there is software to do precisely this, and it's been around for 20 years: it's called LaTex. This is what *actual academics* use to write papers.
+Turns out there is software to do precisely this, and it's been around for 20 years: it's called LaTex.
 
 ## Bold, Italic
 
-```
+```latex
 The link between \textit{consumer choice} and political freedom is especially pronounced in the 1980s
 ```
-```
+
+```latex
 The link between \textit{consumer choice} and political freedom is especially pronounced in the 1980s
 ```
 
 ## Images
 
-```
+```latex
 \begin{figure}[h]
     \includegraphics[width=\textwidth]{./images/die-neue-wohnung-web.jpg}
     \caption{Video stills from 'The New Dwelling' ['Die Neue Wohnung'], a 1930 film showing the benefits of modernist housing}
@@ -33,7 +34,8 @@ The link between \textit{consumer choice} and political freedom is especially pr
 ```h``` is a label that controls where in the document the figure will show up. ```h``` will put it where it appears in the source document. ```ht``` puts it at the top of the page. There's loads of other options
 
 ## Sections
-```
+
+```latex
 \section{Section Title}
 \subsection{Sub Section Title}
 ```
@@ -42,7 +44,7 @@ The link between \textit{consumer choice} and political freedom is especially pr
 
 All your references go in a seperate file in this format:
 
-```
+```latex
 @online{wilder,
     author = "Charly Wilder",
     year = "2016",
@@ -55,11 +57,11 @@ All your references go in a seperate file in this format:
 
 This lets you keep a more information than will eventually end up in the bibliography, ie. the author's full name. In your actual text document, you *reference* entries in your bibliography file like this:
 
-```
+```latex
 In a country still struggling to recover from the First World War, with violent revolutions going on in Europe and new technology changing every aspect of life, change seemed inevitable. \autocite{wilder}
 ```
 
-```
+```latex
 Popular critics such as \textcite{wolfe} criticise modernist housing as being overly academic and fundamentally unfit for its purpose. 
 ```
 
@@ -71,23 +73,23 @@ LaTeX is going to pull in any information it needs to do a correct citation from
 
 Since we've given LaTeX all sorts of information about our document, we can do neat things like this:
 
-```
+```latex
 \begin{titlepage}
     \maketitle
 \end{titlepage}
 ```
 
-```
+```latex
 \tableofcontents
 ```
 
-```
+```latex
 \listoffigures
 ```
 
-
 ## Headers and Footers
-```
+
+```latex
  \pagestyle{fancy}
    \fancyhf{}
    \fancyhead[LE,RO]{\nouppercase{\leftmark}}

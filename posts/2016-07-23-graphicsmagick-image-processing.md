@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GraphicsMagick"
+title:  "GraphicsMagick Recipes"
 date: 2016-09-14 10:01:32
 tags: post
 thumb: ""
@@ -21,7 +21,7 @@ If you're already comfortable with the command-line skip right ahead. If not, st
 
 **On a Mac** the easiest way to install Graphicsmagick is through [Homebrew](http://brew.sh/). Homebrew is a command-line app that makes it easier to install other command-line apps. Once you've got it set up, run the following command to install Graphicsmagick:
 
-```
+```batch
 brew install graphicsmagick
 ```
 
@@ -29,7 +29,7 @@ brew install graphicsmagick
 
 Once the setup is complete, open a new command line and type ```gm``` (short for Graphicsmagick). If everything is set up correctly you should see the following result:
 
-```
+```bash
 > gm
 GraphicsMagick 1.3.24 2016-05-30 Q8 http://www.GraphicsMagick.org/
 Copyright (C) 2002-2016 GraphicsMagick Group.
@@ -38,33 +38,34 @@ Copyright (C) 2002-2016 GraphicsMagick Group.
 And you're good to go! Here's some examples of things to do:
 
 ## Resize a folder of images
-```
+
+```batch
 gm mogrify -output-directory your-output-folder -create-directories -resize 400x200 *.jpg
 ```
 
 Let's look at this one bit at a time. 
-```gm``` is short for GraphicsMagick. ```mogrify``` is the command we're using - it handles scaling, resizing and other basic transformations.
+
+- ```gm``` is short for GraphicsMagick. ```mogrify``` is the command we're using - it handles scaling, resizing and other basic transformations.
 
 Next, we'll pass a number of arguments to ```mogrify``` that tell it exactly what to do.
 
-```-output-directory your-output-folder``` specifies a folder where gm will save the resized images. If we didn't do this, gm would overwrite the source files. ```-create-directories``` tells gm to create the output directory if it doesn't exist yet.
-
-```-resize 400x200``` is what triggers the actual resizing. GM will resize each image so that it fits within those dimensions - so the resized images will be _at most_ 400px wide and _at most_ 200px tall. If you want to resize an image to exact dimensions (and possibly strech it in the process) use ```-resize 400x200!``` (with and exclamation mark).
-
-```*.jpg``` defines the source images we're working with - in this case any JPG image in the current folder.
+- ```-output-directory your-output-folder``` specifies a folder where gm will save the resized images. If we didn't do this, gm would overwrite the source files. ```-create-directories``` tells gm to create the output directory if it doesn't exist yet.
+- ```-resize 400x200``` is what triggers the actual resizing. GM will resize each image so that it fits within those dimensions - so the resized images will be _at most_ 400px wide and _at most_ 200px tall. If you want to resize an image to exact dimensions (and possibly strech it in the process) use ```-resize 400x200!``` (with and exclamation mark).
+- ```*.jpg``` defines the source images we're working with - in this case any JPG image in the current folder.
 
 This ```gm [command] [arguments] [source]``` structure remains largely the same regardless of which command you're using. Here's some more examples:
 
 ## Convert a folder of images to a different format
 
-```
+```batch
 gm mogrify -output-directory output -format png *.jpg
 ```
 
 GM will convert pretty much any image file into anything you could think of - the [list of supported file types is impressive](http://www.graphicsmagick.org/GraphicsMagick.html#desc)
 
 ## Create an animated gif from a folder of images
-```
+
+```batch
 gm convert -delay 100 *.jpg animation.gif
 ```
 
@@ -72,7 +73,7 @@ gm convert -delay 100 *.jpg animation.gif
 
 ## Generate a grid from a folder of images
 
-```
+```batch
 gm montage -tile 5x5 -geometry 250x250+5+5 *.jpg grid.jpg
 ```
 
@@ -83,10 +84,13 @@ gm montage -tile 5x5 -geometry 250x250+5+5 *.jpg grid.jpg
 
 I've written a batch script based on [this Stack Overflow answer](https://stackoverflow.com/questions/32662618/need-to-generate-separate-cmyk-images-in-color-from-pdf):
 
-```
+```batch
+REM Convert to CMYK
 gm convert %1.jpg -colorspace CMYK %1-cmyk.jpg
+REM Invert
 gm convert %1-cmyk.jpg -operator All negate 1 %1-cmyk.jpg
 
+REM Generate individual channels
 gm convert %1-cmyk.jpg -channel Cyan %1-cyan.png
 gm convert %1-cmyk.jpg -channel Yellow %1-yellow.png
 gm convert %1-cmyk.jpg -channel Magenta %1-magenta.png
@@ -95,7 +99,7 @@ gm convert %1-cmyk.jpg -channel Black %1-key.png
 
 Usage:
 
-```
+```batch
 rgbToCMYK.bat myImage
 ```
 
@@ -103,7 +107,7 @@ Where ```myImage``` is the filename _without the file extension_.
 
 ## Write the filename into the image
 
-```
+```batch
 gm mogrify  -output-directory output -fill white -pointsize 25 -font Arial -draw "text 10,30 '%t'" *.png
 ```
 
@@ -112,7 +116,7 @@ This is the great thing about command-line tools like this: They don't make any 
 
 As an example, you might want to create an animated gif from a folder of images but also scale the gif so you don't end up with a massive file. Just pass a ```-resize``` argument to ```convert``` and you're set.
 
-```
+```batch
 gm convert -resize 200x200 -delay 100 *.jpg animation.gif
 ```
 

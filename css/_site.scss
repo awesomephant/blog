@@ -87,3 +87,17 @@
         display: block;
     }
 }
+
+.follow {
+    font-size: var(--ms--1);
+    padding: .01em .25em;
+    text-decoration: none;
+    border: 1px solid var(--black);
+    border-radius: 3px;
+    margin-left: .25em;
+}
+
+.spacer {
+    grid-column: 1 / 13;
+    height: 1rem;
+}

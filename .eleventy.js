@@ -3,26 +3,30 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPairedShortcode("footnotes", function (todoItems) {
-        return (
-            `<aside class='footnotes'>
+  eleventyConfig.addPairedShortcode("footnotes", function (todoItems) {
+    return `<aside class='footnotes'>
             ${todoItems}
 </aside>
-            `
-        );
-    })
-    
-    eleventyConfig.addPassthroughCopy("js");
-    eleventyConfig.addPassthroughCopy("assets");
-    eleventyConfig.addPassthroughCopy("./*.png");
-    eleventyConfig.addPassthroughCopy("./*.xml");
-    eleventyConfig.addPassthroughCopy("./*.txt");
-    eleventyConfig.addPassthroughCopy("_redirects");
-    eleventyConfig.addPassthroughCopy("favicon.ico");
-    eleventyConfig.addPassthroughCopy("site.webmanifest");
-    
-    eleventyConfig.addPlugin(pluginRss);
-    eleventyConfig.addPlugin(pluginSass, {});
-    eleventyConfig.addPlugin(syntaxHighlight);
-    return {}
+            `;
+  });
+
+  eleventyConfig.addFilter("wordcount", function (s) {
+    const words = s.split(' ')
+    const minutes = (words.length / 150)
+    return minutes.toFixed(1);
+  });
+
+  eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("./*.png");
+  eleventyConfig.addPassthroughCopy("./*.xml");
+  eleventyConfig.addPassthroughCopy("./*.txt");
+  eleventyConfig.addPassthroughCopy("_redirects");
+  eleventyConfig.addPassthroughCopy("favicon.ico");
+  eleventyConfig.addPassthroughCopy("site.webmanifest");
+
+  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginSass, {});
+  eleventyConfig.addPlugin(syntaxHighlight);
+  return {};
 };

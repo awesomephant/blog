@@ -15,6 +15,7 @@ class: post
 	<date class="post-date post-meta-item">
 		{{ date | date: "%B %d, %Y" }}
 	</date>
+	<span>{{content | strip_html | wordcount}} minutes</span>
 </aside>
 
 <article class='single-post {{page.class}} section-{{page.section}}'>
@@ -33,13 +34,6 @@ class: post
 		</div>
 	</header>
 	<div class="post-content">
-		{% for v in page.videos %}
-		<video src='{{v}}' muted loop autoplay></video>
-		{% endfor %}
-		{% for image in page.images %}
-		<img class='project-image' src="{{image}}" alt="">
-		{% endfor %}
 		{{ content }}
-
 	</div>
 </article>

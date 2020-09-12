@@ -11,7 +11,7 @@ tags: post
 
 I recently wrote about the privatisation of university buildings[1] and how that’s a Bad Thing™.
 
-Between the time I enrolled and graduated at Camberwell College of Arts, the building went from being largely open to the public to a situation where access to the building, and movement inside it is tightly controlled by access cards, remote-controlled gates, cameras, visitors lists, fencing, and private security guards. The Royal College was already in a similar state when I got there (plus the private landlord adding their own power mechanisms to the pile in the form of inspections, hostile architecture, and more security guards).
+Between the time I enrolled and graduated at Camberwell College of Arts, the building went from being largely open to the public to a situation where access to the building, and movement inside it is tightly controlled by access cards, remote-controlled gates, cameras, visitors lists, fencing, and private security guards. The Royal College was already in a similar state when I got there (plus the private landlord adding their own power mechanisms to the pile in the form of inspections, defensive architecture, and security more security guards).
 
 The move to online teaching over the last few days is a dramatic escalation of this same movement. While our department heads are doing their best to get everyone onto Zoom calls or Hangouts as soon as possible, let’s remember what these apps are: entirely private, venture-funded2, data-collecting, exclusive to anyone without high-end internet, for-profit spaces designed to reproduce the hierarchies of business meetings. Access is finely graded and revokable at any time if you stop paying your subscription fees or otherwise become a nuiscance to the institution.
 
@@ -30,7 +30,9 @@ But the most dystopian Zoom feature of all has to be Attendee attention tracking
 > Cool feature alert! Attendee Attention Tracking in Zoom can help you monitor your students’ attention to your shared presentation. Whether it’s a video, a powerpoint, or your desktop, if Zoom is not the app in focus on a student’s computer you will see a clock indicator next to their name in the Participant box […] It may also be helpful to let your students know that you will be grading this metric. In the virtual classroom, anything you can do as educators to facilitate engagement and attention will translate to continued success in the classroom. 
 
 Again, this information only flows up toward the administration (and in semi-anonymised form to Zoom and its advertising partners5). Attendees (remember when we were students) are seen, but can’t themselves see beyond whatever material the organisation has made available.
-Google, 2012: Method and apparatus for focus-of-attention control, Patent Drawing. Available at patents.google.com/patent/US8913103B1
+
+![kjsdfh](/assets/US08913103-20141216-D00000.png)
+Google, 2012: *Method and apparatus for focus-of-attention control* (Patent Drawing). Available at [patents.google.com/patent/US8913103B1](https://patents.google.com/patent/US8913103B1)
 
 Management at the Royal College have announced they will be rolling out Zoom to all students, but it is unclear which of its administrative features they’re planning to use, what information they’re storing, and for what purpose. But even if they didn’t use any and stored nothing, the fact that these control mechanisms are built into the platform to be turned on at any moment without any real option to dissent, is damaging enough. You can’t practice institutional critique when the institution is sitting on a giant mute button6.
 
@@ -39,9 +41,6 @@ Not that this kind of privatised software-space is new to education. Other ed-te
 This is why it is now more necessary than ever to interrogate these virtual spaces as we would the classroom and, as Hal Foster puts it, “find fissures within this world, to pressure these cracks, and open up a little running room”7.
 
 Some of this has already started: public Whatsapp groups provide an unofficial commentary track to most official Zoom meetings. Multiple programs at the RCA have taken over their formerly marketing-oriented Instagram accounts and are using them to critique the institution. Official emails are screenshotted and discussed in cross-institutional Slack channels. This isn’t to say that these platforms don’t have their own problems, but by creating our own spaces within them, we’re at least avoiding the most immediate level of administrative control. The next step is to think about how we want this online-learning thing to work, and building our own systems (not necessarily technological) to support that.
-
-1027 words, 3:44 minutes. Read it on [Content Free](http://content-free.net/articles/zoom-zoom-zoom).
-
 
 ## Notes 
 {% footnotes %}

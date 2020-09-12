@@ -1,11 +1,11 @@
 .site-header {
     margin-bottom: 2em;
-    max-width: 38em;
+    max-width: 34em;
     font-weight: 500;
     grid-column: 1 / 13;
-    font-size: var(--ms--1);
+    font-size: var(--ms-0);
     @include bp(m) {
-        margin-bottom: 4em;
+        margin-bottom: 3em;
         grid-column: 2 / 10;
     }
 }

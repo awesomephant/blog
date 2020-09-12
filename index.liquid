@@ -10,7 +10,7 @@ class: home
         {% assign currentYear = "" %}
         {% for p in works %}
         {% if p.data.hidden != true %}
-        {% assign thisYear = p.date | date: "%Y" %}
+        {% assign thisYear = p.date | date: "%y" %}
         <li class='project-list-item'>
             {% if thisYear != currentYear %}
             {% assign currentYear = thisYear %}
@@ -36,7 +36,7 @@ class: home
         {% assign posts = collections.post | reverse %}
         {% assign currentYear = "" %}
         {% for post in posts %}
-        {% assign thisYear = post.date | date: "%Y" %}
+        {% assign thisYear = post.date | date: "%y" %}
         <li class='project-list-item'>
             {% if thisYear != currentYear %}
             {% assign currentYear = thisYear %}

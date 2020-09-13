@@ -22,10 +22,11 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     background: $hero;
-    border-top: .5rem solid $hero;
     padding-top: 2%;
     @include bp(m){
-        padding-top: 2rem;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 100 / 12 * 1vw;
     }
     &.post {
         background: rgb(253, 252, 253);

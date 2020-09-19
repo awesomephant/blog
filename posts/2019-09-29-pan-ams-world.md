@@ -7,6 +7,7 @@ includesMusic: false
 intro: ""
 external_link: "http://content-free.net/articles/panams-world"
 tags: post
+publication: Content Free
 ---
 
 ![Chermayeff & Geismar (1971): Poster from “PanAm’s World” Campaign. Source: eyemagazine.com/feature/article/flight-of-the-imagination](https://paper-attachments.dropbox.com/s_745AF285C56F74DB98F4E80B426B239F0E4FBC9F6F9E8C79C09DC621D447EDF6_1571572437069_Pan-Am-Posters-from-1971-3.jpg)

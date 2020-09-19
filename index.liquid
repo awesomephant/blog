@@ -53,61 +53,8 @@ class: home
                     {% endif %}
                 </a>
             </h3>
+            <span class="project-category">{{post.data.publication}}</span>
         </li>
         {% endfor %}
     </nav>
 </section>
-
-<canvas id="world"></canvas>
-<script>
-    function fillCircle(c, x, y, r, a) {
-        c.beginPath();
-        c.arc(x, y, r, 0, a * Math.PI);
-        c.fill();
-    }
-
-    function yn() {
-        if (Math.random() > .5) {
-            return true;
-        }
-        return false;
-    }
-
-    window.addEventListener('DOMContentLoaded', () => {
-        const el = document.getElementById('world')
-        const c = el.getContext('2d')
-        c.canvas.width = window.innerWidth;
-        c.canvas.height = document.body.scrollHeight;
-        c.fillStyle = "white";
-        c.imageSmoothingEnabled = false;
-
-        const colCount = 3;
-        const colWidth = c.canvas.width / colCount;
-
-        const rowHeight = colWidth;
-        const rowCount = colCount;
-        const cellCount = colCount * rowCount;
-
-        for (let i = 0; i < cellCount; i++) {
-            let col = (Math.floor(i / colCount));
-            let row = (i % rowCount);
-
-            const radius = rowHeight / 2;
-
-            if (yn()) {
-                let x = (col * colWidth) + (colWidth / 2);
-                let y = (row * rowHeight) + (rowHeight / 2);
-                if (yn()) {
-                    fillCircle(c, x, y, radius, 2);
-                } else {
-                    fillCircle(c, x, y, radius, 1);
-                    fillCircle(c, x, y - radius, radius, 1);
-                }
-            } else {
-                if (yn()) {
-                    c.fillRect(col * colWidth, row * rowHeight, colWidth, rowHeight)
-                }
-            }
-        }
-    })
-</script>

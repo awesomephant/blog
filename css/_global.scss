@@ -24,7 +24,9 @@ body {
     padding-top: 2%;
     background: rgb(0, 0, 0);
     color: white;
+    letter-spacing: .02em;
     @include bp(m){
+        letter-spacing: .003em;
         padding-left: 0;
         padding-top: 4rem;
         padding-right: 0;

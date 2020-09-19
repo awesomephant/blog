@@ -10,16 +10,6 @@
     }
 }
 
-#world {
-    position: absolute;
-    z-index: -1000;
-    top: 0;
-    left: 0;
-    width: 100%;
-    opacity: .9;
-    display: none;
-}
-
 .project-list-item {
     display: contents;
 
@@ -73,8 +63,11 @@
 
     h2 {
         grid-column: 1 / 13;
-
+        padding-bottom: 1rem;
+        padding-top: 1rem;
         @include bp(m) {
+            padding-top: 0;
+            padding-bottom: 0;
             grid-column: 2 / 4;
         }
 
@@ -113,5 +106,5 @@
 
 .spacer {
     grid-column: 1 / 13;
-    height: 1rem;
+    height: 1.5rem;
 }

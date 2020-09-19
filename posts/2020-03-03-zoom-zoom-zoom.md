@@ -7,6 +7,7 @@ includesMusic: false
 intro: ""
 external_link: "https://bit.ly/3aypQnU"
 tags: post
+publication: Content Free
 ---
 
 {% fig "/assets/zoomzoom.jpg" "" "Illustration showing a greyscale, blurred screenshot of a Zoom conversation" ""%}

@@ -36,7 +36,7 @@
 :root {
     --font-text: "franklin-gothic-urw", Arial, sans-serif;
     --ratio: 1.2;
-    --ms-0: 1rem;
+    --ms-0: clamp(1.1rem, 2.2vw, 1.3rem);
     --ms--1: calc(var(--ms-0) / var(--ratio));
     --ms-1: calc(var(--ms-0) * var(--ratio));
     --ms-2: calc(var(--ms-1) * var(--ratio));
@@ -53,7 +53,4 @@
     --green: #022a13;
     --fast: 300ms;
 
-    @include bp(m) {
-        --ms-0: 1.3rem;
-    }
 }

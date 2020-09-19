@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "eleventy-plugin-sass": "^1.0.0"
+    "eleventy-plugin-sass": "^1.0.0",
+    "jsdom": "^16.4.0"
   }
 }

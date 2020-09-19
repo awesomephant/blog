@@ -38,6 +38,9 @@
     }
     blockquote {
         padding-left: 2em;
+        font-weight: 600;
+        letter-spacing: 0;
+        font-size: var(--ms-0);
     }
     .pull-double {
         margin-left: -.26em;
@@ -83,10 +86,28 @@
         margin-bottom: 2em;
         border-bottom: 1px solid var(--green);
     }
+    figcaption {
+        font-size: var(--ms--1);
+        p {
+            display: inline-block;
+        }
+    }
+    .fig-source {
+        color: gray;
+        display: inline-block;
+        margin-left: 1em;
+    }
+    .post-figure {
+        margin-bottom: 1em;
+        margin-top: 2em;
+        @include bp(m){
+            width: 120%;
+        }
+    }
     .hasimage {
         margin-top: 2em;
-        margin-bottom: 1em;
         font-size: var(--ms--1);
+        margin-bottom: 1em;
         position: relative;
         img {
             display: block;
@@ -131,11 +152,12 @@
     }
 }
 
-.footnotes {
+.footnotes, .post-footnotes {
     font-size: var(--ms--1);
     columns: 2;
     column-gap: 3em;
     margin-bottom: 1em;
+    padding-top: 3rem;
     li {
         margin-bottom: .5em;
         break-inside: avoid;
@@ -144,5 +166,21 @@
     a {
         hyphens: auto;
         white-space: pre-line;
+    }
+}
+
+.fn {
+    display: inline-block;
+    font-weight: bold;
+    font-size: var(--ms--1);
+    &:before, &:after {
+        display: inline-block;
+        transform: translateY(-.05em);
+    }
+    &:before {
+        content: "[";
+    }
+    &:after {
+        content: "]";
     }
 }

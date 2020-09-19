@@ -18,17 +18,19 @@ body {
     font-feature-settings: "pnum"1, "kern"1;
     padding: 2%;
     font-size: var(--ms-0);
-    color: var(--green);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     background: $hero;
     padding-top: 2%;
+    background: rgb(0, 0, 0);
+    color: white;
     @include bp(m){
         padding-left: 0;
+        padding-top: 4rem;
         padding-right: 0;
-        padding-top: 100 / 12 * 1vw;
     }
     &.post {
+        color: var(--black);
         background: rgb(253, 252, 253);
     }
 }

@@ -100,11 +100,15 @@
 
 .follow {
     font-size: var(--ms--1);
-    padding: .01em .25em;
+    padding: .01em .75em;
     text-decoration: none;
-    border: 1px solid var(--black);
-    border-radius: 3px;
-    margin-left: .25em;
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: gray;
+    margin-left: .5em;
+    &:hover, &:focus {
+        color: white;
+    }
 }
 
 .spacer {

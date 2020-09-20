@@ -19,14 +19,12 @@
 }
 
 .note-title {
-  grid-column: 1 / 12;
-  padding-bottom: 0.2em;
+  grid-column: 4 / 13;
   @include bp(s) {
-    padding-bottom: 0;
-    grid-column: 4 / 12;
+    grid-column: 3 / 13;
   }
   @include bp(m) {
-    grid-column: 7 / 12;
+    grid-column: 6 / 12;
   }
   @include bp(l) {
     grid-column: 7 / 12;
@@ -42,12 +40,9 @@
 
 .note-unit {
   display: none;
-  @include bp(s) {
-    grid-column: 1 / 4;
+  @include bp(l) {
     display: block;
-  }
-  @include bp(m) {
-    grid-column: 2 / 4;
+    grid-column: 3 / 5;
   }
 }
 .note-teacher {
@@ -55,7 +50,17 @@
   padding-right: 1rem;
   @include bp(m) {
     display: block;
+    grid-column: 3 / 6;
+  }
+  @include bp(l) {
     grid-column: 5 / 7;
+  }
+}
+.note-date {
+  padding-right: 1rem;
+  grid-column: 1 / 3;
+  @include bp(m) {
+    grid-column: 2 / 3;
   }
 }
 
@@ -63,7 +68,7 @@
   grid-column: 1 / 12;
   margin-bottom: 2rem;
   background: var(--notes);
-  
+
   @include bp(m) {
     position: sticky;
     top: 0;

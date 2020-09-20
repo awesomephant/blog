@@ -3,9 +3,15 @@ layout: base
 class: notes
 ---
 
+{% assign counter = 1 %}
+
+{% for n in collections.notes %}
+{% assign counter = counter | plus : 1 %}
+{% endfor %}
+
 <h2 class='notes-title'>Lecture Notes</h2>
 <div class='notes-container' id="notes-container">
-    <input type="text" class="notes-search fuzzy-search" placeholder='Search' />
+    <input type="text" class="notes-search fuzzy-search" placeholder='Search {{counter}} notes' />
     <ul class='notes-list list'>
         {% assign notes = collections.notes | reverse %}
         {% for n in notes %}

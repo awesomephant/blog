@@ -1,0 +1,83 @@
+.notes-list {
+  display: contents;
+}
+
+.notes-item {
+  display: contents;
+}
+
+.notes-container {
+  display: contents;
+}
+
+.notes-title {
+  grid-column: 1 / 12;
+  @include bp(m) {
+    grid-column: 2 / 12;
+  }
+  margin-bottom: 0.5rem;
+}
+
+.note-title {
+  grid-column: 1 / 12;
+  padding-bottom: 0.2em;
+  @include bp(s) {
+    padding-bottom: 0;
+    grid-column: 4 / 12;
+  }
+  @include bp(m) {
+    grid-column: 7 / 12;
+  }
+  @include bp(l) {
+    grid-column: 7 / 12;
+  }
+  a {
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
+.note-unit {
+  display: none;
+  @include bp(s) {
+    grid-column: 1 / 4;
+    display: block;
+  }
+  @include bp(m) {
+    grid-column: 2 / 4;
+  }
+}
+.note-teacher {
+  display: none;
+  padding-right: 1rem;
+  @include bp(m) {
+    display: block;
+    grid-column: 5 / 7;
+  }
+}
+
+.notes-search {
+  grid-column: 1 / 12;
+  margin-bottom: 2rem;
+  background: var(--notes);
+  
+  @include bp(m) {
+    position: sticky;
+    top: 0;
+    grid-column: 2 / 12;
+    margin-bottom: 4rem;
+  }
+  padding: 0.5rem 0;
+  font-family: inherit;
+  border: 0;
+  letter-spacing: -0.01em;
+  font-size: var(--ms-4);
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  &::placeholder {
+    opacity: 1;
+  }
+}

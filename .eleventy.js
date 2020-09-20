@@ -70,6 +70,10 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addCollection("notes", function (collectionApi) {
+    return collectionApi.getFilteredByGlob(["./notes/*.md", "./notes/*.markdown"]);
+  });
+
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("./*.png");

@@ -35,6 +35,10 @@ body {
         color: var(--black);
         background: rgb(253, 252, 253);
     }
+    &.notes {
+        color: var(--black);
+        background: var(--notes);
+    }
 }
 
 

@@ -1,0 +1,34 @@
+---
+layout: base
+class: notes
+---
+
+<h2 class='notes-title'>Lecture Notes</h2>
+<div class='notes-container' id="notes-container">
+    <input type="text" class="notes-search fuzzy-search" placeholder='Search' />
+    <ul class='notes-list list'>
+        {% assign notes = collections.notes | reverse %}
+        {% for n in notes %}
+        <li class="notes-item">
+            <span class="note-unit">
+                {{n.data.unit}}
+            </span>
+            <span class="note-teacher">
+                {{n.data.teacher}}
+            </span>
+            <h3 class="note-title">
+                <a class="note-link" href="{{n.url}}">
+                    {{n.data.title}}
+                </a>
+            </h3>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<script>
+    var options = {
+        valueNames: ['note-unit', 'note-teacher', 'note-link']
+    };
+    var hackerList = new List('notes-container', options);
+</script>

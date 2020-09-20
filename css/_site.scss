@@ -80,8 +80,9 @@
     grid-column: 1 / 12;
     grid-row: auto;
     padding-top: 6em;
+    padding-bottom: 4em;
     font-size: var(--ms--1);
-    max-width: 20em;
+    max-width: 22em;
 
     @include bp(m) {
         grid-column: 2 / 12;

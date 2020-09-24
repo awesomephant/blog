@@ -88,6 +88,7 @@
     }
     figcaption {
         font-size: var(--ms--1);
+        max-width: 30em;
         p {
             display: inline-block;
         }
@@ -100,6 +101,9 @@
     .post-figure {
         margin-bottom: 1em;
         margin-top: 2em;
+        img {
+            max-height: 90vh;
+        }
         @include bp(m){
             width: 120%;
         }

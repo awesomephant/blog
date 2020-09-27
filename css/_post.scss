@@ -84,14 +84,15 @@
     }
     figcaption {
         font-size: var(--ms--1);
-        max-width: 30em;
+        max-width: 42em;
+        hyphens: auto;
         p {
-            display: inline-block;
+            display: inline;
         }
     }
     .fig-source {
         color: gray;
-        display: inline-block;
+        display: inline;
         margin-left: 1em;
     }
     .post-figure {

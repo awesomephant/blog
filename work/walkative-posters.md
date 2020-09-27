@@ -17,3 +17,7 @@ Posters for various events organised by the [Walkative Society](https://www.inst
 
 
 {% fig "/assets/posters/animal-spirits.jpg" "The Animal Spirits: A Walk Through the Square Mile (2020). Letterpress (3 runs) Context Natural. 500x700mm." "Scan of the Animal Spirits poster" ""%}
+
+## Coverage
+
+- [Fonts in Use](https://fontsinuse.com/uses/33845/the-animal-spirits-poster)

@@ -6,7 +6,7 @@ tags: work
 category: Print
 ---
 
-Posters for various events organised by the [Walkative Society](https://www.instagram.com/thewalkativeproject/) at the Royal College of Art, London.
+Posters for various events organised by the [Walkative Society](https://www.instagram.com/thewalkativeproject/) at the Royal College of Art, London. All of these are letterpress-printed by hand from a combination of lasercut and laser-engraved plates, and traditional metal type.
 
 {% fig "/assets/posters/dark-fibre.jpg" "Dark Fibre Network Drift (2019). Letterpress (3 runs) on Southbank Book, 450x640mm." "Scan of the Dark Fibres poster" ""%}
 

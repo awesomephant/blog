@@ -6,7 +6,7 @@ includesMath: false
 includesMusic: false
 intro: ""
 tags: post
-thumb: "/assets/ccw-flow.png"
+thumb: "/assets/cloud.jpg"
 ---
 
 {% fig "/assets/cloud.jpg" "Cropped version of an image originally published in *The Mail Online* with the caption: *Thousands of Britons ignored repeated warnings to stay home as part of ongoing efforts to clamp down on coronavirus by heading to DIY stores, parks and beaches on Sunday.*" "Blurry photograph of people on beachfront" "https://www.dailymail.co.uk/news/article-8258383/More-people-leave-homes-flock-DIY-stores-parks-despite-Covid-19-lockdown.html" %}

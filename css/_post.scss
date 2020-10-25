@@ -117,6 +117,21 @@
             display: inline;
         }
     }
+    details {
+        margin-bottom: 1rem;
+    }
+    summary {
+        margin-bottom: 1rem;
+        padding: .5rem;
+        border-radius: 3px;
+        border: 1px solid $gray;
+        font-size: var(--ms-1);
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 .post-meta {

@@ -42,6 +42,9 @@ module.exports = function (eleventyConfig) {
         </span>
     `;
   });
+  eleventyConfig.addPairedShortcode("details", function (content, summary) {
+    return `<details><summary>${summary}</summary>${md.render(content)}</details>`;
+  });
 
   eleventyConfig.addTransform("resolveFootnotes", function (
     content,

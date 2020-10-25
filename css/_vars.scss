@@ -33,7 +33,8 @@
     to {opacity: 1; transform: translateY(0);}
 }
 
-$pink: rgb(158, 13, 255);
+$pink: rgb(167, 2, 233);
+$gray: rgb(167, 163, 157);
 
 :root {
     --font-text: "franklin-gothic-urw", Arial, sans-serif;
@@ -50,7 +51,7 @@ $pink: rgb(158, 13, 255);
 
     --black: rgb(8, 8, 8);
     --gray: rgb(167, 163, 157);
-    --lightgray: rgb(250, 250, 250);
+    --lightgray: rgb(243, 243, 243);
     --white: #fff;
     --notes: #f0e8ff;
     --fast: 300ms;

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A list of every Wordpress Editor Block
+title: Every Wordpress Editor Block
 date: 2020-09-28
 includesMath: false
 includesMusic: false

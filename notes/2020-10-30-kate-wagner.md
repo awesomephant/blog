@@ -37,6 +37,8 @@ Ostensibly they write about theatre, art, design, literature or whatever, but re
 
 Manfredo Tafuri: _The Theories and History of Architecture_ (1960). He says that because of the way art is made, the critic has an inherently problematic relationship with their subject, there's a complicity between criticism and activity.
 
+## The state of criticism
+
 Three layers of publications:
 
 - Academy (_Log_). When you read these it's easy to forget that the subject is in fact buildings. Whatever is hot in the philosophy department at the moment.
@@ -50,6 +52,8 @@ It's telling how the few progressive architecture practices like [Peter Barber](
 This image-production is essentially safe (hence profitable) because it doesn't realy challenge anything. Big firms get rich, and everyonce in a while they'll throw something to a smaller firm to give the appearance of opportunity.
 
 PR-chitecture is a failiure of criticisim, curation, journalistic adaptation to the media landscape (as well as architecture).
+
+## A new criticism
 
 We're at the end of print architecture criticism, and there isn't really a viable replacement yet. How long does it take for a writer or publication to become financially stable enough to become good and useful. _Mcmansion Hell_ worked out, individual projects aren't the way to build a new architecture criticism. It has to be a collective project.
 

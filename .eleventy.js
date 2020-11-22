@@ -26,7 +26,11 @@ module.exports = function (eleventyConfig) {
     }
     let sourceString = "";
     if (source) {
-      sourceString = `<a href='${source}' class='fig-source'>Source</a>`;
+      if (source.includes("http")) {
+        sourceString = `<a href='${source}' class='fig-source'>Source</a>`;
+      } else {
+        sourceString = `<span class='fig-source long'>${md.render(source)}</span>`;
+      }
     }
 
     return `<figure class='post-figure'>
@@ -74,7 +78,10 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("notes", function (collectionApi) {
-    return collectionApi.getFilteredByGlob(["./notes/*.md", "./notes/*.markdown"]);
+    return collectionApi.getFilteredByGlob([
+      "./notes/*.md",
+      "./notes/*.markdown",
+    ]);
   });
 
   eleventyConfig.addPassthroughCopy("js");

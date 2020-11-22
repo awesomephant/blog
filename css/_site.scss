@@ -13,7 +13,6 @@
 
 .project-list-item {
   display: contents;
-
   .project-date {
     grid-column: 1 / 2;
     padding-right: 1em;
@@ -82,6 +81,14 @@
   font-size: var(--ms--1);
   max-width: 22em;
   padding-top: 2em;
+  i {
+    display: inline-block;
+    margin-right: .5em;
+  }
+  .build {
+    display: block;
+    margin-bottom: .5em;
+  }
   @include bp(m) {
     padding-top: 6em;
     padding-bottom: 4em;

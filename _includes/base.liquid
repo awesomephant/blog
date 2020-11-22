@@ -3,7 +3,8 @@
 
 {% include head.liquid %}
 
-<body class='{{ class }} layout-{{layout}} line-numbers'>
+<body class='{{ class }} layout-{{layout}} line-numbers'
+  style="{% if background %}background: {{background}} {%endif%}">
   {% include header.liquid %}
   {{ content }}
   {% include footer.liquid %}

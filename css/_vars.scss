@@ -1,59 +1,60 @@
 @charset "utf-8";
 @import url("https://use.typekit.net/vlg1sjx.css");
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&display=swap");
 
 @mixin bp($point) {
-    @if $point==xl {
-        @media (min-width: 95rem) {
-            @content;
-        }
+  @if $point==xl {
+    @media (min-width: 95rem) {
+      @content;
     }
-
-    @else if $point==l {
-        @media (min-width: 90rem) {
-            @content;
-        }
+  } @else if $point==l {
+    @media (min-width: 90rem) {
+      @content;
     }
-
-    @else if $point==m {
-        @media (min-width: 55rem) {
-            @content;
-        }
+  } @else if $point==m {
+    @media (min-width: 55rem) {
+      @content;
     }
-
-    @else if $point==s {
-        @media (min-width: 35rem) {
-            @content;
-        }
+  } @else if $point==s {
+    @media (min-width: 35rem) {
+      @content;
     }
+  }
 }
 
 @keyframes fade-in {
-    from {opacity: 0; transform: translateY(5px);}
-    to {opacity: 1; transform: translateY(0);}
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-$pink: rgb(167, 2, 233);
+$pink: rgb(233, 68, 2);
 $gray: rgb(167, 163, 157);
+$sans: "franklin-gothic-urw", Arial, sans-serif;
+$serif: Georgia;
 
 :root {
-    --font-text: "franklin-gothic-urw", Arial, sans-serif;
-    --ratio: 1.2;
-    --ms-0: clamp(1rem, 2.2vw, 1.3rem);
-    --ms--1: calc(var(--ms-0) / var(--ratio));
-    --ms-1: calc(var(--ms-0) * var(--ratio));
-    --ms-2: calc(var(--ms-1) * var(--ratio));
-    --ms-3: calc(var(--ms-2) * var(--ratio));
-    --ms-4: calc(var(--ms-3) * var(--ratio));
-    --ms-5: calc(var(--ms-4) * var(--ratio));
-    --ms-6: calc(var(--ms-5) * var(--ratio));
-    --ms-7: calc(var(--ms-6) * var(--ratio));
+  --font-text: #{$sans};
+  --ratio: 1.2;
+  --ms-0: clamp(1rem, 2.2vw, 1.3rem);
+  --ms--1: calc(var(--ms-0) / var(--ratio));
+  --ms-1: calc(var(--ms-0) * var(--ratio));
+  --ms-2: calc(var(--ms-1) * var(--ratio));
+  --ms-3: calc(var(--ms-2) * var(--ratio));
+  --ms-4: calc(var(--ms-3) * var(--ratio));
+  --ms-5: calc(var(--ms-4) * var(--ratio));
+  --ms-6: calc(var(--ms-5) * var(--ratio));
+  --ms-7: calc(var(--ms-6) * var(--ratio));
 
-    --black: rgb(8, 8, 8);
-    --gray: rgb(167, 163, 157);
-    --lightgray: rgb(243, 243, 243);
-    --white: #fff;
-    --notes: #faf622;
-    --fast: 300ms;
-
+  --black: rgb(8, 8, 8);
+  --gray: rgb(167, 163, 157);
+  --lightgray: rgb(243, 243, 243);
+  --white: #fff;
+  --notes: #faf622;
+  --fast: 300ms;
 }

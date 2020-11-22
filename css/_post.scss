@@ -1,31 +1,44 @@
 .single-post {
   grid-column: 1 / 13;
   @include bp(m) {
-    grid-column: 2 / 13;
+    grid-column: 2 / 11;
+  }
+  @include bp(l) {
+    grid-column: 3 / 9;
   }
   width: 100%;
   max-width: 35em;
   grid-row: 3 / auto;
   hyphens: auto;
+  line-height: 1.2;
+  font-family: $sans;
   img,
   video {
     max-width: 100%;
     display: inline-block;
     margin-bottom: 0.5em;
   }
-  line-height: 1.15;
-  letter-spacing: 0.01em;
   p {
     margin-bottom: 0.5em;
   }
   h2 {
     font-weight: 600;
+    font-family: $sans;
     margin-top: 2em;
+    font-size: var(--ms-2);
+    margin-bottom: 0.2em;
+  }
+  h3 {
+    font-weight: 600;
+    font-family: $sans;
+    margin-top: 2em;
+    font-size: var(--ms-0);
     margin-bottom: 0.2em;
   }
   ul,
   ol {
     margin-left: 1em;
+    margin-top: 1em;
     margin-bottom: 1em;
   }
   li {
@@ -35,14 +48,13 @@
     list-style: inherit;
   }
   blockquote {
-    padding-left: 1em;
-    padding-right: 1em;
-    @include bp(m) {
-      padding-left: 2em;
-      font-weight: 600;
-    }
-    letter-spacing: 0;
+    font-weight: 600;
+    transform: scaleX(0.95);
+    transform-origin: left;
+    padding-left: 1.5em;
     font-size: var(--ms-0);
+    @include bp(m) {
+    }
   }
   .pull-double {
     margin-left: -0.26em;
@@ -68,6 +80,7 @@
     border-bottom: 0;
     font-size: var(--ms--1);
     position: relative;
+    font-family: $sans;
     margin-left: 0.3em;
     top: -0.1em;
     text-decoration: none;
@@ -100,20 +113,23 @@
     color: gray;
     display: inline;
     margin-left: 1em;
+    &.long {
+      display: block;
+      margin-left: 0;
+    }
   }
   .post-figure {
     margin-bottom: 1em;
     margin-top: 1em;
-    @include bp(m){
-        margin-bottom: 1.5em;
-        margin-top: 2em;
+    width: 100%;
+    @include bp(m) {
+      margin-bottom: 1.5em;
+      margin-top: 2em;
     }
     img {
+      width: 100%;
       max-height: 90vh;
-      margin-bottom: .1em;
-    }
-    @include bp(m) {
-      width: 120%;
+      margin-bottom: 0.1em;
     }
   }
   .hasimage {
@@ -150,7 +166,10 @@
   grid-column: 1 / 12;
   padding-top: 1rem;
   @include bp(m) {
-    grid-column: 2 / 7;
+    grid-column: 2 / 9;
+  }
+  @include bp(l) {
+    grid-column: 3 / 7;
     padding-top: 4rem;
   }
   font-weight: 400;
@@ -159,7 +178,7 @@
   margin-bottom: 0.5em;
   span,
   date {
-    margin-right: .75em;
+    margin-right: 0.75em;
     @include bp(m) {
       margin-right: 2em;
     }
@@ -168,15 +187,19 @@
 
 .post-intro {
   font-weight: 500;
-  margin-bottom: 0.8em;
+  margin-top: -2.5rem;
+  font-size: var(--ms-2);
+  hyphens: none;
+  margin-bottom: 2rem;
 }
 
 .post-title {
   font-size: var(--ms-3);
   line-height: 1;
   margin-bottom: 0em;
-  font-weight: 600;
+  font-weight: 800;
   max-width: 25em;
+  font-family: $sans;
   @include bp(m) {
     font-size: var(--ms-5);
     line-height: 1.1;
@@ -194,12 +217,22 @@
 .footnotes,
 .post-footnotes {
   font-size: var(--ms--1);
-  columns: 2;
+  font-family: $sans;
   column-gap: 3em;
   padding-top: 1rem;
-  @include bp(m) {
-    padding-top: 3rem;
-    margin-bottom: 1rem;
+  grid-column: 1 / 12;
+  margin-left: 1em;
+  @include bp(s) {
+    margin-left: 0em;
+    grid-column: 2 / 12;
+    columns: 2;
+  }
+  @include bp(l) {
+    columns: 1;
+    grid-column: 9 / 11;
+    grid-row: 3 / 4;
+    align-self: flex-end;
+    padding-left: 3rem;
   }
   li {
     margin-bottom: 0.5em;
@@ -207,7 +240,7 @@
     line-height: 1;
   }
   a {
-    hyphens: auto;
+    hyphens: none;
     white-space: pre-line;
   }
 }

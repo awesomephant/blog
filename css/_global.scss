@@ -6,6 +6,9 @@
     font-weight: inherit;
 }
 
+@viewport {
+    width: device-width;
+}
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -24,7 +27,7 @@ body {
     padding-top: 2%;
     background: rgb(0, 0, 0);
     color: white;
-    letter-spacing: .02em;
+    letter-spacing: .012em;
     @include bp(m){
         letter-spacing: .003em;
         padding-left: 0;
@@ -41,6 +44,10 @@ body {
     }
 }
 
+::selection {
+    color: white;
+    background: gray;
+}
 
 a {
     color: inherit;

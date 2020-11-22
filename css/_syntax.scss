@@ -29,7 +29,8 @@ pre[class*="language-"] {
     font-family: "IBM Plex Mono", monospace;
 	padding: .1em;
     border-radius: .3em;
-    color: $color-string;
+	color: inherit;
+	background: var(--lightgray);
     font-size: .8em;
 }
 

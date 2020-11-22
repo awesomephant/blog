@@ -22,6 +22,6 @@ Website for *Picnic Collective*, a new independent online residency programme fo
 
 I built the main site with art direction from Julia and Barney, and designed and built a grid-based editor artists use to produce their own residency pages. Both are built in React and hosted on Netlify. We initially kept the data in a Google spreadsheet, but recently migrated to Sanity as the data became more complex.
 
-[Acumin Pro Variable](https://fonts.adobe.com/fonts/acumin) by Adobe/Robert Slimbach is used throughout.
+[Acumin Pro Variable](https://fonts.adobe.com/fonts/acumin) by Robert Slimbach is used throughout.
 
 View the live site at [itspicnic.co](https://itspicnic.co/), and play with editor at [itspicnic.co/editor](https://itspicnic.co/editor)

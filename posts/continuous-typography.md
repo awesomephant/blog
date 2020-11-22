@@ -23,7 +23,7 @@ When you're developing a piece of typography you have to define all of these dif
 - The size and weight of headlines vs. the body copy
 - The shape of the text block vs. the shape of page
 
-There are all kinds of methods to do this (Bringhurst fills a whole chapter with them in _Elements of Typographic Style_{% fn "Robert Bringhurst (2016): *The Elements of Typographic Style, Version 4.2*, Chapter 8. Hartley & Marks"%}), but in any case you eventually arrive at a set of values for your measure, type size, weight, spacing and so on that produce whatever visual expression you set out to achieve.
+There are all kinds of methods to do this (Bringhurst fills a whole chapter with them in _Elements of Typographic Style_{% fn "Robert Bringhurst (2016): *The Elements of Typographic Style, Version 4.2*, Chapter 8. Hartley & Marks."%}), but in any case you eventually arrive at a set of values for your measure, type size, weight, spacing and so on that produce whatever visual expression you set out to achieve.
 
 {% fig "/assets/continuous-type/paragraph-static.svg" "A block of text typeset with absolute values." "A paragraph is set in a serif typeface. Values for measure, font size, line height, etc. are shown in red." "Sample text from *Flexible Typesetting* by Tim Brown." %}
 
@@ -123,7 +123,7 @@ I tend to set these values by eye, but because we're working with functions we h
 
 {% fig "/assets/continuous-type/function-2d.svg" "If we define the font size as a function of the screen size and the reader's default font size, it forms a plane." "A plane is drawn on a 3d-coordinate system. Caption: Font size = Screen width × 0.01 + Reader's default font size × 0.85" "" %}
 
-So far, we've only looked at functions with a single input parameter  – the screen width. But that's not the only input we can use. For instance, it's probably a good idea to take into account the default font size the reader has set up in their device settings, in addition to the size of their screen {% fn "In fact, the user’s default font size should probably be the first parameter we care about. The only reason I'm using the screen width here is that its effects are easier to visualise."%}.
+So far, we've only looked at functions with a single input parameter  – the screen width. But that's not the only input we can use. For instance, it's probably a good idea to take into account the default font size the reader has set up in their device settings, in addition to the size of their screen {% fn "In fact, the user’s default font size should probably be the first parameter we care about. The only reason I’m using the screen width here is that its effects are easier to visualise."%}.
 
 We can use the `calc()` keyword to do this in CSS{% fn "To my knowledge the earliest description of this technique is a 2015 article by Mike Riethmuller called *[Precise control over responsive typography](https://www.madebymike.com.au/writing/precise-control-responsive-typography/)*" %}:
 

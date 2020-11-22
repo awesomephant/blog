@@ -25,7 +25,7 @@ While Netlify's build process feels very much designed to *build and deploy the 
 
 You set up an Action (or *Workflow* – the terminology is a little confusing there) by creating a YAML file in a special folder called ```.github/workflows``` at the root of your project repository.
 
-Mine looks like this[1]:
+Mine looks like this {% fn "I’m only dealing with the Wordpress theme here (i.e a single folder), but if you had a more complicated setup (maybe involving custom functions) you could extend this configuration to accomodate for that, too."%}:
 
 ```yaml
 name: CI
@@ -61,7 +61,7 @@ My workflow here has one job called ```deploy``` with four steps:
 
 1. ```actions/checkout@v2``` is an action [written by Github itself](https://github.com/marketplace/actions/checkout) that downloads a fresh copy of your repository.
 1. ```Install dependencies``` runs ```yarn install``` which pulls down the dependencies I've listed in my ```package.json``` file.
-1. ```Run build command``` triggers ```yarn run build```, which in turn is pointed at a gulp task that does the actual work of compiling my Sass, packaging my Javascript and whatever else I need to do.[2]
+1. ```Run build command``` triggers ```yarn run build```, which in turn is pointed at a gulp task that does the actual work of compiling my Sass, packaging my Javascript and whatever else I need to do{% fn "I like using ```yarn run build``` instead of the actual gulp command here because it means that when I change my build process, I only have to update my ```package.json``` file and the Action will still work. It’s also nice not to have to remember a whole bunch of different build commands as you switch between projects – it’s always ```yarn build```."%}.
 1. ```Deploy via FTP``` runs ```yarn run deploy```, which is pointed at [another gulp task](https://www.npmjs.com/package/vinyl-ftp) that uploads the contents of the repository (including the files we just built) to the server my Wordpress site lives on.
 
 ## Secrets
@@ -102,18 +102,10 @@ This totally works! Whenever I push to the repository, the action is triggered a
 
 My process for working on Wordpress sites now looks like this:
 
-1. I work on a local copy of the site[3]
+1. I work on a local copy of the site{% fn "I use [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV) to run Wordpress locally."%}
 2. When I've made a change, I push it to Github
 3. The workflow we just defined checks out the repository
 4. It installs my dependencies and runs my build process
 5. It FTPs into my server and uploads the freshly-built files
 
 Just what I set out to do.
-
-
-## Notes
-{% footnotes %}
-1. I'm only dealing with the Wordpress theme here (i.e a single folder), but if you had a more complicated setup (maybe involving custom functions) you could extend this configuration to accomodate for that, too.
-2. I like using ```yarn run build``` instead of the actual gulp command here because it means that when I change my build process, I only have to update my ```package.json``` file and the Action will still work. It's also nice not to have to remember a whole bunch of different build commands as you switch between projects – it's always ```yarn build```.
-3. I use [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV) to run Wordpress locally.
-{% endfootnotes %}

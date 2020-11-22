@@ -6,6 +6,7 @@ includesMath: false
 includesMusic: false
 intro: ""
 tags: post
+background: "#f5e6ff"
 ---
 
 The degree show is a staple of art school life in Britain and the United States. Held at the end of the summer term, they’re a an opportunity for graduates to develop their work in a high-stakes exhibition environment, celebrate the time spent together, and speak to a wider public. Since indoor events are still off-limits in most places, this year’s degree shows have largely moved online.

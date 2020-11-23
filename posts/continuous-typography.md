@@ -11,7 +11,9 @@ thumb: "https://maxkoehler.com/assets/continuous-type/spot.png"
 
 Here are some notes about an idea I've been calling Continuous Typography for the sake of thinking about it. It's a way of thinking about typography in terms of continuous functions, rather than absolute values.
 
-Functions (you'll recall from your maths textbook) produce different results based on one or more input parameters. For example, the function $$f(x) = 3x + 2$$ will return different results depending on the value of its input parameter x. If we apply this idea to typography, it allows us to make design decisions relative to outside parameters like screen size, connection speed, user preferences, and so on. This can apply to any environment, but it's especially useful for typesetting on the web.
+Functions (you'll recall from your maths textbook) produce different results based on one or more input parameters. For example, the function $$f(x) = 3x + 2$$ will return different results depending on the value of its input parameter $$x$$.
+
+If we apply this idea to typography, it allows us to make design decisions relative to variable input parameters like screen size, connection speed, user preferences, and so on. This can apply to any environment, but it's especially useful for typesetting on the web.
 
 Note that most of these ideas aren't very original anymore, I'm largely synthesising here for my own understanding. Take a look at the footnotes for the original sources.
 

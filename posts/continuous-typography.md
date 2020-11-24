@@ -19,7 +19,7 @@ Note that most of these ideas aren't very original anymore, I'm largely synthesi
 
 ## The Problem
 
-When you're developing a piece of typography you have to define all of these different relationships:
+When you're developing a piece of typography you have to define a series of relationships:
 
 - The space between letters vs. the space between words, lines, and paragraphs
 - The size and weight of headlines vs. the body copy
@@ -29,7 +29,7 @@ There are all kinds of methods to do this (Bringhurst fills a whole chapter with
 
 {% fig "/assets/continuous-type/paragraph-static.svg" "A block of text typeset with absolute values." "A paragraph is set in a serif typeface. Values for measure, font size, line height, etc. are shown in red." "Sample text from *Flexible Typesetting* by Tim Brown." %}
 
-Take the font size, for instance: We want to set this so it gives the right voice to the piece of writing we're working with, but it also has to be appropriate to the typeface we've chosen, the size of the page, and it should result in a comfortable number of characters per line. Other adjustments follow from it: A bigger size might require tighter spacing, a change in weight, hyphenation, and so on.
+Take the font size, for instance: We want to set this so it gives the right voice to the piece of writing we're working with, but it also has to be appropriate to the typeface we've chosen, the size of the page, and it should result in a comfortable number of characters per line. Other adjustments follow from it: A change in type size might compel different spacing, a change in weight, hyphenation, and so on.
 
 In print, you tweak these values until you arrive at a set of numbers that produces the visual expression we aimed for. And because you're working with a piece of paper of fixed dimensions and permanent ink, you can be fairly sure that the numbers you've established will stay intact throughout the production process, and land in the reader's hand just how you intended.
 

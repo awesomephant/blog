@@ -12,8 +12,12 @@
   hyphens: auto;
   line-height: 1.2;
   font-family: $sans;
+  .embed {
+    margin-bottom: 0.5em;
+  }
   img,
-  video {
+  video
+  {
     max-width: 100%;
     display: inline-block;
     margin-bottom: 0.5em;
@@ -188,7 +192,7 @@
 .post-intro {
   font-weight: 500;
   line-height: 1.2;
-  margin-top: .25em;
+  margin-top: 0.25em;
   font-size: var(--ms-2);
   hyphens: none;
   margin-bottom: 1em;

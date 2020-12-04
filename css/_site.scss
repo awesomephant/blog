@@ -79,7 +79,7 @@
   grid-column: 1 / 12;
   grid-row: auto;
   font-size: var(--ms--1);
-  max-width: 22em;
+  max-width: 18em;
   padding-top: 2em;
   i {
     display: inline-block;
@@ -87,7 +87,6 @@
   }
   .build {
     display: block;
-    margin-bottom: .5em;
   }
   @include bp(m) {
     padding-top: 6em;

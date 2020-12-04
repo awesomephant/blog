@@ -4,7 +4,7 @@ title: "The Herschey Fonts"
 date: 2020-12-01 19:30:00
 teacher: "Frank Grießhammer"
 unit: "Type @ Cooper"
-abstract: ""
+intro: "Notes from Frank Grießhammer's lecture on the Hershey fonts at the Cooper Union, 2016."
 website: "http://coopertype.org/event/the_hershey_fonts"
 thumb: ""
 ---
@@ -62,4 +62,5 @@ The FORTRAN style comes from the Leroy Lettering Set (used for [comics a lot](ht
 
 While these typefaces are available, they only come in an ancient plain-text format. Grießhammer wrote the necessary Python to turn this into properly-encoded OTFs (albeit with a stem width of 0) - looks like that's [this repo](https://github.com/frankrolf/hershey-fonts), though it doesn't contain the converted font files. Here's [someone else's attempt from 1997](http://paulbourke.net/dataformats/hershey/).
 
-I'm assuming this material flowed into the [MAD Family](https://www.colophon-foundry.org/typefaces/mad-sans/) from Colophon (especially the three weights produced by repeating the outline), though they don't seem to acknowledge it in their marketing copy.
+
+*This is speculation from me, Max*: I'm assuming this material flowed into the [MAD Family](https://www.colophon-foundry.org/typefaces/mad-sans/) from Colophon (especially the three weights produced by repeating the outline), though they don't seem to acknowledge it in their marketing copy.

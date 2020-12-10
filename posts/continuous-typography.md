@@ -137,7 +137,7 @@ p {
 
 Here we're saying: _The font size is equal to the width of the screen multiplied by 0.01, plus the reader's default font size multiplied by 0.85_. If we draw this function onto a coordinate system, its output values no longer form a line but a _plane_; our typographic intent has gained a second dimension.
 
-There is no limit to the number of input parameters our functions can draw on. The reader's connection speed, whether they have dark mode enabled, their reading distance, their preferred language, even the time of day at their location may all be useful parameters for multi-dimensional typographic systems.
+There is no limit to the number of input parameters our functions can draw on. The reader's connection speed, whether they have dark mode enabled{% fn "Greg Gibson (2020): *[Using CSS Custom Properties to Adjust Variable Font Weights in Dark Mode ](https://css-tricks.com/using-css-custom-properties-to-adjust-variable-font-weights-in-dark-mode/)*"%}, their reading distance, their preferred language, even the time of day at their location may all be useful parameters for multi-dimensional typographic systems.
 
 The output of one function can become the input parameter of another, too. This is exactly what happens when we set properties like `line-height` to a unitless value: it quietly pulls in the current font size as a parameter.
 

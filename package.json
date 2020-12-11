@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve --incremental",
     "build": "npx @11ty/eleventy"
   },
   "author": "Max Kohler",

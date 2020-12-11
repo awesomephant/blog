@@ -1,5 +1,20 @@
 $color-string: $pink;
 
+pre {
+	font-family: "IBM Plex Mono", monospace;
+	font-size: 1.05rem;
+	line-height: 1.5;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	tab-size: 4;
+	hyphens: none;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
 code[class*="language-"],
 pre[class*="language-"] {
 	font-family: "IBM Plex Mono", monospace;

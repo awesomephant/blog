@@ -20,20 +20,16 @@ module.exports = function (eleventyConfig) {
     return minutes.toFixed(1);
   });
 
-  eleventyConfig.addShortcode("fig", function (url, caption, alt, source) {
+  eleventyConfig.addShortcode("fig", function (url, caption, alt, source, className) {
     if (!caption) {
       caption = "";
     }
     let sourceString = "";
     if (source) {
-      if (source.includes("http")) {
-        sourceString = `<a href='${source}' class='fig-source'>Source</a>`;
-      } else {
         sourceString = `<span class='fig-source long'>${md.render(source)}</span>`;
-      }
     }
 
-    return `<figure class='post-figure'>
+    return `<figure class='post-figure ${className}'>
         <img alt="${alt}" loading="lazy" src='${url}'/>
         <figcaption>${md.render(caption)} ${sourceString}</figcaption>
         </figure>

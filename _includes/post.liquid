@@ -25,7 +25,7 @@ class: post
 </aside>
 
 <article class='single-post {{page.class}} section-{{page.section}}'>
-	<header class="post-header">
+	<header class="post-header {% if intro%}has-intro{%endif%}">
 		<div class='header-copy'>
 			<h1 class="post-title">
 				{% if external_link %}
@@ -34,9 +34,11 @@ class: post
 				{{ title }}
 				{% endif %}
 			</h1>
+			{% if intro %}
 			<div class="post-intro">
 				{{ intro | markdownify}}
 			</div>
+			{% endif %}
 		</div>
 	</header>
 	<div class="post-content">

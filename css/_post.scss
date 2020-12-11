@@ -16,8 +16,7 @@
     margin-bottom: 0.5em;
   }
   img,
-  video
-  {
+  video {
     max-width: 100%;
     display: inline-block;
     margin-bottom: 0.5em;
@@ -58,6 +57,7 @@
     padding-left: 1.5em;
     font-size: var(--ms-0);
     @include bp(m) {
+      margin-bottom: 1.5em;
     }
   }
   .pull-double {
@@ -101,14 +101,14 @@
   }
   hr {
     border: 0;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    border-bottom: 1px solid var(--green);
+    width: 40%;
+    margin: 5em auto;
+    border-bottom: 1px solid currentColor;
   }
   figcaption {
     font-size: var(--ms--1);
-    max-width: 42em;
     hyphens: auto;
+    text-align: center;
     p {
       display: inline;
     }
@@ -126,13 +126,29 @@
     margin-bottom: 1em;
     margin-top: 1em;
     width: 100%;
+    &.small {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
     @include bp(m) {
       margin-bottom: 1.5em;
       margin-top: 2em;
+      &.big {
+        width: 110%;
+        margin-left: -5%;
+      }
+    }
+    @include bp(l) {
+      &.big {
+        width: 140%;
+        margin-left: -20%;
+      }
     }
     img {
-      width: 100%;
+      max-width: 100%;
       max-height: 90vh;
+      width: auto;
       margin-bottom: 0.1em;
     }
   }
@@ -194,6 +210,9 @@
   line-height: 1.2;
   margin-top: 0.25em;
   font-size: var(--ms-2);
+  @include bp(m) {
+    font-size: var(--ms-3);
+  }
   hyphens: none;
   margin-bottom: 1em;
 }
@@ -209,6 +228,9 @@
     font-size: var(--ms-5);
     line-height: 1.1;
     margin-bottom: 1em;
+    .has-intro & {
+      margin-bottom: 0.1em;
+    }
   }
   a {
     text-decoration: none;

@@ -4,7 +4,7 @@ title: It’s Probably Art
 date: 2020-12-06
 includesMath: false
 includesMusic: false
-intro: "2001, the Sublime, and the Utah Monolith"
+intro: "The Utah Monolith and the Landscape"
 tags: post
 thumb: ""
 canonical: https://maxakohler.medium.com/its-probably-art-b554f7c5f3e0

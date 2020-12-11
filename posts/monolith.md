@@ -12,8 +12,6 @@ canonical: https://maxakohler.medium.com/its-probably-art-b554f7c5f3e0
 
 {% fig "/assets/monolith/monolith-spot.png" "" "A 3d-rendered floating monolith" "" "big" %}
 
-> I WAS STANDING on a plateau perhaps a hundred feet across. It had once been smooth — too smooth to be natural — but falling meteors had pitted and scored its surface through immeasurable aeons. It had been levelled to support a glittering, roughly pyramidal structure, twice as high as a man, that was set in the rock like a gigantic, many-faceted jewel. {% fn "Arthur C. Clarke (1948): *The Sentinel* (Published 1951 as *Sentinel of Eternity*). Available on the [Internet Archive](https://archive.org/stream/10_Story_Fantasy_v01n01_1951-Spring_Tawrast-EXciter#page/n39/mode/2up)"%}
-
 THE UTAH MONOLITH was located at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by Utah wildlife officials on November 23, 2020, and removed 10 days later by four unknown men.{% fn "Alan Yuhas / The New York Times (2020): *[A Weird Monolith Is Found in the Utah Desert](https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html)*"%}
 
 It was ten to twelve feet tall, and made of polished sheet metal riveted together along the edges, forming a slender, triangular column. Until its removal, the structure was embedded (possibly cemented) into a hole of the same cross section, probably cut into the hard ground with a concrete saw.
@@ -22,7 +20,7 @@ In the handful of photographs that exist of the monolith, its formal beauty is c
 
 The monolith related, too, to the park rangers (and later, the handful of ambitious hikers) encountering it. Its height of 12 feet - twice as tall as the average man - looks like an artistic choice rooted in classical ideas of proportion. It's not a million miles away from a Greek column.
 
-But this sense of aesthetic familarity is unsettled by the apparent lack of any material relation between the monolith and the earth around it. Apart from the conspicuous absence of vegetation, the ground bears no obvious signs of work. There is no plinth; the monolith has no base or visible support; it's as if it had simply emerged from the earth already in its finished, inert state. Its matte surface looks oddly flawless for an object exposed to the elements, and produces little reflection of the surrounding landscape. If it weren't for the faintly visible rivets, and a small mound of loose earth by its base, you might mistake it for a misplaced video game asset clipping through the ground from another realm.
+But this sense of aesthetic familarity is unsettled by the apparent lack of any material relation between the monolith and the earth around it. Apart from the conspicuous absence of vegetation, the ground bears no obvious signs of work. There is no plinth; the monolith has no base or visible support; it's as if it had simply emerged from the earth already in its finished, inert state. Its matte surface looks too flawless for an object exposed to the elements, and produces little reflection of the surrounding landscape. If it weren't for the faintly visible rivets, and a small mound of loose earth by its base, you might mistake it for a misplaced video game asset clipping through the ground from another realm.
 
 As you observe it, the monolith seems to oscillate between these two modes of dialogue with its surroundings - one rooted in familiar elements of composition and proportion, the other in its otherwordly materiality - never quite reaching an equilibrium.
 
@@ -56,7 +54,7 @@ We have been looking at works of art in this way for a long time: Berger wrote h
 
 All we have are the four still photographs and three short videos of the sculpture released by the Utah Department of Public Safety (I'll refer to them here by their filenames).
 
-In *Monolith.mp4*, which appears to be the first in the sequence, we see three men in green overalls descending a slope and walking slowly toward the monolith. The fourth man, who is holding the camera, comments: "Okay, the intrepid explorers go down to investigate the, uh, alien life form". In the following images{% fn "3526, 3527, 3528, 3532, 3534, 3546, and monolith.jpg. I wonder what happened to the missing ones."%} the camera has followed the men down the slope, and we see them examining the monlith from close up. Though the camera moves around throughout the sequence, we always see the monolith from a more or less frontal perspective.
+In *Monolith.mp4*, which appears to be the first in the sequence, we see three men in green overalls descending a slope and walking slowly toward the monolith. The fourth man, who is holding the camera, comments: *"Okay, the intrepid explorers go down to investigate the, uh, alien life form"*. In the following images{% fn "3526, 3527, 3528, 3532, 3534, 3546, and monolith.jpg. I wonder what happened to the missing ones."%} the camera has followed the men down the slope, and we see them examining the monlith from close up. Though the camera moves around throughout the sequence, we always see the monolith from a more or less frontal perspective.
 
 {% fig "/assets/monolith/IMG_3946-2.jpeg" "IMG_3946" "alt" "[Source](https://dpsnews.utah.gov/dps-aero-bureau-encounters-monolith-in-red-rock-country/)" "small" %}
 
@@ -94,7 +92,7 @@ From here it's only a small leap to an earlier version of the same prop: the ali
 
 We clearly see the impact of Kubrick's photography on whoever set up the Utah Images. The shock of the sharp-edged, artificial object against the weathered landscape, the group of weary explorers decending towards it, even the spacesuits are mirrored here.
 
-Kubrik's film in turn relates asthetically and thematically to photographs and paintings of the sublime landscape of earlier periods – I wouldn't be surprised to find a photocopy of *The Chasseur in the Forest* somewhere in Kubrick's vast archive {% fn "Jon Ronson / The Guardian (2004): *[Citizen Kubrick](https://www.theguardian.com/film/2004/mar/27/features.weekend)*" %}.
+ Kubrick’s film in turn follows photographs and paintings of the sublime landscape of earlier periods, both in its theme and its aesthetics. I wouldn't be surprised to find a photocopy of *The Chasseur* somewhere in Kubrick's vast archive {% fn "Jon Ronson / The Guardian (2004): *[Citizen Kubrick](https://www.theguardian.com/film/2004/mar/27/features.weekend)*" %}.
 
 But the chain of influence runs the other way, too: Our whole notion of “The Landscape”, and in some cases its physical reality are themselves cultural productions. In the 18th century, European aristocrats planted trees, dug lakes, and built prop ruins of Greek or Roman temples to bring their land closer to what they had seen in paintings of their day{% fn "Paul Cooper / The Atlantic (2018): *[Europe Was Once Obsessed With Fake Dilapidated Buildings](https://www.theatlantic.com/science/archive/2018/04/fake-ruins-europe-trend/558293/)*"%}.
 

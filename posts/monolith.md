@@ -7,13 +7,14 @@ includesMusic: false
 intro: "2001, the Sublime, and the Utah Monolith"
 tags: post
 thumb: ""
+canonical: https://maxakohler.medium.com/its-probably-art-b554f7c5f3e0
 ---
+
+{% fig "/assets/monolith/monolith-spot.png" "" "A 3d-rendered floating monolith" "" "big" %}
 
 > I WAS STANDING on a plateau perhaps a hundred feet across. It had once been smooth — too smooth to be natural — but falling meteors had pitted and scored its surface through immeasurable aeons. It had been levelled to support a glittering, roughly pyramidal structure, twice as high as a man, that was set in the rock like a gigantic, many-faceted jewel. {% fn "Arthur C. Clarke (1948): *The Sentinel* (Published 1951 as *Sentinel of Eternity*). Available on the [Internet Archive](https://archive.org/stream/10_Story_Fantasy_v01n01_1951-Spring_Tawrast-EXciter#page/n39/mode/2up)"%}
 
-{% fig "/assets/monolith/IMG_3532.jpeg" "IMG_3532" "Two men in green overalls walk away from a metal monolith." "" "big" %}
-
-THE UTAH MONOLITH was located at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by Utah wildlife officials on Monday, November 23, 2020, and removed 10 days later by four unknown men.{% fn "Alan Yuhas / The New York Times (2020): *[A Weird Monolith Is Found in the Utah Desert](https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html)*"%}
+THE UTAH MONOLITH was located at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by Utah wildlife officials on November 23, 2020, and removed 10 days later by four unknown men.{% fn "Alan Yuhas / The New York Times (2020): *[A Weird Monolith Is Found in the Utah Desert](https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html)*"%}
 
 It was ten to twelve feet tall, and made of polished sheet metal riveted together along the edges, forming a slender, triangular column. Until its removal, the structure was embedded (possibly cemented) into a hole of the same cross section, probably cut into the hard ground with a concrete saw.
 
@@ -85,7 +86,7 @@ The scene's romantic symmetry only works from "the front", so that's where the p
 
 In this view, the monolith is less of a sculpture and more of a *prop* in an elaborate outdoor set, surrounded by unwitting extras.
 
-{% fig "/assets/monolith/toppled.PNG" "The Monolith toppled" "alt" "Michael James Newlands / [The New York Times](https://www.nytimes.com/2020/12/01/arts/design/utah-monolith-removed-instagram.html)" "small" %}
+{% fig "/assets/monolith/toppled.PNG" "The Monolith toppled" "The Utah monolith is toppled in a blurry cellphone photo" "Michael James Newlands / [The New York Times](https://www.nytimes.com/2020/12/01/arts/design/utah-monolith-removed-instagram.html)" "small" %}
 
 In fact, the cellphone images of the toppled Monolith show that it was built exactly like the prototypical Hollywood prop: not of solid metal, but thin sheets of aluminium mounted to a hidden plywood frame {% fn "Incidentally, you could see this as an argument against the idea that the Monolith is a sculpture by McKracken - his are made of stainless steel."%}.
 
@@ -119,3 +120,7 @@ Finally it disappeared, ten days after it was discovered. According to a couple 
 But on the other hand, I think the monolith's appeal was never really about the physical thing anyway; that was just a prop. What’s more important is the cultural output inspired by it: the images, videos, news reports, collective speculation, and even the after-dark performance of its destruction. That collective body of work survives.
 
 In this year of never-ending crisis, where any attempt to look more than a few days into the future seems utterly hopeless, and our movements have become small and repetetive, the Utah Monolith managed what many online art experiences struggled to do: For a moment, it led our gaze, and our mind away from the world immediately in front of us: up, toward the stars ★
+
+<p class="note">
+This story first appeared <a href='https://maxakohler.medium.com/its-probably-art-b554f7c5f3e0'>on Medium</a>.
+</p>

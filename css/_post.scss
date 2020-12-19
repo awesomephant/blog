@@ -1,5 +1,8 @@
 .single-post {
   grid-column: 1 / 13;
+  @include bp(s) {
+    grid-column: 2 / 11;
+  }
   @include bp(m) {
     grid-column: 2 / 11;
     grid-row-start: 3;
@@ -92,9 +95,9 @@
   }
   hr {
     border: 0;
-    width: 40%;
-    margin: 5em auto;
-    border-bottom: 1px solid currentColor;
+    width: 10em;
+    margin: 3em auto;
+    border-bottom: 2px solid black;
   }
   figcaption {
     font-size: var(--ms--1);
@@ -116,9 +119,12 @@
     }
   }
   .post-figure {
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: .5em;
+    margin-top: .5em;
     width: 100%;
+    &:first-child {
+      margin-top: 0;
+    }
     &.small {
       width: 50%;
       margin-left: auto;
@@ -179,6 +185,9 @@
 
 .post-header {
   grid-column: 1 / 10;
+  @include bp(s) {
+    grid-column: 2 / 10;
+  }
   @include bp(m) {
     grid-row: 2 / 3;
     grid-column: 2 / 10;
@@ -192,10 +201,13 @@
   font-size: var(--ms-0);
   grid-column: 1 / 12;
   width: 80vw;
-  margin-bottom: 0.5em;
   display: flex;
   flex-flow: row;
   font-weight: 600;
+  margin-bottom: 1em;
+  @include bp(s) {
+    grid-column: 2 / 13;
+  }
   @include bp(m) {
     flex-flow: column;
     grid-column: 11 / 13;
@@ -236,13 +248,10 @@
   font-family: $sans;
   margin-bottom: .75em;
   .has-intro & {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1em;
   }
   @include bp(m) {
     font-size: var(--ms-4);
-    .has-intro & {
-      margin-bottom: 0.1em;
-    }
   }
   @include bp(l) {
     font-size: var(--ms-5);
@@ -279,6 +288,9 @@
     margin-bottom: 0.5em;
     break-inside: avoid;
     line-height: 1;
+    &:target {
+      font-weight: 600;
+    }
   }
   a {
     hyphens: none;
@@ -288,8 +300,11 @@
 
 .fn {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   position: relative;
   top: -6px;
   left: -2px;
+  a {
+    text-decoration: none;
+  }
 }

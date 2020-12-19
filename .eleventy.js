@@ -20,21 +20,26 @@ module.exports = function (eleventyConfig) {
     return minutes.toFixed(1);
   });
 
-  eleventyConfig.addShortcode("fig", function (url, caption, alt, source, className) {
-    if (!caption) {
-      caption = "";
-    }
-    let sourceString = "";
-    if (source) {
-        sourceString = `<span class='fig-source long'>${md.render(source)}</span>`;
-    }
+  eleventyConfig.addShortcode(
+    "fig",
+    function (url, caption, alt, source, className) {
+      if (!caption) {
+        caption = "";
+      }
+      let sourceString = "";
+      if (source) {
+        sourceString = `<span class='fig-source long'>${md.render(
+          source
+        )}</span>`;
+      }
 
-    return `<figure class='post-figure ${className}'>
+      return `<figure class='post-figure ${className}'>
         <img alt="${alt}" loading="lazy" src='${url}'/>
         <figcaption>${md.render(caption)} ${sourceString}</figcaption>
         </figure>
         `;
-  });
+    }
+  );
 
   eleventyConfig.addShortcode("fn", function (content) {
     return `
@@ -46,32 +51,36 @@ module.exports = function (eleventyConfig) {
     return `<details><summary>${summary}</summary>${md.render(content)}</details>`;
   });
 
-  eleventyConfig.addTransform("resolveFootnotes", function (
-    content,
-    outputPath
-  ) {
-    if (outputPath.endsWith(".html")) {
-      const dom = new JSDOM(content);
-      let transformed = "";
-      const footnotes = dom.window.document.querySelectorAll(".fn");
-      const footnoteContainer = dom.window.document.querySelector(
-        ".post-footnotes"
-      );
-      if (footnotes && footnoteContainer) {
-        const footnoteList = dom.window.document.createElement("ol");
-        footnotes.forEach((fn, i) => {
-          const fnItem = dom.window.document.createElement("li");
-          fn.textContent = i + 1;
-          fnItem.innerHTML = fn.getAttribute("data-content");
-          footnoteList.appendChild(fnItem);
-        });
-        footnoteContainer.appendChild(footnoteList);
-        transformed = dom.serialize();
-        return transformed;
+  eleventyConfig.addTransform(
+    "resolveFootnotes",
+    function (content, outputPath) {
+      if (outputPath.endsWith(".html")) {
+        const dom = new JSDOM(content);
+        let transformed = "";
+        const footnotes = dom.window.document.querySelectorAll(".fn");
+        const footnoteContainer = dom.window.document.querySelector(
+          ".post-footnotes"
+        );
+        if (footnotes && footnoteContainer) {
+          const footnoteList = dom.window.document.createElement("ol");
+          footnotes.forEach((fn, i) => {
+            const fnItem = dom.window.document.createElement("li");
+            const link = dom.window.document.createElement("a");
+            link.setAttribute("href", `#fn-${i}`);
+            link.textContent = i + 1;
+            fn.appendChild(link);
+            fnItem.setAttribute("id", `fn-${i}`);
+            fnItem.innerHTML = fn.getAttribute("data-content");
+            footnoteList.appendChild(fnItem);
+          });
+          footnoteContainer.appendChild(footnoteList);
+          transformed = dom.serialize();
+          return transformed;
+        }
       }
+      return content;
     }
-    return content;
-  });
+  );
 
   eleventyConfig.addCollection("notes", function (collectionApi) {
     return collectionApi.getFilteredByGlob([

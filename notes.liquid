@@ -17,7 +17,7 @@ class: notes
         {% for n in notes %}
         <li class="notes-item">
             <date class="note-date">
-                <span class="date-short">{{n.data.date | date: "%d/%m/%y"}}</span>
+                <span class="date-short">{{n.data.date | date: "%m/%y"}}</span>
             </date>
             <span class="note-unit">
                 {{n.data.unit}}

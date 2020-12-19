@@ -4,12 +4,11 @@ title: In loving memory of degree shows
 date: 2020-09-28
 includesMath: false
 includesMusic: false
-intro: ""
 tags: post
 background: "#f5e6ff"
 ---
 
-The degree show is a staple of art school life in Britain and the United States. Held at the end of the summer term, they’re a an opportunity for graduates to develop their work in a high-stakes exhibition environment, celebrate the time spent together, and speak to a wider public. Since indoor events are still off-limits in most places, this year’s degree shows have largely moved online.
+THE DEGREE SHOW is a staple of art school life in Britain and the United States. Held at the end of the summer term, they’re a an opportunity for graduates to develop their work in a high-stakes exhibition environment, celebrate the time spent together, and speak to a wider public. Since indoor events are still off-limits in most places, this year’s degree shows have largely moved online.
 
 Looking through these shows (*Lecture in Progress* keeps a helpful list{%fn "*Lecture in Progress Degree Show Listings* (2020). Available at [https://degreeshows.lectureinprogress.com/](https://degreeshows.lectureinprogress.com/)"%}), you quickly notice that most of them follow the same pattern: We land on a list of student’s names, sometimes led by an opening statement from the course leader or chancellor (in video format if you’re particularly unlucky). Each name links to a page that contains information about the student: Their name, a statement introducing themselves and their work, a list of links to their social media profiles, followed by one or more projects represented by some combination of images, video, and text. While the execution of this varies, the structure is largely consistent across dozens of shows from Britain, Europe, and the United States.
 

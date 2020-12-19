@@ -2,19 +2,18 @@
   grid-column: 1 / 13;
   @include bp(m) {
     grid-column: 2 / 11;
+    grid-row-start: 3;
   }
   @include bp(l) {
-    grid-column: 3 / 9;
+    grid-column: 5 / 11;
   }
   width: 100%;
-  max-width: 35em;
-  grid-row: 3 / auto;
+  max-width: 34em;
   hyphens: auto;
-  line-height: 1.2;
+  line-height: 1.3;
+  font-size: var(--ms-0);
   font-family: $sans;
-  .embed {
-    margin-bottom: 0.5em;
-  }
+  font-weight: 500;
   img,
   video {
     max-width: 100%;
@@ -51,13 +50,13 @@
     list-style: inherit;
   }
   blockquote {
-    font-weight: 600;
-    transform: scaleX(0.95);
+    font-weight: 500;
     transform-origin: left;
     padding-left: 1.5em;
+    line-height: 1.2;
     font-size: var(--ms-0);
     @include bp(m) {
-      margin-bottom: 1.5em;
+      padding-left: 3em;
     }
   }
   .pull-double {
@@ -80,10 +79,9 @@
     padding: 0.4em 0;
   }
   .note {
-    opacity: .5;
+    opacity: 0.5;
   }
   .footnote {
-    font-weight: bold;
     border-bottom: 0;
     font-size: var(--ms--1);
     position: relative;
@@ -91,16 +89,6 @@
     margin-left: 0.3em;
     top: -0.1em;
     text-decoration: none;
-    &:before {
-      position: relative;
-      top: -0.06em;
-      content: "[";
-    }
-    &:after {
-      position: relative;
-      top: -0.06em;
-      content: "]";
-    }
   }
   hr {
     border: 0;
@@ -111,14 +99,16 @@
   figcaption {
     font-size: var(--ms--1);
     hyphens: auto;
+    line-height: 1.1;
     text-align: center;
+    font-weight: 600;
     p {
       display: inline;
     }
   }
   .fig-source {
-    color: gray;
     display: inline;
+    font-weight: normal;
     margin-left: 1em;
     &.long {
       display: block;
@@ -148,11 +138,13 @@
         margin-left: -20%;
       }
     }
-    img, iframe {
+    img,
+    .embed,
+    iframe {
       max-width: 100%;
       max-height: 90vh;
       width: auto;
-      margin-bottom: 0.1em;
+      margin-bottom: 0.25em;
     }
   }
 
@@ -185,38 +177,53 @@
   }
 }
 
-.post-meta {
-  font-size: var(--ms--1);
-  grid-column: 1 / 12;
-  padding-top: 1rem;
+.post-header {
+  grid-column: 1 / 10;
   @include bp(m) {
-    grid-column: 2 / 9;
+    grid-row: 2 / 3;
+    grid-column: 2 / 10;
   }
   @include bp(l) {
-    grid-column: 3 / 7;
-    padding-top: 4rem;
+    grid-column: 5 / 10;
   }
-  font-weight: 400;
-  display: flex;
-  align-items: flex-start;
+}
+
+.post-meta {
+  font-size: var(--ms-0);
+  grid-column: 1 / 12;
+  width: 80vw;
   margin-bottom: 0.5em;
+  display: flex;
+  flex-flow: row;
+  font-weight: 600;
+  @include bp(m) {
+    flex-flow: column;
+    grid-column: 11 / 13;
+    grid-row-start: 3;
+    transform-origin: top left;
+    font-weight: 600;
+    transform: rotate(90deg) translateY(-5em);
+    padding-left: 0.3em;
+  }
+  @include bp(l) {
+    transform: rotate(90deg) translateY(-3.5em);
+    grid-row-start: 3;
+    grid-column: 2 / 5;
+  }
   span,
   date {
-    margin-right: 0.75em;
-    @include bp(m) {
+    margin-right: 1em;
+    @include bp(m){
       margin-right: 2em;
     }
   }
 }
 
 .post-intro {
-  font-weight: 500;
-  line-height: 1.2;
+  font-weight: 600;
+  line-height: 1.1;
   margin-top: 0.25em;
   font-size: var(--ms-2);
-  @include bp(m) {
-    font-size: var(--ms-3);
-  }
   hyphens: none;
   margin-bottom: 1em;
 }
@@ -224,17 +231,22 @@
 .post-title {
   font-size: var(--ms-3);
   line-height: 1;
-  margin-bottom: 0em;
   font-weight: 800;
   max-width: 25em;
   font-family: $sans;
+  margin-bottom: .75em;
+  .has-intro & {
+    margin-bottom: 0.5em;
+  }
   @include bp(m) {
-    font-size: var(--ms-5);
-    line-height: 1.1;
-    margin-bottom: 1em;
+    font-size: var(--ms-4);
     .has-intro & {
       margin-bottom: 0.1em;
     }
+  }
+  @include bp(l) {
+    font-size: var(--ms-5);
+    margin-bottom: 1em;
   }
   a {
     text-decoration: none;
@@ -253,17 +265,15 @@
   padding-top: 1rem;
   grid-column: 1 / 12;
   margin-left: 1em;
-  @include bp(s) {
-    margin-left: 0em;
-    grid-column: 2 / 12;
-    columns: 2;
+  columns: 2;
+  @include bp(m) {
+    grid-column: 2 / 10;
+    align-self: flex-end;
   }
   @include bp(l) {
     columns: 1;
-    grid-column: 9 / 11;
+    grid-column: 2 / 4;
     grid-row: 3 / 4;
-    align-self: flex-end;
-    padding-left: 3rem;
   }
   li {
     margin-bottom: 0.5em;
@@ -278,17 +288,8 @@
 
 .fn {
   display: inline-block;
-  font-weight: bold;
-  font-size: var(--ms--1);
-  &:before,
-  &:after {
-    display: inline-block;
-    transform: translateY(-0.05em);
-  }
-  &:before {
-    content: "[";
-  }
-  &:after {
-    content: "]";
-  }
+  font-size: 12px;
+  position: relative;
+  top: -6px;
+  left: -2px;
 }

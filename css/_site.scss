@@ -1,13 +1,42 @@
 .site-header {
-    max-width: 34em;
-    font-weight: 500;
-    grid-column: 1 / 13;
-    font-size: var(--ms--1);
-    margin-bottom: .51em;
-    @include bp(m) {
-    font-size: var(--ms-0);
-    margin-bottom: 3em;
-    grid-column: 2 / 10;
+  font-weight: 600;
+  grid-column: 2 / 12;
+  font-size: var(--ms-0);
+  margin-bottom: 3em;
+  a {
+    text-decoration-thickness: 1px;
+  }
+  @include bp(m) {
+    grid-column: 3 / 9;
+  }
+  @include bp(l) {
+    grid-column: 5 / 9;
+  }
+}
+
+.site-logo {
+  grid-column: 1 / 2;
+  position: relative;
+  display: block;
+  font-size: 0;
+  top: 0.3rem;
+  background: black;
+  transition: $fast;
+  width:  .6rem;
+  height: .6rem;
+  @include bp(m){
+    width: 1rem;
+    height: 1rem;
+    grid-column: 2 / 3;
+  }
+  .home & {
+    background: white;
+  }
+  border-radius: 100%;
+  border: 1px solid black;
+  &:hover,
+  &:focus {
+    transform: scale(.9);
   }
 }
 
@@ -83,7 +112,7 @@
   padding-top: 2em;
   i {
     display: inline-block;
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
   .build {
     display: block;

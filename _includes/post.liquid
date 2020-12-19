@@ -23,24 +23,23 @@ class: post
 	</date>
 	<span>{{content | strip_html | wordcount}} minutes</span>
 </aside>
-
-<article class='single-post {{page.class}} section-{{page.section}}'>
-	<header class="post-header {% if intro%}has-intro{%endif%}">
-		<div class='header-copy'>
-			<h1 class="post-title">
-				{% if external_link %}
-				<a href="{{external_link}}">{{title}}</a>
-				{% else %}
-				{{ title }}
-				{% endif %}
-			</h1>
-			{% if intro %}
-			<div class="post-intro">
-				{{ intro | markdownify}}
-			</div>
+<header class="post-header {% if intro%}has-intro{%endif%}">
+	<div class='header-copy'>
+		<h1 class="post-title">
+			{% if external_link %}
+			<a href="{{external_link}}">{{title}}</a>
+			{% else %}
+			{{ title }}
 			{% endif %}
+		</h1>
+		{% if intro %}
+		<div class="post-intro">
+			{{ intro | markdownify}}
 		</div>
-	</header>
+		{% endif %}
+	</div>
+</header>
+<article class='single-post {{page.class}} section-{{page.section}}'>
 	<div class="post-content">
 		{{ content | safe }}
 	</div>

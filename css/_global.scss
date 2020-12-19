@@ -36,7 +36,10 @@ body {
     }
     &.post {
         color: var(--black);
-        background: rgb(253, 252, 253);
+        background: rgb(253, 245, 239);
+        &.tags-work {
+            background: rgb(253, 253, 253);
+        }
     }
     &.notes {
         color: var(--black);

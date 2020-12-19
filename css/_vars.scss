@@ -4,15 +4,15 @@
 
 @mixin bp($point) {
   @if $point==xl {
-    @media (min-width: 95rem) {
-      @content;
-    }
-  } @else if $point==l {
     @media (min-width: 90rem) {
       @content;
     }
+  } @else if $point==l {
+    @media (min-width: 80rem) {
+      @content;
+    }
   } @else if $point==m {
-    @media (min-width: 55rem) {
+    @media (min-width: 60rem) {
       @content;
     }
   } @else if $point==s {
@@ -36,12 +36,13 @@
 $pink: rgb(233, 68, 2);
 $gray: rgb(167, 163, 157);
 $sans: "franklin-gothic-urw", Arial, sans-serif;
-$serif: Georgia;
+$serif: "serif";
+$fast: 150ms;
 
 :root {
   --font-text: #{$sans};
   --ratio: 1.2;
-  --ms-0: clamp(1rem, 2.2vw, 1.3rem);
+  --ms-0: clamp(1rem, calc(1.4vw + .2rem), 1.35rem);
   --ms--1: calc(var(--ms-0) / var(--ratio));
   --ms-1: calc(var(--ms-0) * var(--ratio));
   --ms-2: calc(var(--ms-1) * var(--ratio));

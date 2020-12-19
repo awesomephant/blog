@@ -15,6 +15,10 @@ pre {
 	margin-top: 1em;
 }
 
+pre[class*="language-"] {
+	border: 1px solid rgba(black, .2);
+
+}
 code[class*="language-"],
 pre[class*="language-"] {
 	font-family: "IBM Plex Mono", monospace;
@@ -27,9 +31,8 @@ pre[class*="language-"] {
 	word-break: normal;
 	tab-size: 4;
 	hyphens: none;
-	background: var(--lightgray);
 	border-radius: 3px;
-    color: #2a2d36;
+    color: #000000;
     margin-top: 1rem;
 }
 
@@ -75,7 +78,7 @@ pre[class*="language-"] {
 }
 
 .token.tag {
-	color: #6679cc;
+	color: #3a4fad;
 }
 
 .token.string {
@@ -83,7 +86,7 @@ pre[class*="language-"] {
 }
 
 .token.selector {
-	color: #6679cc;
+	color: #3a4fad;
 }
 
 .token.attr-name {

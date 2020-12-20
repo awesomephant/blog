@@ -3,7 +3,7 @@
 
 {% include head.liquid %}
 
-<body class='{{ class }} layout-{{layout}} line-numbers {% if tags %}tags-{{tags | join: "-"}}{% endif %}'
+<body class='{{ class }} layout-{{layout}} line-numbers {% if tags %}tags-{{tags | join: "-"}}{% endif %}{% if teacher%}notes{%endif%}'
   style="{% if background %}background: {{background}} {%endif%}">
   {% include header.liquid %}
   {{ content }}

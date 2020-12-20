@@ -111,6 +111,11 @@
   font-size: var(--ms--1);
   max-width: 18em;
   padding-top: 2em;
+  @include bp(m) {
+    padding-top: 6em;
+    padding-bottom: 1em;
+    grid-column: 5 / 12;
+  }
   i {
     display: inline-block;
     margin-right: 0.5em;
@@ -118,31 +123,44 @@
   .build {
     display: block;
   }
-  @include bp(m) {
-    padding-top: 6em;
-    padding-bottom: 4em;
-    grid-column: 2 / 12;
-  }
-
   span {
     display: block;
   }
 }
 
-.follow {
-  font-size: var(--ms--1);
-  padding: 0.01em 0.75em;
-  text-decoration: none;
-  border: 1px solid gray;
-  border-radius: 30px;
-  color: gray;
-  margin-left: 0.5em;
-  &:hover,
-  &:focus {
-    color: white;
+.newsletter-form {
+  margin-bottom: .5em;
+  label {
+    margin-bottom: .25em;
+    display: block;
+  }
+  input {
+    appearance: none;
+    color: inherit;
+    background: transparent;
+    border:  1px solid currentColor;
+    font-family: inherit;
+    padding: .1em .5em;
+    padding-bottom: .15em;
+  }
+  .submit {
+    appearance: none;
+    font-family: inherit;
+    color: inherit;
+    padding: .1em .5em;
+    padding-bottom: .15em;
+    cursor: pointer;
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
+  }
+  .email {
+    margin-right: -1px;
+  }
+  div {
+    display: flex;
   }
 }
-
 .spacer {
   grid-column: 1 / 13;
   height: 1.5rem;

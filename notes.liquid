@@ -23,7 +23,10 @@ class: notes
                 {{n.data.unit}}
             </span>
             <span class="note-teacher">
-                {{n.data.teacher}}
+                {% assign ts = n.data.teacher | split: ","%}
+                {% for t in ts %}
+                <span>{{t}}</span>
+                {% endfor %}
             </span>
             <h3 class="note-title">
                 <a class="note-link" href="{{n.url}}">

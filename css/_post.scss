@@ -159,6 +159,9 @@
     font-size: var(--ms--1);
     margin-bottom: 1em;
     position: relative;
+    &:first-child {
+      margin-top: 0;
+    }
     img {
       display: block;
     }
@@ -215,6 +218,7 @@
     transform-origin: top left;
     font-weight: 600;
     transform: rotate(90deg) translateY(-5em);
+    max-width: 20em;
     padding-left: 0.3em;
   }
   @include bp(l) {
@@ -233,11 +237,12 @@
 
 .post-intro {
   font-weight: 600;
-  line-height: 1.1;
+  line-height: 1;
   margin-top: 0.25em;
   font-size: var(--ms-2);
   hyphens: none;
   margin-bottom: 1em;
+  max-width: 20em;
 }
 
 .post-title {

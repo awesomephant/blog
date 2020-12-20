@@ -10,9 +10,7 @@ tags: post
 publication: Content Free
 ---
 
-![Chermayeff & Geismar (1971): Poster from “PanAm’s World” Campaign. Source: eyemagazine.com/feature/article/flight-of-the-imagination](https://paper-attachments.dropbox.com/s_745AF285C56F74DB98F4E80B426B239F0E4FBC9F6F9E8C79C09DC621D447EDF6_1571572437069_Pan-Am-Posters-from-1971-3.jpg)
-Chermayeff & Geismar (1971): Poster from “PanAm’s World” Campaign.
-Source: [eyemagazine.com/feature/article/flight-of-the-imagination](http://www.eyemagazine.com/feature/article/flight-of-the-imagination)
+{% fig "/assets/geismar.jpg" "Chermayeff & Geismar (1971): Poster from “PanAm’s World” Campaign." "A 1971 poster for PanAm showing men on horseback against a sunset. Text reads 'Argentina'." "[Source](eyemagazine.com/feature/article/flight-of-the-imagination)" "small" %}
 
 When I was an undergraduate student, a relative gave me this big coffee table book about airline visual identities. It documents the visual output of the 20th century aviation industry in all its glory: Full-bleed Kodachrome photography overlaid with tightly-set Helvetica at [PanAm](http://www.eyemagazine.com/feature/article/flight-of-the-imagination). Colourful, bold illustrations and lettering, printed in stone lithography well into the 1950s at [Air France](https://image.jimcdn.com/app/cms/image/transf/none/path/s845a70f74d8b0138/image/i72f33aa726ac2f98/version/1545933097/image.jpg). The cool functionalism of HfG Ulm at [Lufthansa](http://ravenrow.org/exhibition/the_ulm_model/).
 
@@ -28,14 +26,13 @@ This is where I’m beginning to think that something bigger has been lost here.
 
 ---
 
-The usual response to concerns about the environmental damage cause by graphic design are technological fixes: Printing with soy-based inks on recycled paper, using lighter typefaces to save on ink, or moving from print to digital: *Please consider the environment before printing this email*[1].
+The usual response to concerns about the environmental damage cause by graphic design are technological fixes: Printing with soy-based inks on recycled paper, using lighter typefaces to save on ink, or moving from print to digital: *Please consider the environment before printing this email*{% fn "I’m not aware of any similar ideas for screen-based design, maybe because we tend to assume it’s cleaner by default? It isn’t: See datacenter emissions."%}.
 
 These ideas are no doubt well-intentioned, but ultimately they're incremental improvements to a deeply broken system — equivalent to replacing petrol cars with electric ones, or plastic straws with cornstarch. At best, what these proposals achieve is shift *which* natural recources we’re going to waste on consumerism.
 
-The only way I can see to make graphic design truly sustainable is to make significantly *less of it*. Smaller print runs, less packaging, fewer, lighter websites, less advertising, less *stuff.* 
+The only way I can see to make graphic design truly sustainable is to make significantly *less of it*. Smaller print runs, less packaging, fewer, lighter websites, less advertising, less *stuff* 
 
-![Some visual communication in the Pacific Source: Kevin Krejci from Near the Pacific Ocean, USA CC BY 2.0](https://paper-attachments.dropbox.com/s_745AF285C56F74DB98F4E80B426B239F0E4FBC9F6F9E8C79C09DC621D447EDF6_1571569741371_4408273247_d4e7e4a8a4_k.jpg)
-Some visual communication in the Pacific. Source: [Kevin Krejci](https://www.flickr.com/people/48889057888@N01), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
+{%fig "/assets/pacific.jpg" "Some visual communication in the Pacific" "Plastic debris is washed up on a beach." "[Kevin Krejci](https://www.flickr.com/people/48889057888@N01), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)" "small" %}
 
 It's depressing and scary to be a young worker coming into an industry that, like many other industries, needs to shrink or otherwise transform itself radically to limit the damage it causes to our planet.
 
@@ -43,19 +40,8 @@ The reason it’s so scary is that my entire understanding of economics, of how 
 
 Success in graphic design is measured following the same logic: Whoever gets to work with the largest print budgets, the biggest brands, whoever gets the most views, whoever shows their work in the most countries is the most succesful.
 
-But with every news story about a wild fire, heatwave, storm, or flood, that model looks more untenable. Smarter people than me are working on alternative models for design, and cultural production in general. In *Duty Free Art*[2], Hito Steyerl writes:
+But with every news story about a wild fire, heatwave, storm, or flood, that model looks more untenable. Smarter people than me are working on alternative models for design, and cultural production in general. In *Duty Free Art*{% fn "Hito Steyerl (2019): *Duty Free Art: Art in the Age of Planetary Civil War*, p. 18. Verso Books." %}, Hito Steyerl writes:
 
 > The contrary [to current ways of doing design] is a process that doesn’t grow via destruction, but very literally de-grows constructively. This type of construction is not creating inflation, but devolution. Not centralized competition but cooperative autonomy. Not fragmenting time and dividing people, but reducing expansion, inflation, consumption, dept, disruption, occupation, and death.
 
-Intellectually, I know that what she and others are proposing is true, necessary, and probably without alternative. But emotionally, I’m not ready to feel hopeful about that new form of design practice: I’m not done grieving the end of the old one.
-
-## Notes
-
-{% footnotes %}
-
-1. I’m not aware of any similar ideas for screen-based design, maybe because we tend to assume it’s cleaner by default? It isn’t: See datacenter emissions.
-2. Hito Steyerl (2019): *Duty Free Art: Art in the Age of Planetary Civil War*, p. 18. Verso Books.
-
-{% endfootnotes %}
-
-This essay was first published on [Content Free](http://content-free.net/articles/panams-world).
+Intellectually, I know that what she and others are proposing is true, necessary, and probably without alternative. But emotionally, I’m not ready to feel hopeful about that new form of design practice: I’m not done grieving the end of the old one{% fn "This essay was first published on [Content Free](http://content-free.net/articles/panams-world)."%}.

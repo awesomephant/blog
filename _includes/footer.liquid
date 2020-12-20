@@ -1,5 +1,15 @@
 <footer class="site-footer">
-	<span class='build'>Site built {{ 'now' | date: "%B %e %Y at %H:%M" }}</span>
+
+	<form action="https://tinyletter.com/maxakohler" method="post" class="newsletter-form" target="popupwindow"
+		onsubmit="window.open('https://tinyletter.com/maxakohler', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+		<label for="tlemail">Subscribe for Updates</label>
+		<div>
+			<input type="text" class="email" placeholder="you@email.com" name="email" id="tlemail" />
+			<input type="hidden" value="1" name="embed" />
+			<input type="submit" class="submit" value="Subscribe" />
+		</div>
+	</form>
+	<span class='build'>Site built {{ 'now' | date: "%B %e, %Y at %H:%M" }}</span>
 	<span class='footer-copyright'>
 		<a href="https://twitter.com/maxakohler">Twitter</a>
 		<a href="https://www.instagram.com/maxakohler/">Instagram</a>

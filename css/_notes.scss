@@ -48,6 +48,9 @@
 .note-teacher {
   display: none;
   padding-right: 1rem;
+  span {
+    display: block;
+  }
   @include bp(m) {
     display: block;
     grid-column: 3 / 6;

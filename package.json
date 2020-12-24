@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:sass": "sass ./css/style.scss ./_site/style.css",
+    "build:sass": "sass ./css/main.scss ./_includes/style.css --no-source-map --style=compressed",
     "build:eleventy": "eleventy",
     "watch:sass": "sass ./css/main.scss ./_includes/style.css --watch --no-source-map --style=compressed",
     "watch:eleventy": "npx @11ty/eleventy --serve --quiet --incremental",

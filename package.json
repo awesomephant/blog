@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build:eleventy": "npx @11ty/eleventy",
-    "watch:eleventy": "npx @11ty/eleventy --serve --quiet --incremental",
+    "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
     "start": "run-p watch:*",
     "build": "run-s build:*"
   },

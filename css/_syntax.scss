@@ -30,13 +30,13 @@ pre[class*="language-"] {
   word-break: normal;
   tab-size: 4;
   hyphens: none;
-  border-radius: 3px;
+  border-radius: 2px;
   color: #000000;
   margin-top: 1rem;
 }
 
 pre[class*="language-"] {
-  padding: 0.8em;
+  padding: 0.5em;
   margin: 1em 0;
   overflow: auto;
 }
@@ -77,7 +77,7 @@ pre[class*="language-"] {
 }
 
 .token.tag {
-  color: #3a4fad;
+  color: #1e3fd3;
 }
 
 .token.string {
@@ -85,7 +85,7 @@ pre[class*="language-"] {
 }
 
 .token.selector {
-  color: #3a4fad;
+  color: #1e3fd3;
 }
 
 .token.attr-name {

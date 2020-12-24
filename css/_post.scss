@@ -62,9 +62,6 @@
       padding-left: 3em;
     }
   }
-  .pull-double {
-    margin-left: -0.26em;
-  }
   .MathJax_Display {
     display: inline !important;
   }
@@ -237,12 +234,12 @@
 
 .post-intro {
   font-weight: 600;
-  line-height: 1;
+  line-height: 1.1;
   margin-top: 0.25em;
-  font-size: var(--ms-2);
+  font-size: var(--ms-3);
   hyphens: none;
   margin-bottom: 1em;
-  max-width: 20em;
+  max-width: 25em;
 }
 
 .post-title {

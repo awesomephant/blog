@@ -53,7 +53,7 @@
   }
 
   .project-title {
-    grid-column: 2 / 13;
+    grid-column: 2 / 12;
     @include bp(m) {
       grid-column: 5 / 9;
     }
@@ -70,7 +70,7 @@
       grid-column: 10 / 12;
     }
     @include bp(xl) {
-      grid-column: 9 / 12;
+      grid-column: 10 / 12;
     }
   }
 
@@ -92,16 +92,16 @@
   display: contents;
 
   h2 {
-    grid-column: 1 / 13;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    grid-column: 2 / 13;
+    font-weight: bold;
+    padding-bottom: .5em;
     @include bp(m) {
+      font-weight: 400;
       padding-top: 0;
       padding-bottom: 0;
       grid-column: 2 / 4;
     }
 
-    font-weight: 400;
   }
 }
 
@@ -109,7 +109,7 @@
   grid-column: 1 / 12;
   grid-row: auto;
   font-size: var(--ms--1);
-  max-width: 18em;
+  max-width: 22em;
   padding-top: 2em;
   @include bp(m) {
     padding-top: 6em;

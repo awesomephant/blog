@@ -1,4 +1,3 @@
-const pluginSass = require("eleventy-plugin-sass");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const jsdom = require("jsdom");
@@ -99,7 +98,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("site.webmanifest");
 
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(pluginSass, {});
   eleventyConfig.addPlugin(syntaxHighlight);
   return {};
 };

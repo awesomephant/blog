@@ -1,74 +1,74 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-size: inherit;
-    font-weight: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 @viewport {
-    width: device-width;
+  width: device-width;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 $hero: rgb(232, 235, 241);
 
 body {
-    font-family: var(--font-text);
-    font-feature-settings: "pnum"1, "kern"1;
-    padding: 2%;
-    font-size: var(--ms-0);
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    background: $hero;
-    padding-top: 2%;
-    background: rgb(0, 0, 0);
-    color: white;
-    letter-spacing: .012em;
-    @include bp(m){
-        letter-spacing: .003em;
-        padding-left: 0;
-        padding-top: 4rem;
-        padding-right: 0;
+  font-family: var(--font-text);
+  font-feature-settings: "pnum" 1, "kern" 1;
+  padding: 2%;
+  font-size: var(--ms-0);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background: $hero;
+  padding-top: 2%;
+  background: rgb(0, 0, 0);
+  color: white;
+  letter-spacing: 0.012em;
+  @include bp(m) {
+    letter-spacing: 0.003em;
+    padding-left: 0;
+    padding-top: 4rem;
+    padding-right: 0;
+  }
+  &.post {
+    color: var(--black);
+    background: rgb(253, 245, 239);
+    &.tags-work {
+      background: rgb(253, 253, 253);
     }
-    &.post {
-        color: var(--black);
-        background: rgb(253, 245, 239);
-        &.tags-work {
-            background: rgb(253, 253, 253);
-        }
-    }
-    &.notes {
-        color: var(--black);
-        background: var(--notes);
-    }
+  }
+  &.notes {
+    color: var(--black);
+    background: var(--notes);
+  }
 }
 
 ::selection {
-    color: white;
-    background: gray;
+  color: white;
+  background: black;
 }
 
 a {
-    color: inherit;
-    text-decoration: underline;
+  color: inherit;
+  text-decoration: underline;
 
-    &:hover,
-    &:focus {
-        text-decoration: none;
-    }
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
 }
 
 img {
-    opacity: 0;
-    transform: translateY(5px);
-    transition: var(--fast);
-    transition-delay: 100ms;
-    &.loaded {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  opacity: 0;
+  transform: translateY(5px);
+  transition: var(--fast);
+  transition-delay: 100ms;
+  &.loaded {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

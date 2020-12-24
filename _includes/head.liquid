@@ -7,8 +7,10 @@
 	</title>
 	<meta name="description"
 		content="{% if intro %}{{ intro | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-	<link rel="stylesheet" href='{{"/css/main.css" | url}}'>
+	
+		<style>
+			{% include style.css %}
+		</style>
 
 	{% if canonical %}
 	<link rel="canonical" href="{{canonical}}" />

@@ -7,6 +7,30 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+function initList() {
+  let search = document.querySelector(".notes-search");
+  let index = document.querySelectorAll(".notes-item");
+
+  function filterList(s) {
+    index.forEach((item) => {
+      let title = item.querySelector(".note-title").innerText;
+      let teacher = item.querySelector(".note-teacher").innerText;
+      let re = new RegExp(`(${s})`, "gi")
+      if (re.test(title + teacher)){
+        item.classList.remove("hidden")
+      } else {
+        item.classList.add("hidden")
+      }
+
+    });
+  }
+  if (search) {
+    search.addEventListener("input", () => {
+      filterList(search.value);
+    });
+  }
+}
+
 document.addEventListener(
   "DOMContentLoaded",
   function () {
@@ -46,6 +70,7 @@ document.addEventListener(
         img.classList.add("loaded");
       });
     });
+    initList();
   },
   false
 );

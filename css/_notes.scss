@@ -4,6 +4,9 @@
 
 .notes-item {
   display: contents;
+  &.hidden {
+    display: none;
+  }
 }
 
 .notes-container {

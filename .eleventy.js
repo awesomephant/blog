@@ -4,6 +4,8 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const markdownIt = require("markdown-it");
 const md = new markdownIt();
+const htmlmin = require("html-minifier");
+const sass = require("sass");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode("footnotes", function (todoItems) {
@@ -15,7 +17,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("wordcount", function (s) {
     const words = s.split(" ");
-    const minutes = words.length / 150;
+    const minutes = words.length / 180;
     return minutes.toFixed(1);
   });
 
@@ -39,6 +41,14 @@ module.exports = function (eleventyConfig) {
         `;
     }
   );
+
+  eleventyConfig.addShortcode("css", function (filename) {
+    let css = sass.renderSync({
+      file: `./css/${filename}`,
+      outputStyle: "compressed",
+    });
+    return css.css.toString();
+  });
 
   eleventyConfig.addShortcode("fn", function (content) {
     return `
@@ -80,6 +90,19 @@ module.exports = function (eleventyConfig) {
       return content;
     }
   );
+
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+    if (outputPath.endsWith(".html")) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+        preserveLineBreaks: false
+      });
+      return minified;
+    }
+    return content;
+  });
 
   eleventyConfig.addCollection("notes", function (collectionApi) {
     return collectionApi.getFilteredByGlob([

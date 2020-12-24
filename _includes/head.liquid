@@ -9,7 +9,7 @@
 		content="{% if intro %}{{ intro | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	
 		<style>
-			{% include style.css %}
+			{% css "main.scss" %}
 		</style>
 
 	{% if canonical %}

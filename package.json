@@ -5,9 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:sass": "sass ./css/main.scss ./_includes/style.css --no-source-map --style=compressed",
     "build:eleventy": "npx @11ty/eleventy",
-    "watch:sass": "sass ./css/main.scss ./_includes/style.css --watch --no-source-map --style=compressed",
     "watch:eleventy": "npx @11ty/eleventy --serve --quiet --incremental",
     "start": "run-p watch:*",
     "build": "run-s build:*"
@@ -16,12 +14,13 @@
   "license": "ISC",
   "homepage": "/",
   "dependencies": {
+    "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "sass": "^1.29.0",
+    "html-minifier": "^4.0.0",
     "jsdom": "^16.4.0",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.29.0"
   }
 }

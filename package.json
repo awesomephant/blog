@@ -6,18 +6,20 @@
   "main": "index.js",
   "scripts": {
     "build:eleventy": "npx @11ty/eleventy",
+    "watch:sass": "sass ./css/main.scss ./_site/main.css --watch --no-source-map",
     "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
-    "start": "run-p watch:*",
-    "build": "run-s build:*"
+    "start": "cross-env NODE_ENV=dev run-p watch:*",
+    "build": "cross-env NODE_ENV=production run-s build:*"
   },
   "author": "Max Kohler",
   "license": "ISC",
   "homepage": "/",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "cross-env": "^7.0.3",
     "html-minifier": "^4.0.0",
     "jsdom": "^16.4.0",
     "npm-run-all": "^4.1.5",

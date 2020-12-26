@@ -27,7 +27,7 @@ When you're developing a piece of typography you have to define a series of rela
 
 There are all kinds of methods to do this (Bringhurst fills a whole chapter with them in _Elements of Typographic Style_{% fn "Robert Bringhurst (2016): *The Elements of Typographic Style, Version 4.2*, Chapter 8. Hartley & Marks."%}), but in any case you eventually arrive at a set of values for your measure, type size, weight, spacing and so on that produce whatever visual expression you set out to achieve.
 
-{% fig "/assets/continuous-type/paragraph-static.svg" "A block of text typeset with absolute values." "A paragraph is set in a serif typeface. Values for measure, font size, line height, etc. are shown in red." "Sample text from *Flexible Typesetting* by Tim Brown." %}
+{% fig "/assets/continuous-type/paragraph-static.svg" "A block of text typeset with absolute values." "A paragraph is set in a serif typeface. Values for measure, font size, line height, etc. are shown in red." "Sample text from *Flexible Typesetting* by Tim Brown." "big" %}
 
 Take the font size, for instance: We want to set this so it gives the right voice to the piece of writing we're working with, but it also has to be appropriate to the typeface we've chosen, the size of the page, and it should result in a comfortable number of characters per line. Other adjustments follow from it: A change in type size might compel different spacing, a change in weight, hyphenation, and so on.
 
@@ -65,7 +65,7 @@ One `vw` is equal to one percent of the width of the reader's screen. So in the 
 
 It produces a different font size for every screen size it encounters: On a screen that's 1000 pixels wide we get a font size of 10 pixels, a 1500 pixel-wide screen results in a font size of 15 pixels, and so on. Drawn onto a coordinate system, it looks like this:
 
-{% fig "/assets/continuous-type/function-simple.svg" "If we define the font size defined as a continous function of the screen width, it forms a line." "A linear function is drawn on a coordinate system. X: Screen width, Y: Font size" "" %}
+{% fig "/assets/continuous-type/function-simple.svg" "If we define the font size defined as a continous function of the screen width, it forms a line." "A linear function is drawn on a coordinate system. X: Screen width, Y: Font size" "" "big" %}
 
 I think this simple drawing represents a big shift in our approach to typography on the web. We're no longer placing a single point on the coordinate system (by defining a single, absolute value), but _a line_ containing an infinite number of points - our typographic intent has become dimensional.
 
@@ -77,7 +77,7 @@ In the following section we'll look at ways this is already possible in CSS toda
 
 ### Slope
 
-{% fig "/assets/continuous-type/function-slope.svg" "Different numerical factors produce steeper and shallower curves." "4 linear functions of different slopes are drawn on a coordinate system." "" %}
+{% fig "/assets/continuous-type/function-slope.svg" "Different numerical factors produce steeper and shallower curves." "4 linear functions of different slopes are drawn on a coordinate system." "" "big" %}
 
 A basic way to manipulate our function is to define its slope. We do this by multiplying our input variable (`1vw` in our example) with a different numerical factor:
 
@@ -94,7 +94,7 @@ Bigger numerical factors produce steeper curves. A steeper curve, in this exampl
 
 ### Minimum and maximum values
 
-{% fig "/assets/continuous-type/function-clamp.svg" "Minimum and maximum values produce flat sections on either side of the slope." "3 linear functions with different minimum and maximum values are drawn on a coordinate system." "" %}
+{% fig "/assets/continuous-type/function-clamp.svg" "Minimum and maximum values produce flat sections on either side of the slope." "3 linear functions with different minimum and maximum values are drawn on a coordinate system." "" "big" %}
 
 It's often useful to define minimum and maximum values for a given property. We can do this by using the `min()` and `max()` in CSS:
 
@@ -123,7 +123,7 @@ I tend to set these values by eye, but because we're working with functions we h
 
 ### Functions with multiple parameters
 
-{% fig "/assets/continuous-type/function-2d.svg" "If we define the font size as a function of the screen size and the reader's default font size, it forms a plane." "A plane is drawn on a 3d-coordinate system. Caption: Font size = Screen width × 0.01 + Reader's default font size × 0.85" "" %}
+{% fig "/assets/continuous-type/function-2d.svg" "If we define the font size as a function of the screen size and the reader's default font size, it forms a plane." "A plane is drawn on a 3d-coordinate system. Caption: Font size = Screen width × 0.01 + Reader's default font size × 0.85" "" "big" %}
 
 So far, we've only looked at functions with a single input parameter  – the screen width. But that's not the only input we can use. For instance, it's probably a good idea to take into account the default font size the reader has set up in their device settings, in addition to the size of their screen {% fn "In fact, the user’s default font size should probably be the first parameter we care about. The only reason I’m using the screen width here is that its effects are easier to visualise."%}.
 
@@ -150,7 +150,7 @@ p {
 
 ### Non-linear functions
 
-{% fig "/assets/continuous-type/function-wave.svg" "" "A curved plane is drawn on a 3d coordinate system. Caption reads: Font size = f(x,y)." "" %}
+{% fig "/assets/continuous-type/function-wave.svg" "" "A curved plane is drawn on a 3d coordinate system. Caption reads: Font size = f(x,y)." "" "big" %}
 
 So far we've only looked at _linear functions_, or functions that produce straight lines when drawn on a coordinate system. But there is no conceptual reason our typography should be limited to these. It's entirely possible we may need exponential, sinusoid, stepped, randomised, or yet more exotic function types to achieve specific typographic expressions.
 
@@ -162,7 +162,7 @@ The relevant issue on the CSS Working group is still open {%fn "Issue for [Nativ
 
 ---
 
-{% fig "/assets/continuous-type/paragraph-fluid.svg" "A block of text typeset with continuous functions" "alt" "Sample text from *Flexible Typesetting* by Tim Brown." %}
+{% fig "/assets/continuous-type/paragraph-fluid.svg" "A block of text typeset with continuous functions" "A paragraph and small graph diagrams." "Sample text from *Flexible Typesetting* by Tim Brown." "big" %}
 
 But regardless of the precise implementation, I think that the idea that that any typographic attribute (including variable font parameters) can be a function (linear, exponential, stepped, Bezier, random, or otherwise) of any given input variable (user preference, screen dimensions, connection speed, time of day, display language, or whatever else) is an incredibly powerful one, and worth exploring as an aesthetic as well as a technical proposition. I'm already using basic linear functions in practice with promising results.
 

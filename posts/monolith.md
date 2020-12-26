@@ -98,7 +98,7 @@ But the chain of influence runs the other way, too: Our whole notion of *The Lan
 
 In the 19th century photography, having inherited the visual language of painting, helped shape the fantasy of the great, "untouched" American landscape that still lingers today. Photographers like Carleton Watkins didn’t “discover” places like Yosemite Valley, but constructed them with complex optical machinery and painstaking work in the darkroom {% fn "Ana Cecilia Alvarez (2019) in Real Life Magazine: *[Look for America: How Land became scenery](https://reallifemag.com/look-for-america/)* "%}.
 
-<figure class="post-figure">
+<figure class="post-figure big">
 <div class="embed" style="padding:45% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/70173915?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <figcaption><em>2001</em>'s <em>Star Gate</em> sequence</figcaption>
 </figure>

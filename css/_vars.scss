@@ -1,6 +1,5 @@
 @charset "utf-8";
 @import url("https://use.typekit.net/vlg1sjx.css");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&display=swap");
 
 @mixin bp($point) {
   @if $point==xl {
@@ -37,6 +36,7 @@ $pink: rgb(233, 68, 2);
 $gray: rgb(167, 163, 157);
 $sans: "franklin-gothic-urw", Arial, sans-serif;
 $serif: "serif";
+$mono: "IBM Plex Mono", Lucida Console,  monospaced;
 $fast: 150ms;
 
 :root {

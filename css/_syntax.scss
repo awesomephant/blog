@@ -1,7 +1,7 @@
 $color-string: $pink;
 
 pre {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: $mono;
   font-size: calc(var(--ms-0) * .85);
   line-height: 1.2;
   letter-spacing: -.003em;
@@ -21,7 +21,7 @@ pre[class*="language-"] {
 }
 code[class*="language-"],
 pre[class*="language-"] {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: $mono;
   line-height: 1.5;
   direction: ltr;
   text-align: left;
@@ -30,6 +30,7 @@ pre[class*="language-"] {
   word-break: normal;
   tab-size: 4;
   hyphens: none;
+  font-weight: 400;
   border-radius: 2px;
   color: #000000;
   margin-top: 1rem;
@@ -47,7 +48,7 @@ pre[class*="language-"] {
   padding: 0.1em;
   border-radius: 0.3em;
   color: inherit;
-  background: var(--lightgray);
+  background: rgba(black, .04);
   font-size: 0.8em;
 }
 

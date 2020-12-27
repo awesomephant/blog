@@ -51,7 +51,7 @@ module.exports = function (eleventyConfig) {
         file: `./css/${filename}`,
         outputStyle: "compressed",
       });
-      return css.css.toString();
+      return `<style>${css.css.toString()}</style>`;
     } else {
       return `<link rel="stylesheet" href="/${filename.replace("scss", "css")}"/>`
     }

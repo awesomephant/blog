@@ -15,13 +15,12 @@ function initList() {
     index.forEach((item) => {
       let title = item.querySelector(".note-title").innerText;
       let teacher = item.querySelector(".note-teacher").innerText;
-      let re = new RegExp(`(${s})`, "gi")
-      if (re.test(title + teacher)){
-        item.classList.remove("hidden")
+      let re = new RegExp(`(${s})`, "gi");
+      if (re.test(title + teacher)) {
+        item.classList.remove("hidden");
       } else {
-        item.classList.add("hidden")
+        item.classList.add("hidden");
       }
-
     });
   }
   if (search) {

@@ -114,6 +114,9 @@
   @include bp(m) {
     padding-top: 6em;
     padding-bottom: 1em;
+    grid-column: 2 / 12;
+  }
+  @include bp(l) {
     grid-column: 5 / 12;
   }
   i {

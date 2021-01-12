@@ -4,20 +4,6 @@ class: post
 ---
 
 <aside class="post-meta">
-	<span class="post-section post-meta-item">
-		{% if tags %}
-		{% assign t = tags | first %}
-		{% if t == "post" %}
-		Writing
-		{% else %}
-		{{t | capitalize}}
-		{% endif %}
-		{% else %}
-		<a href="/notes/">
-			Lecture Notes
-		</a>
-		{% endif %}
-	</span>
 	<date class="post-date post-meta-item">
 		{{ date | date: "%B %d, %Y" }}
 	</date>

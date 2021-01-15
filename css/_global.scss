@@ -26,8 +26,9 @@ body {
   background: $hero;
   padding-top: 2%;
   background: rgb(0, 0, 0);
-  color: white;
+  color: rgb(238, 238, 238);
   letter-spacing: 0.012em;
+  line-height: 1.25;
   @include bp(m) {
     letter-spacing: 0.003em;
     padding-left: 0;
@@ -36,7 +37,7 @@ body {
   }
   &.post {
     color: var(--black);
-    background: rgb(255, 250, 243);
+    background: rgb(255, 255, 255);
     &.tags-work {
       background: rgb(253, 253, 253);
     }

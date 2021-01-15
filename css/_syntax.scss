@@ -1,4 +1,4 @@
-$color-string: $pink;
+$color-string: rgb(0, 124, 52);
 
 pre {
   font-family: $mono;
@@ -17,7 +17,7 @@ pre {
 }
 
 pre[class*="language-"] {
-  border: 1px solid rgba(black, 0.2);
+  border: 1px solid rgba(black, 0.08);
 }
 code[class*="language-"],
 pre[class*="language-"] {

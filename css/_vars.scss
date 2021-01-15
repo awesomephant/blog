@@ -33,15 +33,15 @@
 
 $pink: rgb(233, 68, 2);
 $gray: rgb(167, 163, 157);
-$sans: "franklin-gothic-urw", Arial, sans-serif;
-$serif: "serif";
-$mono: "IBM Plex Mono", Lucida Console,  monospaced;
+$sans: "Helvetica", sans-serif;
+$serif: "Georgia";
+$mono: Courier New,  monospace;
 $fast: 150ms;
 
 :root {
   --font-text: #{$sans};
   --ratio: 1.2;
-  --ms-0: clamp(1rem, calc(1.4vw + .2rem), 1.35rem);
+  --ms-0: clamp(1rem, calc(1.4vw + .2rem), 1.25rem);
   --ms--1: calc(var(--ms-0) / var(--ratio));
   --ms-1: calc(var(--ms-0) * var(--ratio));
   --ms-2: calc(var(--ms-1) * var(--ratio));
@@ -55,6 +55,6 @@ $fast: 150ms;
   --gray: rgb(167, 163, 157);
   --lightgray: rgb(243, 243, 243);
   --white: #fff;
-  --notes: #c5e5f8;
+  --notes: #e5f1fa;
   --fast: 300ms;
 }

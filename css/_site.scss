@@ -1,48 +1,19 @@
 .site-header {
-  font-weight: 600;
   grid-column: 2 / 12;
-  font-size: var(--ms-0);
+  font-size: var(--ms--1);
   margin-bottom: 3em;
   max-width: 25em;
   a {
     text-decoration-thickness: 1px;
-  }
-  @include bp(m) {
-    grid-column: 3 / 9;
   }
   @include bp(l) {
     grid-column: 5 / 10;
   }
 }
 
-.site-logo {
-  grid-column: 1 / 2;
-  position: relative;
-  display: block;
-  font-size: 0;
-  top: 0.3rem;
-  background: black;
-  transition: $fast;
-  width:  .6rem;
-  height: .6rem;
-  @include bp(m){
-    width: 1rem;
-    height: 1rem;
-    grid-column: 2 / 3;
-  }
-  .home & {
-    background: white;
-  }
-  border-radius: 100%;
-  border: 1px solid black;
-  &:hover,
-  &:focus {
-    transform: scale(.9);
-  }
-}
-
 .project-list-item {
   display: contents;
+  font-family: $sans;
   .project-date {
     grid-column: 1 / 2;
     padding-right: 1em;
@@ -95,6 +66,7 @@
     grid-column: 2 / 13;
     font-weight: bold;
     padding-bottom: .5em;
+    font-family: $sans;
     @include bp(m) {
       font-weight: 400;
       padding-top: 0;
@@ -134,7 +106,7 @@
 .newsletter-form {
   margin-bottom: .5em;
   label {
-    margin-bottom: .25em;
+    margin-bottom: .75rem;
     display: block;
   }
   input {
@@ -142,16 +114,14 @@
     color: inherit;
     background: transparent;
     border:  1px solid currentColor;
-    font-family: inherit;
-    padding: .1em .5em;
-    padding-bottom: .15em;
+    display: block;
+    font-weight: 400; 
+    font-family: $mono;
+    padding: .1em .3em;
   }
   .submit {
     appearance: none;
-    font-family: inherit;
     color: inherit;
-    padding: .1em .5em;
-    padding-bottom: .15em;
     cursor: pointer;
     &:hover, &:focus {
       text-decoration: underline;

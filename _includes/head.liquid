@@ -8,9 +8,6 @@
 	<meta name="description"
 		content="{% if intro %}{{ intro | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	{% css "main.scss" %}
-	
-	<link rel="preload" href="https://use.typekit.net/vlg1sjx.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="https://use.typekit.net/vlg1sjx.css"></noscript>
 
 	<link rel="stylesheet" href="">
 	{% if canonical %}

@@ -45,7 +45,6 @@ the earth? Are you out of your mind lieutenant?
 
 Cut to a research ship on the Indian ocean, on the opposite side of the Earth, you get the idea.
 
------
 {% fig "/assets/monolith/IMG_3534.jpeg" "IMG_3534" "alt" "[Utah Department of Public Safety](https://dpsnews.utah.gov/dps-aero-bureau-encounters-monolith-in-red-rock-country/)" "small" %}
 
 FOR ALL ITS SCULPTURAL QUALITIES, most of us never experienced the monolith as a sculpture, but as photographs of one, appearing (to paraphrase the art critic John Berger) not on the austere walls of a gallery, but the screens of our phones and laptops in our homes.
@@ -94,7 +93,7 @@ We clearly see the impact of Kubrick's photography on whoever set up the Utah Im
 
  Kubrick’s film in turn follows photographs and paintings of the sublime landscape of earlier periods, both in its theme and its aesthetics. I wouldn't be surprised to find a photocopy of *The Chasseur* somewhere in Kubrick's vast archive {% fn "Jon Ronson / The Guardian (2004): *[Citizen Kubrick](https://www.theguardian.com/film/2004/mar/27/features.weekend)*" %}.
 
-But the chain of influence runs the other way, too: Our whole notion of *The Landscape*, and in some cases its physical reality are themselves cultural productions. In the 18th century, European aristocrats planted trees, dug lakes, and built prop ruins of Greek or Roman temples to bring their land closer to what they had seen in paintings of their day{% fn "Paul Cooper / The Atlantic (2018): *[Europe Was Once Obsessed With Fake Dilapidated Buildings](https://www.theatlantic.com/science/archive/2018/04/fake-ruins-europe-trend/558293/)*"%}.
+But the chain of influence runs the other way, too: Our whole notion of *The Landscape*, and in some cases its physical reality are themselves cultural productions. In the 18th century, European aristocrats planted trees, dug lakes, and built prop ruins of Greek or Roman temples to bring their land closer to what they had seen in paintings of their day. {% fn "Paul Cooper / The Atlantic (2018): *[Europe Was Once Obsessed With Fake Dilapidated Buildings](https://www.theatlantic.com/science/archive/2018/04/fake-ruins-europe-trend/558293/)*"%}
 
 In the 19th century photography, having inherited the visual language of painting, helped shape the fantasy of the great, "untouched" American landscape that still lingers today. Photographers like Carleton Watkins didn’t “discover” places like Yosemite Valley, but constructed them with complex optical machinery and painstaking work in the darkroom {% fn "Ana Cecilia Alvarez (2019) in Real Life Magazine: *[Look for America: How Land became scenery](https://reallifemag.com/look-for-america/)* "%}.
 

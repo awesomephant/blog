@@ -10,7 +10,7 @@ tags: post
 publication: Content Free
 ---
 
-{% fig "/assets/zoomzoom.jpg" "" "Illustration showing a greyscale, blurred screenshot of a Zoom conversation" ""%}
+{% fig "/assets/zoomzoom.jpg" "" "Illustration showing a greyscale, blurred screenshot of a Zoom conversation" "" "big"%}
 
 I recently wrote about the privatisation of university buildings{% fn "[maxkoehler.com/2020/junk-city](http://maxkoehler.com/2020/junk-city)" %} and how that’s a Bad Thing™.
 

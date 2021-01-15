@@ -3,9 +3,11 @@ layout: post
 title:  "Adopting a Digital Typeface for Letterpress Printing"
 date:   2016-06-27 14:01:32
 thumb: "https://raw.githubusercontent.com/awesomephant/awesomephant.github.io/master/assets/laser-alphabet.JPG"
-intro: "For my most recent uni project I designed a display typeface and adopted it for traditional letterpress. Since I only had four weeks to do it, I developed process that is cheap, easy to execute and only uses basic tools and equipment."
+intro: ""
 tags: post
 ---
+
+For my most recent uni project I designed a display typeface and adopted it for traditional letterpress. Since I only had four weeks to do it, I developed process that is cheap, easy to execute and only uses basic tools and equipment.
 
 ## Material
 

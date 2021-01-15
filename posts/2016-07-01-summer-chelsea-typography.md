@@ -5,7 +5,7 @@ date: 2016-07-02 14:01:32
 image: '/assets/alphabet-1.jpg'
 thumb: ""
 intro: ""
-class: "chelsea" 
+class: "post" 
 tags: post
 
 ---

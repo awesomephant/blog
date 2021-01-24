@@ -66,6 +66,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode("details", function (content, summary) {
     return `<details><summary>${summary}</summary>${md.render(content)}</details>`;
   });
+  eleventyConfig.addPairedShortcode("leadin", function (content) {
+    return `<span class="leadin">${content}</span>`;
+  });
 
   eleventyConfig.addTransform(
     "resolveFootnotes",

@@ -69,7 +69,7 @@ It produces a different font size for every screen size it encounters: On a scre
 
 I think this simple drawing represents a big shift in our approach to typography on the web. We're no longer placing a single point on the coordinate system (by defining a single, absolute value), but _a line_ containing an infinite number of points - our typographic intent has become dimensional.
 
-This idea doesn't just apply to font size, but every other aspect of our text block: Measure, letter-, line- and word spacing, indentations, weight, variable font parameters can all be defined as continuous functions of one or more input parameters. The typographer's work becomes the shaping of these functions: How steep are they? Do they have minimum and maximum values? Where are their inflection points? Are they smooth, jagged, symmetrical, cyclical, randomised? How do they relate to each other? By answering these questions one way or another, any desired visual expression an be achieved for every reader.
+This idea doesn't just apply to font size, but every other aspect of our text block: Measure, letter-, line- and word spacing, indentations, weight, variable font parameters can all be defined as continuous functions of one or more input parameters. The typographer's work becomes the shaping of these functions: How steep are they? Do they have minimum and maximum values? Where are their inflection points? Are they smooth, jagged, symmetrical, cyclical, randomised? How do they relate to each other? By answering these questions one way or another, any desired visual expression can be achieved for every reader.
 
 In the following section we'll look at ways this is already possible in CSS today, and what might yet be to come.
 
@@ -96,7 +96,7 @@ Bigger numerical factors produce steeper curves. A steeper curve, in this exampl
 
 {% fig "/assets/continuous-type/function-clamp.svg" "Minimum and maximum values produce flat sections on either side of the slope." "3 linear functions with different minimum and maximum values are drawn on a coordinate system." "" "big" %}
 
-It's often useful to define minimum and maximum values for a given property. We can do this by using the `min()` and `max()` in CSS:
+It's often useful to define minimum and maximum values for a given property. We can do this by using the `min()` and `max()` functions in CSS:
 
 ```css
 p {
@@ -110,7 +110,7 @@ p {
 }
 ```
 
-We can also set both minimum and maximum values at the same time using the `clamp()` keyword:
+We can also set both minimum and maximum values at the same time using the `clamp()` function:
 
 ```css
 p {
@@ -119,7 +119,7 @@ p {
 }
 ```
 
-I tend to set these values by eye, but because we're working with functions we have the whole toolkit of mathematics to draw on if necessary. For instance, we could use linear algebra to calculate minimum and maximum values that correspond to specific screen sizes{% fn "Pedro Rodriguez (2020): *[Linearly Scale font-size with CSS clamp() Based on the Viewport](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)*"%}, or linear regression to derive a curve from a set of discrete values. {% fn "Jake Wilson (2017): *[CSS Poly Fluid Sizing using calc(), vw, breakpoints and linear equations](https://medium.com/@jakobud/css-polyfluidsizing-using-calc-vw-breakpoints-and-linear-equations-8e15505d21ab)*"%}
+I tend to set these values by eye, but because we're working with functions we have the whole toolkit of mathematics to draw on if necessary. For instance, we could use linear algebra to calculate minimum and maximum values that correspond to specific screen sizes{% fn "Pedro Rodriguez (2020): *[Linearly Scale font-size with CSS clamp() Based on the Viewport](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)*"%}, or linear regression to derive a curve from a given set of absolute values. {% fn "Jake Wilson (2017): *[CSS Poly Fluid Sizing using calc(), vw, breakpoints and linear equations](https://medium.com/@jakobud/css-polyfluidsizing-using-calc-vw-breakpoints-and-linear-equations-8e15505d21ab)*"%}
 
 ### Functions with multiple parameters
 

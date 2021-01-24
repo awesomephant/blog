@@ -25,6 +25,12 @@
   p {
     margin-bottom: 0.5em;
   }
+  .leadin {
+    text-transform: uppercase;
+    font-family: $sans;
+    letter-spacing: .02em;
+    font-size: .95em;
+  }
   h2 {
     font-weight: 600;
     font-family: $sans;
@@ -119,6 +125,9 @@
     display: inline;
     font-weight: normal;
     margin-left: 1em;
+    font-size: .85em;
+    padding-top: .5em;
+    font-family: $sans;
     &.long {
       display: block;
       margin-left: 0;
@@ -132,8 +141,24 @@
       margin-top: 0;
     }
     &.small {
+      margin: 1em 0;
+      align-items: flex-end;
+      @include bp(m){
+        margin: 2em 0;
+        display: flex;
+      }
+      figcaption {
+        padding-top: 1em;
+        @include bp(m){
+          padding-top: 0;
+          text-align: left;
+          padding-left: 1em;
+        }
+        hyphens: none;
+      }
       img {
-        width: 70%;
+        width: 65%;
+        margin-bottom: 0;
         margin-left: auto;
         margin-right: auto;
       }
@@ -303,7 +328,7 @@
   li {
     margin-bottom: 0.5em;
     break-inside: avoid;
-    line-height: 1;
+    line-height: 1.1;
     &:target {
       font-weight: 600;
     }

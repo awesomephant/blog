@@ -104,9 +104,9 @@
 }
 
 .newsletter-form {
-  margin-bottom: .5em;
+  margin-bottom: .75rem;
   label {
-    margin-bottom: .75rem;
+    margin-bottom: .25rem;
     display: block;
   }
   input {
@@ -137,4 +137,10 @@
 .spacer {
   grid-column: 1 / 13;
   height: 1.5rem;
+}
+.error-copy {
+  grid-column: 1 / 13;
+  @include bp(m){
+    grid-column: 2 / 13;
+  }
 }

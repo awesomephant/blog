@@ -4,13 +4,13 @@ title: It’s Probably Art
 date: 2020-12-06
 includesMath: false
 includesMusic: false
-intro: "The Utah Monolith and the Landscape"
+intro: "The Utah Monolith and the American Landscape"
 tags: post
 thumb: "https://maxkoehler.com/assets/monolith/monolith-spot.png"
 canonical: https://maxakohler.medium.com/its-probably-art-b554f7c5f3e0
 ---
 
-THE UTAH MONOLITH was located at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by wildlife officials on November 23, 2020, and removed ten days later by four unknown men.{% fn "Alan Yuhas / The New York Times (2020): *[A Weird Monolith Is Found in the Utah Desert](https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html)*"%}
+{% leadin %}The Utah Monolith{% endleadin %} was located at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by wildlife officials on November 23, 2020, and removed ten days later by four unknown men.{% fn "Alan Yuhas / The New York Times (2020): *[A Weird Monolith Is Found in the Utah Desert](https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html)*"%}
 
 It was ten to twelve feet tall, and made of polished sheet metal riveted together along the edges, forming a slender, triangular column. Until its removal, the structure was embedded (possibly cemented) into a hole of the same cross section, probably cut into the hard ground with a concrete saw.
 
@@ -24,7 +24,7 @@ As you observe it, the monolith seems to oscillate between these two modes of di
 
 -------
 
-LIKE MOST PEOPLE, I learned about the monolith from the news. The New York Times’ opening paragraph - *"A team surveying bighorn sheep for Utah’s wildlife agency found the strange object, 10 to 12 feet tall, embedded in the ground in a remote part of Red Rock Country. It’s probably art, officials said"* - sounded too much like the fake news reports at the beginning of a disaster fiction film to be ignored.
+{% leadin %}LIKE MOST PEOPLE{% endleadin%}, I learned about the monolith from the news. The New York Times’ opening paragraph - *"A team surveying bighorn sheep for Utah’s wildlife agency found the strange object, 10 to 12 feet tall, embedded in the ground in a remote part of Red Rock Country. It’s probably art, officials said"* - sounded too much like the fake news reports at the beginning of a disaster fiction film to be ignored.
 
 The rest of the story was uneventful, consisting mostly of statements from local officials confirming that they had no idea what the object was or how it got there, either. They declined to give the precise location of the monolith for fear of potential visitors becoming stranded in the remote desert and needing rescue.
 
@@ -47,7 +47,7 @@ Cut to a research ship on the Indian ocean, on the opposite side of the Earth, y
 
 {% fig "/assets/monolith/IMG_3534.jpeg" "IMG_3534" "alt" "[Utah Department of Public Safety](https://dpsnews.utah.gov/dps-aero-bureau-encounters-monolith-in-red-rock-country/)" "small" %}
 
-FOR ALL ITS SCULPTURAL QUALITIES, most of us never experienced the monolith as a sculpture, but as photographs of one, appearing (to paraphrase the art critic John Berger) not on the austere walls of a gallery, but the screens of our phones and laptops in our homes.
+{%leadin%}FOR ALL ITS SCULPTURAL QUALITIES{%endleadin%}, most of us never experienced the monolith as a sculpture, but as photographs of one, appearing (to paraphrase the art critic John Berger) not on the austere walls of a gallery, but the screens of our phones and laptops in our homes.
 
 We have been looking at works of art in this way for a long time: Berger wrote his seminal book *Ways of Seeing* in 1972{% fn "John Berger (1972): *Ways of Seeing*. Penguin Books."%}, when television sets had just entered the home, and Walter Benjamin saw the trend in the 19th century, when photo-engraving had made the mass-reproduction of paintings possible for the first time. But usually there is at least the option (however theoretical) to go see a work in person. This wasn't the case with the monolith - not only was it installed in an inaccessible location, but we've been confined to our homes for months; and travel between states, let alone countries is a distant memory for most of us.
 
@@ -63,11 +63,11 @@ It's perhaps the image that most effectively captures the *sublime* element of t
 
 {% fig "/assets/monolith/chasseur.jpeg" "Caspar-David Friedrich: The Chasseur in the Forest (1814). Oil on canvas, 66×47cm. Private collection." "A lone hunter is seen among tall, dark trees in a winter landscape." "Public Domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_068.jpg)" "small" %}
 
-This sense of awe in the face of Nature is often associated with works by the English painter J. M. W. Turner (1775-1851), but he never did much for me (maybe I grew up too far from the sea). I recognise it more easily in the stillness of a painting like Caspar David Friedrich's *Chasseur in the Forest* (1814). Here, too, the human figure shrinks away against an overwhelming landscape, the black trees resisting any attempt at enlightenment.
+This sense of awe in the face of Nature is often associated with works by the English painter [J. M. W. Turner](https://www.tate.org.uk/art/artworks/turner-fishermen-at-sea-t01585) (1775-1851), but he never did much for me (maybe I grew up too far from the sea). I recognise it more easily in the stillness of a painting like Caspar David Friedrich's *Chasseur in the Forest* (1814). Here, too, the human figure shrinks away against an overwhelming landscape, the black trees resisting any attempt at enlightenment.
 
 -------
 
-THE MONOLITH’S LOCATION didn't stay secret for long. Less than a day after the *Times* published their story, a Reddit user named Bear__Fucker had found the monolith on Google Earth{% fn "Reddit/DOTTheMath (2020): *[Help me find this obelisk in remote Utah wilderness](https://www.reddit.com/r/geoguessr/comments/jzw628/help_me_find_this_obelisk_in_remote_utah/gdfapzw/)*" %}, using public data about the helicopter’s flight path and clues like the colour of rock, and the shape of the hills in the distance visible in the published photographs.
+{%leadin%}THE MONOLITH’S LOCATION{%endleadin%} didn't stay secret for long. Less than a day after the *Times* published their story, a Reddit user named Bear__Fucker had found the monolith on Google Earth{% fn "Reddit/DOTTheMath (2020): *[Help me find this obelisk in remote Utah wilderness](https://www.reddit.com/r/geoguessr/comments/jzw628/help_me_find_this_obelisk_in_remote_utah/gdfapzw/)*" %}, using public data about the helicopter’s flight path and clues like the colour of rock, and the shape of the hills in the distance visible in the published photographs.
 
 After a few failed attempts at getting [the link](https://earth.google.com/web/search/38%c2%b020%2735.18%22N+109%c2%b039%2758.32%22W/@38.3431056,-109.6662,1318.27402438a,807.2294659d,35y,0h,45t,0r/data=CmIaOBIyGYiJYeLqK0NAIRcmUwWjalvAKh4zOMKwMjAnMzUuMTgiTiAxMDnCsDM5JzU4LjMyIlcYAiABIiYKJAkqQIIH6PA3QBEqQIIH6PA3wBlkqz2e96tKQCFhqz2e96tKwCgC) to load up on my laptop, I copied their coordinates and went looking for the place myself. The ten minutes I spent moving my cursor slowly across the endless Utah desert while eyeing the position display in the corner of the screen were strangely exhilerating; like a real-life treasure hunt with a supernatural undercurrent.
 
@@ -77,7 +77,7 @@ It occured to me that the monolith was just the right size to be viewed by satel
 
 ------
 
-IT'S NO ACCIDENT, I think, that the images of the monolith are so compelling: The scene feels like it was always designed to be photographed.
+{%leadin%}IT'S NO ACCIDENT{%endleadin%}, I think, that the images of the monolith are so compelling: The scene feels like it was always designed to be photographed.
 
 Its romantic symmetry only works from "the front", so that's where the photographer naturally positions themselves. The monolith's scale keeps them from getting too close, cropping it would look *wrong*. Even the lighting was considered: had the monolith been placed a few feet back, it would disappear in the shadow.
 
@@ -98,8 +98,8 @@ But the chain of influence runs the other way, too: Our whole notion of *The Lan
 In the 19th century photography, having inherited the visual language of painting, helped shape the fantasy of the great, "untouched" American landscape that still lingers today. Photographers like Carleton Watkins didn’t “discover” places like Yosemite Valley, but constructed them with complex optical machinery and painstaking work in the darkroom {% fn "Ana Cecilia Alvarez (2019) in Real Life Magazine: *[Look for America: How Land became scenery](https://reallifemag.com/look-for-america/)* "%}.
 
 <figure class="post-figure big">
-<div class="embed" style="padding:45% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/70173915?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<figcaption><em>2001</em>'s <em>Star Gate</em> sequence</figcaption>
+<div class="embed" style="padding:45% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/70173915?autoplay=0&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<figcaption><em>2001</em>'s <em>Star Gate</em> sequence (1968)</figcaption>
 </figure>
 
 In 1968, those familiar images of the American Landscape re-appear in *2001*’s terrifying *Star Gate* sequence. As we're transported through interstellar space, we see them disfigured by swirling photochemicals and distorted glass, all dissolving into a pool of pure, acidic colour. It’s the ultimate upside-down of the stately silver-gelatin prints of the previous century, but the lineage is there nontheless.

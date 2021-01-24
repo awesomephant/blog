@@ -2,7 +2,11 @@
 
 	<form action="https://tinyletter.com/maxakohler" method="post" class="newsletter-form" target="popupwindow"
 		onsubmit="window.open('https://tinyletter.com/maxakohler', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+		{% if tags contains "post" %}
+		<label for="tlemail">Subscribe for more stories</label>
+		{% else %}
 		<label for="tlemail">Subscribe for updates</label>
+		{% endif %}
 		<div>
 			<input type="text" class="email" placeholder="you@email.com" name="email" id="tlemail" />
 			<input type="hidden" value="1" name="embed" />

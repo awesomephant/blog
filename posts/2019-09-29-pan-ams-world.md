@@ -10,7 +10,7 @@ tags: post
 publication: Content Free
 ---
 
-{% fig "/assets/geismar.jpg" "Chermayeff & Geismar (1971): Poster from “PanAm’s World” Campaign." "A 1971 poster for PanAm showing men on horseback against a sunset. Text reads 'Argentina'." "[Eye Magazine](http://eyemagazine.com/feature/article/flight-of-the-imagination)" "small" %}
+{% fig "/assets/geismar.jpg" "Chermayeff & Geismar (1971): Poster from “PanAm’s World” Campaign." "A 1971 poster for PanAm showing men on horseback against a sunset. Text reads 'Argentina / PanAms World'." "[Eye Magazine](http://eyemagazine.com/feature/article/flight-of-the-imagination)" "small" %}
 
 When I was an undergraduate student, a relative gave me this big coffee table book about airline visual identities. It documents the visual output of the 20th century aviation industry in all its glory: Full-bleed Kodachrome photography overlaid with tightly-set Helvetica at [PanAm](http://www.eyemagazine.com/feature/article/flight-of-the-imagination). Colourful, bold illustrations and lettering, printed in stone lithography well into the 1950s at [Air France](https://image.jimcdn.com/app/cms/image/transf/none/path/s845a70f74d8b0138/image/i72f33aa726ac2f98/version/1545933097/image.jpg). The cool functionalism of HfG Ulm at [Lufthansa](http://ravenrow.org/exhibition/the_ulm_model/).
 

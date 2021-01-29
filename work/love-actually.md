@@ -15,6 +15,6 @@ category: Event
 
 The site is built in React with a [Netlify CMS](https://www.netlifycms.org/) backend and uses an embedded Twitch stream and Twitch chat. It's typeset in Arial by Robin Nicholas and Patricia Saunders in various weights and distortions.
 
-Concept and art direction by Eilis Searson, music by [Jamie She](https://www.instagram.com/jamie_wooze/), design and development by me.
+Concept and art direction by [Eilis Searson](http://eilissearson.com/), music by [Jamie She](https://www.instagram.com/jamie_wooze/), design and development by me.
 
-View the live site at [loveactually.works](https://www.loveactually.works/)
+View the live site at **[loveactually.works](https://www.loveactually.works/)**.

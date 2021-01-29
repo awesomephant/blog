@@ -10,7 +10,7 @@ thumb: "https://maxkoehler.com/assets/monolith/monolith-spot.png"
 canonical: https://maxakohler.medium.com/its-probably-art-b554f7c5f3e0
 ---
 
-{% leadin %}The Utah Monolith{% endleadin %} was located at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by wildlife officials on November 23, 2020, and removed ten days later by four unknown men.{% fn "Alan Yuhas / The New York Times (2020): *[A Weird Monolith Is Found in the Utah Desert](https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html)*"%}
+{% leadin %}The Utah Monolith{% endleadin %} stood at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by wildlife officials on November 23, 2020, and removed ten days later by four unknown men.{% fn "Alan Yuhas / The New York Times (2020): *[A Weird Monolith Is Found in the Utah Desert](https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html)*"%}
 
 It was ten to twelve feet tall, and made of polished sheet metal riveted together along the edges, forming a slender, triangular column. Until its removal, the structure was embedded (possibly cemented) into a hole of the same cross section, probably cut into the hard ground with a concrete saw.
 
@@ -24,7 +24,7 @@ As you observe it, the monolith seems to oscillate between these two modes of di
 
 -------
 
-{% leadin %}LIKE MOST PEOPLE{% endleadin%}, I learned about the monolith from the news. The New York Times’ opening paragraph - *"A team surveying bighorn sheep for Utah’s wildlife agency found the strange object, 10 to 12 feet tall, embedded in the ground in a remote part of Red Rock Country. It’s probably art, officials said"* - sounded too much like the fake news reports at the beginning of a disaster fiction film to be ignored.
+{% leadin %}Like most people{% endleadin%}, I learned about the monolith from the news. The New York Times’ opening paragraph - *"A team surveying bighorn sheep for Utah’s wildlife agency found the strange object, 10 to 12 feet tall, embedded in the ground in a remote part of Red Rock Country. It’s probably art, officials said"* - sounded too much like the fake news reports at the beginning of a disaster fiction film to be ignored.
 
 The rest of the story was uneventful, consisting mostly of statements from local officials confirming that they had no idea what the object was or how it got there, either. They declined to give the precise location of the monolith for fear of potential visitors becoming stranded in the remote desert and needing rescue.
 
@@ -47,7 +47,7 @@ Cut to a research ship on the Indian ocean, on the opposite side of the Earth, y
 
 {% fig "/assets/monolith/IMG_3534.jpeg" "IMG_3534" "alt" "[Utah Department of Public Safety](https://dpsnews.utah.gov/dps-aero-bureau-encounters-monolith-in-red-rock-country/)" "small" %}
 
-{%leadin%}FOR ALL ITS SCULPTURAL QUALITIES{%endleadin%}, most of us never experienced the monolith as a sculpture, but as photographs of one, appearing (to paraphrase the art critic John Berger) not on the austere walls of a gallery, but the screens of our phones and laptops in our homes.
+{%leadin%}For all its sculptural qualities{%endleadin%}, most of us never experienced the monolith as a sculpture, but as photographs of one, appearing (to paraphrase the art critic John Berger) not on the austere walls of a gallery, but the screens of our phones and laptops in our homes.
 
 We have been looking at works of art in this way for a long time: Berger wrote his seminal book *Ways of Seeing* in 1972{% fn "John Berger (1972): *Ways of Seeing*. Penguin Books."%}, when television sets had just entered the home, and Walter Benjamin saw the trend in the 19th century, when photo-engraving had made the mass-reproduction of paintings possible for the first time. But usually there is at least the option (however theoretical) to go see a work in person. This wasn't the case with the monolith - not only was it installed in an inaccessible location, but we've been confined to our homes for months; and travel between states, let alone countries is a distant memory for most of us.
 
@@ -67,7 +67,7 @@ This sense of awe in the face of Nature is often associated with works by the En
 
 -------
 
-{%leadin%}THE MONOLITH’S LOCATION{%endleadin%} didn't stay secret for long. Less than a day after the *Times* published their story, a Reddit user named Bear__Fucker had found the monolith on Google Earth{% fn "Reddit/DOTTheMath (2020): *[Help me find this obelisk in remote Utah wilderness](https://www.reddit.com/r/geoguessr/comments/jzw628/help_me_find_this_obelisk_in_remote_utah/gdfapzw/)*" %}, using public data about the helicopter’s flight path and clues like the colour of rock, and the shape of the hills in the distance visible in the published photographs.
+{%leadin%}The Monolith's location{%endleadin%} didn't stay secret for long. Less than a day after the *Times* published their story, a Reddit user named Bear__Fucker had found the monolith on Google Earth{% fn "Reddit/DOTTheMath (2020): *[Help me find this obelisk in remote Utah wilderness](https://www.reddit.com/r/geoguessr/comments/jzw628/help_me_find_this_obelisk_in_remote_utah/gdfapzw/)*" %}, using public data about the helicopter’s flight path and clues like the colour of rock, and the shape of the hills in the distance visible in the published photographs.
 
 After a few failed attempts at getting [the link](https://earth.google.com/web/search/38%c2%b020%2735.18%22N+109%c2%b039%2758.32%22W/@38.3431056,-109.6662,1318.27402438a,807.2294659d,35y,0h,45t,0r/data=CmIaOBIyGYiJYeLqK0NAIRcmUwWjalvAKh4zOMKwMjAnMzUuMTgiTiAxMDnCsDM5JzU4LjMyIlcYAiABIiYKJAkqQIIH6PA3QBEqQIIH6PA3wBlkqz2e96tKQCFhqz2e96tKwCgC) to load up on my laptop, I copied their coordinates and went looking for the place myself. The ten minutes I spent moving my cursor slowly across the endless Utah desert while eyeing the position display in the corner of the screen were strangely exhilerating; like a real-life treasure hunt with a supernatural undercurrent.
 
@@ -77,7 +77,7 @@ It occured to me that the monolith was just the right size to be viewed by satel
 
 ------
 
-{%leadin%}IT'S NO ACCIDENT{%endleadin%}, I think, that the images of the monolith are so compelling: The scene feels like it was always designed to be photographed.
+{%leadin%}It's no accident{%endleadin%}, I think, that the images of the monolith are so compelling: The scene feels like it was always designed to be photographed.
 
 Its romantic symmetry only works from "the front", so that's where the photographer naturally positions themselves. The monolith's scale keeps them from getting too close, cropping it would look *wrong*. Even the lighting was considered: had the monolith been placed a few feet back, it would disappear in the shadow.
 

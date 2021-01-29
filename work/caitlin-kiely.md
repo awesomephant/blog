@@ -16,4 +16,4 @@ Portfolio website for the Birmingham-based artist Caitlin Kiely. The site displa
 
 The site is built with [Eleventy](https://www.11ty.dev/) and [Netlify CMS](https://www.netlifycms.org/). It's typeset in [Untitled Sans Regular](https://klim.co.nz/blog/untitled-sans-serif-design-information/) by Kris Sowersby and Noe Blanco.
 
-Design by Caitlin Kiely and me, development by me. View the live site at [caitlinkiely.co.uk](https://www.caitlinkiely.co.uk/)
+Design by Caitlin Kiely and me, development by me. View the live site at **[caitlinkiely.co.uk](https://www.caitlinkiely.co.uk/)**.

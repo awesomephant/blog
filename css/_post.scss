@@ -25,8 +25,14 @@
   p {
     margin-bottom: 0.5em;
   }
+  strong {
+    font-weight: 800;
+    font-family: $sans;
+    font-size: .9em;
+  }
   .leadin {
-    text-transform: uppercase;
+    //text-transform: uppercase;
+    font-weight: 900;
     font-family: $sans;
     letter-spacing: .02em;
     font-size: .95em;
@@ -112,7 +118,7 @@
   figcaption {
     font-size: var(--ms--1);
     hyphens: auto;
-    line-height: 1.1;
+    line-height: 1.2;
     font-weight: 400;
     max-width: 36em;
     margin: 0 auto;
@@ -271,13 +277,13 @@
 }
 
 .post-intro {
-  font-weight: 600;
+  font-weight: 900;
   line-height: 1.2;
   margin-top: 0.25em;
-  font-size: var(--ms-2);
+  font-size: var(--ms-1);
   hyphens: none;
   margin-bottom: 4em;
-  max-width: 23em;
+  max-width: 25em;
 }
 
 .post-title {
@@ -315,20 +321,18 @@
   padding-top: 1rem;
   grid-column: 1 / 12;
   margin-left: 1em;
-  columns: 2;
   @include bp(m) {
     grid-column: 2 / 10;
     align-self: flex-end;
   }
   @include bp(l) {
-    columns: 1;
     grid-column: 2 / 4;
     grid-row: 4 / 5;
   }
   li {
     margin-bottom: 0.5em;
     break-inside: avoid;
-    line-height: 1.1;
+    line-height: 1.2;
     &:target {
       font-weight: 600;
     }

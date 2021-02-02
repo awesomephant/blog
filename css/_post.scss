@@ -322,10 +322,14 @@
   grid-column: 1 / 12;
   margin-left: 1em;
   @include bp(m) {
+    padding-top: 4rem;
     grid-column: 2 / 10;
+    columns: 2;
     align-self: flex-end;
   }
   @include bp(l) {
+    padding-top: 0;
+    columns: 1;
     grid-column: 2 / 4;
     grid-row: 4 / 5;
   }

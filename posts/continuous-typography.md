@@ -172,4 +172,4 @@ To my knowledge this situation hasn't changed much since - so there's plenty
 
 ## Update February 2, 2021
 
-I finally got around to writing a demo of what a design tool for continuous typography might look like - basically a working version of the final figure above. [Play with it here](https://awesomephant.github.io/continuous-typography/), or [read more about here](http://localhost:8080/work/continuous-type-tester/).
+I finally got around to writing a demo of what a design tool for continuous typography might look like - basically a working version of the final figure above. [Play with it here](https://awesomephant.github.io/continuous-typography/), or [read more about here](/work/continuous-type-tester/).

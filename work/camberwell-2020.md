@@ -19,7 +19,7 @@ Instead, I spun up a headless CMS called [Sanity](https://www.sanity.io/), moved
 
 Typefaces in use are *Drury Lane* by Nick Curtis and *Work Sans* by Wei Huang. Art direction by [Chloe Tabarie](https://www.wishyouwereherecamberwell.com/chloe-tabarie/), [Justina Čiačytė](https://www.wishyouwereherecamberwell.com/justina-ciacyte/), and [Matty Palmer](https://www.wishyouwereherecamberwell.com/matty-palmer/). AR development by [Chuiqing Tiger Yang](https://www.wishyouwereherecamberwell.com/chuiqing-tiger-yang/).
 
-View the live site at [wishyouwereherecamberwell.com](https://www.wishyouwereherecamberwell.com/) from 30th June 2020, 6pm BST.
+View the live site at **[wishyouwereherecamberwell.com](https://www.wishyouwereherecamberwell.com/)** from 30th June 2020, 6pm BST.
 
 ## Coverage
 

@@ -298,6 +298,7 @@
     margin-bottom: 0.1em;
   }
   @include bp(m) {
+    max-width: 15em;
     font-size: var(--ms-4);
   }
   @include bp(l) {

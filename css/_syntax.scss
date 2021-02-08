@@ -1,4 +1,4 @@
-$color-string: rgb(0, 128, 32);
+$color-string: rgb(0, 128, 28);
 
 pre {
   font-family: $mono;
@@ -19,7 +19,7 @@ pre {
 code[class*="language-"],
 pre[class*="language-"] {
   font-family: $mono;
-  line-height: 1.4;
+  line-height: 1.35;
   direction: ltr;
   text-align: left;
   white-space: pre;

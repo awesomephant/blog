@@ -33,8 +33,8 @@
 
 
 @font-face {
-  font-family: 'MD IO';
-  src: url('./assets/fonts/mdio.woff2') format('woff2');
+  font-family: 'MDIO';
+  src: url('/assets/fonts/mdio.woff2') format('woff2');
   font-weight: 400;
 }
 
@@ -42,7 +42,7 @@ $pink: rgb(233, 68, 2);
 $gray: rgb(158, 152, 142);
 $sans: "Helvetica", sans-serif;
 $serif: "Georgia", serif;
-$mono: "MD IO", Courier New,  monospace;
+$mono: "MDIO", Courier New,  monospace;
 $fast: 150ms;
 
 :root {

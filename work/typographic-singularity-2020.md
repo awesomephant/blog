@@ -15,9 +15,9 @@ This year's edition of the event had to move to an online platform, which I desi
 
 The site is built on a Postgres/Express/Socket.io backend hosted on Heroku. The frontend is a static site built with Eleventy. Neue Haas Grotesk Display is used throughout the site.
 
-View the live site at [typographicsingularity.com](https://www.typographicsingularity.com/)
+View the live site at **[typographicsingularity.com](https://www.typographicsingularity.com/)**.
 
 ## Coverage
 
 - [Hoverstates](https://www.hoverstat.es/features/typographic-singularity-2020)
-- [Fonts in Use](https://fontsinuse.com/uses/33780/typographic-singularity-2020)
+- [Fonts in Use Staff Picks](https://fontsinuse.com/uses/33780/typographic-singularity-2020)

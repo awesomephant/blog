@@ -1,8 +1,8 @@
-$color-string: rgb(0, 128, 28);
+$color-string: rgb(0, 139, 12);
 
-pre {
+pre, p > code {
   font-family: $mono;
-  font-size: calc(var(--ms-0) * .85);
+  font-size: calc(var(--ms-0) * .95);
   line-height: 1.2;
   letter-spacing: -.003em;
   direction: ltr;
@@ -38,13 +38,6 @@ pre[class*="language-"] {
   overflow: auto;
 }
 
-/* Inline code */
-:not(pre) > code {
-  font-family: $mono;
-  color: inherit;
-  font-size: 0.85em;
-}
-
 .token.comment,
 .token.prolog,
 .token.doctype,
@@ -53,7 +46,7 @@ pre[class*="language-"] {
 }
 
 .token.punctuation {
-  color: #79736f;
+  color: #a3a09d;
 }
 
 .token.namespace {

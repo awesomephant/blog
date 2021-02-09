@@ -108,8 +108,8 @@ module.exports = function (eleventyConfig) {
     ]);
   });
 
-  eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("dist");
   eleventyConfig.addPassthroughCopy("./*.png");
   eleventyConfig.addPassthroughCopy("./*.xml");
   eleventyConfig.addPassthroughCopy("./*.txt");

@@ -14,7 +14,7 @@
   hyphens: auto;
   line-height: 1.3;
   font-size: var(--ms-0);
-  font-family: $serif;
+  font-family: $sans;
   font-weight: 500;
   img,
   video {
@@ -31,7 +31,6 @@
     font-size: .9em;
   }
   .leadin {
-    //text-transform: uppercase;
     font-weight: 900;
     font-family: $sans;
     letter-spacing: .02em;
@@ -289,7 +288,7 @@
 .post-title {
   font-size: var(--ms-3);
   letter-spacing: -0.01em;
-  line-height: 1;
+  line-height: 1.1;
   font-weight: 900;
   max-width: 25em;
   font-family: $sans;

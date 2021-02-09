@@ -48,7 +48,7 @@ $fast: 150ms;
 :root {
   --font-text: #{$sans};
   --ratio: 1.2;
-  --ms-0: clamp(1rem, calc(1.4vw + .2rem), 1.25rem);
+  --ms-0: clamp(1rem, calc(1.3vw + .2rem), 1.24rem);
   --ms--1: calc(var(--ms-0) / var(--ratio));
   --ms-1: calc(var(--ms-0) * var(--ratio));
   --ms-2: calc(var(--ms-1) * var(--ratio));

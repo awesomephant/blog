@@ -11,4 +11,4 @@ category: Interactive
 
 An experimental video player with variable playback speed controlled by scrolling. Concept and film by [Harry Boulter](https://www.instagram.com/harryboulter/), interface design and code by me.
 
-View the live site at [movingfast.netlify.app](https://movingfast.netlify.app/)
+View the live site at **[movingfast.netlify.app](https://movingfast.netlify.app/)**

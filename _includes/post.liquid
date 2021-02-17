@@ -14,8 +14,12 @@ class: post
 		<h1 class="post-title">
 			{% if external_link %}
 			<a href="{{external_link}}">{{title}}</a>
-			{% else %}
+			{% else%}
+			{% if website %}
+			<a href="{{website}}">{{title}}</a>
+			{% else%}
 			{{ title }}
+			{% endif %}
 			{% endif %}
 		</h1>
 		{% if intro %}

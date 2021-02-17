@@ -10,6 +10,7 @@ website: "https://letterformarchive.org/events/view/atkinson-hyperlegible-challe
 thumb: ""
 ---
 
+This is a similar slide-deck to the one they presented at the [type Directors Club](https://www.youtube.com/watch?v=CgBD3ZezGh8).
 
 ## Applied Design Works
 

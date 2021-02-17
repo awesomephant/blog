@@ -2,7 +2,8 @@
   grid-column: 2 / 12;
   font-size: var(--ms--1);
   margin-bottom: 3em;
-  max-width: 25em;
+  font-family: $mono;
+  max-width: 34em;
   a {
     text-decoration-thickness: 1px;
   }
@@ -13,7 +14,6 @@
 
 .project-list-item {
   display: contents;
-  font-family: $sans;
   .project-date {
     grid-column: 1 / 2;
     padding-right: 1em;
@@ -116,8 +116,8 @@
     border:  1px solid currentColor;
     display: block;
     font-weight: 400; 
-    font-family: $mono;
-    padding: .1em .3em;
+    font-family: $sans;
+    padding: .2em .5em;
   }
   .submit {
     appearance: none;

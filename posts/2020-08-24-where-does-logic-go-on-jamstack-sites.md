@@ -7,6 +7,7 @@ includesMusic: false
 intro: ""
 tags: post
 publication: CSS-Tricks
+external_link: https://css-tricks.com/where-does-logic-go-on-jamstack-sites/
 ---
 
 I just wrote about that question over on [CSS-Tricks](https://css-tricks.com/where-does-logic-go-on-jamstack-sites/). I go into some detail there, but the argument boils down to this: Even though a basic idea of the Jamstack is that you do as much of your logic as you can during your build process (earlier in the programme lifecycle, if you will), you still have options. Namely:

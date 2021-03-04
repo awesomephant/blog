@@ -4,6 +4,12 @@ class: post
 ---
 
 <aside class="post-meta">
+	{% if tags %}
+	{% assign t = tags | first %}
+	{%	 if t == "work" %}
+	<span>Work</span>
+	{% endif %}
+	{% endif %}
 	<date class="post-date post-meta-item">
 		{{ date | date: "%B %d, %Y" }}
 	</date>

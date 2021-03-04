@@ -91,6 +91,9 @@
   @include bp(l) {
     grid-column: 5 / 12;
   }
+  a {
+    display: inline-block;
+  }
   i {
     display: inline-block;
     margin-right: 0.5em;
@@ -129,6 +132,9 @@
   }
   .email {
     margin-right: -1px;
+    &:focus {
+      outline: 0;
+    };
   }
   div {
     display: flex;

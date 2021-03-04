@@ -26,7 +26,7 @@ function initList() {
 document.addEventListener(
     "DOMContentLoaded",
     function () {
-        textBalancer.balanceText('.post-title');
+        textBalancer.balanceText('.post-title, .post-intro');
         let headlines = document.querySelectorAll(
             ".post-content h2[id], .post-content h3[id]"
         );

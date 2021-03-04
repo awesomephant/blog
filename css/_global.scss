@@ -19,12 +19,11 @@ $hero: rgb(232, 235, 241);
 body {
   font-family: var(--font-text);
   font-feature-settings: "pnum" 1, "kern" 1;
-  padding: 2%;
+  padding: max(2%, 1.2rem);
   font-size: var(--ms-0);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   background: $hero;
-  padding-top: 2%;
   background: rgb(0, 0, 0);
   color: rgb(238, 238, 238);
   letter-spacing: 0.012em;

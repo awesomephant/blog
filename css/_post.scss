@@ -154,6 +154,7 @@
       }
       figcaption {
         padding-top: 1em;
+        flex-basis: 50%;
         @include bp(m){
           padding-top: 0;
           text-align: left;
@@ -276,9 +277,9 @@
 }
 
 .post-intro {
-  font-weight: 900;
+  font-weight: 600;
   line-height: 1.2;
-  margin-top: 0.25em;
+  margin-top: .5em;
   font-size: var(--ms-1);
   hyphens: none;
   margin-bottom: 4em;

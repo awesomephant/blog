@@ -119,6 +119,7 @@ module.exports = function (eleventyConfig) {
       if (y !== currentYear) {
         postsByYear.push({
           year: y,
+          shortYear: y.toString().substr(2),
           posts: [p]
         })
         currentYear = y;
@@ -139,6 +140,7 @@ module.exports = function (eleventyConfig) {
       if (y !== currentYear) {
         workByYear.push({
           year: y,
+          shortYear: y.toString().substr(2),
           posts: [p]
         })
         currentYear = y;

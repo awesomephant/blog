@@ -13,7 +13,7 @@ class: home
         {% for year in collections.workByYear %}
         <span class="project-date" style="grid-row: span {{year.posts | size}}">
             <span>
-                {{year.year}}
+                {{year.shortYear}}
             </span>
         </span>
         {% assign posts = year.posts | reverse%}
@@ -39,7 +39,7 @@ class: home
         {% for year in collections.postsByYear %}
         <span class="project-date" style="grid-row: span {{year.posts | size}}">
             <span>
-                {{year.year}}
+                {{year.shortYear}}
             </span>
         </span>
         {% assign posts = year.posts | reverse %}

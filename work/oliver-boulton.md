@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oliver Boulton
+title: The Way a Map in Your Mind Works
 intro: Portfolio website for Oliver Boulton, an artist and book designer working between Paris and London 
 date: 2021-03-12
 tags: work
@@ -15,7 +15,7 @@ category: Portfolio
 
 Since Oliver has some development skills himself, we decided to build the site together through standard version control. We're using [Eleventy](https://github.com/11ty/eleventy/) to build the site from a series of Markdown and JSON data files and Liquid templates. The frontend interactions are written in plain Javascript, and for the moment the site is hosted on standard shared hosting.
 
-The big shortfall of the Jamstack approach are the images: The site has hundreds of them, and most are high-resolution scans. We're using [Eleventy-img](https://github.com/11ty/eleventy-img) to scale and convert these to web-friendly formats, but that process takes around ten minutes — far too long to run everytime you hit Cmd-S. There is a way to [cache the generated images](https://github.com/11ty/eleventy-img/issues/51) but we haven't managed to get this to work reliably yet.
+The big shortfall of the Jamstack approach are the images: The site has hundreds of them, and most are high-resolution scans. We're using [Eleventy-img](https://github.com/11ty/eleventy-img) to scale and convert these to web-friendly formats, but that process takes around ten minutes — far too long to run everytime you hit Cmd-S, and still pretty hefty to run on something like Github Actions. There is a way to [cache the generated images](https://github.com/11ty/eleventy-img/issues/51) but we haven't managed to get this to work reliably yet.
 
 The site is typeset in [Helvetica Now](https://www.monotype.com/fonts/helvetica-now) from Monotype Studio and [Everson Mono](https://evertype.com/emono/) by Michael Everson. This is the first site where I've implemented [Continuous Typography](/posts/continuous-typography/) from the start — resize your browser to see it in action.
 

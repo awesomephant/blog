@@ -24,8 +24,8 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   background: $hero;
-  background: rgb(0, 0, 0);
-  color: rgb(238, 238, 238);
+  background: rgb(221, 218, 215);
+  color: $black;
   letter-spacing: 0.012em;
   line-height: 1.25;
   @include bp(m) {

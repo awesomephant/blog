@@ -1,6 +1,6 @@
-$color-string: rgb(0, 139, 12);
+$color-string: rgb(228, 87, 5);
 
-pre, p > code {
+pre, p > code, li > code {
   font-family: $mono;
   font-size: calc(var(--ms-0) * .95);
   line-height: 1.2;

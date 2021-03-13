@@ -2,10 +2,18 @@
   grid-column: 2 / 12;
   font-size: var(--ms--1);
   margin-bottom: 3em;
-  font-family: $mono;
+  font-family: $sans;
   max-width: 34em;
+  letter-spacing: 0.01em;
   a {
-    text-decoration-thickness: 1px;
+    text-decoration: none;
+    display: block;
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
+  }
+  @include bp(m) {
+    margin-bottom: 15vh;
   }
   @include bp(l) {
     grid-column: 5 / 10;
@@ -65,7 +73,7 @@
   h2 {
     grid-column: 2 / 13;
     font-weight: bold;
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
     font-family: $sans;
     @include bp(m) {
       font-weight: 400;
@@ -73,7 +81,6 @@
       padding-bottom: 0;
       grid-column: 2 / 4;
     }
-
   }
 }
 
@@ -107,26 +114,27 @@
 }
 
 .newsletter-form {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
   label {
-    margin-bottom: .25rem;
+    margin-bottom: 0.25rem;
     display: block;
   }
   input {
     appearance: none;
     color: inherit;
     background: transparent;
-    border:  1px solid currentColor;
+    border: 1px solid currentColor;
     display: block;
-    font-weight: 400; 
+    font-weight: 400;
     font-family: $sans;
-    padding: .2em .5em;
+    padding: 0.2em 0.5em;
   }
   .submit {
     appearance: none;
     color: inherit;
     cursor: pointer;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       text-decoration: underline;
     }
   }
@@ -134,7 +142,7 @@
     margin-right: -1px;
     &:focus {
       outline: 0;
-    };
+    }
   }
   div {
     display: flex;
@@ -146,7 +154,7 @@
 }
 .error-copy {
   grid-column: 1 / 13;
-  @include bp(m){
+  @include bp(m) {
     grid-column: 2 / 13;
   }
 }

@@ -116,16 +116,18 @@ module.exports = function (eleventyConfig) {
 
     posts.forEach(p => {
       let y = new Date(p.data.date).getFullYear()
-      if (y !== currentYear) {
-        postsByYear.push({
-          year: y,
-          shortYear: y.toString().substr(2),
-          posts: [p]
-        })
-        currentYear = y;
-      } else {
-        let index = getIndex(postsByYear, "year", currentYear)
-        postsByYear[index].posts.push(p)
+      if (p.data.draft !== true) {
+        if (y !== currentYear) {
+          postsByYear.push({
+            year: y,
+            shortYear: y.toString().substr(2),
+            posts: [p]
+          })
+          currentYear = y;
+        } else {
+          let index = getIndex(postsByYear, "year", currentYear)
+          postsByYear[index].posts.push(p)
+        }
       }
     })
     return postsByYear.reverse()
@@ -137,29 +139,23 @@ module.exports = function (eleventyConfig) {
 
     work.forEach(p => {
       let y = new Date(p.data.date).getFullYear()
-      if (y !== currentYear) {
-        workByYear.push({
-          year: y,
-          shortYear: y.toString().substr(2),
-          posts: [p]
-        })
-        currentYear = y;
-      } else {
-        let index = getIndex(workByYear, "year", currentYear)
-        workByYear[index].posts.push(p)
+      if (p.data.draft !== true) {
+
+        if (y !== currentYear) {
+          workByYear.push({
+            year: y,
+            shortYear: y.toString().substr(2),
+            posts: [p]
+          })
+          currentYear = y;
+        } else {
+          let index = getIndex(workByYear, "year", currentYear)
+          workByYear[index].posts.push(p)
+        }
       }
     })
     return workByYear.reverse()
   })
-
-  eleventyConfig.addCollection("post", function (collectionApi) {
-    const posts = collectionApi.getFilteredByGlob(["./work/*.md"]);
-    return posts
-  });
-  eleventyConfig.addCollection("work", function (collectionApi) {
-    return collectionApi.getFilteredByGlob(["./posts/*.md"]);
-  });
-
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("dist");
   eleventyConfig.addPassthroughCopy("./*.png");

@@ -5,7 +5,7 @@ date: 2020-03-02T17:45:09.024Z
 includesMath: false
 includesMusic: false
 intro: ""
-tags: "a"
+draft: true
 ---
 
 ![White Noise Poster](/assets/letterpress/wn.jpg)

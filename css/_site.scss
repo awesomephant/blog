@@ -8,7 +8,8 @@
   a {
     text-decoration: none;
     display: block;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       text-decoration: underline;
     }
   }
@@ -20,16 +21,22 @@
   }
 }
 
+.project-date {
+  grid-column: 1 / 2;
+  padding-right: 1em;
+  span {
+    position: sticky;
+    top: 1em;
+    display: block;
+  }
+
+  @include bp(m) {
+    grid-column: 4 / 5;
+  }
+}
+
 .project-list-item {
   display: contents;
-  .project-date {
-    grid-column: 1 / 2;
-    padding-right: 1em;
-
-    @include bp(m) {
-      grid-column: 4 / 5;
-    }
-  }
 
   .project-title {
     grid-column: 2 / 12;
@@ -69,13 +76,19 @@
 
 .home-section {
   display: contents;
-
   h2 {
     grid-column: 2 / 13;
     font-weight: bold;
     padding-bottom: 0.5em;
     font-family: $sans;
+    grid-row: span 1;
+    span {
+      position: sticky;
+      top: 1em;
+      display: block;
+    }
     @include bp(m) {
+      grid-row: span var(--rows);
       font-weight: 400;
       padding-top: 0;
       padding-bottom: 0;

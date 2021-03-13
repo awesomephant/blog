@@ -17,7 +17,7 @@ pre, p > code, li > code {
 }
 
 code[class*="language-"],
-pre[class*="language-"] {
+pre[class*="language-"], pre code{
   font-family: $mono;
   line-height: 1.35;
   direction: ltr;

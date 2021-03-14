@@ -35,7 +35,7 @@ class: post
 		</h1>
 		{% if intro %}
 		<div class="post-intro">
-			{{ intro | markdownify}}
+			{{ intro | renderMarkdown}}
 		</div>
 		{% endif %}
 	</div>

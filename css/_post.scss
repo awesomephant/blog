@@ -24,6 +24,9 @@
   }
   p {
     margin-bottom: 0.5em;
+    a {
+      color: $blue;
+    }
   }
   strong {
     font-weight: 800;
@@ -37,7 +40,7 @@
     font-size: 0.95em;
   }
   h2 {
-    font-weight: 600;
+    font-weight: 800;
     font-family: $sans;
     margin-top: 2em;
     font-size: var(--ms-2);
@@ -123,6 +126,9 @@
     max-width: 36em;
     margin: 0 auto;
     text-align: center;
+    a {
+      color: $black;
+    }
     p {
       display: inline;
     }
@@ -218,6 +224,7 @@
       display: block;
     }
     a {
+      color: inherit;
       display: inline;
     }
   }
@@ -278,13 +285,16 @@
 }
 
 .post-intro {
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.2;
   margin-top: 0.5em;
-  font-size: var(--ms-1);
   hyphens: none;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   max-width: 25em;
+  font-size: var(--ms-1);
+  @include bp(m){
+    font-size: var(--ms-2);
+  }
 }
 
 .post-title {

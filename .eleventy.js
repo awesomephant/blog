@@ -42,6 +42,9 @@ module.exports = function (eleventyConfig) {
         `;
     }
   );
+  eleventyConfig.addFilter("renderMarkdown", function (value) {
+    return md.render(value);
+  });
   eleventyConfig.addShortcode("css", function (filename) {
     if (process.env.NODE_ENV === "production") {
       let css = sass.renderSync({

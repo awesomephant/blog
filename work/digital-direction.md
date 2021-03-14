@@ -4,14 +4,13 @@ title: RCA Digital Direction
 date: 2020-01-01
 tags: work
 category: Event
+intro: Microsite for the [MA Digital Direction](https://www.rca.ac.uk/schools/school-of-communication/digital-direction/) 2020 graduate show at the Royal College of Art, London
 ---
 
 <video class='full' autoplay loop muted src='/assets/digital-direction-walkthrough.mp4'></video>
 
-Microsite for the [MA Digital Direction](https://www.rca.ac.uk/schools/school-of-communication/digital-direction/) 2020 graduate show at the Royal College of Art, London. Design and code by me, art direction by [Xi Cheng](https://chenachenc.com/).
+The site is built in [Jekyll](https://jekyllrb.com/), with some light [three.js](https://threejs.org/) for the display typography. I set up a Google spreadsheet and let everyone on the course fill in their information. Then I exported that into a CSV file, which Jekyll can read out of the box and renders into HTML.
 
-The site is built in [Jekyll](https://jekyllrb.com/), with some light [three.js](https://threejs.org/) for the display typography. I set up a Google spreadsheet and let everyone on the course fill in their information. Then I exported that into a CSV file, which Jekyll can read out of the box.
+[Untitled Sans](https://klim.co.nz/retail-fonts/untitled-sans/) by Kris Sowersby / Klim Type Foundry is used throughout. Art direction by [Xi Cheng](https://chenachenc.com/), design and code by me.
 
-[Untitled Sans](https://klim.co.nz/retail-fonts/untitled-sans/) by Kris Sowersby / Klim Type Foundry is used throughout.
-
-View the live site at [digitaldirection2020.net](http://digitaldirection2020.net/).
+View the live site at **[digitaldirection2020.net](http://digitaldirection2020.net/)**.

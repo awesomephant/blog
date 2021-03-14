@@ -4,7 +4,10 @@
   margin-bottom: 3em;
   font-family: $sans;
   max-width: 34em;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.012em;
+  display: flex;
+  line-height: 1.2;
+  align-items: flex-start;
   a {
     text-decoration: none;
     display: block;
@@ -18,6 +21,21 @@
   }
   @include bp(l) {
     grid-column: 5 / 10;
+  }
+}
+
+.site-logo {
+  width: 1.5em;
+  position: relative;
+  top: .2em;
+  margin-right: .75em;
+  margin-left: .15em;
+  path {
+    fill: black;
+  }
+  line {
+    stroke-width: 3.5;
+    stroke: black;
   }
 }
 
@@ -37,9 +55,11 @@
 
 .project-list-item {
   display: contents;
+  font-weight: 400;
 
   .project-title {
     grid-column: 2 / 12;
+    padding-bottom: .1em;
     @include bp(m) {
       grid-column: 5 / 9;
     }
@@ -47,7 +67,6 @@
       grid-column: 5 / 8;
     }
 
-    font-weight: 400;
   }
   .project-category {
     display: none;

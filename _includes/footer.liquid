@@ -3,7 +3,7 @@
 	<form action="https://tinyletter.com/maxakohler" method="post" class="newsletter-form" target="popupwindow"
 		onsubmit="window.open('https://tinyletter.com/maxakohler', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 		{% if tags contains "post" %}
-		<label for="tlemail">Subscribe for more stories</label>
+		<label for="tlemail">Get new stories in your inbox</label>
 		{% else %}
 		<label for="tlemail">Subscribe for updates</label>
 		{% endif %}
@@ -12,6 +12,7 @@
 			<input type="hidden" value="1" name="embed" />
 			<input type="submit" class="submit" value="Subscribe" />
 		</div>
+		<a href="https://tinyletter.com/maxakohler/archive" class="past-issues">View past issues</a>
 	</form>
 	<span class='build'>Site built {{ 'now' | date: "%B %e, %Y at %H:%M" }}</span>
 	<span class='footer-copyright'>

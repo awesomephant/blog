@@ -180,6 +180,10 @@
     display: flex;
   }
 }
+.past-issues {
+  display: block;
+  padding-top: .5em;
+}
 .spacer {
   grid-column: 1 / 13;
   height: 1.5rem;

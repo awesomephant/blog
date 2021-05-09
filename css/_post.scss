@@ -22,7 +22,7 @@
     display: inline-block;
     margin-bottom: 0.5em;
   }
-  p {
+  p, li {
     margin-bottom: 0.5em;
     a {
       color: $blue;
@@ -123,9 +123,11 @@
     hyphens: auto;
     line-height: 1.2;
     font-weight: 400;
-    max-width: 36em;
-    margin: 0 auto;
-    text-align: center;
+    max-width: 32em;
+    padding-top: .2em;
+    hyphens: auto;
+    font-family: $sans;
+    letter-spacing: .02em;
     a {
       color: $black;
     }

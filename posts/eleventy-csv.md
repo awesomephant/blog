@@ -16,7 +16,11 @@ Eleventy doesn't have a built-in way to do that. It does have a concept of [glob
 
 But there's another feature that does allow us to do this: [Javascript Data Files](https://www.11ty.dev/docs/data-js/). Instead of a static JSON file, we can put a Javascript file into the data folder that `exports` whatever data we need. Eleventy executes that file, and adds the output to its global data object, making it available in template files.
 
-We can use this to parse our CSV file, and hand the data over to Eleventy. I'm using [csv-parse](https://csv.js.org/parse/) here, which lets us do this in a few lines:
+We can use this to parse our CSV file, and hand the data over to Eleventy. I'm using [csv-parse](https://csv.js.org/parse/) here. 
+
+Install it with ```npm install csv-parse```.
+
+Then we can write a script like this:
 
 ```js
 const parse = require("csv-parse/lib/sync");

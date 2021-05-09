@@ -23,6 +23,7 @@ I'm pulling these out of [the Wordpress Source](https://github.com/WordPress/gut
 - `core/code`
 - `core/classic`
 - `core/cover`
+- `core/separator`
 - `core/embed`
 - `core/file`
 - `core/gallery`

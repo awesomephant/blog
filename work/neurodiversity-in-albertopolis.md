@@ -10,7 +10,7 @@ draft: false
 
 {% fig "/assets/ndia/screen-a.png" "[ndia.co.uk](https://www.ndia.co.uk/)" "Screenshot of NDIA website. A header illustration, site menu, and a list of upcoming and past events is visible." "" "big" %}
 
-The main activity of Neurodiversity in Albertopolis is to run talks and workshops at the Royal College of Art (RCA), Imperial College, and other participating institutions.
+The main activity of [Neurodiversity in Albertopolis](https://www.ndia.co.uk/) is to run talks and workshops at the Royal College of Art (RCA), Imperial College, and other participating institutions.
 
 These events are usually advertised on an institution's own website - for instance by the [RCA](https://www.rca.ac.uk/news-and-events/events/neurodiverse-voices-albertopolis-workshop/) or [Imperial](https://www.imperial.ac.uk/events/118551/neurodiversity-in-albertopolis-network-launch/). That's a problem for people looking to go to these events (it's easy to the announcement) and those organising them (it's hard to get an announcement online, especially at an institution other than your own).
 

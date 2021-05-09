@@ -1,33 +1,65 @@
 ---
 layout: post
 title: Neurodiveristy in Albertopolis
-intro: A new website for the Neurodiversity in Albertopolis Network, a joint effort between the Royal College of Art and Imperial College London. 
-date: 2021-03-05
+intro: A new website for a network of neurodiverse staff and students from colleges and museums on Exhibition Road, London SW1. 
+date: 2021-05-01
 tags: work
-category: Lettering
-draft: true
+category: Editorial
+draft: false
 ---
 
-## February 29
+{% fig "/assets/ndia/screen-a.png" "[ndia.co.uk](https://www.ndia.co.uk/)" "Screenshot of NDIA website. A header illustration, site menu, and a list of upcoming and past events is visible." "" "big" %}
 
-- The site has three sections:
-    1. Events (upcoming and past) with images, documentation of past events, and a way to participate in upcoming ones.
-    2. Recources. A list of useful stuff published elsewhere. Depending on the volume these are probably ordered into several categories, and maybe each one has a short introduction.
-    3. About / Contact / Newsletter signup / How to contribute / Link to the sourcecode
-- We decided to go with a pretty long URL: ```neurodiversity-in-albertopolis.co.uk```. But this is clearer than abbreviating some or all of the words, and the dashes help to differentiate the three words.
-- The whole point of the website is to be accessible to neurodivergent people and everyone else.
-- We're going to be [WCAG AA](https://www.w3.org/WAI/WCAG21/quickref/) compliant.
-- We decided that there should be some tools available to change how the website looks. This shouldn't be hidden in some menu like it usually is, but become a central part of the design. We're unsure what exactly should go into this toolbox, but some candidates are:
-    - High Contrast Mode / Dark Mode
-    - Change type size
-    - Change typeface (Though not Dyslexie)
-    - Change colours in general
-    - Colour overlays - Roland promises some research that says these can be effective.
-- We were looking at the *Recite* toolbar for reference, which is a piece of software that's added to a website after it's built and contains some of these tools. It has more, like a dictionary and a loupe, but we feel the more effective, and universal move is to commit to writing clear English.
-- On the typeface choice: Roland has been using [GT Cinetype]() for the promotional material. I'm going to argue to move to IBM Plex Sans for a number of reasons:
-    - Character differentiation. Plex includes some features usually only found in programming fonts, like an I with serifs which makes a word like "Illicit" much easier to read. It also has a slashed 0 as an alternate. This is an idea I became aware of through [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
-    - Smooth outlines. Cinetype is a specific reference to a family of typefaces used in early cinema, and is composed entirely out of straight lines. That's cool but uncommon enough to trip you up while reading.
-    - Bigger stroke contrast, helps the definition of individual letters
-    - Range of weights, large character set.
-    - Unambigious licensing situation - it's open source. 
-- Date formats: I propose we write dates out in full: "January 20, 2021, 4pm—5.30pm GMT". People are used to all kinds of shorthand notations, this one is unambigious for everyone. 
+The main activity of Neurodiversity in Albertopolis is to run talks and workshops at the Royal College of Art (RCA), Imperial College, and other participating institutions.
+
+These events are usually advertised on an institution's own website - for instance by the [RCA](https://www.rca.ac.uk/news-and-events/events/neurodiverse-voices-albertopolis-workshop/) or [Imperial](https://www.imperial.ac.uk/events/118551/neurodiversity-in-albertopolis-network-launch/). That's a problem for people looking to go to these events (it's easy to the announcement) and those organising them (it's hard to get an announcement online, especially at an institution other than your own).
+
+The new website solves both of these problems by giving the public a single, well-organised source for all of the network's events, and by giving contributors direct editing access. In addition, the site contains information about NDIA and its contributors and a collaborative list of resources.
+
+## Design notes
+
+The goal of the design is to make the information on the site accessible to as many people as possible. The result is a simple, single-column layout with a clear hierarchy, highly readable type, and strong colour contrast. In addition, we built a set of access tools that let people adjust the type sizes, spacing, and colours of the site.
+
+### IBM Plex
+
+We decided to replace [GT Cintetype](https://www.grillitype.com/typeface/gt-cinetype), which the group had been using for some of its materials, with [IBM Plex Sans](https://github.com/IBM/plex). There were a few reasons for that:
+
+{% fig "/assets/ndia/differentiation.svg" "Character differentiation in sans-serif typefaces" "The word 'Illicit' is set in the Helvetica, Roboto, GT Cinetype, and IBM Plex typefaces. The latter is most readable." "" "full" %}
+
+- *Better legibility*. Plex is especially good at differentiating similar-looking letters, like I, l, i, and t. It does this by incorporating design moves we usually see in programming typefaces - like wide serifs on the I, pronounced hooks on the l and t, open counters in the e and c, and a slashed 0.
+- *Plex is open-source*, which means everyone in the network can get it and use it however they need to without having to think about licensing.
+- *Plex has a variable font version*, which allowed me to make subtle adjustments to weight and width at different points in the design space. It's also good for website performance because the entire typeface fits into a single file.
+
+I do miss one feature of Cinetype: the exagerated diacritics and punctuation marks. They're especially useful in distinguishing i, j, and ! from the other vertical characters. When I get a type design workflow together, I might fork Plex and try adjusting it in that respect - and I'll be able to do that thanks to the open-source license.
+
+### Access tools
+
+{% fig "/assets/ndia/tools.png" "" "alt here" "" "full" %}
+
+We decided to add a set of access tools to the site for a couple of reasons. One is practical: It's hard (if not impossible) to find a set of typographic parameters that will make the site pleasant to read for absoultely everyone. While one person might need large type to read comfortably, another might want small type to be able to see a whole text in context.
+
+The access tools address that problem by opening up a *parameter space* of many different type sizes, spacing options, and colour themes that hopefully encompasses the requirements of a wider group of people. 
+
+The other reason is that putting tools like these in a prominent location sends a message: *We're aware of people's diverse needs, we think they're valid, and we're working toward addressing them.* It's a small extension of the bigger political project NDIA is engaged in.
+
+The adjustments you make with these tools aren't purely mechanical - I adjust the type scale, font width, weight, and spacing at many points in the design space. In earlier writing on this idea, I called this process [shaping the design space](https://maxkoehler.com/posts/continuous-typography/).
+
+I took care to describe the individual options in a way that doesn't imply a distinction between "normal" and "accessibility" modes - I see each of the 48 possible combinations as equally valid.
+
+## Tech notes
+
+- The access tools are implemented with CSS variables. We use session cookies to remember the choices people made across page loads.
+- The average page weighs about 200kb and makes six HTTP requests: The document, a CSS file, a Javascript file, the typeface (all the weights come in a single ```woff``` file), an event illustration, and the favicon.
+- We use no analytics software.
+- The site is built on the Wordpress/Timber/Advanced Custom Fields stack and served through Cloudflare.
+
+## Credits
+
+- Design and development by me
+- Illustrations by my pal Roland Ross.
+- I learned about character differentiation from a lecture on [the development of Atkinson Hyperlegible](/notes/2021-02-16-atkinson-hyperreadable/)
+- We got the idea for the access tools from a lecture called [Choose your Access Settings](/notes/2021-03-03-choose-your-access/) by [Studion Hyte](http://studiohyte.com/) and [Sophie Hoyle](http://www.sophiehoyle.com/)
+- When I was developing the site I got a lot of good information from [the A11Y Project](https://www.a11yproject.com/), especially their [WCAG Compliance Checklist](https://www.a11yproject.com/checklist/)
+
+
+View the live site at **[ndia.co.uk](https://www.ndia.co.uk/)**

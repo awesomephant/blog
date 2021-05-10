@@ -22,15 +22,16 @@ The goal of the design is to make the information on the site accessible to as m
 
 ### IBM Plex
 
+{% fig "/assets/ndia/differentiation.svg" "Character differentiation in sans-serif typefaces" "The word 'Illicit' is set in the Helvetica, Roboto, GT Cinetype, and IBM Plex typefaces. The latter is most readable." "" "full" %}
+
 We decided to replace [GT Cintetype](https://www.grillitype.com/typeface/gt-cinetype), which the group had been using for some of its materials, with [IBM Plex Sans](https://github.com/IBM/plex). There were a few reasons for that:
 
-{% fig "/assets/ndia/differentiation.svg" "Character differentiation in sans-serif typefaces" "The word 'Illicit' is set in the Helvetica, Roboto, GT Cinetype, and IBM Plex typefaces. The latter is most readable." "" "full" %}
 
 - *Better legibility*. Plex is especially good at differentiating similar-looking letters, like I, l, i, and t. It does this by incorporating design moves we usually see in programming typefaces - like wide serifs on the I, pronounced hooks on the l and t, open counters in the e and c, and a slashed 0.
 - *Plex is open-source*, which means everyone in the network can get it and use it however they need to without having to think about licensing.
 - *Plex has a variable font version*, which allowed me to make subtle adjustments to weight and width at different points in the design space. It's also good for website performance because the entire typeface fits into a single file.
 
-I do miss one feature of Cinetype: the exagerated diacritics and punctuation marks. They're especially useful in distinguishing i, j, and ! from the other vertical characters. When I get a type design workflow together, I might fork Plex and try adjusting it in that respect - and I'll be able to do that thanks to the open-source license.
+I do miss one feature of Cinetype: the exagerated diacritics and punctuation marks. They're especially useful in distinguishing i, j, and ! from the other vertical characters. If I ever get a type design workflow together, I might fork Plex and try adjusting it in that respect - and I'll be allowed to do that thanks to the open-source license.
 
 ### Access tools
 
@@ -60,6 +61,5 @@ I took care to describe the individual options in a way that doesn't imply a dis
 - I learned about character differentiation from a lecture on [the development of Atkinson Hyperlegible](/notes/2021-02-16-atkinson-hyperreadable/)
 - We got the idea for the access tools from a lecture called [Choose your Access Settings](/notes/2021-03-03-choose-your-access/) by [Studion Hyte](http://studiohyte.com/) and [Sophie Hoyle](http://www.sophiehoyle.com/)
 - When I was developing the site I got a lot of good information from [the A11Y Project](https://www.a11yproject.com/), especially their [WCAG Compliance Checklist](https://www.a11yproject.com/checklist/)
-
 
 View the live site at **[ndia.co.uk](https://www.ndia.co.uk/)**

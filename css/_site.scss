@@ -95,6 +95,10 @@
 
 .home-section {
   display: contents;
+  color: $red;
+  &:nth-of-type(2){
+    color: $blue;
+  }
   h2 {
     grid-column: 2 / 13;
     font-weight: bold;

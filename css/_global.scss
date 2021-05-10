@@ -23,11 +23,10 @@ body {
   font-size: var(--ms-0);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  background: $hero;
-  background: rgb(221, 218, 215);
   color: $black;
   letter-spacing: 0.012em;
   line-height: 1.25;
+  background: white;
   @include bp(m) {
     letter-spacing: 0.003em;
     padding-left: 0;
@@ -36,7 +35,6 @@ body {
   }
   &.post {
     color: var(--black);
-    background: rgb(255, 255, 255);
     &.tags-work {
       background: rgb(253, 253, 253);
     }

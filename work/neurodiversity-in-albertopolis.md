@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Neurodiveristy in Albertopolis
-intro: A new website for a network of neurodiverse staff and students from colleges and museums on Exhibition Road, London SW1. 
+intro: A new website for a network of neurodiverse staff and students from colleges and museums on Exhibition Road, London SW7. 
 date: 2021-05-01
 tags: work
 category: Editorial
@@ -35,7 +35,7 @@ I do miss one feature of Cinetype: the exagerated diacritics and punctuation mar
 
 ### Access tools
 
-{% fig "/assets/ndia/tools.png" "" "alt here" "" "full" %}
+{% fig "/assets/ndia/tools.png" "" "Screenshot of buttons to adjust font size, spacing, and colours." "" "big" %}
 
 We decided to add a set of access tools to the site for a couple of reasons. One is practical: It's hard (if not impossible) to find a set of typographic parameters that will make the site pleasant to read for absoultely everyone. While one person might need large type to read comfortably, another might want small type to be able to see a whole text in context.
 

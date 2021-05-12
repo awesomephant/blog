@@ -31,7 +31,7 @@ There are all kinds of methods to do this (Bringhurst fills a whole chapter with
 
 Take the font size, for instance: We want to set this so it gives the right voice to the piece of writing we're working with, but it also has to be appropriate to the typeface we've chosen, the size of the page, and it should result in a comfortable number of characters per line. Other adjustments follow from it: A change in type size might compel different spacing, a change in weight, hyphenation, and so on.
 
-In print, you tweak these values until you arrive at a set of numbers that produces the visual expression we aimed for. And because you're working with a piece of paper of fixed dimensions and permanent ink, you can be fairly sure that the numbers you've established will stay intact throughout the production process, and land in the reader's hand just how you intended.
+In print, you tweak these values until you arrive at a set of numbers that produces the visual expression you aimed for. And because you're working with a piece of paper of fixed dimensions and permanent ink, you can be fairly sure that the numbers you've established will stay intact throughout the production process, and land in the reader's hand just how you intended.
 
 But on the web, this method starts to fail. Unlike a paper sheet, the browser window your text will be viewed in is completely variable; it can take on any size and apsect ratio whatsoever. If we set our font size to a fixed number (`18px`, say), the relationship between it and the browser window will be different on every screen, and unpleasant on most.
 
@@ -43,7 +43,7 @@ What we need is a way to make typographic decisions in a way that is relative to
 
 ## A continuous approach
 
-Let's think through this by defining a single property of our text block  – the font size – as a continuous function. Following the traiditional approach, we might define the font size using a CSS declaration like this one:
+Let's think through this by defining a single property of our text block  – the font size – as a continuous function. Following the traditional approach, we might define the font size using a CSS declaration like this one:
 
 ```css
 p {

@@ -3,7 +3,7 @@ layout: post
 title: BaMa 21
 date: 2021-07-05
 tags: work
-category: Editorial
+category: Event
 intro: Online exhibition website for the 2021 graphic design cohort (BA and MA) at HS Mainz.
 ---
 
@@ -29,5 +29,7 @@ Design by Thea Arndt, Lina Becker and Melanie Abaron. Supervised by Mareike Knev
 ## Tech notes
 
 The site is built with [Eleventy](https://www.11ty.dev/) and [Netlify CMS](https://www.netlifycms.org/). I set up a staging environment on Netlify (the hosting platform) so Netlify (the CMS) would work with minimal setup. We used that to collect everyone's information, and on launch day I just ran the build on my own machine and FTP'd the result up to our production server. There was probably a more elegant way of doing that, but for a site I'm only going to deploy a handful of times, I don't really mind. 
+
+This is probably the most accessible degree show site I've built. It's fully keyboard accessible, we respect `prefers-reduced-motion`, and we wrote real alt text for all ~250 images on the site. Lighthouse scores it 100/100 for accessibillity. {% fn "The [A11y Project Checklist](https://www.a11yproject.com/checklist/) was a big help as usual."%}
 
 View the live site at **[bama.hs-mainz.de/sose21](https://bama.hs-mainz.de/sose21/)**, and if you happen to be in Mainz, Germany, between 6th and 16th July, get tickets to see the show at [terminland.de/HSMainz_Raumbuchung](https://www.terminland.de/HSMainz_Raumbuchung/).

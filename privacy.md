@@ -5,7 +5,9 @@ date:  2021-08-22
 tags: "About"
 ---
 
-This website places no cookies and collects no analytics data at all.
+This website is built, written and maintained by me (Max Kohler). You can reach me via email at hi@maxkoehler.com.
+
+The site places no cookies and collects no analytics data at all.
 
 Some pages may contain embedded content (videos, images, etc.) from other websites. Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website. These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged into that website.
 

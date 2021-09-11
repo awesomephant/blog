@@ -6,6 +6,7 @@ date: 2021-09-08
 tags: work
 category: Catalogue
 draft: false
+thumb: https://maxkoehler.com/assets/kapoor.png
 ---
 
 {% fig "/assets/kapoor.png" "" "Browser screenshot showing website with hundreds of links in grey, blue, red, green, and black. Title reads: Anish Kapoor" "" "big"%}

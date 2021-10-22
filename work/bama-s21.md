@@ -13,8 +13,8 @@ intro: Online exhibition website for the 2021 graphic design cohort (BA and MA) 
 
 The central piece of ornamentation on the site are these animated lines meant to evoke a curtain flowing in the breeze (the title of the show – *Lüften* – roughly translates to *letting in fresh air*). I modelled these as follows:
 
-- The two outermost lines are drive the animation. Each one is controlled by three separate Perlin noise functions (two in the x-direction, one in y) which are added up to produce the movement.
-- The lines between the two control lines interpolate between the two control lines. I gave both the same number of points, so this is an easy operation. 
+- The two outermost lines drive the animation. Each one is controlled by three separate Perlin noise functions (two in the x-direction, one in y) which are added up to produce the movement.
+- The lines between the two control lines interpolate between the two control lines. I gave all lines the same number of points, so the interpolation is a simple operation. 
 
 This recipe produces a design space with a huge number of variables. I tend to think the way to get a handle on a space like this is to build tooling to explore it so I did. If you hit **T** on your keyboard, you'll see the little control window I used to find the set of parameters that produce the right effect.
 

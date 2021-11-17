@@ -1,13 +1,8 @@
 .site-header {
-  grid-column: 2 / 12;
-  font-size: var(--ms--1);
   margin-bottom: 3em;
   font-family: $sans;
-  max-width: 34em;
   letter-spacing: 0.012em;
-  display: flex;
-  line-height: 1.2;
-  align-items: flex-start;
+  display: contents;
   a {
     text-decoration: none;
     display: block;
@@ -16,26 +11,18 @@
       text-decoration: underline;
     }
   }
+  span {
+    white-space: nowrap;
+  }
+  h1 {
+    grid-column: 2 / 8;
+    margin-bottom: 10vh;
+  }
   @include bp(m) {
-    margin-bottom: 15vh;
-  }
-  @include bp(l) {
-    grid-column: 5 / 10;
-  }
-}
-
-.site-logo {
-  width: 1.5em;
-  position: relative;
-  top: .2em;
-  margin-right: .75em;
-  margin-left: .15em;
-  path {
-    fill: black;
-  }
-  line {
-    stroke-width: 3.5;
-    stroke: black;
+    h1 {
+      grid-column: 5 / 8;
+      margin-bottom: 15vh;
+    }
   }
 }
 
@@ -60,6 +47,9 @@
   .project-title {
     grid-column: 2 / 12;
     padding-bottom: .1em;
+    @include bp(s) {
+      grid-column: 2 / 9;
+    }
     @include bp(m) {
       grid-column: 5 / 9;
     }
@@ -70,7 +60,8 @@
   }
   .project-category {
     display: none;
-    @include bp(m) {
+    white-space: nowrap;
+    @include bp(s) {
       display: block;
       grid-column: 10 / 12;
     }
@@ -97,7 +88,6 @@
   display: contents;
   h2 {
     grid-column: 2 / 13;
-    font-weight: bold;
     padding-bottom: 0.5em;
     font-family: $sans;
     grid-row: span 1;
@@ -108,7 +98,6 @@
     }
     @include bp(m) {
       grid-row: span var(--rows);
-      font-weight: 400;
       padding-top: 0;
       padding-bottom: 0;
       grid-column: 2 / 4;
@@ -154,17 +143,22 @@
   input {
     appearance: none;
     color: inherit;
+    border: 0;
     background: transparent;
-    border: 1px solid currentColor;
     display: block;
     font-weight: 400;
     font-family: $sans;
     padding: 0.2em 0.5em;
+    &::placeholder {
+      color: inherit;
+      opacity: 1;
+    }
   }
   .submit {
     appearance: none;
-    color: inherit;
     cursor: pointer;
+    background-color: $black;
+    color: var(--background);
     &:hover,
     &:focus {
       text-decoration: underline;
@@ -177,7 +171,9 @@
     }
   }
   div {
-    display: flex;
+    border: 1px solid $black;
+    border-radius: 2px;  
+    display: inline-flex;
   }
 }
 .past-issues {

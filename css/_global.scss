@@ -26,7 +26,7 @@ body {
   color: $black;
   letter-spacing: 0.012em;
   line-height: 1.25;
-  background: white;
+  background: var(--background);
   @include bp(m) {
     letter-spacing: 0.003em;
     padding-left: 0;
@@ -34,17 +34,17 @@ body {
     padding-right: 0;
   }
   &.home {
-    background-color: rgb(237, 229, 241);
+    --background: rgb(207, 221, 247);
   }
   &.post {
     color: var(--black);
     &.tags-work {
-      background: rgb(253, 253, 253);
+      --background: rgb(253, 253, 253);
     }
   }
   &.notes {
     color: var(--black);
-    background: var(--notes);
+    --background: #e5f1fa;
   }
 }
 

@@ -13,4 +13,6 @@ One-off website for a play written by the artist [Caitlin Kiely](https://www.cai
 
 > Publishing the text online has meant that the story becomes even less bound to a specific place or landscape, as it is simply a story for the landscape. The online publication also takes the form of an archive containing some of the details I’ve observed during my walks and site visits. By hovering over the isolated fragments of text, we can see how these observations have been translated into words, details or metaphors within the story.
 
-The site is built in Eleventy, hosted on Netlify, and typeset in Franklin Gothic. View the live site at [https://thewalkerinthelandscape.caitlinkiely.co.uk/](https://thewalkerinthelandscape.caitlinkiely.co.uk/)
+The site is built in Eleventy, hosted on Netlify, and typeset in Franklin Gothic.
+
+View the live site at **[thewalkerinthelandscape.caitlinkiely.co.uk](https://thewalkerinthelandscape.caitlinkiely.co.uk/)**.

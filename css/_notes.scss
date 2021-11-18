@@ -72,22 +72,22 @@
 
 .notes-search {
   grid-column: 1 / 12;
-  margin-bottom: 2rem;
-  background: var(--notes);
-
-  @include bp(m) {
-    position: sticky;
-    top: 0;
-    grid-column: 2 / 12;
-    margin-bottom: 4rem;
-  }
-  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  background: var(--background);
+  padding: .25em 0.5em;
   font-family: inherit;
   border: 0;
   letter-spacing: -0.01em;
-  font-size: var(--ms-5);
-  border-bottom: 1px solid black;
-  font-weight: 800;
+  font-size: var(--ms-2);
+  border: 1px solid black;
+  border-radius: $br;
+  font-weight: 900;
+  @include bp(m) {
+    position: sticky;
+    top: .5rem;
+    grid-column: 2 / 12;
+    margin-bottom: 1rem;
+  }
   &::placeholder {
     opacity: 1;
   }

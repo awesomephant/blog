@@ -107,7 +107,9 @@
     padding: 0.4em 0;
   }
   .note {
-    opacity: 0.5;
+    font-family: $sans;
+    font-size: var(--ms--1);
+
   }
   .footnote {
     border-bottom: 0;

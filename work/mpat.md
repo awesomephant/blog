@@ -16,4 +16,4 @@ Content for the site is produced in a private Slack channel, and automatically p
 
 [Reckless Light](https://displaay.net/typeface/reckless/) from [Displaay Foundry](https://displaay.net/) and [Aktiv Grotesk](https://www.daltonmaag.com/library/aktiv-grotesk) from [Dalton Maag](https://www.daltonmaag.com/) are used for display and text.
 
-Read the full announcement on [Content Free](http://content-free.net/news/many-people-are-typing), and view the live site at [manypeoplearetyping.com](http://www.manypeoplearetyping.com/).
+Read the full announcement on [Content Free](http://content-free.net/news/many-people-are-typing), and view the live site at **[manypeoplearetyping.com](http://www.manypeoplearetyping.com/)**.

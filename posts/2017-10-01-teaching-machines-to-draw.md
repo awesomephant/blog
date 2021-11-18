@@ -65,6 +65,7 @@ Hoping to install the drive shaft (with temporary support) and do a test with th
 ## October 25, 2017
 
 The aluminium shaft supports arrived:
+
 ![Aluminium shaft supports](/assets/unit-10/metal-shaft-suport.jpg)
 
 With them installed, everything seems much more stable. There's also the added benefit that the slide sits much lower over the table surface, which means the eventual pen won't be too far from the paper. The aluminium supports are also much lighter than the MDF ones. Still, the slide doesn't run perfectly smooth, but I'm hoping some small adjustments and a bit of oil will solve that.
@@ -197,7 +198,6 @@ In other news, the [missing shaft support](#october-31-2017) is finally on the w
 
 Here's some of the images I made on the drawing machine this week. Most of were designed in Illustrator, with any randomness coming only through the machine itself (by it getting stuck, someone bumbping into it, teh pen running out of paper etc.)
 
-<div markdown="1" class='gallery'>
 ![Machine drawing 1](/assets/unit-10/week-1/machine-drawing-1.jpg)
 ![Machine drawing 2](/assets/unit-10/week-1/machine-drawing-2.jpg)
 ![Machine drawing 3](/assets/unit-10/week-1/machine-drawing-3.jpg)
@@ -206,7 +206,6 @@ Here's some of the images I made on the drawing machine this week. Most of were 
 ![Machine drawing 6](/assets/unit-10/week-1/machine-drawing-6.jpg)
 ![Machine drawing 7](/assets/unit-10/week-1/machine-drawing-7.jpg)
 ![Machine drawing 8](/assets/unit-10/week-1/machine-drawing-8.jpg)
-</div>
 
 ## December 20, 2017
 
@@ -278,6 +277,7 @@ Things I'm not sure about yet:
 - How do I attach the drawing machine to the wall in such a way that the pen is in contact with the paper?
 
 Using Wikipedia, I managed to cobble together the following functions to generate [sine](https://en.wikipedia.org/wiki/Sine_wave), [triangle](https://en.wikipedia.org/wiki/Triangle_wave), [sawtooth](https://en.wikipedia.org/wiki/Sawtooth_wave) and [square](https://en.wikipedia.org/wiki/Square_wave) waves that will eventually control the motors. $$a$$ is the amplitude, $$p$$ is the period, $$o$$ moves the curve up and down and $$\varphi$$ moves the curve from left to right (I'm using this to animate it on screen).
+
 $$\DeclareMathOperator{\sgn}{sgn}$$
 $$\DeclareMathOperator{\atan}{atan}$$
 $$\DeclareMathOperator{\asin}{asin}$$

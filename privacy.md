@@ -23,4 +23,4 @@ My email newsletter is powered by [Tinyletter](https://tinyletter.com/maxakohler
 
 ## Source Code
 
-The source code for this website is available on [Github](https://github.com/awesomephant/blog). This Document was last updated on 18 November, 2021. You can view all earlier versions of this document [on Github](https://github.com/awesomephant/blog/commits/346daa18dd90baae7149408753c8c45893c097be/privacy.md).
+The source code for this website is available on [Github](https://github.com/awesomephant/blog). This Document was last updated on 18 November, 2021. You can view all earlier versions of this document [on Github](https://github.com/awesomephant/blog/commits/master/privacy.md).

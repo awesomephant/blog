@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Privacy
-date:  2021-08-22
+date:  2021-11-18
 tags: "About"
 ---
 
@@ -23,4 +23,4 @@ My email newsletter is powered by [Tinyletter](https://tinyletter.com/maxakohler
 
 ## Source Code
 
-The source code for this website is available on [Github](https://github.com/awesomephant/blog). This Document was last updated on 18 November, 2021. You can view all earlier versions of this document [on Github](https://github.com/awesomephant/blog/commits/master/privacy.md).
+The source code for this website is available on [Github](https://github.com/awesomephant/blog). This Document was last updated on {{page.date | date: "%B %e, %Y" }}. You can view all earlier versions of this document [on Github](https://github.com/awesomephant/blog/commits/master/privacy.md).

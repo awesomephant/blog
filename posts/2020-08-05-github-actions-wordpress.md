@@ -31,7 +31,7 @@ Mine looks like this {% fn "I’m only dealing with the Wordpress theme here (i.
 name: CI
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   deploy:

@@ -80,7 +80,7 @@ Uzbekistan isn't a great place.
 
 [Teens in AI](https://teensinai.com/) does bootcamps, hackathons etc.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/61zXhXcf6Vw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% include embed.liquid, src: "https://www.youtube.com/embed/61zXhXcf6Vw", format: 56.25%}
 
 ehhhhh.
 

@@ -30,7 +30,7 @@ The Naval Weapons Laboratory had a computer called the NORC (Naval Ordinance Ref
 
 It was attached to a line printer, which would print onto these long continuous sheets of paper: A General Dynamics S-C 4020.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tb-IaGFLz0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include embed.liquid, src: "https://www.youtube-nocookie.com/embed/tb-IaGFLz0w", format: 56.25%}
 
 [General Dynamics: The Mark of Man (1963)](https://www.youtube.com/watch?v=tb-IaGFLz0w)
 

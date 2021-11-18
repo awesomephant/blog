@@ -43,7 +43,7 @@ All of this is to say, digital images have a limited link with reality (certainl
 
 Let's make a digital film that explores some of the inherent characteristics of digital images (in the same way the structuralists made films abotu analogue film-making).
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/315109396?loop=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+{% include embed.liquid, src: "https://player.vimeo.com/video/315109396?loop=1&color=ffffff&title=0&byline=0&portrait=0", format: 56.25 %}
 
 ## Friday, Febuary 8th
 

@@ -17,12 +17,11 @@ thumb: "http://www.maxkoehler.com/assets/notes/lukebest-3.jpg"
 
 Worked part time mornings and night, pitched ideas for music videos during the day
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w6I7YY2Gw80" frameborder="0" allowfullscreen></iframe>
-Stylopohinic - Soul Reply
+{% include embed.liquid, src: "https://www.youtube.com/embed/w6I7YY2Gw80", format: 56.25, caption: "Stylopohinic - Soul Reply"%}
+
 Did stuff with basic tech eg. making a landscape in photoshop, panning across it in AE
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nR20KwwYGmA" frameborder="0" allowfullscreen></iframe>
-Linus love fear Sam Obernirk - stand back
+{% include embed.liquid, src: "https://www.youtube.com/embed/nR20KwwYGmA", format: 56.25, caption: "Linus love fear Sam Obernirk - stand back"%}
 
 > Make work that represents the type of work you want to do
 

@@ -5,15 +5,22 @@ date:  2021-08-22
 tags: "About"
 ---
 
-This website is built, written and maintained by me (Max Kohler). You can reach me via email at hi@maxkoehler.com.
+This website is built, written and maintained by me (Max Kohler). You can reach me via email at <a href="mailto:hi@maxkoehler.com">hi@maxkoehler.com</a>.
 
-The site places no cookies and collects no analytics data at all.
+## Analytics
+
+This site places cookies and collects no analytics data at all. It does not use Google Analytics or other any third-party analytics software. Your IP address is not recorded.
+
+## Embedded Content
 
 Some pages may contain embedded content (videos, images, etc.) from other websites. Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website. These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged into that website.
 
+Because this is the case, I only display embedded content with your specific consent. I don't remember what choice you make.
+
+## Email Newsletter
+
 My email newsletter is powered by [Tinyletter](https://tinyletter.com/maxakohler) from Mailchimp. If you choose to subsribe, Mailchimp's [privacy policy](https://mailchimp.com/legal/privacy/) and [terms of use](https://mailchimp.com/legal/terms/) apply.
 
-This site is built with [Liquid](https://shopify.github.io/liquid/), [Markdown](https://www.markdownguide.org/) and [Sass](https://sass-lang.com/), compiled by on [Eleventy](https://www.11ty.dev/), and hosted on [netlify](https://www.netlify.com/). Code snippets are typeset in [MD IO](https://www.futurefonts.xyz/mass-driver/io) from Mass Driver.
+## Source Code
 
-
-The source code is available on [Github](https://github.com/awesomephant/blog).
+The source code for this website is available on [Github](https://github.com/awesomephant/blog). This Document was last updated on 18 November, 2021. You can view all earlier versions of this document [on Github](https://github.com/awesomephant/blog/commits/346daa18dd90baae7149408753c8c45893c097be/privacy.md).

@@ -6,10 +6,7 @@ tags: work
 category: Event
 ---
 
-<figure class="post-figure big">
-<div class='embed' style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/483557584?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-<script src="https://player.vimeo.com/api/player.js"></script>
-</figure>
+{% include embed.liquid, src: "https://player.vimeo.com/video/483557584?autoplay=1&loop=1&title=0&byline=0&portrait=0", format: "56.25"%}
 
 > Since 2010, graphic designer Eilis Searson has held a yearly critical symposium in defence of sentimentality, foil garlands, and the film Love Actually itself. After writing a dissertation at Camberwell College of Arts on the subject in 2010, Eilis has gathered crowds year after year, in her celebration of (the almost sculptural possibilities of) Iceland christmas platters, kitsch and Martine McCutcheon. This year the event moves online for the first time as a result of the national lockdown.
 

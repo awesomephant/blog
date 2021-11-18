@@ -172,7 +172,7 @@
   }
   div {
     border: 1px solid $black;
-    border-radius: 2px;  
+    border-radius: $br;  
     display: inline-flex;
   }
 }

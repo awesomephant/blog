@@ -42,6 +42,17 @@ module.exports = function (eleventyConfig) {
         `;
     }
   );
+  eleventyConfig.addShortcode(
+    "embed",
+    function (src, format) {
+      return `<figure class='post-figure big'>
+      <div class='embed' style="padding:${1 / eval(format)}% 0 0 0;position:relative;">
+      <iframe src="${src}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      </figure>
+        `;
+    }
+  );
   eleventyConfig.addFilter("renderMarkdown", function (value) {
     return md.render(value);
   });

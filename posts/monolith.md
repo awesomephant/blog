@@ -97,10 +97,7 @@ But the chain of influence runs the other way, too: Our whole notion of *The Lan
 
 In the 19th century photography, having inherited the visual language of painting, helped shape the fantasy of the great, "untouched" American landscape that still lingers today. Photographers like Carleton Watkins didn’t “discover” places like Yosemite Valley, but constructed them with complex optical machinery and painstaking work in the darkroom {% fn "Ana Cecilia Alvarez (2019) in Real Life Magazine: *[Look for America: How Land became scenery](https://reallifemag.com/look-for-america/)* "%}.
 
-<figure class="post-figure big">
-<div class="embed" style="padding:45% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/70173915?autoplay=0&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<figcaption><em>2001</em>'s <em>Star Gate</em> sequence (1968)</figcaption>
-</figure>
+{% include embed.liquid, src: "https://player.vimeo.com/video/70173915?autoplay=0&loop=1&title=0&byline=0&portrait=0&muted=1", format: 45, caption: "*2001*'s Star Gate sequence (1968)"%}
 
 In 1968, those familiar images of the American Landscape re-appear in *2001*’s terrifying *Star Gate* sequence. As we're transported through interstellar space, we see them disfigured by swirling photochemicals and distorted glass, all dissolving into a pool of pure, acidic colour. It’s the ultimate upside-down of the stately silver-gelatin prints of the previous century, but the lineage is there nontheless.
 
@@ -108,7 +105,7 @@ Kubrick shot that sequence just a hundred miles south of where the Utah Monolith
 
 -----
 
-Over the following days, I kept following the news stories about the monolith. There was the question of attribution: The gallerist David Zwirner made, and then walked back{%fn "Amanda Holpuch / The Guardian (2020): *[Theories abound over mystery metal monolith found in Utah ](https://www.theguardian.com/us-news/2020/nov/24/monolith-utah-theories-what-is-it-mystery)*" %} a statement that it was a work by the minimalist sculptor John McKracken (who's estate Zwirner happens to represent). A few other artists where floated, but swiftly issued denials.
+Over the following days, I kept following the news stories about the monolith. There was the question of attribution: The gallerist David Zwirner made, then walked back{%fn "Amanda Holpuch / The Guardian (2020): *[Theories abound over mystery metal monolith found in Utah ](https://www.theguardian.com/us-news/2020/nov/24/monolith-utah-theories-what-is-it-mystery)*" %} a statement saying it was a work by the minimalist sculptor John McKracken (who's estate Zwirner happens to represent). A few other artists where floated, but swiftly issued denials.
 
 A handful of social media users went to see the monolith in real life, including one ex-military man who drove 200 miles through the night to be there first {% fn "Alexandra Mae Jones / CTV News (2020): *[Hiker drove six hours into Utah desert to see metal monolith before it vanished](https://www.ctvnews.ca/lifestyle/hiker-drove-six-hours-into-utah-desert-to-see-metal-monolith-before-it-vanished-1.5211323)*"%} (I admire the commitment).
 

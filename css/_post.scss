@@ -22,7 +22,8 @@
     display: inline-block;
     margin-bottom: 0.5em;
   }
-  p, li {
+  p,
+  li {
     margin-bottom: 0.5em;
     a {
       color: $blue;
@@ -124,10 +125,10 @@
     line-height: 1.2;
     font-weight: 400;
     max-width: 32em;
-    padding-top: .2em;
+    padding-top: 0.2em;
     hyphens: auto;
     font-family: $sans;
-    letter-spacing: .02em;
+    letter-spacing: 0.02em;
     a {
       color: $black;
     }
@@ -203,15 +204,39 @@
         margin-left: -10%;
       }
     }
-    img,
-    .embed,
-    iframe {
+    img {
       max-width: 100%;
       max-height: 90vh;
       width: auto;
       display: block;
       margin-bottom: 0.5em;
     }
+  }
+  .embed {
+    display: none;
+  }
+
+  .embed-container {
+    figcaption {
+      display: none;
+      padding-top: .5em;
+    }
+    &.active {
+      .embed-placeholder {
+        display: none;
+      }
+      .embed, figcaption {
+        display: block;
+      }
+    }
+  }
+
+  .embed-placeholder {
+    border: 1px solid $black;
+    font-family: $sans;
+    padding: 0.75rem;
+    border-radius: $br;
+    font-size: var(--ms--1);
   }
 
   .hasimage {
@@ -294,7 +319,7 @@
   margin-bottom: 2em;
   max-width: 25em;
   font-size: var(--ms-1);
-  @include bp(m){
+  @include bp(m) {
     font-size: var(--ms-2);
   }
 }

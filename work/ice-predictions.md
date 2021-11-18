@@ -14,6 +14,6 @@ The work was shown as a day-long installation (using a live camera pointed at a 
 
 ![ice](/assets/vf/ice-3.JPG)
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/336546352?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+{% include embed.liquid, src:"https://player.vimeo.com/video/336546352?title=0&byline=0&portrait=0", format:56.25%}
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/333599252?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+{% include embed.liquid, src:"https://player.vimeo.com/video/333599252?title=0&byline=0&portrait=0", format:56.25%}

@@ -1,0 +1,24 @@
+<figure class='post-figure embed-container'>
+
+<div class="embed-placeholder">
+{% if src contains "vimeo" %}<p>
+Heads up! This page contains embedded content from <a href="https://vimeo.com/">Vimeo</a>, who might use cookies and other technologies to track you. To view this content, click <em>Allow Vimeo content</em>.
+</p>
+<button class="embed-load button">Allow Vimeo content</button>
+{% elsif src contains "youtube"%}<p>
+Heads up! This page contains embedded content from <a href="https://youtube.com/">Youtube</a>, who might use cookies and other technologies to track you. To view this content, click <em>Allow Youtube content</em>.
+</p>
+<button class="embed-load button">Allow Youtube content</button>
+{% else %}
+<p>
+This is a generic embed
+</p>
+{% endif %}
+</div>
+<div class='embed' style="padding:{{format}}% 0 0 0;position:relative;">
+<iframe data-src="{{src}}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+{% if caption %}
+<figcaption>{{caption | renderMarkdown }}</figcaption>
+{% endif %}
+</figure>

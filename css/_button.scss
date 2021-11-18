@@ -1,0 +1,15 @@
+.button {
+  background: $black;
+  color: var(--background);
+  appearance: none;
+  padding: 0.35em 0.6em;
+  letter-spacing: 0.01em;
+  border: 0;
+  font-family: inherit;
+  border-radius: $br;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

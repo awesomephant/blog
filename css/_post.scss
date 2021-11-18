@@ -66,6 +66,15 @@
   ul li {
     list-style: inherit;
   }
+  .contains-task-list {
+    list-style: none;
+    margin-left: 0;
+  }
+  .task-list-item-checkbox {
+    display: inline-block;
+    position: relative;
+    top: -.1em;
+  }
   blockquote {
     font-weight: 500;
     transform-origin: left;

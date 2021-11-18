@@ -2,9 +2,15 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-const markdownIt = require("markdown-it");
-const md = new markdownIt();
 const sass = require("sass");
+const markdownIt = require("markdown-it")
+const taskLists = require('markdown-it-task-lists');
+
+let markdownOptions = {
+  html: true,
+};
+let markdownLib = markdownIt(markdownOptions).use(taskLists)
+const md = new markdownIt();
 
 if (process.env.NODE_ENV === "production") {
   console.log("Building site for production.")
@@ -48,6 +54,7 @@ module.exports = function (eleventyConfig) {
       return `<figure class='post-figure big'>
       <div class='embed' style="padding:${1 / eval(format)}% 0 0 0;position:relative;">
       <iframe src="${src}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <div class="embed-placeholder"></div>
       </div>
       </figure>
         `;
@@ -179,6 +186,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("site.webmanifest");
   eleventyConfig.addWatchTarget("./css/");
+
+  eleventyConfig.setLibrary("md", markdownLib);
 
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);

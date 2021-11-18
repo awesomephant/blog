@@ -41,9 +41,7 @@ The first task is to document ```51°30’37.6”N 0°06’56.3”W```, the true
 
 ![Microscope 1](/assets/vf/site-overview-colour.jpg)
 
-<p class='full' markdown='1'>
 ![Microscope 1](/assets/vf/micro-1.jpg)
-</p>
 
 ![Walk 1](/assets/vf/walk-0.png)
 

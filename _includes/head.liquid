@@ -4,11 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{% if title %}{{ title }} / Max Kohler {% else %}Max Kohler: Visual Communication{% endif %}
 	</title>
-	<meta name="description"
-		content="{% if intro %}{{ intro | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	{% css "main.scss" %}
-
-	<link rel="stylesheet" href="">
+	<meta name="description" content="{% if intro %}{{ intro | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<link rel="stylesheet" href="{{"/main.css" | url }}">
 	{% if canonical %}
 	<link rel="canonical" href="{{canonical}}" />
 	{% endif %}

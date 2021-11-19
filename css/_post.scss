@@ -301,7 +301,7 @@
   display: flex;
   flex-flow: row;
   font-weight: 600;
-  font-size: var(--ms--1);
+  font-size: var(--ms-0);
   margin-bottom: 1em;
   @include bp(s) {
     grid-column: 2 / 13;
@@ -331,7 +331,7 @@
   max-width: 25em;
   font-size: var(--ms-1);
   @include bp(m) {
-    font-size: var(--ms-2);
+    font-size: var(--ms-0);
   }
 }
 
@@ -344,7 +344,7 @@
   font-family: $sans;
   margin-bottom: 0.75em;
   .has-intro & {
-    margin-bottom: 0.1em;
+    margin-bottom: 0.5em;
   }
   @include bp(m) {
     max-width: 15em;

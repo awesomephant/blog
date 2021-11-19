@@ -13,15 +13,19 @@
   }
   span {
     white-space: nowrap;
+    grid-column: 2 / 12;
+    margin-bottom: 4rem;
   }
   h1 {
-    grid-column: 2 / 8;
-    margin-bottom: 10vh;
+    grid-column: 2 / 12;
   }
   @include bp(m) {
     h1 {
-      grid-column: 5 / 8;
-      margin-bottom: 15vh;
+      grid-column: 2 / 4;
+    }
+    span {
+      margin-bottom: 10rem;
+      grid-column: 5 / 12;
     }
   }
 }

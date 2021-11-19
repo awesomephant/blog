@@ -2,7 +2,6 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-const sass = require("sass");
 const markdownIt = require("markdown-it")
 const taskLists = require('markdown-it-task-lists');
 
@@ -62,17 +61,6 @@ module.exports = function (eleventyConfig) {
   );
   eleventyConfig.addFilter("renderMarkdown", function (value) {
     return md.render(value);
-  });
-  eleventyConfig.addShortcode("css", function (filename) {
-    if (process.env.NODE_ENV === "production") {
-      let css = sass.renderSync({
-        file: `./css/${filename}`,
-        outputStyle: "compressed",
-      });
-      return `<style>${css.css.toString()}</style>`;
-    } else {
-      return `<link rel="stylesheet" href="/${filename.replace("scss", "css")}"/>`
-    }
   });
   eleventyConfig.addShortcode("fn", function (content) {
     return `

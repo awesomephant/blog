@@ -7,8 +7,9 @@
   "scripts": {
     "build:webpack": "webpack --mode production",
     "build:eleventy": "npx @11ty/eleventy",
+    "build:sass": "sass ./css/main.scss ./_site/main.css --no-source-map",
     "watch:webpack": "webpack --watch --mode development",
-    "watch:sass": "sass ./css/main.scss ./_site/main.css --watch --no-source-map",
+    "watch:sass": "sass ./css/main.scss ./_site/main.css --watch",
     "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
     "start": "cross-env NODE_ENV=dev run-p watch:*",
     "build": "cross-env NODE_ENV=production run-s build:*"

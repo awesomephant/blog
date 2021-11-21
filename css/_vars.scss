@@ -32,8 +32,15 @@
 
 @font-face {
   font-family: 'MDIO';
-  src: url('/assets/fonts/mdio.woff2') format('woff2');
+  src: url('/assets/fonts/MDIO0.3-Regular.woff2') format('woff2');
   font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MDIO';
+  src: url('/assets/fonts/MDIO0.3-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
 }
 
 $red: rgb(240, 36, 0);
@@ -61,8 +68,8 @@ $br: 3px;
   --ms-7: calc(var(--ms-6) * var(--ratio));
 
   --black: rgb(8, 8, 8);
-  --gray: rgb(167, 163, 157);
-  --lightgray: rgb(243, 243, 243);
+  --gray: rgb(155, 162, 167);
+  --lightgray: rgb(228, 226, 222);
   --white: #fff;
   --background: rgb(253, 250, 250);
   --fast: 300ms;

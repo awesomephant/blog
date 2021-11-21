@@ -25,7 +25,7 @@
     }
     span {
       margin-bottom: 10rem;
-      grid-column: 5 / 12;
+      grid-column: 4 / 12;
     }
   }
 }
@@ -121,7 +121,7 @@
     grid-column: 2 / 12;
   }
   @include bp(l) {
-    grid-column: 5 / 12;
+    grid-column: 4 / 12;
   }
   a {
     display: inline-block;

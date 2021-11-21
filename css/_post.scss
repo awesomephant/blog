@@ -7,10 +7,10 @@
     grid-column: 2 / 11;
   }
   @include bp(l) {
-    grid-column: 5 / 11;
+    grid-column: 4 / 10;
   }
   width: 100%;
-  max-width: 32em;
+  // max-width: 32em;
   hyphens: auto;
   line-height: 1.35;
   font-size: var(--ms-0);
@@ -82,7 +82,7 @@
     line-height: 1.35;
     font-size: var(--ms-0);
     @include bp(m) {
-      margin-right: -3em;
+      padding-left: 2em;
     }
   }
   .MathJax_Display {
@@ -135,11 +135,11 @@
     hyphens: auto;
     line-height: 1.2;
     font-weight: 400;
-    max-width: 32em;
     padding-top: 0.2em;
     hyphens: auto;
     font-family: $sans;
     letter-spacing: 0.02em;
+    text-align: center;
     a {
       color: $black;
     }
@@ -151,8 +151,8 @@
     display: inline;
     font-weight: normal;
     margin-left: 1em;
-    font-size: 0.85em;
-    padding-top: 0.5em;
+    padding-top: 0.25em;
+    color: var(--gray);
     font-family: $sans;
     &.long {
       display: block;
@@ -292,7 +292,7 @@
     grid-column: 2 / 10;
   }
   @include bp(l) {
-    grid-column: 5 / 10;
+    grid-column: 4 / 10;
   }
 }
 
@@ -311,7 +311,7 @@
     font-weight: 500;
   }
   @include bp(l) {
-    grid-column: 5 / 10;
+    grid-column: 4 / 10;
   }
   span,
   date {
@@ -382,10 +382,7 @@
     align-self: flex-end;
   }
   @include bp(l) {
-    padding-top: 0;
-    columns: 1;
-    grid-column: 2 / 4;
-    grid-row: 4 / 5;
+    grid-column: 4 / 10;
   }
   li {
     margin-bottom: 0.5em;

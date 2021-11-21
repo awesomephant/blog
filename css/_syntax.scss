@@ -1,4 +1,4 @@
-$color-string: rgb(228, 87, 5);
+$color-string: #b21eec;
 
 code {
   font-family: $mono;
@@ -9,7 +9,7 @@ p > code {
 code[class*="language-"],
 pre[class*="language-"], pre code{
   font-family: $mono;
-  line-height: 1.3;
+  line-height: 1.35;
   font-size: .95em;
   direction: ltr;
   text-align: left;
@@ -19,29 +19,47 @@ pre[class*="language-"], pre code{
   tab-size: 2;
   hyphens: none;
   font-weight: 400;
-  border-radius: 2px;
-  color: #000000;
+  color: var(--black);
   position: relative;
+  mark {
+    width: 100%;
+    background-color: rgb(255, 245, 167);
+    border-radius: $br;
+    display: inline-block;
+  }
   &:after {
     position: absolute;
-    top: .5rem;
-    right: .5rem;
+    top: 1rem;
+    right: 1rem;
     font-size: var(--ms--1);
     font-family: $sans;
-    color: $gray;
+    color: var(--black);
   }
 }
 
 pre[class*="language-"] {
   margin: 1em 0;
   overflow: auto;
-  padding: .5rem;
-  border: 1px solid $gray;
+  padding: 1rem;
+  border-radius: $br;
+  border: 1px solid var(--lightgray);
+  &:after {
+    font-family: $mono;
+  }
   &.language-yaml:after {
     content: "YAML"
   }
   &.language-js:after {
     content: "Javascript"
+  }
+  &.language-html:after {
+    content: "HTML"
+  }
+  &.language-csv:after {
+    content: "CSV"
+  }
+  &.language-twig:after {
+    content: "Twig"
   }
 }
 
@@ -49,11 +67,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: $gray;
+  color: var(--gray);
 }
 
 .token.punctuation {
-  color: $gray;
+  color: var(--gray);
 }
 
 .token.namespace {
@@ -63,7 +81,7 @@ pre[class*="language-"] {
 .token.operator,
 .token.boolean,
 .token.number {
-  color: #c76b29;
+  color: $color-string;
 }
 
 .token.property {
@@ -71,7 +89,7 @@ pre[class*="language-"] {
 }
 
 .token.tag {
-  color: #1e3fd3;
+  color: $color-string;
 }
 
 .token.string {

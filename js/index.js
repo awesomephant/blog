@@ -59,10 +59,6 @@ document.addEventListener(
             if (image) {
                 paragraphs[i].classList.add("hasimage");
             }
-            paragraphs[i].innerHTML = paragraphs[i].innerHTML.replace(
-                /\[\d+\]/g,
-                `<a class='footnote' href='#1'>3</a>`
-            );
         }
 
         const images = document.querySelectorAll("img");

@@ -43,7 +43,7 @@ The website is an attempt to structure and point toward existing research and wr
 
 ## The process of making the website
 
-{% fig "/assets/notes/psychic-refuge.png" "Psychic Refuge access settings page" "Browser window shows access settings page on psychicrefuge.com. Blue text on mint background reads 'Choose your Access Settings' in English and Arabic. Buttons to change fonts, colours, and display language are visible at the bottom of the screen." "" "big" %}
+{% include fig.liquid, src: "/assets/notes/psychic-refuge.png", caption: "Psychic Refuge access settings page", alt: "Browser window shows access settings page on psychicrefuge.com. Blue text on mint background reads 'Choose your Access Settings' in English and Arabic. Buttons to change fonts, colours, and display language are visible at the bottom of the screen.", class: "big" %}
 
 
 Developed by [Studio Hyte](http://studiohyte.com/) (London). Arjun Harrison-Mann is a co-founder of Hyte. Member [Disabled People Against Cuts](https://dpac.uk.net/).

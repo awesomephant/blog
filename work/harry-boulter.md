@@ -9,7 +9,7 @@ draft: false
 thumb: https://maxkoehler.com/assets/boulter-screenshot.png
 ---
 
-{% fig "/assets/boulter-screenshot.png" "" "Browser screenshot showing website with an irregular grid and a large, black and white repropduction of an open book. Title reads: This must be the place" "" "big"%}
+{% include fig.liquid, src: "/assets/boulter-screenshot.png", alt: "Browser screenshot showing website with an irregular grid and a large, black and white repropduction of an open book. Title reads: This must be the place", class: "big"%}
 
 After working together on [Hot New Graphic Designers in Your Area](https://maxkoehler.com/work/camberwell-2021/) and [Moving Fast](https://maxkoehler.com/work/moving-fast/), Harry approached me to rebuild his personal portfolio site.
 

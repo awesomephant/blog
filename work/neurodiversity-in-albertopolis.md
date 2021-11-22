@@ -8,7 +8,7 @@ category: Editorial
 draft: false
 ---
 
-{% fig "/assets/ndia/screen-a.png" "[ndia.co.uk](https://www.ndia.co.uk/)" "Screenshot of NDIA website. A header illustration, site menu, and a list of upcoming and past events is visible." "" "big" %}
+{% include fig.liquid, src: "/assets/ndia/screen-a.png", alt: "Screenshot of NDIA website. A header illustration, site menu, and a list of upcoming and past events is visible.", caption: "big" %}
 
 The main activity of [Neurodiversity in Albertopolis](https://www.ndia.co.uk/) is to run talks and workshops at the Royal College of Art (RCA), Imperial College, and other participating institutions.
 
@@ -22,7 +22,7 @@ The goal of the design is to make the information on the site accessible to as m
 
 ### IBM Plex
 
-{% fig "/assets/ndia/differentiation.svg" "Character differentiation in sans-serif typefaces" "The word 'Illicit' is set in the Helvetica, Roboto, GT Cinetype, and IBM Plex typefaces. The latter is most readable." "" "full" %}
+{% include fig.liquid, src: "/assets/ndia/differentiation.svg", caption: "Character differentiation in sans-serif typefaces", alt: "The word 'Illicit' is set in the Helvetica, Roboto, GT Cinetype, and IBM Plex typefaces. The latter is most readable.", class: "full" %}
 
 We decided to replace [GT Cintetype](https://www.grillitype.com/typeface/gt-cinetype), which the group had been using for some of its materials, with [IBM Plex Sans](https://github.com/IBM/plex). There were a few reasons for that:
 
@@ -35,7 +35,7 @@ I do miss one feature of Cinetype: the exagerated diacritics and punctuation mar
 
 ### Access tools
 
-{% fig "/assets/ndia/tools.png" "" "Screenshot of buttons to adjust font size, spacing, and colours." "" "big" %}
+{% include fig.liquid, src: "/assets/ndia/tools.png", alt: "Screenshot of buttons to adjust font size, spacing, and colours.", class: "big" %}
 
 We decided to add a set of access tools to the site for a couple of reasons. One is practical: It's hard (if not impossible) to find a set of typographic parameters that will make the site pleasant to read for absoultely everyone. While one person might need large type to read comfortably, another might want small type to be able to see a whole text in context.
 

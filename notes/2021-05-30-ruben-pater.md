@@ -25,7 +25,7 @@ The book is a series of different different looks at how designers relate to cap
 
 ## The designer as scribe
 
-{% fig "/assets/notes/beer-clay.jpg" "Clay tablet recording beer given to workers, Mesopotamia, 3000 BC" "Rounded clay tablet on black ground with cuneiform signs." "[The British Museum](https://blog.britishmuseum.org/world-book-day-leafing-through-the-pages-of-history/)"%}
+{% include fig.liquid, src: "/assets/notes/beer-clay.jpg", caption: "Clay tablet recording beer given to workers, Mesopotamia, 3000 BC", alt: "Rounded clay tablet on black ground with cuneiform signs.", source: "[The British Museum](https://blog.britishmuseum.org/world-book-day-leafing-through-the-pages-of-history/)"%}
 
 It's tiny, people who made this document had to be very precise, there's layout and design going on. This isn't writing, it's counting.  When you have societies and economies that are big enough, you need some kind of document to mediate social relations.
 

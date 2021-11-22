@@ -7,7 +7,7 @@ category: Event
 intro: Online exhibition website for the 2021 graphic design cohort at Camberwell College of Arts.
 ---
 
-{% fig "/assets/cca-21.png" "[2021.camberwellgraphicdesign.com](https://2021.camberwellgraphicdesign.com/)" "Browser screenshot showing degree show website" "" "big"%}
+{% include fig.liquid, src: "/assets/cca-21.png", alt: "Browser screenshot showing degree show website", class: "big"%}
 
 The site is built on the Wordpress/ACF/Timber stack. I've built these show sites on the Jamstack before, but this site has so many images and videos I needed something more robust. This setup also allows the design programme to host the site themselves on a retail hosting account at [camberwellgraphicdesign.com](https://camberwellgraphicdesign.com/). We're planning to host future sites at the same domain, and we'll migrate earlier ones there, too.
 

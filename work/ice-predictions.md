@@ -4,9 +4,8 @@ title: Ice Predictions
 date:  2019-04-01
 tags: work
 category: Installation
+intro: An attempt to visually predict the melting of ice using machine learning techniques.
 ---
-
-An attempt to visually predict the melting of ice using machine learning techniques.
 
 After spending several weeks collecting a dataset of melting ice blocks, I was able to train a variant of the [pix2pix](https://github.com/affinelayer/pix2pix-tensorflow) model to generate a prediction of what a given block of ice would look like an hour into the future.
 

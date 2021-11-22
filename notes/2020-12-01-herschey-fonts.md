@@ -38,11 +38,11 @@ In this video they show a stencil method to project letterforms (similar to phot
 
 > Once upon a time [...] the computer-printer generated only row after row of numbers and symbols, it was only used by the engineers. The took their armloads of papers to the drafting department, where an army of draftsmen and clerks converted the figures into charts, graphs, and drawings. [...] Then a bright engineer learned about a new kind of machine called the S-C 4020 that takes the information froma  computer and converts it into curves, graphs and pictures.
 
-{% fig "/assets/notes/40-20.png" "The CHARACTRON shaped beam tube of the S-C 4020" "A page from the 4020 manual, showing an exploded drawing of the shaped beam tube" "http://www.chilton-computing.org.uk/acl/pdfs/sc4020_inf_manual.pdf"%}
+{% include fig.liquid, src: "/assets/notes/40-20.png", caption: "The CHARACTRON shaped beam tube of the S-C 4020", alt: "A page from the 4020 manual, showing an exploded drawing of the shaped beam tube", source: "http://www.chilton-computing.org.uk/acl/pdfs/sc4020_inf_manual.pdf"%}
 
 The S-C 4020 was a technical milestone. It could do arbitrary vector drawings, and even produce animation. Most of this material seems to come from [Chilton Computing](http://www.chilton-computing.org.uk/acl/technology/sc4020/overview.htm).
 
-{% fig "/assets/notes/uaide061.jpg" "Vector drawings produced by the S-C 4020." "Figure 9 from Proceedings of the 9th Annual Meeting showing a cartoon character and a cloud." "http://www.chilton-computing.org.uk/acl/technology/sc4020/p011.htm"%}
+{% include fig.liquid, src: "/assets/notes/uaide061.jpg", caption: "Vector drawings produced by the S-C 4020.", alt: "Figure 9 from Proceedings of the 9th Annual Meeting showing a cartoon character and a cloud.", source: "http://www.chilton-computing.org.uk/acl/technology/sc4020/p011.htm"%}
 
 Herschey knew the machine:
 

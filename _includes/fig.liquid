@@ -1,0 +1,15 @@
+<figure class="post-figure {{ class }}">
+<img alt="{{ alt }}" loading="lazy" src="{{ src }}" />
+<figcaption>
+{% if caption %}
+<span class="figure-caption">
+{{ caption }}
+</span>
+{% endif %}
+{% if source %}
+<span class="figure-source">
+{{ source | renderMarkdown }}
+</span>
+{% endif %}
+</figcaption>
+</figure>

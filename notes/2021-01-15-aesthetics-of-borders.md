@@ -33,7 +33,7 @@ The aesthtic dimension of borders isn't just how they're presented in images, bu
 We see an overcrowded boat with criminialised migrants attempting to cross the sea. Because of their criminillastion by European policy, migrants are forced to use clandestine paths of travel. States try to make their movements visibile, detectable, knowable and thus governable through  imaging technology.
 
 
-{% fig "/assets/border-surveillance.png" "" "" "[Source](https://digit.site36.net/2019/08/21/land-sea-and-air-eu-member-states-test-drones-for-border-surveillance/)"%}
+{% include fig.liquid, src: "/assets/border-surveillance.png", source: "[Source](https://digit.site36.net/2019/08/21/land-sea-and-air-eu-member-states-test-drones-for-border-surveillance/)"%}
 
 This is why you see all this sensing apparatus to detect "threats" at the maritime border. They're drawing a line between productive mobility (like tourism) and threats of illegalised migration.
 

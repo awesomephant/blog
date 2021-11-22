@@ -3,46 +3,38 @@ layout: base
 class: post
 ---
 
-<aside class="post-meta">
-	{% if tags %}
-	{% assign t = tags | first %}
-	{% if t == "work" %}
-	<span>Work</span>
-	{% endif %}
-	{% endif %}
+<article class="single-post {{ page.class }} section-{{ page.section }}">
+  <aside class="post-meta">
+    {% if tags %} {% assign t = tags | first %} {% if t == "work" %}
+    <span>Work</span>
+    {% endif %} {% endif %} {% if teacher %}
+    <span><a href="/notes">Lecture Notes</a></span>
+    {% endif %}
 
-	{% if teacher %}
-	<span><a href="/notes">Lecture Notes</a></span>
-	{% endif %}
-
-	<date class="post-date post-meta-item">
-		{{ date | date: "%B %d, %Y" }}
-	</date>
-	<span>{{content | strip_html | wordcount}} minutes</span>
-</aside>
-<header class="post-header {% if intro%}has-intro{%endif%}">
-	<div class='header-copy'>
-		<h1 class="post-title">
-			{% if external_link %}
-			<a href="{{external_link}}">{{title}}</a>
-			{% else%}
-			{% if website %}
-			<a href="{{website}}">{{title}}</a>
-			{% else%}
-			{{ title }}
-			{% endif %}
-			{% endif %}
-		</h1>
-		{% if intro %}
-		<div class="post-intro">
-			{{ intro | renderMarkdown}}
-		</div>
-		{% endif %}
-	</div>
-</header>
-<article class='single-post {{page.class}} section-{{page.section}}'>
-	<div class="post-content">
-		{{ content | safe }}
-	</div>
+    <date class="post-date post-meta-item">
+      {{ date | date: "%B %d, %Y" }}
+    </date>
+    <span>{{ content | strip_html | wordcount }} minutes</span>
+  </aside>
+  <header class="post-header {% if intro%}has-intro{%endif%}">
+    <div class="header-copy">
+      <h1 class="post-title">
+        {% if external_link %}
+        <a href="{{ external_link }}">{{ title }}</a>
+        {% else%} {% if website %}
+        <a href="{{ website }}">{{ title }}</a>
+        {% else%}
+        {{ title }}
+        {% endif %} {% endif %}
+      </h1>
+      {% if intro %}
+      <div class="post-intro">
+        {{ intro | renderMarkdown }}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
 </article>
-<aside class="post-footnotes"></aside>

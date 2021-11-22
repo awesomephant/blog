@@ -21,21 +21,21 @@ It shows a series of designs for the facade of the monastery of Sainte-Marie de 
 ![Xenakis facade drawings](/assets/xenakis/building.jpg)
 Iannis Xenakis and Le Corbusier: Sainte Marie de La Tourette. [Source](http://thesis.arch.hku.hk/2016/musi-tecture-architecture-informed-by-music/)
 
-My understanding is that he derives these from a harmoic series based on the modulor series. High-resolution scans of Xenakis' drawings don't seem to exist (Even his own monograph suffers from poor reproductions), so it's hard to reverse-engineer the exact method he used to generate these patterns. the best I can tell, he's taking one number $$x_0$$, multiplying it with another one (presumably the golden ratio $$\varphi \approx 1.618034$$, since that's how the modulor is derived) to get a second one. The second number is multiplied with $$\varphi$$ again to obtain a third, and the process is repeated to create a series of $$n$$ numbers. In short:
+My understanding is that he derives these from a harmoic series based on the modulor series. High-resolution scans of Xenakis' drawings don't seem to exist (Even his own monograph suffers from poor reproductions), so it's hard to reverse-engineer the exact method he used to generate these patterns. the best I can tell, he's taking one number $x_0$, multiplying it with another one (presumably the golden ratio $\varphi \approx 1.618034$, since that's how the modulor is derived) to get a second one. The second number is multiplied with $\varphi$ again to obtain a third, and the process is repeated to create a series of $n$ numbers. In short:
 
 $$x_n = x_{0} \varphi^n$$
 
-Once the value of $$x_n$$ exceeds a certain threshold, he starts dividing by $$\varphi$$ instead of multiplying. Once $$x_n$$ becomes smaller than a certain value, he switches back to multiplication, and so on. I think he repeats this process for different values of $$x_0$$ and then combines the resulting series of numbers (by orderubg them by value) to obtain the final result.
+Once the value of $x_n$ exceeds a certain threshold, he starts dividing by $\varphi$ instead of multiplying. Once $x_n$ becomes smaller than a certain value, he switches back to multiplication, and so on. I think he repeats this process for different values of $x_0$ and then combines the resulting series of numbers (by orderubg them by value) to obtain the final result.
 
-The striking thing about Xenakis' method is that for all it's mathematical exactness and complexity, the result feels entirely natural. It is also worth pointing out that he's not really designing a facade: His project is really a *machine for making facades*. Between all the possible values of $$x_0$$, $$n$$ and $$\varphi$$, he opens up a *facade space* filled with an infinite number of points.
+The striking thing about Xenakis' method is that for all it's mathematical exactness and complexity, the result feels entirely natural. It is also worth pointing out that he's not really designing a facade: His project is really a *machine for making facades*. Between all the possible values of $x_0$, $n$ and $\varphi$, he opens up a *facade space* filled with an infinite number of points.
 
 Xenakis' algorithm is relatively simple — yet it allows for essentially infinite variations. I saw in this a method to explore the tension between line and tone in my undergrad machine drawings in a structured way.
 
-I began by writing [a tool](https://codepen.io/maxakohler/full/WYbQqZ) that would allow me to generate vector drawings following Xenakis' algorithm. I begin with a zig-zag line across the top of the page. For the second line, I take the number of zig-zags in the first and multiply it by a fixed ratio $$\varphi$$. The third line is derived by multiplying the number of zig-zags in the second with $$\varphi$$, and so on. Like Xenakis, I switch to division once a certain threshold is reached.
+I began by writing [a tool](https://codepen.io/maxakohler/full/WYbQqZ) that would allow me to generate vector drawings following Xenakis' algorithm. I begin with a zig-zag line across the top of the page. For the second line, I take the number of zig-zags in the first and multiply it by a fixed ratio $\varphi$. The third line is derived by multiplying the number of zig-zags in the second with $\varphi$, and so on. Like Xenakis, I switch to division once a certain threshold is reached.
 
 ![Xenakis facade drawings](/assets/xenakis/all.jpg)
 
-Xenakis (as far as I can tell) only used the Golden Ratio for his facades. I expand this to the 12 musical intervals in the harmonic scale.
+Xenakis (as far as I can tell) only used the Golden Ratio for his facades. I like using the  12 intervals in the harmonic scale, too.
 
 
 | |Interval in C|Ratio|Ratio (1:x)|% of larger value|% of smaller value|
@@ -52,16 +52,10 @@ Xenakis (as far as I can tell) only used the Golden Ratio for his facades. I exp
 |major sixth|C→A|3:5|1.667|	0.599880024|166.7
 |minor seventh|C→B♭|9:16|1.778|	0.5624296963|177.8
 |major seventh|C→B|8:15|1.875|0.5333333333|187.5|
-|octave|C→C↑|1:2|2|0.5|200|
-
-The research is ongoing.
+|octave|C→C|1:2|2|0.5|200|
 
 ## Notes
-
-{% footnotes %}
 
 1. Owen Gregory (2011): *[Composing the New Canon: Music, Harmony, Proportion](https://24ways.org/2011/composing-the-new-canon)*
 2. Sven Sterken (2007): *Music as an Art of Space: Interactions between Music and Architecture in the Work of Iannis Xenakis*. Available at [core.ac.uk/download/pdf/34525212.pdf](https://core.ac.uk/download/pdf/34525212.pdf)
 3. Alex Ross (2010): *Waveforms: The singular Iannis Xenakis.* The New Yorker. Available at [newyorker.com/magazine/2010/03/01/waveforms](https://www.newyorker.com/magazine/2010/03/01/waveforms)
-
-{% endfootnotes %}

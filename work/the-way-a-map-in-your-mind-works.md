@@ -7,11 +7,11 @@ tags: work
 category: Portfolio
 ---
 
-{% fig "/assets/boulton/boulton-1.png" "[oliverboulton.com](http://oliverboulton.com/)" "Screenshot of web browser showing oliverboulton.com. A scanned fashion magazine is visible next to small description text.' " "" "big"%}
+{% include fig.liquid, src: "/assets/boulton/boulton-1.png", alt: "Screenshot of web browser showing oliverboulton.com. A scanned fashion magazine is visible next to small description text.'", class: "big"%}
 
-{% fig "/assets/boulton/boulton-2.png" "[oliverboulton.com](http://oliverboulton.com/)" "Screenshot of web browser showing the 'Information' page on oliverboulton.com. Several paragraphs of text about Oliver are visible text to a project timeline and a colophon. " "" "big"%}
+{% include fig.liquid, src: "/assets/boulton/boulton-2.png", alt: "Screenshot of web browser showing the 'Information' page on oliverboulton.com. Several paragraphs of text about Oliver are visible text to a project timeline and a colophon.", class: "big"%}
 
-{% fig "/assets/boulton/boulton-3.png" "[oliverboulton.com](http://oliverboulton.com/)" "Screenshot of web browser showing the directorty page on oliverboulton.com. A list of project titles is visible on the right, while a detailed description of a single book project is on the left. The type is white on  a deep brown-green background." "" "big"%}
+{% include fig.liquid, src: "/assets/boulton/boulton-3.png", alt: "Screenshot of web browser showing the directorty page on oliverboulton.com. A list of project titles is visible on the right, while a detailed description of a single book project is on the left. The type is white on  a deep brown-green background.", class: "big"%}
 
 Since Oliver has some development skills himself, we decided to build the site together through standard version control. We're using [Eleventy](https://github.com/11ty/eleventy/) to build the site from a series of Markdown and JSON data files and Liquid templates. The frontend interactions are written in plain Javascript, and for the moment the site is hosted on standard shared hosting.
 

@@ -1,16 +1,21 @@
 .single-post {
-  grid-column: 1 / 13;
-  @include bp(s) {
-    grid-column: 2 / 11;
+  display: contents;
+  h2, h3, h4, h5, h6, p, ul, ol, details, figure, img, hr, .post-header, pre, blockquote {
+    grid-column: 1 / 13;
+    @include bp(s) {
+      grid-column: 2 / 11;
+    }
+    @include bp(m) {
+      grid-column: 2 / 9;
+    }
+    @include bp(l) {
+      grid-column: 4 / 9;
+    }
   }
-  @include bp(m) {
-    grid-column: 2 / 11;
-  }
-  @include bp(l) {
-    grid-column: 4 / 10;
-  }
+}
+.post-content {
+  display: contents;
   width: 100%;
-  // max-width: 32em;
   hyphens: auto;
   line-height: 1.35;
   font-size: var(--ms-0);
@@ -26,7 +31,7 @@
   li {
     margin-bottom: 0.5em;
     a {
-      color: $blue;
+    color: var(--gray);
     }
   }
   strong {
@@ -147,16 +152,14 @@
       display: inline;
     }
   }
-  .fig-source {
-    display: inline;
+  .figure-source {
     font-weight: normal;
-    margin-left: 1em;
     padding-top: 0.25em;
-    color: var(--gray);
     font-family: $sans;
-    &.long {
-      display: block;
-      margin-left: 0;
+    display: block;
+    font-size: var(--ms--2);
+    a {
+      color: inherit;
     }
   }
   .post-figure {
@@ -243,7 +246,7 @@
   }
 
   .embed-placeholder {
-    border: 1px solid $gray;
+    border: 1px solid var(--lightgray);
     font-family: $sans;
     padding: 0.75rem;
     border-radius: $br;
@@ -273,7 +276,7 @@
     margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 3px;
-    border: 1px solid $gray;
+    border: 1px solid var(--lightgray);
     font-size: var(--ms-1);
     font-weight: bold;
     cursor: pointer;
@@ -398,11 +401,11 @@
   }
 }
 
-.fn {
+.footnote-ref {
   display: inline-block;
   font-size: 14px;
   position: relative;
-  top: -6px;
+  top: -5px;
   left: -2px;
   a {
     text-decoration: none;

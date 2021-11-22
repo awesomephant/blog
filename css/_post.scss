@@ -1,6 +1,20 @@
 .single-post {
   display: contents;
-  h2, h3, h4, h5, h6, p, ul, ol, details, figure, img, hr, .post-header, pre, blockquote {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  details,
+  figure,
+  img,
+  hr,
+  .post-header,
+  pre,
+  blockquote {
     grid-column: 1 / 13;
     @include bp(s) {
       grid-column: 2 / 11;
@@ -31,7 +45,7 @@
   li {
     margin-bottom: 0.5em;
     a {
-    color: var(--gray);
+      color: var(--gray);
     }
   }
   strong {
@@ -78,7 +92,7 @@
   .task-list-item-checkbox {
     display: inline-block;
     position: relative;
-    top: -.1em;
+    top: -0.1em;
   }
   blockquote {
     font-weight: 500;
@@ -114,7 +128,6 @@
   .note {
     font-family: $sans;
     font-size: var(--ms--1);
-
   }
   .footnote {
     border-bottom: 0;
@@ -233,13 +246,14 @@
   .embed-container {
     figcaption {
       display: none;
-      padding-top: .5em;
+      padding-top: 0.5em;
     }
     &.active {
       .embed-placeholder {
         display: none;
       }
-      .embed, figcaption {
+      .embed,
+      figcaption {
         display: block;
       }
     }
@@ -370,22 +384,26 @@
   }
 }
 
-.footnotes,
-.post-footnotes {
+.footnotes {
   font-size: var(--ms--1);
   font-family: $sans;
   column-gap: 3em;
   padding-top: 1rem;
   grid-column: 1 / 12;
-  margin-left: 1em;
+  @include bp(s) {
+    columns: 2;
+  }
   @include bp(m) {
     padding-top: 4rem;
+    margin-left: -1em;
     grid-column: 2 / 10;
-    columns: 2;
     align-self: flex-end;
   }
   @include bp(l) {
     grid-column: 4 / 10;
+  }
+  .footnotes-list {
+    margin-top: 0;
   }
   li {
     margin-bottom: 0.5em;
@@ -410,4 +428,8 @@
   a {
     text-decoration: none;
   }
+}
+
+.footnote-backref {
+  display: none;
 }

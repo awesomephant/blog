@@ -7,7 +7,7 @@ metadata:
     name: Max Kohler
     email: hi@maxkoehler.com
   feed:
-    subtitle: Max Kohler is a graphic design student at the Royal College of Art, London. Follow him on Twitter, Instagram, or email hi@maxkoehler.com for project inquiries. 
+    subtitle: Max Kohler – Visual Communication 
     filename: feed.xml
     path: feed/feed.xml
     url: https://maxkoehler.com/feed.xml
@@ -26,6 +26,7 @@ metadata:
 <email>{{ metadata.author.email }}</email>
   </author>
   {%- for post in collections.post %}
+  {% if post.data.draft != true %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
@@ -34,5 +35,6 @@ metadata:
     <id>{{ absolutePostUrl }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
+  {% endif %}
   {%- endfor %}
 </feed>

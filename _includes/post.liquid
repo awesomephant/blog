@@ -5,6 +5,9 @@ class: post
 
 <article class="single-post {{ page.class }} section-{{ page.section }}">
   <aside class="post-meta">
+    {% if draft %}
+    <span>DRAFT</span>
+    {% endif %}
     {% if tags %} {% assign t = tags | first %} {% if t == "work" %}
     <span>Work</span>
     {% endif %} {% endif %} {% if teacher %}

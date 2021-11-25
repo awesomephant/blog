@@ -7,8 +7,10 @@
   border: 0;
   font-family: inherit;
   border-radius: $br;
+  font-family: $sans;
   &:hover,
   &:focus {
+    background-color: rgb(14, 14, 14);
     text-decoration: underline;
     cursor: pointer;
   }

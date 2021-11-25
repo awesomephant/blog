@@ -1,4 +1,5 @@
 import textBalancer from 'text-balancer';
+import { initCodemirror } from './cms-demo';
 
 function initList() {
     let search = document.querySelector(".notes-search");
@@ -73,6 +74,7 @@ document.addEventListener(
         });
         initList();
         initEmbeds();
+        initCodemirror()
     },
     false
 );

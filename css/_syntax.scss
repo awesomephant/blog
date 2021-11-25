@@ -1,10 +1,12 @@
-$color-string: #072cd3;
+$color-string: #9a0dec;
 
 code {
   font-family: $mono;
 }
-p > code {
+p > code, em > code, li > code {
   font-size: .9em;
+  font-style: normal;
+  white-space: nowrap;
 }
 code[class*="language-"],
 pre[class*="language-"], pre code{
@@ -21,6 +23,7 @@ pre[class*="language-"], pre code{
   font-weight: 400;
   color: var(--black);
   position: relative;
+  overflow-y: scroll;
   mark {
     width: 100%;
     background-color: var(--mark);
@@ -49,6 +52,9 @@ pre[class*="language-"] {
   &.language-yaml:after {
     content: "YAML"
   }
+  &.language-json:after {
+    content: "JSON"
+  }
   &.language-js:after {
     content: "Javascript"
   }
@@ -64,6 +70,9 @@ pre[class*="language-"] {
   &.language-css:after {
     content: "CSS"
   }
+  &.language-liquid:after {
+    content: "Liquid"
+  }
 }
 
 .token.comment,
@@ -73,8 +82,12 @@ pre[class*="language-"] {
   color: var(--gray);
 }
 
-.token.punctuation {
+.token.punctuation, .token.delimiter {
   color: var(--gray);
+  font-style: normal;
+}
+.token.liquid {
+  font-style: italic;
 }
 
 .token.namespace {

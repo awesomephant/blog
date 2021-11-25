@@ -3,6 +3,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const markdownIt = require("markdown-it")
 const taskLists = require('markdown-it-task-lists');
 let footnotes = require("markdown-it-footnote");
+const typesetPlugin = require('eleventy-plugin-typeset');
 
 let markdownOptions = {
   html: true,
@@ -118,7 +119,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./css/");
 
   eleventyConfig.setLibrary("md", markdownLib);
-
+  eleventyConfig.addPlugin(typesetPlugin({
+    only: ".single-post"
+  }));
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
   return {};

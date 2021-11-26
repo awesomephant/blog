@@ -7,6 +7,7 @@ includesMusic: false
 intro: "As your web projects grow, writing straight-up HTML becomes impractical - Content Management Systems (CMS) are here to help."
 tags: post
 draft: true
+thumb: https://www.maxkoehler.com/assets/cms-spot-1.png
 spot:
   src: /assets/cms-spot-1.png
 ---
@@ -69,9 +70,10 @@ Max's recipe box
 
 We have to label the piece of data we extracted so we can reference it later. I came up with `site_title`, but anything that makes sense in your mind will work.
 
-Then, we put a placeholder where that piece of content used to be in our HTML. We'll use a templating language called Liquid for these examples, which uses {%raw%}```{{ double curly braces }}```{%endraw%} to mark placeholders - other languages have different conventions. Our file now looks like this:
+Then, we put a placeholder where that piece of content used to be in our HTML. We'll use a templating language called Liquid for these examples, which uses {%raw%}`{{ double curly braces }}`{%endraw%} to mark placeholders - other languages have different conventions. Our file now looks like this:
 
 {%raw%}
+
 ```liquid/0
 <h1>{{ site_title }}</h1>
 <ul>
@@ -89,9 +91,10 @@ Then, we put a placeholder where that piece of content used to be in our HTML. W
   </li>
 </ul>
 ```
+
 {%endraw%}
 
-Note that we're using the label from our datastore (```site_title```) to refer to the piece of content we just extracted. The addition of that placeholder turns our HTML file into a _template_.
+Note that we're using the label from our datastore (`site_title`) to refer to the piece of content we just extracted. The addition of that placeholder turns our HTML file into a _template_.
 
 Our new setup is already useful: If Alice wanted to change the title of the site, she wouldn't have to look at our whole HTML file - all she would have to edit is that little text file.
 
@@ -109,6 +112,7 @@ Again, we're using the first line of our file to label our data: `title` and `du
 With our data extracted and organised, we can replace the recipe list in our template with more placeholders:
 
 {%raw%}
+
 ```liquid/2-7
 <h1>{{siteTitle}}</h1>
 <ul>
@@ -120,15 +124,16 @@ With our data extracted and organised, we can replace the recipe list in our tem
   {% endfor %}
 </ul>
 ```
+
 {%endraw%}
 
-The line {%raw%}`{% for recipe in recipes %}`{%endraw%} is telling the computer: *Hey! For every recipe in our datastore, repeat whatever markup follows until you see {% raw %}`{% endfor %}`{% endraw %}.* Between those tags we use placeholders like {%raw%}```{{recipe.title}}```{%endraw%} to display specific pieces of information for the current recipe. Liquid has many more constructs like this for dealing with data in smart ways – for example, we could output different HTML if a recipe has a particularly long title, or no title at all –  but the principle is the same.
+The line {%raw%}`{% for recipe in recipes %}`{%endraw%} is telling the computer: _Hey! For every recipe in our datastore, repeat whatever markup follows until you see {% raw %}`{% endfor %}`{% endraw %}._ Between those tags we use placeholders like {%raw%}`{{recipe.title}}`{%endraw%} to display specific pieces of information for the current recipe. Liquid has many more constructs like this for dealing with data in smart ways – for example, we could output different HTML if a recipe has a particularly long title, or no title at all – but the principle is the same.
 
 Moving our recipes into a datastore has the same benefit as extracting the title: If Alice wants to add a recipe to the list, she can just edit the CSV file. Even better, she could import that file into Google Sheets, invite other people, set up a whole editorial process for adding recipes – as long as she export a CSV file at the end, it wouldn't impact our workflow at all.
 
 But we've also solved our second problem: The template doesn't care if our site has 5 or 5,000 recipes - it'll iterate through them and output the HTML just the same. If we need to change anything about the markup, we just edit the template and the computer does all the boring typing for us.
 
-Let's look at a demo to put all of this together.  
+Let's look at a demo to put all of this together.
 
 ## Demo
 
@@ -137,6 +142,8 @@ Here are the three files we discussed: Two CSV files (the datastore) and a Liqui
 {% include cms-demo.liquid %}
 
 Once you're comfortable with the principle of separating content from markup, you're ready to tackle the tricky business of setting up a CMS for real-world project.
+
+{% include fig.liquid, src: "/assets/cms-spot-2.png", alt: "Steaming mug on a pile of paper" "small" %}
 
 ## CMSs in the real world
 

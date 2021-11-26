@@ -208,12 +208,12 @@
       figcaption {
         padding-top: 1em;
         flex-basis: 50%;
+        hyphens: none;
         @include bp(m) {
           padding-top: 0;
           text-align: left;
           padding-left: 1em;
         }
-        hyphens: none;
       }
       img {
         width: 65%;

@@ -30,9 +30,9 @@ The solution to introduce a level of abstraction. Specifically, we're going to a
 2. Write templates that look more or less like HTML but have special placeholders where our text and images used to be.
 3. Set up a piece of software that takes our content and our templates and combines them back into regular HTML - because that's the only thing browsers understand.
 
-The combination of one, two, or all three of these things is called a CMS (Content Management System). Some CMS have even more features, like an interface to let you edit content in the datastore or your template, or analytics, or webhosting – but we'll ignore all that for now.
+The combination of one, two, or all three of these things is called a CMS (Content Management System). Some CMS have even more features, like an interface to let you edit content in the datastore or your template, or analytics, or webhosting – but the big, central idea is abstracting content from markup.
 
-The best way to understand the idea of abstracting content from markup is to look at an example. I'll leave out most of the technical details for now - we'll deal with them in the second part: (_Content Management Systems in the Real World_).
+The best way to understand this idea is to look at an example. I'll leave out most of the technical details for now - we'll deal with them in the second part: (_Content Management Systems in the Real World_).
 
 ## An example
 
@@ -130,7 +130,7 @@ Let's look at a demo to put all of this together.
 
 ## Demo
 
-Here are the three files we discussed: Two CSV files (the datastore) and a Liquid template. All three are editable. Press the button below to compile them into a HTML file, then change the data, the template, or both, and observe how the rendered HTML changes.
+Here are the three files we discussed: Two CSV files (the datastore) and a Liquid template. All three are editable. Press the button below to smush them into a HTML file, then change the data, the template, or both, and observe how the rendered HTML changes.
 
 {% include cms-demo.liquid %}
 

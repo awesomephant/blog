@@ -1,4 +1,4 @@
-$color-string: #9a0dec;
+$color-string: #0b61c2;
 
 code {
   font-family: $mono;
@@ -32,8 +32,8 @@ pre[class*="language-"], pre code{
   }
   &:after {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: .5rem;
+    right: .5rem;
     font-size: var(--ms--2);
     font-family: $sans;
     color: var(--black);
@@ -43,7 +43,7 @@ pre[class*="language-"], pre code{
 pre[class*="language-"] {
   margin: 1em 0;
   overflow: auto;
-  padding: 1rem;
+  padding: .5rem;
   border-radius: $br;
   border: 1px solid var(--lightgray);
   &:after {

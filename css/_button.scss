@@ -1,5 +1,6 @@
 .button {
   background: $black;
+  border: 1px solid $black;
   color: var(--background);
   appearance: none;
   padding: 0.35em 0.6em;
@@ -10,7 +11,20 @@
   font-family: $sans;
   &:hover,
   &:focus {
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(18, 18, 18);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.button--secondary {
+  @extend .button;
+  background: transparent;
+  color: var(--black);
+  border: 1px solid var(--black);
+  &:hover,
+  &:focus {
+    background-color: transparent;
     text-decoration: underline;
     cursor: pointer;
   }

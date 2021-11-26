@@ -108,7 +108,6 @@ module.exports = function (eleventyConfig) {
     return workByYear.reverse()
   })
   eleventyConfig.addPassthroughCopy("assets");
-  eleventyConfig.addPassthroughCopy("dist");
   eleventyConfig.addPassthroughCopy("./*.png");
   eleventyConfig.addPassthroughCopy("./*.xml");
   eleventyConfig.addPassthroughCopy("./*.txt");

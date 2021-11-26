@@ -7,6 +7,8 @@ includesMusic: false
 intro: "As your web projects grow, writing straight-up HTML becomes impractical - Content Management Systems (CMS) are here to help."
 tags: post
 draft: true
+spot:
+  src: /assets/cms-spot-1.png
 ---
 
 ## Who this article is for

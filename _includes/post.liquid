@@ -19,6 +19,9 @@ class: post
     </date>
     <span>{{ content | strip_html | wordcount }} minutes</span>
   </aside>
+  {% if spot %}
+    {% include fig.liquid, src: spot.src, caption: spot.caption, class: "post-spot" %}
+  {% endif %}
   <header class="post-header {% if intro%}has-intro{%endif%}">
     <div class="header-copy">
       <h1 class="post-title">

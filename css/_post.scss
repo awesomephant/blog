@@ -26,6 +26,18 @@
       grid-column: 4 / 9;
     }
   }
+  .post-spot {
+    grid-column: 1 / 13;
+    @include bp(m) {
+      grid-column: 2 / 11;
+    }
+    @include bp(l) {
+      grid-column: 3 / 11;
+    }
+    img {
+      width: 100%;
+    }
+  }
 }
 .post-content {
   display: contents;
@@ -74,8 +86,8 @@
     margin-bottom: 0.2em;
   }
   .small-caps {
-    font-size: .99em;
-    letter-spacing: .015em;
+    font-size: 0.99em;
+    letter-spacing: 0.015em;
   }
   ul,
   ol {
@@ -321,7 +333,6 @@
   grid-column: 1 / 12;
   display: flex;
   flex-flow: row;
-  font-weight: 600;
   font-size: var(--ms-0);
   margin-bottom: 1em;
   @include bp(s) {
@@ -329,7 +340,6 @@
   }
   @include bp(m) {
     grid-column: 2 / 10;
-    font-weight: 500;
   }
   @include bp(l) {
     grid-column: 4 / 10;

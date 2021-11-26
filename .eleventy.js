@@ -115,7 +115,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("site.webmanifest");
   eleventyConfig.addPassthroughCopy("tosdr.txt");
-  eleventyConfig.addWatchTarget("./css/");
 
   eleventyConfig.setLibrary("md", markdownLib);
   eleventyConfig.addPlugin(typesetPlugin({

@@ -1,4 +1,4 @@
-$color-string: #0b61c2;
+$color-string: #023b95;
 
 code {
   font-family: $mono;
@@ -42,12 +42,13 @@ pre[class*="language-"], pre code{
 
 pre[class*="language-"] {
   margin: 1em 0;
-  overflow: auto;
+  overflow: visible;
   padding: .5rem;
   border-radius: $br;
   border: 1px solid var(--lightgray);
   &:after {
     font-family: $sans;
+    color: var(--gray);
   }
   &.language-yaml:after {
     content: "YAML"
@@ -56,7 +57,7 @@ pre[class*="language-"] {
     content: "JSON"
   }
   &.language-js:after {
-    content: "Javascript"
+    content: "JS"
   }
   &.language-html:after {
     content: "HTML"
@@ -72,6 +73,25 @@ pre[class*="language-"] {
   }
   &.language-liquid:after {
     content: "Liquid"
+  }
+  counter-reset: lines;
+  .highlight-line {
+    counter-increment: lines;
+    position: relative;
+    &:before {
+      content: counter(lines);
+      position: absolute;
+      left: -2.75em;
+      width: 1.5em;
+      top: .1em;
+      font-size: var(--ms--2);
+      color: var(--gray);
+      text-align: right;
+      display: none;
+      @include bp(s){
+        display: inline-block;
+      }
+    }
   }
 }
 
@@ -110,7 +130,7 @@ pre[class*="language-"] {
 }
 
 .token.string {
-  color: $color-string;
+  color: #055d20;
 }
 
 .token.selector {

@@ -44,12 +44,13 @@ module.exports = function () {
 
 We'll save that file as `myData.js` inside the `_data` folder, next to our original CSV file. As with regular data files, the filename controls under which key the data will be available. Once that's done, we can write template code like this, and it works just as expected:
 
-```liquid{%raw%}
+{%raw%}
+```liquid
 {% for row in myData %}
     {{ row.title }}
 {% endfor %}
-{%endraw%}
 ```
+{%endraw%}
 
 We could also [use Eleventy's pagination feature](https://www.11ty.dev/docs/pages-from-data/) to turn our data into individual pages.
 

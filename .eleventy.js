@@ -122,6 +122,8 @@ module.exports = function (eleventyConfig) {
     only: ".single-post"
   }));
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(syntaxHighlight, {
+    alwaysWrapLineHighlights: true,
+  });
   return {};
 };

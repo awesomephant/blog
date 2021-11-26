@@ -79,6 +79,9 @@ function resetEditorContent() {
     state.templateEditor.dispatch({
         changes: { from: 0, to: state.templateEditor.state.doc.toString().length, insert: template }
     })
+    state.htmlEditor.dispatch({
+        changes: { from: 0, to: state.templateEditor.state.doc.toString().length, insert: "" }
+    })
 }
 
 function handleEditorUpdate(update) {

@@ -32,7 +32,7 @@ The solution to introduce a level of abstraction. Specifically, we're going to a
 
 The combination of one, two, or all three of these things is called a CMS (Content Management System). Some CMS have even more features, like an interface to let you edit content in the datastore or your template, or analytics, or webhosting – but the big, central idea is abstracting content from markup.
 
-The best way to understand this idea is to look at an example. I'll leave out most of the technical details for now - we'll deal with them in the second part: (_Content Management Systems in the Real World_).
+The best way to understand this idea is to look at an example. I'll leave out most of the technical details for now - we'll deal with them in the second part: _Content Management Systems in the Real World_.
 
 ## An example
 

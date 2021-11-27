@@ -4,6 +4,7 @@ title: What's a Content Management System?
 date: 2021-11-20
 includesMath: false
 includesMusic: false
+canonical: https://maxakohler.medium.com/whats-a-content-management-system-9cf62a4cab9e
 intro: "As your web projects grow, writing plain HTML becomes impractical – Content Management Systems (CMS) are here to help."
 tags: post
 thumb: https://www.maxkoehler.com/assets/cms-spot-1.png
@@ -143,4 +144,6 @@ Don't worry about how exactly our data and templates are rendered into HTML in t
 
 {% include fig.liquid, src: "/assets/cms-spot-2.png", alt: "Steaming mug with a smiley face sits on a pile of paper", class: "thumbnail" %}
 
-Part two of this article, _Content Management Systems in the real world_, is coming soon. [Sign up to my email newsletter](https://tinyletter.com/maxakohler) or [follow me on Twitter](https://twitter.com/maxakohler) to be notified when it does.
+Part two of this article, _Content Management Systems in the real world_, is coming soon. [Sign up to my email newsletter](https://tinyletter.com/maxakohler) or [follow me on Twitter](https://twitter.com/maxakohler) to be notified when it does. [^1]
+
+[^1]: This article [also appeared on Medium](https://maxakohler.medium.com/whats-a-content-management-system-9cf62a4cab9e).

@@ -17,9 +17,9 @@
     flex-basis: 40%;
     display: flex;
     flex-flow: column;
-    height: 8vh;
+    min-height: 8vh;
     @include bp(m){
-      height: 65vh;
+      height: 60vh;
       margin-right: 0.5rem;
     }
   }

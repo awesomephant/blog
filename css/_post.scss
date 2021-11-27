@@ -198,6 +198,15 @@
     &:first-child {
       margin-top: 0;
     }
+    &.thumbnail {
+      display: flex;
+      img {
+        height: 18rem;
+      }
+      @include bp(m){
+        justify-content: center;
+      }
+    }
     &.small {
       margin: 1em 0;
       align-items: flex-end;

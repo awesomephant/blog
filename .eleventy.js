@@ -33,7 +33,7 @@ if (process.env.NODE_ENV === "production") {
 module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("wordcount", function (s) {
     const words = s.split(" ");
-    const minutes = words.length / 180;
+    const minutes = words.length / 230;
     return minutes.toFixed(1);
   });
 

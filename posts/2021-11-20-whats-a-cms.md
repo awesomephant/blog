@@ -5,7 +5,7 @@ date: 2021-11-20
 includesMath: false
 includesMusic: false
 canonical: https://maxakohler.medium.com/whats-a-content-management-system-9cf62a4cab9e
-intro: "As your web projects grow, writing plain HTML becomes impractical - a Content Management System (CMS) is the layer of abstraction you need."
+intro: "As your web projects grow, writing plain HTML becomes impractical – a Content Management System (CMS) is the layer of abstraction you need."
 tags: post
 thumb: https://www.maxkoehler.com/assets/cms-spot-1.png
 spot:
@@ -19,7 +19,7 @@ This was originally written as a seminar for undergraduate design students, but 
 
 ## The Problem
 
-Your first few websites are probably built in plain HTML (and CSS and Javascript, but we're not really talking about those here). There's nothing wrong with those technologies - they'll get you pretty far! But as your projects grow, you tend to run into two problems:
+Your first few websites are probably built in plain HTML (and CSS and Javascript, but we're not really talking about those here). There's nothing wrong with those technologies – they'll get you pretty far! But as your projects grow, you tend to run into two problems:
 
 - **Sites with lots of content become unwiedly.** Let's say you're building a site with a hundred articles, or a thousand archival records, or ten thousand of something else: it's not that you _couldn't_ write out HTML for all of that content, but it would be pretty tedious. And if you wanted to change anything about the markup after the fact, that would be a time-consuming task.
 - **Other people need to edit content on your website.** You could teach them all to write HTML, but that's not always an option: Maybe they work in a different department, or they'll want to work on the site long after you've moved onto the next project and are able to help out. Also, HTML might not be the best place to work on content: a writer might prefer to work in Google Docs or some other writing app, but there's no easy way to wrangle that back into a HTML file.

@@ -3,7 +3,7 @@
 <figcaption>
 {% if caption %}
 <span class="figure-caption">
-{{ caption }}
+{{ caption | renderMarkdown }}
 </span>
 {% endif %}{% if source %}
 <span class="figure-source">

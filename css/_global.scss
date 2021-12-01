@@ -34,7 +34,7 @@ body {
     padding-right: 0;
   }
   &.home {
-    --background: rgb(235, 235, 235);
+    --background: rgb(250, 250, 250);
   }
   &.post {
     color: var(--black);
@@ -44,7 +44,7 @@ body {
   }
   &.notes {
     color: var(--black);
-    --background: #e4f0ff;
+    --background: #fffcd5;
   }
 }
 

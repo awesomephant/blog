@@ -173,7 +173,9 @@
     hyphens: auto;
     font-family: $sans;
     letter-spacing: 0.02em;
-    text-align: center;
+    @include bp(l){
+      text-align: center;
+    }
     a {
       color: $black;
     }

@@ -23,9 +23,10 @@ body {
   font-size: var(--ms-0);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  color: $black;
+  color: var(--color);
   letter-spacing: 0.012em;
   line-height: 1.25;
+  text-rendering: geometricPrecision;
   background: var(--background);
   @include bp(m) {
     letter-spacing: 0.003em;
@@ -34,7 +35,8 @@ body {
     padding-right: 0;
   }
   &.home {
-    --background: rgb(250, 250, 250);
+    --background: rgb(0, 0, 0);
+    --color: rgb(255, 255, 255);
   }
   &.post {
     color: var(--black);

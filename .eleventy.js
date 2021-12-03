@@ -61,7 +61,7 @@ module.exports = function (eleventyConfig) {
     return false
   }
   eleventyConfig.addCollection("postsByYear", function (collectionApi) {
-    const posts = collectionApi.getFilteredByGlob(["./posts/*.md"]);
+    const posts = collectionApi.getFilteredByGlob(["./posts/*.md", "./work/*.md"]);
     let postsByYear = []
     let currentYear = ""
 
@@ -83,30 +83,7 @@ module.exports = function (eleventyConfig) {
     })
     return postsByYear.reverse()
   })
-  eleventyConfig.addCollection("workByYear", function (collectionApi) {
-    const work = collectionApi.getFilteredByGlob(["./work/*.md"]);
-    let workByYear = []
-    let currentYear = ""
-
-    work.forEach(p => {
-      let y = new Date(p.data.date).getFullYear()
-      if (p.data.draft !== true) {
-
-        if (y !== currentYear) {
-          workByYear.push({
-            year: y,
-            shortYear: y.toString().substr(2),
-            posts: [p]
-          })
-          currentYear = y;
-        } else {
-          let index = getIndex(workByYear, "year", currentYear)
-          workByYear[index].posts.push(p)
-        }
-      }
-    })
-    return workByYear.reverse()
-  })
+  
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("./*.png");
   eleventyConfig.addPassthroughCopy("./*.xml");

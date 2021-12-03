@@ -14,6 +14,7 @@
   hr,
   .post-header,
   pre,
+  table,
   blockquote {
     grid-column: 1 / 13;
     @include bp(s) {
@@ -361,6 +362,9 @@
     @include bp(m) {
       margin-right: 2em;
     }
+  }
+  .small-caps {
+    margin-right: 0 !important;
   }
 }
 

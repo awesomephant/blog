@@ -3,38 +3,7 @@ layout: base
 class: home
 ---
 
-<section class='home-work home-section'>
-    <h2 style="--rows: {{collections.work | size}}">
-        <span>
-            Design
-        </span>
-    </h2>
-    <ul class='project-list'>
-        {% for year in collections.workByYear %}
-        <span class="project-date" style="grid-row: span {{year.posts | size}}">
-            <span>
-                {{year.shortYear}}
-            </span>
-        </span>
-        {% assign posts = year.posts | reverse%}
-        {% for p in posts%}
-        <li class='project-list-item'>
-            <h3 class="project-title">
-                <a href='{{ p.url }}'>
-                    {{p.data.title}}
-                </a>
-            </h3>
-            <span class="project-category">{{p.data.category}}</span>
-        </li>
-        {% endfor %}
-        {% endfor %}
-    </ul>
-</section>
-<div class="spacer"></div>
 <section class='home-writing home-section'>
-    <h2 style="--rows: {{collections.post | size}}">
-        <span>Writing</span>
-    </h2>
     <nav class='project-list'>
         {% for year in collections.postsByYear %}
         <span class="project-date" style="grid-row: span {{year.posts | size}}">
@@ -54,7 +23,15 @@ class: home
                     {% endif %}
                 </a>
             </h3>
-            <span class="project-category">{{post.data.publication}}</span>
+            <span class="project-category">
+                {% if post.data.tags contains "work" %}
+                {{post.data.category}}
+                {% endif %}
+
+                {% if post.data.tags contains  "post" %}
+                Writing
+                {% endif %}
+            </span>
         </li>
         {% endfor %}
         {% endfor %}

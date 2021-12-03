@@ -14,7 +14,7 @@
   span {
     white-space: nowrap;
     grid-column: 2 / 12;
-    margin-bottom: 4rem;
+    margin-bottom: 2em;
   }
   h1 {
     grid-column: 2 / 12;
@@ -40,34 +40,33 @@
   }
 
   @include bp(m) {
-    grid-column: 4 / 5;
+    grid-column: 2 / 4;
   }
 }
 
 .project-list-item {
   display: contents;
   font-weight: 400;
-  
+
   .project-title {
     grid-column: 2 / 12;
-    padding-bottom: .1em;
+    padding-bottom: 0.1em;
     @include bp(s) {
       grid-column: 2 / 9;
     }
     @include bp(m) {
-      grid-column: 5 / 9;
+      grid-column: 4 / 10;
     }
     @include bp(xl) {
-      grid-column: 5 / 8;
+      grid-column: 4 / 9;
     }
-
   }
   .project-category {
     display: none;
     white-space: nowrap;
     @include bp(s) {
       display: block;
-      grid-column: 10 / 12;
+      grid-column: 11 / 12;
     }
     @include bp(xl) {
       grid-column: 10 / 12;
@@ -86,27 +85,12 @@
 
 .project-list {
   display: contents;
+  font-family: $mono;
+  font-size: .98em;
 }
 
 .home-section {
   display: contents;
-  h2 {
-    grid-column: 2 / 13;
-    padding-bottom: 0.5em;
-    font-family: $sans;
-    grid-row: span 1;
-    span {
-      position: sticky;
-      top: 1em;
-      display: block;
-    }
-    @include bp(m) {
-      grid-row: span var(--rows);
-      padding-top: 0;
-      padding-bottom: 0;
-      grid-column: 2 / 4;
-    }
-  }
 }
 
 .site-footer {
@@ -161,7 +145,7 @@
   .submit {
     appearance: none;
     cursor: pointer;
-    background-color: $black;
+    background-color: var(--color);
     color: var(--background);
     &:hover,
     &:focus {
@@ -175,14 +159,14 @@
     }
   }
   div {
-    border: 1px solid $black;
-    border-radius: $br;  
+    border: 1px solid var(--color);
+    border-radius: $br;
     display: inline-flex;
   }
 }
 .past-issues {
   display: block;
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 .spacer {
   grid-column: 1 / 13;

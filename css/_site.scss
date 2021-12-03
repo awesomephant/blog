@@ -21,7 +21,7 @@
   }
   @include bp(m) {
     h1 {
-      grid-column: 2 / 4;
+      grid-column: 4 / 8;
     }
     span {
       margin-bottom: 10rem;

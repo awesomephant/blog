@@ -95,7 +95,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownLib);
   eleventyConfig.addPlugin(typesetPlugin({
-    only: ".single-post"
+    only: ".single-post, .project-title"
   }));
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight, {

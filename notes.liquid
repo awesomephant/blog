@@ -3,37 +3,28 @@ layout: base
 class: notes
 ---
 
-{% assign counter = 1 %}
+{% assign counter = 1 %} {% for n in collections.notes %} {% assign counter = counter | plus : 1 %} {% endfor %}
 
-{% for n in collections.notes %}
-{% assign counter = counter | plus : 1 %}
-{% endfor %}
-
-<h2 class='notes-title'>Lecture Notes</h2>
-<div class='notes-container' id="notes-container">
-    <input type="text" class="notes-search fuzzy-search" placeholder='Search {{counter}} notes' />
-    <ul class='notes-list list'>
-        {% assign notes = collections.notes | reverse %}
-        {% for n in notes %}
-        <li class="notes-item">
-            <date class="note-date">
-                <span class="date-short">{{n.data.date | date: "%m/%y"}}</span>
-            </date>
-            <span class="note-unit">
-                {{n.data.unit}}
-            </span>
-            <span class="note-teacher">
-                {% assign ts = n.data.teacher | split: ","%}
-                {% for t in ts %}
-                <span>{{t}}</span>
-                {% endfor %}
-            </span>
-            <h3 class="note-title">
-                <a class="note-link" href="{{n.url}}">
-                    {{n.data.title}}
-                </a>
-            </h3>
-        </li>
+<h2 class="notes-title">Lecture Notes</h2>
+<div class="notes-container" id="notes-container">
+  <input type="text" class="notes-search fuzzy-search" placeholder="Search {{ counter }} notes" />
+  <ul class="notes-list list">
+    {% assign notes = collections.notes | reverse %} {% for n in notes %}
+    <li class="notes-item">
+      <date class="note-date">
+        <span class="date-short">{{ n.data.date | date: "%m/%y" }}</span>
+      </date>
+      <h3 class="note-title">
+        <a class="note-link" href="{{ n.url }}">
+          {{ n.data.title }}
+        </a>
+      </h3>
+      <span class="note-teacher">
+        {% assign ts = n.data.teacher | split: ","%} {% for t in ts %}
+        <span>{{ t }}</span>
         {% endfor %}
-    </ul>
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
 </div>

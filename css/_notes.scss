@@ -17,11 +17,11 @@
   grid-column: 1 / 12;
   font-size: var(--ms-1);
   font-weight: 900;
+  margin-bottom: 0.5rem;
   @include bp(m) {
     font-size: var(--ms-5);
-    grid-column: 2 / 12;
+    grid-column: 4 / 12;
   }
-  margin-bottom: 0.5rem;
 }
 
 .note-title {
@@ -30,10 +30,10 @@
     grid-column: 3 / 13;
   }
   @include bp(m) {
-    grid-column: 6 / 12;
+    grid-column: 4 / 9;
   }
   @include bp(l) {
-    grid-column: 7 / 12;
+    grid-column: 4 / 9;
   }
   a {
     text-decoration: none;
@@ -44,13 +44,6 @@
   }
 }
 
-.note-unit {
-  display: none;
-  @include bp(l) {
-    display: block;
-    grid-column: 3 / 5;
-  }
-}
 .note-teacher {
   display: none;
   padding-right: 1rem;
@@ -59,10 +52,10 @@
   }
   @include bp(m) {
     display: block;
-    grid-column: 3 / 6;
+    grid-column: 10 / 12;
   }
   @include bp(l) {
-    grid-column: 5 / 7;
+    grid-column: 10 / 12;
   }
 }
 .note-date {
@@ -87,7 +80,7 @@
   @include bp(m) {
     position: sticky;
     top: .5rem;
-    grid-column: 2 / 6;
+    grid-column: 4 / 10;
     margin-bottom: 3rem;
   }
   &::placeholder {

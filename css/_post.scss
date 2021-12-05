@@ -58,7 +58,7 @@
   li {
     margin-bottom: 0.5em;
     a {
-      color: #0550ae;
+      color: #0043be;
     }
   }
   strong {
@@ -419,6 +419,7 @@
   column-gap: 3em;
   padding-top: 1rem;
   grid-column: 1 / 12;
+  counter-reset: fns;
   @include bp(s) {
     columns: 2;
   }
@@ -435,9 +436,20 @@
     margin-top: 0;
   }
   li {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
     break-inside: avoid;
+    display: inline-block;
     line-height: 1.2;
+    position: relative;
+    counter-increment: fns;
+    &:before {
+      position: absolute;
+      left: -1.75em;
+      content: counter(fns);
+      text-align: right;
+      width: 1.2em;
+      letter-spacing: .02em;
+    }
     &:target {
       font-weight: 600;
     }

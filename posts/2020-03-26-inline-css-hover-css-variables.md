@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Want to write a hover effect with inline CSS? Use CSS Variables.
+shortTitle: CSS Variables for inline CSS
 date: 2021-03-26
 includesMath: false
 includesMusic: false

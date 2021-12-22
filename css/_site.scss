@@ -2,6 +2,7 @@
   margin-bottom: 3em;
   font-family: $sans;
   letter-spacing: 0.012em;
+  font-size: var(--ms--1);
   display: contents;
   a {
     text-decoration: none;
@@ -21,10 +22,19 @@
   }
   @include bp(m) {
     h1 {
+      grid-column: 2 / 4;
+    }
+    span {
+      margin-bottom: 5rem;
+      grid-column: 4 / 12;
+    }
+  }
+  @include bp(l) {
+    h1 {
       grid-column: 4 / 8;
     }
     span {
-      margin-bottom: 10rem;
+      margin-bottom: 8rem;
       grid-column: 4 / 12;
     }
   }
@@ -85,8 +95,7 @@
 
 .project-list, .notes-list {
   display: contents;
-  font-family: $mono;
-  font-size: .98em;
+  font-family: $sans;
 }
 
 .home-section {

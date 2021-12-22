@@ -33,7 +33,7 @@
       grid-column: 2 / 11;
     }
     @include bp(l) {
-      grid-column: 3 / 11;
+      grid-column: 4 / 10;
     }
     img {
       width: 100%;
@@ -174,9 +174,6 @@
     hyphens: auto;
     font-family: $sans;
     letter-spacing: 0.02em;
-    @include bp(l){
-      text-align: center;
-    }
     a {
       color: $black;
     }
@@ -297,6 +294,7 @@
 
   .hasimage {
     margin-top: 2em;
+    font-family: $sans;
     font-size: var(--ms--1);
     margin-bottom: 1em;
     position: relative;

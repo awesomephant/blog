@@ -8,4 +8,5 @@ tmp/
 yarn-error.log
 /dist
 *.ps
+*.psd
 .yarn/

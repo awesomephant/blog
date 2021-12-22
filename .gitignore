@@ -7,4 +7,5 @@ tmp/
 /_includes/style.css
 yarn-error.log
 /dist
-*.psd
+*.ps
+.yarn/

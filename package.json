@@ -11,8 +11,8 @@
     "watch:webpack": "webpack --watch --mode development",
     "watch:sass": "sass ./css/main.scss ./_site/main.css --watch",
     "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
-    "start": "cross-env NODE_ENV=dev run-p watch:*",
-    "build": "cross-env NODE_ENV=production run-s build:*"
+    "start": "cross-env NODE_ENV=dev run-p 'watch:*'",
+    "build": "cross-env NODE_ENV=production run-s 'build:*'"
   },
   "author": "Max Kohler",
   "license": "ISC",
@@ -36,5 +36,6 @@
     "text-balancer": "^1.0.5",
     "webpack": "^5.52.1",
     "webpack-cli": "^4.8.0"
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }

@@ -8,7 +8,7 @@ category: Editorial
 draft: false
 ---
 
-{% include fig.liquid, src: "/assets/ndia/screen-a.png", alt: "Screenshot of NDIA website. A header illustration, site menu, and a list of upcoming and past events is visible.", caption: "big" %}
+{% include fig.liquid, src: "/assets/ndia/screen-a.png", alt: "Screenshot of NDIA website. A header illustration, site menu, and a list of upcoming and past events is visible." %}
 
 The main activity of [Neurodiversity in Albertopolis](https://www.ndia.co.uk/) is to run talks and workshops at the Royal College of Art (RCA), Imperial College, and other participating institutions.
 

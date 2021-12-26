@@ -34,7 +34,7 @@
       grid-column: 4 / 8;
     }
     span {
-      margin-bottom: 8rem;
+      margin-bottom: 6rem;
       grid-column: 4 / 12;
     }
   }
@@ -93,7 +93,8 @@
   }
 }
 
-.project-list, .notes-list {
+.project-list,
+.notes-list {
   display: contents;
   font-family: $sans;
 }
@@ -104,83 +105,27 @@
 
 .site-footer {
   grid-column: 1 / 12;
-  grid-row: auto;
   font-size: var(--ms--1);
+  grid-row: auto;
   max-width: 22em;
-  padding-top: 2em;
-  @include bp(m) {
-    padding-top: 6em;
+  padding-top: 1em;
+  opacity: .5;
+  @include bp(s) {
     padding-bottom: 1em;
-    grid-column: 2 / 12;
+    grid-column: 2 / 10;
   }
   @include bp(l) {
     grid-column: 4 / 12;
   }
-  a {
-    display: inline-block;
+  a:hover, a:focus {
+    text-decoration: underline;
   }
-  i {
-    display: inline-block;
-    margin-right: 0.5em;
-  }
-  .build {
-    display: block;
-  }
-  span {
+  a, span {
+    text-decoration: none;
     display: block;
   }
 }
 
-.newsletter-form {
-  margin-bottom: 0.75rem;
-  label {
-    margin-bottom: 0.25rem;
-    display: block;
-  }
-  input {
-    appearance: none;
-    color: inherit;
-    border: 0;
-    background: transparent;
-    display: block;
-    font-weight: 400;
-    font-family: $sans;
-    padding: 0.2em 0.5em;
-    &::placeholder {
-      color: inherit;
-      opacity: 1;
-    }
-  }
-  .submit {
-    appearance: none;
-    cursor: pointer;
-    background-color: var(--color);
-    color: var(--background);
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-    }
-  }
-  .email {
-    margin-right: -1px;
-    &:focus {
-      outline: 0;
-    }
-  }
-  div {
-    border: 1px solid var(--color);
-    border-radius: $br;
-    display: inline-flex;
-  }
-}
-.past-issues {
-  display: block;
-  padding-top: 0.5em;
-}
-.spacer {
-  grid-column: 1 / 13;
-  height: 1.5rem;
-}
 .error-copy {
   grid-column: 1 / 13;
   @include bp(m) {

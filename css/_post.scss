@@ -46,7 +46,6 @@
   hyphens: auto;
   line-height: 1.35;
   font-size: var(--ms-0);
-  font-family: $serif;
   font-weight: 500;
   img,
   video {
@@ -113,12 +112,9 @@
   }
   blockquote {
     font-weight: 500;
-    transform-origin: left;
-    padding-left: 1.5em;
-    line-height: 1.35;
-    font-size: var(--ms-0);
+    padding-left: 1em;
     @include bp(m) {
-      padding-left: 2em;
+      padding-left: 1em;
     }
   }
   .MathJax_Display {

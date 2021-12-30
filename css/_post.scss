@@ -1,5 +1,6 @@
 .single-post {
   display: contents;
+  font-family: Georgia;
   h2,
   h3,
   h4,
@@ -25,6 +26,9 @@
     }
     @include bp(l) {
       grid-column: 4 / 9;
+    }
+    @include bp(xl) {
+      grid-column: 4 / 8;
     }
   }
   .post-spot {
@@ -229,12 +233,25 @@
     }
     &.full {
       width: 100%;
+      text-align: center;
       img {
         width: 100%;
       }
     }
+    &.medium {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      flex-flow: column;
+      img {
+        width: auto;
+        height: 30rem;
+      }
+    }
     &.big {
       width: 100%;
+      text-align: center;
       img {
         width: 100%;
       }
@@ -425,6 +442,9 @@
   }
   @include bp(l) {
     grid-column: 4 / 10;
+  }
+  @include bp(xl) {
+    grid-column: 4 / 8;
   }
   .footnotes-list {
     margin-top: 0;

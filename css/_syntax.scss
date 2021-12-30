@@ -1,4 +1,4 @@
-$color-string: #0550ae;
+$color-string: #e94301;
 
 code {
   font-family: $mono;
@@ -23,7 +23,7 @@ pre[class*="language-"], pre code{
   font-weight: 400;
   color: var(--black);
   position: relative;
-  overflow-y: scroll;
+  width: 100%;
   mark {
     width: 100%;
     background-color: var(--mark);
@@ -42,7 +42,8 @@ pre[class*="language-"], pre code{
 
 pre[class*="language-"] {
   margin: 1em 0;
-  overflow: visible;
+  overflow-x: auto;
+  scrollbar-width: thin;
   padding: .5rem;
   border-radius: $br;
   border: 1px solid var(--lightgray);
@@ -100,6 +101,7 @@ pre[class*="language-"] {
 .token.doctype,
 .token.cdata {
   color: var(--gray);
+  font-style: italic;
 }
 
 .token.punctuation, .token.delimiter {
@@ -134,7 +136,7 @@ pre[class*="language-"] {
 }
 
 .token.selector {
-  color: #1e3fd3;
+  color: #0c0c0c;
 }
 
 .token.attr-name {

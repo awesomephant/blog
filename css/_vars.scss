@@ -1,6 +1,6 @@
 @mixin bp($point) {
   @if $point==xl {
-    @media (min-width: 90rem) {
+    @media (min-width: 120rem) {
       @content;
     }
   } @else if $point==l {
@@ -33,7 +33,7 @@ $red: rgb(240, 36, 0);
 $blue: rgb(40, 64, 109);
 $black: rgb(3, 3, 3);
 $sans: "Arial", "Helvetica", sans-serif;
-$mono: Courier Prime, monospace;
+$mono: "MD IO 0.3", Courier Prime, monospace;
 $fast: 150ms;
 $br: 3px;
 

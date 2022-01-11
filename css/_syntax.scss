@@ -1,10 +1,10 @@
-$color-string: #e94301;
+$color-string: #3c3f4d;
 
 code {
   font-family: $mono;
 }
 p > code, em > code, li > code {
-  font-size: .9em;
+  font-size: .8em;
   font-style: normal;
   white-space: nowrap;
 }
@@ -21,6 +21,7 @@ pre[class*="language-"], pre code{
   tab-size: 2;
   hyphens: none;
   font-weight: 400;
+  font-size: var(--ms--1);
   color: var(--black);
   position: relative;
   width: 100%;
@@ -46,7 +47,7 @@ pre[class*="language-"] {
   scrollbar-width: thin;
   padding: .5rem;
   border-radius: $br;
-  border: 1px solid var(--lightgray);
+  border: 1px solid var(--black);
   &:after {
     font-family: $sans;
     color: var(--gray);

@@ -1,0 +1,59 @@
+---
+layout: base
+title: CV
+---
+
+<article class="cv">
+  <p class="cv__intro">
+    {{ cv.intro }}
+  </p>
+
+  <section>
+    <h2>Contact</h2>
+    <ul>
+      {% for c in cv.contact %}
+      <li>
+        {{ c.title }}: {{c.value}}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section>
+  <section>
+    <h2>Tech</h2>
+    <ol>
+      {% for t in cv.tech %}
+      <li>
+        {{ t }}
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  <section>
+    <h2>Education</h2>
+    <ol>
+      {% for e in cv.education %}
+      <li>
+        <span class="date">{{ e.start }} – {{ e.end }}</span>
+        <h3>{{ e.degree }}</h3>
+        <p>{{ e.school }}, {{ e.location }}</p>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <ol>
+      {% for job in cv.jobs %}
+      <li>
+        {{ job.start }} – {{ job.end }}
+        <h3>{{ job.title }}</h3>
+        <p>{{ job.company }}</p>
+        <p>{{ job.description }}</p>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+</article>

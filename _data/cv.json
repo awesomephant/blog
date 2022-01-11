@@ -1,0 +1,111 @@
+{
+    "intro": "Max Köhler (b. 1996 Konstanz, Germany) is a frontend developer, graphic designer, and writer.",
+    "contact": [
+        {
+            "title": "Email",
+            "value": "hi@maxkoehler.com"
+        },
+        {
+            "title": "Website",
+            "value": "maxkoehler.com"
+        },
+        {
+            "title": "Github",
+            "value": "@awesomephant"
+        },
+        {
+            "title": "Twitter",
+            "value": "@maxakohler"
+        }
+    ],
+    "tech": [
+        "HTML",
+        "CSS",
+        "Sass",
+        "Javascript",
+        "React",
+        "PHP",
+        "Node",
+        "Wordpress",
+        "Eleventy",
+        "Git",
+        "Build tools",
+        "Adobe Suite",
+        "Google Suite",
+        "MS Office"
+    ],
+    "education": [
+        {
+            "start": "2018",
+            "end": "2020",
+            "degree": "MA Visual Communication",
+            "school": "Royal College of Art",
+            "location": "London, UK"
+        },
+        {
+            "start": "2017",
+            "end": "2018",
+            "degree": "BA Graphic Design, First Class",
+            "school": "Camberwell College of Arts",
+            "location": "London, UK"
+        },
+        {
+            "start": "2015",
+            "end": "2017",
+            "degree": "FDA Graphic Design, Distinction",
+            "school": "Camberwell College of Arts",
+            "location": "London, UK"
+        },
+        {
+            "start": "2006",
+            "end": "2014",
+            "degree": "Allgemeine Hochschulreife",
+            "school": "Alexander von Humboldt Gymnasium",
+            "location": "Konstanz, DE"
+        }
+    ],
+    "jobs": [
+        {
+            "start": "2021",
+            "end": "2021",
+            "title": "Research Assistant",
+            "company": "Hochschule Mainz, School of Design",
+            "description": "Built four department websites, delivered two undergraduate courses and internal trainings, carried out website editorial work, project management, documentation, social media management, and administrative tasks for the graphic design department. Participated in college-wide comittee for website development."
+        },
+        {
+            "start": "2021",
+            "end": "Present",
+            "title": "Associate Lecturer",
+            "company": "Camberwell College of Arts",
+            "description": ""
+        },
+        {
+            "start": "2021",
+            "end": "Present",
+            "title": "Associate Lecturer",
+            "company": "Royal College of Art",
+            "description": ""
+        },
+        {
+            "start": "2015",
+            "end": "Present",
+            "title": "Freelance Designer, Frontend Developer",
+            "company": "",
+            "description": "Clients include Anish Kapoor, the Royal College of Art, Camberwell College of Arts, Frahm & Frahm, Open Editions, Aitor Throup Group."
+        },
+        {
+            "start": "2018",
+            "end": "2018",
+            "title": "Gallery Assistant",
+            "company": "Assembly Point",
+            "description": ""
+        },
+        {
+            "start": "2014",
+            "end": "2015",
+            "title": "Junior Designer",
+            "company": " rukzuk",
+            "description": "Wrote copy, produced artwork, developed internal tools and prototypes."
+        }
+    ]
+}

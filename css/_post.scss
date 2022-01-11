@@ -1,6 +1,7 @@
 .single-post {
   display: contents;
-  font-family: Georgia;
+  font-family: "Source Serif Pro", sans-serif;
+  font-size: var(--ms-text);
   h2,
   h3,
   h4,
@@ -48,9 +49,9 @@
   display: contents;
   width: 100%;
   hyphens: auto;
-  line-height: 1.35;
-  font-size: var(--ms-0);
+  line-height: 1.3;
   font-weight: 500;
+  letter-spacing: -.001em;
   img,
   video {
     max-width: 100%;
@@ -79,7 +80,7 @@
     font-weight: 800;
     font-family: $sans;
     margin-top: 2em;
-    font-size: var(--ms-2);
+    font-size: var(--ms-1);
     margin-bottom: 0.2em;
   }
   h3 {
@@ -203,7 +204,7 @@
       img {
         height: 18rem;
       }
-      @include bp(m){
+      @include bp(m) {
         justify-content: center;
       }
     }
@@ -298,7 +299,7 @@
   }
 
   .embed-placeholder {
-    border: 1px solid var(--lightgray);
+    border: 1px solid var(--black);
     font-family: $sans;
     padding: 0.75rem;
     border-radius: $br;
@@ -356,8 +357,8 @@
   grid-column: 1 / 12;
   display: flex;
   flex-flow: row;
-  font-size: var(--ms-0);
-  margin-bottom: 1em;
+  font-size: var(--ms-text);
+  margin-bottom: .8em;
   @include bp(s) {
     grid-column: 2 / 13;
   }
@@ -381,15 +382,10 @@
 
 .post-intro {
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-top: 0.5em;
   hyphens: none;
   margin-bottom: 2em;
-  max-width: 25em;
-  font-size: var(--ms-1);
-  @include bp(m) {
-    font-size: var(--ms-0);
-  }
 }
 
 .post-title {
@@ -462,7 +458,7 @@
       content: counter(fns);
       text-align: right;
       width: 1.2em;
-      letter-spacing: .02em;
+      letter-spacing: 0.02em;
     }
     &:target {
       font-weight: 600;

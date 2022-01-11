@@ -19,11 +19,9 @@ class: post
     {% endif %} {% if teacher %}
     <span><a href="/notes">Lecture Notes</a></span>
     {% endif %}
-
     <date class="post-date post-meta-item">
       {{ date | date: "%B %d, %Y" }}
     </date>
-    <span>{{ content | strip_html | wordcount }} minutes</span>
   </aside>
   {% if spot %}
     {% include fig.liquid, src: spot.src, caption: spot.caption, class: "post-spot", alt: spot.alt %}

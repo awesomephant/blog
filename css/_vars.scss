@@ -50,6 +50,7 @@ $br: 3px;
   --ms-5: calc(var(--ms-4) * var(--ratio));
   --ms-6: calc(var(--ms-5) * var(--ratio));
   --ms-7: calc(var(--ms-6) * var(--ratio));
+  --ms-text: calc(var(--ms-0) * 1.1);
 
   --black: rgb(8, 8, 8);
   --gray: rgb(102, 104, 105);

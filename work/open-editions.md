@@ -6,7 +6,7 @@ tags: work
 category: E-Commerce
 ---
 
-{% include fig.liquid, src: "/assets/open-editions.png", alt: "Screenshot of openeditions.com, showing several products in a three column grid", class: "big"%}
+{% include "fig.liquid", src: "/assets/open-editions.png", alt: "Screenshot of openeditions.com, showing several products in a three column grid", class: "big"%}
 
 > Founded by David Blamey in 1992, Open Editions operates as an independent publishing platform for creative collaborations between artists, designers, academics, writers, curators and critics
 

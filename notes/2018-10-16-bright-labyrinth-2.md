@@ -113,7 +113,7 @@ IBM Selectric (1961) was a huge success.
 
 This became the basic unit for the mainframe computer, which connected multiple of these together. Whole IBM infrastructure. IBM MT/ST
 
-{% include embed.liquid, src: "https://www.youtube-nocookie.com/embed/_IZw2CoYztk?rel=0", format: 56.25%}
+{% include "embed.liquid", src: "https://www.youtube-nocookie.com/embed/_IZw2CoYztk?rel=0", format: 56.25%}
 
 This starts to connect the typing to a database etc.
 

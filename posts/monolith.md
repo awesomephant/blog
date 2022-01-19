@@ -45,7 +45,7 @@ the earth? Are you out of your mind lieutenant?
 
 Cut to a research ship on the Indian ocean, on the opposite side of the Earth, you get the idea.
 
-{% include fig.liquid, src: "/assets/monolith/IMG_3534.jpeg", caption: "IMG_3534", alt: "Monolith", source: "[Utah Department of Public Safety](https://dpsnews.utah.gov/dps-aero-bureau-encounters-monolith-in-red-rock-country/)", class: "small" %}
+{% include "fig.liquid", src: "/assets/monolith/IMG_3534.jpeg", caption: "IMG_3534", alt: "Monolith", source: "[Utah Department of Public Safety](https://dpsnews.utah.gov/dps-aero-bureau-encounters-monolith-in-red-rock-country/)", class: "small" %}
 
 {%leadin%}For all its sculptural qualities{%endleadin%}, most of us never experienced the monolith as a sculpture, but as photographs of one, appearing (to paraphrase the art critic John Berger) not on the austere walls of a gallery, but the screens of our phones and laptops in our homes.
 
@@ -55,13 +55,13 @@ All we have are the four still photographs and three short videos of the sculptu
 
 In *Monolith.mp4*, which appears to be the first in the sequence, we see three men in green overalls descending a slope and walking slowly toward the monolith. The fourth man, who is holding the camera, comments: *"Okay, the intrepid explorers go down to investigate the, uh, alien life form"*. In the following images[^4] the camera has followed the men down the slope, and we see them examining the monlith closer. Though the camera moves around throughout the sequence, we always see the monolith from a more or less frontal perspective.
 
-{% include fig.liquid, src: "/assets/monolith/IMG_3946-2.jpeg", caption: "IMG_3946", alt: "Monolith", source: "[Utah Department of Public Safety](https://dpsnews.utah.gov/dps-aero-bureau-encounters-monolith-in-red-rock-country/)", class: "small" %}
+{% include "fig.liquid", src: "/assets/monolith/IMG_3946-2.jpeg", caption: "IMG_3946", alt: "Monolith", source: "[Utah Department of Public Safety](https://dpsnews.utah.gov/dps-aero-bureau-encounters-monolith-in-red-rock-country/)", class: "small" %}
 
 *3946* is particularly evocative. We see two men, both wearing olive-green overalls and heavy boots, forming an element of repetition against the singular monolith. The worn rock face fills the background. One the men stands on the other's shoulders; his head reaching just above the monolith. He is holding two corners of the monolith to stablise himself as he turns slightly toward the left, looking across the top of the monolith at a point on the rock wall a few feet away. The mobile phone's camera brings the entire scene into sharp focus.
 
 It's perhaps the image that most effectively captures the *sublime* element of the scene - that elusive quality of physical, spiritual, and aesthetic greatness beyond human comprehension sought by artists since the 18th century.[^5] Here we see two men doing their very best to understand the object in front of them; we might even read the act of standing on one another's shoulders as a metaphor for the scientific method. But on top of the monolith, there is no knowledge to be found - only the towering, impenetrable, ancient rock face beyond.
 
-{% include fig.liquid, src: "/assets/monolith/chasseur.jpeg", caption: "Caspar-David Friedrich: The Chasseur in the Forest (1814). Oil on canvas, 66×47cm. Private collection.", alt: "A lone hunter is seen among tall, dark trees in a winter landscape.", source: "Public Domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_068.jpg)", class: "small" %}
+{% include "fig.liquid", src: "/assets/monolith/chasseur.jpeg", caption: "Caspar-David Friedrich: The Chasseur in the Forest (1814). Oil on canvas, 66×47cm. Private collection.", alt: "A lone hunter is seen among tall, dark trees in a winter landscape.", source: "Public Domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_068.jpg)", class: "small" %}
 
 This sense of awe in the face of Nature is often associated with works by the English painter [J. M. W. Turner](https://www.tate.org.uk/art/artworks/turner-fishermen-at-sea-t01585) (1775-1851), but he never did much for me (maybe I grew up too far from the sea). I recognise it more easily in the stillness of a painting like Caspar David Friedrich's *Chasseur in the Forest* (1814). Here, too, the human figure shrinks away against an overwhelming landscape, the black trees resisting any attempt at enlightenment.
 
@@ -83,7 +83,7 @@ Its romantic symmetry only works from "the front", so that's where the photograp
 
 In this view, the monolith is less of a sculpture and more of a *prop* in an elaborate outdoor set. The wildlife officials and hikers become unwitting extras.
 
-{% include fig.liquid, src: "/assets/monolith/toppled.PNG", caption: "The Monolith toppled", alt: "The Utah monolith is toppled in a blurry cellphone photo", source: "Michael James Newlands / [The New York Times](https://www.nytimes.com/2020/12/01/arts/design/utah-monolith-removed-instagram.html)", class: "small" %}
+{% include "fig.liquid", src: "/assets/monolith/toppled.PNG", caption: "The Monolith toppled", alt: "The Utah monolith is toppled in a blurry cellphone photo", source: "Michael James Newlands / [The New York Times](https://www.nytimes.com/2020/12/01/arts/design/utah-monolith-removed-instagram.html)", class: "small" %}
 
 In fact, the cellphone images of the toppled Monolith show that it was built exactly like the prototypical Hollywood prop: not of solid metal, but thin sheets of aluminium mounted to a hidden plywood frame [^8].
 
@@ -97,7 +97,7 @@ But the chain of influence runs the other way, too: Our whole notion of *The Lan
 
 In the 19th century photography, having inherited the visual language of painting, helped shape the fantasy of the great, "untouched" American landscape that still lingers today. Photographers like Carleton Watkins didn’t “discover” places like Yosemite Valley, but constructed them with complex optical machinery and painstaking work in the darkroom. [^13]
 
-{% include embed.liquid, src: "https://player.vimeo.com/video/70173915?autoplay=0&loop=1&title=0&byline=0&portrait=0&muted=1", format: 45, caption: "*2001*'s Star Gate sequence (1968)"%}
+{% include "embed.liquid", src: "https://player.vimeo.com/video/70173915?autoplay=0&loop=1&title=0&byline=0&portrait=0&muted=1", format: 45, caption: "*2001*'s Star Gate sequence (1968)"%}
 
 In 1968, those familiar images of the American Landscape re-appear in *2001*’s terrifying *Star Gate* sequence. As we're transported through interstellar space, we see them disfigured by swirling photochemicals and distorted glass, all dissolving into a pool of pure, acidic colour. It’s the ultimate upside-down of the stately silver-gelatin prints of the previous century, but the lineage is there nontheless.
 

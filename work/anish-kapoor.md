@@ -9,7 +9,7 @@ draft: false
 thumb: https://maxkoehler.com/assets/kapoor.png
 ---
 
-{% include fig.liquid, src: "/assets/kapoor.png", alt: "Browser screenshot showing website with hundreds of links in grey, blue, red, green, and black. Title reads: Anish Kapoor", class: "big"%}
+{% include "fig.liquid", src: "/assets/kapoor.png", alt: "Browser screenshot showing website with hundreds of links in grey, blue, red, green, and black. Title reads: Anish Kapoor", class: "big"%}
 
 [Brighten the Corners](https://brightenthecorners.com/) approached me looking to add some quality-of-life improvements to the long-running website of the British sculptor Anish Kapoor. After some investigation, we decided the best move would be to rebuild the site from scratch. This would give us a solid foundation for this round of new features and bugfixes, and whatever else might follow down the line.
 

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.liquid %}
+{% include "head.liquid" %}
 
 <body class='{{ class }} layout-{{layout}} line-numbers {% if tags %}tags-{{tags | join: "-"}}{% endif %}{% if teacher%}notes{%endif%}'
   style="{% if background %}background: {{background}} {%endif%}">
-  {% include header.liquid %}
+  {% include "header.liquid" %}
   {{ content }}
-  {% include footer.liquid %}
+  {% include "footer.liquid" %}
 </body>
 </html>

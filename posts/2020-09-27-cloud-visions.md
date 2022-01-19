@@ -9,7 +9,7 @@ tags: post
 thumb: "/assets/cloud.jpg"
 ---
 
-{% include fig.liquid, src: "/assets/cloud.jpg", caption: "Cropped version of an image originally published in *The Mail Online* with the caption: *Thousands of Britons ignored repeated warnings to stay home as part of ongoing efforts to clamp down on coronavirus by heading to DIY stores, parks and beaches on Sunday.*", alt: "Blurry photograph of people on beachfront", source: "[Source](https://www.dailymail.co.uk/news/article-8258383/More-people-leave-homes-flock-DIY-stores-parks-despite-Covid-19-lockdown.html)" "big" %}
+{% include "fig.liquid", src: "/assets/cloud.jpg", caption: "Cropped version of an image originally published in *The Mail Online* with the caption: *Thousands of Britons ignored repeated warnings to stay home as part of ongoing efforts to clamp down on coronavirus by heading to DIY stores, parks and beaches on Sunday.*", alt: "Blurry photograph of people on beachfront", source: "[Source](https://www.dailymail.co.uk/news/article-8258383/More-people-leave-homes-flock-DIY-stores-parks-despite-Covid-19-lockdown.html)" "big" %}
 
 In late March, some weeks into the pandemic, a new genre of local news story emerged: Local park Crowded with People Despite Social Distancing Orders. These stories usually struck a similar tone, describing how, while most people where behaving responsibly and staying indoors, a minority decided to flout the clear guidelines set out by the local government and gathered outdoors.
 

@@ -6,9 +6,9 @@ tags: work
 category: Editorial
 ---
 
-{% include fig.liquid, src: "/assets/walkative-1.png", alt: "Walkative website screenshot", class: "big"%}
-{% include fig.liquid, src: "/assets/walkative-2.png", alt: "Walkative website screenshot", class: "big"%}
-{% include fig.liquid, src: "/assets/walkative-3.png", alt:  "Walkative website screenshot", class: "big"%}
+{% include "fig.liquid", src: "/assets/walkative-1.png", alt: "Walkative website screenshot", class: "big"%}
+{% include "fig.liquid", src: "/assets/walkative-2.png", alt: "Walkative website screenshot", class: "big"%}
+{% include "fig.liquid", src: "/assets/walkative-3.png", alt:  "Walkative website screenshot", class: "big"%}
 
 A new website for the [Walkative Project](http://thewalkativeproject.org/), an RCA-adjacent group which **explores how walking can trigger processes of thinking, researching, collaborating and making through participant and guest-led walks, written and visual documentation**.
 

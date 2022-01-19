@@ -7,7 +7,7 @@ category: Event
 intro: Online exhibition website for the 2021 graphic design cohort (BA and MA) at HS Mainz.
 ---
 
-{% include fig.liquid, src: "/assets/bama-screenshot.png", alt: "Browser screenshot showing degree show website", class: "big"%}
+{% include "fig.liquid", src: "/assets/bama-screenshot.png", alt: "Browser screenshot showing degree show website", class: "big"%}
 
 ## Design notes
 
@@ -18,7 +18,7 @@ The central piece of ornamentation on the site are these animated lines meant to
 
 This recipe produces a design space with a huge number of variables. I tend to think the way to get a handle on a space like this is to build tooling to explore it so I did. If you hit **T** on your keyboard, you'll see the little control window I used to find the set of parameters that produce the right effect.
 
-{% include fig.liquid, src: "/assets/bama-controls.png", alt: "Browser screenshot showing control panel overlaid on website"%}
+{% include "fig.liquid", src: "/assets/bama-controls.png", alt: "Browser screenshot showing control panel overlaid on website"%}
 
 I also built a page to [produce printed labels for the show](https://bama.hs-mainz.de/sose21/labels/). The labels are generated from the same markdown files as the rest of the site, so the two should always be in sync. I got the idea from this from [MoMa's wall label generator](https://www.systemantics.net/portfolio/1351_moma_wall_label_generator). [^1]
 

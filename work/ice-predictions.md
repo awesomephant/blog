@@ -13,6 +13,6 @@ The work was shown as a day-long installation (using a live camera pointed at a 
 
 ![ice](/assets/vf/ice-3.JPG)
 
-{% include embed.liquid, src:"https://player.vimeo.com/video/336546352?title=0&byline=0&portrait=0", format:56.25%}
+{% include "embed.liquid", src:"https://player.vimeo.com/video/336546352?title=0&byline=0&portrait=0", format:56.25%}
 
-{% include embed.liquid, src:"https://player.vimeo.com/video/333599252?title=0&byline=0&portrait=0", format:56.25%}
+{% include "embed.liquid", src:"https://player.vimeo.com/video/333599252?title=0&byline=0&portrait=0", format:56.25%}

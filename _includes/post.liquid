@@ -24,7 +24,7 @@ class: post
     </date>
   </aside>
   {% if spot %}
-    {% include fig.liquid, src: spot.src, caption: spot.caption, class: "post-spot", alt: spot.alt %}
+    {% include "fig.liquid", src: spot.src, caption: spot.caption, class: "post-spot", alt: spot.alt %}
   {% endif %}
   <header class="post-header {% if intro%}has-intro{%endif%}">
     <div class="header-copy">
@@ -45,6 +45,6 @@ class: post
     </div>
   </header>
   <div class="post-content">
-    {{ content | safe }}
+    {{ content }}
   </div>
 </article>

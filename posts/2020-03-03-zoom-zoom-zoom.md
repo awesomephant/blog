@@ -10,7 +10,7 @@ tags: post
 publication: Content Free
 ---
 
-{% include fig.liquid, src: "/assets/zoomzoom.jpg", alt: "Illustration showing a greyscale, blurred screenshot of a Zoom conversation", class: "big"%}
+{% include "fig.liquid", src: "/assets/zoomzoom.jpg", alt: "Illustration showing a greyscale, blurred screenshot of a Zoom conversation", class: "big"%}
 
 I recently wrote about the privatisation of university buildings[^1] and how that’s a Bad Thing™.
 
@@ -34,7 +34,7 @@ But the most dystopian Zoom feature of all has to be *Attendee Attention Trackin
 
 Again, this information only flows upward, toward the administration (and in semi-anonymised form to Zoom and its advertising partners [^5]. Attendees (remember when we were students) are seen, but can’t themselves see beyond whatever material the organisation has made available.
 
-{% include fig.liquid, src: "/assets/US08913103-20141216-D00000.png", caption: "Google, 2012: *Method and apparatus for focus-of-attention control* (Patent Drawing)", alt: "Complex flow diagram", source: "[patents.google.com/patent/US8913103B1](https://patents.google.com/patent/US8913103B1)"%}
+{% include "fig.liquid", src: "/assets/US08913103-20141216-D00000.png", caption: "Google, 2012: *Method and apparatus for focus-of-attention control* (Patent Drawing)", alt: "Complex flow diagram", source: "[patents.google.com/patent/US8913103B1](https://patents.google.com/patent/US8913103B1)"%}
 
 Management at the Royal College have announced they will be rolling out Zoom to all students, but it is unclear which of its administrative features they’re planning to use, what information they’re storing, and for what purpose. But even if they didn’t use any and stored nothing, the fact that these control mechanisms are built into the platform to be turned on at any moment without any real option to dissent, is damaging enough. You can’t practice institutional critique when the institution is sitting on a giant mute button[^6].
 

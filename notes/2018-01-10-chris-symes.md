@@ -46,7 +46,7 @@ TV can be more challenging than movies: You may have 10 scripts, different direc
 
 Prequel to Treasure Island, with real pirates from history in it. Pirate shows are set on the sea - The first rule of shooting sea-based shows is to not shoot them on the sea. So instead you build Nassau 1720 so you can shoot physical interaction between boats, water and people. Decided to do thing in Capetown - close to a real beach, good weather, local production people - you only fly in the people you need. (Presumably also not much regulation). Built a whole beach with sand, fake palm trees etc.
 
-{% include embed.liquid, src: "https://www.youtube.com/embed/gyJW2Xrf6EI?rel=0", format: 54.60%}
+{% include "embed.liquid", src: "https://www.youtube.com/embed/gyJW2Xrf6EI?rel=0", format: 54.60%}
 
 If you look out to the sea, it costs money because you have to do set extensions. The job of the producer is to stop the director from doing that too often.
 
@@ -65,7 +65,7 @@ We also needed to build ships. They built a "full ship" (on wheels) and a "half 
 
 Here's a cool breakdown:
 
-{% include embed.liquid, src: "https://www.youtube.com/embed/ws8zWx9tw-Q?rel=0", format: 54.60%}
+{% include "embed.liquid", src: "https://www.youtube.com/embed/ws8zWx9tw-Q?rel=0", format: 54.60%}
 
 You build a custom wind machine with a v8 truck engine, 4 rotors but that wasnt' strong enough. Figured out that Squall (Ridley SCott) and mastr & commander had used jet engines. Managed to get 7 old jet engines into South Africa.
 
@@ -77,4 +77,4 @@ Period New York doesn't exist anymore. Budapest was built during the same time, 
 
 Another breakdown:
 
-{% include embed.liquid, src: "https://www.youtube.com/embed/K1HeKXhsXFo?rel=0", format: 54.60 %}
+{% include "embed.liquid", src: "https://www.youtube.com/embed/K1HeKXhsXFo?rel=0", format: 54.60 %}

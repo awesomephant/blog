@@ -10,7 +10,7 @@ tags: post
 publication: Content Free
 ---
 
-{% include fig.liquid, src: "/assets/geismar.jpg", caption: "Chermayeff & Geismar (1971): Poster from “PanAm’s World” Campaign.", alt: "A 1971 poster for PanAm shows men on horseback against a sunset. Text reads 'Argentina / PanAms World'.", source:  "[Eye Magazine](http://eyemagazine.com/feature/article/flight-of-the-imagination)", class: "small" %}
+{% include "fig.liquid", src: "/assets/geismar.jpg", caption: "Chermayeff & Geismar (1971): Poster from “PanAm’s World” Campaign.", alt: "A 1971 poster for PanAm shows men on horseback against a sunset. Text reads 'Argentina / PanAms World'.", source:  "[Eye Magazine](http://eyemagazine.com/feature/article/flight-of-the-imagination)", class: "small" %}
 
 When I was an undergraduate student, a relative gave me this big coffee table book about airline visual identities. It documents the visual output of the 20th century aviation industry in all its glory: Full-bleed Kodachrome photography overlaid with tightly-set Helvetica at [PanAm](http://www.eyemagazine.com/feature/article/flight-of-the-imagination). Colourful, bold illustrations and lettering, printed in stone lithography well into the 1950s at [Air France](https://image.jimcdn.com/app/cms/image/transf/none/path/s845a70f74d8b0138/image/i72f33aa726ac2f98/version/1545933097/image.jpg). The cool functionalism of HfG Ulm at [Lufthansa](http://ravenrow.org/exhibition/the_ulm_model/).
 
@@ -32,7 +32,7 @@ These ideas are no doubt well-intentioned, but ultimately they're incremental im
 
 The only way I can see to make graphic design truly sustainable is to make significantly _less of it_. Smaller print runs, less packaging, fewer, lighter websites, less advertising, less _stuff_
 
-{% include fig.liquid, src: "/assets/pacific.jpg", caption: "Some visual communication in the Pacific", alt: "Plastic debris is washed up on a beach.", source: "[Kevin Krejci](https://www.flickr.com/people/48889057888@N01), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)", class: "small" %}
+{% include "fig.liquid", src: "/assets/pacific.jpg", caption: "Some visual communication in the Pacific", alt: "Plastic debris is washed up on a beach.", source: "[Kevin Krejci](https://www.flickr.com/people/48889057888@N01), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)", class: "small" %}
 
 It's depressing and scary to be a young worker coming into an industry that, like many other industries, needs to shrink or otherwise transform itself radically to limit the damage it causes to our planet.
 

@@ -10,7 +10,7 @@ thumb: ""
 ---
 
 
-{% include fig.liquid, src: "/assets/notes/800px-Munchenbreweries.jpg", caption: "A chart of Munichs breweries in the 1890s", alt: "Chart showing arms of Munich Breweries in the 1890s", source: "[Source](https://www.heraldry-wiki.com/heraldrywiki/wiki/File:Munchenbreweries.jpg)", class: "big"%}
+{% include "fig.liquid", src: "/assets/notes/800px-Munchenbreweries.jpg", caption: "A chart of Munichs breweries in the 1890s", alt: "Chart showing arms of Munich Breweries in the 1890s", source: "[Source](https://www.heraldry-wiki.com/heraldrywiki/wiki/File:Munchenbreweries.jpg)", class: "big"%}
 
 August Genzsch co-founded the Genzsch and Heyse type foundry in Hamburg in 1833. Heyse died pretty soon so this is really the Genzsch Foundry. Hermann Genzsch retires in 1933.
 
@@ -47,7 +47,7 @@ Hupp starts working for G and H. While the factory was bombed in the Second Worl
 
 We don't know exactly how they went from the drawings to sorts. But here's an idea: They photograph Hupps clean ink drawing. They transfer that onto a plate and etch it. They place the plate into a bath with a piece of copper to electroplate it. You make a copper form that you cut off from the original plate,  mount and sell.
 
-{% include fig.liquid, src: "/assets/notes/hupp-arms.jpg", caption: "Page from _Die Wappen und Siegel der Deutschen Städte, Flecken und Dörfer._", alt: "Colourful arms of different German towns, arranged in a 4x5 grid.", source: "[Source](https://www.heraldry-wiki.com/heraldrywiki/wiki/File:Hupp-rp1.jpg)"%}
+{% include "fig.liquid", src: "/assets/notes/hupp-arms.jpg", caption: "Page from _Die Wappen und Siegel der Deutschen Städte, Flecken und Dörfer._", alt: "Colourful arms of different German towns, arranged in a 4x5 grid.", source: "[Source](https://www.heraldry-wiki.com/heraldrywiki/wiki/File:Hupp-rp1.jpg)"%}
 
 This happens to be printed in Hupp's first text face release. This typeface was called Numesmatis. This was only made in 8pt, all caps, lombardic. This was for a specific editorial design need: They needed to transcribe text from seals inside copy set in regular Schwabacher.
 

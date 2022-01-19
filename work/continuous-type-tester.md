@@ -6,7 +6,7 @@ tags: work
 category: Experimental
 ---
 
-{% include fig.liquid, src: "/assets/continuous-type/tester.png", alt: "Screenshot of user interface with a large paragraph of dummy text on the left, and a series of function graphs on the left", source: "[awesomephant.github.io/continuous-typography](https://awesomephant.github.io/continuous-typography/)", class: "big" %}
+{% include "fig.liquid", src: "/assets/continuous-type/tester.png", alt: "Screenshot of user interface with a large paragraph of dummy text on the left, and a series of function graphs on the left", source: "[awesomephant.github.io/continuous-typography](https://awesomephant.github.io/continuous-typography/)", class: "big" %}
 
 I finally got around to writing a demo of what a design tool for [continuous typography](/posts/continuous-typography/) might look like. Change the width of the viewport on the right, manipulate the graphs on the right, and observe how the paragraph changes. 
 

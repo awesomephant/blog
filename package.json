@@ -26,7 +26,7 @@
     "@codemirror/view": "^0.19.40",
     "codemirror": "^5.65.0",
     "cross-env": "^7.0.3",
-    "eleventy-plugin-typeset": "https://github.com/liamfiddler/eleventy-plugin-typeset.git#commit=6b99f063f7b0e308830f91df33aa6124e47a05a8",
+    "eleventy-plugin-typeset": "https://github.com/liamfiddler/eleventy-plugin-typeset.git",
     "liquidjs": "^9.32.1",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-task-lists": "^2.1.1",

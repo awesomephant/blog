@@ -22,6 +22,7 @@ body {
   padding: max(2%, 1.2rem);
   font-size: var(--ms-0);
   display: grid;
+  font-weight: 300;
   grid-template-columns: repeat(12, 1fr);
   color: var(--color);
   letter-spacing: 0.012em;
@@ -35,8 +36,8 @@ body {
     padding-right: 0;
   }
   &.home {
-    --background: rgb(0, 0, 0);
-    --color: rgb(255, 255, 255);
+    --background: rgb(233, 236, 255);
+    --color: rgb(0, 0, 0);
   }
   &.post {
     --color: var(--black);

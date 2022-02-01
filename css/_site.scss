@@ -50,14 +50,12 @@
   }
 
   @include bp(m) {
-    grid-column: 2 / 4;
+    grid-column: 3 / 4;
   }
 }
 
 .project-list-item {
   display: contents;
-  font-weight: 400;
-
   .project-title {
     grid-column: 2 / 12;
     padding-bottom: 0.1em;
@@ -68,7 +66,7 @@
       grid-column: 4 / 10;
     }
     @include bp(xl) {
-      grid-column: 4 / 9;
+      grid-column: 4 / 7;
     }
   }
   .project-category {
@@ -79,7 +77,7 @@
       grid-column: 11 / 12;
     }
     @include bp(xl) {
-      grid-column: 10 / 12;
+      grid-column: 8 / 12;
     }
   }
 
@@ -93,10 +91,9 @@
   }
 }
 
-.project-list,
-.notes-list {
+.project-list {
+  font-size: var(--ms--1);
   display: contents;
-  font-family: $sans;
 }
 
 .home-section {

@@ -1,8 +1,7 @@
 .site-header {
   margin-bottom: 3em;
-  font-family: $sans;
-  letter-spacing: 0.012em;
-  font-size: var(--ms--1);
+  font-family: $serif;
+  font-size: var(--ms-0);
   display: contents;
   a {
     text-decoration: none;
@@ -22,7 +21,7 @@
   }
   @include bp(m) {
     h1 {
-      grid-column: 2 / 4;
+      grid-column: 4 / 12;
     }
     span {
       margin-bottom: 5rem;
@@ -63,7 +62,7 @@
       grid-column: 2 / 9;
     }
     @include bp(m) {
-      grid-column: 4 / 10;
+      grid-column: 4 / 9;
     }
     @include bp(xl) {
       grid-column: 4 / 7;
@@ -72,9 +71,9 @@
   .project-category {
     display: none;
     white-space: nowrap;
-    @include bp(s) {
+    @include bp(m) {
       display: block;
-      grid-column: 11 / 12;
+      grid-column: 10 / 12;
     }
     @include bp(xl) {
       grid-column: 8 / 12;
@@ -92,8 +91,8 @@
 }
 
 .project-list {
-  font-size: var(--ms--1);
   display: contents;
+  font-family: $serif;
 }
 
 .home-section {
@@ -106,7 +105,6 @@
   grid-row: auto;
   max-width: 22em;
   padding-top: 1em;
-  opacity: .5;
   @include bp(s) {
     padding-bottom: 1em;
     grid-column: 2 / 10;
@@ -114,10 +112,12 @@
   @include bp(l) {
     grid-column: 4 / 12;
   }
-  a:hover, a:focus {
+  a:hover,
+  a:focus {
     text-decoration: underline;
   }
-  a, span {
+  a,
+  span {
     text-decoration: none;
     display: block;
   }

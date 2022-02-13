@@ -25,18 +25,16 @@ body {
   font-weight: 300;
   grid-template-columns: repeat(12, 1fr);
   color: var(--color);
-  letter-spacing: 0.012em;
-  line-height: 1.25;
+  line-height: 1.2;
   text-rendering: geometricPrecision;
   background: var(--background);
   @include bp(m) {
-    letter-spacing: 0.003em;
     padding-left: 0;
     padding-top: 4rem;
     padding-right: 0;
   }
   &.home {
-    --background: rgb(245, 245, 245);
+    --background: rgb(233, 243, 255);
     --color: rgb(0, 0, 0);
   }
   &.post {
@@ -59,6 +57,7 @@ body {
 a {
   color: inherit;
   text-decoration: underline;
+  text-underline-offset: .15em;
 
   &:hover,
   &:focus {

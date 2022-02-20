@@ -1,6 +1,5 @@
 .single-post {
   display: contents;
-  font-family: $serif;
   font-size: var(--ms-text);
   h2,
   h3,
@@ -23,13 +22,13 @@
       grid-column: 2 / 11;
     }
     @include bp(m) {
-      grid-column: 2 / 9;
+      grid-column: 4 / 11;
     }
     @include bp(l) {
-      grid-column: 4 / 9;
+      grid-column: 4 / 10;
     }
     @include bp(xl) {
-      grid-column: 4 / 8;
+      grid-column: 4 / 9;
     }
   }
   .post-spot {
@@ -50,7 +49,7 @@
   width: 100%;
   hyphens: auto;
   line-height: 1.3;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -.001em;
   img,
   video {
@@ -62,33 +61,33 @@
   li {
     margin-bottom: 0.5em;
     a {
-      color: #0043be;
+      color: #033d8b
     }
   }
   strong {
-    font-weight: 600;
-    font-family: $sans;
-    font-size: 0.9em;
+    font-weight: 900;
+    font-family: var(--font-sans);
+    font-size: 0.95em;
   }
   .leadin {
     font-weight: 900;
-    font-family: $sans;
+    font-family: var(--font-sans);
     letter-spacing: 0.02em;
     font-size: 0.95em;
   }
   h2 {
-    font-weight: 700;
-    font-family: $sans;
-    margin-top: 2em;
+    font-weight: 800;
+    font-family: var(--font-sans);
+    margin-top: 1em;
     font-size: var(--ms-1);
-    margin-bottom: 0.2em;
+    margin-bottom: 0.3em;
   }
   h3 {
-    font-weight: 600;
-    font-family: $sans;
+    font-weight: 800;
+    font-family: var(--font-sans);
     margin-top: 2em;
     font-size: var(--ms-0);
-    margin-bottom: 0.2em;
+    margin-bottom: 0.3em;
   }
   .small-caps {
     font-size: 0.99em;
@@ -97,11 +96,8 @@
   ul,
   ol {
     margin-left: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-  li {
-    margin-bottom: 0.1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
   }
   ul li {
     list-style: inherit;
@@ -144,14 +140,14 @@
     padding: 0.4em 0;
   }
   .note {
-    font-family: $sans;
+    font-family: var(--font-sans);
     font-size: var(--ms--1);
   }
   .footnote {
     border-bottom: 0;
     font-size: var(--ms--1);
     position: relative;
-    font-family: $sans;
+    font-family: var(--font-sans);
     margin-left: 0.3em;
     top: -0.1em;
     text-decoration: none;
@@ -173,10 +169,10 @@
     font-weight: 400;
     padding-top: 0.2em;
     hyphens: auto;
-    font-family: $sans;
+    font-family: var(--font-sans);
     letter-spacing: 0.02em;
     a {
-      color: $black;
+      color: var(--black);
     }
     p {
       display: inline;
@@ -185,7 +181,7 @@
   .figure-source {
     font-weight: normal;
     padding-top: 0.25em;
-    font-family: $sans;
+    font-family: var(--font-sans);
     display: block;
     font-size: var(--ms--2);
     a {
@@ -202,7 +198,7 @@
     &.thumbnail {
       display: flex;
       img {
-        height: 18rem;
+        height: 16rem;
       }
       @include bp(m) {
         justify-content: center;
@@ -257,19 +253,6 @@
         width: 100%;
       }
     }
-    @include bp(m) {
-      margin-bottom: 1.5em;
-      margin-top: 2em;
-      &.big {
-        width: 110%;
-      }
-    }
-    @include bp(l) {
-      &.big {
-        width: 120%;
-        margin-left: -10%;
-      }
-    }
     img {
       max-width: 100%;
       max-height: 90vh;
@@ -300,7 +283,7 @@
 
   .embed-placeholder {
     border: 1px solid var(--black);
-    font-family: $sans;
+    font-family: var(--font-sans);
     padding: 0.75rem;
     border-radius: $br;
     font-size: var(--ms--1);
@@ -308,7 +291,7 @@
 
   .hasimage {
     margin-top: 2em;
-    font-family: $sans;
+    font-family: var(--font-sans);
     font-size: var(--ms--1);
     margin-bottom: 1em;
     position: relative;
@@ -347,6 +330,7 @@
   }
   @include bp(m) {
     grid-column: 2 / 10;
+    padding-top: 1em;
   }
   @include bp(l) {
     grid-column: 4 / 10;
@@ -356,9 +340,11 @@
 .post-meta {
   grid-column: 1 / 12;
   display: flex;
-  flex-flow: column;
   font-size: var(--ms-text);
-  margin-bottom: .8em;
+  margin-bottom: 1rem;
+  a {
+    margin-right: 1em;
+  }
   @include bp(s) {
     grid-column: 2 / 13;
   }
@@ -368,44 +354,32 @@
   @include bp(l) {
     grid-column: 4 / 10;
   }
-  span,
-  date {
-    margin-right: 1em;
-    @include bp(m) {
-      margin-right: 2em;
-    }
-  }
-  .small-caps {
-    margin-right: 0 !important;
-  }
 }
 
 .post-intro {
   font-weight: 500;
   line-height: 1.3;
-  margin-top: 0.5em;
   hyphens: none;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  @include bp(m){
+    font-size: var(--ms-1);
+  }
 }
 
 .post-title {
   font-size: var(--ms-3);
-  letter-spacing: -0.01em;
-  line-height: 1.1;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
   font-weight: 900;
   max-width: 25em;
-  font-family: $sans;
-  margin-bottom: 0.75em;
-  .has-intro & {
-    margin-bottom: 0.5em;
-  }
+  font-family: var(--font-sans);
+  margin-bottom: 1rem;
   @include bp(m) {
     max-width: 15em;
     font-size: var(--ms-4);
   }
   @include bp(l) {
-    font-size: var(--ms-4);
-    margin-bottom: 1em;
+    font-size: var(--ms-5);
   }
   a {
     text-decoration: none;
@@ -422,10 +396,11 @@
 
 .footnotes {
   font-size: var(--ms--1);
-  font-family: $sans;
+  font-family: var(--font-sans);
   column-gap: 3em;
   padding-top: 1rem;
   grid-column: 1 / 12;
+  font-weight: 300;
   counter-reset: fns;
   @include bp(s) {
     columns: 2;
@@ -440,7 +415,7 @@
     grid-column: 4 / 10;
   }
   @include bp(xl) {
-    grid-column: 4 / 8;
+    grid-column: 4 / 9;
   }
   .footnotes-list {
     margin-top: 0;

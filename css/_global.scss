@@ -30,22 +30,20 @@ body {
   background: var(--background);
   @include bp(m) {
     padding-left: 0;
-    padding-top: 4rem;
+    padding-top: 6rem;
     padding-right: 0;
   }
   &.home {
-    --background: rgb(234, 237, 241);
+    --background: rgb(196, 112, 35);
     --color: rgb(0, 0, 0);
   }
   &.post {
     --color: var(--black);
-    &.tags-work {
-      --background: rgb(253, 253, 253);
-    }
+    --background: rgb(252, 249, 249);
   }
   &.notes {
     --color: var(--black);
-    --background: #fffcd5;
+    --background: #e6f3ff;
   }
 }
 

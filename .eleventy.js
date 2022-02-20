@@ -99,7 +99,8 @@ module.exports = function (eleventyConfig) {
   }));
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight, {
-    alwaysWrapLineHighlights: true,
+    alwaysWrapLineHighlights: false,
+    lineSeparator: "\n",
   });
   return {};
 };

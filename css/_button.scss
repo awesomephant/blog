@@ -1,6 +1,6 @@
 .button {
-  background: $black;
-  border: 1px solid $black;
+  background: var(--black);
+  border: 1px solid var(--black);
   color: var(--background);
   appearance: none;
   padding: 0.35em 0.6em;
@@ -8,7 +8,7 @@
   border: 0;
   font-family: inherit;
   border-radius: $br;
-  font-family: $sans;
+  font-family: var(--font-sans);
   &:hover,
   &:focus {
     background-color: rgb(18, 18, 18);

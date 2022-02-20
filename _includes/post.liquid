@@ -4,18 +4,16 @@ class: post
 ---
 
 <article class="single-post {{ page.class }} section-{{ page.section }}">
-  <aside class="post-meta">
-    {% if draft %}
-    <span>DRAFT</span>
-    {% endif %}
-    <date class="post-date post-meta-item">
-      {{ date | date: "%B %d, %Y" }}
-    </date>
-  </aside>
-  {% if spot %}
-    {% include "fig.liquid", src: spot.src, caption: spot.caption, class: "post-spot", alt: spot.alt %}
-  {% endif %}
   <header class="post-header {% if intro%}has-intro{%endif%}">
+    <aside class="post-meta">
+      {% if draft %}
+      <span>DRAFT</span>
+      {% endif %}
+      <a href="/">{{site.title}}</a>
+      <date class="post-date post-meta-item">
+        {{ date | date: "%B %d, %Y" }}
+      </date>
+    </aside>
     <div class="header-copy">
       <h1 class="post-title">
         {% if external_link %}

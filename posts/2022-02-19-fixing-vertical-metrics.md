@@ -7,7 +7,7 @@ includesMusic: false
 intro: ""
 tags: post
 draft: false
-thumb: https://www.maxkoehler.com/assets/type.png
+thumb: https://www.maxkohler.com/assets/type-twitter.jpg
 ---
 
 Here's a really specific problem I've run into a handful of times building websites with custom fonts: I set some type on my Windows machine, and everything works as expected. But when I pull up the same page on a Mac (regardless of the browser) the line height is totally different.

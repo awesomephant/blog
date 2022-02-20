@@ -41,7 +41,7 @@ When you're done, run `ttx --flavor woff borked-font.ttx` to convert it back int
 
 ## Background
 
-OpenType fonts are complicated pieces of software. In addition to the actual letterforms (stored as Bezier curves), they contain _tables_ containing the data needed to map these outlines to unicode points and enable things like contextual alternates, kerning pairs, variable fonts, and whatever else you might want to do.
+OpenType fonts are complicated pieces of software. In addition to the actual letterforms (stored as Bézier curves), they contain _tables_ containing the data needed to map these outlines to unicode points and enable things like contextual alternates, kerning pairs, variable fonts, and whatever else you might want to do.
 
 One of the things that's stored in these tables is the font's _vertical metrics_. This is a set of numbers that define the height of the ascenders, the depth of the descenders, and the recommended linespacing. Rendering engines use these numbers to calculate where the first baseline of a text should fall, what the distance between subsequent lines should be, and how much padding to apply below the last line. They're roughly equivalent to the space above and below the raised letterform on a metal sort.
 

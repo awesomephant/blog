@@ -8,14 +8,11 @@ canonical: https://maxakohler.medium.com/whats-a-content-management-system-9cf62
 intro: "As your web projects grow, writing plain HTML becomes impractical – a Content Management System (CMS) is the layer of abstraction you need."
 tags: post
 thumb: https://www.maxkoehler.com/assets/cms-spot-1.png
-spot:
-  src: /assets/cms-spot-1.png
-  alt: Drawing of young person sitting on the floor with a laptop, surrounded by tall stacks of paper. 
 ---
 
 ## Who this article is for
 
-This was originally written as a seminar for undergraduate design students, but it'll work for anyone who is comfortable with  HTML. If you've built a few websites in HTML and CSS and are ready to take on bigger projects, read on.
+This was originally written as a seminar for undergraduate design students, but it'll work for anyone who is comfortable with HTML. If you've built a few websites in HTML and CSS and are ready to take on bigger projects, read on.
 
 ## The Problem
 
@@ -73,27 +70,24 @@ We have to label the piece of data we extracted so we can reference it later. I 
 
 Then, we put a placeholder where that piece of content used to be in our HTML. We'll use a templating language called Liquid for these examples, which uses {%raw%}`{{ double curly braces }}`{%endraw%} to mark placeholders - other languages have different conventions. Our file now looks like this:
 
-{%raw%}
-
-```liquid/0
-<h1>{{ site_title }}</h1>
-<ul>
-  <li>
-    <h2>Mushroom pizza</h2>
-    <span>Duration: 0:45</span>
-  </li>
-  <li>
-    <h2>Pumpkin soup</h2>
-    <span>Duration: 0:45</span>
-  </li>
-  <li>
-    <h2>Apple pie</h2>
-    <span>Duration: 0:45</span>
-  </li>
-</ul>
+```diff-html
+-<h1>Max's Recipe Box</h1>
++<h1>{%raw%}{{site_title}}{% endraw %}</h1>
+ <ul>
+   <li>
+     <h2>Mushroom pizza</h2>
+     <span>Duration: 0:45</span>
+   </li>
+   <li>
+     <h2>Pumpkin soup</h2>
+     <span>Duration: 0:45</span>
+   </li>
+   <li>
+     <h2>Apple pie</h2>
+     <span>Duration: 0:45</span>
+   </li>
+ </ul>
 ```
-
-{%endraw%}
 
 Note that we're using the label from our datastore (`site_title`) to refer to the piece of content we just extracted. The addition of that placeholder turns our HTML file into a _template_.
 
@@ -114,16 +108,16 @@ With our data extracted and organised, we can replace the recipe list in our tem
 
 {%raw%}
 
-```liquid/2-7
-<h1>{{siteTitle}}</h1>
-<ul>
-  {% for recipe in recipes %}
-  <li>
-    <h2>{{recipe.title}}</h2>
-    <span>Duration: {{recipe.duration}}</span>
-  </li>
-  {% endfor %}
-</ul>
+```diff-liquid
+ <h1>{{siteTitle}}</h1>
++<ul>
++  {% for recipe in recipes %}
++  <li>
++    <h2>{{recipe.title}}</h2>
++    <span>Duration: {{recipe.duration}}</span>
++  </li>
++  {% endfor %}
++</ul>
 ```
 
 {%endraw%}
@@ -141,7 +135,3 @@ The easiest way to get a feel for these concepts is to work with them directly. 
 {% include "cms-demo.liquid" %}
 
 Don't worry about how exactly our data and templates are rendered into HTML in this demo (though feel free to look at the code if you're curious) – the goal for now is to get you comfortable with the principle of separating content from markup. Once you've achieved that, you're ready to tackle the tricky business of setting up your own content management system and using it for real-world projects.
-
-<p class="note">
-This article <a href="https://maxakohler.medium.com/whats-a-content-management-system-9cf62a4cab9e">also appeared on Medium</a>.
-</p>

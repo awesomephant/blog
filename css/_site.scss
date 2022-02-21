@@ -61,7 +61,7 @@
   }
 
   @include bp(s) {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
   }
   @include bp(m) {
     grid-column: 2 / 4;
@@ -77,13 +77,13 @@
     grid-column: 2 / 12;
     padding-bottom: 0.1em;
     @include bp(s) {
-      grid-column: 4 / 9;
+      grid-column: 3 / 9;
     }
     @include bp(m) {
       grid-column: 4 / 9;
     }
     @include bp(xl) {
-      grid-column: 4 / 7;
+      grid-column: 4 / 9;
     }
   }
   .project-category {

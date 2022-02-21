@@ -4,7 +4,6 @@ title: How to fix borked vertical metrics in web fonts
 date: 2022-02-19
 includesMath: false
 includesMusic: false
-intro: ""
 tags: post
 draft: false
 thumb: https://www.maxkohler.com/assets/type-twitter.jpg
@@ -37,7 +36,7 @@ Open the `ttx` file in your text editor and _look for problems_. Specifically, y
 - `winAscent` is equal to the largest `ymax` value in the font
 - `winDescent` is equal to the lowest `ymin` in the font *times -1*
 
-When you're done, run `ttx --flavor woff borked-font.ttx` to convert it back into a `woff` file. Set `--flavour woff2` to compile straight to `woff2`, or drop the flag altogether to produce an uncompressed `ttf`. Load up the new file on your website, and see if you solved the problem.
+When you're done, run `ttx --flavor woff borked-font.ttx` to convert it back into a `woff` file. Set `--flavor woff2` to compile straight to `woff2`, or drop the flag altogether to produce an uncompressed `ttf`. Load up the new file on your website, and see if you solved the problem.
 
 ## Background
 

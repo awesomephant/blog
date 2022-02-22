@@ -6,15 +6,14 @@
   font-weight: inherit;
 }
 
-@viewport {
-  width: device-width;
-}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-$hero: rgb(232, 235, 241);
+html {
+  text-size-adjust: none;
+}
 
 body {
   font-family: var(--font-text);
@@ -26,7 +25,7 @@ body {
   grid-template-columns: repeat(12, 1fr);
   color: var(--color);
   line-height: 1.2;
-  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility;
   background: var(--background);
   @include bp(m) {
     padding-left: 0;
@@ -55,7 +54,7 @@ body {
 a {
   color: inherit;
   text-decoration: underline;
-  text-underline-offset: .15em;
+  text-underline-offset: 0.15em;
 
   &:hover,
   &:focus {

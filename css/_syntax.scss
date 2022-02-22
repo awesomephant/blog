@@ -76,7 +76,7 @@ pre[class*="language-"] {
   color: var(--black);
 }
 
-.tag, .punctuation {
+.tag {
 }
 
 .token.string {
@@ -104,7 +104,6 @@ pre[class*="language-"] {
 .token.directive,
 .token.unit {
   color: var(--black);
-  font-style: italic;
 }
 
 .token.statement,

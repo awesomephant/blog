@@ -130,8 +130,6 @@ But we've also solved our second problem: The template doesn't care if our site 
 
 ## Demo
 
-The easiest way to get a feel for these concepts is to work with them directly. Here's a coding environment with the three files we discussed: Two CSV files (the datastore) and a Liquid template. All three are editable. Press the button below to smush them into a HTML file, then change the data, the template, or both, and observe how the rendered HTML changes.
-
-{% include "cms-demo.liquid" %}
+The easiest way to get a feel for these concepts is to work with them directly. [Here's a coding environment](https://codepen.io/maxakohler/full/GRMKRKB) with the three files we discussed: Two CSV files (the datastore) and a Liquid template. All three are editable. Press the button below to smush them into a HTML file, then change the data, the template, or both, and observe how the rendered HTML changes.
 
 Don't worry about how exactly our data and templates are rendered into HTML in this demo (though feel free to look at the code if you're curious) – the goal for now is to get you comfortable with the principle of separating content from markup. Once you've achieved that, you're ready to tackle the tricky business of setting up your own content management system and using it for real-world projects.

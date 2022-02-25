@@ -61,7 +61,11 @@
   li {
     margin-bottom: 0.5em;
     a {
-      color: #033d8b
+      color: #033d8b;
+      text-decoration-color: rgba(#033d8b, .6);
+      &:hover, &:focus-visible {
+        text-decoration-color: rgba(#033d8b, 1);
+      }
     }
   }
   strong {
@@ -81,11 +85,14 @@
     margin-top: 1em;
     font-size: var(--ms-1);
     margin-bottom: 0.3em;
+    & + h3 {
+      margin-top: 1em;
+    }
   }
   h3 {
     font-weight: 800;
     font-family: var(--font-sans);
-    margin-top: 2em;
+    margin-top: 1.5em;
     font-size: var(--ms-0);
     margin-bottom: 0.3em;
   }
@@ -243,7 +250,7 @@
       flex-flow: column;
       img {
         width: auto;
-        height: 30rem;
+        max-height: 30rem;
       }
     }
     &.big {

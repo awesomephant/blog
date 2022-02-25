@@ -54,11 +54,12 @@ body {
 a {
   color: inherit;
   text-decoration: underline;
+  text-decoration-color: rgba(black, .5);
   text-underline-offset: 0.15em;
-
+  
   &:hover,
   &:focus {
-    text-decoration: none;
+    text-decoration-color: currentColor;
   }
 }
 

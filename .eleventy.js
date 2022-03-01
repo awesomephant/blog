@@ -91,6 +91,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("site.webmanifest");
+  eleventyConfig.addPassthroughCopy("*.vcf");
 
   eleventyConfig.setLibrary("md", markdownLib);
   eleventyConfig.addPlugin(typesetPlugin({

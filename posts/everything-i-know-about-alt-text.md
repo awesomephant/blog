@@ -22,7 +22,7 @@ It's different to an image caption, which provides _additional_ context to an im
 
 ## Why should you use alt text?
 
-Alt text is a straightforward way to give more people access to your content. This includes people who are blind or have low vision and rely on screen readers and other assistive technology, but also people who are cooking, or driving, or are in some other situation where a text-only version of your website is just more convenient.
+Alt text is a straightforward way to give more people access to your content. This includes people who are blind or have low vision and rely on screen readers and other assistive technology, but also people who are cooking, driving, on a slow internet connection, or in some other situation where an audio or text-only version of your website is just more convenient.
 
 If your organisation takes public money, you're probably required to provide alt text by your country's accessibility laws. In the U.S. the relevant standard is [Section 508](https://www.access-board.gov/ict/) of the Rehabilitation Act, in Britain it's the [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#meeting-accessibility-requirements), and European member states all implement a directive called [EU 2016/2102](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L2102). All of these laws refer to a common standard called the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/), which requires that ["all non-text content is also available in text"](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html).
 
@@ -32,15 +32,15 @@ If your organisation takes public money, you're probably required to provide alt
 
 Alt text should give people the same information as the image it replaces. This means you need to ask what the _purpose_ of the image is in the context it's in and write different alt text depending on the answer.
 
-Let's say your website has a phone number with an icon of a phone next to it. The purpose of that icon is just to indicate that what follows is, in fact, a phone number - so the alt text should do the same. The word "Phone" would probably be enough to do that – any other details would be distracting.
+Let's say your website has a phone number with an icon of a phone next to it. The purpose of that icon is just to indicate that what follows is, in fact, a phone number – so the alt text should do the same. The word "Phone" would probably be enough to do that – any other details would be distracting.
 
 If the point of an image is to show what something looks like, the alt text should be a visual description of that thing, focusing on the important details. If the image is a photo of a boat you're trying to sell, you should focus on the boat rather than the landscape in the background. However, if you used the same image as an example of your landscape photography, describing the background, the light, and the overall composition would make sense.
 
-People have come up with more [formal categories of images](https://www.w3.org/WAI/tutorials/images/) and rules for writing alt texts for each. These can be useful, but ultimately these are editorial decisions you need to make on your own.
+People have come up with more [formal categories of images](https://www.w3.org/WAI/tutorials/images/) and rules for writing alt texts for each. These can be useful, but ultimately these are editorial decisions you need to make using your own judgement.
 
 ### Style
 
-I think it's helpful to remind yourself that writing alt text is _writing_. This means you can use everything you know about your audience, structure, tone, editing and so on, and be as nuanced and expressive as you are in other contexts. It's a difficult, interesting, literary endeavour.
+I think it's helpful to remind yourself that writing alt text is _writing_. This means you can use everything you know about your audience, structure, tone, editing and so on, and be as nuanced and expressive as you are in other contexts. If you think of it as a literary endeavour rather than a technical chore, writing alt text becomes much more fun and you'll likely produce better results.
 
 This being said, there are some basic style tips that are generally accepted:
 
@@ -66,7 +66,7 @@ If you're not, you need to figure out how to add alt text through whichever plat
 - [Medium](https://help.medium.com/hc/en-us/articles/215679797-Images)
 - [Wordpress](https://make.wordpress.org/accessibility/handbook/content/alternative-text-for-images/#visual-example)
 
-If your tool doesn't support alt text, you may need to work around the problem by adding captions, or describing the image in the text.
+If your tool doesn't support alt text, you may need to work around the problem by adding captions, or describing the image in the main text.
 
 ## Can we automate this?
 

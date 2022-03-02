@@ -8,6 +8,9 @@ intro: "About half my job is telling peo­ple to use alt texts. To make my life 
 tags: post
 draft: false
 canonical: https://maxakohler.medium.com/everything-i-know-about-alt-text-3e1c8567c4f5
+thumb: 
+    src: /assets/fruit-type-2.png
+    alt: "Apples on checked blanket with overlaid text: Apples on checked blanket"
 ---
 
 ## What is alt text?

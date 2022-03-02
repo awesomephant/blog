@@ -15,6 +15,9 @@ class: post
       </date>
     </aside>
     <div class="header-copy">
+      {% if thumb.src %}
+        <img class="post__thumb" src="{{thumb.src}}" alt="{{thumb.alt}}">
+      {% endif %}
       <h1 class="post-title">
         {% if external_link %}
         <a href="{{ external_link }}">{{ title }}</a>

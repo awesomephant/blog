@@ -7,7 +7,6 @@ includesMusic: false
 intro: "About half my job is telling peo­ple to use alt texts. To make my life eas­ier, here are all my notes and references in one place."
 tags: post
 draft: false
-canonical: https://maxakohler.medium.com/everything-i-know-about-alt-text-3e1c8567c4f5
 thumb: https://www.maxkohler.com/assets/fruit-type-2.png
 hero: 
     src: /assets/fruit-type-2.png
@@ -72,7 +71,7 @@ If your tool doesn't support alt text, you may need to work around the problem b
 
 Some people do, notably [Facebook and its properties](https://www.facebook.com/help/216219865403298).
 
-The problem with these systems isn't just that they have no way of knowing what you were trying to communicate with a particular image. They just produce a more [or less accurate](https://cripritual.com/haagaard/) visual description of it, which isn't always what your readers need. 
+The problem with these systems isn't just that they have no way of knowing what you were trying to communicate with a particular image. They just produce a more [or less accurate](https://cripritual.com/haagaard/) visual description of it, which isn't always what your readers need.
 
 ## Further reading
 

@@ -7,7 +7,11 @@ li > code {
   font-size: 0.85em;
   font-style: normal;
   white-space: nowrap;
+  background: var(--lightgray);
+  padding: 0 .2em;
+  border-radius: 2px;
 }
+
 code[class*="language-"],
 pre[class*="language-"],
 pre code {
@@ -20,11 +24,13 @@ pre code {
   word-break: normal;
   tab-size: 2;
   hyphens: none;
+  overflow-x: auto;
+  display: block;
   font-weight: 400;
+  width: 100%;
   font-size: var(--ms--1);
   color: var(--black);
   position: relative;
-  width: 100%;
   mark {
     width: 100%;
     background-color: var(--mark);
@@ -103,7 +109,7 @@ pre[class*="language-"] {
 .token.control,
 .token.directive,
 .token.unit {
-  color: var(--black);
+  font-style: italic;
 }
 
 .token.statement,
@@ -119,14 +125,16 @@ pre[class*="language-"] {
 
 .deleted {
   background-color: rgba(#e71506, 0.1);
-  &, & * {
+  &,
+  & * {
     color: #e71506 !important;
   }
 }
 
 .inserted {
   background-color: rgba(#0f7e3d, 0.1);
-  &, & * {
+  &,
+  & * {
     text-decoration: none;
     color: #0f7e3d !important;
   }
@@ -143,7 +151,7 @@ pre[class*="language-"] {
 .prefix {
   margin-left: -0.5em;
   position: relative;
-  left: -.5em;
+  left: -0.5em;
   user-select: none;
   background: transparent;
   text-decoration: none !important;

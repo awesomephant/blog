@@ -1,13 +1,16 @@
 .button {
   background: var(--black);
   border: 1px solid var(--black);
-  color: var(--background);
+  color: var(--background) !important;
+  font-size: var(--ms--1);
   appearance: none;
+  text-decoration: none;
   padding: 0.35em 0.6em;
   letter-spacing: 0.01em;
   border: 0;
   font-family: inherit;
   border-radius: $br;
+  text-decoration-color: white !important;
   font-family: var(--font-sans);
   &:hover,
   &:focus {

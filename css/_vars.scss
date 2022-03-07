@@ -48,7 +48,7 @@ $br: 3px;
 :root {
   --font-text: "Georgia", serif;
   --font-sans: "Atlas", "Arial", sans-serif;
-  --font-mono: "Lucida Console", Courier Prime, monospace;
+  --font-mono: "Consolas", "Lucida Console", Courier Prime, monospace;
   --ratio: 1.2;
   --ms-0: clamp(1rem, calc(1.3vw + .2rem), 1.25rem);
   --ms--2: calc(var(--ms--1) / var(--ratio));
@@ -64,9 +64,10 @@ $br: 3px;
 
   --black: rgb(8, 8, 8);
   --gray: rgb(102, 104, 105);
-  --lightgray: rgb(198, 201, 207);
+  --lightgray: rgb(221, 224, 231);
   --white: #fff;
   --mark: rgb(254, 255, 187);
   --background: rgb(253, 253, 253);
+  --blue: #033d8b;
   --fast: 300ms;
 }

@@ -6,6 +6,10 @@ includesMath: false
 includesMusic: false
 intro: "Notes on the aesthetics of speculation"
 tags: post
+thumb: https://www.maxkohler.com/assets/monkey-b.png
+hero: 
+    src: /assets/monkey-b.png
+    alt: "Explosion diagram of a cartoon monkey's head. Skull, skin, fur and eyes are spread horizontally on white ground."
 ---
 
 A figure pulled from _[Minecraft](https://opensea.io/collection/meebits)_, _[Minions](https://opensea.io/collection/dourdarcels)_, _[Fortnite](https://opensea.io/collection/clonex#)_, _[Looney Tunes](https://opensea.io/collection/degentoonz-collection)_, [DeviantArt portraiture](https://opensea.io/collection/cryptocoven), the _[Are ya winning son](https://opensea.io/collection/mfers)_ meme, [corporate illustration](https://www.wired.co.uk/article/corporate-memphis-design-tech), or some other slice of the American vernacular is shown in three-quarter portrait on a field of bright colour, looking indifferent. The figure is decorated with references to popular entertainment (_Harley Quinn_’s baseball bat, the three-eyed fish from _The Simpsons_, the floating orb of water from _The Last Airbender_, the face mask from _Mad Max_, _Yugi-Yo_’s hair, _Venom_’s teeth), popular consumption (bum bags, hoodies, puffer jackets, sneakers, vapes, tinted glasses, branded headphones, gold jewellery, takeout food containers), and crypto-specific symbols (laser eyes, diamonds, and currency icons).

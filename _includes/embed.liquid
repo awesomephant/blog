@@ -1,4 +1,4 @@
-<figure class='post-figure embed-container'>
+<figure class='post-figure embed-container {{class}}'>
 
 <div class="embed-placeholder">
 {% if src contains "vimeo" %}<p>
@@ -19,6 +19,17 @@ This is a generic embed
 <iframe data-src="{{src}}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 {% if caption %}
-<figcaption>{{caption | renderMarkdown }}</figcaption>
+<figcaption>
+{% if caption %}
+<span class="figure-caption">
+{{ caption | renderMarkdown }}
+</span>
+{% endif %}
+{% if source %}
+<span class="figure-source">
+{{ source | renderMarkdown }}
+</span>
+{% endif %}
+</figcaption>
 {% endif %}
 </figure>

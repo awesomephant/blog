@@ -28,7 +28,7 @@ The practice of assembling an image or other media object from a set of individu
 
 The most visible example of this is the film industry. When Tony Stark walks through a hangar in Avengers: Endgame, the footage of Robert Downy Jr, the 3d-model of the costume, the building, the HDRI sky, the aeroplanes in the background, and even the lens flares are only temporarily brought into the same frame — in reality they’re separate, independent assets (both in the media-industrial and financial sense of that term), ready to be re-assembled into other outputs down the line.
 
-{% include "embed.liquid", src:"hhttps://www.youtube-nocookie.com/embed/UzT_SXG_bAI?controls=0", format:40, caption: "VFX Breakdown for _Avengers: Endgame_ [(Framestore)](https://www.youtube.com/watch?v=UzT_SXG_bAI)"%}
+{% include "embed.liquid", src:"https://www.youtube-nocookie.com/embed/UzT_SXG_bAI?controls=0", format:50, caption: "VFX Breakdown for _Avengers: Endgame_" source: "[Framestore](https://www.youtube.com/watch?v=UzT_SXG_bAI)" class: "big"%}
 
 NFTs are a heightened version of this. Making a collection is mostly about filling the database; the linking happens almost incidentally, fully automated in a few dozen lines of code.
 

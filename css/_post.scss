@@ -323,6 +323,9 @@
     line-height: 1.3;
     border-radius: $br;
     font-size: var(--ms--1);
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: left;
   }
 
   .hasimage {

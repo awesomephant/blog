@@ -19,10 +19,10 @@
   blockquote {
     grid-column: 1 / 13;
     @include bp(s) {
-      grid-column: 2 / 11;
+      grid-column: 2 / 12;
     }
     @include bp(m) {
-      grid-column: 4 / 11;
+      grid-column: 3 / 11;
     }
     @include bp(l) {
       grid-column: 4 / 10;
@@ -54,9 +54,9 @@
   display: contents;
   width: 100%;
   hyphens: auto;
-  line-height: 1.3;
+  line-height: 1.4;
   font-weight: 400;
-  letter-spacing: -.001em;
+  letter-spacing: 0.001em;
   img,
   video {
     max-width: 100%;
@@ -64,17 +64,18 @@
     margin-bottom: 0.5em;
   }
   a {
-    color: var(--blue);
-    text-decoration-color: rgba(#033d8b, .6);
-    &:hover, &:focus-visible {
-      text-decoration-color: rgba(#033d8b, 1);
+    // color: rgb(170, 68, 0);
+    text-decoration-color: rgba(black, 0.8);
+    &:hover,
+    &:focus-visible {
+      text-decoration-color: rgba(black, .4);
     }
   }
-  p{
+  p {
     margin-bottom: 0.5em;
   }
   li {
-    margin-bottom: .2em;
+    margin-bottom: 0.2em;
   }
   strong {
     font-weight: 900;
@@ -93,6 +94,7 @@
     margin-top: 1em;
     font-size: var(--ms-1);
     margin-bottom: 0.25em;
+    width: 100%;
   }
   h3 {
     font-weight: 800;
@@ -107,9 +109,9 @@
   }
   ul,
   ol {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     margin-left: 1em;
-    margin-top: .5em;
-    margin-bottom: .5em;
   }
   ul li {
     list-style: inherit;
@@ -125,6 +127,7 @@
   }
   blockquote {
     font-weight: 500;
+    transform: scaleX(.95) skewX(-10deg);
     padding-left: 1em;
     @include bp(m) {
       padding-left: 1em;
@@ -150,7 +153,7 @@
   }
   td,
   th {
-    padding: 0.5em .75em;
+    padding: 0.5em 0.75em;
     &:first-child {
       padding-left: 0;
     }
@@ -202,7 +205,7 @@
     padding-top: 0.25em;
     font-family: var(--font-sans);
     display: block;
-    font-size: var(--ms--2);
+    opacity: 0.75;
     a {
       color: inherit;
     }
@@ -268,6 +271,18 @@
     &.big {
       width: 100%;
       text-align: center;
+      @include bp(m) {
+        grid-column: 2 / 12;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      @include bp(l) {
+        grid-column: 3 / 11;
+      }
+      @include bp(xl) {
+        grid-column: 3 / 10;
+
+      }
       img {
         width: 100%;
       }
@@ -285,6 +300,7 @@
   }
 
   .embed-container {
+    margin: 1em 0;
     figcaption {
       display: none;
       padding-top: 0.5em;
@@ -301,9 +317,10 @@
   }
 
   .embed-placeholder {
-    border: 1px solid var(--black);
+    border: 1px solid var(--lightgray);
     font-family: var(--font-sans);
-    padding: 0.75rem;
+    padding: 1.5rem;
+    line-height: 1.3;
     border-radius: $br;
     font-size: var(--ms--1);
   }
@@ -345,12 +362,14 @@
 .post-header {
   grid-column: 1 / 10;
   margin-bottom: 1em;
+  width: 100%;
   @include bp(s) {
     grid-column: 2 / 10;
   }
   @include bp(m) {
     grid-column: 2 / 10;
     padding-top: 1em;
+    margin-bottom: 4em;
   }
   @include bp(l) {
     grid-column: 4 / 10;
@@ -380,8 +399,8 @@
   font-weight: 500;
   line-height: 1.3;
   hyphens: none;
-  padding-top: .5rem;
-  @include bp(m){
+  padding-top: 0.5rem;
+  @include bp(m) {
     font-size: var(--ms-1);
   }
 }
@@ -395,9 +414,6 @@
   font-family: var(--font-sans);
   @include bp(m) {
     max-width: 15em;
-    font-size: var(--ms-4);
-  }
-  @include bp(l) {
     font-size: var(--ms-5);
   }
   a {
@@ -426,8 +442,7 @@
   }
   @include bp(m) {
     padding-top: 4rem;
-    margin-left: -1em;
-    grid-column: 2 / 10;
+    grid-column: 3 / 10;
     align-self: flex-end;
   }
   @include bp(l) {
@@ -468,8 +483,8 @@
   display: inline-block;
   font-size: 14px;
   position: relative;
-  top: -5px;
-  left: -2px;
+  top: -3px;
+  font-weight: 500;
   a {
     text-decoration: none;
   }

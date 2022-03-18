@@ -46,11 +46,11 @@ $fast: 150ms;
 $br: 3px;
 
 :root {
-  --font-text: "Georgia", serif;
+  --font-text: "Atlas", serif;
   --font-sans: "Atlas", "Arial", sans-serif;
   --font-mono: "Consolas", "Lucida Console", Courier Prime, monospace;
   --ratio: 1.2;
-  --ms-0: clamp(1rem, calc(1.3vw + .2rem), 1.25rem);
+  --ms-0: clamp(1rem, calc(1.3vw + .2rem), 1.2rem);
   --ms--2: calc(var(--ms--1) / var(--ratio));
   --ms--1: calc(var(--ms-0) / var(--ratio));
   --ms-1: calc(var(--ms-0) * var(--ratio));

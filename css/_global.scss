@@ -27,13 +27,18 @@ body {
   line-height: 1.2;
   text-rendering: optimizeLegibility;
   background: var(--background);
+  background-size: 3rem;
+  background-position: top left;
+  background-repeat: no-repeat;
   @include bp(m) {
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, #cecbc7 100%);
     padding-left: 0;
     padding-top: 6rem;
     padding-right: 0;
   }
   &.home {
-    --background: #c47023;
+    --background: #cecbc7;
+    background-image: none;
     --color: rgb(0, 0, 0);
   }
   &.post {
@@ -54,9 +59,9 @@ body {
 a {
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: rgba(black, .5);
+  text-decoration-color: rgba(black, 0.5);
   text-underline-offset: 0.15em;
-  
+
   &:hover,
   &:focus {
     text-decoration-color: currentColor;

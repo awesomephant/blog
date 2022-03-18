@@ -4,7 +4,7 @@ code {
 p > code,
 em > code,
 li > code {
-  font-size: 0.85em;
+  font-size: 1.1rem;
   font-style: normal;
   background: var(--lightgray);
   padding: 0 .2em;
@@ -27,7 +27,7 @@ pre code {
   display: block;
   font-weight: 400;
   width: 100%;
-  font-size: var(--ms--1);
+  font-size: 1.1rem;
   color: var(--black);
   position: relative;
   mark {

@@ -70,10 +70,11 @@ NFTs are another attempt at this. People who make them recognise it’s difficul
 
 Critics argue that this doesn’t work: There is no way of knowing, for instance, if someone who mints an NFT really made the image, and buying an NFT doesn’t [really give you ownership](https://techcrunch.com/2021/06/16/no-nfts-arent-copyrights/) of the image in any legally recognised form.
 
-They’re clearly right, but if there is anything to learn from the history of image-making, it’s the notion of the attributable, ownable, dateable “original” is itself pretty shaky. Images were always produced collectively and in abundance; the recent drive (historically speaking) to enclose them for individual profit must be overcome.
+They’re clearly right, but if there is anything to learn from the history of image-making, it’s the notion of the attributable, ownable, dateable “original” is itself pretty shaky. Images were always produced collectively and in abundance; the recent drive (historically speaking) to enclose them for individual profit must be overcome.[^4]
 
 {% include "fig.liquid", src: "/assets/monkey.jpg", alt: "Explosion diagram of a cartoon monkey's head. Skull, skin, fur and eyes are spread horizontally on white ground." class: "thumbnail" %}
 
 [^1]: Lev Manovich (2001): _The Language of New Media_, p. 231
 [^2]: Walter Benjamin (1936): _The Work of Art in the age of Mechanical Reproduction_. Available at [marxists.org/reference/subject/philosophy/works/ge/benjamin.htm](https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm)
 [^3]: John Berger (1972): _Ways of Seeing_, p. 22. Available at [archive.org/details/waysofseeing00berg/page/22/mode/2up](https://archive.org/details/waysofseeing00berg/page/22/mode/2up)
+[^4]: This post also appeared [on Medium](https://maxakohler.medium.com/why-do-all-nfts-look-the-same-8e5da0cd0a1b)

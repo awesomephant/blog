@@ -30,7 +30,7 @@ The most visible example of this is the film industry. When Tony Stark walks thr
 
 {% include "embed.liquid", src:"https://www.youtube-nocookie.com/embed/UzT_SXG_bAI?controls=0", format:50, caption: "VFX Breakdown for _Avengers: Endgame_" source: "[Framestore](https://www.youtube.com/watch?v=UzT_SXG_bAI)" class: "big"%}
 
-NFTs are a heightened version of this. Making a collection is mostly about filling the database; the linking happens almost incidentally, fully automated in a few dozen lines of code.
+NFTs are a heightened, distorted version of this. Making a collection is mostly about filling the database; the linking happens almost incidentally, in the simplest way possible (randomised layering), fully automated in a few dozen lines of code.
 
 If you want to make visually coherent images in this way you have to make the elements interchangeable; this limits the kinds of visual gestures you can make and, together with the fact that the same elements appear again and again, produces collections of very similar images. It also causes the flattened, occasionally shifting perspective and visible seams between elements that are characteristic of many NFT collections.
 

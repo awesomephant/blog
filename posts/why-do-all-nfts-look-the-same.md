@@ -6,7 +6,7 @@ includesMath: false
 includesMusic: false
 intro: "Notes on the aesthetics of speculation"
 tags: post
-thumb: https://www.maxkohler.com/assets/monkey-b.png
+thumb: https://www.maxkohler.com/assets/monkey.jpg
 ---
 
 A figure pulled from _[Minecraft](https://opensea.io/collection/meebits)_, _[Minions](https://opensea.io/collection/dourdarcels)_, _[Fortnite](https://opensea.io/collection/clonex#)_, _[Looney Tunes](https://opensea.io/collection/degentoonz-collection)_, [DeviantArt portraiture](https://opensea.io/collection/cryptocoven), the _[Are ya winning son](https://opensea.io/collection/mfers)_ meme, [corporate illustration](https://www.wired.co.uk/article/corporate-memphis-design-tech), or some other slice of the American vernacular is shown in three-quarter portrait on a field of bright colour, looking indifferent. The figure is decorated with references to popular entertainment (_Harley Quinn_’s baseball bat, the three-eyed fish from _The Simpsons_, the floating orb of water from _The Last Airbender_, the face mask from _Mad Max_, _Yugi-Yo_’s hair, _Venom_’s teeth), popular consumption (bum bags, hoodies, puffer jackets, sneakers, vapes, tinted glasses, branded headphones, gold jewellery, takeout food containers), and crypto-specific symbols (laser eyes, diamonds, and currency icons).
@@ -72,7 +72,7 @@ Critics argue that this doesn’t work: There is no way of knowing, for instance
 
 They’re clearly right, but if there is anything to learn from the history of image-making, it’s the notion of the attributable, ownable, dateable “original” is itself pretty shaky. Images were always produced collectively and in abundance; the recent drive (historically speaking) to enclose them for individual profit must be overcome.
 
-{% include "fig.liquid", src: "/assets/monkey-b.png", alt: "Explosion diagram of a cartoon monkey's head. Skull, skin, fur and eyes are spread horizontally on white ground." class: "thumbnail" %}
+{% include "fig.liquid", src: "/assets/monkey.jpg", alt: "Explosion diagram of a cartoon monkey's head. Skull, skin, fur and eyes are spread horizontally on white ground." class: "thumbnail" %}
 
 [^1]: Lev Manovich (2001): _The Language of New Media_, p. 231
 [^2]: Walter Benjamin (1936): _The Work of Art in the age of Mechanical Reproduction_. Available at [marxists.org/reference/subject/philosophy/works/ge/benjamin.htm](https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm)

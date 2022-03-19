@@ -68,7 +68,7 @@ Similarly, Disney employs an army of copyright lawyers, image recognition softwa
 
 NFTs are another attempt at this. People who make them recognise it’s difficult to argue that a digital image can be “original” on any material level, so they suggest a kind of authenticity-by-proxy: Buy an NFT and you get a unique entry in our special database _saying_ you own the image. That database entry has effectively the same function as those fancy art historians and copyright lawyers: Establish authorship, keep track of provenance, authorise derivative works, mediate royalty payments, and so on.
 
-Critics argue that this doesn’t work: There is no way of knowing, for instance, if someone who mints an NFT really made the image, and buying an NFT doesn’t [really give you ownership](Visual references to existing media properties (both in the choice of character and the accessories) are designed to reinforce this connection.) of the image in any legally recognised form.
+Critics argue that this doesn’t work: There is no way of knowing, for instance, if someone who mints an NFT really made the image, and buying an NFT doesn’t [really give you ownership](https://techcrunch.com/2021/06/16/no-nfts-arent-copyrights/) of the image in any legally recognised form.
 
 They’re clearly right, but if there is anything to learn from the history of image-making, it’s the notion of the attributable, ownable, dateable “original” is itself pretty shaky. Images were always produced collectively and in abundance; the recent drive (historically speaking) to enclose them for individual profit must be overcome.
 

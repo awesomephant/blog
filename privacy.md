@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Privacy
-date:  2021-11-18
+date:  2022-03-19
 tags: "About"
 ---
 
-This website is built, written and maintained by me (Max Kohler). You can reach me via email at <a href="mailto:hi@maxkoehler.com">hi@maxkoehler.com</a>.
+This website is built, written and maintained by me (Max Kohler). You can reach me via email at <a href="mailto:hello@maxkohler.com">hello@maxkohler.com</a>.
 
 ## Analytics
 

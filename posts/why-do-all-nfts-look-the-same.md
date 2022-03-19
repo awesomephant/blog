@@ -13,7 +13,7 @@ A figure pulled from _[Minecraft](https://opensea.io/collection/meebits)_, _[Min
 
 The image is either a vector drawing or 3d-rendered, but in either case there is little suggestion of depth; every element is evenly lit and depicted in sharp detail as if it were pressed right against the image surface. There is a love for visual detail: every hair is precisely delineated, every piece of gold is polished, and cloth is carefully draped, lasers glow.
 
-This description covers most non-fungible tokens at the top of OpenSea (the biggest website for buying and selling NFTs) on any given day. Why do all these images look so alike?
+This description covers most non-fungible tokens at the [top of OpenSea](https://opensea.io/explore-collections) (the biggest website for buying and selling NFTs) on any given day. Why do all these images look so alike?
 
 -----
 

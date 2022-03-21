@@ -2,7 +2,7 @@
 layout: post
 title: Per-file commit logs with Eleventy
 intro: Using computed data and simple-git to generate file-specific changelogs.
-date: 2022-03-19
+date: 2022-03-21
 includesMath: false
 includesMusic: false
 tags: post

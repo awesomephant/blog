@@ -2,13 +2,17 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const markdownIt = require("markdown-it")
 const taskLists = require('markdown-it-task-lists');
+const anchor = require("markdown-it-anchor");
 let footnotes = require("markdown-it-footnote");
 const typesetPlugin = require('eleventy-plugin-typeset');
 
 let markdownOptions = {
   html: true,
 };
-let markdownLib = markdownIt(markdownOptions).use(taskLists).use(footnotes)
+let markdownLib = markdownIt(markdownOptions)
+  .use(taskLists)
+  .use(footnotes)
+  .use(anchor, {tabIndex: false})
 
 markdownLib.renderer.rules.footnote_block_open = () => (
   '<section class="footnotes">\n' +
@@ -23,20 +27,18 @@ markdownLib.renderer.rules.footnote_caption = (tokens, idx) => {
   return n;
 };
 
+function getIndex(arr, prop, value) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i][prop] === value) {
+      return i
+    }
+  }
+  return false
+}
 
 const md = new markdownIt();
 
-if (process.env.NODE_ENV === "production") {
-  console.log("Building site for production.")
-}
-
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addFilter("wordcount", function (s) {
-    const words = s.split(" ");
-    const minutes = words.length / 230;
-    return minutes.toFixed(1);
-  });
-
   eleventyConfig.addFilter("renderMarkdown", function (value) {
     return md.render(value);
   });
@@ -52,14 +54,7 @@ module.exports = function (eleventyConfig) {
       "./notes/*.markdown",
     ]);
   });
-  function getIndex(arr, prop, value) {
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i][prop] === value) {
-        return i
-      }
-    }
-    return false
-  }
+
   eleventyConfig.addCollection("postsByYear", function (collectionApi) {
     const posts = collectionApi.getFilteredByGlob(["./posts/*.md", "./work/*.md"]);
     let postsByYear = []
@@ -83,7 +78,15 @@ module.exports = function (eleventyConfig) {
     })
     return postsByYear.reverse()
   })
-  
+
+  if (process.env.NODE_ENV === "production") {
+    console.log("Building site for production.")
+    eleventyConfig.addGlobalData("env", "production");
+  } else {
+    eleventyConfig.addGlobalData("env", "dev");
+    console.log("Building in dev mode.")
+  }
+
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("./*.png");
   eleventyConfig.addPassthroughCopy("./*.xml");

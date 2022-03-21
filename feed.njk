@@ -13,6 +13,9 @@ metadata:
     url: https://maxkohler.com/feed.xml
     id:  https://maxkohler.com/
 ---
+
+{% if env == "production" %}
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }}</title>
@@ -38,3 +41,5 @@ metadata:
   {% endif %}
   {%- endfor %}
 </feed>
+
+{% endif %}

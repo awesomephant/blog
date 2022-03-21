@@ -1,60 +1,78 @@
 ---
 layout: post
 title: Per-file commit logs with Eleventy
-intro: Using computed data in Eleventy to produce file-specific changelogs
+intro: Using computed data and simple-git to generate file-specific changelogs.
 date: 2022-03-19
 includesMath: false
 includesMusic: false
 tags: post
 showChangelog: true
+thumb: https://www.maxkohler.com/assets/git.png
 ---
 
 ## Background
 
-Sometimes it's a good idea to publicly document how a website changes over time. I'm thinking of things like legal documents, technical documentation, public policy, or any other piece of content you want to be extra transparent about.
+Sometimes it's a good idea to publicly document how a website changes over time. I'm thinking of things like legal documents, technical writing, public policy, or any other piece of content you want to be extra transparent about.
 
-To do this well, you'd probably want to:
+If you're going to do this, you probably want to:
 
-- Document changes completely and accurately. If the point of the exercise is to create transparency, you're hindering yourself if you're picking and choosing what to include.
-- Document changes in context. If I want to know how you changed your privacy policy, I don't want to go digging for that information in a giant changelog containing every change made to the website ever
+- Document _every_ change (even minor ones), and have that documentation accurately reflect the changes you made.
+- Provide that documentation _in context_. If someone wants to trace changes to your privacy policy, that information should be right there with the original document. Don't make them go digging for it in an email or company blog.
 
-If your content is under version control you're already doing this. Unless you go out of your way, you literally cannot change a file _without_ creating a permanent record containing the diff, your name, the date, and a message describing the change. And git has extremely good built-in tools to query those records by file, date, author, and lots of other parameters.
+If your content is under version control you're already doing both of these things. Unless you go out of your way, you literally cannot change a file _without_ creating a permanent record containing the diff, your name, the date, and a message describing the change. And git has extremely good built-in tools to query those records by file, date, author, and other contextual parameters.
 
-Why not leverage that and generate file-specific changelogs straight from the commit history?
+Why not leverage that and generate changelogs for individual pages directly from the commit history?
 
 ## Eleventy + Simple Git
 
-We're going to use [Simple Git](https://www.npmjs.com/package/simple-git) to read the commit history and it available to templates using Eleventy's [computed data](https://www.11ty.dev/docs/data-computed/) feature.
+We're going to use [Simple Git](https://www.npmjs.com/package/simple-git) to read the commit history and make it available to templates using Eleventy's [computed data](https://www.11ty.dev/docs/data-computed/) feature.
 
-Let's assume we want to generate changelogs for Markdown files in a collection called `posts`.
+Let's assume we want to generate changelogs for Markdown files in a collection called `posts`. We start by creating a data file at `/posts/posts.11tydata.js`. Note that the filename must match the name of the collection.
 
-We start by creating a data file at `/posts/posts.11tydata.js` (the filename must match the name of the collection). That file contains the following Javascript:
+```diff
+ package.json
+ .eleventy.js
+ _includes/
+ posts/
+   one.md
+   two.md
+   three.md
++  posts.11tydata.js
+```
 
+Creating our data file inside the `/posts` directory puts it at the end of Eleventy's [data cascade](https://www.11ty.dev/docs/data-cascade/), allowing us to read and write data for individual posts.
+
+We start by _reading_ `page.inputPath`, an [auto-generated](https://www.11ty.dev/docs/data-eleventy-supplied/) property that contains the path to the Markdown file being processed. Then, we pass that information to `git.log()` to get that file's commit history, and _write_ the result into the post's data object.
+
+<span class="code__title">posts.11tydata.js</span>
 ```js
-const git = require("simple-git")();
+const git = require('simple-git')();
 
 async function getChanges(data) {
+
   const options = {
     file: data.page.inputPath,
-  };
+  }
+
   try {
-    return await git.log(options).all;
+    const history = await git.log(options);
+    return history.all
   } catch (e) {
     return null;
   }
+
 }
 
 module.exports = {
   eleventyComputed: {
-    changes: async (data) => await getChanges(data),
-  },
-};
+    changes: async data => await getChanges(data)
+  }
+}
 ```
 
-Because we created the data file inside the `/posts` directory (as opposed to the global `_data` folder) we have access file-specific data properties. One of these (auto-generated [by Eleventy](https://www.11ty.dev/docs/data-eleventy-supplied/)) is `page.inputPath`, which contains the path to the original source file being processed. We pass that information to `git.log()` to get the file's commit history and save it to Eleventy's [data cascade](https://www.11ty.dev/docs/data-cascade/) in our `module.exports` statement.
+When we run Eleventy now, the data object for each post contains a list of commits to the underlying Markdown file in reverse-chronological order:
 
-When we run Eleventy now, each post has the commit log available as data (in reverse chronological order):
-
+<span class="code__title">Computed post data </span>
 ```diff-json
  {
    "title": "My Page Title",
@@ -81,9 +99,11 @@ When we run Eleventy now, each post has the commit log available as data (in rev
  }
 ```
 
-Now we can use whatever templating engine we have available to turn this information into a changelog. I happen to use Liquid, so I'd write something like:
+We can now use whatever templating engine we want to render this data to the page. I happen to use Liquid, so I'd write something like:
 
+<span class="code__title">/_includes/post.liquid</span>
 {% raw %}
+
 ```liquid
 {% if changes %}
 <ul class="changes">
@@ -97,9 +117,8 @@ Now we can use whatever templating engine we have available to turn this informa
 </ul>
 {% endif %}
 ```
-{% endraw %}
 
-This works both in [templates](https://www.11ty.dev/docs/layouts/) and individual Markdown files.
+{% endraw %}
 
 ## Demo
 
@@ -109,7 +128,6 @@ Here's the real, auto-generated changelog for this post using a slightly modifie
 
 ## Notes
 
-- `git log` is an expensive operation. On my machine in a repository with about 1,000 commits it increases my average processing from 50ms to 150ms. If you're going to do this, it might be a good idea to limit it to files where you actually want to show the changelog, or to only do it on production builds, or both.
-- If your source code is public, a cheaper way of doing this is to link to the commit log on Github or wherever you're hosting it.
-- `git log` has lots of options.
-- Hito Steyerl sometimes _forks_ essays. I think she uses the word in a more general sense, but it might be interesting to have text that has a literal git history attached to it.
+- If you want to tweak which commits are returned by `git.log()`, it has [lots of  options](https://github.com/steveukx/git-js#git-log). 
+- `git.log()` is an expensive operation. On my machine in a repository with about 1,000 commits it increases my average processing from 50 to 150ms. If you're going to do this, you might want to limit it to files where you actually want to show the changelog, or production builds, or both.
+- This solution only deals with linear history - one change after another. It would be interesting to try to visualise forks, branches, merges and everything else git can do, specifically in the context of writing. I remember reading a Hito Steyerl essay she described as _fork_ another text - even if she was using the term somewhat metaphorically, I like the idea.

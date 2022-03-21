@@ -19,7 +19,7 @@ Because this is the case, I only display embedded content with your specific con
 
 ## Email Newsletter
 
-My email newsletter is powered by [Tinyletter](https://tinyletter.com/maxakohler) from Mailchimp. If you choose to subsribe, Mailchimp's [privacy policy](https://mailchimp.com/legal/privacy/) and [terms of use](https://mailchimp.com/legal/terms/) apply.
+My email newsletter is powered by [Tinyletter](https://tinyletter.com/maxakohler) from Mailchimp. If you choose to subscribe, Mailchimp's [privacy policy](https://mailchimp.com/legal/privacy/) and [terms of use](https://mailchimp.com/legal/terms/) apply.
 
 ## Source Code
 

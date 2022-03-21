@@ -67,11 +67,11 @@ If you're not, you need to figure out how to add alt text through whichever plat
 
 If your tool doesn't support alt text, you may need to work around the problem by adding captions, or describing the image in the main text.
 
-## Can we automate this?
+## Can you automate this?
 
 Some people do, notably [Facebook and its properties](https://www.facebook.com/help/216219865403298) and [Microsoft Edge](https://www.theverge.com/2022/3/18/22984474/microsoft-edge-automatic-image-labels-accessibility-feature).
 
-The problem with these systems isn't just that they have no way of knowing what you were trying to communicate with a particular image. They just produce a more [or less accurate](https://cripritual.com/haagaard/) visual description of it, which isn't always what your readers need. Still, in most situations it's probably better than having no description at all.
+The problem with these systems isn't just that they have no way of knowing what you were trying to communicate with a particular image. They just produce a general, more [or less accurate](https://cripritual.com/haagaard/) description of it, which isn't always what your readers need ([see above](#how-do-you-write-good-alt-text%3F)). Still, in most situations it's probably better than having no description at all.
 
 ## Further reading
 

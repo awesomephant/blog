@@ -1,0 +1,13 @@
+{% if changes %}
+<ul class="changes">
+  {% for c in changes %}
+  <li class="change">
+    <time class="change__time">{{ c.date | date: "%d/%m/%y, %k:%M" }}</time>
+    <div class="change__description">
+      <h3 class="change__title">{{ c.message }}</h3>
+      <a class="change__link" href="https://github.com/awesomephant/blog/commit/{{ c.hash }}">{{ c.hash }}</a>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

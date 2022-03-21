@@ -72,7 +72,6 @@ module.exports = {
 
 When we run Eleventy now, the data object for each post contains a list of commits to the underlying Markdown file in reverse-chronological order:
 
-<span class="code__title">Computed post data </span>
 ```diff-json
  {
    "title": "My Page Title",
@@ -101,7 +100,7 @@ When we run Eleventy now, the data object for each post contains a list of commi
 
 We can now use whatever templating engine we want to render this data to the page. I happen to use Liquid, so I'd write something like:
 
-<span class="code__title">/_includes/post.liquid</span>
+<span class="code__title">_includes/post.liquid</span>
 {% raw %}
 
 ```liquid

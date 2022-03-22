@@ -127,9 +127,10 @@
   }
   blockquote {
     font-weight: 500;
-    transform: scaleX(.95) skewX(-10deg);
     padding-left: 1em;
+    transform: scaleX(.95) skewX(-5deg);
     @include bp(m) {
+      transform: scaleX(.95) skewX(-10deg);
       padding-left: 1em;
     }
   }
@@ -358,6 +359,7 @@
   counter-reset: fns;
   @include bp(s) {
     columns: 2;
+    grid-column: 2 / 12;
   }
   @include bp(m) {
     padding-top: 4rem;

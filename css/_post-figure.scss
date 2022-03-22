@@ -8,7 +8,7 @@
     &.thumbnail {
       display: flex;
       img {
-        height: 16rem;
+        max-height: 16rem;
       }
       @include bp(m) {
         justify-content: center;

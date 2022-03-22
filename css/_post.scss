@@ -281,7 +281,7 @@
 
 .post-header {
   grid-column: 1 / 10;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
   width: 100%;
   @include bp(s) {
     grid-column: 2 / 10;
@@ -326,13 +326,13 @@
 }
 
 .post-title {
-  font-size: var(--ms-3);
-  letter-spacing: -0.02em;
+  font-size: var(--ms-4);
   line-height: 1.05;
   font-weight: 900;
   max-width: 25em;
   font-family: var(--font-sans);
   @include bp(m) {
+    letter-spacing: -0.02em;
     max-width: 15em;
     font-size: var(--ms-5);
   }

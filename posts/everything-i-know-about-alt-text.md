@@ -2,6 +2,7 @@
 layout: post
 title: Everything I know about alt text
 date: 2022-02-25
+updated: 2022-03-22
 includesMath: false
 includesMusic: false
 intro: "About half my job is telling peo­ple to use alt texts. To make my life eas­ier, here are all my notes and references in one place."

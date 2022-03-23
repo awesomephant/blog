@@ -23,7 +23,7 @@ It's different to an image caption, which provides _additional_ context to an im
 
 Alt text is a straightforward way to give more people access to your content. This includes people who are blind or have low vision and rely on screen readers and other assistive technology, but also people who are cooking, driving, on a slow internet connection, or in some other situation where an audio or text-only version of your website is just more convenient.
 
-If your organisation takes public money, you're probably required to provide alt text by your country's accessibility laws. In the U.S. the relevant standard is [Section 508](https://www.access-board.gov/ict/) of the Rehabilitation Act, in Britain it's the [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#meeting-accessibility-requirements), and European member states all implement a directive called [EU 2016/2102](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L2102). All of these laws refer to a common standard called the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/), which requires that ["all non-text content is also available in text"](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html).
+If your organisation takes public money, you're probably required to provide alt text by your country's accessibility laws. In the U.S. the relevant standard is [Section 508](https://www.access-board.gov/ict/) of the Rehabilitation Act and the [Americans with Disabilities Act (ADA)](https://beta.ada.gov/), in Britain it's the [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#meeting-accessibility-requirements), and European member states all implement a directive called [EU 2016/2102](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L2102). Thankfully, all of these laws refer to a common standard called the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/), which requires that ["all non-text content is also available in text"](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html).
 
 ## How do you write good alt text?
 
@@ -44,9 +44,10 @@ I think it's helpful to remind yourself that writing alt text is _writing_. This
 This being said, there are some basic style tips that are generally accepted:
 
 - Write in the simple present
-- Don't go longer than 15–20 words
+- Aim for a length of 15–20 words or less.
 - Don't repeat information that's already present in the image caption or elsewhere on the page.
 - If the image contains important text, transcribe it in full.
+- Avoid using <span class="small-caps">all-caps</span> for emphasis – some screen readers will read each letter separately, which would be frustrating.
 - Avoid lead-ins like _This is an image of..._ – [screen readers will add that themselves](https://axesslab.com/alt-texts/#dont-say-its-an-image).
 
 ## How do you add alt text?
@@ -62,19 +63,22 @@ If you're not, you need to figure out how to add alt text through whichever plat
 - [Twitter](https://help.twitter.com/en/using-twitter/picture-descriptions)
 - [Instagram](https://help.instagram.com/503708446705527)
 - [Facebook](https://www.facebook.com/help/214124458607871)
-- [Medium](https://help.medium.com/hc/en-us/articles/215679797-Images)
 - [Wordpress](https://make.wordpress.org/accessibility/handbook/content/alternative-text-for-images/#visual-example)
+- [Medium](https://help.medium.com/hc/en-us/articles/215679797-Images)
+- [Substack](https://support.substack.com/hc/en-us/articles/4414829453204-How-can-I-edit-images-on-a-Substack-post-)
+- [Tumblr](https://brownandtrans.tumblr.com/post/613978932163772416/how-to-write-alt-text-and-image-descriptions-for) (only in iOS and Android apps)
 
-If your tool doesn't support alt text, you may need to work around the problem by adding captions, or describing the image in the main text.
+If your tool doesn't support alt text, you can work around the problem by adding captions, or describing the image in the main text.
 
 ## Can you automate this?
 
-Some people do, notably [Facebook and its properties](https://www.facebook.com/help/216219865403298) and [Microsoft Edge](https://www.theverge.com/2022/3/18/22984474/microsoft-edge-automatic-image-labels-accessibility-feature).
+Some people generate alt text automatically when no hand-written text is available, notably [Facebook and its properties](https://www.facebook.com/help/216219865403298) and [Microsoft Edge](https://www.theverge.com/2022/3/18/22984474/microsoft-edge-automatic-image-labels-accessibility-feature).
 
-The problem with these systems isn't just that they have no way of knowing what you were trying to communicate with a particular image. They just produce a general, more [or less accurate](https://cripritual.com/haagaard/) description of it, which isn't always what your readers need ([see above](#how-do-you-write-good-alt-text%3F)). Still, in most situations it's probably better than having no description at all.
+The problem with these systems is that they have no way of knowing what you were trying to communicate with a particular image. They just produce a general, more [or less accurate](https://cripritual.com/haagaard/) description of it, which isn't always what your readers need ([see above](#how-do-you-write-good-alt-text%3F)). Still, in most situations it's probably better than having no description at all.
 
 ## Further reading
 
-- [The Hidden Image Descriptions Making the Internet Accessible](https://www.nytimes.com/interactive/2022/02/18/arts/alt-text-images-descriptions.html). A really well-produced introduction to alt text from both technical and cultural perspectives.
+- [The Hidden Image Descriptions Making the Internet Accessible](https://www.nytimes.com/interactive/2022/02/18/arts/alt-text-images-descriptions.html). A really well-produced introduction to alt text from both technical and cultural perspectives by Meg Miller and Ilaria Parogni in the New York Times.
 - [Cooper Hewitt Guidelines for Image Description](https://www.cooperhewitt.org/cooper-hewitt-guidelines-for-image-description/). This is the most detailed guide I've found on writing good image descriptions, captions, and alt text. It has particularly thoughtful guidelines on describing people.
 - The idea to frame alt text as a literary endeavour comes from a project called [Alt text is poetry](https://alt-text-as-poetry.net/) by the artists Bojana Coklyat and Shannon Finnegan. Their website is like a breath of fresh air when you've been knee-deep in the WCAG spec all day.
+- The U.S Department of Justice has some really [well-written guidance](https://beta.ada.gov/web-guidance/) on how the ADA relates to web accessibilty.

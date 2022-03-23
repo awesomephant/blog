@@ -104,12 +104,12 @@
     margin-bottom: 0.25em;
   }
   .small-caps {
-    font-size: 0.99em;
-    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    letter-spacing: 0.005em;
   }
   ul,
   ol {
-    margin-top: 0.5em;
+    margin-top: 0;
     margin-bottom: 0.5em;
     margin-left: 1em;
   }

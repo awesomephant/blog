@@ -68,6 +68,7 @@ If you're not, you need to figure out how to add alt text through whichever plat
 - [Medium](https://help.medium.com/hc/en-us/articles/215679797-Images)
 - [Substack](https://support.substack.com/hc/en-us/articles/4414829453204-How-can-I-edit-images-on-a-Substack-post-)
 - [Tumblr](https://brownandtrans.tumblr.com/post/613978932163772416/how-to-write-alt-text-and-image-descriptions-for) (only in iOS and Android apps)
+- [Squarespace](https://support.squarespace.com/hc/en-us/articles/206542357-Adding-alt-text-to-images)
 
 If your tool doesn't support alt text, you can work around the problem by adding captions, or describing the image in the main text.
 

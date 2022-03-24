@@ -46,8 +46,11 @@
 }
 
 .post__thumb {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
+  max-height: 20em;
   mix-blend-mode: multiply;
+
 }
 
 .post-content {
@@ -92,7 +95,7 @@
     font-weight: 800;
     font-family: var(--font-sans);
     margin-top: 1em;
-    font-size: var(--ms-1);
+    font-size: var(--ms-2);
     margin-bottom: 0.25em;
     width: 100%;
   }
@@ -315,9 +318,20 @@
   }
 }
 
+.post-date {
+  display: flex;
+  flex-flow: column;
+  @include bp(s){
+    flex-flow: row;
+  }
+}
+
 .updated {
-  padding-left: 1em;
   color: var(--gray);
+  display: block;
+  @include bp(s){
+    padding-left: 1em;
+  }
 }
 
 .post-intro {
@@ -325,7 +339,9 @@
   line-height: 1.3;
   hyphens: none;
   padding-top: 0.5rem;
-  @include bp(m) {
+  font-size: var(--ms-1);
+  @include bp(s) {
+    letter-spacing: -.01em;
     font-size: var(--ms-2);
   }
 }

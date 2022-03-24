@@ -10,17 +10,16 @@ class: post
       <span>DRAFT</span>
       {% endif %}
       <a href="/">{{site.title}}</a>
-      <time class="post-date post-meta-item">
+      <span class="post-date post-meta-item">
+      <time>
         {{ date | date: "%B %d, %Y" }}
       </time>
       {% if updated %}
-      <span class="updated">
-        Updated 
-        <time class="post-date post-meta-item">
-          {{ updated | date: "%B %d, %Y" }}
+      <time class="updated">
+          Updated {{ updated | date: "%B %d, %Y" }}
         </time>
+        {% endif %}
       </span>
-      {% endif %}
     </aside>
     <div class="header-copy">
       {% if hero.src %}

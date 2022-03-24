@@ -5,11 +5,11 @@
   .home & {
     display: contents;
     font-family: var(--font-sans);
-    font-weight: 900;
     line-height: 1.05;
-    letter-spacing: -.02em;
-    font-size: var(--ms-2);
+    font-size: var(--ms-0);
+    font-weight: 900;
     @include bp(s){
+      letter-spacing: -.02em;
       font-size: var(--ms-3);
     }
     @include bp(m){

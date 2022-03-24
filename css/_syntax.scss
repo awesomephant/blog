@@ -49,10 +49,17 @@ pre code {
 pre[class*="language-"] {
   margin: 1em 0;
   margin-bottom: 2em;
-  overflow-x: visible;
+  overflow-x: auto;
   scrollbar-width: thin;
   border-radius: $br;
   counter-reset: lines;
+}
+pre[class*="-diff"] {
+  padding-left: 1.2em;
+  @include bp(m){
+    padding-left: 2em;
+    margin-left: -2em;
+  }
 }
 
 .token.comment,
@@ -134,7 +141,7 @@ pre[class*="language-"] {
 }
 
 .inserted {
-  background-color: #bff890;
+  background-color: #fae17d;
   &,
   & * {
     text-decoration: none;
@@ -160,7 +167,7 @@ pre[class*="language-"] {
   background: transparent;
   text-decoration: none !important;
   &.inserted {
-    color: #044f1e;
+    color: #633c01;
   }
 }
 

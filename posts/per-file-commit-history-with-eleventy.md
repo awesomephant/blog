@@ -75,7 +75,7 @@ When we run Eleventy now, the data object for each post contains a list of commi
 ```diff-json
  {
    "title": "My Page Title",
-+  changes: [
++  "changes": [
 +    {
 +      "hash": "0cd158fc81a4d3aefd52e6f416542d3549ef4b4e",
 +      "date": "2022-03-19T22:46:53+01:00",

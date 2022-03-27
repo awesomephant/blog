@@ -2,7 +2,7 @@
 layout: post
 title: Everything I know about alt text
 date: 2022-02-25
-updated: 2022-03-22
+updated: 2022-03-27
 includesMath: false
 includesMusic: false
 intro: "About half my job is telling peo­ple to use alt texts. To make my life eas­ier, here are all my notes and references in one place."
@@ -24,7 +24,7 @@ It's different to an image caption, which provides _additional_ context to an im
 
 Alt text is a straightforward way to give more people access to your content. This includes people who are blind or have low vision and rely on screen readers and other assistive technology, but also people who are cooking, driving, on a slow internet connection, or in some other situation where an audio or text-only version of your website is just more convenient.
 
-If your organisation takes public money, you're probably required to provide alt text by your country's accessibility laws. In the U.S. the relevant standard is [Section 508](https://www.access-board.gov/ict/) of the Rehabilitation Act and the [Americans with Disabilities Act (ADA)](https://beta.ada.gov/)[^1], in Britain it's the [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#meeting-accessibility-requirements), and European member states all implement a directive called [EU 2016/2102](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L2102). Thankfully, all of these laws refer to a common standard called the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/), which requires that ["all non-text content is also available in text"](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html).
+If your organisation takes public money, you're probably required to provide alt text by your country's accessibility laws. In the U.S. the relevant standard is [Section 508](https://www.access-board.gov/ict/) of the Rehabilitation Act and the [Americans with Disabilities Act (ADA)](https://beta.ada.gov/)[^1], in Britain it's the [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#meeting-accessibility-requirements), and European member states all have local laws implementing a directive called [EU 2016/2102](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L2102). Thankfully, all of these laws refer to a common standard called the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/), which requires that ["all non-text content is also available in text"](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html).
 
 ## How do you write good alt text?
 

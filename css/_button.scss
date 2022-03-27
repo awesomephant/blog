@@ -1,16 +1,18 @@
 .button {
   background: var(--black);
   border: 1px solid var(--black);
-  color: var(--background) !important;
+  color: var(--background);
   font-size: var(--ms--1);
   appearance: none;
   text-decoration: none;
-  padding: 0.35em 0.6em;
+  padding: 0.4em 0.6em;
+  padding-top: .55em;
   letter-spacing: 0.01em;
   border: 0;
+  line-height: 1;
   font-family: inherit;
   border-radius: $br;
-  text-decoration-color: white !important;
+  text-decoration-color: white;
   font-family: var(--font-sans);
   &:hover,
   &:focus {
@@ -27,8 +29,22 @@
   border: 1px solid var(--black);
   &:hover,
   &:focus {
-    background-color: transparent;
+    background-color: rgba(black, .05);
     text-decoration: underline;
     cursor: pointer;
+  }
+}
+
+.button-group {
+  display: inline-flex;
+  border-radius: var(--br);
+  border: 1px solid var(--black);
+  [class*="button"] {
+    border: 0;
+    border-radius: 0;
+    border-right: 1px solid var(--black);
+    &:last-of-type {
+      border-right: 0;
+    }
   }
 }

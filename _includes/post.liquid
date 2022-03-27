@@ -9,22 +9,17 @@ class: post
       {% if draft %}
       <span>DRAFT</span>
       {% endif %}
-      <a href="/">{{site.title}}</a>
+      <a href="/">{{ site.title }}</a>
       <span class="post-date post-meta-item">
-      <time>
-        {{ date | date: "%B %d, %Y" }}
-      </time>
-      {% if updated %}
-      <time class="updated">
-          Updated {{ updated | date: "%B %d, %Y" }}
+        <time>
+          {{ date | date: "%B %d, %Y" }}
         </time>
+        {% if updated %}
+        <time class="updated"> Updated {{ updated | date: "%B %d, %Y" }} </time>
         {% endif %}
       </span>
     </aside>
     <div class="header-copy">
-      {% if hero.src %}
-        <img class="post__thumb" src="{{hero.src}}" alt="{{hero.alt}}">
-      {% endif %}
       <h1 class="post-title">
         {% if external_link %}
         <a href="{{ external_link }}">{{ title }}</a>
@@ -38,6 +33,8 @@ class: post
       <div class="post-intro">
         {{ intro }}
       </div>
+      {% endif %} {% if hero.src %}
+      <img class="post__thumb" src="{{ hero.src }}" alt="{{ hero.alt }}" />
       {% endif %}
     </div>
   </header>

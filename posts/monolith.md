@@ -8,6 +8,9 @@ intro: "The Utah Monolith and the American Landscape"
 tags: post
 thumb: "https://maxkoehler.com/assets/monolith/monolith-spot.png"
 canonical: https://maxakohler.medium.com/its-probably-art-b554f7c5f3e0
+hero: 
+    src: /assets/monolith/monolith-spot.png
+    alt: "3d rendering of a silver monolith floating above a grassy field"
 ---
 
 {% leadin %}The Utah Monolith{% endleadin %} stood at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by wildlife officials on November 23, 2020, and removed ten days later by four unknown men. [^1]

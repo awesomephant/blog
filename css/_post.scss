@@ -14,6 +14,7 @@
   img,
   hr,
   .post-header,
+  .post__share,
   pre,
   table,
   blockquote {
@@ -47,10 +48,16 @@
 
 .post__thumb {
   width: auto;
+  padding-top: 1.5em;
   max-width: 100%;
-  max-height: 20em;
-  mix-blend-mode: multiply;
+  @include bp(m) {
+    max-width: 120%;
+    margin-left: -10%;
+  }
+}
 
+.post__share {
+  padding-top: 1em;
 }
 
 .post-content {
@@ -71,7 +78,7 @@
     text-decoration-color: rgba(black, 0.8);
     &:hover,
     &:focus-visible {
-      text-decoration-color: rgba(black, .4);
+      text-decoration-color: rgba(black, 0.4);
     }
   }
   p {
@@ -131,9 +138,9 @@
   blockquote {
     font-weight: 500;
     padding-left: 1em;
-    transform: scaleX(.95) skewX(-5deg);
+    transform: scaleX(0.95) skewX(-5deg);
     @include bp(m) {
-      transform: scaleX(.95) skewX(-10deg);
+      transform: scaleX(0.95) skewX(-10deg);
       padding-left: 1em;
     }
   }
@@ -214,7 +221,7 @@
       color: inherit;
     }
   }
-  
+
   .embed {
     display: none;
   }
@@ -321,7 +328,7 @@
 .post-date {
   display: flex;
   flex-flow: column;
-  @include bp(s){
+  @include bp(s) {
     flex-flow: row;
   }
 }
@@ -329,7 +336,7 @@
 .updated {
   color: var(--gray);
   display: block;
-  @include bp(s){
+  @include bp(s) {
     padding-left: 1em;
   }
 }
@@ -341,7 +348,7 @@
   padding-top: 0.5rem;
   font-size: var(--ms-1);
   @include bp(s) {
-    letter-spacing: -.01em;
+    letter-spacing: -0.01em;
     font-size: var(--ms-2);
   }
 }

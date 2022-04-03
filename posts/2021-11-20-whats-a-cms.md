@@ -4,7 +4,6 @@ title: What's a Content Management System?
 date: 2021-11-20
 includesMath: false
 includesMusic: false
-canonical: https://maxakohler.medium.com/whats-a-content-management-system-9cf62a4cab9e
 intro: "As your web projects grow, writing plain HTML becomes impractical – a Content Management System (CMS) is the layer of abstraction you need."
 tags: post
 thumb: https://www.maxkoehler.com/assets/cms-spot-1.png

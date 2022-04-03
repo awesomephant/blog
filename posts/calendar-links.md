@@ -7,7 +7,6 @@ includesMusic: false
 intro: "Add-to-calendar links are a simple, HTML-only way to enhance event websites."
 tags: post
 draft: false
-canonical:
 thumb:
 hero:
 ---

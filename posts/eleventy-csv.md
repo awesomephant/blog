@@ -7,7 +7,6 @@ includesMusic: false
 intro: ""
 tags: post
 thumb: ""
-canonical: https://maxakohler.medium.com/its-probably-art-b554f7c5f3e0
 ---
 
 I like to [use spreadsheets as a CMS](/work/digital-direction/) for one-off website projects. This means I author whatever information I need in Google Sheets, export it to a CSV file, and throw that file into a static site generator to produce the HTML pages I need.

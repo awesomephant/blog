@@ -7,7 +7,6 @@ includesMusic: false
 intro: "The Utah Monolith and the American Landscape"
 tags: post
 thumb: "https://maxkoehler.com/assets/monolith/monolith-spot.png"
-canonical: https://maxakohler.medium.com/its-probably-art-b554f7c5f3e0
 hero: 
     src: /assets/monolith/monolith-spot.png
     alt: "3d rendering of a silver monolith floating above a grassy field"

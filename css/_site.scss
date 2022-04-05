@@ -9,8 +9,12 @@
     font-size: var(--ms-0);
     font-weight: 900;
     @include bp(s){
-      letter-spacing: -.02em;
+      line-height: 1;
+      letter-spacing: -.025em;
       font-size: var(--ms-3);
+      h1 {
+        padding-top: 1em;
+      }
     }
     @include bp(m){
       font-size: var(--ms-5);
@@ -39,6 +43,9 @@
     span {
       margin-bottom: 5rem;
       grid-column: 4 / 12;
+      padding-bottom: .2em;
+      border-bottom: 1px solid black;
+
     }
   }
   @include bp(l) {
@@ -46,7 +53,7 @@
       grid-column: 4 / 8;
     }
     span {
-      grid-column: 4 / 12;
+      grid-column: 4 / 11;
     }
   }
 }

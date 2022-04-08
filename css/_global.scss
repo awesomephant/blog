@@ -30,7 +30,7 @@ body {
   background-position: top left;
   background-repeat: no-repeat;
   @include bp(s) {
-    background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, var(--lightgray) 100%);
+    background-image: linear-gradient(to top, var(--lightgray) 0%, var(--lightgray) 100%);
     padding-top: 4rem;
     background-size: 1rem;
   }

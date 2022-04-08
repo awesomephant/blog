@@ -1194,15 +1194,15 @@ __metadata:
     "@11ty/eleventy-plugin-syntaxhighlight": ^4.0.0
     cross-env: ^7.0.3
     eleventy-plugin-typeset: "https://github.com/liamfiddler/eleventy-plugin-typeset.git"
-    liquidjs: ^9.34.0
-    markdown-it-anchor: ^8.4.1
+    liquidjs: ^9.36.0
+    markdown-it-anchor: ^8.5.0
     markdown-it-footnote: ^3.0.3
     markdown-it-task-lists: ^2.1.1
     npm-run-all: ^4.1.5
-    sass: ^1.49.8
-    simple-git: ^3.4.0
+    sass: ^1.50.0
+    simple-git: ^3.5.0
     text-balancer: ^1.0.5
-    webpack: ^5.69.1
+    webpack: ^5.72.0
     webpack-cli: ^4.9.2
   languageName: unknown
   linkType: soft
@@ -2819,13 +2819,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.8.3":
-  version: 5.8.3
-  resolution: "enhanced-resolve@npm:5.8.3"
+"enhanced-resolve@npm:^5.9.2":
+  version: 5.9.2
+  resolution: "enhanced-resolve@npm:5.9.2"
   dependencies:
     graceful-fs: ^4.2.4
     tapable: ^2.2.0
-  checksum: d79fbe531106448b768bb0673fb623ec0202d7ee70373ab7d4f4745d5dfe0806f38c9db7e7da8c941288fe475ab3d538db3791fce522056eeea40ca398c9e287
+  checksum: 792b7a01abb4ee4433b658c71f92d5948675938e0c03cad1732abe843b87395f15cb880ace4f819f78ead94163278283afc79b8be63c0eddca8ab45f7d8c515d
   languageName: node
   linkType: hard
 
@@ -4885,13 +4885,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"liquidjs@npm:^9.34.0":
-  version: 9.34.0
-  resolution: "liquidjs@npm:9.34.0"
+"liquidjs@npm:^9.36.0":
+  version: 9.36.0
+  resolution: "liquidjs@npm:9.36.0"
   bin:
     liquid: bin/liquid.js
     liquidjs: bin/liquid.js
-  checksum: 4e8bd61fda89617a83dbf561f6eeb60802177fa56ef4475735a9ac64fdad2134a881b49942ee4480dd6ff751292add7c6e568fe9a293b0f3b1ab78936941a199
+  checksum: b92c7971efe5ce7d69a92f16f38b1129449d45fcd0abf955931bf009494c16217a4e44e6d922d1533d1a34072f0bd84a9b9f11d35a009b94d7d21a9825d1dad1
   languageName: node
   linkType: hard
 
@@ -5187,13 +5187,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it-anchor@npm:^8.4.1":
-  version: 8.4.1
-  resolution: "markdown-it-anchor@npm:8.4.1"
+"markdown-it-anchor@npm:^8.5.0":
+  version: 8.5.0
+  resolution: "markdown-it-anchor@npm:8.5.0"
   peerDependencies:
     "@types/markdown-it": "*"
     markdown-it: "*"
-  checksum: 76ea34640a380d6cc8d318028a4eb218a7bebbc73ba4572fb9ee48d53b890b37bb7e5271198a79345925e401a9d285a1f2de5b293f661277bc8c3834a04df8a8
+  checksum: 307e7d05774c24591fdf005ee8f6ae270bcc1c4e4551c049c2b3bc37e4648e0d230244d379e9e975f7e5df12b8926e04ee9de78f85cff5a31f10085595534d49
   languageName: node
   linkType: hard
 
@@ -7111,16 +7111,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.49.8":
-  version: 1.49.8
-  resolution: "sass@npm:1.49.8"
+"sass@npm:^1.50.0":
+  version: 1.50.0
+  resolution: "sass@npm:1.50.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: ff4051c11223cb6e56ae62fa71448ed65b402949facfbd831f9781244eece9f1d22be45e61af8e0d0fbe186857de2613b07d9247b036ac2326c24e6ebd19bbbe
+  checksum: 43738cc83a3921731456f769aba190277f0620f8b80c14426ab098be9ab8dc8465957f5bf2edbcffda189edb3024ed83dee2cb8cd580459ca4984a9fc88c18f7
   languageName: node
   linkType: hard
 
@@ -7410,14 +7410,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "simple-git@npm:3.4.0"
+"simple-git@npm:^3.5.0":
+  version: 3.5.0
+  resolution: "simple-git@npm:3.5.0"
   dependencies:
     "@kwsites/file-exists": ^1.1.1
     "@kwsites/promise-deferred": ^1.1.1
     debug: ^4.3.3
-  checksum: 9b05f05dcca69631317fdfa30288d342ac08b9822daea3a939c24fbbe24048ef768cae22e3e72b7a78c268635a63f72536e4530927c12d815a21be6e1e7a294e
+  checksum: be078d9e898d1dea99bb15d4f6927c0f61aafde73114c7423fb0efca6d6f99012da2a2f43b5e2151a1707994cc9c75139bc12e3d307dd25da48ed1dce1167748
   languageName: node
   linkType: hard
 
@@ -8633,9 +8633,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.69.1":
-  version: 5.69.1
-  resolution: "webpack@npm:5.69.1"
+"webpack@npm:^5.72.0":
+  version: 5.72.0
+  resolution: "webpack@npm:5.72.0"
   dependencies:
     "@types/eslint-scope": ^3.7.3
     "@types/estree": ^0.0.51
@@ -8646,7 +8646,7 @@ __metadata:
     acorn-import-assertions: ^1.7.6
     browserslist: ^4.14.5
     chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.8.3
+    enhanced-resolve: ^5.9.2
     es-module-lexer: ^0.9.0
     eslint-scope: 5.1.1
     events: ^3.2.0
@@ -8666,7 +8666,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 490a6e9e4cd9d0ed3b6c7ca08015da2628919fda8fcf9c36f0f6c0e3ad71eaaaf4b0d12753109f22a4faf79fe9a9063552d9708e0ee2352cf8568433b8e296a7
+  checksum: 8365f1466d0f7adbf80ebc9b780f263a28eeeabcd5fb515249bfd9a56ab7fe8d29ea53df3d9364d0732ab39ae774445eb28abce694ed375b13882a6b2fe93ffc
   languageName: node
   linkType: hard
 

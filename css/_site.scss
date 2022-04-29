@@ -6,12 +6,11 @@
     display: contents;
     font-family: var(--font-sans);
     line-height: 1.05;
-    font-size: var(--ms-2);
+    font-size: var(--ms-3);
     font-weight: 900;
+    letter-spacing: -0.0125em;
     @include bp(s) {
       line-height: 1;
-      letter-spacing: -0.025em;
-      font-size: var(--ms-3);
       h1 {
         padding-top: 1em;
       }
@@ -21,9 +20,6 @@
     }
     @include bp(m) {
       font-size: var(--ms-5);
-    }
-    @include bp(l) {
-      font-size: var(--ms-6);
     }
   }
   a {

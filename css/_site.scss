@@ -6,18 +6,24 @@
     display: contents;
     font-family: var(--font-sans);
     line-height: 1.05;
-    font-size: var(--ms-0);
+    font-size: var(--ms-2);
     font-weight: 900;
-    @include bp(s){
+    @include bp(s) {
       line-height: 1;
-      letter-spacing: -.025em;
+      letter-spacing: -0.025em;
       font-size: var(--ms-3);
       h1 {
         padding-top: 1em;
       }
     }
-    @include bp(m){
+    @include bp(s) {
+      font-size: var(--ms-4);
+    }
+    @include bp(m) {
       font-size: var(--ms-5);
+    }
+    @include bp(l) {
+      font-size: var(--ms-6);
     }
   }
   a {
@@ -30,11 +36,16 @@
   }
   span {
     white-space: nowrap;
-    grid-column: 2 / 12;
+    grid-column: 1 / 12;
     margin-bottom: 2em;
   }
   h1 {
-    grid-column: 2 / 12;
+    grid-column: 1 / 12;
+  }
+  @include bp(s) {
+    h1, span {
+      grid-column: 2 / 12;
+    }
   }
   @include bp(m) {
     h1 {
@@ -43,9 +54,8 @@
     span {
       margin-bottom: 5rem;
       grid-column: 4 / 12;
-      padding-bottom: .2em;
+      padding-bottom: 0.2em;
       border-bottom: 1px solid black;
-
     }
   }
   @include bp(l) {
@@ -146,7 +156,7 @@
   span {
     text-decoration: none;
     display: inline-block;
-    margin-right: .25em;
+    margin-right: 0.25em;
   }
 }
 

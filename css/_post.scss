@@ -430,9 +430,9 @@
 
 .footnote-ref {
   display: inline-block;
-  font-size: 14px;
+  font-size: var(--ms--2);
   position: relative;
-  top: -3px;
+  top: -.15em;
   font-weight: 500;
   a {
     text-decoration: none;

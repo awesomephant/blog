@@ -59,7 +59,7 @@ I took care to describe the individual options in a way that doesn't imply a dis
 - Design and development by me
 - Illustrations by my pal Roland Ross.
 - I learned about character differentiation from a lecture on [the development of Atkinson Hyperlegible](/notes/2021-02-16-atkinson-hyperreadable/)
-- We got the idea for the access tools from a lecture called [Choose your Access Settings](/notes/2021-03-03-choose-your-access/) by [Studion Hyte](http://studiohyte.com/) and [Sophie Hoyle](http://www.sophiehoyle.com/)
+- We got the idea for the access tools from a lecture called [Choose your Access Settings](/notes/2021-03-03-choose-your-access/) by [Studio Hyte](http://studiohyte.com/) and [Sophie Hoyle](http://www.sophiehoyle.com/)
 - When I was developing the site I got a lot of good information from [the A11Y Project](https://www.a11yproject.com/), especially their [WCAG Compliance Checklist](https://www.a11yproject.com/checklist/)
 
 View the live site at **[ndia.co.uk](https://www.ndia.co.uk/)**

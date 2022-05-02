@@ -37,7 +37,7 @@ I do miss one feature of Cinetype: the exagerated diacritics and punctuation mar
 
 {% include "fig.liquid", src: "/assets/ndia/tools.png", alt: "Screenshot of buttons to adjust font size, spacing, and colours." %}
 
-We decided to add a set of access tools to the site for a couple of reasons. One is practical: It's hard (if not impossible) to find a set of typographic parameters that will make the site pleasant to read for absoultely everyone. While one person might need large type to read comfortably, another might want small type to be able to see a whole text in context.
+We decided to add a set of access tools to the site for a couple of reasons. One is practical: It's hard (if not impossible) to find a set of typographic parameters that will make the site pleasant to read for absolutely everyone. While one person might need large type to read comfortably, another might prefer small type to be able to read a whole paragraph in context.
 
 The access tools address that problem by opening up a *parameter space* of many different type sizes, spacing options, and colour themes that hopefully encompasses the requirements of a wider group of people. 
 

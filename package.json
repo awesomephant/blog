@@ -22,6 +22,7 @@
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "cross-env": "^7.0.3",
+    "csv-parse": "^5.0.4",
     "eleventy-plugin-typeset": "https://github.com/liamfiddler/eleventy-plugin-typeset.git",
     "liquidjs": "^9.36.0",
     "markdown-it-anchor": "^8.5.0",

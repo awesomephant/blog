@@ -1193,6 +1193,7 @@ __metadata:
     "@11ty/eleventy-plugin-rss": ^1.1.2
     "@11ty/eleventy-plugin-syntaxhighlight": ^4.0.0
     cross-env: ^7.0.3
+    csv-parse: ^5.0.4
     eleventy-plugin-typeset: "https://github.com/liamfiddler/eleventy-plugin-typeset.git"
     liquidjs: ^9.36.0
     markdown-it-anchor: ^8.5.0
@@ -2254,6 +2255,13 @@ __metadata:
   version: 0.5.0
   resolution: "cssom@npm:0.5.0"
   checksum: 823471aa30091c59e0a305927c30e7768939b6af70405808f8d2ce1ca778cddcb24722717392438329d1691f9a87cb0183b64b8d779b56a961546d54854fde01
+  languageName: node
+  linkType: hard
+
+"csv-parse@npm:^5.0.4":
+  version: 5.0.4
+  resolution: "csv-parse@npm:5.0.4"
+  checksum: e38b4fb8dec7a64b891d78ab3cf7f59b721e4027e3c773a2b0311dc538a82681f4f01aaa03c209ac47eb37e26c00a1134bf3844ade1685bf53ce85ffb17a63e3
   languageName: node
   linkType: hard
 

@@ -75,7 +75,7 @@ I'm also finding some other artifacts related to lichen. There's a database of e
 </tr>
 </thead>
 <tbody>
-{% for row in site.data.lichen %}
+{% for row in lichen %}
 <tr>
     <td>{{row.gbifID}}</td>
     <td>{{row.datasetKey}}</td>
@@ -92,6 +92,7 @@ I'm also finding some other artifacts related to lichen. There's a database of e
 </tbody>
 </table>
 </div>
+
 Source: GBIF.org (15 October 2018): *GBIF Occurrence Download* [DOI: 10.15468/dl.f1lmko](https://doi.org/10.15468/dl.f1lmko)
 
 The section of database (limited to London) I downloaded has 2,548 entires. To save space, various columns are omitted in the example above.
@@ -237,15 +238,6 @@ I'm also still interested in diagramming the embankment in different ways, maybe
 ![Diagram of the site](/assets/vf/site-diagram.jpg)
 
 Eventually, I decided to focus on the Turing Patterns. I wrote a [Javascript implementation](https://codepen.io/maxakohler/pen/JmwayP/) of the [Gray-Scott algorithm](http://www.karlsims.com/rd.html) so I could control everything about the simulation. After experimenting for a while, I found a few sets of parameters that led to patterns that matched the lichen photographs very closely. I then wrote a [Puppeteer](https://github.com/GoogleChrome/puppeteer) script that takes a screenshot of the simulation every few seconds. Using the script, I generated a series of images using different parameters. I then printed and bound these into a book in chronological order:
-
-<div class='gallery' markdown='1'>
-![Book spread showing full bleed turing patterns](/assets/vf/book-1.jpg)
-![Book spread showing full bleed turing patterns](/assets/vf/book-2.jpg)
-![Book spread showing full bleed turing patterns](/assets/vf/book-6.jpg)
-![Book spread showing full bleed turing patterns](/assets/vf/book-3.jpg)
-![Book spread showing full bleed turing patterns](/assets/vf/book-4.jpg)
-![Book spread showing full bleed turing patterns](/assets/vf/book-5.jpg)
-</div>
 
 The book is designed to [add a secondary voice](#introducing-a-new-diagrammatic-voice-to-make-an-argument) to the argument. There is also the idea that the book maps a single environment as it changes over time (while the photographic collages move across the surface spatially). I'm imagining it like this:
 

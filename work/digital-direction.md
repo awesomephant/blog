@@ -4,7 +4,7 @@ title: RCA Digital Direction
 date: 2020-01-01
 tags: work
 category: Event
-intro: Microsite for the [MA Digital Direction](https://www.rca.ac.uk/schools/school-of-communication/digital-direction/) 2020 graduate show at the Royal College of Art, London
+intro: Microsite for the MA Digital Direction 2020 graduate show at the Royal College of Art, London
 ---
 
 <video class='full' autoplay loop muted src='/assets/digital-direction-walkthrough.mp4'></video>

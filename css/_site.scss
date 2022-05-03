@@ -77,6 +77,8 @@
     grid-column: 2 / 3;
   }
   @include bp(m) {
+    text-align: right;
+    padding-right: 2em;
     grid-column: 2 / 4;
   }
   @include bp(l) {
@@ -105,9 +107,6 @@
     @include bp(m) {
       display: block;
       grid-column: 10 / 12;
-    }
-    @include bp(xl) {
-      grid-column: 9 / 12;
     }
   }
 

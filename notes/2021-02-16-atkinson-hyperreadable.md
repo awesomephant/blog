@@ -80,13 +80,13 @@ The project won a bunch of awards and was written about. Flipped the slash in th
 
 When we launched there was a dyslexic-specific typeface launched. Interesting to look at the differences between that and Atkinson. Dyslexia and low vision aren't necessatily related. They both cause reading difficulty, but in different ways. Character differentiation is important for both, but we were more looking at low vision here. 
 
-### Was there any scientific data or studies used in the design
+### Was there any scientific data or studies used in the design?
 
-The design comes from the tradition of type design. It's not really rocket science, all these little moves come from existing typefaces. The colour contrast ratios in the colour palette was the only strictly mathematical consideration that flowed into the design - the rest is visual.
+The design comes from the tradition of type design. It's not really rocket science, all these little moves come from existing typefaces. The colour contrast ratios in the colour palette were the only strictly mathematical consideration that flowed into the design - the rest is visual.
 
-### What's the relationship between Atkinson and Clearview, and similar existing typefaces. How did they influence?
+### What's the relationship between Atkinson and Clearview, and similar existing typefaces? How did they influence this project?
 
-The starting point were the four kinds of sans-serif. There are existing high legibility typefaces, but they didn't include the Braille Institute branding. We needed something specific. 
+The starting point were the four kinds of sans-serif. There are existing high-legibility typefaces, but they didn't include the Braille Institute branding. We needed something specific. 
 
 ### How did you test?
 

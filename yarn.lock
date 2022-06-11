@@ -2259,9 +2259,9 @@ __metadata:
   linkType: hard
 
 "csv-parse@npm:^5.0.4":
-  version: 5.0.4
-  resolution: "csv-parse@npm:5.0.4"
-  checksum: e38b4fb8dec7a64b891d78ab3cf7f59b721e4027e3c773a2b0311dc538a82681f4f01aaa03c209ac47eb37e26c00a1134bf3844ade1685bf53ce85ffb17a63e3
+  version: 5.1.0
+  resolution: "csv-parse@npm:5.1.0"
+  checksum: c64dec952823a25508fdbbc40036bbf832dbc9df559abbc7cdc62e94d4733f97e2a3a896e2fb6bb028b997a766da4a1cb15521b8754a0d7db3dfcb6d764d9a23
   languageName: node
   linkType: hard
 

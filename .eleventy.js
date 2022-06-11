@@ -5,7 +5,7 @@ const taskLists = require("markdown-it-task-lists");
 const anchor = require("markdown-it-anchor");
 let footnotes = require("markdown-it-footnote");
 const typesetPlugin = require("eleventy-plugin-typeset");
-const csv = require("csv-parse/sync");
+const csv = require('csv-parse/sync');
 
 let markdownOptions = {
   html: true,

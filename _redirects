@@ -5,4 +5,5 @@
 /sian-website                https://awesomephant.github.io/sian-website/
 /grid-system                 https://awesomephant.github.io/grid-system/
 /rca-dissertation            https://awesomephant.github.io/rca-dissertation/public/
-/digitalaesthetics/*        https://awesomephant.github.io/digitalaesthetics/:splat
+/digitalaesthetics/*         https://awesomephant.github.io/digitalaesthetics/:splat
+/2020/junk-city/             /posts/2020-02-29-junk-city/

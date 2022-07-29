@@ -1,9 +1,6 @@
 code {
   font-family: var(--font-mono);
   font-size: 1em;
-  @include bp(m){
-    font-size: .95em;
-  }
 }
 p > code,
 em > code,

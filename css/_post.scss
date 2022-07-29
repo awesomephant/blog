@@ -51,9 +51,8 @@
   width: auto;
   padding-top: 1.5em;
   max-width: 100%;
-  @include bp(m) {
-    max-width: 120%;
-    margin-left: -10%;
+  & + h2 {
+    margin-top: 0;
   }
 }
 
@@ -292,7 +291,7 @@
 
 .post-header {
   grid-column: 1 / 10;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   width: 100%;
   @include bp(s) {
     grid-column: 2 / 10;
@@ -300,7 +299,6 @@
   @include bp(m) {
     grid-column: 2 / 10;
     padding-top: 1em;
-    margin-bottom: 4em;
   }
   @include bp(l) {
     grid-column: 4 / 10;
@@ -433,7 +431,7 @@
   display: inline-block;
   font-size: var(--ms--2);
   position: relative;
-  top: -.15em;
+  top: -0.15em;
   font-weight: 500;
   a {
     text-decoration: none;

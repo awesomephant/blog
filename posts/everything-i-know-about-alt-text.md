@@ -5,7 +5,7 @@ date: 2022-02-25
 updated: 2022-07-29
 includesMath: false
 includesMusic: false
-intro: "About half my job is telling peo­ple to use alt texts. To make my life eas­ier, here are all my notes and references in one place."
+intro: "A good part of my job is telling peo­ple to use alt texts. To make my life eas­ier, here are all my notes and references in one place."
 tags: post
 draft: false
 thumb: https://www.maxkohler.com/assets/fruit-type-2.png

@@ -344,7 +344,7 @@
   font-weight: 500;
   line-height: 1.3;
   hyphens: none;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   font-size: var(--ms-1);
   @include bp(s) {
     letter-spacing: -0.01em;
@@ -359,9 +359,9 @@
   max-width: 25em;
   font-family: var(--font-sans);
   @include bp(m) {
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
     max-width: 15em;
-    font-size: var(--ms-5);
+    font-size: var(--ms-6);
   }
   a {
     text-decoration: none;

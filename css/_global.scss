@@ -58,8 +58,8 @@ body {
 a {
   color: inherit;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
   text-decoration-color: rgba(black, 0.5);
-  text-underline-offset: 0.15em;
 
   &:hover,
   &:focus {

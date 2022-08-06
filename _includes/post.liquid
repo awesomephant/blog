@@ -9,7 +9,7 @@ class: post
       {% if draft %}
       <span>DRAFT</span>
       {% endif %}
-      <a href="/">{{ site.title }}</a>
+      <a href="/" class="post__home">{{ site.title }}</a>
       <span class="post-date post-meta-item">
         <time>
           {{ date | date: "%B %d, %Y" }}

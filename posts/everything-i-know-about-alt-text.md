@@ -2,7 +2,7 @@
 layout: post
 title: Everything I know about alt text
 date: 2022-02-25
-updated: 2022-07-29
+updated: 2022-08-06
 includesMath: false
 includesMusic: false
 intro: "A good part of my job is telling peo­ple to use alt texts. To make my life eas­ier, here are all my notes and references in one place."
@@ -16,7 +16,7 @@ hero:
 
 ## What is alt text?
 
-"Alt text" is short for "alternative text". It's a short piece of text that's used when the image itself isn't available because someone is using a text-only or audio version of your website, they turned off images to save bandwidth, or the network request failed. Alt text also makes your images more readable for machines, both your own and those [built by others](https://developers.google.com/search/docs/advanced/guidelines/google-images?hl=en&visit_id=637812413922396034-4279629001&rd=1#use-descriptive-alt-text).
+"Alt text" is short for "alternative text". It's a short piece of text that's used when the image itself isn't available because someone is using a text-only or audio version of your website, they turned off images to save bandwidth, or the network request failed. Alt text also makes your images more readable for machines, both your own and those [built by others](https://developers.google.com/search/docs/advanced/guidelines/google-images?hl=en#use-descriptive-alt-text).
 
 It's different to an image caption, which provides _additional_ context to an image and is visible to everyone, or an extended description.
 
@@ -40,26 +40,32 @@ People have come up with more [formal categories of images](https://www.w3.org/W
 
 ### Style
 
-I think it's helpful to remind yourself that writing alt text is _writing_. This means you can use everything you know about your audience, structure, tone, editing and so on, and be as nuanced and expressive as you are in other contexts. If you think of it as a literary endeavour rather than a technical chore, writing alt text becomes much more fun and you'll likely produce better results.
+I think it's helpful to remind yourself that writing alt text is still _writing_. It's not fundamentally different from any other writing you do on your website. This means you can use everything you know about your audience, structure, tone, editing and so on, and be as nuanced and expressive as you are in other contexts. If you think of it as a literary endeavour rather than a technical chore, writing alt text can be fun and you'll likely produce better results.
 
-This being said, there are some basic style tips that are generally accepted:
+This being said, some basic style tips are generally accepted:
 
-- Write in the simple present
+- Write in the simple present.
 - Aim for a length of 15–20 words or less.
 - Don't repeat information that's already present in the image caption or elsewhere on the page.
 - If the image contains important text, transcribe it in full.
-- Avoid using <span class="small-caps">all-caps</span> for emphasis – some screen readers will read each letter separately, which would be frustrating.
-- Avoid lead-ins like _This is an image of..._ – [screen readers will add that themselves](https://axesslab.com/alt-texts/#dont-say-its-an-image).
+- Don't use <span class="small-caps">all-caps</span> for emphasis – some screen readers will read each letter separately, which would be frustrating.
+- Don't say it's an image – [screen readers will add that information themselves](https://axesslab.com/alt-texts/#dont-say-its-an-image).
 
 ## How do you add alt text?
 
-It depends on your situation. If you're working with plain HTML, you write the alt text right into your markup using the `alt` attribute:
+It depends on your situation. If you're working with HTML, you write the alt text right into your markup using the `alt` attribute:
 
 ```html
 <img alt="Charcoal drawing of apples on checked blanket" src="apples.jpg" />
 ```
 
-If you're not, you need to figure out how to add alt text through whichever platform you're using to publish content. Most popular ones have built-in tools to do it:
+Inline SVGs don't support the `alt`-attribute, [but you can use](https://axesslab.com/alt-texts/#svg) `role="img"` and `aria-label` instead:
+
+```html
+<svg role="img" aria-label="Diagram of an internal combustion engine" viewBox="…">…</svg>
+```
+
+If you're not editing your site's HTML directly, you need to figure out how to add alt text through your content management system. Most popular ones have built-in tools to do it:
 
 - [Twitter](https://help.twitter.com/en/using-twitter/picture-descriptions)
 - [Instagram](https://help.instagram.com/503708446705527)
@@ -70,7 +76,7 @@ If you're not, you need to figure out how to add alt text through whichever plat
 - [Tumblr](https://brownandtrans.tumblr.com/post/613978932163772416/how-to-write-alt-text-and-image-descriptions-for) (only in iOS and Android apps)
 - [Squarespace](https://support.squarespace.com/hc/en-us/articles/206542357-Adding-alt-text-to-images)
 
-If your tool doesn't support alt text, you can work around the problem by adding captions, or describing the image in the main text.
+If your CMS doesn't support alt text, you can work around the problem by adding captions or describing the image in the main text.
 
 ## Can you automate this?
 

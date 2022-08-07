@@ -313,6 +313,7 @@
   font-size: var(--ms--1);
   a {
     margin-right: 1em;
+    text-decoration: none;
   }
   @include bp(s) {
     flex-flow: row;

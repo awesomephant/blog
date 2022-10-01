@@ -74,8 +74,7 @@
     margin-bottom: 0.5em;
   }
   a {
-    // color: rgb(170, 68, 0);
-    text-decoration-color: rgba(black, 0.8);
+    text-decoration-color: rgba(black, 0.6);
     &:hover,
     &:focus-visible {
       text-decoration-color: rgba(black, 0.4);
@@ -103,6 +102,7 @@
     font-family: var(--font-sans);
     margin-top: 1em;
     font-size: var(--ms-2);
+    line-height: 1.1;
     margin-bottom: 0.25em;
     width: 100%;
   }
@@ -308,12 +308,16 @@
 .post-meta {
   grid-column: 1 / 12;
   display: flex;
-  font-size: var(--ms-text);
   margin-bottom: 1rem;
+  flex-flow: column;
+  font-size: var(--ms--1);
   a {
     margin-right: 1em;
+    text-decoration: none;
   }
   @include bp(s) {
+    flex-flow: row;
+    font-size: var(--ms-text);
     grid-column: 2 / 13;
   }
   @include bp(m) {
@@ -353,11 +357,14 @@
 }
 
 .post-title {
-  font-size: var(--ms-4);
+  font-size: var(--ms-3);
   line-height: 1.05;
   font-weight: 900;
   max-width: 25em;
   font-family: var(--font-sans);
+  @include bp(s) {
+    font-size: var(--ms-5);
+  }
   @include bp(m) {
     letter-spacing: -0.01em;
     max-width: 15em;

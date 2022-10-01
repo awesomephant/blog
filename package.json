@@ -25,6 +25,7 @@
     "csv-parse": "^5.1.0",
     "eleventy-plugin-typeset": "https://github.com/liamfiddler/eleventy-plugin-typeset.git",
     "liquidjs": "^9.37.0",
+    "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-task-lists": "^2.1.1",

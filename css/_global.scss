@@ -18,7 +18,7 @@ html {
 body {
   font-family: var(--font-text);
   font-feature-settings: "pnum" 1, "kern" 1;
-  padding: max(2%, 1.2rem);
+  padding: 1rem;
   font-size: var(--ms-0);
   display: grid;
   font-weight: 300;
@@ -36,8 +36,9 @@ body {
     padding-right: 0;
   }
   &.home {
-    --background: rgb(242, 245, 255);
     background-image: none;
+    padding-top: 0;
+    background: white;
     --color: rgb(0, 0, 0);
   }
   &.post {

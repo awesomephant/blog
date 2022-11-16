@@ -7,33 +7,31 @@ metadata:
     name: Max Kohler
     email: hello@maxkohler.com
   feed:
-    subtitle: Max Kohler – Visual Communication 
+    subtitle: Max Kohler – Visual Communication
     filename: feed.xml
     path: feed/feed.xml
     url: https://maxkohler.com/feed.xml
-    id:  https://maxkohler.com/
+    id: https://maxkohler.com/
 ---
-
-{% if env == "production" %}
-
+{%- if env == "production" -%}
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.feed.subtitle }}</subtitle>
-  <link href="{{ metadata.feed.url }}" rel="self"/>
-  <link href="{{ metadata.url }}"/>
+  <link href="{{ metadata.feed.url }}" rel="self" />
+  <link href="{{ metadata.url }}" />
   <updated>{{ collections.post | rssLastUpdatedDate }}</updated>
   <id>{{ metadata.feed.id }}</id>
   <author>
     <name>{{ metadata.author.name }}</name>
-<email>{{ metadata.author.email }}</email>
+    <email>{{ metadata.author.email }}</email>
   </author>
   {%- for post in collections.post %}
   {% if post.data.draft != true %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}"/>
+    <link href="{{ absolutePostUrl }}" />
     <updated>{{ post.date | rssDate }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
@@ -41,5 +39,4 @@ metadata:
   {% endif %}
   {%- endfor %}
 </feed>
-
-{% endif %}
+{%- endif -%}

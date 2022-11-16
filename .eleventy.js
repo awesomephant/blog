@@ -1,11 +1,11 @@
+
+const { parse } = require("csv-parse");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const markdownIt = require("markdown-it");
 const taskLists = require("markdown-it-task-lists");
 const anchor = require("markdown-it-anchor");
 let footnotes = require("markdown-it-footnote");
-const typesetPlugin = require("eleventy-plugin-typeset");
-const { parse } = require("csv-parse");
 
 let markdownOptions = {
   html: true,
@@ -90,12 +90,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./_site/main.css");
 
   eleventyConfig.setLibrary("md", markdownLib);
-  eleventyConfig.addPlugin(
-    typesetPlugin({
-      only: ".single-post, .project-title",
-      disable: ["ligatures"],
-    })
-  );
   eleventyConfig.addDataExtension("csv", (contents) => {
     const records = parse(contents, {
       columns: true,

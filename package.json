@@ -23,7 +23,6 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "cross-env": "^7.0.3",
     "csv-parse": "^5.1.0",
-    "eleventy-plugin-typeset": "https://github.com/liamfiddler/eleventy-plugin-typeset.git",
     "liquidjs": "^9.37.0",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",

@@ -884,7 +884,7 @@ __metadata:
     "@11ty/eleventy-plugin-syntaxhighlight": ^4.0.0
     cross-env: ^7.0.3
     csv-parse: ^5.1.0
-    liquidjs: ^9.37.0
+    liquidjs: ^10.0.0
     markdown-it: ^13.0.1
     markdown-it-anchor: ^8.6.4
     markdown-it-footnote: ^3.0.3
@@ -2978,7 +2978,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"liquidjs@npm:^9.37.0, liquidjs@npm:^9.40.0":
+"liquidjs@npm:^10.0.0":
+  version: 10.3.3
+  resolution: "liquidjs@npm:10.3.3"
+  bin:
+    liquid: bin/liquid.js
+    liquidjs: bin/liquid.js
+  checksum: 3a7bef3dc58a447b4b07bc8152383b7ff7afdae5852ef770720ef1da8ddc53188efc813d646cc2a753c277829017158e8921ccfa7fa8233256c78b7fe03e5feb
+  languageName: node
+  linkType: hard
+
+"liquidjs@npm:^9.40.0":
   version: 9.42.1
   resolution: "liquidjs@npm:9.42.1"
   bin:

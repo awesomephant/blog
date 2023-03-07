@@ -23,7 +23,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "cross-env": "^7.0.3",
     "csv-parse": "^5.1.0",
-    "liquidjs": "^9.37.0",
+    "liquidjs": "^10.0.0",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",
     "markdown-it-footnote": "^3.0.3",

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "ARC: The Dirty Issue" 
+title: "ARC: The Dirty Issue"
 date: 2020-07-20
 tags: work
 category: Editorial
 ---
 
 ![Arc magazine screenshot](/assets/arc.png)
-[arcmagazine.org/](https://arcmagazine.org/)
+[arc.maxkohler.com](https://arc.maxkohler.com/)
 
 Website for the online relaunch of ARC Magazine, produced by the writing programme at the Royal College of Art. The editors write:
 
@@ -15,8 +15,8 @@ Website for the online relaunch of ARC Magazine, produced by the writing program
 
 The site is built in [Eleventy](https://www.11ty.dev/) and hosted on Netlify.
 
-It's Set in *Swiss Works* by Ian Party, *Arial Regular* by Robin Nicholas and Patricia Saunder, and *ARC Regular* (a modified version of *Times*) by William Jacobson.
+It's Set in _Swiss Works_ by Ian Party, _Arial Regular_ by Robin Nicholas and Patricia Saunder, and _ARC Regular_ (a modified version of _Times_) by William Jacobson.
 
-Art direction by [Maya Guileva](https://mayagulieva.com/) and William Jacobson, design and code by me.
+Art direction by [Maya Guileva](https://mayagulieva.com/) and [William Jacobson](https://www.williamjacobson.se/), design and code by me.
 
-View the live site at [arcmagazine.org](https://arcmagazine.org/)
+View the live site at [arc.maxkohler.com](https://arc.maxkohler.com)

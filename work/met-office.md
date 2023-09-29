@@ -2,20 +2,17 @@
 layout: post
 title: Met Office YCN Brief
 date: 2017-01-01
-images: 
-  - /assets/projects/gradient-prints.jpg
-  - /assets/projects/bot.png
-  - /assets/projects/bot-2.PNG
-  - /assets/projects/scan-table.JPG
 tags: work
 category: Data
 ---
+
+{% include "fig.liquid", src: "/assets/projects/gradient-prints.jpg", alt: "Gradient prints", class: "big"%}
 
 For this project I set out to explore different modes of data visualisation and science communication in the context of weather data. The UK Met Office makes the majority of its data publicly available, including current weather observations, weather forecasts and historical records reaching back hundreds of years.
 
 Initially I worked on a chatbot that could serve as an intuitive interface to the Met Office's datasets. A chatbot is a natural-language interface that exists within existing messaging applications such as Whatsapp, SMS or Facebook Messenger. I propose this as a more personal, lightweight alternative to traditional weather applications.
 
-The robot is built on the [Microsoft Bot Framework](https://dev.botframework.com/), which uses machine learning to understand natural language. Location-based inputs  such as "How's the weather in Manchester" are parsed using the [Google Maps API](https://developers.google.com/maps/) before the appropriate weather information is requested from the [Met Office API](http://www.metoffice.gov.uk/datapoint). The resulting data is then converted back into natural language and presented to the user. The source code is [available on Github](https://github.com/awesomephant/weatherbot).
+The robot is built on the [Microsoft Bot Framework](https://dev.botframework.com/), which uses machine learning to understand natural language. Location-based inputs such as "How's the weather in Manchester" are parsed using the [Google Maps API](https://developers.google.com/maps/) before the appropriate weather information is requested from the [Met Office API](http://www.metoffice.gov.uk/datapoint). The resulting data is then converted back into natural language and presented to the user. The source code is [available on Github](https://github.com/awesomephant/weatherbot).
 
 Next, I focused on a [dataset containing historical weather observations going back as far as 1853](http://www.metoffice.gov.uk/public/weather/climate-historic/#?tab=climateHistoric). I made a series of attempts to visualise the roughly 50.000 data points it contains.
 

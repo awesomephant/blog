@@ -16,23 +16,27 @@
     padding-top: 0.25em;
     border-radius: 10px;
     letter-spacing: -0.045em;
+    word-spacing: -0.055em;
     display: inline-block;
     margin-bottom: -1px;
     margin-right: -1px;
   }
   a {
     text-decoration: none;
+    position: relative;
     &:hover,
     &:focus-visible {
-      text-decoration: underline;
+      z-index: 1000;
+      outline: 2px solid black;
+      border-color: black;
     }
   }
   li {
     list-style: none;
   }
   .post a {
-    color: rgb(33, 51, 26);
-    background: rgb(212, 246, 165);
+    color: rgb(47, 51, 26);
+    background: rgb(194, 249, 164);
   }
   .work a {
     color: rgb(48, 32, 65);
@@ -48,7 +52,7 @@
     border-color: var(--black);
     position: relative;
     z-index: 1000;
-    color: white;
+    color: rgb(252, 252, 252);
   }
 }
 .home__container {

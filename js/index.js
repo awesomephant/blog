@@ -37,8 +37,8 @@ function initEmbeds() {
 document.addEventListener(
   "DOMContentLoaded",
   function () {
-    textBalancer.balanceText(".post-title, .post-intro")
-    let headlines = document.querySelectorAll(".post-content h2[id], .post-content h3[id]")
+    textBalancer.balanceText(".single__title")
+    let headlines = document.querySelectorAll(".single__copy h2[id], .post-content h3[id]")
     for (let i = 0; i < headlines.length; i++) {
       let link = document.createElement("a")
       link.setAttribute("href", "#" + headlines[i].id)

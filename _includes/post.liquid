@@ -11,11 +11,10 @@ class: post
       {% endif %}
       <a href="/" class="post__home">{{ site.title }}</a>
       <span class="post-date post-meta-item">
-        <time>
-          {{ date | date: "%B %d, %Y" }}
-        </time>
         {% if updated %}
         <time class="updated"> Updated {{ updated | date: "%B %d, %Y" }} </time>
+        {% else %}
+        <time>{{ date | date: "%B %d, %Y" }}</time>
         {% endif %}
       </span>
     </aside>

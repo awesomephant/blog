@@ -6,16 +6,12 @@
   padding: var(--padding);
   mix-blend-mode: multiply;
 
-  .home__title,
-  .home__header span {
-    font-style: italic;
-  }
   a,
   .home__year,
   .home__title,
   .home__header span,
   .footer__copyright {
-    border: 1px solid rgb(190, 190, 190);
+    border: 1px solid rgb(79, 79, 79);
     padding: 0.125em 0.35em;
     padding-top: 0.25em;
     border-radius: 10px;
@@ -34,11 +30,13 @@
   li {
     list-style: none;
   }
-  .post {
-    color: var(--red);
+  .post a {
+    color: rgb(52, 45, 19);
+    background: rgb(255, 244, 204);
   }
-  .work {
-    color: var(--blue);
+  .work a {
+    color: rgb(45, 25, 84);
+    background: rgb(235, 194, 250);
   }
   .home__year,
   .home__header h1,

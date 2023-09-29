@@ -1,7 +1,7 @@
 .single__container {
   padding: var(--padding);
   font-size: var(--ms-0);
-  max-width: 50rem;
+  max-width: 48rem;
   margin: 0 auto;
   padding-bottom: 2rem;
   @include bp(m) {
@@ -11,7 +11,7 @@
 }
 
 .single__header {
-  margin-bottom: var(--baseline);
+  margin-bottom: calc(var(--baseline) * 2);
 }
 
 .single__title {
@@ -38,7 +38,8 @@
 .single__intro {
   margin-bottom: 0.5rem;
   font-size: var(--ms-1);
-  line-height: calc(var(--baseline) * 1.25);
+  line-height: calc(var(--baseline) * 1.15);
+  letter-spacing: 0;
   hyphens: auto;
 }
 
@@ -60,7 +61,7 @@
     font-weight: 700;
     font-size: var(--ms-1);
     margin-top: var(--baseline);
-    margin-bottom: calc(var(--baseline) * 0.5);
+    margin-bottom: var(--ms-0);
   }
 
   h3 {
@@ -69,12 +70,12 @@
     font-weight: 700;
   }
   p + p {
-    margin-top: var(--baseline);
+    margin-top: 1em;
   }
   ul,
   ol {
-    margin-top: var(--baseline);
-    margin-bottom: var(--baseline);
+    margin-top: 1em;
+    margin-bottom: 1em;
     margin-left: 1em;
   }
   strong {
@@ -148,7 +149,11 @@
 .footnotes {
   font-size: var(--ms--2);
   line-height: calc(var(--baseline) * 0.75);
+  max-width: 30em;
+  hyphens: none;
+  margin-top: calc(var(--baseline) * 2);
 }
+
 .footnote-ref {
   font-size: var(--ms--2);
   margin-left: 0.35em;

@@ -86,7 +86,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico")
   eleventyConfig.addPassthroughCopy("site.webmanifest")
   eleventyConfig.addPassthroughCopy("*.vcf")
-  eleventyConfig.addWatchTarget("./sass/**")
+  eleventyConfig.addWatchTarget("./_site/main.css")
   eleventyConfig.setLibrary("md", markdownLib)
 
   eleventyConfig.addDataExtension("csv", (contents) => {

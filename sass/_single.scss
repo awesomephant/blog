@@ -148,10 +148,27 @@
 
 .footnotes {
   font-size: var(--ms--2);
-  line-height: calc(var(--baseline) * 0.75);
-  max-width: 30em;
+  line-height: calc(var(--baseline) * 0.66);
   hyphens: none;
   margin-top: calc(var(--baseline) * 2);
+  counter-reset: li;
+  columns: 2;
+  column-gap: 4em;
+  ol {
+    margin: 0;
+  }
+  li {
+    display: inline-block;
+    counter-increment: li;
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 0.666em;
+    &::before {
+      content: counter(li);
+      position: absolute;
+      left: 0;
+    }
+  }
 }
 
 .footnote-ref {

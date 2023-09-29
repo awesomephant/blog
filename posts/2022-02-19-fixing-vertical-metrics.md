@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to fix borked vertical metrics in web fonts
+title: How to fix inconsistent vertical metrics in web fonts
 date: 2022-02-19
 includesMath: false
 includesMusic: false
@@ -29,12 +29,12 @@ Install [fonttools](https://github.com/fonttools/fonttools#what-is-this) and [br
 
 Open the `ttx` file in your text editor and _look for problems_. Specifically, you want to ensure that:
 
-- `fsSelect` bit 7 (the *eighth* number in the sequence) is set to `1` 
+- `fsSelect` bit 7 (the _eighth_ number in the sequence) is set to `1`
 - `sTypoAscender` is equal to `hheaAscender` (meaning the `<ascent>` key in the `<hhea>` table)
 - `sTypoDescender` is equal to `hheaDescender`
 - `sTypoLinegap` is equal to `hheaLinegap`
 - `winAscent` is equal to the largest `ymax` value in the font
-- `winDescent` is equal to the lowest `ymin` in the font *times -1*
+- `winDescent` is equal to the lowest `ymin` in the font _times -1_
 
 When you're done, run `ttx --flavor woff borked-font.ttx` to convert it back into a `woff` file. Set `--flavor woff2` to compile straight to `woff2`, or drop the flag altogether to produce an uncompressed `ttf`. Load up the new file on your website, and see if you solved the problem.
 
@@ -46,7 +46,7 @@ One of the things that's stored in these tables is the font's _vertical metrics_
 
 {% include "fig.liquid", src: "/assets/type.png", alt: "Drawing of relief letter used in letterpress printing", class: "thumbnail"%}
 
-For [historical reasons](https://docs.microsoft.com/en-us/typography/opentype/), vertical metrics are stored in *three* different places (called `hhea`, `OS/2 typo` and `OS/2 win`), and different rendering engines get their information from different ones. Apple devices generally use `hhea`, Windows uses either `OS/2 typo` or `OS/2 win`, and old versions of MS Office use `OS/2 win` exclusively. If the numbers in these tables aren't the same, you can end up in a situation where type renders differently in different browsers, design tools, or operating systems.
+For [historical reasons](https://docs.microsoft.com/en-us/typography/opentype/), vertical metrics are stored in _three_ different places (called `hhea`, `OS/2 typo` and `OS/2 win`), and different rendering engines get their information from different ones. Apple devices generally use `hhea`, Windows uses either `OS/2 typo` or `OS/2 win`, and old versions of MS Office use `OS/2 win` exclusively. If the numbers in these tables aren't the same, you can end up in a situation where type renders differently in different browsers, design tools, or operating systems.
 
 You can get out of that situation as a user by synching up the numbers yourself, like we did above. First, we set bit 7 in `fsSelect` to `1` to [activate a setting](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#fsselection) called `USE_TYPO_METRICS`. This tells browsers on Windows to use the values in `OS/2 typo` rather than `OS/2 win`. Then we synched up the values in `hhea` and `OS/2 typo` and set `OS/2 Win` to match the tallest ascender and deppest descender in the font to avoid clipping. Finally we recompiled the font with the new metrics, hopefully solving our issue. There are other approaches to settings vertical metrics, but this is the one [recommended by Glyphs](https://glyphsapp.com/learn/vertical-metrics#g-the-webfontstrategy-2019) and the [Google Fonts Team](https://github.com/googlefonts/gf-docs/tree/main/VerticalMetrics#vertical-metrics).
 

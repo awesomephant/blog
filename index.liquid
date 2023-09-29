@@ -3,18 +3,26 @@ layout: base
 class: home
 ---
 
-<section class='home-writing home-section'>
-    <nav class='project-list'>
+<article class="home__container">
+    <header class="home__header">
+        <h1 class="home__title">Max Kohler</h1>
+        <span>Visual Communication</span>
+
+        <ul class="header__links">
+            <li><a href="https://twitter.com/maxakohler">Twitter</a></li>
+            <li><a href="https://www.instagram.com/maxakohler/">Instagram</a></li>
+            <li><a href="mailto:hello@maxkohler.com">hello@maxkohler.com</a></li>
+        </ul>
+    </header>
+    <section class='home__items'>
         {% for year in collections.postsByYear %}
-        <span class="project-date" style="grid-row: span {{year.posts | size}}">
-            <span>
-                {{year.shortYear}}
-            </span>
-        </span>
+        <h2 class="home__year">
+            {{year.year}}
+        </h2>
         {% assign posts = year.posts | reverse %}
-        {% for post in posts %}
-        <li class='project-list-item'>
-            <h3 class="project-title">
+        <ol>
+            {% for post in posts %}
+            <li class='project-list-item {{post.data.tags | join: " "}}'>
                 <a href="{{ post.url }}">
                     {% if post.data.shortTitle %}
                     {{ post.data.shortTitle }}
@@ -22,18 +30,10 @@ class: home
                     {{ post.data.title }}
                     {% endif %}
                 </a>
-            </h3>
-            <span class="project-category">
-                {% if post.data.tags contains "work" %}
-                {{post.data.category}}
-                {% endif %}
-
-                {% if post.data.tags contains  "post" %}
-                Writing
-                {% endif %}
-            </span>
-        </li>
+            </li>
+            {% endfor %}
+        </ol>
         {% endfor %}
-        {% endfor %}
-    </nav>
-</section>
+    </section>
+    {% include "footer.liquid" %}
+</article>

@@ -13,7 +13,6 @@ hero:
 
 When you're building a website for a timed event like a talk or a workshop, you want to make it _really_ easy for people to add your event to their own calendar. I suspect once you get someone to do that, there's a pretty high chance they'll actually come to your event - which is why you're building the site in the first place.
 
-
 One way to do this is an add-to-calendar button. When people click it, it opens the "Add an Event" screen of their calendar app with all the event information already filled in, so all they need to do is hit "save". It doesn't replace showing the event information visually on your website, but it's a nice enhancement.
 
 Here's the interaction I'm talking about:
@@ -36,7 +35,7 @@ The base URL is `calendar.google.com/calendar/render?action=TEMPLATE` followed b
 - `dates` (required) – Start and end dates/times in UTC format (`YYYYMMDDThhmmssZ`), separated by `/`. Omit the times for all-day events. All dates are in GMT by default. Omit the trailing `Z` to use the user's local timezone, or use the `ctz` parameter to specify a custom timezone.
 - `ctz` – Custom timezone from the [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones), for example: `America/New_York`
 - `recur` – Specify a recurring event with an [RFC-5545 RRULE](https://icalendar.org/iCalendar-RFC-5545/3-8-5-3-recurrence-rule.html) string. Example: `recur=RRULE:FREQ=DAILY;INTERVAL=3`. There's also an online [generator to make those strings](https://icalendar.org/rrule-tool.html).
-- `crm` – Show as available/busy. Possible values are `AVAILABLE`, `BUSY`, and `BLOCKING`. 
+- `crm` – Show as available/busy. Possible values are `AVAILABLE`, `BUSY`, and `BLOCKING`.
 - `add` – Semicolon-separated list of email adresses to add as event guests. If you set this parameter, it'll also add the user clicking the button as an event organiser.
 
 ## Office 365 + Outlook Live
@@ -53,7 +52,7 @@ Office 365 and Outlook live use the same query parameters, but different base UR
 - `subject` (required) – Title
 - `body` – Description of the event
 - `location` – Location
-- `startdt` (required) – Start date/time in ISO 8601 format (`YYYY-MM-DDTHH:mm:SSZ`). Omit the time for all-day events. All dates are in UTC by default. Omit the trailing `Z` to use the user's local  timezone. To specify all-day events use the YYYY-MM-DD format.
+- `startdt` (required) – Start date/time in ISO 8601 format (`YYYY-MM-DDTHH:mm:SSZ`). Omit the time for all-day events. All dates are in UTC by default. Omit the trailing `Z` to use the user's local timezone. To specify all-day events use the YYYY-MM-DD format.
 - `enddt` (required) – End date/time in ISO 8601 format (`YYYY-MM-DDTHH:mm:SSZ`). Omit the time for all-day events.
 - `allday` – Is this an all-day event? boolean (true/false)
 - `to` – Comma-separated list of emails of required attendees.
@@ -93,12 +92,15 @@ The lines between `BEGIN: VEVENT` and `END: VEVENT` contain your event data. ICS
 You could make an `ICS` file and point a link at it, but they're small enough you can write them into a data URL:
 
 ```html
-<a href="data:text/calendar;charset=utf-8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0ABEGIN:VEVENT%0D%0ADTSTAMP:20220714T170000Z%0D%0ADTSTART:20220714T170000Z%0D%0ADTEND:20220714T190000Z%0D%0ADESCRIPTION:The event description%0D%0ASUMMARY:The event title%0D%0ALOCATION:Location%0D%0ASTATUS:CONFIRMED%0D%0ASEQUENCE:0%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR">Download ICS</a>
+<a
+  href="data:text/calendar;charset=utf-8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0ABEGIN:VEVENT%0D%0ADTSTAMP:20220714T170000Z%0D%0ADTSTART:20220714T170000Z%0D%0ADTEND:20220714T190000Z%0D%0ADESCRIPTION:The event description%0D%0ASUMMARY:The event title%0D%0ALOCATION:Location%0D%0ASTATUS:CONFIRMED%0D%0ASEQUENCE:0%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR"
+  >Download ICS</a
+>
 ```
 
 ## Demo
 
-<a href="https://codepen.io/maxakohler/full/podYgQB" class="button">View on Codepen</a0>
+<a href="https://codepen.io/maxakohler/full/podYgQB" class="button">View on Codepen</a>
 
 ## Notes
 

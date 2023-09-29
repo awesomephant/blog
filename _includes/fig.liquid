@@ -2,12 +2,12 @@
 <img alt="{{ alt }}" loading="lazy" src="{{ src }}" />
 <figcaption>
 {% if caption %}
-<span class="figure-caption">
+<span class="figure__caption">
 {{ caption | renderMarkdown }}
 </span>
 {% endif %}
 {% if source %}
-<span class="figure-source">
+<span class="figure__source">
 {{ source | renderMarkdown }}
 </span>
 {% endif %}

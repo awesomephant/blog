@@ -3,10 +3,9 @@
 
 {% include "head.liquid" %}
 
-<body class='{{ class }} layout-{{layout}} line-numbers {% if tags %}tags-{{tags | join: "-"}}{% endif %}{% if teacher%}notes{%endif%}'
-  style="{% if background %}background: {{background}} {%endif%}">
-  {% include "header.liquid" %}
+<body class='{{ class }} line-numbers {% if tags %}tags-{{tags | join: "-"}}{% endif %}{% if teacher%}notes{%endif%}' style="{% if background %}background: {{background}} {%endif%}">
   {{ content }}
-  {% include "footer.liquid" %}
+  <script src="{{ '/js/main.js' | url }}"></script>
 </body>
+
 </html>

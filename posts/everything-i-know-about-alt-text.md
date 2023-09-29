@@ -9,9 +9,6 @@ intro: "A good part of my job is telling peo­ple to use alt texts. To make my l
 tags: post
 draft: false
 thumb: https://www.maxkohler.com/assets/fruit-type-2.png
-hero: 
-    src: /assets/fruit-type-2.png
-    alt: "Apples on checked blanket with overlaid text: Apples on checked blanket"
 ---
 
 ## What is alt text?

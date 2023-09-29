@@ -1,12 +1,10 @@
-<footer class="site-footer">
-  <a href="/feed.xml">RSS</a>
-  <a href="https://twitter.com/maxakohler">Twitter</a>
-  <a href="https://tinyletter.com/maxakohler">Newsletter</a>
-  <a href="mailto:hello@maxkohler.com">hello@maxkohler.com</a>
-  <a href="/notes/">Lecture Notes</a>
-  <a href="/privacy/">Privacy</a>
-  <a href="/pgp.txt">PGP Key</a>
-  <span class="footer-copyright"> ©2016–{{ "now" | date: "%Y" }} </span>
+<footer class="site__footer">
+  <ul>
+    <li><a href="/feed.xml">RSS</a></li>
+    <li><a href="https://tinyletter.com/maxakohler">Newsletter</a></li>
+    <li><a href="/notes/">Lecture Notes</a></li>
+    <li><a href="/privacy/">Privacy</a></li>
+    <li><a href="/pgp.txt">PGP</a></li>
+  </ul>
+  <span class="footer__copyright"> ©2016–{{ "now" | date: "%Y" }} </span>
 </footer>
-
-<script src="{{ '/js/main.js' | url }}"></script>

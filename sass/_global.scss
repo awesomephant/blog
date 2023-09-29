@@ -19,29 +19,14 @@ html {
 body {
   font-family: var(--font-text);
   font-feature-settings: "pnum" 1, "kern" 1;
-  padding: 1rem;
   font-size: var(--ms-0);
-  display: grid;
   font-weight: 300;
-  grid-template-columns: repeat(12, 1fr);
   color: var(--color);
   line-height: 1.2;
   text-rendering: optimizeLegibility;
-  background: var(--background);
-  @include bp(s) {
-    padding-top: 4rem;
-  }
-  @include bp(m) {
-    padding-left: 0;
-    padding-top: 6rem;
-    padding-right: 0;
-  }
-  &.home {
-    background-image: none;
-    padding-top: 0;
-    background: rgb(255, 241, 201);
-    --color: rgb(0, 0, 0);
-  }
+  background: linear-gradient(to bottom, rgb(236, 189, 251) 2rem, transparent 20rem);
+  background-repeat: no-repeat;
+  background-size: 100%;
   &.post {
     --color: var(--black);
     --background: rgb(255, 255, 255);
@@ -54,7 +39,7 @@ body {
 
 ::selection {
   color: white;
-  background: var(--blue);
+  background: var(--black);
 }
 
 a {

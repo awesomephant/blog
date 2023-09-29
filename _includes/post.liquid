@@ -3,9 +3,9 @@ layout: base
 class: post
 ---
 
-<article class="single-post {{ page.class }} section-{{ page.section }}">
-  <header class="post-header {% if intro%}has-intro{%endif%}">
-    <aside class="post-meta">
+<article class="single__container {{ page.class }} section-{{ page.section }}">
+  <header class="single__header {% if intro%}has-intro{%endif%}">
+    <aside class="single__meta">
       {% if draft %}
       <span>DRAFT</span>
       {% endif %}
@@ -19,26 +19,24 @@ class: post
         {% endif %}
       </span>
     </aside>
-    <div class="header-copy">
-      <h1 class="post-title">
-        {% if external_link %}
-        <a href="{{ external_link }}">{{ title }}</a>
-        {% else%} {% if website %}
-        <a href="{{ website }}">{{ title }}</a>
-        {% else%}
-        {{ title }}
-        {% endif %} {% endif %}
-      </h1>
-      {% if intro %}
-      <div class="post-intro">
-        {{ intro }}
-      </div>
-      {% endif %} {% if hero.src %}
-      <img class="post__thumb" src="{{ hero.src }}" alt="{{ hero.alt }}" />
-      {% endif %}
+    <h1 class="single__title">
+      {% if external_link %}
+      <a href="{{ external_link }}">{{ title }}</a>
+      {% else%} {% if website %}
+      <a href="{{ website }}">{{ title }}</a>
+      {% else%}
+      {{ title }}
+      {% endif %} {% endif %}
+    </h1>
+    {% if intro %}
+    <div class="single__intro">
+      {{ intro }}
     </div>
+    {% endif %} {% if hero.src %}
+    <img class="single__thumb" src="{{ hero.src }}" alt="{{ hero.alt }}" />
+    {% endif %}
   </header>
-  <div class="post-content">
+  <div class="single__copy">
     {{ content }}
   </div>
 </article>

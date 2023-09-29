@@ -1,0 +1,24 @@
+ul.changes {
+  list-style: none;
+  margin-left: 0;
+}
+
+.change {
+  border-bottom: 1px solid var(--gray);
+  padding: 0.25em 0;
+  font-size: var(--ms--2);
+  display: flex;
+  &:last-of-type {
+    border-bottom: 0;
+  }
+}
+
+.change__time {
+  display: block;
+  flex-basis: 9em;
+  color: var(--gray);
+}
+
+a.change__link {
+  font-weight: 700;
+}

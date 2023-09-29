@@ -44,7 +44,7 @@ But with every news story about a wild fire, heatwave, storm, or flood, that mod
 
 > The contrary [to current ways of doing design] is a process that doesn’t grow via destruction, but very literally de-grows constructively. This type of construction is not creating inflation, but devolution. Not centralized competition but cooperative autonomy. Not fragmenting time and dividing people, but reducing expansion, inflation, consumption, dept, disruption, occupation, and death.
 
-Intellectually, I know that what she and others are proposing is true, necessary, and probably without alternative. But emotionally, I’m not ready to feel hopeful about that new form of design practice: I’m not done grieving the end of the old one. [^3]
+Intellectually, I know that what she and others are proposing is true, necessary, and probably without alternative. But emotionally, I’m not ready to feel hopeful about that new form of design practice: I’m not done grieving the end of the old one.[^3]
 
 [^1]: I’m not aware of any similar ideas for screen-based design, maybe because we tend to assume it’s cleaner by default? It isn’t: See datacenter emissions.
 [^2]: Hito Steyerl (2019): _Duty Free Art: Art in the Age of Planetary Civil War_, p. 18. Verso Books

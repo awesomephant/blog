@@ -6,7 +6,6 @@
   appearance: none;
   text-decoration: none;
   padding: 0.4em 0.6em;
-  padding-top: .55em;
   letter-spacing: 0.01em;
   border: 0;
   line-height: 1;
@@ -29,7 +28,7 @@
   border: 1px solid var(--black);
   &:hover,
   &:focus {
-    background-color: rgba(black, .05);
+    background-color: rgba(black, 0.05);
     text-decoration: underline;
     cursor: pointer;
   }

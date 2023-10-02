@@ -6,7 +6,7 @@ teacher: "Luke Best"
 unit: "VP"
 abstract: "Luke is a London-based illustrator and part of Peepshow Collective. Does all sorts of amazing editorial, animation and publishing work."
 website: "http://www.lukebest.com/"
-thumb: "http://www.maxkoehler.com/assets/notes/lukebest-3.jpg"
+thumb: "http://www.maxkohler.com/assets/notes/lukebest-3.jpg"
 ---
 
 [Twitter](https://twitter.com/lukejethrobest?lang=en)

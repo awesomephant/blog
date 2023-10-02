@@ -1,7 +1,7 @@
 ID: 5196
 
-Domains: maxkoehler.com
+Domains: maxkohler.com
 
 Document-Name: Privacy
-Url: https://maxkoehler.com/privacy/
+Url: https://maxkohler.com/privacy/
 Path: /html/body/article

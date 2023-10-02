@@ -6,7 +6,7 @@ teacher: "Mike Monteiro"
 unit: "Design Museum"
 abstract: "Mike is the co-founder of Mule Design. This talk is about designers' responsibility for the things they put in the world."
 website: "https://muledesign.com/speaking/mike-monteiro"
-thumb: "http://www.maxkoehler.com/assets/notes/monteiro-dont-follow-orders.jpg"
+thumb: "http://www.maxkohler.com/assets/notes/monteiro-dont-follow-orders.jpg"
 ---
 
 (This talk is part of the [Hope to Nope Show](https://designmuseum.org/exhibitions/hope-to-nope-graphics-and-politics-2008-18)). Video of the [same talk in Stockholm](https://www.youtube.com/watch?v=vW2moFk074Q&feature=youtu.be)

@@ -17,6 +17,6 @@ I just wrote about that question over on [CSS-Tricks](https://css-tricks.com/whe
 - Put it into an edge worker
 - Do it in Javascript on the user's device after they've loaded the site.
 
-Recently (like on the [Wish you were here](https://maxkoehler.com/work/camberwell-2020/) site), I tend to do a combination of all of the above.
+Recently (like on the [Wish you were here](https://maxkohler.com/work/camberwell-2020/) site), I tend to do a combination of all of the above.
 
 Again, you can [read the full piece on CSS-Tricks](https://css-tricks.com/where-does-logic-go-on-jamstack-sites/).

@@ -6,7 +6,7 @@ teacher: "Chris Symes"
 unit: "Camberwell VP"
 abstract: "Chris Symes is a film producer who's worked on Alien vs Predator, Hellboy and Black Sails."
 website: ""
-thumb: "http://www.maxkoehler.com/assets/notes/black-sails-set.jpg"
+thumb: "http://www.maxkohler.com/assets/notes/black-sails-set.jpg"
 ---
 
 ## How do you become a producer?

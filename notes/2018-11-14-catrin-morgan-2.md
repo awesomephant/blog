@@ -51,7 +51,7 @@ Photographs are a difficult case. It's an icon, but also evidentiary. It's index
 
 Gunnig (2004): _[What’s the Point of an Index? or, Faking Photographs](http://www.nordicom.gu.se/sites/default/files/kapitel-pdf/157_039-050.pdf)_
 
-As mentioned [last week](http://www.maxkoehler.com/notes/2018/11/07/catrin-morgan.html) "the it's phenomena": We don't look at he material reality of photographs, but look through them at what they're showing. Photographs were being manipulated basiclly from the moement they were invented.
+As mentioned [last week](http://www.maxkohler.com/notes/2018/11/07/catrin-morgan.html) "the it's phenomena": We don't look at he material reality of photographs, but look through them at what they're showing. Photographs were being manipulated basiclly from the moement they were invented.
 
 Susan Sontag (1973): [On Photography](http://www.lab404.com/3741/readings/sontag.pdf)
 

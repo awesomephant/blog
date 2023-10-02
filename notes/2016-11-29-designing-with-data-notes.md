@@ -4,7 +4,7 @@ title: "Designing with Data"
 unit: VP
 teacher: Cat Drew,Laura Malan
 date: 2016-11-29 10:01:32
-thumb: "http://www.maxkoehler.com/assets/bigbangdata-balloons.jpg"
+thumb: "http://www.maxkohler.com/assets/bigbangdata-balloons.jpg"
 intro: "Here's my notes from two back-to-back talks on how the UK government uses design and data science to make better policy by Cat Drew and Laura Malan."
 ---
 

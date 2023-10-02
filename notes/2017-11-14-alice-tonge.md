@@ -6,7 +6,7 @@ teacher: "Alice Tonge"
 unit: "LCC Pioneers"
 abstract: "Alice is the head of 4creative, the in-house creative agency of Channel 4"
 website: "http://www.alicetonge.com/"
-thumb: "http://www.maxkoehler.com/assets/notes/channel4-simpsons.jpg"
+thumb: "http://www.max.com/assets/notes/channel4-simpsons.jpg"
 ---
 
 [4Creative Website](http://www.4creative.co.uk/)

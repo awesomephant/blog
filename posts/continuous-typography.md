@@ -6,7 +6,7 @@ includesMath: true
 includesMusic: false
 intro: "Notes toward a continuous framework for screen typography"
 tags: post
-thumb: "https://maxkoehler.com/assets/continuous-type/spot.png"
+thumb: "https://maxkohler.com/assets/continuous-type/spot.png"
 ---
 
 Here are some notes about an idea I've been calling Continuous Typography for the sake of thinking about it. It's a way of thinking about typography in terms of continuous functions, rather than absolute values.
@@ -166,7 +166,7 @@ The relevant issue on the CSS Working group [is still open](https://github.com/w
 
 But regardless of the precise implementation, I think that the idea that that any typographic attribute (including variable font parameters) can be a function (linear, exponential, stepped, Bezier, random, or otherwise) of any given input variable (user preference, screen dimensions, connection speed, time of day, display language, or whatever else) is an incredibly powerful one, and worth exploring as an aesthetic as well as a technical proposition. I'm already using basic linear functions in practice with promising results.
 
-I'm especially interested in what a visual design tool would look like if it was built on the model of continuous typography. Tim Brown makes this point in Flexible Typesetting (2018), writing: _"Your design tool is working against you. It is stuck in the traditional mindset of absolute measurements. This is precisely one reason why people very good at web design argue that designers should learn to write code. No mainstream design tools […] are completely appropriate for the practice of typesetting today."[^9]
+I'm especially interested in what a visual design tool would look like if it was built on the model of continuous typography. Tim Brown makes this point in Flexible Typesetting (2018), writing: \_"Your design tool is working against you. It is stuck in the traditional mindset of absolute measurements. This is precisely one reason why people very good at web design argue that designers should learn to write code. No mainstream design tools […] are completely appropriate for the practice of typesetting today."[^9]
 
 To my knowledge this situation hasn't changed much since - so there's plenty of room for exploration. With better tools, continuous typography might become more than a way to _make the type look good on a phone_: a new method for visual expression in its own right. [^10]
 
@@ -174,13 +174,13 @@ To my knowledge this situation hasn't changed much since - so there's plenty
 
 I finally got around to writing a demo of what a design tool for continuous typography might look like - basically a working version of the final figure above. [Play with it here](https://awesomephant.github.io/continuous-typography/), or [read more about here](/work/continuous-type-tester/).
 
-[^1]: Robert Bringhurst (2016): *The Elements of Typographic Style, Version 4.2*, Chapter 8. Hartley & Marks.
-[^2]: Pedro Rodriguez (2020): *[Linearly Scale font-size with CSS clamp() Based on the Viewport](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)
-[^3]: Jake Wilson (2017): *[CSS Poly Fluid Sizing using calc(), vw, breakpoints and linear equations](https://medium.com/@jakobud/css-polyfluidsizing-using-calc-vw-breakpoints-and-linear-equations-8e15505d21ab)*
+[^1]: Robert Bringhurst (2016): _The Elements of Typographic Style, Version 4.2_, Chapter 8. Hartley & Marks.
+[^2]: Pedro Rodriguez (2020): \*[Linearly Scale font-size with CSS clamp() Based on the Viewport](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)
+[^3]: Jake Wilson (2017): _[CSS Poly Fluid Sizing using calc(), vw, breakpoints and linear equations](https://medium.com/@jakobud/css-polyfluidsizing-using-calc-vw-breakpoints-and-linear-equations-8e15505d21ab)_
 [^4]: In fact, the user’s default font size should probably be the first parameter we care about. The only reason I’m using the screen width here is that its effects are easier to visualise.
-[^5]: To my knowledge the earliest description of this technique is a 2015 article by Mike Riethmuller called *[Precise control over responsive typography](https://www.madebymike.com.au/writing/precise-control-responsive-typography/)*
-[^6]: Greg Gibson (2020): *[Using CSS Custom Properties to Adjust Variable Font Weights in Dark Mode ](https://css-tricks.com/using-css-custom-properties-to-adjust-variable-font-weights-in-dark-mode/)*
-[^7]: Mike Riethmuller (2018): *[Interpolation in CSS without animation](https://www.madebymike.com.au/writing/interpolation-without-animation/)*
-[^8]: Mike Riethmuller (2017): *[Non-linear Interpolation in CSS: A solution for transitioning lengths values in CSS through more than one bending point.](https://www.madebymike.com.au/writing/non-linear-interpolation-in-css/)*
-[^9]: Tim Brown (2018): *Flexible Typesetting*, p 44. A Book Apart.
+[^5]: To my knowledge the earliest description of this technique is a 2015 article by Mike Riethmuller called _[Precise control over responsive typography](https://www.madebymike.com.au/writing/precise-control-responsive-typography/)_
+[^6]: Greg Gibson (2020): _[Using CSS Custom Properties to Adjust Variable Font Weights in Dark Mode ](https://css-tricks.com/using-css-custom-properties-to-adjust-variable-font-weights-in-dark-mode/)_
+[^7]: Mike Riethmuller (2018): _[Interpolation in CSS without animation](https://www.madebymike.com.au/writing/interpolation-without-animation/)_
+[^8]: Mike Riethmuller (2017): _[Non-linear Interpolation in CSS: A solution for transitioning lengths values in CSS through more than one bending point.](https://www.madebymike.com.au/writing/non-linear-interpolation-in-css/)_
+[^9]: Tim Brown (2018): _Flexible Typesetting_, p 44. A Book Apart.
 [^10]: This post is also [on Medium](https://maxakohler.medium.com/continuous-typography-15759ac4ae62)

@@ -13,7 +13,7 @@ A definition of illustration:
 
 > Any miage that participates in a comples text presented as a communicating artefact (for example, a communicating artefact could be a website, a text message, a book or a t-shirt)
 
-[See also Catrin's lecture on Visual Forensics](http://www.maxkoehler.com/2018/visual-forensics/#october-19-2018)
+[See also Catrin's lecture on Visual Forensics](http://www.maxkohler.com/2018/visual-forensics/#october-19-2018)
 
 Most illustration literature is aimed at undergrads — how you get into the industry etc. This doesn't address many images (photographs, folk art) that also function as illustration.
 

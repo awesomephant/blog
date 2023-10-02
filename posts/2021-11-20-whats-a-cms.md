@@ -6,7 +6,7 @@ includesMath: false
 includesMusic: false
 intro: "As your web projects grow, writing plain HTML becomes impractical – a Content Management System (CMS) is the layer of abstraction you need."
 tags: post
-thumb: https://www.maxkoehler.com/assets/cms-spot-1.png
+thumb: https://www.maxkohler.com/assets/cms-spot-1.png
 ---
 
 ## Who this article is for

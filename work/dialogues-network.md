@@ -23,4 +23,4 @@ Design by William Jacobson at Europa and me, development by me. Additional help 
 
 The site is built on the Wordpress/Timber/ACF stack. Printed editions are generated using Paged.js. Both are typeset in GT Alpina (Reto Moser/Grilli Type), Neue Haas Unica (Toshi Omagari/Monotype) and OS-native emojies.
 
-View the site at **[www.dialogues.network/](https://www.dialogues.network/)**.
+View the site at **[www.dialogues.network](https://www.dialogues.network/)**.

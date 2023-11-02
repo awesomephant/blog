@@ -15,15 +15,7 @@
 }
 
 .single__title {
-  font-size: var(--ms-4);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.75rem;
-  line-height: calc(var(--baseline) * 1.5);
-  @include bp(m) {
-    line-height: calc(var(--baseline) * 1.75);
-    font-size: var(--ms-5);
-  }
+  @extend %h1;
 }
 
 .single__meta {

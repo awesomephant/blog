@@ -1,12 +1,12 @@
 import textBalancer from "text-balancer"
 function initList() {
-  let search = document.querySelector(".notes-search")
-  let index = document.querySelectorAll(".notes-item")
+  let search = document.querySelector(".notes__search")
+  let index = document.querySelectorAll(".notes__item")
 
   function filterList(s) {
     index.forEach((item) => {
-      let title = item.querySelector(".note-title").innerText
-      let teacher = item.querySelector(".note-teacher").innerText
+      let title = item.querySelector(".note__title").innerText
+      let teacher = item.querySelector(".note__teacher").innerText
       let re = new RegExp(`(${s})`, "gi")
       if (re.test(title + teacher)) {
         item.classList.remove("hidden")

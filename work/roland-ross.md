@@ -4,7 +4,6 @@ title: Roland Ross
 intro: A minimalist website for an independent gallery in Margate, England.
 date: 2023-08-01
 tags: work
-category: eCommerce
 draft: false
 thumb: https://maxkohler.com/assets/roland-ross.png
 ---

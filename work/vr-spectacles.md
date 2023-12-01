@@ -2,7 +2,7 @@
 layout: post
 title: Pygmalion's Spectacles
 date: 2017-06-01
-tags: "work"
+tags: work
 category: VR
 ---
 

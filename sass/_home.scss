@@ -11,10 +11,10 @@
   .home__title,
   .home__header span,
   .footer__copyright {
-    border: 1px solid rgb(124, 124, 124);
+    border: 1px solid rgb(0, 0, 0);
     padding: 0.125em 0.35em;
     padding-top: 0.25em;
-    border-radius: 10px;
+    border-radius: 15px;
     letter-spacing: -0.045em;
     word-spacing: -0.055em;
     display: inline-block;
@@ -35,12 +35,12 @@
     list-style: none;
   }
   .post a {
-    color: rgb(47, 51, 26);
-    background: rgb(233, 240, 127);
+    color: rgb(10, 10, 10);
+    background: rgb(209, 209, 209);
   }
   .work a {
-    color: rgb(26, 21, 36);
-    background: rgb(213, 212, 255);
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
   }
   .home__year,
   .home__header h1,

@@ -10,16 +10,16 @@ tags: post
 
 I've been doing some Wordpress theme development recently, and I couldn't find a decent reference for the blocks that come with the [default Wordpress editor](https://developer.wordpress.org/block-editor/developers/). So I'll keep one here.
 
-{% details "Wordpress Core"%}
+## Wordpress Core
 
 I'm pulling these out of [the Wordpress Source](https://github.com/WordPress/gutenberg/tree/master/packages/block-library/src)
 
-## Content
+### Content
 
 - `core/audio`
 - `core/calendar`
 - `core/buttons`
-- `core/button` – Only used inside ```core/buttons/```
+- `core/button` – Only used inside `core/buttons/`
 - `core/code`
 - `core/classic`
 - `core/cover`
@@ -43,14 +43,14 @@ I'm pulling these out of [the Wordpress Source](https://github.com/WordPress/gut
 - `core/instagram`
 - `core/vimeo`
 
-## Layout
+### Layout
 
 - `core/block`
 - `core/columns`
 - `core/column` – Only used inside `core/columns`.
 - `core/more`
 
-## Relational
+### Relational
 
 - `core/archives`
 - `core/categories`
@@ -62,8 +62,6 @@ I'm pulling these out of [the Wordpress Source](https://github.com/WordPress/gut
 - `core/navigation`
 - `core/nextpage`
 - `core/group`
-
-{% enddetails %}
 
 ## Disabling blocks in the Post Editor
 
@@ -81,7 +79,7 @@ function theme_allowed_block_types($allowed_block_types){
 add_filter('allowed_block_types', 'theme_allowed_block_types');
 ```
 
-In addition to this, I like to disable the default block CSS and style them myself instead. You do that by attaching a function to  the [```wp_print_styles```](https://developer.wordpress.org/reference/hooks/wp_print_styles/) hook:
+In addition to this, I like to disable the default block CSS and style them myself instead. You do that by attaching a function to the [`wp_print_styles`](https://developer.wordpress.org/reference/hooks/wp_print_styles/) hook:
 
 ```php
 function remove_block_css()

@@ -7,8 +7,6 @@ tags: post
 thumb: https://maxkohler.com/assets/job-applications-spot.jpg
 ---
 
-{% include "fig.liquid", src: "/assets/job-applications-spot.jpg", alt: "Collage of rejection emails", class: "medium" %}
-
 {% leadin %}Earlier this month{% endleadin %}, I lost out on my one-hundredth job application. When you look for work for any prolonged period, you start to notice different shades of no: The most common (incurred by 52 of my applications) is no response at all. I received 38 automated rejection emails; eight applications were declined after one or more interviews — two via phone call, one (to a public institution in Berlin) via letter. Three resulted in offers, of which I accepted two. Beyond these baseline numbers, the outcomes feel completely random. I was equally unsuccessful applying to entry-level and more qualified roles, local and national, fixed-term and permanent, in the public and private sector, and my rate of failure remained constant over time.
 
 This is not a unique experience. Most of my friends are steadily applying for work, and their numbers aren’t much better. Across the economy, the median number of job applications people write every month nearly tripled over the last 40 years, and the share of people who submit ten or more applications per month doubled, from 15% to 30%[^1], a trend that is [only accelerating](https://time.com/6287012/why-finding-job-is-difficult/). Despite this precipitous increase in applications, the number of people getting hired a given month has remained the same.

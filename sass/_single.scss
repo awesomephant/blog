@@ -66,8 +66,13 @@
     font-size: var(--ms-1);
     margin-top: var(--baseline);
     margin-bottom: calc(var(--baseline) * 0.25);
+    @include bp(m) {
+      font-size: var(--ms-2);
+      margin-bottom: calc(var(--baseline) * 0.5);
+      margin-top: calc(var(--baseline) * 2);
+    }
     & + h3 {
-      margin-top: 0.25em;
+      margin-top: 0;
     }
   }
 

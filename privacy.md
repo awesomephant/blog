@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Privacy
-date:  2022-03-19
+date: 2022-03-19
 tags: "About"
 ---
 
@@ -19,7 +19,7 @@ Because this is the case, I only display embedded content with your specific con
 
 ## Email Newsletter
 
-My email newsletter is powered by [Tinyletter](https://tinyletter.com/maxakohler) from Mailchimp. If you choose to subsribe, Mailchimp's [privacy policy](https://mailchimp.com/legal/privacy/) and [terms of use](https://mailchimp.com/legal/terms/) apply.
+My email newsletter is powered by [Substack](https://maxakohler.substack.com/). If you choose to subsribe, Substack's [privacy policy](https://substack.com/privacy) applies.
 
 ## Source Code
 

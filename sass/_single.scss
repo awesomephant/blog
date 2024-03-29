@@ -11,7 +11,7 @@
 }
 
 .single__header {
-  margin-bottom: calc(var(--baseline) * 2);
+  margin-bottom: calc(var(--baseline) * 1);
 }
 
 .single__title {
@@ -201,7 +201,7 @@
 }
 
 .post {
-  color: rgb(11, 32, 81);
+  color: rgb(18, 38, 63);
 }
 
 .post-figure {
@@ -255,7 +255,7 @@
 }
 
 .signup {
-  border: 1px solid currentColor;
+  border: 2px solid currentColor;
   display: inline-flex;
   flex-flow: column;
   align-items: center;

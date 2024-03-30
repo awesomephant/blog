@@ -5,6 +5,7 @@ date: 2024-03-29
 intro: In the projective city, applying for work has become a waste of everyone's time.
 tags: post
 thumb: https://maxkohler.com/assets/job-applications-spot.jpg
+canonical: https://maxakohler.substack.com/p/abolish-job-applications
 ---
 
 {% leadin %}Earlier this month{% endleadin %}, I lost out on my one-hundredth job application. When you look for work for any prolonged period, you start to notice different shades of no: The most common (incurred by 52 of my applications) is no response at all. I received 38 automated rejection emails; eight applications were declined after one or more interviews — two via phone call, one (to a public institution in Berlin) via letter. Three resulted in offers, of which I accepted two. Beyond these baseline numbers, the outcomes feel completely random. I was equally unsuccessful applying to entry-level and more qualified roles, local and national, fixed-term and permanent, in the public and private sector, and my rate of failure remained constant over time.

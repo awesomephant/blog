@@ -71,7 +71,7 @@ $br: 3px;
   --red: #c4320a;
   --fast: 300ms;
   --br: 3px;
-  --padding: var(--ms-0);
+  --padding: Min(5%, var(--ms-1));
   --baseline: calc(var(--ms-0) * 1.45);
 }
 

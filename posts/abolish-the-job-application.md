@@ -2,7 +2,7 @@
 layout: post
 title: Abolish the job application
 date: 2024-03-29
-intro: In the projective city, applying for work has become a waste of everyone's time.
+intro: Job applications are wasteful and demeaning. Maybe it's time we got rid of them.
 tags: post
 thumb: https://maxkohler.com/assets/job-applications-spot.jpg
 canonical: https://maxakohler.substack.com/p/abolish-job-applications

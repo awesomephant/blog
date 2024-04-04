@@ -15,9 +15,8 @@
 }
 
 .single__title {
-  padding-top: 10vh;
-
   @extend %h1;
+  padding-top: 10vh;
 }
 
 .single__meta {
@@ -202,10 +201,6 @@
   }
 }
 
-.post {
-  color: rgb(18, 38, 63);
-}
-
 .post-figure {
   margin: var(--baseline) 0;
   figcaption {
@@ -256,18 +251,24 @@
   opacity: 0.65;
 }
 
+.tags-post {
+  background: rgb(242, 244, 244);
+}
+
 .signup {
-  border: 2px solid currentColor;
+  color: var(--black);
+  background: white;
+  border: 1px solid currentColor;
   display: inline-flex;
   flex-flow: column;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
-  margin: 0 auto;
   max-width: 30rem;
   margin-top: 3rem;
   padding: 1rem;
   padding-top: 2rem;
   border-radius: var(--br);
+  text-wrap: balance;
   iframe {
     mix-blend-mode: multiply;
     max-width: 100%;

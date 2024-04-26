@@ -9,7 +9,7 @@ This website is built, written and maintained by me (Max Kohler). You can reach 
 
 ## Analytics
 
-This site places cookies and collects no analytics data at all. It does not use Google Analytics or other any third-party analytics software. Your IP address is not recorded.
+This site places no cookies and collects no analytics data at all. It does not use Google Analytics or any other any third-party analytics software.
 
 ## Embedded Content
 

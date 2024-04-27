@@ -117,9 +117,7 @@ But on the other hand, I think the monolith's appeal was never really about the 
 
 In this year of never-ending crisis, where any attempt to look more than a few days into the future seems utterly hopeless, and our movements have become small and repetetive, the Utah Monolith managed what many online art experiences struggled to do: For a moment, it led our gaze, and our mind away from the world immediately in front of us: up, toward the stars ★
 
-<p class="note">
-This story first appeared <a href='https://maxakohler.medium.com/its-probably-art-b554f7c5f3e0'>on Medium</a>.
-</p>
+{% include "signup.liquid"%}
 
 [^1]: Alan Yuhas / The New York Times (2020): _[A Weird Monolith Is Found in the Utah Desert](https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html)_
 [^2]: John Berger (1972): _Ways of Seeing_. Penguin Books.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Privacy
-date:  2022-03-19
+date: 2022-03-19
 tags: "About"
 ---
 
@@ -9,7 +9,7 @@ This website is built, written and maintained by me (Max Kohler). You can reach 
 
 ## Analytics
 
-This site places cookies and collects no analytics data at all. It does not use Google Analytics or other any third-party analytics software. Your IP address is not recorded.
+This site places no cookies and collects no analytics data at all. It does not use Google Analytics or any other any third-party analytics software.
 
 ## Embedded Content
 
@@ -19,7 +19,7 @@ Because this is the case, I only display embedded content with your specific con
 
 ## Email Newsletter
 
-My email newsletter is powered by [Tinyletter](https://tinyletter.com/maxakohler) from Mailchimp. If you choose to subsribe, Mailchimp's [privacy policy](https://mailchimp.com/legal/privacy/) and [terms of use](https://mailchimp.com/legal/terms/) apply.
+My email newsletter is powered by [Substack](https://maxakohler.substack.com/). If you choose to subsribe, Substack's [privacy policy](https://substack.com/privacy) applies.
 
 ## Source Code
 

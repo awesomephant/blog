@@ -1,10 +1,11 @@
 .home__container {
   display: flex;
-  font-size: var(--ms-3);
+  font-size: var(--ms-2);
   flex-wrap: wrap;
   color: var(--black);
-  padding: var(--padding);
+  padding: 0.25em;
   mix-blend-mode: multiply;
+  background: rgb(176, 255, 147);
 
   a,
   .home__year,

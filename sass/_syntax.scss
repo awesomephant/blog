@@ -1,20 +1,20 @@
 code {
   font-family: var(--font-mono);
-  font-size: 0.95em;
+  font-size: 0.85em;
 }
 p > code,
 em > code,
 li > code {
   font-style: normal;
-  background: var(--lightgray);
+  background: rgba(black, 0.075);
   padding: 0 0.2em;
   border-radius: 2px;
 }
 
-code[class*="language-"],
-pre[class*="language-"],
-pre code {
-  font-family: var(--font-mono);
+pre[class*="language-"] {
+  background: rgba(white, 0.5);
+  border: 1px solid rgba(black, 0.1);
+  padding: 1em;
   line-height: 1.25;
   direction: ltr;
   text-align: left;
@@ -47,7 +47,6 @@ pre code {
 
 pre[class*="language-"] {
   margin: 1em 0;
-  margin-bottom: 2em;
   overflow-x: auto;
   scrollbar-width: thin;
   border-radius: $br;
@@ -56,8 +55,7 @@ pre[class*="language-"] {
 pre[class*="-diff"] {
   padding-left: 1.2em;
   @include bp(m) {
-    padding-left: 2em;
-    margin-left: -2em;
+    padding-left: 1.5em;
   }
 }
 
@@ -132,18 +130,19 @@ pre[class*="-diff"] {
 }
 
 .deleted {
-  background-color: rgba(#e71506, 0.1);
+  background-color: rgb(252, 182, 138);
   &,
   & * {
-    color: #e71506 !important;
+    color: #291005 !important;
   }
 }
 
 .inserted {
-  background-color: #d0f3c5;
+  background-color: #9aed80;
   &,
   & * {
     text-decoration: none;
+    color: rgb(5, 34, 15) !important;
   }
 }
 
@@ -166,7 +165,7 @@ pre[class*="-diff"] {
   background: transparent;
   text-decoration: none !important;
   &.inserted {
-    color: #016335;
+    color: #047b43;
   }
 }
 

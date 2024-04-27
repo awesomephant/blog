@@ -87,4 +87,6 @@ The problem with these systems is that they have no way of knowing what you were
 - [Cooper Hewitt Guidelines for Image Description](https://www.cooperhewitt.org/cooper-hewitt-guidelines-for-image-description/). This is the most detailed guide I've found on writing good image descriptions, captions, and alt text. It has particularly thoughtful guidelines on describing people.
 - The idea to frame alt text as a literary endeavour comes from a project called [Alt text is poetry](https://alt-text-as-poetry.net/) by the artists Bojana Coklyat and Shannon Finnegan. Their website is like a breath of fresh air when you've been knee-deep in the WCAG spec all day.
 
+{% include "signup.liquid"%}
+
 [^1]: The U.S Department of Justice has some re­ally well-writ­ten guid­ance on how the [ADA re­lates to web ac­ces­si­bilty](https://beta.ada.gov/web-guidance/).

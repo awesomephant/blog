@@ -47,7 +47,6 @@ document.addEventListener(
     }
 
     let paragraphs = document.querySelectorAll(".single__copy p, .single__copy li")
-
     for (let i = 0; i < paragraphs.length; i++) {
       let image = paragraphs[i].querySelector("img, video, iframe")
       if (image) {
@@ -65,6 +64,24 @@ document.addEventListener(
         img.classList.add("loaded")
       })
     })
+
+    const copyEmailEl = document.querySelector(".copy-email")
+    if (copyEmailEl) {
+      copyEmailEl.addEventListener("click", (e) => {
+        navigator.clipboard.writeText(copyEmailEl.innerText).then(
+          function () {
+            copyEmailEl.innerText = "Copied!"
+            window.setTimeout(() => {
+              copyEmailEl.innerText = "hello@maxkohler.com"
+            }, 3000)
+          },
+          (err) => {
+            copyEmailEl.innerText = "Error :("
+          }
+        )
+      })
+    }
+
     initList()
     initEmbeds()
   },

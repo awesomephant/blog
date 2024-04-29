@@ -5,9 +5,9 @@
   color: var(--black);
   padding: 0.25em;
   mix-blend-mode: multiply;
-  background: rgb(176, 255, 147);
-
+  background: rgb(255, 123, 47);
   a,
+  button,
   .home__year,
   .home__title,
   .home__header span,
@@ -15,6 +15,7 @@
     border: 1px solid rgb(0, 0, 0);
     padding: 0.125em 0.35em;
     padding-top: 0.25em;
+    font-family: inherit;
     border-radius: 15px;
     letter-spacing: -0.045em;
     word-spacing: -0.055em;
@@ -22,9 +23,11 @@
     margin-bottom: -1px;
     margin-right: -1px;
   }
-  a {
+  a,
+  button {
     text-decoration: none;
     position: relative;
+    cursor: pointer;
     &:hover,
     &:focus-visible {
       z-index: 1000;
@@ -44,11 +47,9 @@
     background: rgb(255, 255, 255);
   }
   .home__year,
-  .home__header h1,
-  .home__header span,
+  .home__header button,
   .home__header a,
-  .site__footer a,
-  .footer__copyright {
+  .site__footer a {
     background: var(--black);
     border-color: var(--black);
     position: relative;
@@ -56,11 +57,15 @@
     color: rgb(252, 252, 252);
   }
 }
+.home__header {
+  display: block;
+  flex-basis: 100%;
+  display: flex;
+}
 .home__container {
   ul,
   ol,
   li,
-  .home__header,
   .header__links,
   .home__items,
   .site__footer {

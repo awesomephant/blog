@@ -58,9 +58,11 @@
   }
 }
 .home__header {
-  display: block;
-  flex-basis: 100%;
-  display: flex;
+  display: contents;
+  @include bp(l) {
+    flex-basis: 100%;
+    display: flex;
+  }
 }
 .home__container {
   ul,

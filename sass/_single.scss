@@ -109,17 +109,43 @@
   }
   p.has-image {
     margin: var(--baseline) 0;
-    font-size: var(--ms--1);
+    font-size: var(--ms--2);
+    line-height: calc(var(--baseline) * 0.666);
     img,
     video {
+      margin-bottom: 0.5em;
       max-width: 100%;
     }
+  }
+  mjx-container[jax="CHTML"][display="true"] {
+    margin-top: 0;
   }
   hr {
     margin: calc(var(--baseline) * 2) auto;
     border: 0;
     width: 75%;
     border-top: 1px dotted currentColor;
+  }
+  table {
+    font-size: var(--ms--1);
+    margin-top: var(--baseline);
+    line-height: 1.5;
+    @include bp(m) {
+      width: 120%;
+    }
+  }
+  th {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+  }
+  td {
+    border-bottom: 1px solid gray;
+  }
+  td,
+  th {
+    text-align: left;
+    vertical-align: top;
+    padding: 0;
   }
 }
 

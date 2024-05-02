@@ -4,7 +4,7 @@ title: "Gradient Drawings"
 date: 2019-01-15 10:00:00
 tags: post
 includesMath: true
-intro: "" 
+intro: ""
 ---
 
 I started making machine drawings during my undergrad. Many of my early drawings where born from the excitement fo getting the machine to work at all. Suddenly, I could draw perfectly straight lines, repeat gestures hundreds of times and keep drawing for hours at a time. There's something oddly mezmerising about seeing a familiar drawing instrument (like a ballpoint pen) move in an unfamilliar way: slow, in long, straight lines and with even pressure.
@@ -27,7 +27,7 @@ $$x_n = x_{0} \varphi^n$$
 
 Once the value of $x_n$ exceeds a certain threshold, he starts dividing by $\varphi$ instead of multiplying. Once $x_n$ becomes smaller than a certain value, he switches back to multiplication, and so on. I think he repeats this process for different values of $x_0$ and then combines the resulting series of numbers (by orderubg them by value) to obtain the final result.
 
-The striking thing about Xenakis' method is that for all it's mathematical exactness and complexity, the result feels entirely natural. It is also worth pointing out that he's not really designing a facade: His project is really a *machine for making facades*. Between all the possible values of $x_0$, $n$ and $\varphi$, he opens up a *facade space* filled with an infinite number of points.
+The striking thing about Xenakis' method is that for all it's mathematical exactness and complexity, the result feels entirely natural. It is also worth pointing out that he's not really designing a facade: His project is really a _machine for making facades_. Between all the possible values of $x_0$, $n$ and $\varphi$, he opens up a _facade space_ filled with an infinite number of points.
 
 Xenakis' algorithm is relatively simple — yet it allows for essentially infinite variations. I saw in this a method to explore the tension between line and tone in my undergrad machine drawings in a structured way.
 
@@ -35,27 +35,26 @@ I began by writing [a tool](https://codepen.io/maxakohler/full/WYbQqZ) that woul
 
 ![Xenakis facade drawings](/assets/xenakis/all.jpg)
 
-Xenakis (as far as I can tell) only used the Golden Ratio for his facades. I like using the  12 intervals in the harmonic scale, too.
+Xenakis (as far as I can tell) only used the Golden Ratio for his facades. I like using the 12 intervals in the harmonic scale, too.
 
-
-| |Interval in C|Ratio|Ratio (1:x)|% of larger value|% of smaller value|
-|-|-------------|-----|-----------|-----------------|------------------|
-|unison|C→C|1:1|1|100|100|
-|minor second|C→D♭|15:16|1.067|0.9372071228|106.7
-|major second|C→D|8:9|1.125|	0.8888888889|	112.5
-|minor third|C→E♭|5:6|1.2|	0.8333333333|	120
-|major third|C→E|4:5|1.25|	0.8|	125
-|perfect fourth|C→F|3:4|1.333|	0.7501875469|	133.3
-|aug. fourth or dim. fifth|C→F♯/G♭|1:√2|1.414|	0.7072135785|	141.4
-|perfect fifth|C→G|2:3|1.5|	0.6666666667|	150
-|minor sixth|C→A♭|5:8|1.6|	0.625|	160
-|major sixth|C→A|3:5|1.667|	0.599880024|166.7
-|minor seventh|C→B♭|9:16|1.778|	0.5624296963|177.8
-|major seventh|C→B|8:15|1.875|0.5333333333|187.5|
-|octave|C→C|1:2|2|0.5|200|
+|                           | Interval in C | Ratio | Ratio (1:x) | % of larger value | % of smaller value |
+| ------------------------- | ------------- | ----- | ----------- | ----------------- | ------------------ |
+| unison                    | C→C           | 1:1   | 1           | 100               | 100                |
+| minor second              | C→D♭          | 15:16 | 1.067       | 0.9372071228      | 106.7              |
+| major second              | C→D           | 8:9   | 1.125       | 0.8888888889      | 112.5              |
+| minor third               | C→E♭          | 5:6   | 1.2         | 0.8333333333      | 120                |
+| major third               | C→E           | 4:5   | 1.25        | 0.8               | 125                |
+| perfect fourth            | C→F           | 3:4   | 1.333       | 0.7501875469      | 133.3              |
+| aug. fourth or dim. fifth | C→F♯/G♭       | 1:√2  | 1.414       | 0.7072135785      | 141.4              |
+| perfect fifth             | C→G           | 2:3   | 1.5         | 0.6666666667      | 150                |
+| minor sixth               | C→A♭          | 5:8   | 1.6         | 0.625             | 160                |
+| major sixth               | C→A           | 3:5   | 1.667       | 0.599880024       | 166.7              |
+| minor seventh             | C→B♭          | 9:16  | 1.778       | 0.5624296963      | 177.8              |
+| major seventh             | C→B           | 8:15  | 1.875       | 0.5333333333      | 187.5              |
+| octave                    | C→C           | 1:2   | 2           | 0.5               | 200                |
 
 ## Notes
 
-1. Owen Gregory (2011): *[Composing the New Canon: Music, Harmony, Proportion](https://24ways.org/2011/composing-the-new-canon)*
-2. Sven Sterken (2007): *Music as an Art of Space: Interactions between Music and Architecture in the Work of Iannis Xenakis*. Available at [core.ac.uk/download/pdf/34525212.pdf](https://core.ac.uk/download/pdf/34525212.pdf)
-3. Alex Ross (2010): *Waveforms: The singular Iannis Xenakis.* The New Yorker. Available at [newyorker.com/magazine/2010/03/01/waveforms](https://www.newyorker.com/magazine/2010/03/01/waveforms)
+1. Owen Gregory (2011): _[Composing the New Canon: Music, Harmony, Proportion](https://24ways.org/2011/composing-the-new-canon)_
+2. Sven Sterken (2007): _Music as an Art of Space: Interactions between Music and Architecture in the Work of Iannis Xenakis_. Available at [core.ac.uk/download/pdf/34525212.pdf](https://core.ac.uk/download/pdf/34525212.pdf)
+3. Alex Ross (2010): _Waveforms: The singular Iannis Xenakis._ The New Yorker. Available at [newyorker.com/magazine/2010/03/01/waveforms](https://www.newyorker.com/magazine/2010/03/01/waveforms)

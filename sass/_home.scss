@@ -1,22 +1,25 @@
 .home__container {
   display: flex;
-  font-size: var(--ms-2);
   flex-wrap: wrap;
   color: var(--black);
   padding: 0.25em;
   mix-blend-mode: multiply;
-  background: #c1d91b;
+  background: #29c857;
+  font-size: var(--ms-1);
+  @include bp(m) {
+    font-size: var(--ms-2);
+  }
   a,
   button,
   .home__year,
   .home__title,
   .home__header span,
   .footer__copyright {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid black;
     padding: 0.125em 0.35em;
     padding-top: 0.25em;
     font-family: inherit;
-    border-radius: 15px;
+    border-radius: 0.5em;
     letter-spacing: -0.045em;
     word-spacing: -0.055em;
     display: inline-block;

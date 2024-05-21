@@ -4,7 +4,7 @@
   color: var(--black);
   padding: 0.25em;
   mix-blend-mode: multiply;
-  background: #29c857;
+  background: #eee9a7;
   font-size: var(--ms-1);
   @include bp(m) {
     font-size: var(--ms-2);
@@ -43,7 +43,7 @@
   }
   .post a {
     color: rgb(10, 10, 10);
-    background: rgb(209, 209, 209);
+    background: rgb(235, 223, 114);
   }
   .work a {
     color: rgb(0, 0, 0);

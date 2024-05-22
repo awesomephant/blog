@@ -1,4 +1,3 @@
-import textBalancer from "text-balancer"
 function initList() {
   let search = document.querySelector(".notes__search")
   let index = document.querySelectorAll(".notes__item")
@@ -37,7 +36,6 @@ function initEmbeds() {
 document.addEventListener(
   "DOMContentLoaded",
   function () {
-    textBalancer.balanceText(".single__title")
     let headlines = document.querySelectorAll(".single__copy h2[id], .post-content h3[id]")
     for (let i = 0; i < headlines.length; i++) {
       let link = document.createElement("a")

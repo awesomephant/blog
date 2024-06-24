@@ -8,9 +8,10 @@
 .single__header {
     border-bottom: 1px dotted black;
     padding: 1rem;
-    padding-top: 0.75rem;
+    padding-top: 1rem;
     padding-bottom: 5rem;
     @include bp(s) {
+        padding-top: 0.75rem;
         padding-left: 0;
         padding-right: 0;
         margin-left: 1rem;

@@ -286,7 +286,7 @@
         align-items: flex-end;
         gap: var(--baseline);
         img {
-            max-width: 30rem;
+            max-width: Min(100%, 30rem);
         }
     }
     &.medium {

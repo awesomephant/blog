@@ -5,6 +5,7 @@ intro: A minimalist website for an independent gallery in Margate, England.
 date: 2023-08-01
 tags: work
 draft: false
+is_featured: true
 thumb: https://maxkohler.com/assets/roland-ross.png
 ---
 

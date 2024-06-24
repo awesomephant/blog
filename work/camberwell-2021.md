@@ -11,8 +11,6 @@ intro: Online exhibition website for the 2021 graphic design cohort at Camberwel
 
 The site is built on the Wordpress/ACF/Timber stack. I've built these show sites on the Jamstack before, but this site has so many images and videos I needed something more robust. This setup also allows the design programme to host the site themselves on a retail hosting account at [camberwellgraphicdesign.com](https://camberwellgraphicdesign.com/). We're planning to host future sites at the same domain, and we'll migrate earlier ones there, too.
 
-The typeface is *[Redaction](https://www.redaction.us/)*, drawn by [Jeremy Mickel](https://mckltype.com/) for the *[2019 exhibit of the same name](https://www.moma.org/calendar/exhibitions/5056?locale=en)*  at MoMa PS1.
+The typeface is *[Redaction](https://www.redaction.us/)*, drawn by [Jeremy Mickel](https://mckltype.com/) for the [2019 show of the same name](https://www.moma.org/calendar/exhibitions/5056?locale=en) at MoMA PS1.
 
-Design by Georgia Chambers, [Giuseppe Madera](https://giuseppemadera.com/) and [Harry Boulter](https://harryboulter.com/). Development and additional design by me. Supervised by Emily Wood, Robert Sollis, and Thomas Adank. 
-
-View the live site at **[2021.camberwellgraphicdesign.com](https://2021.camberwellgraphicdesign.com/)**.
+Design by Georgia Chambers, [Giuseppe Madera](https://giuseppemadera.com/) and [Harry Boulter](https://harryboulter.com/). Development and additional design by me. Supervised by Emily Wood, Robert Sollis, and Thomas Adank. View the live site at **[2021.camberwellgraphicdesign.com](https://camberwell2021.maxkohler.com/)** (Archived).

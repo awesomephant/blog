@@ -4,7 +4,7 @@ title: "Gradient Drawings"
 date: 2019-01-15 10:00:00
 tags: post
 includesMath: true
-intro: ""
+is_featured: true
 ---
 
 I started making machine drawings during my undergrad. Many of my early drawings where born from the excitement fo getting the machine to work at all. Suddenly, I could draw perfectly straight lines, repeat gestures hundreds of times and keep drawing for hours at a time. There's something oddly mezmerising about seeing a familiar drawing instrument (like a ballpoint pen) move in an unfamilliar way: slow, in long, straight lines and with even pressure.

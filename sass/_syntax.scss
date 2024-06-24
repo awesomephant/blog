@@ -1,112 +1,107 @@
 code {
-  font-family: var(--font-mono);
-  font-size: 0.85em;
+    font-family: var(--font-mono);
+    font-size: 0.8em;
+    letter-spacing: -0em;
 }
 p > code,
 em > code,
 li > code {
-  font-style: normal;
-  background: rgba(black, 0.075);
-  padding: 0 0.2em;
-  border-radius: 2px;
+    font-style: normal;
+    background: rgba(black, 0.075);
+    padding: 0 0.2em;
 }
 
 pre[class*="language-"] {
-  background: rgba(white, 0.5);
-  border: 1px solid rgba(black, 0.1);
-  padding: 1em;
-  line-height: 1.25;
-  direction: ltr;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  tab-size: 2;
-  hyphens: none;
-  overflow-x: visible;
-  display: block;
-  font-weight: 400;
-  width: 100%;
-  color: var(--black);
-  position: relative;
-  mark {
+    border-top: 1px solid var(--gray-50);
+    padding: 0.5rem 0;
+    line-height: 1.1;
+    direction: ltr;
+    text-align: left;
+    white-space: pre-wrap;
+    word-spacing: normal;
+    word-break: normal;
+    tab-size: 2;
+    hyphens: none;
+    overflow-x: visible;
+    display: block;
+    font-weight: 400;
     width: 100%;
-    background-color: var(--mark);
-    border-radius: $br;
-    display: inline-block;
-  }
-  &:after {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    font-size: var(--ms--2);
-    font-family: var(--font-sans);
     color: var(--black);
-  }
+    position: relative;
+    mark {
+        width: 100%;
+        background-color: var(--mark);
+        border-radius: $br;
+        display: inline-block;
+    }
+    &:after {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        font-size: var(--ms--2);
+        font-family: var(--font-sans);
+        color: var(--black);
+    }
 }
 
 pre[class*="language-"] {
-  margin: 1em 0;
-  overflow-x: auto;
-  scrollbar-width: thin;
-  border-radius: $br;
-  counter-reset: lines;
+    margin: 1rem 0;
+    margin-top: 1.5rem;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    counter-reset: lines;
 }
 pre[class*="-diff"] {
-  padding-left: 1.2em;
-  @include bp(m) {
-    padding-left: 1.5em;
-  }
 }
 
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: var(--gray);
-  font-style: italic;
+    color: var(--gray);
+    font-style: italic;
 }
 
 .token.liquid {
-  font-style: italic;
+    font-style: italic;
 }
 
 .token.namespace {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .token.operator,
 .token.boolean,
 .token.number,
 .cmt-typeName {
-  color: var(--black);
+    color: var(--black);
 }
 
 .token.property {
-  color: var(--black);
+    color: var(--black);
 }
 
 .tag {
 }
 
 .token.string {
-  color: #0c0c0c;
-  font-style: italic;
+    color: #0c0c0c;
+    font-style: italic;
 }
 
 .token.selector {
-  color: #0c0c0c;
+    color: #0c0c0c;
 }
 
 .token.attr-name {
-  color: #044f1e;
+    color: #044f1e;
 }
 
 .token.entity,
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: var(--black);
+    color: var(--black);
 }
 
 .token.attr-value,
@@ -114,64 +109,68 @@ pre[class*="-diff"] {
 .token.control,
 .token.directive,
 .token.unit {
-  font-style: italic;
-  color: #1c55aa;
+    font-style: italic;
+    color: #1c55aa;
 }
 
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: var(--black);
+    color: var(--black);
 }
 
 .token.placeholder,
 .token.variable {
-  color: #137423;
+    color: #137423;
 }
 
 .deleted {
-  background-color: rgb(252, 182, 138);
-  &,
-  & * {
-    color: #291005 !important;
-  }
+    background-color: rgb(252, 182, 138);
+    &,
+    & * {
+        color: #291005 !important;
+    }
 }
 
 .inserted {
-  background-color: #9aed80;
-  &,
-  & * {
-    text-decoration: none;
-    color: rgb(5, 34, 15) !important;
-  }
+    background-color: #d0ead5;
+    &,
+    & * {
+        text-decoration: none;
+    }
 }
 
 .token.italic {
-  font-style: italic;
+    font-style: italic;
 }
 .token.parameter {
-  color: #df3a10;
+    color: #df3a10;
 }
 
 .token.important {
-  color: #c94922;
+    color: #c94922;
 }
 
 .prefix {
-  margin-left: -0.5em;
-  position: relative;
-  left: -0.5em;
-  user-select: none;
-  background: transparent;
-  text-decoration: none !important;
-  &.inserted {
-    color: #047b43;
-  }
+    margin-left: -0.5em;
+    position: relative;
+    left: -0.5em;
+    user-select: none;
+    background: transparent;
+    display: none;
+    text-decoration: none !important;
+    &.inserted {
+        color: #047b43;
+    }
 }
 
 .code__title {
-  font-size: var(--ms--2);
-  color: var(--gray);
-  margin-bottom: 0.25em;
-  display: block;
+    font-size: var(--ms-0);
+    color: var(--gray-60);
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+p:has(.code__title) + pre {
+    margin-top: 0;
 }

@@ -4,29 +4,30 @@ class: notes
 ---
 
 {% assign counter = 1 %} {% for n in collections.notes %} {% assign counter = counter | plus : 1 %} {% endfor %}
-<a class="notes__back" href="/">{{ site.title }}</a>
-<h2 class="notes__title">Lecture Notes</h2>
 <div class="notes__container" id="notes-container">
+   <div class="notes__header">
+    <h2 class="notes__title">Lecture Notes</h2>
   <input type="text" class="notes__search fuzzy-search" placeholder="Search {{ counter }} entries" />
+  </div>
   <ul class="notes__list list">
     {% assign notes = collections.notes | reverse %} {% for n in notes %}
-    <li class="notes__item">
+    <li>
+        <a class="notes__item" href="{{ n.url }}">
       <date class="note__date">
-        <span class="date-short">{{ n.data.date | date: "%m/%y" }}</span>
+        <span class="date-short">{{ n.data.date | date: "%m.%y" }}</span>
       </date>
-      <h3 class="note__title">
-        <a href="{{ n.url }}">
-          {{ n.data.title }}
-        </a>
-      </h3>
       <span class="note__teacher">
         {% assign ts = n.data.teacher | split: ","%} {% for t in ts %}
         <span>{{ t }}</span>
         {% endfor %}
       </span>
-      <span class="note__unit">
+      <span class="note__venue">
         <span>{{ n.data.unit }}</span>
       </span>
+        <h3 class="note__title">
+          {{ n.data.title }}
+      </h3>
+      </a>
     </li>
     {% endfor %}
   </ul>

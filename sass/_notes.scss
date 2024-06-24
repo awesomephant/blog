@@ -1,53 +1,105 @@
 .notes {
-  background: rgb(247, 245, 230);
-  padding: var(--padding);
+    background: #cac3c3;
 }
-
-.notes__list {
-  display: grid;
-  @include bp(m) {
-    grid-template-columns: max-content 1fr max-content max-content;
-  }
-  column-gap: 1em;
+.notes__container {
+    display: grid;
+    margin-left: -1px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    grid-template-columns: subgrid;
+    background: #b2b9c4;
+    grid-column: 1 / 13;
+    @include bp(s) {
+        grid-column: 4 / 13;
+    }
 }
-.notes__item {
-  list-style: none;
-  margin-bottom: 0.5em;
-  @include bp(m) {
-    display: contents;
-  }
-  &.hidden {
-    display: none;
-  }
+.notes__header {
+    grid-column: 1 / 13;
+    padding: 0.5rem;
+    display: flex;
+    border-bottom: 1px solid black;
+    flex-flow: column;
+    background: #5788bd;
+    gap: 0.5rem;
+    @include bp(s) {
+        padding-bottom: 5rem;
+        align-items: center;
+        flex-flow: row;
+        justify-content: space-between;
+    }
 }
 
 .notes__title {
-  @extend %h1;
-  margin-top: 2em;
+    @extend %h2;
 }
 
 .notes__search {
-  margin-bottom: 0.75em;
-  font-size: var(--ms-1);
-  background: transparent;
-  border: 1px solid var(--black);
-  padding: 0 0.2em;
+    font-size: var(--ms-0);
+    background: white;
+    border: 1px solid var(--black);
+    padding: 0.15rem 0.25rem;
+    box-shadow: 2px 2px 0 inset var(--gray-20);
+    grid-column: 1 / 10;
+    &:focus {
+        outline: 1px solid black;
+    }
+    &::placeholder {
+        opacity: 1;
+        color: black;
+    }
+}
+.notes__list {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: 1 / 13;
+    li {
+        display: contents;
+        &:last-child a {
+            border-bottom: 0;
+        }
+    }
+}
+.notes__item {
+    list-style: none;
+    padding: 0.15rem 0.5rem;
+    grid-column: 1 / 13;
+    display: grid;
+    grid-template-columns: subgrid;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+    &.hidden {
+        display: none;
+    }
+    &:hover,
+    &:focus-visible {
+        background: rgba(white, 0.15);
+        border-bottom: 1px solid black;
+    }
+}
+
+.note__date {
+    grid-column: 1 / 2;
 }
 
 .note__teacher {
-  span {
-    display: block;
-  }
+    grid-column: 2 / 4;
+    display: none;
+    @include bp(m) {
+        display: block;
+    }
+    span {
+        display: block;
+    }
+}
+
+.note__venue {
+    grid-column: 3 / 4;
+    display: none;
 }
 
 .note__title {
-  a {
-    display: block;
-    padding: 0.1em;
-    text-decoration: none;
-    &:hover,
-    &:focus-visible {
-      background: white;
+    grid-column: 2 / 13;
+    @include bp(m) {
+        grid-column: 4 / 10;
     }
-  }
 }

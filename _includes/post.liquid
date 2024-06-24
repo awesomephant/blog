@@ -5,19 +5,6 @@ class: post
 
 <article class="single__container {{ page.class }} section-{{ page.section }}">
   <header class="single__header {% if intro%}has-intro{%endif%}">
-    <aside class="single__meta">
-      {% if draft %}
-      <span>DRAFT</span>
-      {% endif %}
-      <a href="/" class="post__home">{{ site.title }}</a>
-      <span class="post-date post-meta-item">
-        {% if updated %}
-        <time class="updated"> Updated {{ updated | date: "%B %d, %Y" }} </time>
-        {% else %}
-        <time>{{ date | date: "%B %d, %Y" }}</time>
-        {% endif %}
-      </span>
-    </aside>
     <h1 class="single__title">
       {% if external_link %}
       <a href="{{ external_link }}">{{ title }}</a>
@@ -29,11 +16,20 @@ class: post
     </h1>
     {% if intro %}
     <div class="single__intro">
-      {{ intro }}
+      {{ intro | renderMarkdown }}
     </div>
     {% endif %} {% if hero.src %}
     <img class="single__thumb" src="{{ hero.src }}" alt="{{ hero.alt }}" />
     {% endif %}
+        <aside class="single__meta">
+      <span class="post-date post-meta-item">
+        {% if updated %}
+        <time class="updated">Published <time>{{ date | date: "%B %d, %Y" }}</time>, updated {{ updated | date: "%B %d, %Y" }} </time>
+        {% else %}
+        Published <time>{{ date | date: "%B %d, %Y" }}</time>
+        {% endif %}
+      </span>
+    </aside>
   </header>
   <div class="single__copy">
     {{ content }}

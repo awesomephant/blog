@@ -5,6 +5,7 @@ date: 2020-04-26
 tags: work
 external_link: https://mpat.maxkohler.com/
 category: Editorial
+is_featured: true
 ---
 
 ![/assets/projects/mpat.png](/assets/mpat.png)

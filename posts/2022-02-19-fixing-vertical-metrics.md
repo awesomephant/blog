@@ -6,6 +6,7 @@ includesMath: false
 includesMusic: false
 tags: post
 draft: false
+is_featured: true
 thumb: https://www.maxkohler.com/assets/type-twitter.jpg
 ---
 

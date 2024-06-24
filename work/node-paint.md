@@ -4,11 +4,11 @@ title: Node Paint
 date: 2019-08-01
 tags: work
 category: Interactive
+intro: An experimental web-based drawing tool where you configure the pen by connecting nodes in a graphical programming interface.
+is_featured: true
 ---
 
 ![Screenshot](/assets/np/Capture-19.PNG)
-
-An experimental web-based drawing tool where you configure the pen by connecting nodes in a graphical programming interface.
 
 This started [as an attempt to reverse-engineer](https://codepen.io/maxakohler/pen/ydqVjO) the branding for RCA Show 2019 by [Regular Practice](http://www.regularpractice.co.uk/). The idea for the node-based editor comes primarily from [Blender's shader editor](https://docs.blender.org/manual/en/latest/editors/shader_editor/index.html) (because I use it a lot), though the idea of [Flow-Based Programming](https://en.wikipedia.org/wiki/Flow-based_programming) is much older than that. I'm using [IBM Plex Sans](https://www.ibm.com/plex/), which works beautifully as an interface typeface.
 

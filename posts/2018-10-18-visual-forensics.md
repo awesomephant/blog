@@ -6,7 +6,7 @@ thumb: ''
 thumbnail: '/assets/vf/vf-banner.png'
 coverImageCredit: Lichen
 includesMath: true
-intro: "Notes on the Visual Forensics elective at the RCA" 
+intro: "Notes on the Visual Forensics elective at the RCA"
 tags: post
 ---
 
@@ -19,7 +19,7 @@ tags: post
 - [x] Petra Lange-Berndt: *Materiality*
 - [ ] Catherine Malabou: *Ontology of the Accident: An Essay on Destructive Plasticity*
 - [x] Maria Fusco: *[Master Rock](https://vimeo.com/142818895)*
-- [x] Charles and Ray Eames (1977): *Powers of Ten*	
+- [x] Charles and Ray Eames (1977): *Powers of Ten*
 - [x] *[The Art of Japanese Life: Nature](https://www.youtube.com/watch?v=kAN6zJKlAHI)*
 - [x] William Kentridge: *Six Drawing Lessons*
 - [x] Hito Steyerl: *[In Defense of the Poor Image](https://www.e-flux.com/journal/10/61362/in-defense-of-the-poor-image/)*
@@ -60,12 +60,9 @@ When I took these images, I was doing my best to move the camera in straight lin
 I'm also finding some other artifacts related to lichen. There's a database of every recorded lichen in London, with all kinds of rich metadata attached:
 
 <div class='table-container'>
-<table class='dense'>
+<table class='dense wide'>
 <thead>
 <tr>
-<td>gbifID</td>
-<td>Dataset Key</td>
-<td>Occurrence ID</td>
 <td>Scientific Name</td>
 <td>Country</td>
 <td>Locality</td>
@@ -77,9 +74,6 @@ I'm also finding some other artifacts related to lichen. There's a database of e
 <tbody>
 {% for row in lichen %}
 <tr>
-    <td>{{row.gbifID}}</td>
-    <td>{{row.datasetKey}}</td>
-    <td>{{row.occurrenceID}}</td>
     <td>{{row.scientificName}}</td>
     <td>{{row.countryCode}}</td>
     <td>{{row.locality}}</td>
@@ -88,7 +82,7 @@ I'm also finding some other artifacts related to lichen. There's a database of e
     <td>{{row.identifiedBy}}</td>
 </tr>
 {% endfor %}
-<tr><td>...</td></tr>  
+<tr><td>...</td></tr>
 </tbody>
 </table>
 </div>
@@ -97,7 +91,7 @@ Source: GBIF.org (15 October 2018): *GBIF Occurrence Download* [DOI: 10.15468/dl
 
 The section of database (limited to London) I downloaded has 2,548 entires. To save space, various columns are omitted in the example above.
 
-Also, Matt points out that the lichen in my images are forming *Turing Patterns*. Turing patterns are a mathematical concept that describes how patterns found in nature (such as stripes, spots, growth patterns) can be described using *reaction-diffusion* (which is a mathematical model that describes the mixing of chemicals). 
+Also, Matt points out that the lichen in my images are forming *Turing Patterns*. Turing patterns are a mathematical concept that describes how patterns found in nature (such as stripes, spots, growth patterns) can be described using *reaction-diffusion* (which is a mathematical model that describes the mixing of chemicals).
 
 ![Turing Patterns](/assets/vf/TuringPattern-2.png)
 Dolnik, Milos & M. Zhabotinsky, Anatol & Epstein, Irving. (2001): *Resonant suppression of Turing patterns by periodic illumination*. Physical review. E, Statistical, nonlinear, and soft matter physics. 63. 026101. [10.1103/PhysRevE.63.026101](https://www.researchgate.net/publication/12025147_Resonant_suppression_of_Turing_patterns_by_periodic_illumination).
@@ -111,7 +105,7 @@ See also: Alan Turing (1952): *[The Chemical Basis of Morphogenesis](http://www.
 
 ### Catrin Morgan on Visual Essays
 
-A definition of illustration: Any image that takes a communicating role in a text. Text meaning words or images or both. Catrin did a lot of work on different depictions of [St. Jerome in his Study](), which is [detailed here](https://wsworkshop.org/2018/03/catrin-morgan/). 
+A definition of illustration: Any image that takes a communicating role in a text. Text meaning words or images or both. Catrin did a lot of work on different depictions of [St. Jerome in his Study](), which is [detailed here](https://wsworkshop.org/2018/03/catrin-morgan/).
 
 ![St. Jerome in his study](/assets/vf/jerome.jpg)
 Vincenzo Catena (c.a 1510): *St. Jerome in his Study* [The National Gallery](https://www.nationalgallery.org.uk/paintings/vincenzo-catena-saint-jerome-in-his-study)
@@ -128,7 +122,7 @@ You start seeing images referencing each other (chronology)
 
 ### Details of different images next to each other**
 
-You start seeing repetition of elements etc. 
+You start seeing repetition of elements etc.
 
 David Carrier (2000): *[The Aesthetics of Comics](https://www.amazon.co.uk/Aesthetics-Comics-David-Carrier/dp/0271021888)*
 
@@ -248,7 +242,7 @@ The book is designed to [add a secondary voice](#introducing-a-new-diagrammatic-
 
 ### Reading for November 9
 
-- [x] Peter Fischli & David Weiss: *[The Way Things Go](https://www.youtube.com/watch?v=GXrRC3pfLnE)* (3 mins) 
+- [x] Peter Fischli & David Weiss: *[The Way Things Go](https://www.youtube.com/watch?v=GXrRC3pfLnE)* (3 mins)
 - [x] Sarah Sze: *[Meaning between Things](http://channel.louisiana.dk/video/sarah-sze-meaning-between-things)* (12 Mins)
 
 ### Brief for Novemeber 9
@@ -370,7 +364,7 @@ The task for the next session is to generate a visual outcome on *an aspect of m
 
 > Please prepare a digital presentation and bring any physical work that you have made so far. Your presentation should cover: Concepts, Process, How it relates to a 'forensic' approach, What you have made so far, Supporting material (including relevant work from past projects), Potential modes of presentation and display structures, How you want people to engage with the work, Proposed space required within the Canal Museum.
 
-We understand that the work might change and we are not expecting you to know exactly what the work will look like at this stage but this statement of intent will be really useful in helping develop the work in the coming months and in curating the exhibition/event. 
+We understand that the work might change and we are not expecting you to know exactly what the work will look like at this stage but this statement of intent will be really useful in helping develop the work in the coming months and in curating the exhibition/event.
 
 The building used to be a storage facility for ice blocks imported from Norway.
 

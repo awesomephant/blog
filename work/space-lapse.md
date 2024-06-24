@@ -6,6 +6,7 @@ date: 2021-01-05
 tags: work
 category: Lettering
 draft: false
+is_featured: true
 ---
 
 {% include "fig.liquid", src: "/assets/space-lapse/hero.svg", alt: "The words 'Space Lapse' are rendered in soft, black pixels.", class: "full" %}
@@ -14,9 +15,7 @@ For the main lettering, I rendered the title of the show on a 5x3 grid. I looked
 
 After I had worked out the letterforms on paper, I wrote a [Drawbot](https://github.com/justvanrossum/drawbot-skia) script to produce the vectors. This is the first time I've used Drawbot for production work, and it felt great. There's something exciting about leaving standard design software behind and applying a whole new toolchain to a real-world design problem.
 
-Building the lettering with code allowed me to produce things like an animated version of the lettering very easily, just by changing a few input variables.
-
-The supporting typeface is [Everson Mono](https://evertype.com/emono/) by Michael Everson.
+Building the lettering with code allowed me to produce things like an animated version of the lettering very easily, just by changing a few input variables. The supporting typeface is [Everson Mono](https://evertype.com/emono/) by Michael Everson.
 
 {% include "fig.liquid", src: "/assets/space-lapse/overlay-black.gif", alt: "The words 'Space Lapse' are rendered in black pixels. They shift upwards in a continuous loop.", class: "small" %}
 

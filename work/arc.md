@@ -15,8 +15,6 @@ Website for the online relaunch of ARC Magazine, produced by the writing program
 
 The site is built in [Eleventy](https://www.11ty.dev/) and hosted on Netlify.
 
-It's Set in _Swiss Works_ by Ian Party, _Arial Regular_ by Robin Nicholas and Patricia Saunder, and _ARC Regular_ (a modified version of _Times_) by William Jacobson.
-
-Art direction by [Maya Guileva](https://mayagulieva.com/) and [William Jacobson](https://www.williamjacobson.se/), design and code by me.
+It's Set in _Swiss Works_ by Ian Party, _Arial Regular_ by Robin Nicholas and Patricia Saunder, and _ARC Regular_ (a modified version of _Times_) by William Jacobson. Art direction by [Maya Guileva](https://mayagulieva.com/) and [William Jacobson](https://www.williamjacobson.se/), design and code by me.
 
 View the live site at [arc.maxkohler.com](https://arc.maxkohler.com)

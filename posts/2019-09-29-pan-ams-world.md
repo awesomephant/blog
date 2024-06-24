@@ -2,11 +2,10 @@
 layout: post
 title: "PanAm's World"
 date: 2019-09-29 10:00:00
-includesMath: false
-includesMusic: false
 intro: ""
 external_link: "http://content-free.net/articles/panams-world"
 tags: post
+is_featured: true
 publication: Content Free
 ---
 

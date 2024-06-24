@@ -1,89 +1,116 @@
 @mixin bp($point) {
-  @if $point==xl {
-    @media (min-width: 100rem) {
-      @content;
+    @if $point==xl {
+        @media (min-width: 100rem) {
+            @content;
+        }
+    } @else if $point==l {
+        @media (min-width: 85rem) {
+            @content;
+        }
+    } @else if $point==m {
+        @media (min-width: 60rem) {
+            @content;
+        }
+    } @else if $point==s {
+        @media (min-width: 35rem) {
+            @content;
+        }
     }
-  } @else if $point==l {
-    @media (min-width: 85rem) {
-      @content;
-    }
-  } @else if $point==m {
-    @media (min-width: 60rem) {
-      @content;
-    }
-  } @else if $point==s {
-    @media (min-width: 35rem) {
-      @content;
-    }
-  }
 }
 
 @keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(5px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @font-face {
-  font-family: Atlas;
-  src: url(./assets/fonts/AtlasGrotesk-Regular.woff) format("woff"), url(./assets/fonts/AtlasGrotesk-Regular.woff2) format("woff2");
-  font-weight: 500;
-  font-display: swap;
+    font-family: Atlas;
+    src: url(./assets/fonts/Unica77LLWeb-Regular.woff2) format("woff2");
+    font-weight: 500;
+    font-display: swap;
 }
 @font-face {
-  font-family: Atlas;
-  src: url(./assets/fonts/AtlasGrotesk-Black.woff) format("woff"), url(./assets/fonts/AtlasGrotesk-Black.woff2) format("woff2");
-  font-weight: 700;
-  font-display: swap;
+    font-family: Atlas;
+    src: url(./assets/fonts/Unica77LLWeb-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-display: swap;
 }
 
 $fast: 150ms;
 $br: 3px;
 
 :root {
-  --font-text: "Atlas", serif;
-  --font-sans: "Atlas", "Arial", sans-serif;
-  --font-mono: "Consolas", "Lucida Console", Courier Prime, monospace;
-  --ratio: 1.2;
-  --ms-0: clamp(0.9rem, calc(1.3vw + 0.2rem), 1.25rem);
-  --ms--2: calc(var(--ms--1) / var(--ratio));
-  --ms--1: calc(var(--ms-0) / var(--ratio));
-  --ms-1: calc(var(--ms-0) * var(--ratio));
-  --ms-2: calc(var(--ms-1) * var(--ratio));
-  --ms-3: calc(var(--ms-2) * var(--ratio));
-  --ms-4: calc(var(--ms-3) * var(--ratio));
-  --ms-5: calc(var(--ms-4) * var(--ratio));
-  --ms-6: calc(var(--ms-5) * var(--ratio));
-  --ms-7: calc(var(--ms-6) * var(--ratio));
-  --ms-text: calc(var(--ms-0));
-  --black: rgb(8, 8, 8);
-  --gray: rgb(102, 104, 105);
-  --lightgray: rgb(238, 237, 234);
-  --white: #fff;
-  --mark: rgb(249, 237, 181);
-  --background: rgb(253, 253, 253);
-  --blue: #2e50a6;
-  --red: #c4320a;
-  --fast: 300ms;
-  --br: 3px;
-  --padding: Min(5%, var(--ms-1));
-  --baseline: calc(var(--ms-0) * 1.45);
+    --font-text: "Atlas", monospace;
+    --font-sans: "Atlas Typewriter", "Arial", sans-serif;
+    --font-mono: "Consolas", "Lucida Console", Courier Prime, monospace;
+    --ratio: 1.2;
+    --ms-0: clamp(0.85rem, calc(1.3vw + 0.2rem), 0.95rem);
+    --ms--2: calc(var(--ms--1) / var(--ratio));
+    --ms--1: calc(var(--ms-0) / var(--ratio));
+    --ms-1: calc(var(--ms-0) * var(--ratio));
+    --ms-2: calc(var(--ms-1) * var(--ratio));
+    --ms-3: calc(var(--ms-2) * var(--ratio));
+    --ms-4: calc(var(--ms-3) * var(--ratio));
+    --ms-5: calc(var(--ms-4) * var(--ratio));
+    --ms-6: calc(var(--ms-5) * var(--ratio));
+    --ms-7: calc(var(--ms-6) * var(--ratio));
+    --ms-text: calc(var(--ms-0));
+    --black: rgb(8, 8, 8);
+    --gray: rgb(102, 104, 105);
+    --lightgray: rgb(238, 237, 234);
+    --white: #fff;
+    --mark: #fffdeb;
+    --gray-10: rgba(0, 0, 0, 0.05);
+    --gray-20: rgba(0, 0, 0, 0.2);
+    --gray-30: rgba(0, 0, 0, 0.3);
+    --gray-50: rgba(0, 0, 0, 0.5);
+    --gray-60: rgba(0, 0, 0, 0.6);
+    --background: rgb(253, 253, 253);
+    --blue: #2e50a6;
+    --red: #c4320a;
+    --yellow: rgb(255, 230, 25);
+    --yellow-light: rgb(240, 240, 240);
+    --fast: 300ms;
+    --br: 3px;
+    --padding: Min(5%, var(--ms-1));
+    --baseline: calc(var(--ms-0) * 1.45);
+}
+
+%copy {
+    font-family: var(--font-text);
+    font-size: var(--ms-0);
+    font-feature-settings:
+        "onum" 1,
+        "kern" 1;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.0125em;
+    line-height: 1.35;
 }
 
 %h1 {
-  font-size: var(--ms-4);
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.75rem;
-  line-height: calc(var(--baseline) * 1.5);
-  @include bp(m) {
-    letter-spacing: -0.015em;
-    line-height: calc(var(--baseline) * 2.333);
-    font-size: var(--ms-6);
-  }
+    font-size: var(--ms-3);
+    font-weight: 600;
+    text-wrap: balance;
+    letter-spacing: 0;
+    line-height: calc(var(--baseline) * 1.2);
+    @include bp(m) {
+        line-height: calc(var(--baseline) * 1.5);
+        font-size: var(--ms-4);
+    }
+}
+
+%h2 {
+    font-size: var(--ms-2);
+    font-weight: 600;
+    text-wrap: balance;
+    line-height: var(--baseline);
+    @include bp(m) {
+        font-size: var(--ms-3);
+    }
 }

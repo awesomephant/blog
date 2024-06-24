@@ -6,6 +6,7 @@ tmp/
 /dist
 *.ps
 *.psd
+.DS_Store
 
 .yarn/*
 !.yarn/patches

@@ -9,13 +9,13 @@ draft: false
 thumb: https://maxkohler.com/assets/dialogues-2.png
 ---
 
-{% include "fig.liquid", src: "/assets/dialogues-1.png", alt: "Screenshot shows website with list of articles in large serif type on white background. Title reads: Dialogues", class: "big"%}
-
-{% include "fig.liquid", src: "/assets/dialogues-2.png", alt: "Screenshot shows website with article in large serif type on light yellow background. Title reads: Issue One / Identities, a photograph of a bulls' head made of paper-mache is seen.", class: "big"%}
-
 {% include "fig.liquid", src: "/assets/dialogues-3.jpg", alt: "Scan shows publication cover printed on light yellow paper. Title in large serif type reads: Issue One / Identities / Dialogues", class: "big"%}
 
 {% include "fig.liquid", src: "/assets/dialogues-4.jpg", alt: "Scan shows inside pages of publication printed on light yellow paper. Left: Table of contents, Right: Editorial printed in large serif type.", class: "big"%}
+
+{% include "fig.liquid", src: "/assets/dialogues-1.png", alt: "Screenshot shows website with list of articles in large serif type on white background. Title reads: Dialogues", class: "big"%}
+
+{% include "fig.liquid", src: "/assets/dialogues-2.png", alt: "Screenshot shows website with article in large serif type on light yellow background. Title reads: Issue One / Identities, a photograph of a bulls' head made of paper-mache is seen.", class: "big"%}
 
 > A repository for words and images produced by Illustration Animation students, staff and researchers at Kingston School of Art.
 

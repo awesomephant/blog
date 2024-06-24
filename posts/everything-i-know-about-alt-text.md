@@ -8,6 +8,7 @@ includesMusic: false
 intro: "A good part of my job is telling peo­ple to use alt texts. To make my life eas­ier, here are all my notes and references in one place."
 tags: post
 draft: false
+is_featured: true
 thumb: https://www.maxkohler.com/assets/fruit-type-2.png
 ---
 
@@ -86,7 +87,5 @@ The problem with these systems is that they have no way of knowing what you were
 - [The Hidden Image Descriptions Making the Internet Accessible](https://www.nytimes.com/interactive/2022/02/18/arts/alt-text-images-descriptions.html). A really well-produced introduction to alt text from both technical and cultural perspectives by Meg Miller and Ilaria Parogni in the New York Times.
 - [Cooper Hewitt Guidelines for Image Description](https://www.cooperhewitt.org/cooper-hewitt-guidelines-for-image-description/). This is the most detailed guide I've found on writing good image descriptions, captions, and alt text. It has particularly thoughtful guidelines on describing people.
 - The idea to frame alt text as a literary endeavour comes from a project called [Alt text is poetry](https://alt-text-as-poetry.net/) by the artists Bojana Coklyat and Shannon Finnegan. Their website is like a breath of fresh air when you've been knee-deep in the WCAG spec all day.
-
-{% include "signup.liquid"%}
 
 [^1]: The U.S Department of Justice has some re­ally well-writ­ten guid­ance on how the [ADA re­lates to web ac­ces­si­bilty](https://beta.ada.gov/web-guidance/).

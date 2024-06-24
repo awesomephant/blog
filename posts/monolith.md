@@ -12,7 +12,7 @@ hero:
   alt: "3d rendering of a silver monolith floating above a grassy field"
 ---
 
-{% leadin %}The Utah Monolith{% endleadin %} stood at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by wildlife officials on November 23, 2020, and removed ten days later by four unknown men. [^1]
+{% leadin %}The Utah Monolith{% endleadin %} stood at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by wildlife officials on November 23, 2020, and removed ten days later by four unknown men.[^1]
 
 It was ten to twelve feet tall, and made of polished sheet metal riveted together along the edges, forming a slender, triangular column. Until its removal, the structure was embedded (possibly cemented) into a hole of the same cross section, probably cut into the hard ground with a concrete saw.
 
@@ -53,7 +53,7 @@ Cut to a research ship on the Indian ocean, on the opposite side of the Earth, y
 
 We have been looking at works of art in this way for a long time: Berger wrote his seminal book _Ways of Seeing_ in 1972[^2], when television sets had just entered the home, and Walter Benjamin saw the trend in the 19th century, when photo-engraving had made the mass-reproduction of paintings possible for the first time. But usually there is at least the option (however theoretical) to go see a work in person. This wasn't the case with the monolith - not only was it installed in an inaccessible location, but we've been confined to our homes for months; and travel between states, let alone countries is a distant memory for most of us.
 
-All we have are the four still photographs and three short videos of the sculpture released by the Utah Department of Public Safety [^3] (I'll refer to them here by their filenames).
+All we have are the four still photographs and three short videos of the sculpture released by the Utah Department of Public Safety[^3] (I'll refer to them here by their filenames).
 
 In _Monolith.mp4_, which appears to be the first in the sequence, we see three men in green overalls descending a slope and walking slowly toward the monolith. The fourth man, who is holding the camera, comments: _"Okay, the intrepid explorers go down to investigate the, uh, alien life form"_. In the following images[^4] the camera has followed the men down the slope, and we see them examining the monlith closer. Though the camera moves around throughout the sequence, we always see the monolith from a more or less frontal perspective.
 
@@ -95,9 +95,9 @@ We clearly see the impact of Kubrick's photography on whoever set up the Utah Im
 
 Kubrick’s film in turn follows photographs and paintings of the sublime landscape of earlier periods, both in its theme and its aesthetics. I wouldn't be surprised to find a photocopy of _The Chasseur_ somewhere in Kubrick's vast archive.[^11]
 
-But the chain of influence runs the other way, too: Our whole notion of _The Landscape_, and in some cases its physical reality are themselves cultural productions. In the 18th century, European aristocrats planted trees, dug lakes, and built prop ruins of Greek or Roman temples to bring their land closer to what they had seen in paintings of their day. [^12]
+But the chain of influence runs the other way, too: Our whole notion of _The Landscape_, and in some cases its physical reality are themselves cultural productions. In the 18th century, European aristocrats planted trees, dug lakes, and built prop ruins of Greek or Roman temples to bring their land closer to what they had seen in paintings of their day.[^12]
 
-In the 19th century photography, having inherited the visual language of painting, helped shape the fantasy of the great, "untouched" American landscape that still lingers today. Photographers like Carleton Watkins didn’t “discover” places like Yosemite Valley, but constructed them with complex optical machinery and painstaking work in the darkroom. [^13]
+In the 19th century photography, having inherited the visual language of painting, helped shape the fantasy of the great, "untouched" American landscape that still lingers today. Photographers like Carleton Watkins didn’t “discover” places like Yosemite Valley, but constructed them with complex optical machinery and painstaking work in the darkroom.[^13]
 
 {% include "embed.liquid", src: "https://player.vimeo.com/video/70173915?autoplay=0&loop=1&title=0&byline=0&portrait=0&muted=1", format: 45, caption: "*2001*'s Star Gate sequence (1968)"%}
 
@@ -116,8 +116,6 @@ Finally it disappeared, ten days after it was discovered. According to a couple 
 But on the other hand, I think the monolith's appeal was never really about the physical thing anyway; that was just a prop. What’s more important is the cultural output inspired by it: the images, videos, news reports, collective speculation, and even the after-dark performance of its destruction. That collective body of work survives.
 
 In this year of never-ending crisis, where any attempt to look more than a few days into the future seems utterly hopeless, and our movements have become small and repetetive, the Utah Monolith managed what many online art experiences struggled to do: For a moment, it led our gaze, and our mind away from the world immediately in front of us: up, toward the stars ★
-
-{% include "signup.liquid"%}
 
 [^1]: Alan Yuhas / The New York Times (2020): _[A Weird Monolith Is Found in the Utah Desert](https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html)_
 [^2]: John Berger (1972): _Ways of Seeing_. Penguin Books.

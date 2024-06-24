@@ -4,32 +4,23 @@ class: home
 ---
 
 <article class="home__container">
-    <header class="home__header">
-        <h1 class="home__title">Max Kohler</h1>
-        <span>Visual Communication</span>
-        <ul class="header__links">
-            <li><a href="https://maxakohler.substack.com/subscribe">Newsletter</a></li>
-            <li><a href="https://twitter.com/maxakohler">Twitter</a></li>
-            <li><a href="https://www.instagram.com/maxakohler/">Instagram</a></li>
-            <li><a href="https://github.com/awesomephant">Github</a></li>
-            <li><a href="/feed.xml">RSS</a></li>
-            <li><button class="copy-email">hello@maxkohler.com</button></li>
-        </ul>
-    </header>
+    <h2>
+        <span>Projects</span>
+    </h2>
     <section class='home__items'>
-        {% for year in collections.postsByYear %}
-        <h2 class="home__year">
+        {% for year in collections.workByYear %}
+        <h3 class="home__year">
             {{year.year}}
-        </h2>
+        </h3>
         {% assign posts = year.posts | reverse %}
         <ol>
             {% for post in posts %}
-            <li class='project-list-item {{post.data.tags | join: " "}}'>
+            <li class='project-list-item'>
                 <a href="{{ post.url }}">
-                    {% if post.data.shortTitle %}
-                    {{ post.data.shortTitle }}
-                    {% else %}
                     {{ post.data.title }}
+                    {% if post.data.is_featured %}
+                        <span class="is-featured">
+                        </span>
                     {% endif %}
                 </a>
             </li>
@@ -37,5 +28,32 @@ class: home
         </ol>
         {% endfor %}
     </section>
-    {% include "footer.liquid" %}
+    <hr/>
+       <div class="posts__header">
+           <h2>Writing</h2>
+       </div>
+       <section class='home__items home__posts'>
+        {% for year in collections.postsByYear %}
+        <h3 class="home__year">{{year.year}}</h3>
+        {% assign posts = year.posts | reverse %}
+        <ol>
+            {% for post in posts %}
+            <li class='project-list-item'>
+                <a href="{{ post.url }}">
+                    {% if post.data.shortTitle %}
+                    {{ post.data.shortTitle }}
+                    {% else %}
+                    {{ post.data.title }}
+                    {% endif %}
+                    {% if post.data.is_featured %}
+                        <span class="is-featured">
+                        </span>
+                    {% endif %}
+
+                </a>
+            </li>
+            {% endfor %}
+        </ol>
+        {% endfor %}
+    </section>
 </article>

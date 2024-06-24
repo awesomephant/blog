@@ -7,10 +7,14 @@
 
 .single__header {
     border-bottom: 1px dotted black;
-    padding: 1rem 0;
-    margin-left: 1rem;
+    padding: 1rem;
     padding-top: 0.75rem;
     padding-bottom: 5rem;
+    @include bp(s) {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 1rem;
+    }
 }
 
 .single__title {
@@ -35,13 +39,13 @@
 }
 
 .single__copy {
-    font-size: var(--ms-0);
-    line-height: 1.4;
+    font-size: var(--ms-1);
+    letter-spacing: 0.0125em;
+    line-height: 1.375;
     hyphens: auto;
     padding: 1rem;
     @include bp(s) {
-        letter-spacing: 0.01em;
-        font-size: var(--ms-1);
+        line-height: 1.4;
     }
     h2 {
         font-weight: 700;

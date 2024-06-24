@@ -1,9 +1,10 @@
 .site__sidebar {
     grid-column: 1 / 13;
     padding: 1rem;
+    padding-bottom: 0.75rem;
     padding-top: 0.125rem;
     border-bottom: 1px solid black;
-    background: #c9cacc;
+    background: var(--yellow-light);
     @include bp(s) {
         border-bottom: 2px solid black;
         padding: 0.75rem 1rem;
@@ -46,7 +47,7 @@
     border-bottom: 0;
     display: flex;
     gap: 0.25rem;
-    margin-top: 0.5rem;
+    margin-top: 0.45rem;
     @include bp(s) {
         flex-flow: column;
         margin-top: 1rem;
@@ -76,9 +77,9 @@
 .site__header {
     grid-column: 1 / 13;
     letter-spacing: 0;
-    padding: 1rem;
+    padding: 0.75rem 1rem;
     padding-bottom: 0;
-    background: #c9cacc;
+    background: var(--yellow-light);
     @include bp(s) {
         padding-top: 0.6rem;
         background: transparent;

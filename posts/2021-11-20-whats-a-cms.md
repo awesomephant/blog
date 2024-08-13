@@ -123,7 +123,7 @@ With our data extracted and organised, we can replace the recipe list in our tem
 
 The line {%raw%}`{% for recipe in recipes %}`{%endraw%} is telling the computer: _Hey! For every recipe in our datastore, repeat whatever markup follows until you see {% raw %}`{% endfor %}`{% endraw %}._ Between those tags we use placeholders like {%raw%}`{{recipe.title}}`{%endraw%} to display specific pieces of information for the current recipe. Liquid has many more constructs like this for dealing with data in smart ways – for example, we could output different HTML if a recipe has a particularly long title, or no title at all – but the principle is the same.
 
-Moving our recipes into a datastore has the same benefit as extracting the title: If Alice wants to add a recipe to the list, she can just edit the CSV file. Even better, she could import that file into Google Sheets, invite other people, set up a whole editorial process for adding recipes – as long as she export a CSV file at the end, it wouldn't impact our workflow at all.
+Moving our recipes into a datastore has the same benefit as extracting the title: If Alice wants to add a recipe to the list, she can just edit the CSV file. Even better, she could import that file into Google Sheets, invite other people, set up a whole editorial process for adding recipes – as long as she exports a CSV file at the end, it wouldn't impact our workflow at all.
 
 But we've also solved our second problem: The template doesn't care if our site has 5 or 5,000 recipes - it'll iterate through them and output the HTML just the same. If we need to change anything about the markup, we just edit the template and the computer does all the boring typing for us.
 

@@ -11,16 +11,16 @@ intro: Online exhibition website for the 2021 graphic design cohort (BA and MA) 
 
 ## Design notes
 
-The central piece of ornamentation on the site are these animated lines meant to evoke a curtain flowing in the breeze (the title of the show – _Lüften_ – roughly translates to _letting in fresh air_). I modelled these as follows:
+The central piece of ornamentation on the site is a set of animated lines meant to evoke a curtain flowing in the breeze (the title of the show – _Lüften_ – roughly translates to _letting in fresh air_). I modelled these as follows:
 
-- The two outermost lines drive the animation. Each one is controlled by three separate Perlin noise functions (two in the x-direction, one in y) which are added up to produce the movement.
-- The lines between the two control lines interpolate between the two control lines. I gave all lines the same number of points, so the interpolation is a simple operation.
+- The two outermost lines drive the animation. Each one is controlled by three separate Perlin noise functions (two in the x-direction, one in y) which are added to produce the on-screen movement.
+- All the other lines interpolate between the two control lines. They all have the same number of points, so the interpolation is a relatively simple operation.
 
-This recipe produces a design space with a huge number of variables. I tend to think the way to get a handle on a space like this is to build tooling to explore it so I did. If you hit **T** on your keyboard, you'll see the little control window I used to find the set of parameters that produce the right effect.
+This recipe produces a design space with a huge number of variables. I tend to think the way to get a handle on a space like this is to build tooling to explore it. If you hit **T** on your keyboard, you'll see the little control window I used to find the set of parameters that produce the right effect.
 
 {% include "fig.liquid", src: "/assets/bama-controls.png", alt: "Browser screenshot showing control panel overlaid on website"%}
 
-I also built a page to [produce printed labels for the show](https://bama.hs-mainz.de/sose21/labels/). The labels are generated from the same markdown files as the rest of the site, so the two should always be in sync. I got the idea from this from [MoMa's wall label generator](https://www.systemantics.net/portfolio/1351_moma_wall_label_generator). [^1]
+I also built a page to [produce printed labels for the show](https://bama.hs-mainz.de/sose21/labels/). The labels are generated from the same markdown files as the rest of the site, so the two should always be in sync. I got the idea from this from [MoMa's wall label generator](https://www.systemantics.net/portfolio/1351_moma_wall_label_generator).[^1]
 
 The typeface is _[BW Modelica](https://brandingwithtype.com/typefaces/bw-modelica-lgc-ss014https://brandingwithtype.com/typefaces/bw-modelica-lgc-ss014)_, by [Alberto Romanos](http://www.albertoromanos.com/)/[Branding with Type](https://www.brandingwithtype.com/).
 

@@ -9,7 +9,9 @@
   border-bottom: 1px dotted black;
   padding: 1rem;
   padding-top: 1rem;
-  padding-bottom: 5rem;
+  gap: 5rem;
+  flex-flow: column;
+  display: flex;
   @include bp(s) {
     padding-top: 0.75rem;
     padding-left: 0;
@@ -26,9 +28,8 @@
 }
 
 .single__meta {
-  color: var(--gray-50);
-  font-size: var(--ms-1);
-  margin-top: 0.1em;
+  font-size: var(--ms--1);
+  margin-top: 1em;
 }
 
 .single__intro {
@@ -214,7 +215,8 @@
 }
 
 .footnotes {
-  @extend %caption;
+  @extend %copy;
+  font-size: var(--ms--1);
   border-top: 1px dotted black;
   padding-top: 1rem;
   hyphens: none;

@@ -13,7 +13,7 @@ canonical: https://maxakohler.substack.com/p/abolish-job-applications
 
 This is not a unique experience. Most of my friends are steadily applying for work, and their numbers aren’t much better. Across the economy, the median number of job applications people write every month nearly tripled over the last 40 years, and the share of people who submit ten or more applications per month doubled, from 15% to 30%[^1], a trend that is [only accelerating](https://time.com/6287012/why-finding-job-is-difficult/). Despite this precipitous increase in applications, the number of people getting hired a given month has remained the same.
 
-All the cover letters, work histories, personal statements, homework assignments and other materials I’ve produced for my hundred applications could fill a book at this point, but instead they went into the shredder along with everyone else’s. It’s hard to imagine a more stupid, demeaning, wasteful method to match people with employment. How did we end up here?
+All the cover letters, work histories, personal statements, homework assignments and other materials I’ve produced for my hundred applications could fill a book at this point, but instead they went into the shredder along with everyone else’s bundles of paperwork. It’s hard to imagine a more stupid, demeaning, wasteful method to match people with employment. How did we end up here?
 
 ---
 

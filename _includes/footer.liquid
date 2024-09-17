@@ -1,17 +1,13 @@
 <footer class="site__footer">
-  <ul>
-    <li><a href="/notes/">Lecture Notes</a></li>
-    <li><a href="/friends/">Friends</a></li>
+  <ul class="footer__nav">
     <li><a href="/privacy/">Privacy</a></li>
     <li><a href="/pgp.txt">PGP</a></li>
-    <li><a rel="me" href="https://mastodon.social/@maxakohler">Mastodon</a></li>
-    <li><a href="https://github.com/awesomephant">Github</a></li>
-
   </ul>
   <p class="footer__copyright">
-    <span class="site__built">Built {{builtOn}} <span class="site__env">[{{env}}]</span></span>
+    <span class="site__built">Built {{builtOn}} </span>
+    <span class="site__env">{{env}}</span>
     <span>
-  © 2016 – {{ "now" | date: "%Y" }}
+      © 2016 – {{ "now" | date: "%Y" }}
     </span>
   </p>
 </footer>

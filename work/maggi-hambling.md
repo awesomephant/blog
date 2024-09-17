@@ -4,7 +4,7 @@ title: Maggi Hambling
 intro: Refreshed portfolio website for the British Painter Maggi Hambling.
 date: 2023-07-02
 tags: work
-category: eCommerce
+category: Website
 draft: false
 thumb: https://maxkohler.com/assets/hambling.png
 ---

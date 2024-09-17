@@ -3,10 +3,9 @@ layout: base
 class: post
 ---
 
-<article class="single__container {{ page.class }} section-{{ page.section }}">
+<article class="single__container {{ class }}">
   <header class="single__header {% if intro%}has-intro{%endif%}">
     <div>
-
       <h1 class="single__title">
         {% if external_link %}
         <a href="{{ external_link }}">{{ title }}</a>

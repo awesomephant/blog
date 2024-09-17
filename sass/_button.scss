@@ -1,31 +1,30 @@
 .button {
-    display: inline-flex;
-    background: white;
-    color: black;
-    border: 1px solid black;
-    padding: 0.05em 0.4em;
-    font-family: inherit;
-    border-radius: 2px;
-    box-shadow: 1px 1px 0 black;
-    cursor: pointer;
-    gap: 0.4rem;
-    align-items: center;
-    text-decoration: none;
-    position: relative;
-    &:hover,
-    &:focus-visible {
-        filter: brightness(0.95);
+  display: inline-flex;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  padding: 0.05em 0.4em;
+  font-family: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+  gap: 0.4rem;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  &:hover,
+  &:focus-visible {
+    filter: brightness(0.95);
+  }
+  &:active {
+    top: 1px;
+    left: 1px;
+    box-shadow: 1px 1px 0 inset black;
+  }
+  svg {
+    height: 0.75rem;
+    width: auto;
+    path {
+      fill: currentColor;
     }
-    &:active {
-        top: 1px;
-        left: 1px;
-        box-shadow: 1px 1px 0 inset black;
-    }
-    svg {
-        height: 0.75rem;
-        width: auto;
-        path {
-            fill: currentColor;
-        }
-    }
+  }
 }

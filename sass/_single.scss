@@ -1,22 +1,38 @@
+body.post {
+  background: rgb(247, 245, 245);
+}
 .single__container {
-  grid-column: 1 / 13;
-  @include bp(s) {
-    grid-column: 4 / 13;
-  }
+  grid-column: 1 / 21;
+  border: 1px solid black;
+  margin: 0 auto;
+  max-width: 50em;
+  background: white;
 }
 
 .single__header {
-  border-bottom: 1px dotted black;
-  padding: 1rem;
-  padding-top: 1rem;
+  border-bottom: 1px solid black;
+  background: rgb(255, 248, 222);
   gap: 5rem;
   flex-flow: column;
   display: flex;
+  padding: 1em;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   @include bp(s) {
-    padding-top: 0.75rem;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 1rem;
+    padding: 2em;
+  }
+
+  .tags-post & {
+    background: var(--color-writing);
+  }
+  .tags-work & {
+    background: var(--color-work);
+  }
+  .tags-notes & {
+    background: var(--color-notes);
+  }
+  .tags-meta & {
+    background: var(--color-meta);
   }
 }
 
@@ -28,28 +44,27 @@
 }
 
 .single__meta {
-  font-size: var(--ms--1);
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .single__intro {
   hyphens: auto;
-  font-size: var(--ms-1);
-  text-wrap: balance;
+  font-size: var(--ms-2);
   letter-spacing: 0.015em;
-  margin-top: 0.25rem;
+  margin-top: 0.5em;
 }
 
 .single__copy {
   font-size: var(--ms-1);
-  letter-spacing: 0.0125em;
   line-height: 1.375;
   hyphens: auto;
   padding: 1rem;
   @include bp(s) {
+    padding: 2rem;
     line-height: 1.4;
   }
   h2 {
+    font-family: var(--atlas);
     font-weight: 700;
     font-size: var(--ms-1);
     margin-top: 1rem;
@@ -85,7 +100,7 @@
   }
   ul,
   ol {
-    margin-left: 1em;
+    margin-left: 2em;
   }
   strong {
     font-weight: 700;
@@ -145,7 +160,6 @@
   }
   a {
     text-decoration-style: dotted;
-    background: rgb(249, 245, 230);
     &:hover,
     &:focus-visible {
       text-decoration-style: solid;
@@ -197,12 +211,10 @@
 }
 
 .embed-placeholder {
-  border: 1px solid currentColor;
-  background: rgb(224, 232, 242);
+  border: 1px dashed currentColor;
   font-family: var(--font-sans);
   padding: 1rem;
   line-height: calc(var(--baseline) * 0.95);
-  border-radius: $br;
   font-size: var(--ms-0);
   button {
     margin-top: 0.5rem;

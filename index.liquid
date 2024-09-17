@@ -3,57 +3,130 @@ layout: base
 class: home
 ---
 
-<article class="home__container">
-    <h2>
-        <span>Projects</span>
-    </h2>
-    <section class='home__items'>
-        {% for year in collections.workByYear %}
-        <h3 class="home__year">
-            {{year.year}}
-        </h3>
-        {% assign posts = year.posts | reverse %}
-        <ol>
-            {% for post in posts %}
-            <li class='project-list-item'>
-                <a href="{{ post.url }}">
-                    {{ post.data.title }}
-                    {% if post.data.is_featured %}
-                        <span class="is-featured">
-                        </span>
-                    {% endif %}
-                </a>
-            </li>
-            {% endfor %}
-        </ol>
-        {% endfor %}
-    </section>
-    <hr/>
-       <div class="posts__header">
-           <h2>Writing</h2>
-       </div>
-       <section class='home__items home__posts'>
-        {% for year in collections.postsByYear %}
-        <h3 class="home__year">{{year.year}}</h3>
-        {% assign posts = year.posts | reverse %}
-        <ol>
-            {% for post in posts %}
-            <li class='project-list-item'>
-                <a href="{{ post.url }}">
-                    {% if post.data.shortTitle %}
-                    {{ post.data.shortTitle }}
-                    {% else %}
-                    {{ post.data.title }}
-                    {% endif %}
-                    {% if post.data.is_featured %}
-                        <span class="is-featured">
-                        </span>
-                    {% endif %}
 
+<section class='home__projects'>
+    <h2 class="section__header">Projects</h2>
+    {% for year in collections.workByYear %}
+    <h3 class="home__year {% if forloop.last %}is-last{% endif %}">
+        {{year.year}}
+    </h3>
+    {% assign posts = year.posts | reverse %}
+    <ol>
+        {% for post in posts %}
+        <li>
+            <a href="{{ post.url }}" class="home__item">
+                <span class="project__title">
+                    {{ post.data.title }}
+                </span>
+                <span class="project__category">
+                    {{ post.data.category }}
+                </span>
+                <span class="is-featured-container project__featured">
+                    {% if post.data.is_featured %}
+                    <span class="is-featured"></span>
+                    {% endif %}
+                </span>
+            </a>
+        </li>
+        {% endfor %}
+    </ol>
+    {% endfor %}
+</section>
+<section class='home__posts'>
+    <h2 class="section__header">Writing</h2>
+    {% for year in collections.postsByYear %}
+    <h3 class="home__year {% if forloop.last %}is-last{% endif %}">{{year.year}}</h3>
+    {% assign posts = year.posts | reverse %}
+    <ol>
+        {% for post in posts %}
+        <li>
+            <a href="{{ post.url }}" class="home__item">
+                {{ post.data.shortTitle | default: post.data.title}}
+                <span class="is-featured-container">
+                    {% if post.data.is_featured %}
+                    <span class="is-featured"></span>
+                    {% endif %}
+                </span>
+            </a>
+        </li>
+        {% endfor %}
+    </ol>
+    {% endfor %}
+</section>
+
+<section class='home__misc'>
+    <section class='home__contact'>
+        <h2 class="section__header">Contact</h2>
+        <ol>
+            {% for el in follow %}
+            <li>
+                <a class="home__item" href="{{ el.url }}">
+                    <em>{{ el.label }}</em>
+                    <span>{{ el.handle }}</span>
                 </a>
+            </li>
+            {% endfor %}
+        </ol>
+    </section>
+    <section class='home__teaching'>
+        <h2 class="section__header">Teaching</h2>
+        <ol>
+            {% for el in teaching %}
+            <li>
+                <a class="home__item" href="{{ el.url }}">
+                    {{ el.title }}
+                    <span class="is-featured-container">
+                        {% if el.is_featured == "true" %}<span class="is-featured"></span>{% endif %}
+                    </span>
+                </a>
+            </li>
+            {% endfor %}
+        </ol>
+    </section>
+    <section class='home__running is-paginated'>
+        <div class="section__header">
+            <h2>Running <span class="paginate__index">(1/{{collections.pagedNotes | size }})</span></h2>
+            <div class="section__controls">
+                <button class="paginate-prev notes__paginate">Prev</button>
+                <button class="paginate-next notes__paginate">Next</button>
+            </div>
+        </div>
+        {% assign running_pages = running | reverse %}
+        {% for p in running_pages %}
+        {% assign posts = p | reverse %}
+        <ol class="paginate__page {% if forloop.first %}is-active{% endif %}" data-index="{{ forloop.index0 }}">
+            {% for el in posts %}
+            <li class="home__item">
+                <span class="running__date">{{ el.date }}</span>
+                <span class="running__distance">{{ el.distance }}k</span>
+                {% if el.time != "" %}
+                <span class="running__time">{{ el.time }} ({{ el.pace | replace: "0:0", ""}}/km)</span>
+                {% endif %}
             </li>
             {% endfor %}
         </ol>
         {% endfor %}
     </section>
-</article>
+    <section class='home__notes is-paginated'>
+        <div class="section__header">
+            <h2>Lecture Notes <span class="paginate__index">(1/{{collections.pagedNotes | size }})</span></h2>
+            <div class="section__controls">
+                <button class="paginate-prev notes__paginate">Prev</button>
+                <button class="paginate-next notes__paginate">Next</button>
+            </div>
+        </div>
+        {% assign pages = collections.pagedNotes | reverse %}
+        {% for p in pages %}
+        {% assign posts = p | reverse %}
+        <ol class="paginate__page {% if forloop.first %}is-active{% endif %}" data-index="{{ forloop.index0 }}">
+            {% for post in posts %}
+            <li><a href="{{ post.url }}" class="home__item">{{ post.data.shortTitle | default: post.data.title}}</a></li>
+            {% endfor %}
+        </ol>
+        {% endfor %}
+    </section>
+    <section class="home__meta">
+        <h2 class="section__header">Meta</h2>
+        {% include "footer.liquid" %}
+    </section>
+</section>

@@ -6,6 +6,7 @@ date: 2023-08-01
 tags: work
 draft: false
 is_featured: true
+category: Website
 thumb: https://maxkohler.com/assets/roland-ross.png
 ---
 

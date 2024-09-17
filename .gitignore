@@ -16,3 +16,4 @@ tmp/
 !.yarn/versions
 .pnp.*
 yarn-error.log
+.cache

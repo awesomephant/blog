@@ -5,6 +5,7 @@ const markdownIt = require("markdown-it")
 const taskLists = require("markdown-it-task-lists")
 const anchor = require("markdown-it-anchor")
 let footnotes = require("markdown-it-footnote")
+const pagingate = require("./paginate")
 
 let markdownOptions = {
   html: true,
@@ -65,9 +66,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode("leadin", function (content) {
     return `<span class="leadin">${content}</span>`
   })
-  eleventyConfig.addCollection("notes", function (collectionApi) {
-    return collectionApi.getFilteredByGlob(["./notes/*.md", "./notes/*.markdown"])
-  })
 
   eleventyConfig.addCollection("workByYear", function (collectionApi) {
     const posts = collectionApi.getFilteredByGlob(["./work/*.md"])
@@ -77,6 +75,12 @@ module.exports = function (eleventyConfig) {
     const posts = collectionApi.getFilteredByGlob(["./posts/*.md"])
     return groupPostsByYear(posts)
   })
+  eleventyConfig.addCollection("pagedNotes", function (collectionApi) {
+    const posts = collectionApi.getFilteredByGlob(["./notes/*.md", "./notes/*.markdown"])
+    return pagingate(posts, 20)
+  })
+
+  eleventyConfig.addGlobalData("builtOn", new Date().toLocaleString())
 
   if (process.env.NODE_ENV === "prod") {
     console.log("Building site for production.")
@@ -85,8 +89,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addGlobalData("env", "dev")
     console.log("Building in dev mode.")
   }
-
-  eleventyConfig.addGlobalData("builtOn", new Date().toLocaleString())
 
   eleventyConfig.addPassthroughCopy("assets")
   eleventyConfig.addPassthroughCopy("./*.png")

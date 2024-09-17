@@ -100,7 +100,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy@npm:^3.0.0-alpha.15":
+"@11ty/eleventy@npm:^3.0.0-beta.1":
   version: 3.0.0-beta.1
   resolution: "@11ty/eleventy@npm:3.0.0-beta.1"
   dependencies:
@@ -851,7 +851,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "blog@workspace:."
   dependencies:
-    "@11ty/eleventy": ^3.0.0-alpha.15
+    "@11ty/eleventy": ^3.0.0-beta.1
     "@11ty/eleventy-fetch": ^4.0.1
     "@11ty/eleventy-plugin-rss": ^2.0.2
     "@11ty/eleventy-plugin-syntaxhighlight": ^5.0.0
@@ -860,12 +860,12 @@ __metadata:
     csv-parse: ^5.5.6
     liquidjs: ^10.16.7
     markdown-it: ^14.1.0
-    markdown-it-anchor: ^9.1.0
+    markdown-it-anchor: ^9.2.0
     markdown-it-footnote: ^4.0.0
     markdown-it-task-lists: ^2.1.1
     npm-run-all: ^4.1.5
-    sass: ^1.77.8
-    simple-git: ^3.25.0
+    sass: ^1.78.0
+    simple-git: ^3.26.0
     webpack: ^5.94.0
     webpack-cli: ^5.1.4
   languageName: unknown
@@ -2713,13 +2713,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it-anchor@npm:^9.1.0":
-  version: 9.1.0
-  resolution: "markdown-it-anchor@npm:9.1.0"
+"markdown-it-anchor@npm:^9.2.0":
+  version: 9.2.0
+  resolution: "markdown-it-anchor@npm:9.2.0"
   peerDependencies:
     "@types/markdown-it": "*"
     markdown-it: "*"
-  checksum: e6f41321ca65e70d42d9bb86c74b5103b8fa13f4ce92fbec86a5bd92ccb9d537e497491cc46631cf4c07eb374181d43922e0371666edaaef459324c94283e3ff
+  checksum: 63f9ab99332d90fc09f8cede359f4c7f1c8d9765a0cd4d006538a072a9b5c9069e4e962c246ad7bc7a87a3ebb7e655e9f22f60e696ad855bdb51b7bfbae65c33
   languageName: node
   linkType: hard
 
@@ -3696,16 +3696,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.77.8":
-  version: 1.77.8
-  resolution: "sass@npm:1.77.8"
+"sass@npm:^1.78.0":
+  version: 1.78.0
+  resolution: "sass@npm:1.78.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 6b5dce17faa1bd1e349b4825bf7f76559a32f3f95d789cd2847623c88ee9635e1485d3458532a05fa5b9134cfbce79a4bad3f13dc63c2433632347674db0abae
+  checksum: ea856bd224c85d831a5800195750c2dd008d101771d071dbaca886c47fe4f131c30c328755d7a974ad944ba5b3aafa7a9f6010952da306436dcebddb41580e1c
   languageName: node
   linkType: hard
 
@@ -3894,14 +3894,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:^3.25.0":
-  version: 3.25.0
-  resolution: "simple-git@npm:3.25.0"
+"simple-git@npm:^3.26.0":
+  version: 3.26.0
+  resolution: "simple-git@npm:3.26.0"
   dependencies:
     "@kwsites/file-exists": ^1.1.1
     "@kwsites/promise-deferred": ^1.1.1
     debug: ^4.3.5
-  checksum: 0f54f03882f3b733fc5b61826935b3a6b1d2f8976fe74a488ef72d05baf1f8eb6f465867dcf72c1b7292b20843de23e900160c5c9b5d6933b3db2188cb79e1d2
+  checksum: b15a144df56690d7aa6c4e261148f177c0677f479565b1828c628f3de4beba1ab1cedc813d47fc358985841a8782c2e1dad9ecabe2152ef1e90d273475a0f7f7
   languageName: node
   linkType: hard
 

@@ -80,11 +80,19 @@
 
 .footer__copyright {
   display: flex;
+  flex-flow: column;
+  width: 100%;
+  @include bp(xl){
+  	flex-flow: row;
+  }
   span {
-    border-right: 1px solid rgba(black, 0.5);
+    border-bottom: 1px solid rgba(black, 0.5);
     padding: 0 0.2rem;
     &:last-child {
       border-right: 0;
+    }
+    @include bp(xl){
+    	border-right: 1px solid rgba(black, 0.5);
     }
   }
 }

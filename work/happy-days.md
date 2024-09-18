@@ -4,7 +4,7 @@ title: Happy Days
 intro: Microsite documenting 10 years of activity of the literary festival in Enniskillen, County Fermanagh.
 date: 2023-07-02
 tags: work
-category: eCommerce
+category: Website
 draft: false
 thumb: https://maxkohler.com/assets/hambling.png
 ---

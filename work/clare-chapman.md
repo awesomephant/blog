@@ -5,6 +5,7 @@ intro: A minimalist website for London-based visual artist Clare Chapman.
 date: 2023-08-01
 tags: work
 draft: false
+category: website
 thumb: https://maxkohler.com/assets/chapman.png
 ---
 

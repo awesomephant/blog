@@ -5,6 +5,7 @@ intro: A refreshed visual identity and new website for a non-profit organisation
 date: 2022-09-08
 tags: work
 draft: false
+category: Website
 thumb: https://maxkohler.com/assets/nn.png
 ---
 

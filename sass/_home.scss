@@ -119,6 +119,10 @@
   &:visited {
     background: rgba(black, 0.5);
   }
+  &.is-draft {
+    text-decoration: line-through;
+    pointer-events: none;
+  }
   &:hover,
   &:focus-visible {
     background: rgba(white, 0.25);

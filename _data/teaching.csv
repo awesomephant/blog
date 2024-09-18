@@ -1,8 +1,8 @@
-title,url,institution,is_featured
-Unititled Coding Workshop,https://ucw.maxkohler.com,n/a,true
-The expanded keyboard,/assets/ig-week-1.pdf,n/a,true
-Interaktive Grundlagen 5,/assets/teaching/ig-week-5.pdf,n/a,false
-Interaktive Grundlagen 4,/assets/teaching/ig-week-4.pdf,n/a,false
-Interaktive Grundlagen 3,/assets/teaching/ig-week-3.pdf,n/a,false
-Interaktive Grundlagen 2,/assets/teaching/ig-week-2.pdf,n/a,false
-Interaktive Grundlagen 1,/assets/teaching/ig-week-1.pdf,n/a,false
+title,url,institution,is_featured,is_draft
+Unititled Coding Workshop,https://ucw.maxkohler.com,n/a,true,false
+The expanded keyboard,/assets/ig-week-1.pdf,n/a,true,true
+Interaktive Grundlagen 5,/assets/teaching/ig-week-5.pdf,n/a,false,false
+Interaktive Grundlagen 4,/assets/teaching/ig-week-4.pdf,n/a,false,false
+Interaktive Grundlagen 3,/assets/teaching/ig-week-3.pdf,n/a,false,false
+Interaktive Grundlagen 2,/assets/teaching/ig-week-2.pdf,n/a,false,false
+Interaktive Grundlagen 1,/assets/teaching/ig-week-1.pdf,n/a,false,false

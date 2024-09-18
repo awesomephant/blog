@@ -14,7 +14,7 @@ class: home
     <ol>
         {% for post in posts %}
         <li>
-            <a href="{{ post.url }}" class="home__item">
+            <a href="{{ post.url }}" class="home__item {% if post.data.draft == true %}is-draft{% endif %}">
                 <span class="project__title">
                     {{ post.data.title }}
                 </span>
@@ -73,7 +73,7 @@ class: home
         <ol>
             {% for el in teaching %}
             <li>
-                <a class="home__item" href="{{ el.url }}">
+                <a class="home__item {% if el.is_draft == 'true' %}is-draft{% endif %}" href="{{ el.url }}">
                     {{ el.title }}
                     <span class="is-featured-container">
                         {% if el.is_featured == "true" %}<span class="is-featured"></span>{% endif %}

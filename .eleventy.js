@@ -37,18 +37,16 @@ function groupPostsByYear(posts) {
 
   posts.forEach((p) => {
     let y = new Date(p.data.date).getFullYear()
-    if (p.data.draft !== true) {
-      if (y !== currentYear) {
-        postsByYear.push({
-          year: y,
-          shortYear: y.toString().substr(2),
-          posts: [p],
-        })
-        currentYear = y
-      } else {
-        let index = getIndex(postsByYear, "year", currentYear)
-        postsByYear[index].posts.push(p)
-      }
+    if (y !== currentYear) {
+      postsByYear.push({
+        year: y,
+        shortYear: y.toString().substr(2),
+        posts: [p],
+      })
+      currentYear = y
+    } else {
+      let index = getIndex(postsByYear, "year", currentYear)
+      postsByYear[index].posts.push(p)
     }
   })
   return postsByYear.reverse()

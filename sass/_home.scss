@@ -235,7 +235,7 @@
     grid-column: 1 / 5;
   }
   ol {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1.5fr repeat(3, 1fr);
     &.is-active {
       display: grid;
     }

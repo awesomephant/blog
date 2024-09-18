@@ -97,7 +97,7 @@ class: home
         <ol class="paginate__page {% if forloop.first %}is-active{% endif %}" data-index="{{ forloop.index0 }}">
             {% for el in posts %}
             <li class="home__item">
-                <span class="running__date">{{ el.date }}</span>
+                <span class="running__date">{{ el.date | date: "%b %d, %Y"}}</span>
                 <span class="running__distance">{{ el.distance }}k</span>
                 {% if el.time != "" %}
                 <span class="running__time">{{ el.time }}</span>

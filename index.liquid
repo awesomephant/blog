@@ -126,6 +126,16 @@ class: home
         </ol>
         {% endfor %}
     </section>
+    <section class='home__friends'>
+        <h2 class="section__header">Friends</h2>
+        <ul>
+            {% for el in friends %}
+            <li>
+                <a class="home__item" href="{{ el.url }}">{{ el.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
     <section class="home__meta">
         <h2 class="section__header">Meta</h2>
         {% include "footer.liquid" %}

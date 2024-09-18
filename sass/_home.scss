@@ -5,7 +5,8 @@
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   margin-bottom: -1px;
-  ol {
+  ol,
+  ul {
     border-left: 1px solid black;
     list-style: none;
     &:last-child {
@@ -80,7 +81,8 @@
   @include bp(l) {
     grid-column: 1 / 9;
   }
-  ol {
+  ol,
+  ul {
     display: grid;
     grid-template-columns: subgrid;
     grid-column: 4 / 21;
@@ -187,9 +189,10 @@
   grid-column: 1 / 21;
   @include bp(l) {
     grid-column: 17 / 21;
-    border-left: 0;
+    margin-left: -1px;
   }
-  ol {
+  ol,
+  ul {
     border-left: 0;
     @include bp(l) {
       grid-column: 1 / 5;
@@ -265,6 +268,7 @@
 }
 
 .home__meta {
+  background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
     grid-column: 1 / 5;
@@ -274,6 +278,18 @@
 .home__notes {
   grid-column: 1 / 21;
   --color: var(--color-notes);
+  background: var(--color);
+  li:last-child .home__item {
+    border-bottom: 0;
+  }
+  @include bp(l) {
+    grid-column: 1 / 5;
+  }
+}
+
+.home__friends {
+  grid-column: 1 / 21;
+  --color: rgb(198, 192, 222);
   background: var(--color);
   li:last-child .home__item {
     border-bottom: 0;

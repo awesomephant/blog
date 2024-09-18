@@ -197,7 +197,7 @@
 }
 
 .home__contact {
-  --color: #eda38e;
+  --color: #a5bfe4;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
@@ -215,7 +215,7 @@
 }
 
 .home__teaching {
-  --color: #c6cdd1;
+  --color: #dadcdd;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {

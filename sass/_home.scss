@@ -244,8 +244,9 @@
   .home__item {
     display: grid;
     grid-template-columns: subgrid;
-    padding-right: 0.2rem;
     padding-left: 0;
+    grid-column: 1 / 5;
+    gap: 0;
     &:last-child {
       border-bottom: 0;
     }
@@ -256,8 +257,22 @@
     border-right: 1px solid rgba(black, 0.25);
     &.running__pace {
       border-right: 0;
-      padding-right: 0;
     }
+  }
+}
+
+.running__pace {
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    mix-blend-mode: multiply;
+    background: black;
+    opacity: calc((0.5 - var(--relative_pace)) * 0.8);
   }
 }
 

@@ -101,7 +101,7 @@ class: home
                 <span class="running__distance">{{ el.distance }}k</span>
                 {% if el.time != "" %}
                 <span class="running__time">{{ el.time }}</span>
-                <span class="running__pace">{{ el.pace | replace: "0:0", ""}}/km</span>
+                <span style="--relative_pace: {{el.relative_pace}}" class="running__pace">{{ el.pace | replace: "0:0", ""}}/km</span>
                 {% endif %}
             </li>
             {% endfor %}

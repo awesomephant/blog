@@ -84,6 +84,11 @@ $br: 3px;
   --br: 3px;
   --padding: Min(5%, var(--ms-1));
   --baseline: calc(var(--ms-0) * 1.45);
+
+  // Scale font size on high-res displays
+  @media (min-resolution: 120dpi) {
+    font-size: 0.925rem;
+  }
 }
 
 %copy {

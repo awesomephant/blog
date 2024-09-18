@@ -6,13 +6,15 @@ const googleSheetUrl = `https://docs.google.com/spreadsheets/d/e/2PACX-1vT5eA9WW
 
 module.exports = async () => {
   let csv = await EleventyFetch(googleSheetUrl, {
-    duration: "1w",
+    duration: "0s",
     type: "text",
   })
 
   const data = parse(csv, { columns: true, skip_empty_lines: true })
 
-  return paginate(
+  data.reverse()
+
+  const result = paginate(
     data.map((row) => {
       return {
         date: row.DATE,
@@ -22,6 +24,10 @@ module.exports = async () => {
         location: row.LOCATION,
       }
     }),
-    10
+    15
   )
+
+  console.log(result)
+
+  return result
 }

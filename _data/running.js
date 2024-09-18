@@ -27,7 +27,5 @@ module.exports = async () => {
     15
   )
 
-  console.log(result)
-
   return result
 }

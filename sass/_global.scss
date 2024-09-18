@@ -28,6 +28,9 @@ body {
     padding: 1rem;
     grid-column-gap: 0;
   }
+  &.home {
+    background: rgb(99, 116, 114);
+  }
   &.post {
     background: white;
   }

@@ -1,6 +1,7 @@
 %home__section {
   display: grid;
   grid-template-columns: subgrid;
+  background: white;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   margin-bottom: -1px;
@@ -197,7 +198,7 @@
 }
 
 .home__contact {
-  --color: #a5bfe4;
+  --color: #d3a37f;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {

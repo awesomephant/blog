@@ -173,7 +173,6 @@
     }
   }
   @include bp(l) {
-    border-right: 0;
     grid-column: 9 / 17;
     ol {
       grid-column: 2 / 9;
@@ -187,6 +186,7 @@
   grid-column: 1 / 21;
   @include bp(l) {
     grid-column: 17 / 21;
+    border-left: 0;
   }
   ol {
     border-left: 0;
@@ -224,7 +224,7 @@
 }
 
 .home__running {
-  --color: #79ec5a;
+  --color: #d6e38a;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {

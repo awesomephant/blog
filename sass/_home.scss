@@ -109,7 +109,6 @@
   justify-content: space-between;
   text-decoration: none;
   gap: 0.5rem;
-  cursor: pointer;
   font-family: inherit;
   padding-left: 0.2rem;
   width: 100%;
@@ -127,7 +126,12 @@
     text-decoration: line-through;
     pointer-events: none;
   }
-  &:hover,
+}
+
+a.home__item, button.home__item {
+ cursor: pointer;
+
+ 	&:hover,
   &:focus-visible {
     background: rgba(white, 0.25);
     border-bottom: 1px solid black;
@@ -228,27 +232,32 @@
 }
 
 .home__running {
-  --color: #d6e38a;
+  --color: #7fce79;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
     grid-column: 1 / 5;
   }
   ol {
-    grid-template-columns: 1.5fr repeat(3, 1fr);
+    grid-template-columns: 1.65fr repeat(3, 1fr);
     &.is-active {
       display: grid;
     }
   }
-
+  .has-url {
+  	display: contents;
+  }
   .home__item {
     display: grid;
     grid-template-columns: subgrid;
     padding-left: 0;
     grid-column: 1 / 5;
     gap: 0;
-    &:last-child {
-      border-bottom: 0;
+  }
+  li.home__item:last-child {
+    border-bottom: 0;
+    a {
+    	border-bottom: 0;
     }
   }
 
@@ -304,7 +313,7 @@
 
 .home__friends {
   grid-column: 1 / 21;
-  --color: rgb(198, 192, 222);
+  --color: rgb(200, 187, 150);
   background: var(--color);
   li:last-child .home__item {
     border-bottom: 0;

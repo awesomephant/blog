@@ -36,6 +36,7 @@ module.exports = async () => {
         distance: row["D (KM)"],
         time: row.TIME,
         pace: row["AVG 1K"],
+        url: row["URL"],
         relative_pace: (ps - paceMin) / (paceMax - paceMin),
         location: row.LOCATION,
       }

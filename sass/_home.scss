@@ -40,6 +40,7 @@
   padding-left: 0.15rem;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  line-height: calc(var(--ms-0) * 1.3 + .5px);
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -115,7 +116,7 @@
   background: transparent;
   align-items: stretch;
   grid-column: 1 / 20;
-  line-height: 1.3;
+  line-height: calc(var(--ms-0) * 1.3);
   @include bp(l) {
     grid-column: 1 / 8;
   }
@@ -232,7 +233,7 @@ a.home__item, button.home__item {
 }
 
 .home__running {
-  --color: #7fce79;
+  --color: #dddaad;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
@@ -264,11 +265,15 @@ a.home__item, button.home__item {
   span {
     padding: 0 0.2rem;
     border-right: 1px solid rgba(black, 0.25);
+    &.running__time {
+    	border-right-color: black;
+    }
     &.running__pace {
       border-right: 0;
     }
   }
 }
+
 
 .running__pace {
   position: relative;
@@ -313,7 +318,7 @@ a.home__item, button.home__item {
 
 .home__friends {
   grid-column: 1 / 21;
-  --color: rgb(200, 187, 150);
+  --color: rgb(196, 209, 215);
   background: var(--color);
   li:last-child .home__item {
     border-bottom: 0;
@@ -362,13 +367,15 @@ a.home__item, button.home__item {
 
 .is-featured {
   display: block;
-  height: 0.75rem;
-  width: 0.75rem;
+  height: 0.8rem;
+  width:  0.8rem;
   left: 50%;
   top: 50%;
   transform: translate(-50%) translateY(-50%);
   position: absolute;
   border-radius: 100px;
   flex-shrink: 0;
-  background: black;
+  background: white;
+  z-index: 1000;
+  border: 1px solid black;
 }

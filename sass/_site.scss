@@ -30,13 +30,13 @@
 .site__header {
   grid-column: 1 / 21;
   letter-spacing: 0;
-  padding: 0 0.2rem;
+  padding: 0 0.2em;
   background: rgb(255, 255, 255);
-  // text-transform: uppercase;
   border: 1px solid black;
   margin-bottom: -1px;
-  font-size: 1.3rem;
-  // color: var(--lightgray);
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: -.01em;
 
   @include bp(s) {
     display: flex;

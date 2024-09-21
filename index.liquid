@@ -118,9 +118,9 @@ class: home
                 <button class="paginate-next notes__paginate">Next</button>
             </div>
         </div>
-        {% assign pages = collections.pagedNotes | reverse %}
+        {% assign pages = collections.pagedNotes %}
         {% for p in pages %}
-        {% assign posts = p | reverse %}
+        {% assign posts = p %}
         <ol class="paginate__page {% if forloop.first %}is-active{% endif %}" data-index="{{ forloop.index0 }}">
             {% for post in posts %}
             <li><a href="{{ post.url }}" class="home__item">{{ post.data.shortTitle | default: post.data.title}}</a></li>

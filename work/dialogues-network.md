@@ -6,6 +6,7 @@ date: 2022-11-01
 tags: work
 category: Editorial
 draft: false
+is_featured: true
 thumb: https://maxkohler.com/assets/dialogues-2.png
 ---
 

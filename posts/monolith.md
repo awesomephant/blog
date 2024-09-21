@@ -4,6 +4,7 @@ title: It’s Probably Art
 date: 2020-12-06
 includesMath: false
 includesMusic: false
+is_featured: true
 intro: "The Utah Monolith and the American Landscape"
 tags: post
 thumb: "https://maxkohler.com/assets/monolith/monolith-spot.png"

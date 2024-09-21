@@ -207,7 +207,7 @@ button.home__item {
 }
 
 .home__contact {
-  --color: #d3a37f;
+  --color: #92d067;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
@@ -310,6 +310,9 @@ button.home__item {
   background: var(--color);
   li:last-child .home__item {
     border-bottom: 0;
+  }
+  a {
+    padding-right: 0.2em;
   }
   @include bp(l) {
     grid-column: 1 / 5;

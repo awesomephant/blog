@@ -8,6 +8,7 @@ class PaginatedList {
     this.activePage = container.querySelector(".paginate__page.is-active")
     this.currentPage = parseInt(this.activePage.dataset.index)
     this.bindEvents()
+    this.render()
   }
 
   advance(n) {
@@ -30,6 +31,8 @@ class PaginatedList {
 
   render() {
     this.indexEl.innerText = `(${this.currentPage + 1}/${this.pages.length})`
+    this.nextButton.toggleAttribute("disabled", this.currentPage === this.pages.length - 1)
+    this.prevButton.toggleAttribute("disabled", this.currentPage === 0)
     this.pages.forEach((el, i) => {
       el.classList.toggle("is-active", this.currentPage === i)
     })

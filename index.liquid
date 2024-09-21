@@ -96,14 +96,16 @@ class: home
         {% assign posts = p %}
         <ol class="paginate__page {% if forloop.first %}is-active{% endif %}" data-index="{{ forloop.index0 }}">
             {% for el in posts %}
-            {% if el.url != "" %}<li class="has-url"><a class="home__item" href="{{el.url}}">{% else %}<li class="home__item">{% endif %}
+            {% if el.url != "" %}<li class="has-url"><a class="home__item" href="{{el.url}}">{% else %}
+            <li class="home__item">{% endif %}
                 <span class="running__date">{{ el.date | date: "%b %d, %Y"}}{% if el.url != "" %} ↗{% endif %}</span>
                 <span class="running__distance">{{ el.distance }}k</span>
                 {% if el.time != "" %}
                 <span class="running__time">{{ el.time }}</span>
                 <span style="--relative_pace: {{el.relative_pace}}" class="running__pace">{{ el.pace | replace: "0:0", ""}}/km</span>
                 {% endif %}
-            {% if el.url != "" %}</a></li>{% else %}</li>{% endif %}
+                {% if el.url != "" %}</a>
+            </li>{% else %}</li>{% endif %}
             {% endfor %}
         </ol>
         {% endfor %}

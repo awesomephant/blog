@@ -7,6 +7,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initCopyEmail()
   initSingle()
   initEmbeds()
-
   new IndexView()
 })

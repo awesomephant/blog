@@ -109,7 +109,7 @@
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  gap: 0.5rem;
+  gap: 0.2em;
   font-family: inherit;
   padding-left: 0.2rem;
   width: 100%;
@@ -207,7 +207,7 @@ button.home__item {
 }
 
 .home__contact {
-  --color: #92d067;
+  --color: #94bcd5;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
@@ -221,6 +221,24 @@ button.home__item {
   .home__item {
     display: flex;
     justify-content: flex-start;
+  }
+}
+
+.home__email {
+  display: flex;
+  button,
+  a {
+    @extend .home__item;
+  }
+  button {
+    flex-grow: 1;
+    text-align: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+  }
+  a {
+    flex-basis: 0;
+    white-space: nowrap;
+    padding-right: 0.2em;
   }
 }
 

@@ -108,7 +108,7 @@ class: home
             {% if el.url != "" %}<li class="has-url"><a class="home__item" href="{{el.url}}">{% else %}
             <li class="home__item">{% endif %}
                 <span class="running__date">{{ el.date | date: "%b %d, %Y"}}{% if el.url != "" %} ↗{% endif %}</span>
-                <span class="running__distance">{{ el.distance }}k</span>
+                <span class="running__distance">{{ el.distance }}km</span>
                 {% if el.time != "" %}
                 <span class="running__time">{{ el.time }}</span>
                 <span style="--relative_pace: {{el.relative_pace}}" class="running__pace">{{ el.pace | replace: "0:0", ""}}/km</span>

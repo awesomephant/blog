@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Open Editions" 
+title: "Open Editions"
 date: 2021-05-23
 tags: work
 category: E-Commerce

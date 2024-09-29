@@ -125,6 +125,7 @@
   }
   &.is-draft {
     text-decoration: line-through;
+    text-decoration-thickness: 2px;
     pointer-events: none;
   }
 }
@@ -375,6 +376,7 @@ button.home__item {
     border-left: 1px solid black;
     &:disabled {
       text-decoration: line-through;
+      text-decoration-thickness: 2px;
       &:hover,
       &:focus {
         cursor: default;

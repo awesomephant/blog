@@ -23,13 +23,12 @@ body {
   grid-template-columns: repeat(20, 1fr);
   margin: 0 auto;
   align-items: flex-start;
-  background-color: var(--lightgray);
   @include bp(s) {
-    padding: 1rem;
+    padding: 0.5rem;
     grid-column-gap: 0;
   }
   &.home {
-    background: rgb(99, 116, 114);
+    background: #a8a8a8;
   }
   &.post {
     background: white;

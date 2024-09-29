@@ -207,7 +207,7 @@ button.home__item {
 }
 
 .home__contact {
-  --color: #d7c744;
+  --color: #ee9864;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
@@ -243,7 +243,7 @@ button.home__item {
 }
 
 .home__teaching {
-  --color: #dadcdd;
+  --color: #e8e5d3;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
@@ -252,7 +252,7 @@ button.home__item {
 }
 
 .home__running {
-  --color: #dddaad;
+  --color: #c9e0b5;
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {

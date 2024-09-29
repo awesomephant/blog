@@ -76,7 +76,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("pagedNotes", function (collectionApi) {
     const posts = collectionApi.getFilteredByGlob(["./notes/*.md", "./notes/*.markdown"])
     posts.reverse()
-    return pagingate(posts, 16)
+    return pagingate(posts, 12)
   })
 
   eleventyConfig.addGlobalData("builtOn", new Date().toLocaleString())

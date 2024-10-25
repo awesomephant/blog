@@ -3,7 +3,7 @@ layout: post
 title: "Open Editions"
 date: 2021-05-23
 tags: work
-category: E-Commerce
+category: Website
 ---
 
 {% include "fig.liquid", src: "/assets/open-editions.png", alt: "Screenshot of openeditions.com, showing several products in a three column grid", class: "big"%}

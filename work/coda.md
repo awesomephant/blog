@@ -4,7 +4,7 @@ title: Ex. Coda
 intro: Custom eCommerce website and related tooling for an idependent publisher of artist's books and editions based in Paris.
 date: 2023-07-01
 tags: work
-category: eCommerce
+category: Website
 draft: false
 thumb: https://maxkohler.com/assets/coda.png
 ---

@@ -15,7 +15,7 @@ class: post
         {{ title }}
         {% endif %} {% endif %}
       </h1>
-      {% if intro %}
+      {% if intro and intro != "" %}
       <div class="single__intro">
         {{ intro | renderMarkdown }}
       </div>

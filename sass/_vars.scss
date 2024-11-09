@@ -73,9 +73,9 @@ $br: 3px;
   --gray-60: rgba(0, 0, 0, 0.6);
   --background: rgb(253, 253, 253);
   --blue: #2e50a6;
-  --color-writing: #a2bfd9;
-  --color-work: #8fe19f;
-  --color-notes: #e3d8b7;
+  --color-writing: #4f83b7;
+  --color-work: #bd7744;
+  --color-notes: #c1d0dc;
   --color-meta: rgb(211, 231, 238);
   --red: #c4320a;
   --yellow: rgb(255, 230, 25);
@@ -96,7 +96,7 @@ $br: 3px;
   font-size: var(--ms-0);
   font-feature-settings: "onum" 1, "kern" 1;
   text-rendering: optimizeLegibility;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0.012em;
   line-height: 1.35;
 }
 
@@ -107,9 +107,9 @@ $br: 3px;
   letter-spacing: 0;
   line-height: calc(var(--baseline) * 1.2);
   @include bp(m) {
-    line-height: calc(var(--baseline) * 2);
+    line-height: calc(var(--baseline) * 2.333);
     letter-spacing: -0.01em;
-    font-size: var(--ms-5);
+    font-size: var(--ms-6);
   }
 }
 

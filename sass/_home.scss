@@ -58,7 +58,7 @@
   grid-column: 1 / 4;
   @for $i from 0 through 10 {
     &:nth-of-type(#{$i}) {
-      background: rgba(rgb(23, 68, 152), 0.5 - 0.05 * $i);
+      background: rgba(rgb(0, 0, 0), 0.3 - 0.05 * $i);
     }
   }
   @include bp(m) {
@@ -190,6 +190,8 @@ button.home__item {
   }
 }
 
+$color-sidebar: rgb(205, 205, 205);
+
 .home__misc {
   @extend %home__section;
   border-left: 1px solid black;
@@ -208,7 +210,7 @@ button.home__item {
 }
 
 .home__contact {
-  --color: #ee9864;
+  --color: #{$color-sidebar};
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
@@ -244,7 +246,7 @@ button.home__item {
 }
 
 .home__teaching {
-  --color: #e8e5d3;
+  --color: #{$color-sidebar};
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
@@ -253,14 +255,17 @@ button.home__item {
 }
 
 .home__running {
-  --color: #c9e0b5;
+  --color: #{$color-sidebar};
   background: var(--color);
   grid-column: 1 / 21;
   @include bp(l) {
     grid-column: 1 / 5;
   }
   ol {
-    grid-template-columns: 1.65fr repeat(3, 1fr);
+    grid-template-columns: 8em repeat(2, 1fr);
+    @include bp(xl) {
+      grid-template-columns: 8em repeat(3, 1fr);
+    }
     &.is-active {
       display: grid;
     }
@@ -294,6 +299,13 @@ button.home__item {
   }
 }
 
+.running__time {
+  display: none;
+  @include bp(xl) {
+    display: block;
+  }
+}
+
 .running__pace {
   position: relative;
   &:after {
@@ -316,7 +328,7 @@ button.home__item {
 }
 
 .home__meta {
-  background: var(--color);
+  background: #{$color-sidebar};
   grid-column: 1 / 21;
   @include bp(l) {
     grid-column: 1 / 5;
@@ -325,7 +337,7 @@ button.home__item {
 
 .home__notes {
   grid-column: 1 / 21;
-  --color: var(--color-notes);
+  --color: #{$color-sidebar};
   background: var(--color);
   li:last-child .home__item {
     border-bottom: 0;
@@ -340,7 +352,7 @@ button.home__item {
 
 .home__friends {
   grid-column: 1 / 21;
-  --color: rgb(196, 209, 215);
+  --color: #{$color-sidebar};
   background: var(--color);
   li:last-child .home__item {
     border-bottom: 0;

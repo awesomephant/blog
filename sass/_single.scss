@@ -1,38 +1,18 @@
-body.post {
-  background: rgb(247, 245, 245);
-}
 .single__container {
   grid-column: 1 / 21;
-  border: 1px solid black;
   margin: 0 auto;
-  max-width: 50em;
-  background: white;
+  max-width: 40em;
 }
 
 .single__header {
-  border-bottom: 1px solid black;
-  background: rgb(255, 248, 222);
-  gap: 5rem;
+  border-bottom: 1px dotted black;
   flex-flow: column;
   display: flex;
   padding: 1em;
-  margin-bottom: 1rem;
   padding-bottom: 1rem;
   @include bp(s) {
-    padding: 2em;
-  }
-
-  .tags-post & {
-    background: var(--color-writing);
-  }
-  .tags-work & {
-    background: var(--color-work);
-  }
-  .tags-notes & {
-    background: var(--color-notes);
-  }
-  .tags-meta & {
-    background: var(--color-meta);
+    padding: 1.5em 0;
+    margin-top: 6em;
   }
 }
 
@@ -44,7 +24,8 @@ body.post {
 }
 
 .single__meta {
-  margin-top: 2em;
+  @extend %copy;
+  margin-top: 1em;
 }
 
 .single__intro {
@@ -58,9 +39,9 @@ body.post {
   font-size: var(--ms-1);
   line-height: 1.375;
   hyphens: auto;
-  padding: 1rem;
+  padding: 1em 0;
   @include bp(s) {
-    padding: 2rem;
+    padding: 2em 0;
     line-height: 1.4;
   }
   h2 {
@@ -82,7 +63,8 @@ body.post {
   }
 
   h3 {
-    margin-top: 1rem;
+    margin-top: 1.25em;
+    margin-bottom: 0.25em;
     font-weight: 700;
   }
   p + p {
@@ -100,7 +82,7 @@ body.post {
   }
   ul,
   ol {
-    margin-left: 2em;
+    margin-left: 1em;
   }
   strong {
     font-weight: 700;

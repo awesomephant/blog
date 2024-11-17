@@ -63,7 +63,7 @@ pre[class*="-diff"] {
 }
 
 .token.liquid {
-  font-style: italic;
+  color: rgb(18, 84, 160);
 }
 
 .token.namespace {
@@ -82,6 +82,7 @@ pre[class*="-diff"] {
 }
 
 .tag {
+  color: rgb(143, 73, 9);
 }
 
 .token.string {

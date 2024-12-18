@@ -16,7 +16,7 @@ module.exports = async () => {
     type: "text",
   })
 
-  const data = parse(csv, { columns: true, skip_empty_lines: true })
+  let data = parse(csv, { columns: true, skip_empty_lines: true })
 
   data.reverse()
   let paceMax = 0
@@ -26,6 +26,10 @@ module.exports = async () => {
     const ps = timeToSeconds(row["AVG 1K"])
     paceMax = ps > paceMax ? ps : paceMax
     paceMin = ps < paceMin ? ps : paceMin
+  })
+
+  data = data.filter((row) => {
+    return row.DATE !== "" && row.TIME !== "" && row["AVG 1K"] !== ""
   })
 
   const result = paginate(

@@ -296,6 +296,18 @@
       max-width: none;
     }
   }
+  &.large {
+    img {
+      width: 100%;
+    }
+  }
+  @include bp(m) {
+  	width: 140%;
+    img {
+      width: 100%;
+      max-width: none;
+    }
+  }
 }
 
 .figure__source {

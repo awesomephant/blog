@@ -36,7 +36,11 @@
   margin-bottom: -1px;
   font-size: var(--ms-0);
   text-transform: uppercase;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.01em;
+
+  .post & {
+  	background: rgb(255, 245, 215);
+  }
 
   @include bp(s) {
     display: flex;

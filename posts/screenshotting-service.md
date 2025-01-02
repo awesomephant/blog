@@ -2,6 +2,9 @@
 title: Running a screenshotting service on a Synology NAS
 date: 2025-01-01
 layout: post
+includesMath: false
+includesMusic: false
+tags: post
 ---
 
 For a while, I've been looking for an automated method to load up a list of websites, take a screenshot of each one and save it somewhere convenient.

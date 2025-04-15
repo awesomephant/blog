@@ -65,7 +65,7 @@
       right: 0;
       top: 0;
       bottom: 0;
-      transform: translateX(100%)
+      transform: translateX(100%) translateX(-1px)
 
     }
   }
@@ -380,7 +380,7 @@ $color-sidebar: rgb(148, 170, 195);
 .paginate__index {
   font-feature-settings: "tnum" 1;
   border-right: 0 !important;
-  margin-left: 4ch;
+  margin-left: 3.5ch;
 }
 
 .section__controls {

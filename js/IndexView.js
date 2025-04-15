@@ -30,7 +30,7 @@ class PaginatedList {
   }
 
   render() {
-    this.indexEl.innerText = `(${this.currentPage + 1}/${this.pages.length})`
+    this.indexEl.innerText = `${this.currentPage + 1}/${this.pages.length}`
     this.nextButton.toggleAttribute("disabled", this.currentPage === this.pages.length - 1)
     this.prevButton.toggleAttribute("disabled", this.currentPage === 0)
     this.pages.forEach((el, i) => {

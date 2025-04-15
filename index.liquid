@@ -94,7 +94,7 @@ class: home
     </section>
     <section class='home__running is-paginated' aria-shortcuts="R">
         <div class="section__header">
-			<h2><span class="title">Running</span> <span class="paginate__index">(1/{{running | size }})</span></h2>
+			<h2><span class="title">Running</span> <span class="paginate__index">1/{{running | size }}</span></h2>
             <div class="section__controls">
                 <button class="paginate-prev notes__paginate">Prev</button>
                 <button class="paginate-next notes__paginate">Next</button>
@@ -121,7 +121,7 @@ class: home
     </section>
     <section class='home__notes is-paginated' aria-shortcuts="L">
         <div class="section__header">
-			<h2><span class="title">Lecture Notes</span> <span class="paginate__index">(1/{{collections.pagedNotes | size }})</span></h2>
+			<h2><span class="title">Lecture Notes</span> <span class="paginate__index">1/{{collections.pagedNotes | size }}</span></h2>
             <div class="section__controls">
                 <button class="paginate-prev notes__paginate">Prev</button>
                 <button class="paginate-next notes__paginate">Next</button>

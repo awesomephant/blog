@@ -1,3 +1,5 @@
+@use "vars";
+
 .notes {
     background: #cac3c3;
 }
@@ -9,7 +11,7 @@
     grid-template-columns: subgrid;
     background: #b2b9c4;
     grid-column: 1 / 13;
-    @include bp(s) {
+    @include vars.bp(s) {
         grid-column: 4 / 13;
     }
 }
@@ -21,7 +23,7 @@
     flex-flow: column;
     background: #5788bd;
     gap: 0.5rem;
-    @include bp(s) {
+    @include vars.bp(s) {
         padding-bottom: 5rem;
         align-items: center;
         flex-flow: row;
@@ -84,7 +86,7 @@
 .note__teacher {
     grid-column: 2 / 4;
     display: none;
-    @include bp(m) {
+    @include vars.bp(m) {
         display: block;
     }
     span {
@@ -99,7 +101,7 @@
 
 .note__title {
     grid-column: 2 / 13;
-    @include bp(m) {
+    @include vars.bp(m) {
         grid-column: 4 / 10;
     }
 }

@@ -1,7 +1,8 @@
+@use "vars";
+
 %home__section {
   display: grid;
   grid-template-columns: subgrid;
-  background: white;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   margin-bottom: -1px;
@@ -35,9 +36,8 @@
 }
 
 .section__header {
-  background: rgba(white, 0.5);
+  --bg: #996036;
   text-transform: uppercase;
-  padding-left: 0.15rem;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   line-height: calc(var(--ms-0) * 1.3 + 0.5px);
@@ -45,8 +45,28 @@
   justify-content: space-between;
   align-items: baseline;
   grid-column: 1 / 21;
-  @include bp(l) {
+  background: var(--bg);
+  @include vars.bp(l) {
     grid-column: 1 / 9;
+  }
+
+  .title {
+    padding-left: 0.15rem;
+    color: var(--bg);
+    background: black;
+    display: inline-block;
+    position: relative;
+    &:after {
+      @extend %stepped-gradient;
+      content: "";
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      transform: translateX(100%)
+
+    }
   }
 }
 
@@ -61,7 +81,7 @@
       background: rgba(rgb(0, 0, 0), 0.3 - 0.05 * $i);
     }
   }
-  @include bp(m) {
+  @include vars.bp(m) {
     grid-column: 1 / 2;
   }
   &.is-last {
@@ -72,14 +92,13 @@
 .home__projects {
   @extend %home__section;
   --color: var(--color-work);
-  background: var(--color);
   border-left: 1px solid black;
   border-right: 1px solid black;
   grid-column: 1 / 21;
-  @include bp(m) {
+  @include vars.bp(m) {
     grid-column: 1 / 11;
   }
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 1 / 9;
   }
   ol,
@@ -87,10 +106,10 @@
     display: grid;
     grid-template-columns: subgrid;
     grid-column: 4 / 21;
-    @include bp(m) {
+    @include vars.bp(m) {
       grid-column: 2 / 11;
     }
-    @include bp(l) {
+    @include vars.bp(l) {
       grid-column: 2 / 9;
     }
   }
@@ -117,7 +136,7 @@
   align-items: stretch;
   grid-column: 1 / 20;
   line-height: calc(var(--ms-0) * 1.3);
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 1 / 8;
   }
   &:visited {
@@ -144,45 +163,43 @@ button.home__item {
 .project__title {
   display: block;
   grid-column: 1 / 17;
-  @include bp(m) {
+  @include vars.bp(m) {
     grid-column: 1 / 9;
   }
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 1 / 5;
   }
 }
 .project__category {
   display: none;
-  @include bp(l) {
+  @include vars.bp(l) {
     display: block;
     grid-column: 5 / 7;
   }
 }
 .project__featured {
-  @include bp(m) {
+  @include vars.bp(m) {
     justify-self: flex-end;
     grid-column: 17 / 11;
   }
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 8 / 9;
   }
 }
 
 .home__posts {
   @extend %home__section;
-  --color: var(--color-writing);
-  background: var(--color);
   grid-column: 1 / 21;
   ol {
     grid-column: 4 / 21;
   }
-  @include bp(m) {
+  @include vars.bp(m) {
     grid-column: 11 / 21;
     ol {
       grid-column: 2 / 11;
     }
   }
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 9 / 17;
     ol {
       grid-column: 2 / 9;
@@ -196,24 +213,22 @@ $color-sidebar: rgb(148, 170, 195);
   @extend %home__section;
   border-left: 1px solid black;
   grid-column: 1 / 21;
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 17 / 21;
     margin-left: -1px;
   }
   ol,
   ul {
     border-left: 0;
-    @include bp(l) {
+    @include vars.bp(l) {
       grid-column: 1 / 5;
     }
   }
 }
 
 .home__contact {
-  --color: #{$color-sidebar};
-  background: var(--color);
   grid-column: 1 / 21;
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 1 / 5;
   }
   em {
@@ -246,24 +261,20 @@ $color-sidebar: rgb(148, 170, 195);
 }
 
 .home__teaching {
-  --color: #{$color-sidebar};
-  background: var(--color);
   grid-column: 1 / 21;
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 1 / 5;
   }
 }
 
 .home__running {
-  --color: #{$color-sidebar};
-  background: var(--color);
   grid-column: 1 / 21;
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 1 / 5;
   }
   ol {
     grid-template-columns: 8em repeat(2, 1fr);
-    @include bp(xl) {
+    @include vars.bp(xl) {
       grid-template-columns: 8em repeat(3, 1fr);
     }
     &.is-active {
@@ -301,7 +312,7 @@ $color-sidebar: rgb(148, 170, 195);
 
 .running__time {
   display: none;
-  @include bp(xl) {
+  @include vars.bp(xl) {
     display: block;
   }
 }
@@ -328,36 +339,31 @@ $color-sidebar: rgb(148, 170, 195);
 }
 
 .home__meta {
-  background: #{$color-sidebar};
   grid-column: 1 / 21;
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 1 / 5;
   }
 }
 
 .home__notes {
   grid-column: 1 / 21;
-  --color: #{$color-sidebar};
-  background: var(--color);
   li:last-child .home__item {
     border-bottom: 0;
   }
   a {
     padding-right: 0.2em;
   }
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 1 / 5;
   }
 }
 
 .home__friends {
   grid-column: 1 / 21;
-  --color: #{$color-sidebar};
-  background: var(--color);
   li:last-child .home__item {
     border-bottom: 0;
   }
-  @include bp(l) {
+  @include vars.bp(l) {
     grid-column: 1 / 5;
   }
 }
@@ -411,8 +417,8 @@ $color-sidebar: rgb(148, 170, 195);
 
 .is-featured {
   display: block;
-  height: 0.8rem;
-  width: 0.8rem;
+  height: 0.7rem;
+  width:  0.7rem;
   left: 50%;
   top: 50%;
   transform: translate(-50%) translateY(-50%);

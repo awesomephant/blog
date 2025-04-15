@@ -1,10 +1,12 @@
+@use "./vars";
+
 .site__links {
   list-style: none;
   align-items: stretch;
   border-bottom: 0;
   display: flex;
   gap: 0.25rem;
-  @include bp(s) {
+  @include vars.bp(s) {
     columns: 1;
   }
   a,
@@ -28,21 +30,38 @@
 }
 
 .site__header {
+  --bg: #996036;
   grid-column: 1 / 21;
   letter-spacing: 0;
-  padding: 0 0.2em;
-  background: rgb(255, 255, 255);
   border: 1px solid black;
   margin-bottom: -1px;
   font-size: var(--ms-0);
   text-transform: uppercase;
-  letter-spacing: 0.01em;
-
-  .post & {
-  	background: rgb(255, 245, 215);
+  background: var(--bg);
+  h1, .site__tagline {
+    position: relative;
+    background: black;
+    color: var(--bg);
+    padding: 0 .15em;
+  }
+  h1:after, .site__tagline:after {
+    @extend %stepped-gradient;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  h1:after {
+    transform: translateX(100%);
+    right: 0;
+  }
+  .site__tagline:after {
+    left: 0;
+    transform: translateX(-100%) rotate(180deg);
   }
 
-  @include bp(s) {
+  @include vars.bp(s) {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -86,7 +105,7 @@
   display: flex;
   flex-flow: column;
   width: 100%;
-  @include bp(xl) {
+  @include vars.bp(xl) {
     flex-flow: row;
   }
   span {
@@ -95,7 +114,7 @@
     &:last-child {
       border-right: 0;
     }
-    @include bp(xl) {
+    @include vars.bp(xl) {
       border-bottom: 0;
       border-right: 1px solid rgba(black, 0.5);
     }

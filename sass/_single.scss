@@ -1,3 +1,5 @@
+@use "vars";
+
 .single__container {
   grid-column: 1 / 21;
   margin: 0 auto;
@@ -10,7 +12,7 @@
   display: flex;
   padding: 1em;
   padding-bottom: 1rem;
-  @include bp(s) {
+  @include vars.bp(s) {
     padding: 1.5em 0;
     margin-top: 6em;
   }
@@ -40,7 +42,7 @@
   line-height: 1.375;
   hyphens: auto;
   padding: 1em 0;
-  @include bp(s) {
+  @include vars.bp(s) {
     padding: 2em 0;
     line-height: 1.4;
   }
@@ -50,7 +52,7 @@
     font-size: var(--ms-1);
     margin-top: 1rem;
     margin-bottom: 0.25rem;
-    @include bp(m) {
+    @include vars.bp(m) {
       font-size: var(--ms-2);
       margin-top: 1.5rem;
     }
@@ -131,11 +133,11 @@
     font-size: var(--ms--1);
     margin-top: var(--baseline);
     line-height: 1.5;
-    @include bp(m) {
+    @include vars.bp(m) {
       width: 100%;
     }
     &.wide {
-      @include bp(m) {
+      @include vars.bp(m) {
         width: 130%;
       }
     }
@@ -290,7 +292,7 @@
       width: 100%;
     }
   }
-  @include bp(m) {
+  @include vars.bp(m) {
     img {
       width: 100%;
       max-width: none;
@@ -301,7 +303,7 @@
       width: 100%;
     }
   }
-  @include bp(m) {
+  @include vars.bp(m) {
   	width: 140%;
     img {
       width: 100%;

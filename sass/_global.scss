@@ -1,3 +1,5 @@
+@use "vars";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,12 +25,10 @@ body {
   grid-template-columns: repeat(20, 1fr);
   margin: 0 auto;
   align-items: flex-start;
-  @include bp(s) {
-    padding: 0.5rem;
-    grid-column-gap: 0;
+  @include vars.bp(s) {
   }
   &.home {
-    background: #828181;
+    background: #c3abd0;
   }
   &.post {
     background: white;

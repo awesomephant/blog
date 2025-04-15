@@ -87,8 +87,13 @@ $br: 3px;
 
   // Scale font size on high-res displays
   @media (min-resolution: 120dpi) {
-    font-size: 0.925rem;
+    font-size: 0.9rem;
   }
+}
+
+%stepped-gradient {
+  width: 4ch;
+  background: linear-gradient(to right, black 0, black 33.33%, rgba(black, .66) 33.33%, rgba(black, .66) 66.66%, rgba(black, .33) 66.66%, rgba(black, .33) 100%);
 }
 
 %copy {

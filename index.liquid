@@ -5,7 +5,7 @@ class: home
 
 
 <section class='home__projects'>
-    <h2 class="section__header">Projects</h2>
+	<h2 class="section__header"><span class="title">Projects</span></h2>
     {% for year in collections.workByYear %}
     <h3 class="home__year {% if forloop.last %}is-last{% endif %}">
         {{year.year}}
@@ -33,7 +33,7 @@ class: home
     {% endfor %}
 </section>
 <section class='home__posts'>
-    <h2 class="section__header">Writing</h2>
+	<h2 class="section__header"><span class="title">Writing</span></h2>
     {% for year in collections.postsByYear %}
     <h3 class="home__year {% if forloop.last %}is-last{% endif %}">{{year.year}}</h3>
     {% assign posts = year.posts | reverse %}
@@ -56,7 +56,7 @@ class: home
 
 <section class='home__misc'>
     <section class='home__contact'>
-        <h2 class="section__header">Contact</h2>
+		<h2 class="section__header"><span class="title">Contact</span></h2>
         <ol>
             {% for el in follow %}
             <li>
@@ -78,7 +78,7 @@ class: home
         </ol>
     </section>
     <section class='home__teaching'>
-        <h2 class="section__header">Teaching</h2>
+		<h2 class="section__header"><span class="title">Teaching</span></h2>
         <ol>
             {% for el in teaching %}
             <li>
@@ -94,7 +94,7 @@ class: home
     </section>
     <section class='home__running is-paginated'>
         <div class="section__header">
-            <h2>Running <span class="paginate__index">(1/{{running | size }})</span></h2>
+			<h2><span class="title">Running</span> <span class="paginate__index">(1/{{running | size }})</span></h2>
             <div class="section__controls">
                 <button class="paginate-prev notes__paginate">Prev</button>
                 <button class="paginate-next notes__paginate">Next</button>
@@ -121,7 +121,7 @@ class: home
     </section>
     <section class='home__notes is-paginated'>
         <div class="section__header">
-            <h2>Lecture Notes <span class="paginate__index">(1/{{collections.pagedNotes | size }})</span></h2>
+			<h2><span class="title">Lecture Notes</span> <span class="paginate__index">(1/{{collections.pagedNotes | size }})</span></h2>
             <div class="section__controls">
                 <button class="paginate-prev notes__paginate">Prev</button>
                 <button class="paginate-next notes__paginate">Next</button>
@@ -138,7 +138,7 @@ class: home
         {% endfor %}
     </section>
     <section class='home__friends'>
-        <h2 class="section__header">Friends</h2>
+		<h2 class="section__header"><span class="title">Friends</span></h2>
         <ul>
             {% for el in friends %}
             <li>
@@ -148,7 +148,7 @@ class: home
         </ul>
     </section>
     <section class="home__meta">
-        <h2 class="section__header">Meta</h2>
+		<h2 class="section__header"><span class="title">Meta</span></h2>
         {% include "footer.liquid" %}
     </section>
 </section>

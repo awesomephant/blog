@@ -1,3 +1,5 @@
+@use "vars";
+
 code {
   font-family: var(--font-mono);
   font-size: 0.85em;
@@ -31,7 +33,6 @@ pre[class*="language-"] {
   mark {
     width: 100%;
     background-color: var(--mark);
-    border-radius: $br;
     display: inline-block;
   }
   &:after {

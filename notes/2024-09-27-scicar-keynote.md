@@ -1,4 +1,6 @@
-## Keynote
+---
+title: "SICAR: Keynote"
+---
 
 Christina Brause
 
@@ -8,7 +10,7 @@ Wie Daten und Visual Forensics den Investigativjournalismus veraendern koennen u
 - "Can we make a graphic?": Lacj of coordination between the disciplines, lack of cooperation
 - Investigative and data journalism has big overlaps but don't really talk to each other
 - Pressure to produce shiny products quickly when really we want to spend more time on things and not chase trends
-- Investigative journalists don't use enough data, Data journalists crunch a lot of data but don't really investigate (see election coverage where you send some poor guy out in the country)
+- Investigative journalists don't use enough data, Data journalists crunch a lot of data but don't really investigate (see election coverage where you send some poorguy out in the country)
 
 Current model is four separate columns: Data/Reportage/Investigation/OSINT (but they should work together)
 

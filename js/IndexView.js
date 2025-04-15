@@ -39,15 +39,46 @@ class PaginatedList {
   }
 }
 
+class KeyboardUI {
+	constructor(container){
+		this.keys = {}
+		this.targetEls = container.querySelectorAll("[aria-shortcuts]")
+		this.targetEls.forEach(el => {
+			this.keys[el.getAttribute("aria-shortcuts").toLowerCase()] = el
+		})
+		this.bindEvents();
+		this.render()
+	}
+	bindEvents(){
+		window.addEventListener("keyup", e => {
+			if (this.keys[e.key.toLowerCase()]){
+				const targetEl = this.keys[e.key].querySelector("a, button:not(:disabled)")
+				console.log(targetEl)
+				targetEl.focus()
+			}
+		})
+	}
+	render(){
+		this.targetEls.forEach(el => {
+			const titleEl = el.querySelector(".title")
+			const t = titleEl.innerText
+			titleEl.innerText = `[${t.split('')[0]}]${t.split('').slice(1).join('')}`
+		})
+	}
+}
+
 export default class IndexView {
   constructor() {
-    console.log("index view")
     this.paginatedLists = document.querySelectorAll(".is-paginated")
     this.initPagination()
+	this.initKeyboardUI()
   }
   initPagination() {
     this.paginatedLists.forEach((el) => {
       new PaginatedList(el)
     })
+  }
+  initKeyboardUI(){
+	new KeyboardUI(document.querySelector("body"))
   }
 }

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clare Chapman
-intro: A minimalist website for London-based visual artist Clare Chapman.
+intro: Catalogue website for London-based visual artist Clare Chapman.
 date: 2023-08-01
 tags: work
 draft: false

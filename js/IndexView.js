@@ -50,7 +50,7 @@ class KeyboardUI {
 		this.render()
 	}
 	bindEvents(){
-		window.addEventListener("keyup", e => {
+		window.addEventListener("keydown", e => {
 			if (this.keys[e.key.toLowerCase()]){
 				const targetEl = this.keys[e.key].querySelector("a, button:not(:disabled)")
 				console.log(targetEl)

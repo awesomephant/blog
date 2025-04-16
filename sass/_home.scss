@@ -435,6 +435,7 @@ $color-sidebar: rgb(148, 170, 195);
   position: absolute;
   border-radius: 100px;
   flex-shrink: 0;
-  background: black;
+  background: #bbb89e;
+  border: 1px solid black;
   z-index: 1000;
 }

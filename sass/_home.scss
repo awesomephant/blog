@@ -65,7 +65,7 @@
       right: 0;
       top: 0;
       bottom: 0;
-      transform: translateX(100%) translateX(-1px)
+      transform: translateX(100%)
 
     }
   }
@@ -145,8 +145,10 @@
   }
   &.is-draft {
     text-decoration: line-through;
-    text-decoration-thickness: 2px;
     pointer-events: none;
+    @include vars.bp(m){ 
+      text-decoration-thickness: 2px;
+    }
   }
 }
 
@@ -380,7 +382,7 @@ $color-sidebar: rgb(148, 170, 195);
 .paginate__index {
   font-feature-settings: "tnum" 1;
   border-right: 0 !important;
-  margin-left: 3.5ch;
+  margin-left: 4ch;
 }
 
 .section__controls {
@@ -433,7 +435,6 @@ $color-sidebar: rgb(148, 170, 195);
   position: absolute;
   border-radius: 100px;
   flex-shrink: 0;
-  background: #9b9973;
-  border: 1px solid black;
+  background: black;
   z-index: 1000;
 }

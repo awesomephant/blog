@@ -38,11 +38,19 @@
   font-size: var(--ms-0);
   text-transform: uppercase;
   background: var(--bg);
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  @include vars.bp(s){
+    flex-flow: row;
+  }
+
   h1, .site__tagline {
     position: relative;
-    background: black;
     color: var(--bg);
     padding: 0 .15em;
+    display: inline-block;
+    background: black;
   }
   h1:after, .site__tagline:after {
     @extend %stepped-gradient;
@@ -57,8 +65,12 @@
     right: 0;
   }
   .site__tagline:after {
-    left: 0;
-    transform: translateX(-100%) rotate(180deg);
+    right: 0;
+    transform: translateX(100%);
+    @include vars.bp(m){
+      left: 0;
+      transform: translateX(-100%) rotate(180deg);
+    }
   }
 
   @include vars.bp(s) {

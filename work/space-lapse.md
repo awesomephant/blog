@@ -5,6 +5,7 @@ intro: Lettering and graphic design for the RCA Sculpture's delayed graduation s
 date: 2021-01-05
 tags: work
 category: Lettering
+industry: Arts
 draft: false
 is_featured: true
 ---

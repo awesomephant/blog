@@ -6,7 +6,7 @@ class: notes
 {% assign counter = 1 %} {% for n in collections.notes %} {% assign counter = counter | plus : 1 %} {% endfor %}
 <div class="notes__container" id="notes-container">
   <div class="notes__header">
-    <h2 class="notes__title">Lecture Notes</h2>
+    <h2 class="single__title">Lecture Notes</h2>
     <input type="text" class="notes__search fuzzy-search" placeholder="Search {{ counter }} entries" />
   </div>
   <ul class="notes__list list">

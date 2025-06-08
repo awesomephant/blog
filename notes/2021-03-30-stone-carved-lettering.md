@@ -5,6 +5,7 @@ date: 2021-03-30 20:00:00
 teacher: "Nicholas Benson"
 unit: "Letterform Lectures"
 intro: ""
+venue: Letterform Archive
 website: "https://letterformarchive.org/events/view/stone-carved-lettering-and-the-digital-age"
 thumb: ""
 ---
@@ -27,7 +28,7 @@ Eventualy he started looking at Roman lettering. [Edward Catich](https://en.wiki
 
 In the Renaissance that brush skill was lost. In [Romain du Roi](http://www.riccardolocco.com/img/romain_du_R_Olocco_slide_12.2013.pdf) and similar efforts they try to figure out how to construct the letters with geometry. Giovanni Francesco Cresci made some beautiful letters that tried to look like roman capitals but where actually mechanically made.
 
-Catich: *The Origin of the Serif* (1968) has become the bible of Roman brush lettering. These letters where produced by a set of brush strokes that produce the lively forms you see.
+Catich: _The Origin of the Serif_ (1968) has become the bible of Roman brush lettering. These letters where produced by a set of brush strokes that produce the lively forms you see.
 
 The grandfather got that techinque, some Carolingian minisucle, some chancery italic. Catich was most intersted in coming as close to the Roman original as he could, but the grandfather did more modern letters but following some of the same principles. All of it holds together really beautifully.
 
@@ -37,4 +38,4 @@ Inspiration from Rudolf Koch, Dwiggins, Herman Zapf. The work of the father beca
 
 In the 1980s the computer comes around and people think the shop is screwed. The dad saw the machine as a tool, without knowledge of letterforms you have nothing. He used a computer to do the FDR monument in Washington. There's digital type used there, but many of the letters there are still brushed on the wall by hand. The first to do that connection.
 
-Louis Kahn NYC FDR memorial. The central inscription for that is in this concrete area. It's an excerpt from four freedoms. Yale university are gallery lettering was the source for the typeface. 
+Louis Kahn NYC FDR memorial. The central inscription for that is in this concrete area. It's an excerpt from four freedoms. Yale university are gallery lettering was the source for the typeface.

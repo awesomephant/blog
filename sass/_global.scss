@@ -25,14 +25,6 @@ body {
   grid-template-columns: repeat(20, 1fr);
   margin: 0 auto;
   align-items: flex-start;
-  @include vars.bp(s) {
-  }
-  &.home {
-    background: #326842;
-  }
-  &.post {
-    background: white;
-  }
 }
 
 ::selection {

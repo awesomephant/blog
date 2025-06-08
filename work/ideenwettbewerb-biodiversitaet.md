@@ -4,7 +4,8 @@ title: Ideenwettbewerb Biodiversität
 intro: Design, development, and generative graphics for an ideas competition on urban biodiversity produced by Goethe University Frankfurt.
 date: 2022-04-01
 tags: work
-category: Event
+category: Branding
+industry: Policy
 draft: false
 thumb: https://maxkohler.com/assets/ideenwettbewerb.png
 ---

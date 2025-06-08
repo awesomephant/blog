@@ -1,0 +1,10 @@
+.clock {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  image-rendering: pixelated;
+  display: none;
+}

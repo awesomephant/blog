@@ -21,6 +21,7 @@ module.exports = async () => {
   data.reverse()
   let paceMax = 0
   let paceMin = 99999
+  const pbs = {}
 
   data.forEach((row) => {
     const ps = timeToSeconds(row["AVG 1K"])
@@ -43,6 +44,7 @@ module.exports = async () => {
         url: row["URL"],
         relative_pace: (ps - paceMin) / (paceMax - paceMin),
         location: row.LOCATION,
+        isPB: false,
       }
     }),
     15

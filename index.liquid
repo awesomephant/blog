@@ -5,12 +5,14 @@ class: home
 
 
 <section class='home__projects' aria-shortcuts="P">
-	<h2 class="section__header"><span class="title">Projects</span></h2>
-    {% for year in collections.workByYear %}
-    <h3 class="home__year {% if forloop.last %}is-last{% endif %}">
-        {{year.year}}
-    </h3>
-    {% assign posts = year.posts | reverse %}
+    <h2 class="section__header"><span class="title">Projects</span></h2>
+    {% assign years = collections.workByMonth | reverse %}
+    {% for year in years %}
+    {% assign months = year.months | reverse %}
+    <h3 style="--month-count: {{ months | size }}" class="home__year {% if forloop.last %}is-last{% endif %}">{{year.year}}</h3>
+    {% for month in months %}
+    {% assign posts = month.posts | reverse %}
+    <h4 class="home__month">{{ month.date | date: "%b" }}</h4>
     <ol>
         {% for post in posts %}
         <li>
@@ -31,18 +33,28 @@ class: home
         {% endfor %}
     </ol>
     {% endfor %}
+    {% endfor %}
 </section>
 <section class='home__posts' aria-shortcuts="W">
-	<h2 class="section__header"><span class="title">Writing</span></h2>
-    {% for year in collections.postsByYear %}
-    <h3 class="home__year {% if forloop.last %}is-last{% endif %}">{{year.year}}</h3>
-    {% assign posts = year.posts | reverse %}
+    <h2 class="section__header"><span class="title">Writing</span></h2>
+    {% assign years = collections.postsByMonth | reverse %}
+    {% for year in years %}
+    {% assign months = year.months | reverse %}
+    <h3 style="--month-count: {{ months | size }}" class="home__year {% if forloop.last %}is-last{% endif %}">{{year.year}}</h3>
+    {% for month in months %}
+    <h4 class="home__month">{{ month.date | date: "%b" }}</h4>
     <ol>
+        {% assign posts = month.posts | reverse %}
         {% for post in posts %}
         <li>
             <a href="{{ post.url }}" class="home__item">
-                {{ post.data.shortTitle | default: post.data.title}}
-                <span class="is-featured-container">
+                <span class="writing__title">
+                    {{ post.data.shortTitle | default: post.data.title}}
+                </span>
+                <span class="writing__publication">
+                    {{ post.data.publication }}
+                </span>
+                <span class="is-featured-container writing__featured">
                     {% if post.data.is_featured %}
                     <span class="is-featured"></span>
                     {% endif %}
@@ -52,38 +64,49 @@ class: home
         {% endfor %}
     </ol>
     {% endfor %}
+    {% endfor %}
 </section>
 
 <section class='home__misc'>
     <section class='home__contact' aria-shortcuts="C">
-		<h2 class="section__header"><span class="title">Contact</span></h2>
+        <h2 class="section__header"><span class="title">Contact</span></h2>
         <ol>
             {% for el in follow %}
             <li>
                 <a class="home__item" href="{{ el.url }}">
                     <em>{{ el.label }}</em>
-                    <span>{{ el.handle }}</span>
+                    <span class="follow__value">{{ el.handle }}</span>
                 </a>
             </li>
             {% endfor %}
             <li class="home__email">
                 <button id="copy-email" data-email="hello@maxkohler.com">
                     <em>Email</em>
-                    <span class="email__value">
+                    <span class="email__value follow__value">
                         hello@maxkohler.com
                     </span>
                 </button>
-                <a href="/pgp.txt">PGP</a>
+            </li>
+            <li>
+                <a class="home__item" href="/pgp.txt">
+                    <em>PGP</em>
+                    <span class="follow__value">xsDNBGH+Vz4BDADrjvg...</span>
+                </a>
             </li>
         </ol>
     </section>
     <section class='home__teaching' aria-shortcuts="T">
-		<h2 class="section__header"><span class="title">Teaching</span></h2>
+        <h2 class="section__header"><span class="title">Teaching</span></h2>
         <ol>
             {% for el in teaching %}
             <li>
                 <a class="home__item {% if el.is_draft == 'true' %}is-draft{% endif %}" href="{{ el.url }}">
-                    {{ el.title }}
+                    <span class="teaching__title">
+                        {{ el.title }}
+                    </span>
+                    <span class="teaching__venue">
+                        {{ el.institution }}
+                    </span>
                     <span class="is-featured-container">
                         {% if el.is_featured == "true" %}<span class="is-featured"></span>{% endif %}
                     </span>
@@ -94,7 +117,10 @@ class: home
     </section>
     <section class='home__running is-paginated' aria-shortcuts="R">
         <div class="section__header">
-			<h2><span class="title">Running</span> <span class="paginate__index">1/{{running | size }}</span></h2>
+            <h2>
+                <span class="title">Running</span>
+                <span class="paginate__index">1/{{running | size }}</span>
+            </h2>
             <div class="section__controls">
                 <button class="paginate-prev notes__paginate">Prev</button>
                 <button class="paginate-next notes__paginate">Next</button>
@@ -111,7 +137,7 @@ class: home
                 <span class="running__distance">{{ el.distance }}km</span>
                 {% if el.time != "" %}
                 <span class="running__time">{{ el.time }}</span>
-                <span style="--relative_pace: {{el.relative_pace}}" class="running__pace">{{ el.pace | replace: "0:0", ""}}/km</span>
+                <span style="--relative_pace: {{el.relative_pace}}" class="running__pace">{{ el.pace | replace: "0:0", ""}}</span>
                 {% endif %}
                 {% if el.url != "" %}</a>
             </li>{% else %}</li>{% endif %}
@@ -121,7 +147,7 @@ class: home
     </section>
     <section class='home__notes is-paginated' aria-shortcuts="L">
         <div class="section__header">
-			<h2><span class="title">Lecture Notes</span> <span class="paginate__index">1/{{collections.pagedNotes | size }}</span></h2>
+            <h2><span class="title">Lecture Notes</span> <span class="paginate__index">1/{{collections.pagedNotes | size }}</span></h2>
             <div class="section__controls">
                 <button class="paginate-prev notes__paginate">Prev</button>
                 <button class="paginate-next notes__paginate">Next</button>
@@ -132,13 +158,22 @@ class: home
         {% assign posts = p %}
         <ol class="paginate__page {% if forloop.first %}is-active{% endif %}" data-index="{{ forloop.index0 }}">
             {% for post in posts %}
-            <li><a href="{{ post.url }}" class="home__item">{{ post.data.shortTitle | default: post.data.title}}</a></li>
+            <li><a href="{{ post.url }}" class="home__item">
+                    <span class="notes__venue">
+                        {{post.data.venue}}
+                    </span>
+                    <span class="notes__title">
+                        {{ post.data.shortTitle | default: post.data.title}}
+                    </span>
+                </a></li>
             {% endfor %}
         </ol>
         {% endfor %}
     </section>
     <section class='home__friends' aria-shortcuts="F">
-		<h2 class="section__header"><span class="title">Friends</span></h2>
+        <h2 class="section__header">
+            <span class="title">Friends</span>
+        </h2>
         <ul>
             {% for el in friends %}
             <li>
@@ -148,7 +183,9 @@ class: home
         </ul>
     </section>
     <section class="home__meta" aria-shortcuts="M">
-		<h2 class="section__header"><span class="title">Meta</span></h2>
+        <h2 class="section__header">
+            <span class="title">Meta</span>
+        </h2>
         {% include "footer.liquid" %}
     </section>
 </section>

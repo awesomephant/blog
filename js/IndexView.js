@@ -77,7 +77,7 @@ export default class IndexView {
   }
 
   initClock() {
-    new Clock()
+    new Clock(document.body)
   }
 
   initPagination() {

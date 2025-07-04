@@ -74,7 +74,7 @@ class: home
             {% for el in follow %}
             <li>
                 <a class="home__item" href="{{ el.url }}">
-                    <em>{{ el.label }}</em>
+                    <em class="follow__label">{{ el.label }}</em>
                     <span class="follow__value">{{ el.handle }}</span>
                 </a>
             </li>

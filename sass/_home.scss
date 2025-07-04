@@ -47,21 +47,9 @@
   }
 
   .title {
-    padding-left: 0.15rem;
-    color: var(--secondary);
-    background: black;
+    padding-left: 0.5ch;
     display: inline-block;
     position: relative;
-    &:after {
-      @extend %stepped-gradient;
-      content: "";
-      display: block;
-      position: absolute;
-      right: 1px;
-      top: 0;
-      bottom: 0;
-      transform: translateX(100%);
-    }
   }
 }
 
@@ -144,6 +132,7 @@
 
 .writing__title {
   grid-column: span 4;
+  padding-left: 0.5ch;
 }
 
 .writing__publication {
@@ -158,13 +147,11 @@
 
 .home__item {
   border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid gray;
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  gap: 0.2em;
   font-family: inherit;
-  padding-left: 0.2rem;
   width: 100%;
   background: transparent;
   align-items: stretch;
@@ -200,6 +187,7 @@ button.home__item {
 .project__title {
   display: block;
   grid-column: 1 / 17;
+  padding-left: 0.5ch;
   @include vars.bp(m) {
     grid-column: 1 / 9;
   }
@@ -309,7 +297,6 @@ button.home__item {
   a {
     flex-basis: 0;
     white-space: nowrap;
-    padding-right: 0.2em;
   }
 }
 
@@ -334,6 +321,7 @@ button.home__item {
 .teaching__title {
   grid-column: span 4;
   border-right: 1px solid currentColor;
+  padding-left: 0.5ch;
 }
 .teaching__venue {
   padding-left: 0.5ch;
@@ -499,7 +487,7 @@ button.home__item {
   border-left: 1px solid black;
   display: block;
   position: relative;
-  width: 1.4rem;
+  width: 100%;
 }
 
 .is-featured {

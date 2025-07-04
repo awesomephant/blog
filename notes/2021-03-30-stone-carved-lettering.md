@@ -5,7 +5,7 @@ date: 2021-03-30 20:00:00
 teacher: "Nicholas Benson"
 unit: "Letterform Lectures"
 intro: ""
-venue: Letterform Archive
+venue: LetArch
 website: "https://letterformarchive.org/events/view/stone-carved-lettering-and-the-digital-age"
 thumb: ""
 ---

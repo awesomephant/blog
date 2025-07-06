@@ -10,15 +10,17 @@ const timeToSeconds = function (t) {
   return total
 }
 
+const itemsPerPage = 20
+
 module.exports = async () => {
   let csv = await EleventyFetch(googleSheetUrl, {
     duration: "0s",
     type: "text",
   })
 
-  let data = parse(csv, { columns: true, skip_empty_lines: true })
+  let data = parse(csv, { columns: true, skip_empty_lines: true }).reverse()
+  data = data.slice(0, itemsPerPage * 5)
 
-  data.reverse()
   let paceMax = 0
   let paceMin = 99999
   const pbs = {}
@@ -54,8 +56,9 @@ module.exports = async () => {
         isPB: pbs[d] === ps,
       }
     }),
-    20
+    itemsPerPage,
+    "RUNNING"
   )
 
-  return result.slice(0, 10)
+  return result
 }

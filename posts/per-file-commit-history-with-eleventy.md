@@ -6,8 +6,11 @@ date: 2022-03-21
 includesMath: false
 includesMusic: false
 tags: post
-showChangelog: true
 thumb: https://www.maxkohler.com/assets/git.png
+showChangelog: true
+changes:
+  - message: ksjdhfs
+    date: 01-01-2022
 ---
 
 ## Background
@@ -45,28 +48,27 @@ Creating our data file inside the `/posts` directory puts it at the end of Eleve
 We start by _reading_ `page.inputPath`, an [auto-generated](https://www.11ty.dev/docs/data-eleventy-supplied/) property that contains the path to the Markdown file being processed. Then, we pass that information to `git.log()` to get that file's commit history, and _write_ the result into the post's data object.
 
 <span class="code__title">posts.11tydata.js</span>
+
 ```js
-const git = require('simple-git')();
+const git = require("simple-git")()
 
 async function getChanges(data) {
-
   const options = {
     file: data.page.inputPath,
   }
 
   try {
-    const history = await git.log(options);
+    const history = await git.log(options)
     return history.all
   } catch (e) {
-    return null;
+    return null
   }
-
 }
 
 module.exports = {
   eleventyComputed: {
-    changes: async data => await getChanges(data)
-  }
+    changes: async (data) => await getChanges(data),
+  },
 }
 ```
 
@@ -100,7 +102,7 @@ When we run Eleventy now, the data object for each post contains a list of commi
 
 We can now use whatever templating engine we want to render this data to the page. I happen to use Liquid, so I'd write something like:
 
-<span class="code__title">_includes/post.liquid</span>
+<span class="code__title">\_includes/post.liquid</span>
 {% raw %}
 
 ```liquid
@@ -127,6 +129,6 @@ Here's the real, auto-generated changelog for this post using a slightly modifie
 
 ## Notes
 
-- If you want to tweak which commits are returned by `git.log()`, it has [lots of  options](https://github.com/steveukx/git-js#git-log). 
+- If you want to tweak which commits are returned by `git.log()`, it has [lots of options](https://github.com/steveukx/git-js#git-log).
 - `git.log()` is an expensive operation. On my machine in a repository with about 1,000 commits it increases my average processing from 50 to 150ms. If you're going to do this, you might want to limit it to files where you actually want to show the changelog, or production builds, or both.
 - This solution only deals with linear history - one change after another. It would be interesting to try to visualise forks, branches, merges and everything else git can do, specifically in the context of writing. I remember reading a Hito Steyerl essay she described as _fork_ another text - even if she was using the term somewhat metaphorically, I like the idea.

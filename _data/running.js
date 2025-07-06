@@ -25,8 +25,14 @@ module.exports = async () => {
 
   data.forEach((row) => {
     const ps = timeToSeconds(row["AVG 1K"])
+    const d = parseFloat(row["D (KM)"])
     paceMax = ps > paceMax ? ps : paceMax
     paceMin = ps < paceMin ? ps : paceMin
+    if (pbs[d]) {
+      pbs[d] = pbs[d] > ps ? ps : pbs[d]
+    } else {
+      pbs[d] = ps
+    }
   })
 
   data = data.filter((row) => {
@@ -36,19 +42,20 @@ module.exports = async () => {
   const result = paginate(
     data.map((row) => {
       const ps = timeToSeconds(row["AVG 1K"])
+      const d = parseFloat(row["D (KM)"])
       return {
         date: row.DATE,
-        distance: row["D (KM)"],
+        distance: d,
         time: row.TIME,
         pace: row["AVG 1K"],
         url: row["URL"],
         relative_pace: (ps - paceMin) / (paceMax - paceMin),
         location: row.LOCATION,
-        isPB: false,
+        isPB: pbs[d] === ps,
       }
     }),
-    15
+    20
   )
 
-  return result
+  return result.slice(0, 10)
 }

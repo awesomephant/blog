@@ -90,7 +90,7 @@ class: home
             <li>
                 <a class="home__item" href="/pgp.txt">
                     <em>PGP</em>
-                    <span class="follow__value">xsDNBGH+Vz4BDADrjvg...</span>
+                    <span class="follow__value">xsDNBGH+Vz4BDADrjvgsy9pMMSCXp0kZazy6Gvo6fZNLRRiPZmNktkm6gsLik8DO</span>
                 </a>
             </li>
         </ol>
@@ -117,10 +117,8 @@ class: home
     </section>
     <section class='home__running is-paginated' aria-shortcuts="R">
         <div class="section__header">
-            <h2>
-                <span class="title">Running</span>
-                <span class="paginate__index">1/{{running | size }}</span>
-            </h2>
+            <h2 class="title">Running</h2>
+            <span class="paginate__index">1/{{running | size }}</span>
             <div class="section__controls">
                 <button class="paginate-prev notes__paginate">Prev</button>
                 <button class="paginate-next notes__paginate">Next</button>
@@ -133,21 +131,28 @@ class: home
             {% for el in posts %}
             {% if el.url != "" %}<li class="has-url"><a class="home__item" href="{{el.url}}">{% else %}
             <li class="home__item">{% endif %}
-                <span class="running__date">{{ el.date | date: "%b %d, %Y"}}{% if el.url != "" %} ↗{% endif %}</span>
+
+                <span class="running__date">{{ el.date | date: "%b %d, %Y"}}{% if el.url != "" %} ↗{% endif %}
+
+                </span>
                 <span class="running__distance">{{ el.distance }}km</span>
                 {% if el.time != "" %}
                 <span class="running__time">{{ el.time }}</span>
                 <span style="--relative_pace: {{el.relative_pace}}" class="running__pace">{{ el.pace | replace: "0:0", ""}}</span>
                 {% endif %}
-                {% if el.url != "" %}</a>
-            </li>{% else %}</li>{% endif %}
+                <span class="is-featured-container">
+                    {% if el.isPB %}<span class="is-featured"></span>{% endif %}
+                </span>
+                {% if el.url != "" %}</a>{% endif %}
+            </li>
             {% endfor %}
         </ol>
         {% endfor %}
     </section>
     <section class='home__notes is-paginated' aria-shortcuts="L">
         <div class="section__header">
-            <h2><span class="title">Lecture Notes</span> <span class="paginate__index">1/{{collections.pagedNotes | size }}</span></h2>
+            <h2 class="title">Lecture Notes</h2>
+            <span class="paginate__index">1/{{collections.pagedNotes | size }}</span>
             <div class="section__controls">
                 <button class="paginate-prev notes__paginate">Prev</button>
                 <button class="paginate-next notes__paginate">Next</button>
@@ -177,7 +182,7 @@ class: home
         <ul>
             {% for el in friends %}
             <li>
-                <a class="home__item" href="{{ el.url }}">{{ el.name }}</a>
+                <a class="home__item" href="{{ el.url }}">{{ el.name }} ↗</a>
             </li>
             {% endfor %}
         </ul>

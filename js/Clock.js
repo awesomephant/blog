@@ -9,7 +9,7 @@ export default class Clock {
     this.c.imageSmoothingEnabled = false
 
     const cellSelector =
-      ".home__month,.home__year, .writing__title, .writing__publication, .is-featured-container, .project__title, .project__category, .follow__label, .follow__value, .teaching__title, .teaching__venue, .is-active .running__date, .is-active .running__distance, .is-active .running__time, .is-active .running__pace, .is-active .notes__venue, .is-active .notes__title, #copy-email em, .home__item em"
+      ".home__month,.home__year, .writing__title, .writing__publication, .project__title, .project__category, .follow__label, .follow__value, .teaching__title, .teaching__venue, .is-active .running__date, .is-active .running__distance, .is-active .running__time, .is-active .running__pace, .is-active .notes__venue, .is-active .notes__title, #copy-email em, .home__item em"
     this.cells = container.querySelectorAll(cellSelector)
     this.setDimensions()
     this.update()
@@ -39,7 +39,7 @@ export default class Clock {
     const h = d.getHours()
     const m = d.getMinutes()
     // this.c.fillText(`SUNDAY`, -fs * 0.02, fs * 0.6, this.canvas.width)
-    this.c.fillText(`${h > 12 ? h - 12 : h}${m < 10 ? `0${m}` : m}`, -fs * 0.01, fs * 0.65, this.canvas.width * 0.99)
+    this.c.fillText(`${h > 12 ? h - 12 : h}${m < 10 ? `0${m}` : m}`, -fs * 0.05, fs * 0.6, this.canvas.width * 0.99)
   }
 
   render() {

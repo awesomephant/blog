@@ -5,7 +5,7 @@ date: 2021-02-22 20:30:00
 teacher: "Sébastien Morlighem"
 unit: "Type@Cooper"
 intro: ""
-venue: Cooper Union
+venue: Cooper
 website: "https://vimeo.com/516485231"
 thumb: ""
 ---

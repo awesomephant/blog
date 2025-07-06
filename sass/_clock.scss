@@ -7,13 +7,12 @@
   width: 100vw;
   height: 100vh;
   image-rendering: pixelated;
-  // opacity: 0;
+  opacity: 0;
   pointer-events: none;
   mix-blend-mode: difference;
 }
 
 .clock-active {
-  // background: rgb(0, 0, 0) !important;
-  // color: white;
-  // background: rgb(135, 98, 98);
+  position: relative;
+  background: rgb(249, 247, 204);
 }

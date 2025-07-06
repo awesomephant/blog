@@ -41,6 +41,8 @@
   flex-flow: column;
   align-items: flex-start;
   letter-spacing: 0.005em;
+  padding: 0 0.5ch;
+
   @include vars.bp(s) {
     flex-flow: row;
   }
@@ -48,25 +50,10 @@
   h1 {
     position: relative;
     color: var(--bg);
-    padding: 0 0.15em;
     display: inline-block;
-    color: var(--secondary);
-    background: black;
-  }
-  h1:after {
-    @extend %stepped-gradient;
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-  }
-  h1:after {
-    transform: translateX(100%);
-    right: 0;
   }
   .site__tagline {
-    margin-left: 4ch;
+    border-left: 1px solid currentColor;
   }
 
   @include vars.bp(s) {

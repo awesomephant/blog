@@ -69,20 +69,19 @@
 }
 
 .site__footer {
-  display: flex;
-  align-items: baseline;
-  flex-flow: column;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) 2.5ch;
 }
 
 .footer__nav {
-  border-bottom: 1px solid rgba(black, 0.5);
-  width: 100%;
+  grid-column: 1 / 7;
+  border-bottom: 1px solid currentColor;
   list-style: none;
   a {
-    padding: 0 0.2em;
+    padding: 0 var(--padding-x);
     text-decoration: none;
     display: block;
-    border-bottom: 1px solid rgba(black, 0.5);
+    border-bottom: 1px solid currentColor;
   }
   li:last-child {
     a {
@@ -95,22 +94,22 @@
   text-transform: uppercase;
 }
 
-.footer__copyright {
-  display: flex;
-  flex-flow: column;
+.site__footer p {
+  grid-column: 1 / 7;
+  display: grid;
+  grid-template-columns: subgrid;
   width: 100%;
-  @include vars.bp(xl) {
-    flex-flow: row;
+  border-bottom: 1px solid currentColor;
+  &:last-child {
+    border-bottom: 0;
   }
-  span {
-    border-bottom: 1px solid rgba(black, 0.5);
-    padding: 0 0.2rem;
-    &:last-child {
-      border-right: 0;
-    }
-    @include vars.bp(xl) {
-      border-bottom: 0;
-      border-right: 1px solid rgba(black, 0.5);
-    }
+  .label {
+    border-right: 1px solid currentColor;
+    grid-column: 1 / 2;
+    padding: 0 var(--padding-x);
+  }
+  .value {
+    padding: 0 var(--padding-x);
+    grid-column: 2 / 6;
   }
 }

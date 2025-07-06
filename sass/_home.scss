@@ -24,7 +24,7 @@
 
 .section__header {
   display: grid;
-  grid-template-columns: repeat(6, 1fr) 2.5ch;
+  grid-template-columns: repeat(5, 1fr) 2.5ch;
   text-transform: uppercase;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -35,7 +35,7 @@
   }
 
   .title {
-    grid-column: span 3;
+    grid-column: span 2;
     border-right: 1px solid currentColor;
     padding: 0 var(--padding-x);
   }
@@ -251,9 +251,6 @@ button.home__item {
   ol,
   ul {
     border-left: 0;
-    @include vars.bp(l) {
-      grid-column: 1 / 5;
-    }
   }
 }
 
@@ -335,7 +332,7 @@ button.home__item {
     grid-column: 1 / 5;
   }
   ol {
-    grid-template-columns: repeat(6, 1fr) 2.5ch;
+    grid-template-columns: repeat(5, 1fr) 2.5ch;
 
     &.is-active {
       display: grid;
@@ -369,7 +366,7 @@ button.home__item {
 }
 
 .running__date {
-  grid-column: span 3;
+  grid-column: span 2;
 }
 
 .running__time {
@@ -392,6 +389,11 @@ button.home__item {
   .paginate__page.is-active {
     display: grid;
     grid-template-columns: subgrid;
+  }
+  ol {
+    @include vars.bp(l) {
+      grid-column: 1 / 5;
+    }
   }
   li {
     display: contents;
@@ -442,13 +444,12 @@ button.home__item {
 }
 
 .paginate__index {
-  font-feature-settings: "tnum" 1;
   padding: 0 var(--padding-x);
 }
 
 .section__controls {
   display: flex;
-  grid-column: 5/ 7;
+  grid-column: 4 / 6;
   position: relative;
   button {
     appearance: none;
@@ -485,6 +486,7 @@ button.home__item {
   position: relative;
   border-left: 1px solid currentColor;
   width: 2.5ch;
+  justify-self: flex-end;
 }
 
 .is-featured {

@@ -183,19 +183,6 @@
   }
 }
 
-a.home__item,
-button.home__item {
-  cursor: pointer;
-
-  &:focus-visible,
-  &:hover {
-    border-bottom: 1px solid black;
-    outline: 0;
-    color: white;
-    background: black !important;
-  }
-}
-
 .project__title {
   display: block;
   grid-column: 1 / 19;
@@ -357,7 +344,7 @@ button.home__item {
     grid-column: span 4;
   }
   @include vars.bp(l) {
-    grid-column: span 5;
+    grid-column: span 4;
   }
 }
 
@@ -501,6 +488,16 @@ button.home__item {
 .home__friends {
   grid-column: 1 / 21;
   .home__item {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+  }
+  .friends__name {
+    grid-column: span 1;
+    padding: 0 var(--padding-x);
+    border-right: 1px solid black;
+  }
+  .friends__comment {
+    grid-column: span 1;
     padding: 0 var(--padding-x);
   }
   li:last-child .home__item {
@@ -508,7 +505,6 @@ button.home__item {
   }
   @include vars.bp(m) {
     grid-column: 1 / 11;
-    border-right: 1px solid black;
   }
   @include vars.bp(l) {
     grid-column: 1 / 5;

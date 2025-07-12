@@ -81,7 +81,7 @@ class: home
             {% endfor %}
             <li class="home__email">
                 <button id="copy-email" data-email="hello@maxkohler.com">
-                    <em>Email</em>
+                    <em class="follow__label">Email</em>
                     <span class="email__value follow__value">
                         hello@maxkohler.com
                     </span>
@@ -89,7 +89,7 @@ class: home
             </li>
             <li>
                 <a class="home__item" href="/pgp.txt">
-                    <em>PGP</em>
+                    <em class="follow__label">PGP</em>
                     <span class="follow__value">xsDNBGH+Vz4BDADrjvgsy9pMMSCXp0kZazy6Gvo6fZNLRRiPZmNktkm6gsLik8DO</span>
                 </a>
             </li>
@@ -185,6 +185,10 @@ class: home
                 <a class="home__item" href="{{ el.url }}">
                     <span class="friends__name">
                         {{ el.name }} ↗
+                    </span>
+                    <span class="friends__comment">
+                        {{ el.comment }}
+
                     </span>
                 </a>
             </li>

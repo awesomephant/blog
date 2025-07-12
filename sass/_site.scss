@@ -117,12 +117,18 @@
     @include vars.bp(m) {
       grid-column: 1 / 2;
     }
+    @include vars.bp(l) {
+      grid-column: 1 / 3;
+    }
   }
   .value {
     padding: 0 var(--padding-x);
     grid-column: 3 / 6;
     @include vars.bp(m) {
       grid-column: 2 / 6;
+    }
+    @include vars.bp(l) {
+      grid-column: 3 / 7;
     }
   }
 }

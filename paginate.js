@@ -1,4 +1,4 @@
-module.exports = function (posts, n) {
+module.exports = function (posts, n, label) {
   const pages = []
   let page = []
   for (let i = 0; i < posts.length; i++) {
@@ -10,6 +10,6 @@ module.exports = function (posts, n) {
     }
   }
   pages.push(page)
-  console.log(`${pages.length} pages generated`)
+  console.log(`[${label}] ${pages.length} pages generated`)
   return pages
 }

@@ -1,5 +1,6 @@
 ---
-title: "SICAR: Keynote"
+title: Keynote
+venue: SciCAR
 ---
 
 Christina Brause

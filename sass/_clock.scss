@@ -1,0 +1,20 @@
+.clock-cell {
+  background: var(--bg);
+}
+
+.is-draft {
+  cursor: default;
+}
+
+a.home__item:not(.is-draft),
+button.home__item,
+#copy-email {
+  cursor: pointer;
+  &:hover,
+  &:focus-visible {
+    .clock-cell {
+      background: black;
+      color: white;
+    }
+  }
+}

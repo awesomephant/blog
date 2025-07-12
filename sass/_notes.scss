@@ -1,107 +1,103 @@
 @use "vars";
 
 .notes {
-    background: #cac3c3;
+  background: #cac3c3;
 }
 .notes__container {
-    display: grid;
-    margin-left: -1px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    grid-template-columns: subgrid;
-    background: #b2b9c4;
-    grid-column: 1 / 13;
-    @include vars.bp(s) {
-        grid-column: 4 / 13;
-    }
+  display: grid;
+  margin-left: -1px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  grid-template-columns: subgrid;
+  background: #b2b9c4;
+  grid-column: 1 / 13;
+  @include vars.bp(s) {
+    grid-column: 4 / 13;
+  }
 }
 .notes__header {
-    grid-column: 1 / 13;
-    padding: 0.5rem;
-    display: flex;
-    border-bottom: 1px solid black;
-    flex-flow: column;
-    background: #5788bd;
-    gap: 0.5rem;
-    @include vars.bp(s) {
-        padding-bottom: 5rem;
-        align-items: center;
-        flex-flow: row;
-        justify-content: space-between;
-    }
-}
-
-.notes__title {
-    @extend %h2;
+  grid-column: 1 / 13;
+  padding: 0.5rem;
+  display: flex;
+  border-bottom: 1px solid black;
+  flex-flow: column;
+  background: #5788bd;
+  gap: 0.5rem;
+  @include vars.bp(s) {
+    padding-bottom: 5rem;
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-between;
+  }
 }
 
 .notes__search {
-    font-size: var(--ms-0);
-    background: white;
-    border: 1px solid var(--black);
-    padding: 0.15rem 0.25rem;
-    box-shadow: 2px 2px 0 inset var(--gray-20);
-    grid-column: 1 / 10;
-    &:focus {
-        outline: 1px solid black;
-    }
-    &::placeholder {
-        opacity: 1;
-        color: black;
-    }
+  font-size: var(--ms-0);
+  background: white;
+  border: 1px solid var(--black);
+  padding: 0.15rem 0.25rem;
+  box-shadow: 2px 2px 0 inset var(--gray-20);
+  grid-column: 1 / 10;
+  &:focus {
+    outline: 1px solid black;
+  }
+  &::placeholder {
+    opacity: 1;
+    color: black;
+  }
 }
 .notes__list {
-    display: grid;
-    grid-template-columns: subgrid;
-    grid-column: 1 / 13;
-    li {
-        display: contents;
-        &:last-child a {
-            border-bottom: 0;
-        }
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / 13;
+  li {
+    display: contents;
+    &:last-child a {
+      border-bottom: 0;
     }
+  }
 }
 .notes__item {
-    list-style: none;
-    padding: 0.15rem 0.5rem;
-    grid-column: 1 / 13;
-    display: grid;
-    grid-template-columns: subgrid;
-    text-decoration: none;
-    border-bottom: 1px dotted black;
-    &.hidden {
-        display: none;
-    }
-    &:hover,
-    &:focus-visible {
-        background: rgba(white, 0.15);
-        border-bottom: 1px solid black;
-    }
+  list-style: none;
+  padding: 0.15rem 0.5rem;
+  grid-column: 1 / 13;
+  display: grid;
+  grid-template-columns: subgrid;
+  text-decoration: none;
+  border-bottom: 1px dotted black;
+  &.hidden {
+    display: none;
+  }
+  &:hover,
+  &:focus-visible {
+    background: rgba(white, 0.15);
+    border-bottom: 1px solid black;
+  }
 }
 
 .note__date {
-    grid-column: 1 / 2;
+  grid-column: 1 / 2;
 }
 
 .note__teacher {
-    grid-column: 2 / 4;
-    display: none;
-    @include vars.bp(m) {
-        display: block;
-    }
-    span {
-        display: block;
-    }
+  grid-column: 2 / 4;
+  display: none;
+  @include vars.bp(m) {
+    display: block;
+  }
+  span {
+    display: block;
+  }
 }
 
 .note__venue {
-    grid-column: 3 / 4;
-    display: none;
+  grid-column: 3 / 4;
+  display: none;
 }
 
 .note__title {
-    grid-column: 2 / 13;
-    @include vars.bp(m) {
-        grid-column: 4 / 10;
-    }
+  grid-column: 2 / 13;
+  @include vars.bp(m) {
+    grid-column: 4 / 10;
+  }
 }

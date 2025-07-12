@@ -5,6 +5,7 @@ date: 2021-02-22 20:30:00
 teacher: "Sébastien Morlighem"
 unit: "Type@Cooper"
 intro: ""
+venue: Cooper U
 website: "https://vimeo.com/516485231"
 thumb: ""
 ---
@@ -19,9 +20,9 @@ Isambard is a very recent typeface but following 19th century models very closel
 
 This lecture, though, is about the historical origin of the style.
 
-The term fatface doesnt come from the 19th centy: It first appears in 1683, in *[Mechanick Exercies](https://babel.hathitrust.org/cgi/pt?id=mdp.39015028306002&view=1up&seq=56&q1=printing)*.  Moxon already gives a definition. 
+The term fatface doesnt come from the 19th centy: It first appears in 1683, in _[Mechanick Exercies](https://babel.hathitrust.org/cgi/pt?id=mdp.39015028306002&view=1up&seq=56&q1=printing)_. Moxon already gives a definition.
 
-Robert thorne (1753-1820) is still credited with being the inventor of the fatface. The earliest mention making that assertion is from 1817, William Savage. A few years later 1825 another printer gives him credit for the invention too:  Talbot Baines Reed, *Old and new Fashions in Typography* (1790):
+Robert thorne (1753-1820) is still credited with being the inventor of the fatface. The earliest mention making that assertion is from 1817, William Savage. A few years later 1825 another printer gives him credit for the invention too: Talbot Baines Reed, _Old and new Fashions in Typography_ (1790):
 
 > The new roman was baerly established as the prevailing fashion when a vulgar taste for fatter faces asserted itself. The demand was proptly responded to by the founders of the day, Robert Thorne leading the way.
 
@@ -35,7 +36,7 @@ Thomas Rowlandson (1790): [Sign Painter's Workshop](https://www.britishmuseum.or
 
 Thorne was an apprentice with Thomas Cottrell. In the 18th century type was dominated by the Caslons, where Cottrell himself had beeen an employee. He was known for doing placard letters - that's big letters for public notices, but still designed like regular romans. These were hard to cast with the traditional method (I'm guessing it's hard to punch a letter that big). You could do it with sand, but that was tedious and imprecise. There were also brass plates, but this couldnt meet the increasing demand.
 
-Caslon II and Caslon III had a huge range of large types, up to 99 picas. The best stuff was coming from them  at the time, but other foundries like Stephenson's made large types too - we know this from looking at specimen books. So in the 1790s it was already pretty easy to get your hands on a wide range of big letters for poster work.
+Caslon II and Caslon III had a huge range of large types, up to 99 picas. The best stuff was coming from them at the time, but other foundries like Stephenson's made large types too - we know this from looking at specimen books. So in the 1790s it was already pretty easy to get your hands on a wide range of big letters for poster work.
 
 Thorne eventually buys Cottrell's foundry in 1794. He issued his first specimen the same year - it's at St Bride and contains a 19 line type. But these aren't bold letters yet. Four years later he publishes his second specimen. We still see the 19 line type, but this time we also see a lowercase. Of course these could have been present four years earlier and just not printed in the specimen.
 
@@ -69,6 +70,6 @@ Type design continues to get heavier. Around 1815 we get into even fatter faces.
 
 Faces continue to get fatter in 1820, and the variety of styles continues to expand. Thoroughgood publishes his first specimen in 1821 (having bought Thorne's foundry).
 
-In the 1820s a new design of fatface appears: The Antique (Or Egyyptian). 
+In the 1820s a new design of fatface appears: The Antique (Or Egyyptian).
 
 [George Scharf](https://www.britishmuseum.org/collection/search?keyword=george&keyword=scharf&agent=George%20Scharf&image=true&view=grid&sort=object_name__asc&page=2) is one of the best graphic witnesses of this time: We see the competition between types and sizes, printing and painting going on in London. In the 1830s you start to see sans-serifs and the style evolves from there.

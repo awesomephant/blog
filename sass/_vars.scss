@@ -50,7 +50,7 @@ $br: 3px;
   --font-sans: "Atlas Typewriter", "Arial", sans-serif;
   --font-mono: "Consolas", "Lucida Console", Courier Prime, monospace;
   --ratio: 1.2;
-  --ms-0: clamp(0.85rem, calc(1.3vw + 0.2rem), 0.95rem);
+  --ms-0: clamp(0.85rem, calc(1.3vw + 0.2rem), 0.9rem);
   --ms--2: calc(var(--ms--1) / var(--ratio));
   --ms--1: calc(var(--ms-0) / var(--ratio));
   --ms-1: calc(var(--ms-0) * var(--ratio));
@@ -63,7 +63,6 @@ $br: 3px;
   --ms-text: calc(var(--ms-0));
   --black: rgb(8, 8, 8);
   --gray: rgb(102, 104, 105);
-  --lightgray: rgb(255, 255, 255);
   --white: #fff;
   --mark: #fffdeb;
   --gray-10: rgba(0, 0, 0, 0.05);
@@ -83,7 +82,9 @@ $br: 3px;
   --fast: 300ms;
   --br: 3px;
   --padding: Min(5%, var(--ms-1));
+  --padding-x: 0.5ch;
   --baseline: calc(var(--ms-0) * 1.45);
+  --secondary: rgb(222, 218, 213);
 
   // Scale font size on high-res displays
   @media (min-resolution: 120dpi) {
@@ -92,8 +93,8 @@ $br: 3px;
 }
 
 %stepped-gradient {
-  width: 4ch;
-  background: linear-gradient(to right, black 0, black 33.33%, rgba(black, .66) 33.33%, rgba(black, .66) 66.66%, rgba(black, .33) 66.66%, rgba(black, .33) 100%);
+  width: 3ch;
+  background: linear-gradient(to right, black 0, black 33.33%, rgba(black, 0.66) 33.33%, rgba(black, 0.66) 66.66%, rgba(black, 0.33) 66.66%, rgba(black, 0.33) 100%);
 }
 
 %copy {

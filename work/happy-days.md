@@ -5,6 +5,7 @@ intro: Microsite documenting 10 years of activity of the literary festival in En
 date: 2023-07-02
 tags: work
 category: Website
+industry: Culture
 draft: false
 thumb: https://maxkohler.com/assets/hambling.png
 ---

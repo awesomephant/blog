@@ -4,17 +4,17 @@ title: "Weird but worthwhile: Otto Hupp’s typefaces for Genzsch & Heyse "
 date: 2021-11-01 20:00:00
 teacher: "Dan Reynolds"
 unit: "Herb Lubalin Lecture"
+venue: Cooper U
 intro: ""
 website: https://cooper.edu/events-and-exhibitions/events/weird-worthwhile-otto-hupps-typefaces-genzsch-heyse
 thumb: ""
 ---
 
-
 {% include "fig.liquid", src: "/assets/notes/800px-Munchenbreweries.jpg", caption: "A chart of Munichs breweries in the 1890s", alt: "Chart showing arms of Munich Breweries in the 1890s", source: "[Source](https://www.heraldry-wiki.com/heraldrywiki/wiki/File:Munchenbreweries.jpg)", class: "big"%}
 
 August Genzsch co-founded the Genzsch and Heyse type foundry in Hamburg in 1833. Heyse died pretty soon so this is really the Genzsch Foundry. Hermann Genzsch retires in 1933.
 
-Genzsch was an apprentice at Breitkopf's inhouse type foundry, who still publish  music today. Then became a foreman in a type foundry at Frankfurt, then moved onto Hamburg where he set up his own shop.
+Genzsch was an apprentice at Breitkopf's inhouse type foundry, who still publish music today. Then became a foreman in a type foundry at Frankfurt, then moved onto Hamburg where he set up his own shop.
 
 In 1834 G and H bought a foundry called Lampe which was absolutely ancient (founded in 1589 possibly). With that purchase they got many punches and matrices. Some very old, like a Schwabacher from the 17th century.
 
@@ -34,7 +34,6 @@ Why the success of Neue Schwabacher? German unification: until 1871, there was n
 
 There was a show in Munich called _Our Fathers' Works_ which revived interest in the German rennaiscance. This is why this historicist style is sometimes called the Munich Renaisscance. Their heros were Dürer and Holbein.
 
-
 Now onto Otto: Otto Hupp was trained in engraving by his father. His first comission was a medal for a shooting competition. The process for cutting punches for things like this is the same as you use for punchcutting for type.
 
 His primary area of activity wasn't type design or lettering but heraldry: he's a heraldic illustrator. His longest-running graphic project were the Munich calendars. These are pretty wild relief prints. They were popular, print runs of 27,000 copies at the height of their popularity.
@@ -45,7 +44,7 @@ Emil Julius Genzsch comes to Munich and buys a local type foundry, turning it in
 
 Hupp starts working for G and H. While the factory was bombed in the Second World War, Hupp's house wasn't, which is why we still have many of his drawings.
 
-We don't know exactly how they went from the drawings to sorts. But here's an idea: They photograph Hupps clean ink drawing. They transfer that onto a plate and etch it. They place the plate into a bath with a piece of copper to electroplate it. You make a copper form that you cut off from the original plate,  mount and sell.
+We don't know exactly how they went from the drawings to sorts. But here's an idea: They photograph Hupps clean ink drawing. They transfer that onto a plate and etch it. They place the plate into a bath with a piece of copper to electroplate it. You make a copper form that you cut off from the original plate, mount and sell.
 
 {% include "fig.liquid", src: "/assets/notes/hupp-arms.jpg", caption: "Page from _Die Wappen und Siegel der Deutschen Städte, Flecken und Dörfer._", alt: "Colourful arms of different German towns, arranged in a 4x5 grid.", source: "[Source](https://www.heraldry-wiki.com/heraldrywiki/wiki/File:Hupp-rp1.jpg)"%}
 

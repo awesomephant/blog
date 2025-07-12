@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to fix inconsistent vertical metrics in web fonts
+title: Fixing inconsistent vertical metrics in web fonts
 date: 2022-02-19
 includesMath: false
 includesMusic: false

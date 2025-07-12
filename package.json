@@ -18,11 +18,11 @@
   "license": "ISC",
   "homepage": "/",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.1",
+    "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-fetch": "^5.1.0",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
-    "axios": "^1.9.0",
+    "axios": "^1.10.0",
     "cross-env": "^7.0.3",
     "csv-parse": "^5.6.0",
     "liquidjs": "^10.21.1",
@@ -31,8 +31,7 @@
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-task-lists": "^2.1.1",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.89.1",
-    "simple-git": "^3.28.0",
+    "sass": "^1.89.2",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1"
   },

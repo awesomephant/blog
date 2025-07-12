@@ -3,7 +3,7 @@ layout: post
 title: "The Herschey Fonts"
 date: 2020-12-01 19:30:00
 teacher: "Frank Grießhammer"
-unit: "Type @ Cooper"
+unit: "Type@Cooper"
 intro: "Notes from Frank Grießhammer's lecture on the Hershey fonts at the Cooper Union, 2016."
 website: "http://coopertype.org/event/the_hershey_fonts"
 thumb: ""
@@ -17,9 +17,10 @@ The Herschey fonts are a collection of vector fonts developed in 1967 at the Nav
 
 Archive.org (and Google Scholar) has Herschey's paper [Calligraphy for Computers](https://archive.org/details/hershey-calligraphy_for_computers/page/n53/mode/2up). In it, he writes about type design for a coarse grid as an artistic challenge. He's clearly an interesting person: artistic, but also extremely technical.
 
-The paper has 200 pages, most of which are drawings of letters, including the lombardic caps from earlier. 
+The paper has 200 pages, most of which are drawings of letters, including the lombardic caps from earlier.
 
 ## Who is Allen V. Herschey
+
 Worked as a physicist at the Naval Weapons Laboratory. He was a theoretial physicis (fluid dynamics). He was also apparently a calligrapher.
 
 How did he design his letters? He drew out each letter on graph paper, using only straight lines. He drew a complete Japanese typeface, too.
@@ -36,7 +37,7 @@ It was attached to a line printer, which would print onto these long continuous 
 
 In this video they show a stencil method to project letterforms (similar to phototypesetting), but Herschey used the vector drawing method instead (this just sent the beam through the period and used it to draw). Here's some marketing copy about the S-C 4020:
 
-> Once upon a time [...] the computer-printer generated only row after row of numbers and symbols, it was only used by the engineers. The took their armloads of papers to the drafting department, where an army of draftsmen and clerks converted the figures into charts, graphs, and drawings. [...] Then a bright engineer learned about a new kind of machine called the S-C 4020 that takes the information froma  computer and converts it into curves, graphs and pictures.
+> Once upon a time [...] the computer-printer generated only row after row of numbers and symbols, it was only used by the engineers. The took their armloads of papers to the drafting department, where an army of draftsmen and clerks converted the figures into charts, graphs, and drawings. [...] Then a bright engineer learned about a new kind of machine called the S-C 4020 that takes the information froma computer and converts it into curves, graphs and pictures.
 
 {% include "fig.liquid", src: "/assets/notes/40-20.png", caption: "The CHARACTRON shaped beam tube of the S-C 4020", alt: "A page from the 4020 manual, showing an exploded drawing of the shaped beam tube", source: "http://www.chilton-computing.org.uk/acl/pdfs/sc4020_inf_manual.pdf"%}
 
@@ -62,5 +63,4 @@ The FORTRAN style comes from the Leroy Lettering Set (used for [comics a lot](ht
 
 While these typefaces are available, they only come in an ancient plain-text format. Grießhammer wrote the necessary Python to turn this into properly-encoded OTFs (albeit with a stem width of 0) - looks like that's [this repo](https://github.com/frankrolf/hershey-fonts), though it doesn't contain the converted font files. Here's [someone else's attempt from 1997](http://paulbourke.net/dataformats/hershey/).
 
-
-*This is speculation from me, Max*: I'm assuming this material flowed into the [MAD Family](https://www.colophon-foundry.org/typefaces/mad-sans/) from Colophon (especially the three weights produced by repeating the outline), though they don't seem to acknowledge it in their marketing copy.
+_This is speculation from me, Max_: I'm assuming this material flowed into the [MAD Family](https://www.colophon-foundry.org/typefaces/mad-sans/) from Colophon (especially the three weights produced by repeating the outline), though they don't seem to acknowledge it in their marketing copy.

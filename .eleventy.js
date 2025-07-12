@@ -22,34 +22,37 @@ markdownLib.renderer.rules.footnote_caption = (tokens, idx) => {
   return n
 }
 
-function getIndex(arr, prop, value) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i][prop] === value) {
-      return i
-    }
-  }
-  return false
-}
-
-function groupPostsByYear(posts) {
-  let postsByYear = []
-  let currentYear = ""
-
+function groupPostsByMonth(posts) {
+  let gp = []
   posts.forEach((p) => {
-    let y = new Date(p.data.date).getFullYear()
-    if (y !== currentYear) {
-      postsByYear.push({
-        year: y,
-        shortYear: y.toString().substr(2),
-        posts: [p],
+    const d = new Date(p.data.date)
+    const y = d.getFullYear()
+    const m = d.getMonth()
+    if (gp.length === 0 || gp[gp.length - 1]?.year !== y) {
+      gp.push({
+        year: d.getFullYear(),
+        months: [
+          {
+            month: m,
+            date: d.toISOString(),
+            posts: [p],
+          },
+        ],
       })
-      currentYear = y
     } else {
-      let index = getIndex(postsByYear, "year", currentYear)
-      postsByYear[index].posts.push(p)
+      const gpidx = gp.length - 1
+      if (gp[gpidx].months[gp[gpidx].months.length - 1].month === m) {
+        gp[gpidx].months[gp[gpidx].months.length - 1].posts.push(p)
+      } else {
+        gp[gpidx].months.push({
+          month: m,
+          date: d.toISOString(),
+          posts: [p],
+        })
+      }
     }
   })
-  return postsByYear.reverse()
+  return gp
 }
 
 const md = new markdownIt()
@@ -65,18 +68,18 @@ module.exports = function (eleventyConfig) {
     return `<span class="leadin">${content}</span>`
   })
 
-  eleventyConfig.addCollection("workByYear", function (collectionApi) {
+  eleventyConfig.addCollection("workByMonth", function (collectionApi) {
     const posts = collectionApi.getFilteredByGlob(["./work/*.md"])
-    return groupPostsByYear(posts)
+    return groupPostsByMonth(posts)
   })
-  eleventyConfig.addCollection("postsByYear", function (collectionApi) {
-    const posts = collectionApi.getFilteredByGlob(["./posts/*.md"])
-    return groupPostsByYear(posts)
+
+  eleventyConfig.addCollection("postsByMonth", function (collectionApi) {
+    return groupPostsByMonth(collectionApi.getFilteredByGlob(["./posts/*.md"]))
   })
   eleventyConfig.addCollection("pagedNotes", function (collectionApi) {
     const posts = collectionApi.getFilteredByGlob(["./notes/*.md", "./notes/*.markdown"])
     posts.reverse()
-    return pagingate(posts, 12)
+    return pagingate(posts, 10, "NOTES")
   })
 
   eleventyConfig.addGlobalData("builtOn", new Date().toLocaleString())

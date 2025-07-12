@@ -1,11 +1,16 @@
 <footer class="site__footer">
   <ul class="footer__nav">
     <li><a href="/privacy/">Privacy</a></li>
+    <li><a href="https://github.com/awesomephant/blog">Code ↗</a></li>
   </ul>
-  <p class="footer__copyright">
-    <span class="site__built">Built {{builtOn}} ({{env}})</span>
-    <span>
-      © 2016 – {{ "now" | date: "%Y" }}
+  <p>
+    <span class="label">Build</span>
+    <span class="value">{{builtOn}} [{{env | upcase }}]</span>
+  </p>
+  <p>
+    <span class="label">Copyright</span>
+    <span class="value">
+      2016–{{ "now" | date: "%Y" }}
     </span>
   </p>
 </footer>

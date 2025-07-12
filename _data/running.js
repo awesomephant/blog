@@ -10,22 +10,31 @@ const timeToSeconds = function (t) {
   return total
 }
 
+const itemsPerPage = 20
+
 module.exports = async () => {
   let csv = await EleventyFetch(googleSheetUrl, {
     duration: "0s",
     type: "text",
   })
 
-  let data = parse(csv, { columns: true, skip_empty_lines: true })
+  let data = parse(csv, { columns: true, skip_empty_lines: true }).reverse()
+  data = data.slice(0, itemsPerPage * 5)
 
-  data.reverse()
   let paceMax = 0
   let paceMin = 99999
+  const pbs = {}
 
   data.forEach((row) => {
     const ps = timeToSeconds(row["AVG 1K"])
+    const d = parseFloat(row["D (KM)"])
     paceMax = ps > paceMax ? ps : paceMax
     paceMin = ps < paceMin ? ps : paceMin
+    if (pbs[d]) {
+      pbs[d] = pbs[d] > ps ? ps : pbs[d]
+    } else {
+      pbs[d] = ps
+    }
   })
 
   data = data.filter((row) => {
@@ -35,17 +44,20 @@ module.exports = async () => {
   const result = paginate(
     data.map((row) => {
       const ps = timeToSeconds(row["AVG 1K"])
+      const d = parseFloat(row["D (KM)"])
       return {
         date: row.DATE,
-        distance: row["D (KM)"],
+        distance: d,
         time: row.TIME,
         pace: row["AVG 1K"],
         url: row["URL"],
         relative_pace: (ps - paceMin) / (paceMax - paceMin),
         location: row.LOCATION,
+        isPB: pbs[d] === ps,
       }
     }),
-    15
+    itemsPerPage,
+    "RUNNING"
   )
 
   return result

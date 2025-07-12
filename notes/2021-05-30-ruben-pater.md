@@ -4,6 +4,7 @@ title: "Caps Lock: How capitalism took hold of graphic design and how to escape 
 date: 2021-03-30 20:00:00
 teacher: "Ruben Pater"
 unit: "Letterform Lectures"
+venue: LetArc
 intro: ""
 website: "https://letterformarchive.org/events/view/stone-carved-lettering-and-the-digital-age"
 thumb: ""
@@ -15,11 +16,11 @@ Design as a discipline emerges at the same time as industrial capitalism (in the
 
 Early art schools want to educate designers to produce for industry and generate consumers. Design as a product of industrial capitalism. Design solidifies in society with capitalism.
 
-William and May Morris and the socialist league. Here was a designer who resisted the exploitation of capitalism. From the beginning  designers have complained about their role in capitalism.
+William and May Morris and the socialist league. Here was a designer who resisted the exploitation of capitalism. From the beginning designers have complained about their role in capitalism.
 
 [First Things First Manifesto](http://www.designishistory.com/1960/first-things-first/), more recent: [There is no such thing as ethical desing under capitalism](https://walkerart.org/magazine/erik-carter-op-ed-do-you-want-typography-or-do-you-want-the-truth).
 
-This critique had been around for a long time, but nothing has really changed. Caps *Lock*: Designers can't escape. Is ethical design possible under capitalism?
+This critique had been around for a long time, but nothing has really changed. Caps _Lock_: Designers can't escape. Is ethical design possible under capitalism?
 
 The book is a series of different different looks at how designers relate to capitalism.
 
@@ -27,7 +28,7 @@ The book is a series of different different looks at how designers relate to cap
 
 {% include "fig.liquid", src: "/assets/notes/beer-clay.jpg", caption: "Clay tablet recording beer given to workers, Mesopotamia, 3000 BC", alt: "Rounded clay tablet on black ground with cuneiform signs.", source: "[The British Museum](https://blog.britishmuseum.org/world-book-day-leafing-through-the-pages-of-history/)"%}
 
-It's tiny, people who made this document had to be very precise, there's layout and design going on. This isn't writing, it's counting.  When you have societies and economies that are big enough, you need some kind of document to mediate social relations.
+It's tiny, people who made this document had to be very precise, there's layout and design going on. This isn't writing, it's counting. When you have societies and economies that are big enough, you need some kind of document to mediate social relations.
 
 First stocks of the dutch East India company, 1622. Here we see the same characteristic we say today in money. Has to convey trust, look official.
 
@@ -35,9 +36,9 @@ Swedish Daler, the first european bank note. Graphic devices are being used here
 
 How do you make sure land is a property that can be owned? How do you make sure property inheritances are worked out right? Conscription, taxation, last names, all need graphic documents.
 
-Stock market information hasn't really changed since the 17th century, still displayed in these big tables. In large complex societoes we need these kind of abstract representation to make sense of things. But these big tables have  also become the de facto languae of economics at large. The Excel spreadasheet is the same as the clay tablet.
+Stock market information hasn't really changed since the 17th century, still displayed in these big tables. In large complex societoes we need these kind of abstract representation to make sense of things. But these big tables have also become the de facto languae of economics at large. The Excel spreadasheet is the same as the clay tablet.
 
-William Playfair, *Exports and imports to North America*.
+William Playfair, _Exports and imports to North America_.
 
 This is not a plea to stop using abstract forms. Trading desk is a graphic interface. Numbers flatten the social conditions and hide the material conditions behind them. In an abstracted economic system you can have homeless people and empty houses owned by banks in a way you couldn't in a smaller society.
 
@@ -45,13 +46,13 @@ This is not a plea to stop using abstract forms. Trading desk is a graphic inter
 
 ## The designer as worker
 
-Designers agency as economic actors. They don't just make objects, they work, spend money, make money. A lot of design writing discusses the material aspects of design objects, but not how they are produced. 
+Designers agency as economic actors. They don't just make objects, they work, spend money, make money. A lot of design writing discusses the material aspects of design objects, but not how they are produced.
 
 Dutch printing press in 1580: You couldn't go to university for design, it was a trade (Note: There was no capitalism then). Printing office from 1904: Now you get a division between factory workers and office workers (i.e. printers and designers).
 
-In the typical design studio you have today there is no trace of production. The books get printed in China. You have someone like Jony Ive who has acess to design education. But he's never *made* an iPhone, they are made by Foxcon on the other side of the world, and the names of those workers don't appear on the phone. The Apple interns and produiction designers don't appear either. We still have this notion of the artisan solitary designer, even for giant global projects like this.
+In the typical design studio you have today there is no trace of production. The books get printed in China. You have someone like Jony Ive who has acess to design education. But he's never _made_ an iPhone, they are made by Foxcon on the other side of the world, and the names of those workers don't appear on the phone. The Apple interns and produiction designers don't appear either. We still have this notion of the artisan solitary designer, even for giant global projects like this.
 
-Anthony Burrill:  [Work Hand & Be Nice to People](https://anthonyburrill.com/showcase/work-hard-and-be-nice-to-people/)
+Anthony Burrill: [Work Hand & Be Nice to People](https://anthonyburrill.com/showcase/work-hard-and-be-nice-to-people/)
 
 There's a problem with over work in the industry. People pride themselves on working nights, leads to unhealthy working conditions, unhealthy relationship to competition.
 
@@ -67,9 +68,9 @@ The point about domestic labour: Man is exploited in the factory because he expl
 
 ## The designer as futurist
 
-Speculative design is a way to critique cpitalism. *[Speculative Everything](https://mitpress.mit.edu/books/speculative-everything)* (2013). After 2008, the author said speculative design was way for designers to be more than just sciliiary to industry. Why don't we imagine other scenarios that are a different kind of future.
+Speculative design is a way to critique cpitalism. _[Speculative Everything](https://mitpress.mit.edu/books/speculative-everything)_ (2013). After 2008, the author said speculative design was way for designers to be more than just sciliiary to industry. Why don't we imagine other scenarios that are a different kind of future.
 
-Speculative design has an entertainment value: It has emancipatory potential, but we can also consume it as entertainment. Industry also takes advantage of it, see [visualisations of asteroid mining](https://www.factor-tech.com/guest-feature/9847-off-earth-mining-the-challenge-of-turning-asteroids-into-gas-stations-in-space/) by energy companies. 
+Speculative design has an entertainment value: It has emancipatory potential, but we can also consume it as entertainment. Industry also takes advantage of it, see [visualisations of asteroid mining](https://www.factor-tech.com/guest-feature/9847-off-earth-mining-the-challenge-of-turning-asteroids-into-gas-stations-in-space/) by energy companies.
 
 We have all kind of anticapitalist imaginaries in hollywoood disaster movies.
 
@@ -79,7 +80,7 @@ Fisher: Anti-capitalist fantasists perform our anti-capitalism for us. We see pe
 
 ## The designer as philanthropist
 
-Social design. Papanek (1973): *[Design for the real world](https://archive.org/details/designforrealwor00papa)*. Here's a guy who was adamant about designers moving away from industry and doing more socially useful work.
+Social design. Papanek (1973): _[Design for the real world](https://archive.org/details/designforrealwor00papa)_. Here's a guy who was adamant about designers moving away from industry and doing more socially useful work.
 
 Philanthropy in itself is rich people helping people with less money. [CZI Covid-19](https://chanzuckerberg.com/) is Zuckerberg's thing. Promises to get rid of all diseases by 2050. These tech companies try very hard not to pay any taxes. The silicon valley idea is that rich people are better than governments at solving problems. In Colonialism you have the idea that white people should bring culture, structure, culture to the colonies. you still get ideas like this: you get support but you have to be sober.
 
@@ -89,11 +90,11 @@ Designers fom the global north designing for people from the south. These are po
 
 Social design isn't inherently capitalist, see the Black Panthers free breakfast programme. Covid mutual aid projects.
 
-*[Yes, the planet got destroyed. But for a beautiful moment in time we created a lot of value for shareholders.](https://www.newyorker.com/cartoon/a16995)*. Getting rid of capitalism isn't about choosing moral highground but survival of the species.
+_[Yes, the planet got destroyed. But for a beautiful moment in time we created a lot of value for shareholders.](https://www.newyorker.com/cartoon/a16995)_. Getting rid of capitalism isn't about choosing moral highground but survival of the species.
 
 ## The designer as activist
 
-Even activism is really easily appropriated, see Nike Black Lives Matter. Designers work collectively, why can't we unionise.  Designers cultural workers union in England: Open source publishing.	
+Even activism is really easily appropriated, see Nike Black Lives Matter. Designers work collectively, why can't we unionise. Designers cultural workers union in England: Open source publishing.
 
 ## Design as a commons
 

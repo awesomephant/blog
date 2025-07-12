@@ -5,6 +5,7 @@ intro: Custom eCommerce website and related tooling for an idependent publisher 
 date: 2023-07-01
 tags: work
 category: Website
+industry: Publishing
 draft: false
 thumb: https://maxkohler.com/assets/coda.png
 ---

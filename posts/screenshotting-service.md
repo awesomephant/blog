@@ -1,5 +1,5 @@
 ---
-title: Running a screenshotting service on a Synology NAS
+title: Running a screenshotting service on my NAS
 date: 2025-01-01
 layout: post
 includesMath: false
@@ -34,7 +34,9 @@ async function run() {
     const outputPath = `${outputDir}/${key}-${ts}.png`
 
     fs.mkdir(outputDir, { recursive: true }, (err) => {
-      if (err) { throw err }
+      if (err) {
+        throw err
+      }
     })
 
     await page.goto(url, { waitUntil: "networkidle2" })
@@ -45,7 +47,6 @@ async function run() {
 }
 
 await run()
-
 ```
 
 ## 2. Containerise it

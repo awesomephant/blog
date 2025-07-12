@@ -448,6 +448,7 @@
     display: contents;
   }
   li:last-child .home__item {
+    border-bottom: 0;
     @include vars.bp(m) {
       border-bottom: 1px solid black;
     }

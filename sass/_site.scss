@@ -47,9 +47,11 @@
     position: relative;
     color: var(--bg);
     display: inline-block;
-    grid-column: span 7;
+    grid-column: span 6;
     padding: 0 var(--padding-x);
+    padding-bottom: 2em;
     @include vars.bp(m) {
+      padding-bottom: 0;
       grid-column: span 10;
     }
     @include vars.bp(l) {

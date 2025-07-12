@@ -157,7 +157,7 @@
 
 .home__item {
   border: 0;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgba(black, 0.35);
   display: flex;
   justify-content: space-between;
   text-decoration: none;
@@ -448,6 +448,9 @@
     display: contents;
   }
   li:last-child .home__item {
+    @include vars.bp(m) {
+      border-bottom: 1px solid black;
+    }
     @include vars.bp(l) {
       border-bottom: 0;
     }
@@ -489,7 +492,7 @@
   grid-column: 1 / 21;
   .home__item {
     display: grid;
-    grid-template-columns: 0.6fr 1fr;
+    grid-template-columns: 0.65fr 1fr;
   }
   .friends__name {
     grid-column: span 1;
@@ -505,6 +508,7 @@
   }
   @include vars.bp(m) {
     grid-column: 1 / 11;
+    border-right: 1px solid black;
   }
   @include vars.bp(l) {
     grid-column: 1 / 5;

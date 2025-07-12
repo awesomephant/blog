@@ -4,6 +4,7 @@ title: "The Herschey Fonts"
 date: 2020-12-01 19:30:00
 teacher: "Frank Grießhammer"
 unit: "Type@Cooper"
+venue: "Cooper U"
 intro: "Notes from Frank Grießhammer's lecture on the Hershey fonts at the Cooper Union, 2016."
 website: "http://coopertype.org/event/the_hershey_fonts"
 thumb: ""

@@ -3,6 +3,7 @@ layout: post
 title: "The Development of Atkinson Hyperlegible"
 date: 2021-02-16 20:30:00
 teacher: "Craig Dobie, Brad Scott, Elliot Scott"
+venue: "LetArc"
 unit: "Letterform Archive"
 intro: "Atkinson Hyperlegible is a new typeface produced for the American Braille Institute by Applied Design Works."
 website: "https://letterformarchive.org/events/view/atkinson-hyperlegible-challenging-assumptions-about-legibility-and-accessibility
@@ -14,13 +15,13 @@ This is a similar slide-deck to the one they presented at the [Type Directors Cl
 
 ## Applied Design Works
 
-[Applied Design](http://helloapplied.com/) is a big New York / LA design shop - not a type design firm. They do all kinds of design work for big organisations like the [World Trade Center](http://helloapplied.com/world-trade-center), [Hudson Square](http://helloapplied.com/hudson-square) and [NYU Langone](http://helloapplied.com/nyu-langone). A lot of *place-making*, but also more general identity work.
+[Applied Design](http://helloapplied.com/) is a big New York / LA design shop - not a type design firm. They do all kinds of design work for big organisations like the [World Trade Center](http://helloapplied.com/world-trade-center), [Hudson Square](http://helloapplied.com/hudson-square) and [NYU Langone](http://helloapplied.com/nyu-langone). A lot of _place-making_, but also more general identity work.
 
-They also take credit here for the bins in [Central Park](https://landor.com/work/central-park-conservancy). However, those appear to have been designed by a different firm where Craig Dobie and Brad Scott [worked at the time](https://segd.org/central-park-trash-and-recycling-receptacles). 
+They also take credit here for the bins in [Central Park](https://landor.com/work/central-park-conservancy). However, those appear to have been designed by a different firm where Craig Dobie and Brad Scott [worked at the time](https://segd.org/central-park-trash-and-recycling-receptacles).
 
 ## The Braille Institute of America
 
-Founded in 1919 by Robert Atkinson, who had lost his sight in a shooting accident. At the time they retained Applied, the organisation was approaching it's 100 year anniversary. 
+Founded in 1919 by Robert Atkinson, who had lost his sight in a shooting accident. At the time they retained Applied, the organisation was approaching it's 100 year anniversary.
 
 At the beginning, the goal of the organisation was to bring Braille to more people. Producing literature in Braille was a huge task at the time. Atkinson's first project was the King James Bible, which took up a whole room. The organisation expanded and moved to LA in 1933. Sometime in the 1970s they moved into a handsome [brutalist building](https://www.laconservancy.org/locations/braille-institute-america) designed by William Pereira.
 
@@ -30,11 +31,11 @@ Since then the mission has expanded. It started being purely about Braille liter
 
 The brief was to shift perceptions around the Braille Institute to reflect this expanded mission. "No boundaries in sight" was the [key phrase in the branding](http://helloapplied.com/braille-institute), which is great, but then you need the assets.
 
-The logo was the first visual product. It combines a roman *b* with a Braille *i*.
+The logo was the first visual product. It combines a roman _b_ with a Braille _i_.
 
 Then, a colour palette with contrast ratios as kind of first class citizens (Though I wonder if this isn't a general requirement at this point, especially for nonprofits). Printed matter has larger than usual type, pieces of information go into consistent places.
 
-But the big thing is the typeface.  Do you use a serif or a sans serif? The book would say you use a serif because they're more readable, but they can be disruptive too. People with severe visiion loss read one or two letters at a time (so the idea of making it easier to scan lines doesn't really apply).
+But the big thing is the typeface. Do you use a serif or a sans serif? The book would say you use a serif because they're more readable, but they can be disruptive too. People with severe visiion loss read one or two letters at a time (so the idea of making it easier to scan lines doesn't really apply).
 
 Your four general forms of sans-serif: Grotesque (Franklin), Neo-Grotesque (Helvetica), Geometric (Futura), Humanist (Frutiger). The choice was between Neo-Grotesque (for the midcentury look) and humanist (for the readability). Eventually they decided to draw a new typeface combining the two.
 
@@ -68,7 +69,7 @@ Little moves to inject a litte character. Circular shapes everywhere are a nod t
 
 ### Refinements
 
-Applied made a temporary version of the typeface with a limited character set (for English and Spanish) that could be used immediately. That led to more feedback that could flow into the refined, full version. Some of the changes include bigger punctuation, more open spacing. 
+Applied made a temporary version of the typeface with a limited character set (for English and Spanish) that could be used immediately. That led to more feedback that could flow into the refined, full version. Some of the changes include bigger punctuation, more open spacing.
 
 ### External input
 
@@ -78,7 +79,7 @@ The project won a bunch of awards and was written about. Flipped the slash in th
 
 ### Was dyslexia a consideration in the design process?
 
-When we launched there was a dyslexic-specific typeface launched. Interesting to look at the differences between that and Atkinson. Dyslexia and low vision aren't necessatily related. They both cause reading difficulty, but in different ways. Character differentiation is important for both, but we were more looking at low vision here. 
+When we launched there was a dyslexic-specific typeface launched. Interesting to look at the differences between that and Atkinson. Dyslexia and low vision aren't necessatily related. They both cause reading difficulty, but in different ways. Character differentiation is important for both, but we were more looking at low vision here.
 
 ### Was there any scientific data or studies used in the design?
 
@@ -86,11 +87,11 @@ The design comes from the tradition of type design. It's not really rocket scien
 
 ### What's the relationship between Atkinson and Clearview, and similar existing typefaces? How did they influence this project?
 
-The starting point were the four kinds of sans-serif. There are existing high-legibility typefaces, but they didn't include the Braille Institute branding. We needed something specific. 
+The starting point were the four kinds of sans-serif. There are existing high-legibility typefaces, but they didn't include the Braille Institute branding. We needed something specific.
 
 ### How did you test?
 
-We're still developing more methodology, but during development we tested with students and clinicians at the Braille Institute. They have standard tests for reading speed and retention, and we tested our typeface with those. 
+We're still developing more methodology, but during development we tested with students and clinicians at the Braille Institute. They have standard tests for reading speed and retention, and we tested our typeface with those.
 
 ### Are there plans to use the typeface elsewhere?
 

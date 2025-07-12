@@ -47,17 +47,26 @@
     position: relative;
     color: var(--bg);
     display: inline-block;
-    grid-column: span 8;
+    grid-column: span 7;
     padding: 0 var(--padding-x);
+    @include vars.bp(m) {
+      grid-column: span 10;
+    }
+    @include vars.bp(l) {
+      grid-column: span 8;
+    }
     a {
       text-decoration: none;
     }
   }
   .site__tagline {
-    grid-column: span 6;
-    margin-left: -1px;
+    grid-column: span 13;
     padding: 0 var(--padding-x);
     border-left: 1px solid currentColor;
+    @include vars.bp(m) {
+      margin-left: -1px;
+      grid-column: span 6;
+    }
   }
 }
 

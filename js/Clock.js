@@ -45,7 +45,7 @@ export default class Clock {
         const step = (j / col.length) * 2 * Math.PI
         const x = Math.sin((window.innerWidth / this.cols.length) * i * 5 + this.time.getDay())
         const v = this.min + Math.sin(step + this.time.getHours() + x * 0.7) * -this.amplitude
-        el.style.setProperty("--bg", `hsl(60, 90%, ${v}%)`)
+        el.style.setProperty("--bg", `hsl(55, 90%, ${v}%)`)
       })
     })
   }

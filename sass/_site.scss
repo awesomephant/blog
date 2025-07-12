@@ -36,9 +36,8 @@
   font-size: var(--ms-0);
   text-transform: uppercase;
   background: var(--secondary);
-  display: flex;
-  flex-flow: column;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: subgrid;
   letter-spacing: 0.005em;
   @include vars.bp(s) {
     flex-flow: row;
@@ -48,16 +47,17 @@
     position: relative;
     color: var(--bg);
     display: inline-block;
+    grid-column: span 8;
     padding: 0 var(--padding-x);
+    a {
+      text-decoration: none;
+    }
   }
   .site__tagline {
+    grid-column: span 6;
+    margin-left: -1px;
     padding: 0 var(--padding-x);
     border-left: 1px solid currentColor;
-  }
-
-  @include vars.bp(s) {
-    display: flex;
-    align-items: flex-end;
   }
 }
 

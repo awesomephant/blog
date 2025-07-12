@@ -140,7 +140,7 @@ class: home
                 <span class="running__time">{{ el.time }}</span>
                 <span style="--relative_pace: {{el.relative_pace}}" class="running__pace">{{ el.pace | replace: "0:0", ""}}</span>
                 {% endif %}
-                <span class="is-featured-container">
+                <span class="is-featured-container running__featured">
                     {% if el.isPB %}<span class="is-featured"></span>{% endif %}
                 </span>
                 {% if el.url != "" %}</a>{% endif %}
@@ -151,7 +151,7 @@ class: home
     </section>
     <section class='home__notes is-paginated' aria-shortcuts="L">
         <div class="section__header">
-            <h2 class="title">Lecture Notes</h2>
+            <h2 class="title">Notes</h2>
             <span class="paginate__index">1/{{collections.pagedNotes | size }}</span>
             <div class="section__controls">
                 <button class="paginate-prev notes__paginate">Prev</button>
@@ -182,7 +182,11 @@ class: home
         <ul>
             {% for el in friends %}
             <li>
-                <a class="home__item" href="{{ el.url }}">{{ el.name }} ↗</a>
+                <a class="home__item" href="{{ el.url }}">
+                    <span class="friends__name">
+                        {{ el.name }} ↗
+                    </span>
+                </a>
             </li>
             {% endfor %}
         </ul>

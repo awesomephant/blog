@@ -1,23 +1,32 @@
 export default class Clock {
   constructor(container) {
     this.container = container
-    this.canvas = document.createElement("canvas")
-    this.canvas.classList.add("clock")
-    this.container.appendChild(this.canvas)
-    this.res = 0.1
-    this.c = this.canvas.getContext("2d")
-    this.c.imageSmoothingEnabled = false
+    this.amplitude = 15
+    this.min = 100
 
-    const cellSelector =
-      ".home__month,.home__year, .writing__title, .writing__publication, .project__title, .project__category, .follow__label, .follow__value, .teaching__title, .teaching__venue, .is-active .running__date, .is-active .running__distance, .is-active .running__time, .is-active .running__pace, .is-active .notes__venue, .is-active .notes__title, #copy-email em, .home__item em"
-    this.cells = container.querySelectorAll(cellSelector)
-    this.setDimensions()
+    this.cols = [
+      container.querySelectorAll(".home__projects .home__year"),
+      container.querySelectorAll(".home__projects .home__month"),
+      container.querySelectorAll(".project__title"),
+      container.querySelectorAll(".project__category"),
+      container.querySelectorAll(".home__projects .is-featured-container"),
+      container.querySelectorAll(".home__posts .home__year"),
+      container.querySelectorAll(".home__posts .home__month"),
+      container.querySelectorAll(".home__posts .writing__title"),
+      container.querySelectorAll(".home__posts .writing__publication"),
+      container.querySelectorAll(".home__posts .writing__featured"),
+      container.querySelectorAll(".follow__label, .teaching__title, .is-active .running__date, .is-active .notes__venue, .friends__name, .footer__nav a, .site__footer .label"),
+      container.querySelectorAll(".follow__value, .teaching__venue, .is-active .running__distance, .is-active .notes__title, .site__footer .value"),
+      container.querySelectorAll(".teaching .is-featured-container, .is-active .running__pace"),
+      container.querySelectorAll(".home__running .is-active .is-featured-container"),
+    ]
+    console.log(this.cols[this.cols.length - 1])
+    this.time = 0
     this.update()
     this.render()
-    console.log(this.cells)
-    // window.setInterval(() => {
-    //   this.loop()
-    // }, 10000)
+    window.setInterval(() => {
+      this.loop()
+    }, 1000)
   }
 
   loop() {
@@ -25,33 +34,19 @@ export default class Clock {
     this.render()
   }
 
-  setDimensions() {
-    this.canvas.width = this.canvas.clientWidth * this.res
-    this.canvas.height = this.canvas.clientHeight * this.res
-  }
-
   update() {
-    const d = new Date()
-    const fs = this.canvas.width * 1.1
-    this.c.fillStyle = "white"
-    this.c.font = `bold ${fs}px/1 TimesNewPixel`
-    this.c.clearRect(0, 0, this.canvas.width, this.canvas.height)
-    const h = d.getHours()
-    const m = d.getMinutes()
-    // this.c.fillText(`SUNDAY`, -fs * 0.02, fs * 0.6, this.canvas.width)
-    this.c.fillText(`${h > 12 ? h - 12 : h}${m < 10 ? `0${m}` : m}`, -fs * 0.05, fs * 0.6, this.canvas.width * 0.99)
+    this.time = new Date()
   }
 
   render() {
-    this.cells.forEach((c) => {
-      const { x, y, width, height } = c.getBoundingClientRect()
-      const d = this.c.getImageData(Math.floor(x * this.res), Math.floor(y * this.res), Math.floor(width * this.res), Math.floor(height * this.res))
-      let alpha = []
-      for (let i = 0; i < d.data.length; i += 3) {
-        alpha.push(d.data[i])
-      }
-      const avg = alpha.reduce((a, b) => a + b) / alpha.length
-      c.classList.toggle("clock-active", avg > 10)
+    this.cols.forEach((col, i) => {
+      col.forEach((el, j) => {
+        el.classList.add("clock-cell")
+        const step = (j / col.length) * 2 * Math.PI
+        const x = Math.sin((window.innerWidth / this.cols.length) * i * 5 + this.time.getDay())
+        const v = this.min + Math.sin(step + this.time.getHours() + x * 0.7) * -this.amplitude
+        el.style.setProperty("--bg", `hsl(60, 90%, ${v}%)`)
+      })
     })
   }
 }

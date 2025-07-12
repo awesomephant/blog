@@ -178,10 +178,7 @@ button.home__item {
     border-bottom: 1px solid black;
     outline: 0;
     color: white;
-    background: black;
-    .clock-active {
-      background: transparent;
-    }
+    background: black !important;
   }
 }
 
@@ -358,15 +355,15 @@ button.home__item {
   .home__item > span {
     padding: 0 var(--padding-x);
     border-right: 1px solid currentColor;
-    &:last-child {
-      border-left: 0;
-      border-right: 0;
-    }
   }
 }
 
 .running__date {
-  grid-column: span 2;
+  grid-column: span 3;
+}
+
+.running__pace {
+  grid-column: span 1;
 }
 
 .running__time {
@@ -374,6 +371,10 @@ button.home__item {
   @include vars.bp(xl) {
     display: block;
   }
+}
+
+.running__featured {
+  border-left: 0 !important;
 }
 .home__meta {
   grid-column: 1 / 21;
@@ -451,6 +452,7 @@ button.home__item {
   display: flex;
   grid-column: 4 / 6;
   position: relative;
+  left: -1px;
   button {
     appearance: none;
     background: transparent;

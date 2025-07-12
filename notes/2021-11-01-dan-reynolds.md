@@ -4,7 +4,7 @@ title: "Weird but worthwhile: Otto Hupp’s typefaces for Genzsch & Heyse "
 date: 2021-11-01 20:00:00
 teacher: "Dan Reynolds"
 unit: "Herb Lubalin Lecture"
-venue: Cooper
+venue: Cooper U
 intro: ""
 website: https://cooper.edu/events-and-exhibitions/events/weird-worthwhile-otto-hupps-typefaces-genzsch-heyse
 thumb: ""

@@ -15,8 +15,7 @@
 	<meta name="twitter:creator" content="@maxakohler">
 	<meta name="twitter:site" content="@maxakohler">
 	<meta name="twitter:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
-	<meta name="twitter:description"
-		content="{% if intro %}{{ intro | strip_newlines | truncate: 160 }}{% endif %}">
+	<meta name="twitter:description" content="{% if intro %}{{ intro | strip_newlines | truncate: 160 }}{% endif %}">
 	<meta name="twitter:image:src" content="{% if thumb %}{{ thumb }}{% endif %}">
 
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -26,10 +25,10 @@
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 	<script>
-	MathJax = {
-        tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
-      };
-    </script>
+		MathJax = {
+			tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+		};
+	</script>
 	{% endif %}
 
 	{% if includesMusic %}

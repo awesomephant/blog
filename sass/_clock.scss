@@ -1,18 +1,11 @@
-.clock {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  image-rendering: pixelated;
-  opacity: 0;
-  pointer-events: none;
-  mix-blend-mode: difference;
+.clock-cell {
+  background: var(--bg);
 }
-
-.clock-active {
-  position: relative;
-  background: rgb(231, 237, 242);
+.home__item {
+  &:hover,
+  &:focus-visible {
+    .clock-cell {
+      background: black;
+    }
+  }
 }

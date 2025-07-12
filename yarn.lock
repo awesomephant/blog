@@ -107,9 +107,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@11ty/eleventy@npm:3.1.1"
+"@11ty/eleventy@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "@11ty/eleventy@npm:3.1.2"
   dependencies:
     "@11ty/dependency-tree": ^4.0.0
     "@11ty/dependency-tree-esm": ^2.0.0
@@ -118,13 +118,13 @@ __metadata:
     "@11ty/eleventy-utils": ^2.0.7
     "@11ty/lodash-custom": ^4.17.21
     "@11ty/posthtml-urls": ^1.0.1
-    "@11ty/recursive-copy": ^4.0.1
+    "@11ty/recursive-copy": ^4.0.2
     "@sindresorhus/slugify": ^2.2.1
     bcp-47-normalize: ^2.3.0
     chokidar: ^3.6.0
     debug: ^4.4.1
     dependency-graph: ^1.0.0
-    entities: ^6.0.0
+    entities: ^6.0.1
     filesize: ^10.1.6
     gray-matter: ^4.0.3
     iso-639-1: ^3.1.5
@@ -146,7 +146,7 @@ __metadata:
     tinyglobby: ^0.2.14
   bin:
     eleventy: cmd.cjs
-  checksum: ceb7226e3cb02257dd4e70bc6c9f02e38a21621e849404ccf312511c80b5444062cd673f4a041c192a6e92493eb2611ee6c0d18ad1bcf1d0180b4c144a5ba5c1
+  checksum: c623106d933670d09f33b387ae0852d116b1117997866dea03680e68f39ae725aa93c40f3c74467b0e59e22c1e02030e485ba2649165c4d7a387175f1838ad2d
   languageName: node
   linkType: hard
 
@@ -169,15 +169,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/recursive-copy@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "@11ty/recursive-copy@npm:4.0.1"
+"@11ty/recursive-copy@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "@11ty/recursive-copy@npm:4.0.2"
   dependencies:
     errno: ^1.0.0
     junk: ^3.1.0
     maximatch: ^0.1.0
     slash: ^3.0.0
-  checksum: e89180ba3322f04ea0c02121e670bef5c990e9d397b6edc9a96e8e59e7c198a898395b986740665f23db072f30002c0b0f99c292d5384934191f4587c29329e7
+  checksum: 45fb6dcac179284bec4488a28220b0631378ebbb17ac9860950c41ea7a1b5f94563c9ccc8a68e014f9e9ac2a93001de8017022cbfbd474213700ae78aaedf8a6
   languageName: node
   linkType: hard
 
@@ -251,22 +251,6 @@ __metadata:
     "@jridgewell/resolve-uri": ^3.1.0
     "@jridgewell/sourcemap-codec": ^1.4.14
   checksum: 9d3c40d225e139987b50c48988f8717a54a8c994d8a948ee42e1412e08988761d0754d7d10b803061cc3aebf35f92a5dbbab493bd0e1a9ef9e89a2130e83ba34
-  languageName: node
-  linkType: hard
-
-"@kwsites/file-exists@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@kwsites/file-exists@npm:1.1.1"
-  dependencies:
-    debug: ^4.1.1
-  checksum: 4ff945de7293285133aeae759caddc71e73c4a44a12fac710fdd4f574cce2671a3f89d8165fdb03d383cfc97f3f96f677d8de3c95133da3d0e12a123a23109fe
-  languageName: node
-  linkType: hard
-
-"@kwsites/promise-deferred@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@kwsites/promise-deferred@npm:1.1.1"
-  checksum: 07455477a0123d9a38afb503739eeff2c5424afa8d3dbdcc7f9502f13604488a4b1d9742fc7288832a52a6422cf1e1c0a1d51f69a39052f14d27c9a0420b6629
   languageName: node
   linkType: hard
 
@@ -951,14 +935,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.9.0":
-  version: 1.9.0
-  resolution: "axios@npm:1.9.0"
+"axios@npm:^1.10.0":
+  version: 1.10.0
+  resolution: "axios@npm:1.10.0"
   dependencies:
     follow-redirects: ^1.15.6
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: 631f02c9c279f2ae90637a4989cc9d75c1c27aefd16b6e8eb90f98a4d0bddaccfd1cb1387be12101d1ab0f9bbf0c47e2451b4de0cf2870462a7d9ed3de8da3f2
+  checksum: b5fd840d499469bf968e44b8ac96f4b363c6aa4c791a50834c086a7cffbc2d77fe24f27af1aba46c3e1f4840aaf991461fc27537990596b93dea0f4df3245a86
   languageName: node
   linkType: hard
 
@@ -1008,11 +992,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "blog@workspace:."
   dependencies:
-    "@11ty/eleventy": ^3.1.1
+    "@11ty/eleventy": ^3.1.2
     "@11ty/eleventy-fetch": ^5.1.0
     "@11ty/eleventy-plugin-rss": ^2.0.4
     "@11ty/eleventy-plugin-syntaxhighlight": ^5.0.1
-    axios: ^1.9.0
+    axios: ^1.10.0
     cross-env: ^7.0.3
     csv-parse: ^5.6.0
     liquidjs: ^10.21.1
@@ -1021,8 +1005,7 @@ __metadata:
     markdown-it-footnote: ^4.0.0
     markdown-it-task-lists: ^2.1.1
     npm-run-all: ^4.1.5
-    sass: ^1.89.1
-    simple-git: ^3.28.0
+    sass: ^1.89.2
     webpack: ^5.99.9
     webpack-cli: ^6.0.1
   languageName: unknown
@@ -1356,7 +1339,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.1.1, debug@npm:^4.3.4, debug@npm:^4.3.5":
+"debug@npm:4, debug@npm:^4.3.4, debug@npm:^4.3.5":
   version: 4.3.5
   resolution: "debug@npm:4.3.5"
   dependencies:
@@ -1564,10 +1547,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "entities@npm:6.0.0"
-  checksum: 4e964b5549b0f1e7a88836527d38181aa7b2f87222ed2424e78309781b17212de684c84094435f53bea69a7e7e2505268fd96772af166adb686d086d64361435
+"entities@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "entities@npm:6.0.1"
+  checksum: 937b952e81aca641660a6a07f70001c6821973dea3ae7f6a5013eadce94620f3ed2e9c745832d503c8811ce6e97704d8a0396159580c0e567d815234de7fdecf
   languageName: node
   linkType: hard
 
@@ -3695,9 +3678,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.89.1":
-  version: 1.89.1
-  resolution: "sass@npm:1.89.1"
+"sass@npm:^1.89.2":
+  version: 1.89.2
+  resolution: "sass@npm:1.89.2"
   dependencies:
     "@parcel/watcher": ^2.4.1
     chokidar: ^4.0.0
@@ -3708,7 +3691,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 06d31bffc5491e621011f0c68de7be1e3f26dedeb478498b826eae43d66eb714c1a5619fabc95a8b7cf5955abad82484d07b3c94d06386a96b562ed5d52090e9
+  checksum: 192a97ffe801d9377d10c0a8a129befe637438c5aa979a56db18fd95da2aa32b656715fa8a2959bfaf059b490792a783e605a94449d44fbbf44d8155aa981490
   languageName: node
   linkType: hard
 
@@ -3905,17 +3888,6 @@ __metadata:
   version: 4.1.0
   resolution: "signal-exit@npm:4.1.0"
   checksum: 64c757b498cb8629ffa5f75485340594d2f8189e9b08700e69199069c8e3070fb3e255f7ab873c05dc0b3cec412aea7402e10a5990cb6a050bd33ba062a6c549
-  languageName: node
-  linkType: hard
-
-"simple-git@npm:^3.28.0":
-  version: 3.28.0
-  resolution: "simple-git@npm:3.28.0"
-  dependencies:
-    "@kwsites/file-exists": ^1.1.1
-    "@kwsites/promise-deferred": ^1.1.1
-    debug: ^4.4.0
-  checksum: d4f4a56f0eaf916e3c4b801342f6e6c32e73a3eb8c5497f61f71ff21f30462c64537ba76f2cc835d6cd1ffe6198bd52b3e242b0a70444c8cd21faa9f61f75634
   languageName: node
   linkType: hard
 

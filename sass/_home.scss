@@ -174,7 +174,8 @@
   &:visited {
     background: rgba(black, 0.5);
   }
-  &.is-draft .project__title {
+  &.is-draft .project__title,
+  &.is-draft .writing__title {
     text-decoration: line-through;
     pointer-events: none;
     @include vars.bp(m) {

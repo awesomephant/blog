@@ -47,7 +47,7 @@ class: home
         {% assign posts = month.posts | reverse %}
         {% for post in posts %}
         <li>
-            <a href="{{ post.url }}" class="home__item">
+            <a href="{{ post.url }}" class="home__item {% if post.data.draft == true %}is-draft{% endif %}">
                 <span class="writing__title">
                     {{ post.data.shortTitle | default: post.data.title}}
                 </span>
@@ -131,9 +131,7 @@ class: home
             {% for el in posts %}
             {% if el.url != "" %}<li class="has-url"><a class="home__item" href="{{el.url}}">{% else %}
             <li class="home__item">{% endif %}
-
                 <span class="running__date">{{ el.date | date: "%b %d, %Y"}}{% if el.url != "" %} ↗{% endif %}
-
                 </span>
                 <span class="running__distance">{{ el.distance }}km</span>
                 {% if el.time != "" %}

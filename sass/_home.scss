@@ -398,6 +398,9 @@
 
 .running__date {
   grid-column: span 3;
+  @include vars.bp(l) {
+    grid-column: span 2;
+  }
 }
 
 .running__pace {
@@ -406,7 +409,7 @@
 
 .running__time {
   display: none;
-  @include vars.bp(xl) {
+  @include vars.bp(l) {
     display: block;
   }
 }

@@ -16,7 +16,7 @@ export default class Clock {
       container.querySelectorAll(".home__posts .writing__publication"),
       container.querySelectorAll(".home__posts .writing__featured"),
       container.querySelectorAll(".follow__label, .teaching__title, .is-active .running__date, .is-active .notes__venue, .friends__name, .footer__nav a, .site__footer .label"),
-      container.querySelectorAll(".follow__value, .teaching__venue, .is-active .running__distance, .is-active .notes__title, .friends__comment, .site__footer .value"),
+      container.querySelectorAll(".follow__value, .teaching__venue, .is-active .running__distance, .is-active .running__time, .is-active .notes__title, .friends__comment, .site__footer .value"),
       container.querySelectorAll(".teaching .is-featured-container, .is-active .running__pace"),
       container.querySelectorAll(".home__running .is-active .is-featured-container"),
     ]

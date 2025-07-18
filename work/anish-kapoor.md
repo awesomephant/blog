@@ -4,6 +4,7 @@ title: Anish Kapoor
 intro: Rebuilt catalogue website for the sculptor Anish Kapoor.
 date: 2021-09-08
 tags: work
+is_featured: true
 category: Catalogue
 draft: false
 thumb: https://maxkohler.com/assets/kapoor.png

@@ -6,6 +6,7 @@ date: 2023-07-01
 tags: work
 category: Website
 industry: Publishing
+is_featured: true
 draft: false
 thumb: https://maxkohler.com/assets/coda.png
 ---

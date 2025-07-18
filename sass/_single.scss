@@ -86,6 +86,9 @@
   ol {
     margin-left: 1em;
   }
+  ol {
+    font-feature-settings: "tnum" 0;
+  }
   strong {
     font-weight: 700;
   }
@@ -212,13 +215,13 @@
 
 .footnotes {
   @extend %copy;
-  font-size: var(--ms--1);
+  font-size: var(--ms-0);
+  color: rgb(68, 68, 68);
   border-top: 1px dotted black;
   padding-top: 1rem;
   hyphens: none;
   margin-top: 1rem;
   counter-reset: li;
-  columns: 2;
   column-gap: 2em;
   ol {
     margin: 0;
@@ -304,7 +307,7 @@
     }
   }
   @include vars.bp(m) {
-  	width: 140%;
+    width: 140%;
     img {
       width: 100%;
       max-width: none;

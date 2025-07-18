@@ -6,6 +6,7 @@ const taskLists = require("markdown-it-task-lists")
 const anchor = require("markdown-it-anchor")
 let footnotes = require("markdown-it-footnote")
 const pagingate = require("./paginate")
+const htmlmin = require("html-minifier-terser")
 
 let markdownOptions = {
   html: true,
@@ -64,15 +65,28 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode("details", function (content, summary) {
     return `<details><summary>${summary}</summary>${md.render(content)}</details>`
   })
+  eleventyConfig.addPairedShortcode("mermaid", function (content) {
+    return `<pre class="mermaid">
+---
+config:
+  theme: 'base'
+  themeVariables:
+    fontFamily: "Atlas"
+    primaryColor: "#f7f7f7"
+    primaryTextColor: 'black'
+    primaryBorderColor: "gray"
+    secondaryColor: "white"
+---
+    ${content}
+    </pre>`
+  })
   eleventyConfig.addPairedShortcode("leadin", function (content) {
     return `<span class="leadin">${content}</span>`
   })
-
   eleventyConfig.addCollection("workByMonth", function (collectionApi) {
     const posts = collectionApi.getFilteredByGlob(["./work/*.md"])
     return groupPostsByMonth(posts)
   })
-
   eleventyConfig.addCollection("postsByMonth", function (collectionApi) {
     return groupPostsByMonth(collectionApi.getFilteredByGlob(["./posts/*.md"]))
   })
@@ -91,6 +105,19 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addGlobalData("env", "dev")
     console.log("Building in dev mode.")
   }
+
+  eleventyConfig.addTransform("htmlmin", function (content) {
+    if ((this.page.outputPath || "").endsWith(".html")) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      })
+
+      return minified
+    }
+    return content
+  })
 
   eleventyConfig.addPassthroughCopy("assets")
   eleventyConfig.addPassthroughCopy("./*.png")

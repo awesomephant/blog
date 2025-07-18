@@ -174,10 +174,16 @@
   &:visited {
     background: rgba(black, 0.5);
   }
+  &.is-draft {
+    pointer-events: none;
+  }
+  .mode-dev &.is-draft {
+    pointer-events: all;
+    cursor: pointer;
+  }
   &.is-draft .project__title,
   &.is-draft .writing__title {
     text-decoration: line-through;
-    pointer-events: none;
     @include vars.bp(m) {
       text-decoration-thickness: 1.5px;
     }

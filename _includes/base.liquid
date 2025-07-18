@@ -3,7 +3,7 @@
 
 {% include "head.liquid" %}
 
-<body class='{{ class }} line-numbers {% if tags %}tags-{{tags | join: "-"}}{% endif %}{% if teacher%}notes{%endif%}' style="{% if background %}background: {{background}} {%endif%}">
+<body class='{{ class }} line-numbers {% if tags %}tags-{{tags | join: "-"}}{% endif %} mode-{{env}}' style="{% if background %}background: {{background}} {%endif%}">
     <header class="site__header">
         <h1 class="site__title">
             <a href='/'>Max Kohler</a>

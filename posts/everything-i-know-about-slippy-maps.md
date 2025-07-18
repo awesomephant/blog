@@ -2,101 +2,103 @@
 title: Everything I know about tiled web maps
 date: 2025-05-02
 draft: true
+layout: post
+includesMermaid: true
 ---
 
-"Tiled web maps" is a term for interactive web maps you can pan, tilt and zoom and where data is loaded dynamically as you need it. They're also referred to as "slippy maps", a term popularised by [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Slippy_map) in the mid-2000s.
+"Tiled web maps" is a term of art for interactive web maps you can pan, tilt and zoom and where data is loaded dynamically as you need it. This makes it possible to interact with large datasets (like ["every bus stop in Switzerland"](https://map.geo.admin.ch/#/map?lang=en&center=2634638.09,1201068.09&z=2.842&topic=ech&layers=ch.swisstopo.zeitreihen@year=1864,f;ch.bfs.gebaeude_wohnungs_register,f;ch.bav.haltestellen-oev;ch.swisstopo.swisstlm3d-wanderwege,f;ch.vbs.schiessanzeigen,f;ch.astra.wanderland-sperrungen_umleitungen,f&bgLayer=ch.swisstopo.pixelkarte-farbe) or ["every building in America"](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html)) that would be unusable when displayed as a single image.
 
-## Building a general-purpose tiled web map
+Tiled web maps originally used raster (PNG) images, but modern implementations tend to deliver tiled vector data that isn't turned into a visible image until it reaches the end-user's device.
 
-```mermaid
-flowchart LR
-data["Geodata"]
-schema["Schema"]
+Tiled web maps are also referred to as "slippy maps", a term popularised by [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Slippy_map) in the mid-2000s.
+
+## Architecture
+
+{% mermaid %}
+flowchart TB
+data["Data"]
+schema["Vector Tile Schema"]
 tile_gen["Tile Generator"]
-web["Web"]
+web["Web UI"]
 tile_server["Tile Server"]
 
-data --> tile_gen --"Tiles"--> tile_server --"Tiles"--> web
+data --> tile_gen --> tile_server --> web
 schema --> tile_gen
 Stylesheet --> web
+{% endmermaid %}
+
+1. You find a set of suitable geodata. The bulk of this is typically OpenStreetMap, but many implementations add pieces from [NaturalEarth](https://www.naturalearthdata.com/) and their own proprietary data.
+2. You write a vector tile schema containing a list semantically-useful layers for your map data.
+3. You use a tile generator to parse this data, simplify it, sort it into layers according in your schema and slice it into square tiles for every zoom level. The product of this is some kind of container file.
+4. You run a tile server which parses the container and delivers individual tiles via HTTP
+5. You deploy a UI that implements any controls you need (two-finger zoom, compass etc.), sends well-formed requests to your tile server, parses the resulting data and draws it to the screen in the visual style you specified.
+
+## Implementation
+
+### Commercial products
+
+There are many for-profit companies that will implement some or all of this stack for you. The biggest provider of custom tiled maps is Mapbox. They wrote a lot of the tech before going private in the mid-2010s. Many of their bigger clients are car manufacturers and delivery companies.
+
+### Open-Source stacks
+
+## Design
+
+### Design tokens
+
+As in other forms of non-fiction visual communication, you should limit the number of colours, type treatments and other gestures in your map style and apply them consistently. A set of statically-defined design tokens is a good way to do this.
+
+### Semantic groups to layers
+
+I think it's a good idea to think about your map style, and structure your code, primarily in terms of semantic feature groups[^1] like `roads`, `buildings` or `landcover`. Once you've established these, you split them into physical, z-indexed layers for your map style.
+
+This has two advantages:
+
+1. Code organisation, you can think in semantically useful terms instead of searching by keyword. Most of the design work happens at the semantic group level, the interleaving doesn't really change much
+2. you can interleave layers without loosing your mind
+
+Javascript imports work well for this:
+
+```js
+import { RoadsBridges, RoadsSurface, RoadsLabels } from "./roads"
+import { Countries, States, AdminLabels } from "./admin"
+
+export default {
+  RoadsSurface,
+  RoadsBridges,
+  Countries,
+  States,
+  RoadLabels,
+  AdminLabels,
+}
 ```
 
-- You find
+### Fading features in and out
 
-- Man zieht sich Kartendaten (typischerweise von OSM, aber NaturalEarth und andere Dienste werden auch verwendet)
-- Diese Daten werden von einem Tile Generator vereinfacht, in Ebenen unterteilt und in Kacheln verschiedener Zoom-Stufen aufgeteilt
-- Die Kacheln liefert ein spezieller Tile Server über HTTP aus
-- Ein spezielles Javascript Frontend rendert diese Kacheln und erzeugt die interaktive UI. Die visuelle Reihenfolge der Ebenen, Farben, Schriften usw. wird erst hier durch ein JSON Stylesheet definiert.
+You want to
 
-Wir haben diesen Workflow mehr oder weniger implementiert. Insbesondere haben wir zwei separate Tileserver:
+### Outlining roads
 
-1. Ein Proxy-Service, der alle Requests nach static.datenhub.net bekommt. Das ist ein Node-Service aus dem Versatiles Projekt ([@versatiles/google-cloud](https://github.com/versatiles-org/node-versatiles-google-cloud)). Die meisten Requests werden einfach durchgereicht aber es gibt einen [Special Case](https://github.com/versatiles-org/node-versatiles-google-cloud/blob/3b276f80f325c5921c339ee967a1edb575491edb/src/lib/server.ts#L94-L99) für Requests auf `*.versatiles`-Dateien. Wenn so einer kommt werden die GET-Parameter und die Container-Datei geparst, und mit dieser Info die richtige Kachel ausgeliefert. Deshalb funktionieren Requests wie: `GET https://static.datenhub.net/data/zensus-test/zensus2011e.versatiles?tiles/7/67/42` [^1]
-2. Ein `versatiles-rs` tileserver, der OSM-Daten und Gemeinden ausliefert.
+It's a good idea to outline roads and other linear features. Outlines separate features from the background, and they're necessary to properly differentiate intersections, bridge crossings and tunnels.
 
-```mermaid
-flowchart BT
-classDef maybe stroke-style:dotted
-class osm maybe;
+It's not unusual to have continuous line features made up of individual segments on different layers, like a surface road leading to a bridge. You have to style these segments carefully to avoid visual artifacts.
 
-subgraph "<span style='white-space:nowrap'>GCP Network Services (swr-data-1)</span>"
-lb["Load Balancer + Cache"]
-end
+### Using custom typefaces
 
-web[Frontend<br/><small>Svelte + Maplibre GL JS + <code>style.json</code></small>]
-subgraph "GCP Cloud Run (swr-data-1)"
-static-proxy["Static Proxy<br/><small>static.datenhub.net<br/><a href="https://github.com/SWRdata/datenhub-static-proxy">Repo</a>, <a href="https://console.cloud.google.com/run/detail/europe-west3/datenhub-static-proxy/metrics?inv=1&invt=AbnyaQ&project=swr-data-1">Service</a></small>"]
-tileserver["Versatiles Server<br/><small>tiles.datenhub.net<br/><a href="https://github.com/SWRdata/versatiles-cloud-server">Repo</a>, <a href="">Service</a></small>"]
-
-end
-
-subgraph "GCS (swr-data-1)"
-gcs["File Storage<br><small>datenhub-net-static</small>"]
-versatiles-tiles["File Storage<br/><small>storage.googleapis.com/versatiles</small><br><small><a href="https://console.cloud.google.com/storage/browser/versatiles/download/planet;tab=objects?inv=1&invt=AboI-Q&project=swr-data-1&prefix=&forceOnObjectsSortingFiltering=false">Bucket</a></small>"]
-end
-project-data["Story Data"]
-fonts["SWR Fonts"]
-dhfonts["DEAD 💀: datenhub-map-fonts<br><small><a href='[text](https://github.com/SWRdata/datenhub-map-fonts)'>Repo</a></small>"]
-versatiles-converter["Versatiles Converter<br/><small><code>versatiles convert</code></small>"]
-tippecanoe["Generate Tiles<br/><small>arbitrary logic + <code>tippecanoe</code></small>"]
-
-gcs-->static-proxy
-versatiles-tiles-->tileserver
-static-proxy--"TTL 60s"-->lb
-lb<-->web
-tileserver--"TTL 28 days"-->lb
-project-data--".geojson etc."-->tippecanoe--".mbtiles"-->versatiles-converter--".versatiles"-->gcs
-fonts--".otf"-->dhfonts-.".pbf".->gcs
-
-subgraph Versatiles Projekt
-tilemaker["Generate Tiles<br/><small><code>tilemaker</code> + <code>versatiles convert<code/></small>"]
-shortbread["Shortbread<br><small>JSON + Lua</small>"]
-osm["OSM + NatEarth"]
-osm -.".pbf".-> tilemaker
-shortbread -.-> tilemaker -.-> versatiles_download[<a href="https://download.versatiles.org/">download.versatiles.org</a>]
-end
-
-versatiles_download -."???".-> versatiles-tiles
-```
-
-## Building a custom maplibre style
-
-## Prior work
-
-- https://github.com/SWRdata/zensus-gitter-test
-- https://github.com/SWRdata/dokumentation-kreil
-- [datenhub-tiles-server](https://github.com/SWRdata/datenhub-tiles-server) (Deprecated)
-- [datenhub-static-server](https://github.com/SWRdata/datenhub-tiles-proxy) (Deprecated)
 - [datenhub-map-fonts](<[text](https://github.com/SWRdata/datenhub-map-fonts)>), see: https://github.com/versatiles-org/versatiles-fonts/issues/11 (Deprecated)
+
+### No raster layers in base maps
 
 ## References
 
+- Chris Amico (2024): [Release Notes: How to make self-hosted maps that work everywhere and cost next to nothing](https://www.muckrock.com/news/archives/2024/feb/13/release-notes-how-to-make-self-hosted-maps-that-work-everywhere-cost-next-to-nothing-and-might-even-work-in-airplane-mode) (Muckrock)
+- Saman Bemel Benrud (2022): [On leaving Mapbox after 12 years](https://trashmoon.com/blog/2022/reflections-on-12-years-at-mapbox/)
 - https://www.geofabrik.de/projects/residential_areas/index.html
 - https://osmcode.org/osmium-tool/manual.html#filtering-by-tags
-- Can't use GCP geocoding because: 3.3: https://cloud.google.com/maps-platform/terms/maps-service-terms, see also: https://developers.google.com/maps/documentation/geocoding/policies#map
 - https://locationiq.com/geocoding
 - https://www.geofabrik.de/data/geocoding.html
 - Useful OSM dumps: https://download.geofabrik.de/europe/germany.html
-- https://www.muckrock.com/news/archives/2024/feb/13/release-notes-how-to-make-self-hosted-maps-that-work-everywhere-cost-next-to-nothing-and-might-even-work-in-airplane-mode/
 - https://github.com/maplibre/font-maker
+-
 
-[^1]: Das sieht so ähnlich aus wie ein HTTP-Range-Requests im pmtiles-Format, [ist es aber nicht](https://github.com/versatiles-org/versatiles-rs/issues/24#issuecomment-1517567677)
+[^1]: Mapbox (where I got this idea from) call these groups "style components". In addition to what I'm proposing here, they have component-level settings. See: William Davis (2022): [Foundational Map Design: Principles and our core styles](https://www.youtube.com/watch?v=QDfj9oGVZmE)
+[^2]: Das sieht so ähnlich aus wie ein HTTP-Range-Requests im pmtiles-Format, [ist es aber nicht](https://github.com/versatiles-org/versatiles-rs/issues/24#issuecomment-1517567677)

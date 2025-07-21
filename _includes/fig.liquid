@@ -1,15 +1,19 @@
 <figure class="post-figure {{ class }}">
-<img alt="{{ alt }}" loading="lazy" src="{{ src }}" />
-<figcaption>
-{% if caption %}
-<span class="figure__caption">
-{{ caption | renderMarkdown }}
-</span>
-{% endif %}
-{% if source %}
-<span class="figure__source">
-{{ source | renderMarkdown }}
-</span>
-{% endif %}
-</figcaption>
+    {% if src contains ".mp4" %}
+    <video class="media" src="{{ src }}" autoplay muted loop></video>
+    {% else %}
+    <img class="media" alt="{{ alt }}" loading="lazy" decoding="async" src="{{ src }}" />
+    {% endif %}
+    <figcaption>
+        {% if caption %}
+        <span class="figure__caption">
+            {{ caption | renderMarkdown }}
+        </span>
+        {% endif %}
+        {% if source %}
+        <span class="figure__source">
+            {{ source | renderMarkdown }}
+        </span>
+        {% endif %}
+    </figcaption>
 </figure>

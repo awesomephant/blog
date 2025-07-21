@@ -553,8 +553,9 @@
     padding: 0 var(--padding-x);
     border-left: 1px solid black;
     &:disabled {
+      opacity: 1;
+      color: var(--gray);
       text-decoration: line-through;
-      text-decoration-thickness: 2px;
       &:hover,
       &:focus {
         cursor: default;

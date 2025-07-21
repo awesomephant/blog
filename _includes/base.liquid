@@ -6,9 +6,9 @@
 <body class='{{ class }} line-numbers {% if tags %}tags-{{tags | join: "-"}}{% endif %} mode-{{env}}' style="{% if background %}background: {{background}} {%endif%}">
     <header class="site__header">
         <h1 class="site__title">
-            <a href='/'>Max Kohler</a>
+            <a href='/'>{{ site.title }}</a>
         </h1>
-        <p class='site__tagline'>"Graphic Designer's Designer"</p>
+        <p class='site__tagline'>{{ site.description }}</p>
     </header>
     {{ content }}
 

@@ -3,7 +3,7 @@
 .single__container {
   grid-column: 1 / 21;
   margin: 0 auto;
-  max-width: 40em;
+  max-width: 42em;
 }
 
 .single__header {
@@ -270,7 +270,7 @@
     line-height: 1.35;
   }
 
-  img {
+  .media {
     max-width: 100%;
   }
   &.thumbnail {
@@ -291,26 +291,26 @@
     }
   }
   &.medium {
-    img {
+    .media {
       width: 100%;
     }
   }
   @include vars.bp(m) {
-    img {
+    .media {
       width: 100%;
       max-width: none;
     }
   }
   &.large {
-    img {
+    .media {
       width: 100%;
     }
-  }
-  @include vars.bp(m) {
-    width: 140%;
-    img {
-      width: 100%;
-      max-width: none;
+    @include vars.bp(m) {
+      width: 140%;
+      .media {
+        width: 100%;
+        max-width: none;
+      }
     }
   }
 }

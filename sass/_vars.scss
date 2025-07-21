@@ -50,7 +50,7 @@ $br: 3px;
   --font-sans: "Atlas Typewriter", "Arial", sans-serif;
   --font-mono: "Consolas", "Lucida Console", Courier Prime, monospace;
   --ratio: 1.2;
-  --ms-0: clamp(0.85rem, calc(1.3vw + 0.2rem), 0.9rem);
+  --ms-0: clamp(0.85rem, calc(1.3vw + 0.2rem), 0.925rem);
   --ms--2: calc(var(--ms--1) / var(--ratio));
   --ms--1: calc(var(--ms-0) / var(--ratio));
   --ms-1: calc(var(--ms-0) * var(--ratio));
@@ -84,7 +84,7 @@ $br: 3px;
   --padding: Min(5%, var(--ms-1));
   --padding-x: 0.5ch;
   --baseline: calc(var(--ms-0) * 1.45);
-  --secondary: rgb(222, 218, 213);
+  --secondary: rgb(233, 226, 220);
 
   // Scale font size on high-res displays
   @media (min-resolution: 120dpi) {

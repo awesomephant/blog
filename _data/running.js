@@ -14,7 +14,7 @@ const itemsPerPage = 20
 
 module.exports = async () => {
   let csv = await EleventyFetch(googleSheetUrl, {
-    duration: "0s",
+    duration: `${60 * 60 * 24}s`,
     type: "text",
   })
 

@@ -40,6 +40,8 @@ Let's say we have a website called _Max's recipe box_ that lists a bunch of reci
 
 At the moment, our HTML file looks like this:
 
+{% codetitle "index.html" %}
+
 ```html
 <h1>Max's recipe box</h1>
 <ul>
@@ -60,6 +62,8 @@ At the moment, our HTML file looks like this:
 
 Let's start by extracting the title of our site (`Max's recipe box`) into a datastore - in this case we'll use a text file:
 
+{% codetitle "site-info.csv" %}
+
 ```csv
 site_title
 Max's recipe box
@@ -68,6 +72,8 @@ Max's recipe box
 We have to label the piece of data we extracted so we can reference it later. I came up with `site_title`, but anything that makes sense in your mind will work.
 
 Then, we put a placeholder where that piece of content used to be in our HTML. We'll use a templating language called Liquid for these examples, which uses {%raw%}`{{ double curly braces }}`{%endraw%} to mark placeholders - other languages have different conventions. Our file now looks like this:
+
+{% codetitle "index.liquid" %}
 
 ```diff-html
 -<h1>Max's Recipe Box</h1>
@@ -94,6 +100,8 @@ Our new setup is already useful: If Alice wanted to change the title of the site
 
 Now, let's do the same with the list of recipes. We start by pulling the titles and durations into another text file:
 
+{% codetitle "recipes.csv" %}
+
 ```csv
 title, duration
 Mushroom pizza, 0:45
@@ -104,6 +112,8 @@ Apple Pie, 2:00
 Again, we're using the first line of our file to label our data: `title` and `duration`. Every line after that represents an individual recipe, each with the actual title and duration. This way of organising a text file is called CSV (Comma-Separated Values), and when you squint at it you'll see that it works like a spreadsheet: the first line of the file lists the column titles, then the data follows row after row. You can actually export CSVs from most spreadsheet software, which can be pretty handy.
 
 With our data extracted and organised, we can replace the recipe list in our template with more placeholders:
+
+{% codetitle "index.liquid" %}
 
 {%raw%}
 

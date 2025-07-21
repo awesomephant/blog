@@ -48,7 +48,7 @@ $br: 3px;
 :root {
   --font-text: "Atlas", monospace;
   --font-sans: "Atlas Typewriter", "Arial", sans-serif;
-  --font-mono: "Consolas", "Lucida Console", Courier Prime, monospace;
+  --font-mono: "MD IO", "Consolas", "Lucida Console", Courier Prime, monospace;
   --ratio: 1.2;
   --ms-0: clamp(0.85rem, calc(1.3vw + 0.2rem), 0.925rem);
   --ms--2: calc(var(--ms--1) / var(--ratio));
@@ -70,6 +70,7 @@ $br: 3px;
   --gray-30: rgba(0, 0, 0, 0.3);
   --gray-50: rgba(0, 0, 0, 0.5);
   --gray-60: rgba(0, 0, 0, 0.6);
+  --gray-70: rgba(0, 0, 0, 0.7);
   --background: rgb(253, 253, 253);
   --blue: #2e50a6;
   --color-writing: #4f83b7;

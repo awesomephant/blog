@@ -27,6 +27,8 @@
 
 .single__meta {
   @extend %copy;
+  font-size: var(--ms-1);
+  color: var(--gray-60);
   margin-top: 1em;
 }
 
@@ -175,6 +177,9 @@
 .leadin {
   font-weight: 700;
 }
+.small-caps {
+  text-transform: uppercase;
+}
 
 .embed {
   display: none;
@@ -278,7 +283,7 @@
     align-items: flex-end;
     justify-content: center;
     gap: var(--baseline);
-    img {
+    .media {
       max-width: 15rem;
     }
   }

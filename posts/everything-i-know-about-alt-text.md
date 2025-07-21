@@ -2,10 +2,10 @@
 layout: post
 title: Everything I know about alt text
 date: 2022-02-25
-updated: 2022-08-06
+updated: 2025-07-21
 includesMath: false
 includesMusic: false
-intro: "A good part of my job is telling peo­ple to use alt texts. To make my life eas­ier, here are all my notes and references in one place."
+intro: "A big part of my job is telling peo­ple to use alt text. To make my life eas­ier, here are all my notes and references in one place."
 tags: post
 draft: false
 is_featured: true
@@ -14,7 +14,7 @@ thumb: https://www.maxkohler.com/assets/fruit-type-2.png
 
 ## What is alt text?
 
-"Alt text" is short for "alternative text". It's a short piece of text that's used when the image itself isn't available because someone is using a text-only or audio version of your website, they turned off images to save bandwidth, or the network request failed. Alt text also makes your images more readable for machines, both your own and those [built by others](https://developers.google.com/search/docs/advanced/guidelines/google-images?hl=en#use-descriptive-alt-text).
+"Alt text" is short for "alternative text". It's a short piece of text that's used _in place_ of an image when it is unavailable. This happends when someone uses a text-only or audio version of your website, they turned off images to save bandwidth, or the network request failed. Alt text also makes your images more readable for machines, both your own and those [built by others](https://developers.google.com/search/docs/advanced/guidelines/google-images?hl=en#use-descriptive-alt-text).
 
 It's different to an image caption, which provides _additional_ context to an image and is visible to everyone, or an extended description.
 
@@ -22,7 +22,9 @@ It's different to an image caption, which provides _additional_ context to an im
 
 Alt text is a straightforward way to give more people access to your content. This includes people who are blind or have low vision and rely on screen readers and other assistive technology, but also people who are cooking, driving, on a slow internet connection, or in some other situation where an audio or text-only version of your website is just more convenient.
 
-If your organisation takes public money, you're probably required to provide alt text by your country's accessibility laws. In the U.S. the relevant standard is [Section 508](https://www.access-board.gov/ict/) of the Rehabilitation Act and the [Americans with Disabilities Act (ADA)](https://beta.ada.gov/)[^1], in Britain it's the [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#meeting-accessibility-requirements), and European member states all have local laws implementing a directive called [EU 2016/2102](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L2102). Thankfully, all of these laws refer to a common standard called the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/), which requires that ["all non-text content is also available in text"](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html) (Success Criterion 1.1)
+If your organisation takes public money, you're probably required to provide alt text by your country's accessibility laws. In the U.S. the relevant standards are [Section 508](https://www.access-board.gov/ict/) of the 1973 [Rehabilitation Act](https://www.access-board.gov/about/law/ra.html) and Title II/III of the 1990 [Americans with Disabilities Act (ADA)](https://beta.ada.gov/)[^1], in the United Kingdom it's the 2018 [Public Sector Bodies Accessibility Regulation](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#meeting-accessibility-requirements), and European member states all have local laws implementing an directive called [EU 2016/2102](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L2102).
+
+Thankfully, all of these laws refer to a common standard called the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/), which requires that ["all non-text content is also available in text"](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html) (Success Criterion 1.1)
 
 ## How do you write good alt text?
 
@@ -43,10 +45,10 @@ I think it's helpful to remind yourself that writing alt text is still _writing_
 This being said, some basic style tips are generally accepted:
 
 - Write in the simple present.
-- Aim for a length of 15–20 words or less.
+- Aim for a length of 20 words or less.
 - Don't repeat information that's already present in the image caption or elsewhere on the page.
 - If the image contains important text, transcribe it in full.
-- Don't use <span class="small-caps">all-caps</span> for emphasis – some screen readers will read each letter separately, which would be frustrating.
+- Don't use <span class="small-caps">all-caps</span> for emphasis – some screen readers will read each letter separately, which is frustrating.
 - Don't say it's an image – [screen readers will add that information themselves](https://axesslab.com/alt-texts/#dont-say-its-an-image).
 
 ## How do you add alt text?
@@ -60,7 +62,7 @@ It depends on your situation. If you're working with HTML, you write the alt tex
 Inline SVGs don't support the `alt`-attribute, [but you can use](https://axesslab.com/alt-texts/#svg) `role="img"` and `aria-label` instead:
 
 ```html
-<svg role="img" aria-label="Diagram of an internal combustion engine" viewBox="…">…</svg>
+<svg role="img" aria-label="Diagram of an internal combustion engine" viewBox="0 0 100 100">…</svg>
 ```
 
 If you're not editing your site's HTML directly, you need to figure out how to add alt text through your content management system. Most popular ones have built-in tools to do it:
@@ -74,11 +76,11 @@ If you're not editing your site's HTML directly, you need to figure out how to a
 - [Tumblr](https://brownandtrans.tumblr.com/post/613978932163772416/how-to-write-alt-text-and-image-descriptions-for) (only in iOS and Android apps)
 - [Squarespace](https://support.squarespace.com/hc/en-us/articles/206542357-Adding-alt-text-to-images)
 
-If your CMS doesn't support alt text, you can work around the problem by adding captions or describing the image in the main text.
+If your platform doesn't support alt text, you can work around the problem by adding captions or describing the image in the main text.
 
 ## Can you automate this?
 
-Some people do generate alt text automatically when no hand-written text is available, notably [Facebook and its properties](https://www.facebook.com/help/216219865403298) and [Microsoft Edge](https://www.theverge.com/2022/3/18/22984474/microsoft-edge-automatic-image-labels-accessibility-feature).
+Some organisations do generate alt text automatically when no hand-written text is available, notably [Facebook and its properties](https://www.facebook.com/help/216219865403298) and [Microsoft Edge](https://www.theverge.com/2022/3/18/22984474/microsoft-edge-automatic-image-labels-accessibility-feature).
 
 The problem with these systems is that they have no way of knowing what you were trying to communicate with a particular image. They just produce a general, more [or less accurate](https://cripritual.com/haagaard/) description of it, which isn't always what your readers need ([see above](#how-do-you-write-good-alt-text%3F)). Still, in most situations it's probably better than no description at all.
 

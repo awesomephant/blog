@@ -2,20 +2,24 @@
 
 code {
   font-family: var(--font-mono);
-  font-size: 0.85em;
+  font-size: 0.875em;
   letter-spacing: 0;
 }
 p > code,
 em > code,
 li > code {
   font-style: normal;
-  background: rgba(black, 0.075);
+  background: rgba(black, 0.05);
   padding: 0 0.2em;
+  color: rgb(5, 43, 78);
 }
 
 pre[class*="language-"] {
-  border-top: 1px solid var(--gray-20);
-  padding: 0.5rem 0;
+  border: 1px solid var(--black);
+  padding: 0.75em;
+  border-radius: 4px;
+  letter-spacing: 0;
+  font-feature-settings: "tnum" 1;
   line-height: 1.15;
   direction: ltr;
   text-align: left;
@@ -52,8 +56,6 @@ pre[class*="language-"] {
   scrollbar-width: thin;
   counter-reset: lines;
 }
-pre[class*="-diff"] {
-}
 
 .token.comment,
 .token.prolog,
@@ -79,16 +81,22 @@ pre[class*="-diff"] {
 }
 
 .token.property {
-  color: var(--black);
+  color: rgb(139, 73, 47);
 }
 
 .tag {
-  color: rgb(143, 73, 9);
+  color: rgb(172, 38, 5);
+  font-weight: 700;
+  &:has(.tag) {
+    font-weight: normal;
+    .tag {
+      font-weight: 700;
+    }
+  }
 }
 
 .token.string {
-  color: #0c0c0c;
-  font-style: italic;
+  color: #1c567c;
 }
 
 .token.selector {
@@ -107,17 +115,19 @@ pre[class*="-diff"] {
 }
 
 .token.attr-value,
+.token.key {
+  color: #104994;
+}
 .token.keyword,
 .token.control,
 .token.directive,
 .token.unit {
-  font-weight: bold;
-  color: #1c55aa;
+  font-weight: 700;
+  color: #104994;
 }
 
 .token.statement,
-.token.regex,
-.token.atrule {
+.token.regex {
   color: var(--black);
 }
 
@@ -166,13 +176,25 @@ pre[class*="-diff"] {
   }
 }
 
+p:has(.code__title) {
+  margin-bottom: -1px;
+}
+
 .code__title {
-  font-size: var(--ms-0);
-  color: var(--gray-60);
-  margin-bottom: 0.5rem;
-  display: block;
+  font-size: var(--ms--1);
+  font-family: var(--font-mono);
+  display: inline-block;
+  padding: 0.1em 0.3em;
+  line-height: 1.4;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border: 1px solid var(--black);
+  .path {
+    color: var(--gray-70);
+  }
 }
 
 p:has(.code__title) + pre {
   margin-top: 0;
+  border-top-left-radius: 0;
 }

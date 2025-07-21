@@ -15,6 +15,8 @@ There are many ways of doing this, but doing it on a NAS is nice because 1) I ha
 
 The actual screenshotting program is a pretty short. It launches Google Chrome using [puppeteer](https://pptr.dev/), loops over a list of URLs, takes a screenshot of each one and saves it to the `./output` directory. I wrote this in Node because it was convenient, but you could do the same in any other language.
 
+{% codetitle "index.js" %}
+
 ```js
 import puppeteer from "puppeteer"
 import * as fs from "fs"
@@ -52,6 +54,8 @@ await run()
 ## 2. Containerise it
 
 The correct™ way to deploy a service like this is package our code and all of its dependencies in a [Docker](https://docs.docker.com/) using a configuration file called `Dockerfile`. Mine looks like this:
+
+{% codetitle "Dockerfile" %}
 
 ```dockerfile
 FROM node:23-slim

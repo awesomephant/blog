@@ -13,7 +13,7 @@ draft: false
 Assuming your data columns are `column_a`, `column_b` and `column_c`, you can display all three values in descending order in a HTML table using the following tooltip template code:
 
 ```liquid
-{% raw %}
+{%- raw -%}
 <table>
     {{JOIN(MAP(f(el)=CONCAT("<tr><th>", SLICE(["Column A","Column B", "Column C"], NUMBER(SLICE(SPLIT(el, "_"), 0, 1)), NUMBER(SLICE(SPLIT(el, "_"), 0, 1)) + 1), "</th><td>", FORMAT(SLICE(SPLIT(el, "_"), 1), "0.0[0]%"), "</td></tr
     >"), SORT(MAP(f(v,i)=CONCAT(i, "_", v), [column_a, column_b, column_c]),FALSE,f(el)=NUMBER(SLICE(SPLIT(el, "_"), 1)))), "")}}

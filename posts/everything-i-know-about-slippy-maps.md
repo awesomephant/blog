@@ -6,15 +6,13 @@ layout: post
 includesMermaid: true
 ---
 
-"Tiled web maps" is a term of art for interactive web maps you can pan, tilt and zoom and where data is loaded dynamically as you need it. This makes it possible to interact with large datasets like ["every bus stop in Switzerland"](https://map.geo.admin.ch/#/map?lang=en&center=2634638.09,1201068.09&z=2.842&topic=ech&layers=ch.swisstopo.zeitreihen@year=1864,f;ch.bfs.gebaeude_wohnungs_register,f;ch.bav.haltestellen-oev;ch.swisstopo.swisstlm3d-wanderwege,f;ch.vbs.schiessanzeigen,f;ch.astra.wanderland-sperrungen_umleitungen,f&bgLayer=ch.swisstopo.pixelkarte-farbe) or ["every building in America"](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) which would be impractical to download and render as a single image.
+**Tiled web map** (or **slippy map**) is a term of art for interactive web maps you can pan, tilt and zoom and where data is loaded dynamically when it's needed. This makes it possible to interact with large datasets like ["every bus stop in Switzerland"](https://map.geo.admin.ch/#/map?lang=en&center=2634638.09,1201068.09&z=2.842&topic=ech&layers=ch.swisstopo.zeitreihen@year=1864,f;ch.bfs.gebaeude_wohnungs_register,f;ch.bav.haltestellen-oev;ch.swisstopo.swisstlm3d-wanderwege,f;ch.vbs.schiessanzeigen,f;ch.astra.wanderland-sperrungen_umleitungen,f&bgLayer=ch.swisstopo.pixelkarte-farbe) or ["every building in America"](https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html) which would be impractical to download and render as a single image.
 
 Early implementations used pre-built raster tiles, but modern ones tend to deliver tiled vector data that isn't turned into a visible image until it reaches the end-user's device.
 
-Tiled web maps are also referred to as "slippy maps".[^1]
-
 ## Architecture
 
-Turning raw geographic data into a useful mapping service is a huge problem. Solving it requires, at least, the following software stack:
+Turning raw geographic data into a useful mapping service is a huge problem. Solving it requires at least the following software stack:
 
 {% mermaid %}
 flowchart TB
@@ -29,14 +27,14 @@ schema --> tile_gen
 Style --> web
 {% endmermaid %}
 
-1. A set of suitable geographic data. The bulk of this is typically an OpenStreetMap export, but many groups add data from NASA, [NaturalEarth](https://www.naturalearthdata.com/) and their own proprietary data.
-2. A vector tile schema containing a list semantically-useful layers for your map data.
+1. A set of suitable geographic data. The bulk of this is typically an OpenStreetMap export, but many groups add data from NASA, [NaturalEarth](https://www.naturalearthdata.com/) and other sources.
+2. A [tile schema](https://wiki.openstreetmap.org/wiki/Vector_tiles#Tile_schemas) containing a list semantically-useful layers for your map data.
 3. A tile generator to parse this data, simplify it, sort it into layers according in your schema, slice it into square tiles for every zoom level, and save them to a database
 4. A tile server that reads from the database and delivers individual tiles in response to HTTP requests
 5. A style document where you specify how each element in your schema should be rendered at each zoom level
 6. A user interface that implements controls like zooming or panning, sends well-formed requests to your tile server, parses the resulting data and draws it to the screen in the visual style you specified.
 
-This doesn't include features like search, geolocation or routing, which carry their own laundry lists of dependencies.
+You also need a way to regularly update your data and redeploy your tiles to keep your map current.[^2] Supporting features like search or routing carry their own laundry lists of dependencies.
 
 ## Implementation
 
@@ -64,6 +62,8 @@ You should limit the number of colours, type treatments and other gestures in yo
 
 A set of statically-defined design tokens is a good way to do this.
 
+{% codetitle "Tokens.js" %}
+
 ```js
 const colors = {
   roadPrimary: "#12312",
@@ -71,7 +71,11 @@ const colors = {
 }
 ```
 
+{% codetitle "ksjdhf" %}
+
 ```js
+import { colors } from "DesignTokens.js"
+///...
 {
 	id: 'street-pedestrian',
 	type: 'line',
@@ -195,6 +199,7 @@ You can avoid this by setting `line-cap: round` on the main layer and `line-cap:
 - https://kschaul.com/post/2023/02/16/how-the-post-is-replacing-mapbox-with-open-source-solutions/
 
 [^1]: The term was popularised by [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Slippy_map) in the mid-2000s.
-[^2]: Mapbox (where I got this idea from) call these groups "style components". In addition to what I'm proposing here, they have component-level settings. See: William Davis (2022): [Foundational Map Design: Principles and our core styles](https://www.youtube.com/watch?v=QDfj9oGVZmE)
-[^3]: https://maplibre.org/maplibre-style-spec/
-[^4]: Mapbox streets
+[^2]: OpenStreetMap alone receives [four million updates per day](https://wiki.openstreetmap.org/wiki/Stats)
+[^3]: Mapbox (where I got this idea from) call these groups "style components". In addition to what I'm proposing here, they have component-level settings. See: William Davis (2022): [Foundational Map Design: Principles and our core styles](https://www.youtube.com/watch?v=QDfj9oGVZmE)
+[^4]: https://maplibre.org/maplibre-style-spec/
+[^5]: Mapbox streets

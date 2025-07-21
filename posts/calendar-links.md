@@ -66,6 +66,8 @@ This one actually has [official documentation](https://docs.microsoft.com/en-us/
 
 Most other calendar apps (like the Mac OS calendar and the Windows calendar app) support events in a file format called `ICS`. They look like this:
 
+{% codetitle "event.ics" %}
+
 ```yaml
 BEGIN: VCALENDAR
 VERSION: 2.0

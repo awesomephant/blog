@@ -83,6 +83,10 @@ config:
   eleventyConfig.addPairedShortcode("leadin", function (content) {
     return `<span class="leadin">${content}</span>`
   })
+  eleventyConfig.addShortcode("codetitle", function (title) {
+    const ws = title.split("/")
+    return `<span class="code__title">${ws.length > 1 ? `<span class="path">${ws.slice(0, ws.length - 1).join("/")}/</span>` : ""}${ws[ws.length - 1]}</span>`
+  })
   eleventyConfig.addCollection("workByMonth", function (collectionApi) {
     const posts = collectionApi.getFilteredByGlob(["./work/*.md"])
     return groupPostsByMonth(posts)

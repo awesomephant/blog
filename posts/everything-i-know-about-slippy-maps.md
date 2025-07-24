@@ -50,6 +50,16 @@ It's a good service, but it's priced for corporate use and the company has been 
 
 ### 2. Assemble an open-source stack
 
+If you're going to roll your own tiled mapping stack, you have a few options for each component of the system.
+
+#### Data
+
+#### Tile Generator
+
+#### Tile server
+
+#### Maplibre.gl
+
 ## Design
 
 > A MapLibre style is a document that defines the visual appearance of a map: what data to draw, the order to draw it in, and how to style the data when drawing it. A style document is a JSON object with specific root level and nested properties. [^2]
@@ -71,10 +81,10 @@ const colors = {
 }
 ```
 
-{% codetitle "ksjdhf" %}
+{% codetitle "Streets.js" %}
 
 ```js
-import { colors } from "DesignTokens.js"
+import { colors } from "Tokens.js"
 ///...
 {
 	id: 'street-pedestrian',
@@ -101,53 +111,36 @@ This has two advantages:
 block-beta
 columns 10
 
-classDef admin fill:#e5dbf5;
-classDef buildings fill:#FFBA35;
-classDef roads fill:#FFD584;
-classDef transit fill:#C5F0B1;
-classDef walking fill:#65D62B;
-classDef landuse fill:#eee;
+classDef admin fill:#ddd;
+classDef roads fill:#fff;
+classDef landuse fill:#fff;
 
 block:semantic:6
 columns 1
 columns 1
 s_admin["Admin"]
-s_buildings["Buildings"]
 s_roads["Roads"]
-s_transit["Transit"]
-s_walking["Walking + Cycling"]
-s_landuse["Landuse"]
 end
 
 block:actual:10
 columns 1
 a_admin_labels["Admin Labels"]
-a_walking_labels["Walking (Labels)"]
-a_transit_labels["Transit (Labels)"]
-a_roads_labels["Roads (Labels)"]
-a_admin0["Admin 0 (Countries)"]
-a_admin1["Admin 1 (States/Provinces)"]
-a_admin2["Admin 2 (Districts)"]
-a_buildings["Buildings"]
-a_walking_bridge["Walking (Bridge)"]
-a_transit_bridge["Transit (Bridge)"]
-a_roads_bridge["Roads (Bridge)"]
-a_walking_surface["Walking (Surface)"]
-a_transit_surface["Transit (Surface)"]
-a_roads_surface["Roads (Surface)"]
-a_walking_tunnel["Walking (Tunnel)"]
-a_transit_tunnel["Transit (Tunnel)"]
-a_roads_tunnel["Roads (Tunnel)"]
-a_land["Land"]
-a_ocean["Ocean"]
+a_roads_labels["Road Labels"]
+a_admin0["Countries"]
+a_admin1["States/Provinces"]
+a_admin2["Districts"]
+a_roads_bridge["Bridge Roads"]
+a_roads_bridge_case["Bridge Roads (Case)"]
+a_roads_surface["Surface Roads"]
+a_roads_surface_case["Surface Roads (Case)"]
+a_roads_tunnel["Tunnel Roads"]
+a_roads_tunnel_case["Tunnel Roads (Case)"]
 a_background["Background"]
 end
 
 class s_admin,a_admin0,a_admin1,a_admin2,a_admin_labels admin
 class s_buildings,a_buildings buildings
-class s_roads,a_roads_bridge,a_roads_surface,a_roads_tunnel,a_roads_labels roads
-class s_transit,a_transit_bridge,a_transit_surface,a_transit_tunnel,a_transit_labels transit
-class s_walking,a_walking_bridge,a_walking_surface,a_walking_tunnel,a_walking_labels walking
+class s_roads,a_roads_bridge,a_roads_bridge_case,a_roads_surface,a_roads_surface_case,a_roads_tunnel,a_roads_tunnel_case,a_roads_labels roads
 class s_landuse,a_land,a_ocean,a_background landuse
 {% endmermaid %}
 
@@ -173,13 +166,15 @@ You want to
 
 ### Outline roads
 
-It's a good idea to outline (or less ambiguously, _case_) roads and other linear features to separate them from the background and correctly display intersections, bridge crossings and tunnels.
+It's a good idea to outline (or less ambiguously, _case_) roads and other linear features to separate them from the background and correctly distinguish intersections, bridge crossings and tunnels.
 
-To do this, you duplicate the layer, give it a contrasting `paint` colour, slightly increase its `line-width` and sort it below the original layer.
+The only way to achieve this in Maplibre-GL is to duplicate the layer, give it a contrasting `paint` colour, slightly increase its `line-width` and sort it below the original layer.
 
 This method produces characteristic visual artifacts when continuous line features are are made up of individual segments on different layers, like a surface road leading to a bridge:
 
-You can avoid this by setting `line-cap: round` on the main layer and `line-cap: butt` on the case.
+You do this by grouping roads into tunnels, surface streets and bridges, each subdivided by your chosen roadway hierarchy. Within each group, you sort all case layers to the bottom and regular layers to the top. Finally, you set `line-cap: round` on the roads and `line-cap: butt` on the cases.
+
+{% include "fig.liquid", src: "/assets/maplibre-line-join-feature.svg", caption: "", alt: "", class: "medium" %}
 
 ### Use custom typefaces
 

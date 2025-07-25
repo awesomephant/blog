@@ -168,6 +168,7 @@
   grid-column: 1 / 21;
   position: relative;
   line-height: calc(var(--ms-0) * 1.3);
+
   @include vars.bp(l) {
     grid-column: 1 / 8;
   }
@@ -187,6 +188,14 @@
     @include vars.bp(m) {
       text-decoration-thickness: 1.5px;
     }
+  }
+}
+
+a.home__item,
+button.home__item {
+  &:not(.is-draft):hover {
+    border-bottom-color: black !important;
+    box-shadow: 0 -1px 0 black;
   }
 }
 
@@ -552,6 +561,9 @@
     cursor: pointer;
     padding: 0 var(--padding-x);
     border-left: 1px solid black;
+    &:last-child {
+      border-right: 1px solid black;
+    }
     &:disabled {
       opacity: 1;
       color: var(--gray);

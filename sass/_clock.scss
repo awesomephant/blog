@@ -14,7 +14,7 @@ button.home__item,
   &:focus-visible {
     .clock-cell {
       background: black;
-      color: white;
+      color: var(--bg);
     }
   }
 }

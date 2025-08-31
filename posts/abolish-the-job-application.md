@@ -4,6 +4,7 @@ title: Abolish the job application
 date: 2024-03-29
 intro: Job applications are wasteful and demeaning. Maybe it's time we got rid of them.
 tags: post
+publication: Scream Time
 is_featured: true
 thumb: https://maxkohler.com/assets/job-applications-spot.jpg
 canonical: https://maxakohler.substack.com/p/abolish-job-applications
@@ -56,6 +57,8 @@ These are sensible ideas, but in the interim I'm drawn to a much simpler one: Ju
 Sure, companies might end up with a few more bad recruits than they do now, but they’ll also hire some great candidates they would have otherwise missed, and the costs saved by reducing a months-long recruitment process to simple coin toss would surely make up the difference. Random hiring would certainly be more equitable[^4] and than any deliberative method, and it would force companies to train, relocate, and otherwise invest new employees — undeniably a more productive activity than perpetuating an inflated hiring process, and wholly in line with the policy ideas sketched out above.
 
 Even if some individual firms ended up with a less productive workforce, the amount of labour power and emotional energy freed for everyone involved — employed and unemployed — would be transformative.
+
+ <p class="note">If you enjoyed this piece, consider <a href="https://maxakohler.substack.com/">subscribing on Substack</a>.</p>
 
 [^1]: Birinci, S., See, K., Wee, S.L. (2023): _[Job Applications and Labor Market Flows](https://research.stlouisfed.org/wp/more/2020-023)_, Federal Reserve Bank of St. Louis Working Paper 2020-023.
 [^2]: Luc Boltanski and Eve Chiapello (2018), The New Spirit of Capitalism. Verso Books.

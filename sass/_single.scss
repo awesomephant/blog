@@ -7,7 +7,7 @@
 }
 
 .single__header {
-  border-bottom: 1px dotted black;
+  border-bottom: 1px solid black;
   flex-flow: column;
   display: flex;
   padding: 1em;
@@ -30,6 +30,10 @@
   font-size: var(--ms-1);
   color: var(--gray-60);
   margin-top: 1em;
+}
+.note {
+  padding-top: 1em;
+  color: var(--gray-60);
 }
 
 .single__intro {
@@ -222,14 +226,17 @@
   @extend %copy;
   font-size: var(--ms-0);
   color: rgb(100, 100, 100);
-  border-top: 1px dotted black;
   padding-top: 1rem;
   hyphens: none;
-  margin-top: 5em;
+  margin-top: 2em;
   counter-reset: li;
   column-gap: 2em;
   ol {
     margin: 0;
+    @include vars.bp(l) {
+      columns: 2;
+      column-gap: 2em;
+    }
   }
   li {
     display: inline-block;

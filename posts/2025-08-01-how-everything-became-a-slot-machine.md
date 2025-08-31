@@ -4,6 +4,7 @@ title: How everything became a slot machine
 date: 2025-08-01
 intro: Notes on machine gambling on the occasion of Nate Silver’s second book coming out in paperback
 tags: post
+publication: Scream Time
 thumb: https://maxkohler.com/assets/slot-machines-spot.png
 canonical: https://maxakohler.substack.com/p/how-everything-became-a-slot-machine
 ---
@@ -43,6 +44,8 @@ Finally, gambling proper is also having a [well-documented renaissance](https://
 In 2012, Dow Schüll described casino gamblers as “[resembling] the docile bodies of factory workers, soldiers, prisoners, or students”. However, unlike the 20th-century images of those figures, they “are not the self-conscious, self-censoring, vigilant subjects of disciplinary spaces; instead, they are uninhibited, self-abandoning, and immersed in tiny, private playing worlds”.[^6]
 
 A little over a decade later, it seems like that description could apply to just about anybody. The slot-machinification of so many daily affordances and the rapid spread of online gambling mark to me the outlines of a genuine social current whose description (more than its valorisation in later chapters) is On the Edge’s most valuable contribution.
+
+ <p class="note">If you enjoyed this piece, consider <a href="https://maxakohler.substack.com/">subscribing on Substack</a>.</p>
 
 [^1]: Nate Silver (2024): _On the Edge: The Art of Risking Everything_ (Penguin Random House)
 [^2]: If you’re into this genre I recommend _Casino_ (1995), available for some reason in full length on Youtube and any video featuring Sal Piacente.

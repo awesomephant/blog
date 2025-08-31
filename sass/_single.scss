@@ -221,11 +221,11 @@
 .footnotes {
   @extend %copy;
   font-size: var(--ms-0);
-  color: rgb(68, 68, 68);
+  color: rgb(100, 100, 100);
   border-top: 1px dotted black;
   padding-top: 1rem;
   hyphens: none;
-  margin-top: 1rem;
+  margin-top: 5em;
   counter-reset: li;
   column-gap: 2em;
   ol {

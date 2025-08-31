@@ -9,7 +9,7 @@ This website is built, written and maintained by me (Max Kohler). You can reach 
 
 ## Analytics
 
-This site places no cookies and collects no analytics data at all. It does not use Google Analytics or any other any third-party analytics software.
+This site uses self-hosted Matomo analytics to collect basic usage statistics in order to understand our audience and improve our service. Data is not shared with third parties and deleted after 12 months.
 
 ## Embedded Content
 

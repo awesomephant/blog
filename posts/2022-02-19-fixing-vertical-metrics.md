@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fixing inconsistent vertical metrics in web fonts
+title: How to fix inconsistent vertical metrics in your web font
 date: 2022-02-19
 includesMath: false
 includesMusic: false
@@ -26,7 +26,7 @@ Upload the file to the [FontSquirrel Webfont Generator](https://www.fontsquirrel
 
 If this doesn't work, you can adjust the metrics manually using the command line and a text editor.
 
-Install [fonttools](https://github.com/fonttools/fonttools#what-is-this) and [brotli](https://github.com/google/brotli) with `pip install fonttools brotli`. Then `cd` your way to your project folder and run `ttx borked-font.ttf`. This will convert the binary `ttf` into a human-readable XML file called `borked-font.ttx`.
+Install [Python](https://www.python.org/), [fonttools](https://github.com/fonttools/fonttools#what-is-this) and [brotli](https://github.com/google/brotli) with `pip install fonttools brotli`. Then `cd` your way to your project folder and run `ttx borked-font.ttf`. This will convert the binary `ttf` into a human-readable XML file called `borked-font.ttx`.
 
 Open the `ttx` file in your text editor and _look for problems_. Specifically, you want to ensure that:
 

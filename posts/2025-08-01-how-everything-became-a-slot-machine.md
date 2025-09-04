@@ -45,7 +45,7 @@ In 2012, Dow Schüll described casino gamblers as “[resembling] the docile bod
 
 A little over a decade later, it seems like that description could apply to just about anybody. The slot-machinification of so many daily affordances and the rapid spread of online gambling mark to me the outlines of a genuine social current whose description (more than its valorisation in later chapters) is On the Edge’s most valuable contribution.
 
- <p class="note">If you enjoyed this piece, consider <a href="https://maxakohler.substack.com/">subscribing on Substack</a>.</p>
+{% include "subscribe.liquid" %}
 
 [^1]: Nate Silver (2024): _On the Edge: The Art of Risking Everything_ (Penguin Random House)
 [^2]: If you’re into this genre I recommend _Casino_ (1995), available for some reason in full length on Youtube and any video featuring Sal Piacente.

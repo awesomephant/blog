@@ -6,14 +6,14 @@
     {% endif %}
     <figcaption>
         {% if caption %}
-        <span class="figure__caption">
+        <div class="figure__caption">
             {{ caption | renderMarkdown }}
-        </span>
+        </div>
         {% endif %}
         {% if source %}
-        <span class="figure__source">
+        <div class="figure__source">
             {{ source | renderMarkdown }}
-        </span>
+        </div>
         {% endif %}
     </figcaption>
 </figure>

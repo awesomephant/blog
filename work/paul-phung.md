@@ -8,7 +8,7 @@ industry: Photography
 layout: post
 ---
 
-{% include "fig.liquid", src: "/assets/paul-phung.png", alt: "Browser screenshot showing website with long lines of dark-ref serif type, large yellow painting of Oliver Cromwell below. Title reads: Roland Ross", class: "big"%}
+{% include "fig.liquid", src: "/assets/paul-phung.png", alt: "Browser screenshot showing website with long lines of dark-gray serif type, overlaying black and white fashion photograph.", class: "large"%}
 
 Catalogue website for Paris-based photographer [Paul Phung](https://paulphung.com/). Design by me and Oliver Boulton, development by me.
 

@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Drawing the line"
+title: 'Drawing the line'
 date: 2019-02-13 10:00:00
 includesMath: false
 includesMusic: false
-intro: ""
-external_link: "http://content-free.net/articles/drawing-the-line" 
+intro: ''
+publication: Content Free
+external_link: 'http://content-free.net/articles/drawing-the-line'
 tags: post
 ---
 

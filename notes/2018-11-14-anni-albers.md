@@ -6,6 +6,7 @@ teacher: 'Fritz Horstman'
 speaker-org: Josef and Anni Albers Foundation
 website: 'https://theglasshouse.org/media/glass-house-presents-fritz-horstman-on-anni-albers'
 venue: Glass House
+intro: 'Talk on the occasion of Pliable Plane: Anni Albers at Glass House'
 ---
 
 - [Recording of the talk](https://theglasshouse.org/media/glass-house-presents-fritz-horstman-on-anni-albers)
@@ -21,8 +22,7 @@ venue: Glass House
 
 - Weaving (with horizontal and vertical weft and something) lends itself to straight lines, modernist forms. Albers' contribution was to elevate weaving to the level if other arts - she did this to pictoral weaving: The thing exists as a finished object, you're not cutting it up into a fabric and upholstering a sofa in it
 - Albers always shows the horizontal and vertical - she never really does anything you as a viewer can't figure out.
-
-[weaving diagram] different binary patterns (over under) lead to different 2d patterns
+- Weaving: Different binary patterns (one thread over/under the other) lead to different 2d patterns
 
 {% include "fig.liquid", src: "/assets/notes/albers-1925-wall-hanging.jpg", caption: "Design for wall hanging (1925), 33.5 x 26.5cm", source: "[MoMA](https://www.moma.org/collection/works/3738)", alt: "Abstract design for a wall hanging in light yellow, dark teal and pruple", class: "small"%}
 

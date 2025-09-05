@@ -310,12 +310,12 @@
 		margin: var(--baseline) 0;
 		img {
 			max-width: Min(100%, 30rem);
-			width: auto;
 			margin-bottom: 0 !important;
 		}
 	}
 	&.tall {
 		img {
+			width: auto;
 			max-height: 40em;
 		}
 	}

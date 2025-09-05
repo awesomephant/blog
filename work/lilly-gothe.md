@@ -4,10 +4,10 @@ title: "Lilly Gothe"
 date: 2025-06-25
 tags: work
 category: Portfolio
-intro: Catalogue website for the illustrator Lilly Gothe
+intro: Catalogue website for factual illustrator Lilly Gothe
 ---
 
-{% include "fig.liquid", src: "/assets/lillygothe-screen.mp4", class: "large", alt: "Cropped, animated screenshot of lillygothe.com"%}
+{% include "fig.liquid", src: "/assets/lillygothe-screen.mp4", class: "medium", alt: "Cropped, animated screenshot of lillygothe.com"%}
 
 Design and development by me. Typeset in Haas Unica by Toshi Omagari/Monotype and PicNic by Mariel Nils/velvetyne.fr.
 

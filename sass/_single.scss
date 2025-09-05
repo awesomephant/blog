@@ -102,10 +102,11 @@
 	blockquote {
 		margin: 0.75rem 0;
 		margin-left: 2px;
-		border-left: 2px solid black;
-		padding: 0 1rem;
-		font-style: italic;
-		letter-spacing: 0;
+		border-left: 1px solid black;
+		padding: 0 1em;
+		letter-spacing: 0.01em;
+		opacity: 0.8;
+		font-size: 0.9em;
 	}
 	p.has-image {
 		margin: 1.5rem 0;
@@ -336,11 +337,14 @@
 			width: 100%;
 		}
 		@include vars.bp(m) {
-			width: 140%;
+			width: 120%;
 			.media {
 				width: 100%;
 				max-width: none;
 			}
+		}
+		@include vars.bp(l) {
+			width: 140%;
 		}
 	}
 }

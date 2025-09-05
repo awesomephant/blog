@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Welcome Back"
+title: 'Welcome Back'
 date: 2017-10-02 14:00:00
-teacher: "Tracy Waller"
-unit: ""
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Tracy Waller'
+unit: ''
+abstract: ''
+website: ''
+thumb: ''
+venue: CCA
 ---
 
 ## Unit 9

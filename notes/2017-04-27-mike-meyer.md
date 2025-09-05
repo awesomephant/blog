@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Sign Painter Mike Meyer"
+title: 'Sign Painter Mike Meyer'
 date: 2017-03-15 17:00:00
-teacher: "Mike Meyer"
-unit: ""
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Mike Meyer'
+unit: ''
+abstract: ''
+website: ''
+thumb: ''
+venue: CSM
 ---
 
 ![mike meyer poster](/assets/notes/mm-poster.jpg)

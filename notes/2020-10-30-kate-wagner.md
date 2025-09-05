@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Embracing the Discourse: New Horizons in Architectural Criticism"
+title: 'Embracing the Discourse: New Horizons in Architectural Criticism'
 date: 2020-10-29 23:30:00
-teacher: "Kate Wagner"
-unit: "YSoA Brendan Gill Lecture"
-abstract: "Kate Wagner is an architecture critic and the creator of the blog McMansion Hell. Previously a columnist at Curbed and The Baffler, her print criticism column America By Design runs bi-monthly in The New Republic. Kate’s writing on architecture and design has been featured in a number of publications including The Atlantic, CityLab, The Nation, Metropolis, and The Architectural Review."
-website: ""
-thumb: ""
+teacher: 'Kate Wagner'
+unit: 'YSoA Brendan Gill Lecture'
+venue: Yale
+abstract: 'Kate Wagner is an architecture critic and the creator of the blog McMansion Hell. Previously a columnist at Curbed and The Baffler, her print criticism column America By Design runs bi-monthly in The New Republic. Kate’s writing on architecture and design has been featured in a number of publications including The Atlantic, CityLab, The Nation, Metropolis, and The Architectural Review.'
+website: ''
+thumb: ''
 ---
 
 [Announcement](https://www.architecture.yale.edu/calendar/413-embracing-the-discourse-new-horizons-in-architectural-criticism), [Video Recording](https://yale.zoom.us/rec/play/hyM_j6ddh_LJUw4q_d4GWndbUnH83HbyRR3nJfefVPdylD9Q3qrpRFeFWcoTOUus4q_HyKep7FAKI1NZ.tQZBDHoBw8BxbvxH)
@@ -59,10 +60,10 @@ We're at the end of print architecture criticism, and there isn't really a viabl
 
 [Letter to an architect](https://www.architectural-review.com/essays/letters-to-a-young-architect/kate-wagner-letter-to-a-young-architect) in the Architectural Review.
 
-Because *the new criticism* is a collective project, it doesn't matter if you call yourself a critic or a practitioner or someone who draws wall sections all day. The new criticism should be accessible and irreverent. Alternative funding models lilke Patreon (as opposed to the Subscription/Commission model)
+Because _the new criticism_ is a collective project, it doesn't matter if you call yourself a critic or a practitioner or someone who draws wall sections all day. The new criticism should be accessible and irreverent. Alternative funding models lilke Patreon (as opposed to the Subscription/Commission model)
 
 Funny captions on big houses is effective because it teaches people to look at buildings and their environment and think about society, power, culture.
 
 We can build something new in tone, choice of language, visual cues and medium , but still constructive. We can sustain criticism by giving it a new audience. Criticism is an innate sense, it's just rarely cultivated. People already do architecture ciriticism when they talk about borders, labour practicises.
 
-Our duty as critics is to educate and empower the critic and others. 
+Our duty as critics is to educate and empower the critic and others.

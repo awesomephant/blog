@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Experimental Cognition"
+title: 'Experimental Cognition'
 date: 2019-01-15 16:30:00
-teacher: "Ken Hollings"
-unit: "Bright Labyrinth 8"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Ken Hollings'
+unit: 'Bright Labyrinth 8'
+abstract: ''
+venue: RCA
+website: ''
+thumb: ''
 ---
 
 Experimental Cognition: The unforseen consequences of our mind interacting with technology.

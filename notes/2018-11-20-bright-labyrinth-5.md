@@ -2,11 +2,12 @@
 layout: post
 title: "'There must be something wrong with this, Sally'"
 date: 2018-11-20 16:00:00
-teacher: "Ken Hollings"
-unit: "Bright Labyrinth 5"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Ken Hollings'
+unit: 'Bright Labyrinth 5'
+venue: RCA
+abstract: ''
+website: ''
+thumb: ''
 ---
 
 Wagner: _Tristan and Isolde_, Liebestod Aria

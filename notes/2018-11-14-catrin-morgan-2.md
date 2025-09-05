@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Thruth and Lies: Illustration and Deception"
+title: 'Thruth and Lies: Illustration and Deception'
 date: 2018-11-14 17:30:00
-teacher: "Catrin Morgan"
-unit: "Practitioner in Residence"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Catrin Morgan'
+unit: 'Practitioner in Residence'
+abstract: ''
+venue: RCA
+website: ''
+thumb: ''
 ---
 
 Roskill, Carrier (1983): [Truth and Falsehood in Visual Images](https://books.google.co.uk/books/about/Truth_and_Falsehood_in_Visual_Images.html?id=LbgyEl4gTAsC&redir_esc=y):

@@ -5,6 +5,7 @@ date: 2018-11-14 13:00:00
 teacher: 'Fritz Horstman'
 speaker-org: Josef and Anni Albers Foundation
 website: 'https://theglasshouse.org/media/glass-house-presents-fritz-horstman-on-anni-albers'
+venue: Glass House
 ---
 
 - [Recording of the talk](https://theglasshouse.org/media/glass-house-presents-fritz-horstman-on-anni-albers)

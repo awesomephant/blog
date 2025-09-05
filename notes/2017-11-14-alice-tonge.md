@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Channel 4 Head of Design Alice Tonge"
+title: 'Channel 4 Head of Design Alice Tonge'
 date: 2017-11-14 17:00:00
-teacher: "Alice Tonge"
-unit: "LCC Pioneers"
-abstract: "Alice is the head of 4creative, the in-house creative agency of Channel 4"
-website: "http://www.alicetonge.com/"
-thumb: "http://www.max.com/assets/notes/channel4-simpsons.jpg"
+teacher: 'Alice Tonge'
+unit: 'LCC Pioneers'
+abstract: 'Alice is the head of 4creative, the in-house creative agency of Channel 4'
+venue: LCC
+website: 'http://www.alicetonge.com/'
+thumb: 'http://www.max.com/assets/notes/channel4-simpsons.jpg'
 ---
 
 [4Creative Website](http://www.4creative.co.uk/)

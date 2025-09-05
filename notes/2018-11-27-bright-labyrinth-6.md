@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "EVP Spambot Poetics"
+title: 'EVP Spambot Poetics'
 date: 2018-11-27 16:30:00
-teacher: "Ken Hollings"
-unit: "Bright Labyrinth 6"
-abstract: "Encounters with spambots on social media reveal a connection with Electronic Voice Phenomena or EVP. Both are messages of a seemingly unknown origin picked up and distributed through our communications media. Are we receiving small talk from lonely ghosts, or is language starting to evade the laws of meaning?"
-website: ""
-thumb: ""
+teacher: 'Ken Hollings'
+unit: 'Bright Labyrinth 6'
+venue: RCA
+abstract: 'Encounters with spambots on social media reveal a connection with Electronic Voice Phenomena or EVP. Both are messages of a seemingly unknown origin picked up and distributed through our communications media. Are we receiving small talk from lonely ghosts, or is language starting to evade the laws of meaning?'
+website: ''
+thumb: ''
 ---
 
 ## Reading

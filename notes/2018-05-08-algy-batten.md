@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Graphic Designer Algy Batten"
+title: 'Graphic Designer Algy Batten'
 date: 2018-05-08 17:00:00
-teacher: "Algy Batten"
-unit: "Chelsea VP"
-abstract: "Algy Batten is a creative consultant and creative director of The Art of Ping Pong"
-website: "http://algybatten.co/"
-thumb: ""
+teacher: 'Algy Batten'
+unit: 'Chelsea VP'
+venue: Chelsea
+abstract: 'Algy Batten is a creative consultant and creative director of The Art of Ping Pong'
+website: 'http://algybatten.co/'
+thumb: ''
 ---
 
 - [Twitter](https://twitter.com/algybatten)

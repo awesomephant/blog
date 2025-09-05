@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Re:Tooling Precarity"
+title: 'Re:Tooling Precarity'
 date: 2017-01-18 13:00:00
-teacher: "Several"
-unit: "VP"
-abstract: ""
-thumb: ""
+teacher: 'Several'
+unit: 'VP'
+abstract: ''
+thumb: ''
+venue: CCA
 ---
 
 http://re-tool.tumblr.com/tagged/

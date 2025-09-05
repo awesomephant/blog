@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Darkness is Good"
+title: 'Darkness is Good'
 date: 2018-12-04 16:30:00
-teacher: "Ken Hollings"
-unit: "Bright Labyrinth 7"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Ken Hollings'
+unit: 'Bright Labyrinth 7'
+abstract: ''
+venue: RCA
+website: ''
+thumb: ''
 ---
 
 ![Red Skull panel with Donal Trump Quote](/assets/notes/red-skull.jpg)

@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Dissertation Talk 2"
+title: 'Dissertation Talk 2'
 date: 2017-10-25 12:00:00
-teacher: "Sheena Calvert"
-unit: "9"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Sheena Calvert'
+unit: '9'
+abstract: ''
+website: ''
+thumb: ''
+venue: CCA
 ---
 
 - Images can either be at the end or throughout the text

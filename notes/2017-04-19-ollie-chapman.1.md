@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Ollie Chapman & Olya Troitskaya"
+title: 'Ollie Chapman & Olya Troitskaya'
 date: 2017-03-15 10:30:00
-teacher: "Ollie Chapman,Olya Troitskaya"
-unit: "VP"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Ollie Chapman, Olya Troitskaya'
+unit: 'VP'
+abstract: ''
+website: ''
+venue: CCA
+thumb: ''
 ---
 
 APR 19

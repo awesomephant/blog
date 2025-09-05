@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "RCA Programme Forum"
+title: 'RCA Programme Forum'
 date: 2018-10-02 14:00:00
-teacher: "Rathna Ramanathan"
-unit: "RCA Viscom"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Rathna Ramanathan'
+unit: 'RCA Viscom'
+abstract: ''
+website: ''
+thumb: ''
+venue: RCA
 ---
 
 ## Introductions

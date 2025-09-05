@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Designing a Feminist Alexa"
+title: 'Designing a Feminist Alexa'
 date: 2018-10-19 18:00:00
-teacher: "Various"
-unit: "UAL CCI"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Various'
+unit: 'UAL CCI'
+abstract: ''
+website: ''
+venue: UAL
+thumb: ''
 ---
 
 This is the first public event of [the creative computing institute](https://www.arts.ac.uk/creative-computing-institute)

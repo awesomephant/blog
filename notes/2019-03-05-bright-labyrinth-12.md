@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "‘Ideas are One Thing, and What Happens is Another’: Conceptual Materiality after John Cage"
+title: '‘Ideas are One Thing, and What Happens is Another’: Conceptual Materiality after John Cage'
 date: 2019-02-26 16:30:00
-teacher: "Ken Hollings"
-unit: "CHS"
-abstract: "The practical and simple advice given by John Cage to composers and performers is of tremendous use to communication practitioners concerned with structure and intent. In this transmission we will examine it with regard to the development of strategies for environments, installations, events and interventions. What can lessons can be learned from thinking in time-based terms? What separates the concept from the realization – the intention from what actually happens?"
-website: ""
-thumb: ""
+teacher: 'Ken Hollings'
+unit: 'CHS'
+venue: RCA
+abstract: 'The practical and simple advice given by John Cage to composers and performers is of tremendous use to communication practitioners concerned with structure and intent. In this transmission we will examine it with regard to the development of strategies for environments, installations, events and interventions. What can lessons can be learned from thinking in time-based terms? What separates the concept from the realization – the intention from what actually happens?'
+website: ''
+thumb: ''
 ---
 
 ## Reading

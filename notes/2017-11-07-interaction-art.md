@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Interaction Art"
+title: 'Interaction Art'
 date: 2017-11-07 15:30:00
-teacher: ""
-unit: "10"
-abstract: ""
-website: ""
-thumb: ""
+teacher: ''
+unit: '10'
+abstract: ''
+website: ''
+venue: CCA
+thumb: ''
 ---
 
 - control

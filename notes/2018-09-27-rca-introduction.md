@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "RCA Introduction"
+title: 'RCA Introduction'
 date: 2018-09-27 10:00:00
-teacher: "Dr Rathna Ramanathan"
-unit: "RCA Viscom"
-abstract: ""
-website: "https://www.rca.ac.uk/more/staff/dr-rathna-ramanathan/"
-thumb: ""
+teacher: 'Dr Rathna Ramanathan'
+unit: 'RCA Viscom'
+abstract: ''
+venue: RCA
+website: 'https://www.rca.ac.uk/more/staff/dr-rathna-ramanathan/'
+thumb: ''
 presentation: http://rcade.rca.ac.uk/pluginfile.php/40462/mod_resource/content/3/MAVCYear1Welcome1819.pdf
 ---
 

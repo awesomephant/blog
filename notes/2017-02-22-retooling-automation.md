@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Re:Tooling Automation"
+title: 'Re:Tooling Automation'
 date: 2017-02-22 10:30:00
-teacher: "Several"
-unit: "VP"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Several'
+unit: 'VP'
+abstract: ''
+website: ''
+thumb: ''
+venue: CCA
 ---
 
 - Tuur van Baalen

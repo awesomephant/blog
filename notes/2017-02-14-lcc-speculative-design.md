@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Speculative Design"
+title: 'Speculative Design'
 date: 2017-02-14 17:30:00
-teacher: "Georgina Voss"
-unit: "VP"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Georgina Voss'
+unit: 'VP'
+abstract: ''
+website: ''
+thumb: ''
+venue: LCC
 ---
 
 Design Fellow @ LCC

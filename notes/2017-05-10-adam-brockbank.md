@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Adam Brockbank"
+title: 'Adam Brockbank'
 date: 2017-05-10 10:30:00
-teacher: "Adam Brockbank"
-unit: "VP"
-abstract: "Dude worked on Star Wars"
-website: "http://adambrockbank.com/"
-thumb: ""
+teacher: 'Adam Brockbank'
+unit: 'VP'
+abstract: 'Dude worked on Star Wars'
+website: 'http://adambrockbank.com/'
+thumb: ''
+venue: CCA
 ---
 
 concept art as a career option not really embracede enoughh

@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Luke Best"
+title: 'Luke Best'
 date: 2017-03-15 10:30:00
-teacher: "Luke Best"
-unit: "VP"
-abstract: "Luke is a London-based illustrator and part of Peepshow Collective. Does all sorts of amazing editorial, animation and publishing work."
-website: "http://www.lukebest.com/"
-thumb: "http://www.maxkohler.com/assets/notes/lukebest-3.jpg"
+teacher: 'Luke Best'
+unit: 'VP'
+abstract: 'Luke is a London-based illustrator and part of Peepshow Collective. Does all sorts of amazing editorial, animation and publishing work.'
+website: 'http://www.lukebest.com/'
+thumb: 'http://www.maxkohler.com/assets/notes/lukebest-3.jpg'
+venue: CCA
 ---
 
 [Twitter](https://twitter.com/lukejethrobest?lang=en)

@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Re:Tooling The City"
+title: 'Re:Tooling The City'
 date: 2018-02-21 13:00:00
-teacher: "Several"
-unit: "Re:Tooling"
-abstract: ""
-website: "retool.info"
-thumb: ""
+teacher: 'Several'
+unit: 'Re:Tooling'
+abstract: ''
+venue: CCA
+website: 'retool.info'
+thumb: ''
 ---
 
 Designers, design students are often aware that they're complicit in gentrification etc. We also have some degree of affinity to the city, examining it, our industry tends to be in cities, we all like architecture etc.

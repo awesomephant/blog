@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Graphic Designer Emmi Salonen"
+title: 'Graphic Designer Emmi Salonen'
 date: 2018-02-20 17:00:00
-teacher: "Emmi Salonen"
-unit: "Chelsea VP"
-abstract: ""
-website: "https://www.emmi.co.uk"
-thumb: ""
+teacher: 'Emmi Salonen'
+unit: 'Chelsea VP'
+abstract: ''
+venue: Chelsea
+website: 'https://www.emmi.co.uk'
+thumb: ''
 ---
 
 [Twitter](https://twitter.com/StudioEMMI)

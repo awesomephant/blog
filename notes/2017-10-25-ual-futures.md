@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "UAL Futures studio launch"
+title: 'UAL Futures studio launch'
 date: 2017-10-25 18:00:00
-teacher: ""
-unit: ""
-abstract: ""
-website: ""
-thumb: ""
+teacher: ''
+unit: ''
+abstract: ''
+website: ''
+venue: LCC
+thumb: ''
 ---
 
 60 students and staff to prototype the future of everything

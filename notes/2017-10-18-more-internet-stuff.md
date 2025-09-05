@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Looking at Internet Stuff (Places and Spaces)"
+title: 'Looking at Internet Stuff (Places and Spaces)'
 date: 2017-10-18 11:00:00
-teacher: "Tracy Waller"
-unit: "10"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Tracy Waller'
+unit: '10'
+abstract: ''
+website: ''
+venue: CCA
+thumb: ''
 ---
 
 - [https://www.youtube.com/watch?v=Pk7FKMEwMRg](https://www.youtube.com/watch?v=Pk7FKMEwMRg)

@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Dissertation Talk 1"
+title: 'Dissertation Talk 1'
 date: 2017-10-04 13:00:00
-teacher: "Sheena Calvert"
-unit: "9"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Sheena Calvert'
+unit: '9'
+abstract: ''
+website: ''
+thumb: ''
+venue: CCA
 ---
 
 Name drafts `name_unit_Draft-Number_Date-Submitted`

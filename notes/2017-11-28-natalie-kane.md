@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Digital Design Curator Natalie Kane"
+title: 'Digital Design Curator Natalie Kane'
 date: 2017-11-28 18:00:00
-teacher: "Natalie Kane"
-unit: "LCC Pioneers"
-abstract: "Natalie Kane is a curator, writer and researcher based in London. She is Curator of Digital Design at the V&A."
-website: "http://ndkane.com/"
-thumb: "http://www.maxkohler.com/assets/notes/kane-manning.jpg"
+teacher: 'Natalie Kane'
+unit: 'LCC Pioneers'
+abstract: 'Natalie Kane is a curator, writer and researcher based in London. She is Curator of Digital Design at the V&A.'
+venue: LCC
+website: 'http://ndkane.com/'
+thumb: 'http://www.maxkohler.com/assets/notes/kane-manning.jpg'
 ---
 
 [Haunted machines](http://www.hauntedmachines.com/) is a part of the [Future Everything Festival](http://futureeverything.org/) which happens every year.

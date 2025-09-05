@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "The Bright Labyrinth Introduction"
+title: 'The Bright Labyrinth Introduction'
 date: 2018-10-02 16:00:00
-teacher: "Ken Hollings"
-unit: "The Bright Labyrinth"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Ken Hollings'
+unit: 'The Bright Labyrinth'
+abstract: ''
+website: ''
+venue: RCA
+thumb: ''
 ---
 
 ## Welcome to the Labyrinth

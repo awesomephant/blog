@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Documenting your Work"
+title: 'Documenting your Work'
 date: 2017-03-15 10:30:00
-teacher: "Matt Hawkins"
-unit: "VP"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Matt Hawkins'
+unit: 'VP'
+abstract: ''
+website: ''
+venue: CCA
+thumb: ''
 ---
 
 April 20

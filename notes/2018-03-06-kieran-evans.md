@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Director Kieran Evans"
+title: 'Director Kieran Evans'
 date: 2018-03-06 17:00:00
-teacher: "Kieran Evans"
-unit: "Chelsea VP"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Kieran Evans'
+unit: 'Chelsea VP'
+abstract: ''
+venue: Chelsea
+website: ''
+thumb: ''
 ---
 
 [Kieran on IMDB](http://www.imdb.com/name/nm1509903/)

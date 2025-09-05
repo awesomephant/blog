@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Photographer David Levene"
+title: 'Photographer David Levene'
 date: 2018-01-24 10:30:00
-teacher: "David Levene"
-unit: "Camberwell VP"
-abstract: "."
-website: ""
-thumb: ""
+teacher: 'David Levene'
+unit: 'Camberwell VP'
+venue: CCA
+website: ''
+thumb: ''
 ---
 
 [Twitter](https://twitter.com/levenephoto?lang=en)

@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Looking at Internet Stuff"
+title: 'Looking at Internet Stuff'
 date: 2017-10-11 11:00:00
-teacher: "Tracy Waller"
-unit: "10"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Tracy Waller'
+unit: '10'
+abstract: ''
+website: ''
+thumb: ''
+venue: CCA
 ---
 
 RCA procrastination video

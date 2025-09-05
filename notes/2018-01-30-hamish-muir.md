@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Graphic Designer Hamish Muir"
+title: 'Graphic Designer Hamish Muir'
 date: 2018-01-30 17:00:00
-teacher: "Hamish Muir"
-unit: "Chelsea VP"
-abstract: ""
-website: "http://www.hamishmuir.com/"
-thumb: ""
+teacher: 'Hamish Muir'
+unit: 'Chelsea VP'
+abstract: ''
+venue: Chelsea
+website: 'http://www.hamishmuir.com/'
+thumb: ''
 ---
 
 Octavo was a self-published journal, started in 1985.

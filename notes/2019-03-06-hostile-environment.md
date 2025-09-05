@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Hostile Environment / Forensic Oceanography"
+title: 'Hostile Environment / Forensic Oceanography'
 date: 2019-03-06 18:00:00
-teacher: "Lorenzo Pezzani"
-unit: "Architecture"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Lorenzo Pezzani'
+unit: 'Architecture'
+venue: RCA
+abstract: ''
+website: ''
+thumb: ''
 ---
 
 ## The Milieu as Border

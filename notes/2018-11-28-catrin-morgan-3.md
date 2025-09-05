@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Originality"
+title: 'Originality'
 date: 2018-11-28 17:30:00
-teacher: "Catrin Morgan"
-unit: "Practitioner in Residence"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Catrin Morgan'
+unit: 'Practitioner in Residence'
+abstract: ''
+venue: RCA
+website: ''
+thumb: ''
 ---
 
 Originality in illustration is a problem. On a basic level, people get plagiarized a lot, but that discussion is a bit depressing. For the health of teh discipline images and ideas need to be able to move around between people.

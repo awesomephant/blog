@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Radim Peško"
+title: 'Radim Peško'
 date: 2017-05-03 10:30:00
-teacher: "Radim Peško"
-unit: "VP"
-abstract: "Radim Peško is an independent type designer and graphic designer based in London."
-website: "http://www.radimpesko.com/"
-thumb: ""
+teacher: 'Radim Peško'
+unit: 'VP'
+abstract: 'Radim Peško is an independent type designer and graphic designer based in London.'
+website: 'http://www.radimpesko.com/'
+thumb: ''
+venue: CCA
 ---
 
 ![slide](/assets/notes/radim-pesko-slide.jpg)

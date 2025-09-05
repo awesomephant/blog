@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Illustrator Sofia Niazi"
+title: 'Illustrator Sofia Niazi'
 date: 2018-02-07 10:30:00
-teacher: "Sofia Niazi"
-unit: "Camberwell VP"
-abstract: ""
-website: "http://sofianiazi.co.uk/"
-thumb: ""
+teacher: 'Sofia Niazi'
+unit: 'Camberwell VP'
+abstract: ''
+venue: CCA
+website: 'http://sofianiazi.co.uk/'
+thumb: ''
 ---
 
 - [Tumblr](http://sofianiazi.tumblr.com/)

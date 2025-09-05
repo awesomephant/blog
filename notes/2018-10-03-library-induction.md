@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "The Bright Labyrinth Introduction"
+title: 'The Bright Labyrinth Introduction'
 date: 2018-10-03 10:00:00
-teacher: "Cathy Johns"
-unit: ""
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Cathy Johns'
+unit: ''
+abstract: ''
+website: ''
+thumb: ''
+venue: RCA
 ---
 
 Frsilin gbuilding at kensington

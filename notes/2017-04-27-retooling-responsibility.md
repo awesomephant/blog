@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Re:Tooling - Responsibility"
+title: 'Re:Tooling - Responsibility'
 date: 2017-03-15 11:00:00
-teacher: "Keith Dodds,Ash Sakar,David Cross"
-unit: ""
-abstract: ""
-website: "http://re-tool.tumblr.com/tagged/responsibility"
-thumb: ""
+teacher: 'Keith Dodds,Ash Sakar,David Cross'
+unit: ''
+abstract: ''
+website: 'http://re-tool.tumblr.com/tagged/responsibility'
+thumb: ''
+venue: CCA
 ---
 
 designers tend to think we're in a special position to tackle huge historical social problems

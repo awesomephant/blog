@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Evidence and Illumination"
+title: 'Evidence and Illumination'
 date: 2018-12-05 17:30:00
-teacher: "Catrin Morgan"
-unit: "Practitioner in Residence"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Catrin Morgan'
+unit: 'Practitioner in Residence'
+abstract: ''
+website: ''
+venue: RCA
+thumb: ''
 ---
 
 ## How is illustration talked about?

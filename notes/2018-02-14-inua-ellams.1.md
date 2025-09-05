@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Writer, Artist, Performer Inua Ellams"
+title: 'Writer, Artist, Performer Inua Ellams'
 date: 2018-02-14 10:30:00
-teacher: "Inua Ellams"
-unit: "Camberwell VP"
-abstract: ""
-website: "http://www.inuaellams.com/"
-thumb: ""
+teacher: 'Inua Ellams'
+unit: 'Camberwell VP'
+abstract: ''
+venue: CCA
+website: 'http://www.inuaellams.com/'
+thumb: ''
 ---
 
 - [The 14th Tale](https://www.fueltheatre.com/projects/the-14th-tale)

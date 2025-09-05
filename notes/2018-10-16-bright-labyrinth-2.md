@@ -2,11 +2,12 @@
 layout: post
 title: "Nietzsche's Typewriter"
 date: 2018-10-16 16:00:00
-teacher: "Ken Hollings"
-unit: "Bright Labyrinth"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Ken Hollings'
+unit: 'Bright Labyrinth'
+abstract: ''
+website: ''
+thumb: ''
+venue: RCA
 ---
 
 [Event website](https://www.rca.ac.uk/news-and-events/events/bright-labyrinth-nietzsches-typewriter-impact-typographic-thought/)

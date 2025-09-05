@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Writing as Practice"
+title: 'Writing as Practice'
 date: 2017-02-28 17:30:00
-teacher: "Alice Twemlow"
-unit: "LCC VP"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Alice Twemlow'
+unit: 'LCC VP'
+abstract: ''
+website: ''
+thumb: ''
+venue: LCC
 ---
 
 Alice twemlow

@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "CHS Lecture 1: Introductions"
+title: 'CHS Lecture 1: Introductions'
 date: 2018-10-15 10:00:00
-teacher: "Dr Gareth Polmeer"
-unit: "CHS"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Dr Gareth Polmeer'
+unit: 'CHS'
+abstract: ''
+website: ''
+venue: RCA
+thumb: ''
 ---
 
 ![Theatre](/assets/notes/theatre.jpg)

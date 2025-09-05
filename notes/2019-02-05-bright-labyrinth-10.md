@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "The Purple Death"
+title: 'The Purple Death'
 date: 2019-02-05 16:30:00
-teacher: "Ken Hollings"
-unit: "CHS"
-abstract: "The Purple Death is a technologically transmitted epidemic made up from old movie clips, radio announcements and newspaper headlines. Second-hand clichés and shopworn costumes conspire with stock footage to spread a mass contagion for an age of mass communication."
-website: ""
-thumb: ""
+teacher: 'Ken Hollings'
+unit: 'CHS'
+venue: RCA
+abstract: 'The Purple Death is a technologically transmitted epidemic made up from old movie clips, radio announcements and newspaper headlines. Second-hand clichés and shopworn costumes conspire with stock footage to spread a mass contagion for an age of mass communication.'
+website: ''
+thumb: ''
 ---
 
 Visual trash: The disqualified, that without taste, ot thought of as worthy of serious study.

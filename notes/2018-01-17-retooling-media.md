@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Re:Tooling: The Media"
+title: 'Re:Tooling: The Media'
 date: 2018-01-17 13:00:00
-teacher: "Various"
-unit: "Re:Tooling"
-abstract: ""
-website: "http://retool.info/"
-thumb: ""
+teacher: 'Various'
+unit: 'Re:Tooling'
+abstract: ''
+venue: CCA
+website: 'http://retool.info/'
+thumb: ''
 ---
 
 While neither the university nor the "Real World" are save, both can be change

@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Careers and Employability: Creative Attribute Framework"
+title: 'Careers and Employability: Creative Attribute Framework'
 date: 2017-01-13 10:00:00
-teacher: ""
-unit: "PPD"
-abstract: ""
-thumb: ""
+teacher: ''
+unit: 'PPD'
+abstract: ''
+venue: CCA
+thumb: ''
 ---
 
 Jan 13

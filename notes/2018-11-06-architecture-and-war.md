@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "War and Design: Towards a Geopolitics of Modern Architecture"
+title: 'War and Design: Towards a Geopolitics of Modern Architecture'
 date: 2018-11-06 18:30:00
-teacher: "Jianfei Zhu"
-unit: "Architecture"
-abstract: ""
-website: ""
-thumb: "/assets/notes/beijing-hotel.png"
+teacher: 'Jianfei Zhu'
+unit: 'Architecture'
+abstract: ''
+website: ''
+venue: RCA
+thumb: '/assets/notes/beijing-hotel.png'
 ---
 
 [A debate is currently ongoing](https://www.washingtonpost.com/news/worldviews/wp/2018/06/18/the-u-s-government-has-opened-a-huge-new-facility-in-taiwan-and-china-isnt-happy/) about whether the Marine Corps should be stationed in the building to guard it — this would be seen as a provocation by China.

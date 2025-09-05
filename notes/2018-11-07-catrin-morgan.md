@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Nomadic Illustration"
+title: 'Nomadic Illustration'
 date: 2018-11-07 17:30:00
-teacher: "Catrin Morgan"
-unit: "Practitioner in Residence"
-abstract: ""
-website: ""
-thumb: ""
+teacher: 'Catrin Morgan'
+unit: 'Practitioner in Residence'
+abstract: ''
+website: ''
+venue: RCA
+thumb: ''
 ---
 
 A definition of illustration:

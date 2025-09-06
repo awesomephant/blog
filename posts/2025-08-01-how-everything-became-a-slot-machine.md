@@ -2,7 +2,7 @@
 layout: post
 title: How everything became a slot machine
 date: 2025-08-01
-intro: Notes on machine gambling on the occasion of Nate Silver’s second book coming out in paperback
+intro: Nate Silver’s second book comes out in a world saturated with gambling
 tags: post
 publication: Scream Time
 thumb: https://maxkohler.com/assets/slot-machines-spot.png

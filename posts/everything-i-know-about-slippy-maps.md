@@ -1,5 +1,6 @@
 ---
 title: Everything I know about tiled web maps
+intro: My job just spent an enormous amout of resources building out
 date: 2025-05-02
 draft: true
 layout: post
@@ -12,14 +13,14 @@ Early implementations used pre-built raster tiles, but modern ones tend to deliv
 
 ## Architecture
 
-Turning raw geographic data into a useful mapping service is a huge problem. Solving it requires at least the following software stack:
+Turning raw geographic data into a useful mapping service requires the following infrastructure:
 
 {% mermaid %}
 flowchart TB
 data["Data"]
 schema["Vector Tile Schema"]
 tile_gen["Tile Generator"]
-web["Web UI"]
+web["User Interface"]
 tile_server["Tile Server"]
 
 data --> tile_gen --> tile_server --> web
@@ -27,44 +28,52 @@ schema --> tile_gen
 Style --> web
 {% endmermaid %}
 
-1. A set of suitable geographic data. The bulk of this is typically an OpenStreetMap export, but many groups add data from NASA, [NaturalEarth](https://www.naturalearthdata.com/) and other sources.
+1. A set of suitable, up-to-date geographic data.
 2. A [tile schema](https://wiki.openstreetmap.org/wiki/Vector_tiles#Tile_schemas) containing a list semantically-useful layers for your map data.
-3. A tile generator to parse this data, simplify it, sort it into layers according in your schema, slice it into square tiles for every zoom level, and save them to a database
+3. A tile generator to parse this data, simplify it, sort it into layers according to your schema, slice it into square tiles for every zoom level, and save them to a specialised database
 4. A tile server that reads from the database and delivers individual tiles in response to HTTP requests
 5. A style document where you specify how each element in your schema should be rendered at each zoom level
-6. A user interface that implements controls like zooming or panning, sends well-formed requests to your tile server, parses the resulting data and draws it to the screen in the visual style you specified.
+6. A user interface that implements controls like zooming or panning, sends well-formed requests to your tile server, parses the resulting data and draws it to the screen according to your style document.
 
-You also need a way to regularly update your data and redeploy your tiles to keep your map current.[^2] Supporting features like search or routing carry their own laundry lists of dependencies.
+Supporting features like search or routing have their own, separate software stacks.
 
 ## Implementation
 
-You have two options:
+If you want to offer tiled web maps to your users, you have two options:
 
-### 1. Buy a commercial product
+### 1. Just buy a commercial product
 
 Many for-profit companies have implemented some or all of this architecture and sell access to it for a monthly fee.
 
-The most popular of these is called Mapbox. They have well-groomed data for the whole planet [^3], an on-demand tiling service, a tile hosting service, pre-designed style templates, frontend components for every platform, and a web UI to marshal all of this infrastructure.
+The most popular of these is called Mapbox. They have well-groomed data for the whole planet [^3], an on-demand tiling service, a tile hosting service, extremely well-designed style templates, frontend components for every platform and a web UI to marshal all of this into action. It's a good service, which is why it's used by a lot of car companies, gig economy companies and just about every blue chip media organisation in the world.
 
-It's a good service, but it's priced for corporate use and the company has been criticised for [somewhat-abruptly enclosing](https://wptavern.com/mapbox-gl-js-is-no-longer-open-source) their previously open-source software in 2020, engaging in [union-busting](https://web.archive.org/web/20230418234120/https://www.protocol.com/bulletins/mapbox-sued-firing-union-organizers) and supplying software [to the car industry](https://trashmoon.com/blog/2022/reflections-on-12-years-at-mapbox/).
+On the other hand, it's priced for enterprise use and the company has been criticised for [somewhat-abruptly enclosing](https://wptavern.com/mapbox-gl-js-is-no-longer-open-source) their previously open-source software in 2020, engaging in [union-busting](https://web.archive.org/web/20230418234120/https://www.protocol.com/bulletins/mapbox-sued-firing-union-organizers) and supplying software [to the car industry](https://trashmoon.com/blog/2022/reflections-on-12-years-at-mapbox/).
+
+Google Maps, Maptiler, ArcGIS and others offer competing products with varying feature sets and pricing structures.
 
 ### 2. Assemble an open-source stack
 
-If you're going to roll your own tiled mapping stack, you have a few options for each component of the system.
+If you're going to roll your own tiled mapping stack, there are few more-or-less established open-source options for each step of the pipeline:
 
 #### Data
+
+The bulk of your map data (and everyone else's) is going to be an OpenStreetMap dump of the planet. This can be enriched with a lot of other data, like [NaturalEarth](https://www.naturalearthdata.com/) (for large-scale landcover), SRTM elevation data (for shaded relief), 3d building models, and whatever else seems useful.
+
+You also need a robust way to regularly update this data: OpenStreetMap alone receives [four million changes](https://wiki.openstreetmap.org/wiki/Stats) per day and other datasets also change over time.
 
 #### Tile Generator
 
 #### Tile server
 
-#### Maplibre.gl
+#### User Interface
+
+Maplibre.gl
 
 ## Design
 
 > A MapLibre style is a document that defines the visual appearance of a map: what data to draw, the order to draw it in, and how to style the data when drawing it. A style document is a JSON object with specific root level and nested properties. [^2]
 
-I think the only viable way to design a high-quality customs basemap (outside of Mapbox) is to more-or-less hand-write a style document.
+I think the only viable way to design a high-quality customs basemap (outside of the Mapbox editor) is to more-or-less hand-write a style document. In many ways
 
 ### Use design tokens
 
@@ -76,8 +85,8 @@ A set of statically-defined design tokens is a good way to do this.
 
 ```js
 const colors = {
-  roadPrimary: "#12312",
-  roadSecondary: "#12312",
+	roadPrimary: '#12312',
+	roadSecondary: '#12312',
 }
 ```
 
@@ -87,11 +96,11 @@ const colors = {
 import { colors } from "Tokens.js"
 ///...
 {
-	id: 'street-pedestrian',
+	id: 'street-motorway',
 	type: 'line',
 	'source-layer': 'streets',
 	paint: {
-		'line-color': tokens.street_tertiary,
+		'line-color': tokens.roadPrimary,
 	}
 }
 ```
@@ -147,16 +156,16 @@ class s_landuse,a_land,a_ocean,a_background landuse
 Javascript imports work well for this:
 
 ```js
-import { RoadsBridges, RoadsSurface, RoadsLabels } from "./roads"
-import { Countries, States, AdminLabels } from "./admin"
+import { RoadsBridges, RoadsSurface, RoadsLabels } from './roads'
+import { Countries, States, AdminLabels } from './admin'
 
 export default {
-  RoadsSurface,
-  RoadsBridges,
-  Countries,
-  States,
-  RoadLabels,
-  AdminLabels,
+	RoadsSurface,
+	RoadsBridges,
+	Countries,
+	States,
+	RoadLabels,
+	AdminLabels,
 }
 ```
 
@@ -181,6 +190,14 @@ You do this by grouping roads into tunnels, surface streets and bridges, each su
 - [datenhub-map-fonts](<[text](https://github.com/SWRdata/datenhub-map-fonts)>), see: https://github.com/versatiles-org/versatiles-fonts/issues/11 (Deprecated)
 
 ### Dont' use raster layers in base maps
+
+- Bad performance, even shaded relief should be pre-rendered to vector tiles
+
+## Conclusion
+
+From an engineering perspective, building out your own tiled web map service isn't exactly _hard_: The key problems of generating, storing, serving and displaying tiled vector data have open-source solutions mostly on-par with commerical products. However, it is labour intensive: You're going to be writing a lot of plumbing code between the different layers of the stack, maintaining a significant amount of infrastructure and fixing long-tail issues in your data pipeline, tile schema and style documents pretty much indefinitely.
+
+The key to making this viable is to limit the problem space from the outset. At my job, we decided we were only going map one country, in one language, in one (extremely minimal) map style - that
 
 ## References
 

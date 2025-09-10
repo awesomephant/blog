@@ -3,11 +3,11 @@
 .single__container {
 	grid-column: 1 / 21;
 	margin: 0 auto;
-	max-width: 42em;
+	max-width: 45em;
 }
 
 .single__header {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid var(--gray-20);
 	flex-flow: column;
 	display: flex;
 	padding: 1em;
@@ -27,30 +27,33 @@
 
 .single__meta {
 	@extend %copy;
-	font-size: var(--ms-1);
-	color: var(--gray-60);
-	margin-top: 1em;
+	font-size: var(--ms-0);
+	opacity: 0.675;
+	letter-spacing: 0.02em;
+	margin-top: 1.5em;
 }
 .note {
 	padding-top: 1em;
-	color: var(--gray-60);
+	opacity: 0.75;
 }
 
 .single__intro {
-	hyphens: auto;
 	font-size: var(--ms-2);
-	letter-spacing: 0.015em;
+	letter-spacing: 0em;
 	margin-top: 0.5em;
+	@include vars.bp(m) {
+		font-size: var(--ms-3);
+	}
 }
 
 .single__copy {
 	font-size: var(--ms-1);
-	line-height: 1.375;
 	hyphens: auto;
 	padding: 1em 0;
+
 	@include vars.bp(s) {
+		font-size: calc(var(--ms-1) * 1.025);
 		padding: 2em 0;
-		line-height: 1.4;
 	}
 	h2 {
 		font-family: var(--atlas);
@@ -117,7 +120,7 @@
 		margin: 1.5rem 0;
 		margin-bottom: 1.25rem;
 		font-size: var(--ms-0);
-		color: var(--gray-50);
+		color: rgba(black, 0.75);
 		line-height: calc(var(--baseline) * 0.85);
 		&:first-child {
 			margin-top: 0;
@@ -231,7 +234,7 @@
 .footnotes {
 	@extend %copy;
 	font-size: var(--ms-0);
-	color: rgb(100, 100, 100);
+	color: rgba(black, 0.75);
 	padding-top: 1rem;
 	hyphens: none;
 	margin-top: 2em;
@@ -286,7 +289,7 @@
 		margin-top: 0;
 	}
 	figcaption {
-		color: var(--gray-60);
+		opacity: 0.75;
 		line-height: 1.35;
 	}
 	.figure__caption {

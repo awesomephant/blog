@@ -27,7 +27,7 @@ class: post
     <aside class="single__meta">
       <span class="post-date post-meta-item">
         {% if updated %}
-        <time class="updated">Published <time>{{ date | date: "%B %d, %Y" }}</time>, updated {{ updated | date: "%B %d, %Y" }} </time>
+        <time class="updated">Published <time>{{ date | date: "%m/%d/%Y" }}</time> · Updated {{ updated | date: "%m/%d/%Y" }} </time>
         {% else %}
         <time>{{ date | date: "%B %d, %Y" }}</time>
         {% endif %}

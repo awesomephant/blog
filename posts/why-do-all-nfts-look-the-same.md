@@ -4,7 +4,7 @@ title: Why do all NFTs look the same?
 date: 2022-03-18
 includesMath: false
 includesMusic: false
-intro: "Notes on the aesthetics of speculation"
+intro: 'Notes on the aesthetics of speculation'
 tags: post
 thumb: https://www.maxkohler.com/assets/monkey.jpg
 ---
@@ -15,7 +15,7 @@ The image is either a vector drawing or 3d-rendered, but in either case there is
 
 This description covers most non-fungible tokens at the [top of OpenSea](https://opensea.io/explore-collections) (the biggest website for buying and selling NFTs) on any given day. Why do all these images look so alike?
 
------
+---
 
 The first level of resemblence has to do with the fact that mainstream NFTs are generally produced by an operation called layering. You start by making a list of elements like “background”, “clothes”, and “hat”. Then you produce (or pay a gig worker to produce) a set of images corresponding to each element: A few different backgrounds, some variations of your character, and some different hats. Finally you use a simple computer program to stack these layers on top of each other in random combinations, producing a set of final images. The more elements and layers you have, the more images you can produce, and the bigger your payoff will be if the collection catches on.
 
@@ -33,7 +33,7 @@ If you want to make visually coherent images in this way you have to make the el
 
 In both cases, the composite nature of the images isn’t a secret. Disney, who owns the _Avengers_ assets, releases regular VFX breakdowns demonstrating the fact to their shareholders and everyone else, and OpenSea shows a list of the constituent elements next to every NFT for the same reason.
 
-------
+---
 
 The similarity between NFTs across the field (not just inside a given collection) is an extension of this logic. A prominent selling point of many collections isn’t so much that they’re assembled from a database, but that they might themselves _become_ one; their images re-assembled into fresh media products like comic books, toys, TV shows, video games, experiences, and merchandise.
 
@@ -49,8 +49,7 @@ Incidentally, this also explains why there is such a big push to [enable NFTs as
 
 Of course, proponents are quick to point out that this is only proof-of-concept. The merchandise, video games and all the rest will be here any minute now.
 
-{% include "fig.liquid", src: "/assets/coins.png", caption: "Ancient Greek coins showing Helios, the god of the Sun, c.a. 350 AD.", alt: "Three silver coins show a woman's face. The image varies slightly.", source: "British Museum [1949,0411.781](https://www.britishmuseum.org/collection/object/C_1949-0411-781), [1949,0411.775](https://www.britishmuseum.org/collection/object/C_1949-0411-775) , [1955,1102.8](https://www.britishmuseum.org/collection/object/C_1955-1102-8), all [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)", class: "big" %}
-
+{% include "fig.liquid", src: "/assets/coins.png", caption: "Ancient Greek coins showing Helios, the god of the Sun, c.a. 350 AD.", alt: "Three silver coins show a woman's face. The image varies slightly.", source: "British Museum [1949,0411.781](https://www.britishmuseum.org/collection/object/C_1949-0411-781), [1949,0411.775](https://www.britishmuseum.org/collection/object/C_1949-0411-775) , [1955,1102.8](https://www.britishmuseum.org/collection/object/C_1955-1102-8), all [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)", class: "large" %}
 
 It seems likely that NFTs will implode for reasons external to them: The underlying currency might collapse, they might be regulated out of existence for the [environmental fallout](https://www.theverge.com/2021/3/15/22328203/nft-cryptoart-ethereum-blockchain-climate-change) or the [widespread fraud](https://web3isgoinggreat.com/?tech=nft) (or both), or they might just [run out of buyers](https://www.ft.com/content/46349496-790a-4223-8c65-d6a0bde897bc). But there is a deeper argument against them: There isn’t really such a thing as a non-fungible image.
 
@@ -71,8 +70,6 @@ NFTs are another attempt at this. People who make them recognise it’s difficul
 Critics argue that this doesn’t work: There is no way of knowing, for instance, if someone who mints an NFT really made the image, and buying an NFT doesn’t [really give you ownership](https://techcrunch.com/2021/06/16/no-nfts-arent-copyrights/) of the image in any legally recognised form.
 
 They’re clearly right, but if there is anything to learn from the history of image-making, it’s the notion of the attributable, ownable, dateable “original” is itself pretty shaky. Images were always produced collectively and in abundance; the recent drive (historically speaking) to enclose them for individual profit must be overcome.[^4]
-
-{% include "fig.liquid", src: "/assets/monkey.jpg", alt: "Explosion diagram of a cartoon monkey's head. Skull, skin, fur and eyes are spread horizontally on white ground." class: "thumbnail" %}
 
 [^1]: Lev Manovich (2001): _The Language of New Media_, p. 231
 [^2]: Walter Benjamin (1936): _The Work of Art in the age of Mechanical Reproduction_. Available at [marxists.org/reference/subject/philosophy/works/ge/benjamin.htm](https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm)

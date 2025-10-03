@@ -2,12 +2,19 @@
 layout: post
 title: How everything became a slot machine
 date: 2025-08-01
-intro: Nate Silver’s second book comes out in a world saturated with gambling
+intro: Nate Silver’s new book appears at a moment awash with gambling
 tags: post
 publication: Scream Time
 thumb: https://maxkohler.com/assets/slot-machines-spot.png
 canonical: https://maxakohler.substack.com/p/how-everything-became-a-slot-machine
+background: 'rgb(255, 253, 229)'
 ---
+
+<style>
+img {
+    mix-blend-mode: multiply;
+}
+</style>
 
 The strongest portion of _On the Edge_[^1] is its opening section, where Silver (an expert gambler) explains, in detail, the mechanics of the Las Vegas casino business.[^2] In particular, he makes two interesting observations about slot machines.
 
@@ -50,6 +57,6 @@ A little over a decade later, it seems like that description could apply to just
 [^1]: Nate Silver (2024): _On the Edge: The Art of Risking Everything_ (Penguin Random House)
 [^2]: If you’re into this genre I recommend _Casino_ (1995), available for some reason in full length on Youtube and any video featuring Sal Piacente.
 [^3]: Natasha Dow Schüll (2002): _Escape Mechanism: Women, Caretaking, and Compulsive Machine Gambling_. Working Paper, Center for Working Families, University of California, Berkeley.
-[^4]: It’s often said that people paying for dating apps tend to be men, but empirical studies on the subject are at best contradictory and as far as I can tell the “dating app companies you’ve heard of” don't disclose gender breakdowns in their annual reports.
+[^4]: It’s often said that people who pay for dating apps skew male, but empirical studies on the subject are at best contradictory and as far as I can tell the dating app companies you’ve heard of don't disclose gender breakdowns in their annual reports.
 [^5]: Match Group (2024): _Annual Report_, p. 40.
 [^6]: Natasha Dow Schüll (2012): _Addiction by Design: Machine Gambling in Las Vegas_ (Princeton University Press)

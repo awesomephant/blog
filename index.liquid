@@ -132,7 +132,7 @@ class: home
             <li class="home__item">{% endif %}
                 <span class="running__date">{{ el.date | date: "%b %d, %Y"}}{% if el.url != "" %} ↗{% endif %}
                 </span>
-                <span class="running__distance">{{ el.distance }}km</span>
+                <span class="running__distance">{{ el.distance | formatRunningDistance }}</span>
                 {% if el.time != "" %}
                 <span class="running__time">{{ el.time }}</span>
                 <span class="running__pace">{{ el.pace | replace: "0:0", ""}}</span>

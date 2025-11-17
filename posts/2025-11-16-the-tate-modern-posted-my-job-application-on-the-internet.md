@@ -32,13 +32,13 @@ Under “Education, training & membership”, the writers list a total of forty-
 
 There are dozens of touching stories about childhood visits to the Tate, dreams of one day being part of the team and reconnecting to long-abandoned artistic ambitions, and hundreds of more-or-less convincing narratives about “working in an agile environment”, “championing the user” and “building engaging web products” in various small businesses.
 
-Hundreds of referees from all walks of life are listed with names, phone numbers, and short missives sketching the applicant’s relation to them (“we used to work at a restaurant together”, “he is my flying instructor”, “he managed me for a year”). Most list one or two referees, I’m the only person to give four. One writer rendered the word Tate in all-uppercase letters throughout their submission, perhaps as a sign of reverence.
+Hundreds of referees from all walks of life are listed with names, phone numbers, and short missives sketching the applicant’s relation to them (“we used to work at a restaurant together”, “he is my flying instructor”, “he managed me for a year”). Most list one or two referees, I’m the only person to give four. One writer rendered the word _Tate_ in all-uppercase letters throughout their submission, perhaps as a sign of reverence.
 
 All together, the leaked applications (for one job alone) constitute about 150,000 words — a novel’s worth — of what JG Ballard termed “invisible literature”, that sprawling field of unrecognised narrative production encompassing “technical manuals, pharmaceutical company brochures, think-tank internal documents, PR company position papers”[^1], from which, [he suggested in 1971](https://www.jgballard.ca/non_fiction/jgb_fictions.html), emerges the “intact reality of our time”.
 
 ---
 
-My application to the Tate, like most people’s applications to most jobs, was rejected without comment. Reading through the leaked materials, I was looking for some hint as to why I didn’t make it to an interview — maybe there was a slate of PhDs in Updating Museum Shop Websitology ahead of me, or I had make some fatal error, like misspelling my own name. I found neither. Applying for work remains [an unlikely shot in the dark](https://www.maxkohler.com/posts/abolish-the-job-application/).
+My application to the Tate, like most people’s applications to most jobs, was rejected without comment. Reading through the leaked materials, I was looking for some hint as to why I didn’t make it to an interview — maybe there was a slate of PhDs in Updating Museum Shop Websitology ahead of me, or I had make some fatal error, like misspelling my own name. I found neither. Applying for work remains [an costly shot in the dark](https://www.maxkohler.com/posts/abolish-the-job-application/).
 
 ---
 

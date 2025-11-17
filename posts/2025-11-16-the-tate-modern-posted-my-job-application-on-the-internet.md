@@ -42,7 +42,7 @@ My application to the Tate, like most people’s applications to most jobs, was 
 
 ---
 
-The story adds to the growing body of literature on the bizarre humiliation ritual (as Sarah Thankam Mathews [fittingly put it](https://www.thecut.com/article/job-search-unemployment-stories.html) in _New York_ that is the comtemporary job application. Other recent entries include:
+The story adds to the growing body of literature on the bizarre humiliation ritual (as Sarah Thankam Mathews [fittingly put it](https://www.thecut.com/article/job-search-unemployment-stories.html) in _New York_ that is the contemporary job application. Other recent entries include:
 
 - Annie Lowrey: _[The Job Market Is Hell](https://www.theatlantic.com/ideas/archive/2025/09/job-market-hell/684133/)_, on the escalating arms race between job seekers and companies over who can out-automate the other
 - The Economist: _[How AI is Breaking Cover Letters](https://www.economist.com/finance-and-economics/2025/11/13/how-ai-is-breaking-cover-letters)_, on AI-generated cover letters ruining the whole concept, mostly at the expense of more competent applicants.

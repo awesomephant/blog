@@ -42,7 +42,7 @@ The base URL is `calendar.google.com/calendar/render?action=TEMPLATE` followed b
 
 No documentation from Microsoft either, but a company called the Interactive Design Foundation put together [this document](https://github.com/InteractionDesignFoundation/add-event-to-calendar-docs/tree/main/services) with a bunch of information.
 
-Office 365 and Outlook live use the same query parameters, but different base URLs:
+Office 365 and Outlook Live use the same query parameters, but different base URLs:
 
 - Outlook Live: `outlook.live.com/calendar/0/deeplink/compose?path=path=/calendar/action/compose&rru=addevent`
 - Office 365: `outlook.office.com/calendar/0/deeplink/compose?path=path=/calendar/action/compose&rru=addevent`

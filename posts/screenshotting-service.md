@@ -91,7 +91,7 @@ This is adapted from [the example in the puppeteer documentation](https://pptr.d
 - Install Google Chrome and its dependencies using `apt-get`.
 - Copy our script and our `package.json` file to the working directory
 - Set `PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true` to avoid installing another copy of Chrome, then run `npm install`
-- Run `groupadd` to add a non-provileged user to run our service because not doing that [is a security risk](https://ralph.blog.imixs.com/2017/04/23/run-a-docker-container-with-non-privileged-user/)
+- Run `groupadd` to add a non-privileged user to run our service because not doing that [is a security risk](https://ralph.blog.imixs.com/2017/04/23/run-a-docker-container-with-non-privileged-user/)
 - Switch to that user and start our script
 
 I user `docker build --platform linux/amd64 --tag screenshotter .` to build the container, then `docker save -o ./screenshotter screenshotter:latest` to write it to an image file.

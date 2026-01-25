@@ -11,7 +11,7 @@ draft: false
 ---
 
 
-{% include "fig.liquid", src: "/assets/acre-timelapse.webm", alt: "Timelapse shows acre website over the course of a year. Text changes quickly as exhibitions and events are added and removed, logo fades smoothly from thin to bold", class: "large"%}
+{% include "fig.liquid", src: "/assets/acre-timelapse.webm", alt: "Timelapse shows acre website over the course of a year. Text changes quickly as exhibitions and events are added and removed, logo fades smoothly from thin to bold", class: "big"%}
 
 The design system is based on the unit of the acre, traditionally defined as the amount of agricultural land workable by one man in one day. Following this thought, the logotype changes over the course of the year, lying fallow during the winter before growing bolder in the summer.
 

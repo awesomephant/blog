@@ -1,130 +1,143 @@
 @mixin bp($point) {
-	@if $point==xl {
-		@media (min-width: 100rem) {
-			@content;
-		}
-	} @else if $point==l {
-		@media (min-width: 85rem) {
-			@content;
-		}
-	} @else if $point==m {
-		@media (min-width: 60rem) {
-			@content;
-		}
-	} @else if $point==s {
-		@media (min-width: 35rem) {
-			@content;
-		}
-	}
+    @if $point==xl {
+        @media (min-width: 100rem) {
+            @content;
+        }
+    } @else if $point==l {
+        @media (min-width: 85rem) {
+            @content;
+        }
+    } @else if $point==m {
+        @media (min-width: 60rem) {
+            @content;
+        }
+    } @else if $point==s {
+        @media (min-width: 35rem) {
+            @content;
+        }
+    }
 }
 
 @keyframes fade-in {
-	from {
-		opacity: 0;
-		transform: translateY(5px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @font-face {
-	font-family: Atlas;
-	src: url(./assets/fonts/Unica77LLWeb-Regular.woff2) format('woff2');
-	font-weight: 500;
-	font-display: swap;
+    font-family: Atlas;
+    src: url(./assets/fonts/AtlasGrotesk-Regular.woff2) format("woff2");
+    font-weight: 500;
+    font-display: swap;
 }
 @font-face {
-	font-family: Atlas;
-	src: url(./assets/fonts/Unica77LLWeb-Bold.woff2) format('woff2');
-	font-weight: 700;
-	font-display: swap;
+    font-family: Atlas;
+    src: url(./assets/fonts/AtlasGrotesk-Black.woff2) format("woff2");
+    font-weight: 700;
+    font-display: swap;
 }
 
 $fast: 150ms;
 $br: 3px;
 
 :root {
-	--font-text: 'Atlas', monospace;
-	--font-sans: 'Atlas Typewriter', 'Arial', sans-serif;
-	--font-mono: 'MD IO', 'Consolas', 'Lucida Console', Courier Prime, monospace;
-	--ratio: 1.2;
-	--ms-0: clamp(0.85rem, calc(1.3vw + 0.2rem), 0.925rem);
-	--ms--2: calc(var(--ms--1) / var(--ratio));
-	--ms--1: calc(var(--ms-0) / var(--ratio));
-	--ms-1: calc(var(--ms-0) * var(--ratio));
-	--ms-2: calc(var(--ms-1) * var(--ratio));
-	--ms-3: calc(var(--ms-2) * var(--ratio));
-	--ms-4: calc(var(--ms-3) * var(--ratio));
-	--ms-5: calc(var(--ms-4) * var(--ratio));
-	--ms-6: calc(var(--ms-5) * var(--ratio));
-	--ms-7: calc(var(--ms-6) * var(--ratio));
-	--ms-text: calc(var(--ms-0));
-	--black: rgb(8, 8, 8);
-	--gray: rgb(102, 104, 105);
-	--white: #fff;
-	--mark: #fffdeb;
-	--gray-10: rgba(0, 0, 0, 0.05);
-	--gray-20: rgba(0, 0, 0, 0.2);
-	--gray-30: rgba(0, 0, 0, 0.3);
-	--gray-50: rgba(0, 0, 0, 0.5);
-	--gray-60: rgba(0, 0, 0, 0.6);
-	--gray-70: rgba(0, 0, 0, 0.7);
-	--background: rgb(253, 253, 253);
-	--blue: #2e50a6;
-	--color-writing: #4f83b7;
-	--color-work: #bd7744;
-	--color-notes: #c1d0dc;
-	--color-meta: rgb(211, 231, 238);
-	--red: #c4320a;
-	--yellow: rgb(255, 230, 25);
-	--yellow-light: rgb(240, 240, 240);
-	--fast: 300ms;
-	--br: 3px;
-	--padding: Min(5%, var(--ms-1));
-	--padding-x: 0.5ch;
-	--baseline: calc(var(--ms-0) * 1.45);
-	--secondary: rgb(226, 226, 226);
+    --font-text: "Atlas", monospace;
+    --font-sans: "Atlas Typewriter", "Arial", sans-serif;
+    --font-mono:
+        "MD IO", "Consolas", "Lucida Console", Courier Prime, monospace;
+    --ratio: 1.15;
+    --ms-0: clamp(0.85rem, calc(1.3vw + 0.2rem), 0.9215rem);
+    --ms--2: calc(var(--ms--1) / var(--ratio));
+    --ms--1: calc(var(--ms-0) / var(--ratio));
+    --ms-1: calc(var(--ms-0) * var(--ratio));
+    --ms-2: calc(var(--ms-1) * var(--ratio));
+    --ms-3: calc(var(--ms-2) * var(--ratio));
+    --ms-4: calc(var(--ms-3) * var(--ratio));
+    --ms-5: calc(var(--ms-4) * var(--ratio));
+    --ms-6: calc(var(--ms-5) * var(--ratio));
+    --ms-7: calc(var(--ms-6) * var(--ratio));
+    --ms-8: calc(var(--ms-7) * var(--ratio));
+    --ms-text: calc(var(--ms-0));
+    --black: rgb(8, 8, 8);
+    --gray: rgb(102, 104, 105);
+    --white: #fff;
+    --mark: #fffdeb;
+    --gray-10: rgba(0, 0, 0, 0.05);
+    --gray-20: rgba(0, 0, 0, 0.2);
+    --gray-30: rgba(0, 0, 0, 0.3);
+    --gray-50: rgba(0, 0, 0, 0.5);
+    --gray-60: rgba(0, 0, 0, 0.6);
+    --gray-70: rgba(0, 0, 0, 0.7);
+    --background: rgb(253, 253, 253);
+    --blue: #2e50a6;
+    --color-writing: #4f83b7;
+    --color-work: #bd7744;
+    --color-notes: #c1d0dc;
+    --color-meta: rgb(211, 231, 238);
+    --red: #c4320a;
+    --yellow: rgb(255, 230, 25);
+    --yellow-light: rgb(240, 240, 240);
+    --fast: 300ms;
+    --br: 3px;
+    --padding: Min(5%, var(--ms-1));
+    --padding-x: 0.5ch;
+    --baseline: calc(var(--ms-0) * 1.45);
+    --secondary: rgb(226, 226, 226);
 
-	// Scale font size on high-res displays
-	@media (min-resolution: 120dpi) {
-		font-size: 0.9rem;
-	}
+    // Scale font size on high-res displays
+    @media (min-resolution: 120dpi) {
+        font-size: 0.9rem;
+    }
 }
 
 %stepped-gradient {
-	width: 3ch;
-	background: linear-gradient(to right, black 0, black 33.33%, rgba(black, 0.66) 33.33%, rgba(black, 0.66) 66.66%, rgba(black, 0.33) 66.66%, rgba(black, 0.33) 100%);
+    width: 3ch;
+    background: linear-gradient(
+        to right,
+        black 0,
+        black 33.33%,
+        rgba(black, 0.66) 33.33%,
+        rgba(black, 0.66) 66.66%,
+        rgba(black, 0.33) 66.66%,
+        rgba(black, 0.33) 100%
+    );
 }
 
 %copy {
-	font-family: var(--font-text);
-	font-size: var(--ms-0);
-	font-feature-settings: 'onum' 1, 'kern' 1;
-	text-rendering: optimizeLegibility;
-	letter-spacing: 0.005em;
-	line-height: 1.375;
+    font-family: var(--font-text);
+    font-size: var(--ms-0);
+    font-feature-settings:
+        "onum" 1,
+        "kern" 1;
+    text-rendering: optimizeLegibility;
+    letter-spacing: -0.005em;
+    line-height: 1.4;
 }
 
 %h1 {
-	font-size: var(--ms-3);
-	font-weight: 600;
-	text-wrap: balance;
-	letter-spacing: 0;
-	line-height: calc(var(--baseline) * 1.2);
-	@include bp(m) {
-		line-height: calc(var(--baseline) * 2.333);
-		font-size: var(--ms-6);
-	}
+    font-size: var(--ms-3);
+    font-weight: 800;
+    text-wrap: balance;
+    letter-spacing: 0;
+    line-height: calc(var(--baseline) * 1.2);
+    @include bp(m) {
+        line-height: calc(var(--baseline) * 2.33);
+        letter-spacing: -0.01em;
+        font-size: var(--ms-7);
+    }
 }
 
 %h2 {
-	font-size: var(--ms-2);
-	font-weight: 600;
-	text-wrap: balance;
-	line-height: var(--baseline);
-	@include bp(m) {
-		font-size: var(--ms-3);
-	}
+    font-size: var(--ms-2);
+    font-weight: 600;
+    text-wrap: balance;
+    line-height: var(--baseline);
+    @include bp(m) {
+        font-size: var(--ms-3);
+    }
 }

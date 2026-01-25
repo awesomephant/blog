@@ -7,7 +7,7 @@ tags: post
 publication: Scream Time
 thumb: https://maxkohler.com/assets/tate-bw.jpg
 canonical: https://maxakohler.substack.com/p/the-tate-modern-posted-my-job-application
-background: 'rgb(255, 253, 229)'
+background: 'hsl(110, 75%, 95%)'
 ---
 
 <style>

@@ -14,7 +14,7 @@ publication: Content Free
 
 I recently wrote about the privatisation of university buildings[^1] and how that’s a Bad Thing™.
 
-Between the time I enrolled and graduated at Camberwell College of Arts, the building went from being largely open to the public to a situation where access to the building, and movement inside it is tightly controlled by access cards, remote-controlled gates, cameras, visitors lists, fencing, and private security guards. The Royal College was already in a similar state when I got there (plus the private landlord adding their own power mechanisms to the pile in the form of inspections, defensive architecture, and security more security guards).
+Between the time I enrolled and graduated at Camberwell College of Arts, the building went from being largely open to the public to a situation where access to the building, and movement inside it is tightly controlled by access cards, remote-controlled gates, cameras, visitors lists, fencing, and private security guards. The Royal College was already in a similar state when I got there (plus the private landlord adding their own power mechanisms to the pile in the form of inspections, defensive architecture, and more security guards).
 
 The move to online teaching over the last few days is a dramatic escalation of this same movement. While our department heads are doing their best to get everyone onto Zoom calls or Hangouts as soon as possible, let’s remember what these apps are: entirely private, venture-funded[^2], data-collecting, exclusive to anyone without high-end internet, for-profit spaces designed to reproduce the hierarchies of business meetings. Access is finely graded and revokable at any time if you stop paying your subscription fees or otherwise become a nuiscance to the institution.
 
@@ -32,7 +32,7 @@ But the most dystopian Zoom feature of all has to be _Attendee Attention Trackin
 
 > Cool feature alert! Attendee Attention Tracking in Zoom can help you monitor your students’ attention to your shared presentation. Whether it’s a video, a powerpoint, or your desktop, if Zoom is not the app in focus on a student’s computer you will see a clock indicator next to their name in the Participant box […] It may also be helpful to let your students know that you will be grading this metric. In the virtual classroom, anything you can do as educators to facilitate engagement and attention will translate to continued success in the classroom.[^4]
 
-Again, this information only flows upward, toward the administration (and in semi-anonymised form to Zoom and its advertising partners [^5]. Attendees (remember when we were students) are seen, but can’t themselves see beyond whatever material the organisation has made available.
+Again, this information only flows upward, toward the administration (and in semi-anonymised form to Zoom and its advertising partners.[^5] Attendees (remember when we were students) are seen, but can’t themselves see beyond whatever material the organisation has made available.
 
 {% include "fig.liquid", src: "/assets/US08913103-20141216-D00000.png", caption: "Google, 2012: *Method and apparatus for focus-of-attention control* (Patent Drawing)", alt: "Complex flow diagram", source: "[patents.google.com/patent/US8913103B1](https://patents.google.com/patent/US8913103B1)"%}
 

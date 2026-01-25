@@ -49,7 +49,7 @@
         display: inline-block;
         grid-column: span 6;
         padding: 0 var(--padding-x);
-        padding-bottom: 2em;
+        padding-bottom: 1em;
         @include vars.bp(m) {
             padding-bottom: 0;
             grid-column: span 10;

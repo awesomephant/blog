@@ -84,10 +84,14 @@ $br: 3px;
     --yellow-light: rgb(240, 240, 240);
     --fast: 300ms;
     --br: 3px;
+    --padding-x: 0.5rem;
     --padding: Min(5%, var(--ms-1));
-    --padding-x: 0.5ch;
     --baseline: calc(var(--ms-0) * 1.45);
     --secondary: rgb(226, 226, 226);
+
+    @include bp(m) {
+        --padding-x: 0.5ch;
+    }
 
     // Scale font size on high-res displays
     @media (min-resolution: 120dpi) {
@@ -120,16 +124,16 @@ $br: 3px;
 }
 
 %h1 {
-    font-size: var(--ms-3);
+    font-size: var(--ms-4);
     font-weight: 800;
     text-wrap: balance;
     letter-spacing: 0;
     line-height: calc(var(--baseline) * 1.2);
     @include bp(m) {
-        line-height: calc(var(--baseline) * 2.33);
+        line-height: 1.15;
         letter-spacing: -0.01em;
         word-spacing: -0.015em;
-        font-size: var(--ms-7);
+        font-size: var(--ms-6);
     }
 }
 

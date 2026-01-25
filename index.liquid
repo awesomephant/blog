@@ -130,7 +130,7 @@ class: home
             {% for el in posts %}
             {% if el.url != "" %}<li class="has-url"><a class="home__item" href="{{el.url}}">{% else %}
             <li class="home__item">{% endif %}
-                <span class="running__date">{{ el.date | date: "%b %d, %Y"}}{% if el.url != "" %} ↗{% endif %}
+                <span class="running__date">{{ el.date | date: "%m/%d/%Y"}}{% if el.url != "" %} ↗{% endif %}
                 </span>
                 <span class="running__distance">{{ el.distance | formatRunningDistance }}</span>
                 {% if el.time != "" %}

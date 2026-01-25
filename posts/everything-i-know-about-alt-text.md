@@ -2,7 +2,7 @@
 layout: post
 title: Everything I know about alt text
 date: 2022-02-25
-updated: 2025-07-21
+updated: 2026-01-21
 includesMath: false
 includesMusic: false
 intro: "A big part of my job is telling peo­ple to use alt text. To make my life eas­ier, here are all my notes and references in one place."
@@ -75,6 +75,7 @@ If you're not editing your site's HTML directly, you need to figure out how to a
 - [Substack](https://support.substack.com/hc/en-us/articles/4414829453204-How-can-I-edit-images-on-a-Substack-post-)
 - [Tumblr](https://brownandtrans.tumblr.com/post/613978932163772416/how-to-write-alt-text-and-image-descriptions-for) (only in iOS and Android apps)
 - [Squarespace](https://support.squarespace.com/hc/en-us/articles/206542357-Adding-alt-text-to-images)
+- [Datawrapper](https://academy.datawrapper.de/article/330-how-to-write-good-alternative-descriptions-for-your-data-visualization)
 
 If your platform doesn't support alt text, you can work around the problem by adding captions or describing the image in the main text.
 

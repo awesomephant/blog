@@ -11,7 +11,7 @@ For a while, I've been looking for an automated method to load up a list of webs
 
 There are many ways of doing this, but doing it on a NAS is nice because 1) I have one already, so I'm not incurring any extra costs 2) it'll run arbitrary code with few restrictions and 3) it's where I would want to store the screenshots anyway. After some experimentation, I got this to work in three steps.
 
-## 1. Write the screenshotting code
+## 1. Write the screenshotting script
 
 The actual screenshotting program is a pretty short. It launches Google Chrome using [puppeteer](https://pptr.dev/), loops over a list of URLs, takes a screenshot of each one and saves it to the `./output` directory. I wrote this in Node because it was convenient, but you could do the same in any other language.
 
@@ -53,7 +53,7 @@ await run()
 
 ## 2. Containerise it
 
-The correct™ way to deploy a service like this is package our code and all of its dependencies in a [Docker](https://docs.docker.com/) using a configuration file called `Dockerfile`. Mine looks like this:
+The correct™ way to deploy a service like this is package our code and all of its dependencies in a [Docker](https://docs.docker.com/) container using a configuration file called `Dockerfile`. Mine looks like this:
 
 {% codetitle "Dockerfile" %}
 
@@ -94,11 +94,11 @@ This is adapted from [the example in the puppeteer documentation](https://pptr.d
 - Run `groupadd` to add a non-privileged user to run our service because not doing that [is a security risk](https://ralph.blog.imixs.com/2017/04/23/run-a-docker-container-with-non-privileged-user/)
 - Switch to that user and start our script
 
-I user `docker build --platform linux/amd64 --tag screenshotter .` to build the container, then `docker save -o ./screenshotter screenshotter:latest` to write it to an image file.
+I used `docker build --platform linux/amd64 --tag screenshotter .` to build the container, then `docker save -o ./screenshotter screenshotter:latest` to write it to an image file.
 
 ## 3. Run it on the NAS
 
-Synology has a built-in tool called [Container Manager](https://www.synology.com/en-us/dsm/packages/ContainerManager) which we'll use to run our service. It has a bunch of different ways to spin up a container, the following is the only one that worked for me:
+Synology has a built-in tool called [Container Manager](https://www.synology.com/en-us/dsm/packages/ContainerManager) which we'll use to run our service. It has a bunch of different ways to spin up a container, but the following is the only one that worked for me:
 
 - Upload the image file to the NAS filesystem
 - In the web interface, go to Container Manager > Container > Create > Import and select the image. Turn on "Enable auto-restart" so the service will re-launch when you reboot the NAS.

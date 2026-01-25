@@ -1,38 +1,56 @@
 @use "vars";
 
 .single__container {
-    grid-column: 1 / 21;
-    margin: 0 auto;
-    max-width: 45em;
-    @include vars.bp(m) {
-        margin: 0;
-        grid-column: 7 / 21;
-    }
+    display: contents;
 }
 
 .single__header {
     flex-flow: column;
     display: flex;
-    padding: 1em;
-    @include vars.bp(s) {
-        padding: 1.5em 0;
-        margin-top: 2em;
-        margin-bottom: 2em;
+    border: 1px solid currentColor;
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: 1 / 21;
+}
+.single__header-inner {
+    grid-column: 1 / 21;
+    @include vars.bp(m) {
+        grid-column: 7 / 21;
+        border-left: 1px solid currentColor;
+        margin-left: -1px;
     }
 }
 
 .single__title {
     @extend %h1;
+    padding: 0.5em var(--padding-x);
+    max-width: 20em;
+    margin-bottom: 1em;
+
+    @include vars.bp(m) {
+        padding: 0.25em var(--padding-x);
+    }
+
     a {
         text-decoration: none;
     }
 }
 
 .single__meta {
-    font-size: var(--ms--1);
-    font-family: var(--font-mono);
-    letter-spacing: 0.02em;
-    margin-top: 1em;
+    @extend %copy;
+    padding: 0.5rem var(--padding-x);
+    grid-column: 1 / 21;
+    border-top: 1px solid currentColor;
+    @include vars.bp(m) {
+        border-top: 0;
+        grid-column: 1 / 4;
+        grid-row: 1;
+    }
+}
+.post-date {
+    time {
+        display: block;
+    }
 }
 .note {
     padding-top: 1em;
@@ -41,25 +59,40 @@
 
 .single__intro {
     font-size: var(--ms-2);
-    letter-spacing: 0em;
-    margin-top: 0.5em;
+    letter-spacing: 0;
+    border-top: 1px solid currentColor;
+    padding: 0.25em var(--padding-x);
+    hyphens: none;
+    p {
+        max-width: 35em;
+    }
 }
 
 .single__copy {
     font-size: var(--ms-1);
     hyphens: auto;
-    padding: 1em 0;
+    padding: 1em var(--padding-x);
+    grid-column: 1 / 21;
 
     @include vars.bp(s) {
         font-size: calc(var(--ms-1) * 1.025);
         padding: 2em 0;
     }
+    @include vars.bp(m) {
+        padding: 1em 0;
+        grid-column: 7 / 18;
+    }
+    @include vars.bp(l) {
+        grid-column: 7 / 15;
+    }
+
     h2 {
         font-family: var(--atlas);
         font-weight: 700;
         font-size: var(--ms-1);
         margin-top: 1rem;
         margin-bottom: 0.25rem;
+        letter-spacing: 0.01em;
         @include vars.bp(m) {
             font-size: var(--ms-2);
             margin-top: 1.5rem;
@@ -248,11 +281,9 @@
 
 .single__thumb {
     max-width: 100%;
-    margin-top: 1rem;
     display: block;
-    & + .single__meta {
-        margin-top: 1rem;
-    }
+    margin-bottom: -1px;
+    border-top: 1px solid currentColor;
 }
 
 .post-figure {

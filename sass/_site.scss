@@ -1,132 +1,132 @@
 @use "./vars";
 
 .site__links {
-  list-style: none;
-  align-items: stretch;
-  border-bottom: 0;
-  display: flex;
-  gap: 0.25rem;
-  @include vars.bp(s) {
-    columns: 1;
-  }
-  a,
-  button {
-    height: 100%;
-    text-decoration: none;
-    background: transparent;
-    border-radius: 0;
-    padding: 0 0.15rem;
-    border: 0;
-    margin: 0;
-    color: inherit;
-    font-family: inherit;
-    cursor: pointer;
-    border: 1px solid black;
-    &:hover,
-    &:focus-visible {
-      background: rgba(white, 0.5);
+    list-style: none;
+    align-items: stretch;
+    border-bottom: 0;
+    display: flex;
+    gap: 0.25rem;
+    @include vars.bp(s) {
+        columns: 1;
     }
-  }
+    a,
+    button {
+        height: 100%;
+        text-decoration: none;
+        background: transparent;
+        border-radius: 0;
+        padding: 0 0.15rem;
+        border: 0;
+        margin: 0;
+        color: inherit;
+        font-family: inherit;
+        cursor: pointer;
+        border: 1px solid black;
+        &:hover,
+        &:focus-visible {
+            background: rgba(white, 0.5);
+        }
+    }
 }
 
 .site__header {
-  grid-column: 1 / 21;
-  border: 1px solid currentColor;
-  margin-bottom: -1px;
-  font-size: var(--ms-0);
-  text-transform: uppercase;
-  background: var(--secondary);
-  display: grid;
-  grid-template-columns: subgrid;
-  letter-spacing: 0.005em;
-  @include vars.bp(s) {
-    flex-flow: row;
-  }
+    grid-column: 1 / 21;
+    border: 1px solid currentColor;
+    margin-bottom: -1px;
+    font-size: var(--ms-0);
+    text-transform: uppercase;
+    background: var(--secondary);
+    display: grid;
+    grid-template-columns: subgrid;
+    letter-spacing: 0.005em;
+    @include vars.bp(s) {
+        flex-flow: row;
+    }
 
-  h1 {
-    position: relative;
-    color: var(--bg);
-    display: inline-block;
-    grid-column: span 6;
-    padding: 0 var(--padding-x);
-    padding-bottom: 2em;
-    @include vars.bp(m) {
-      padding-bottom: 0;
-      grid-column: span 10;
+    h1 {
+        position: relative;
+        color: var(--bg);
+        display: inline-block;
+        grid-column: span 6;
+        padding: 0 var(--padding-x);
+        padding-bottom: 2em;
+        @include vars.bp(m) {
+            padding-bottom: 0;
+            grid-column: span 10;
+        }
+        @include vars.bp(l) {
+            grid-column: span 6;
+        }
+        a {
+            text-decoration: none;
+        }
     }
-    @include vars.bp(l) {
-      grid-column: span 8;
+    .site__tagline {
+        grid-column: span 13;
+        padding: 0 var(--padding-x);
+        border-left: 1px solid currentColor;
+        @include vars.bp(m) {
+            margin-left: -1px;
+            grid-column: span 6;
+        }
     }
-    a {
-      text-decoration: none;
-    }
-  }
-  .site__tagline {
-    grid-column: span 13;
-    padding: 0 var(--padding-x);
-    border-left: 1px solid currentColor;
-    @include vars.bp(m) {
-      margin-left: -1px;
-      grid-column: span 6;
-    }
-  }
 }
 
 .site__footer {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr) 2.5ch;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) 2.5ch;
 }
 
 .footer__nav {
-  grid-column: 1 / 7;
-  border-bottom: 1px solid currentColor;
-  list-style: none;
-  a {
-    padding: 0 var(--padding-x);
-    text-decoration: none;
-    display: block;
+    grid-column: 1 / 7;
     border-bottom: 1px solid currentColor;
-    &:hover,
-    &:focus-visible {
-      color: white;
-      background: black;
-    }
-  }
-  li:last-child {
+    list-style: none;
     a {
-      border-bottom: 0;
+        padding: 0 var(--padding-x);
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid currentColor;
+        &:hover,
+        &:focus-visible {
+            color: white;
+            background: black;
+        }
     }
-  }
+    li:last-child {
+        a {
+            border-bottom: 0;
+        }
+    }
 }
 
 .site__env {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .site__footer p {
-  grid-column: 1 / 7;
-  display: grid;
-  grid-template-columns: subgrid;
-  width: 100%;
-  border-bottom: 1px solid currentColor;
-  &:last-child {
-    @include vars.bp(l) {
-      border-bottom: 0;
+    grid-column: 1 / 7;
+    display: grid;
+    grid-template-columns: subgrid;
+    width: 100%;
+    border-bottom: 1px solid currentColor;
+    &:last-child {
+        @include vars.bp(l) {
+            border-bottom: 0;
+        }
     }
-  }
-  .label {
-    border-right: 1px solid currentColor;
-    padding: 0 var(--padding-x);
-    grid-column: 1 / 3;
-    @include vars.bp(m) {
-      grid-column: 1 / 2;
+    .label {
+        border-right: 1px solid currentColor;
+        padding: 0 var(--padding-x);
+        grid-column: 1 / 3;
+        @include vars.bp(m) {
+            grid-column: 1 / 2;
+        }
     }
-  }
-  .value {
-    padding: 0 var(--padding-x);
-    grid-column: 3 / 7;
-    @include vars.bp(m) {
-      grid-column: 2 / 7;
+    .value {
+        padding: 0 var(--padding-x);
+        grid-column: 3 / 7;
+        @include vars.bp(m) {
+            grid-column: 2 / 7;
+        }
     }
-  }
 }

@@ -1,5 +1,5 @@
 <figure class="post-figure {{ class }}">
-    {% if src contains ".mp4" %}
+    {% if src contains ".mp4"  or src contains ".webm" %}
     <video class="media" src="{{ src }}" autoplay muted loop></video>
     {% else %}
     <img class="media" alt="{{ alt }}" loading="lazy" decoding="async" src="{{ src }}" />

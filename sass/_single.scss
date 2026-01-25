@@ -16,7 +16,8 @@
     padding: 1em;
     @include vars.bp(s) {
         padding: 1.5em 0;
-        margin-top: 6em;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
 }
 
@@ -28,9 +29,8 @@
 }
 
 .single__meta {
-    @extend %copy;
-    font-size: var(--ms-0);
-    opacity: 0.675;
+    font-size: var(--ms--1);
+    font-family: var(--font-mono);
     letter-spacing: 0.02em;
     margin-top: 1em;
 }
@@ -328,7 +328,8 @@
             }
         }
         @include vars.bp(l) {
-            width: 140%;
+            width: 130%;
+            margin-left: -30%;
         }
     }
 }

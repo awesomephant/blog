@@ -128,6 +128,7 @@ $br: 3px;
     @include bp(m) {
         line-height: calc(var(--baseline) * 2.33);
         letter-spacing: -0.01em;
+        word-spacing: -0.015em;
         font-size: var(--ms-7);
     }
 }

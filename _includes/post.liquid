@@ -29,7 +29,7 @@ class: post
         {% if updated %}
         <time class="updated">Published <time>{{ date | date: "%m/%d/%Y" }}</time> · Updated {{ updated | date: "%m/%d/%Y" }} </time>
         {% else %}
-        <time>{{ date | date: "%B %d, %Y" }}</time>
+        <time>{{ date | date: "%m/%d/%Y" }}</time>
         {% endif %}
       </span>
     </aside>

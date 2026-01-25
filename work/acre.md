@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ACRE Studios
-intro: Website and branding for ACRE Studios, an independent gallery in Berlin
+intro: Website and branding for ACRE Studios, an independent gallery and residency programme in Berlin
 date: 2025-12-07
 tags: work
 category: Website

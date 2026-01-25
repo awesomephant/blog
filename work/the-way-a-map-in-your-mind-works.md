@@ -21,4 +21,4 @@ The site is typeset in [Helvetica Now](https://www.monotype.com/fonts/helvetica-
 
 Principal design by Oliver Boulton, principal development by me.
 
-View the live site at **[oliverboulton.com](http://oliverboulton.com/)**. If you're interested in how it was built, the source code is licensed under CC (BY)-(NC)-(SA) and [available on Github](https://github.com/awesomephant/map-in-your-mind).
+View the live site at **[www.mapinyourmind.com](https://www.mapinyourmind.com/)**. If you're interested in how it was built, the source code is licensed under CC (BY)-(NC)-(SA) and [available on Github](https://github.com/awesomephant/map-in-your-mind).

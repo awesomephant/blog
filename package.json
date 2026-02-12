@@ -23,7 +23,7 @@
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "@netlify/functions": "^5.1.2",
-    "axios": "^1.13.4",
+    "axios": "^1.13.5",
     "cross-env": "^10.1.0",
     "csv-parse": "^6.1.0",
     "html-minifier-terser": "^7.2.0",

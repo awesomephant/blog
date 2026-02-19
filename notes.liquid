@@ -10,16 +10,16 @@ class: notes
     <input type="text" class="notes__search fuzzy-search" placeholder="Search {{ counter }} entries" />
   </div>
   <ul class="notes__list list">
-    {% assign notes = collections.notes | reverse %} {% for n in notes %}
+    {% assign notes = collections.notes %}
+    {% for n in notes %}
     <li>
       <a class="notes__item" href="{{ n.url }}">
         <date class="note__date">
           <span class="date-short">{{ n.data.date | date: "%m.%y" }}</span>
         </date>
         <span class="note__teacher">
-          {% assign ts = n.data.teacher | split: ","%} {% for t in ts %}
-          <span>{{ t }}</span>
-          {% endfor %}
+          {% assign ts = n.data.teacher | split: ","%}
+          {% for t in ts %}<span>{{ t }}</span>{% endfor %}
         </span>
         <span class="note__venue">
           <span>{{ n.data.unit }}</span>

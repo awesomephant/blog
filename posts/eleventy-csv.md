@@ -14,29 +14,27 @@ thumb: ''
 
 Eleventy has built-in [support for custom data formats](https://www.11ty.dev/docs/data-custom/). To read data from a CSV file:
 
-- Add your CSV file to the `_data` folder
-- Install [csv-parse](https://csv.js.org/parse/) using `npm i --save-dev csv-parse`
-- Add the following to your [Eleventy config](https://www.11ty.dev/docs/config/):
+- Add the CSV file to the `_data` folder
+- Install [csv-parse](https://csv.js.org/parse/) using `npm install --save-dev csv-parse`
+- Add the following to your [eleventy config](https://www.11ty.dev/docs/config/):
 
 {% codetitle ".eleventy.js" %}
 
-```js
+```diff-js
 import { parse } from 'csv-parse/sync'
 
-eleventyConfig.addDataExtension('csv', (contents) => {
-	const records = parse(contents, {
-		columns: true,
-		skip_empty_lines: true,
-	})
-	return records
-})
+export default function (eleventyConfig) {
++	eleventyConfig.addDataExtension('csv', (contents) => {
++		return parse(contents, { columns: true, skip_empty_lines: true })
++	})
+}
 ```
 
 ## Background + alternate approach
 
-I like to [use spreadsheets as a CMS](/work/digital-direction/) for one-off website projects. This means I author content in Google Sheets, export it to a CSV file, and throw that into a static site generator to produce the HTML in need.
+I like to use [Google Sheets as a CMS](/work/digital-direction/) for one-off website projects. This means I author content in a sheet, export to a CSV file, and throw that into a static site generator to produce the HTML I need.
 
-Eleventy doesn't have a built-in way to do that. It does have a concept of [global data files](https://www.11ty.dev/docs/data-global/), but those only support `json` files out of the box.
+Eleventy doesn't have a built-in way to do that. It has a concept of [global data files](https://www.11ty.dev/docs/data-global/), but those only support `json` files out of the box.
 
 However, you can roll your own support for CSV or any other data format using [Javascript Data Files](https://www.11ty.dev/docs/data-js/). The idea is to put a Javascript file into the `_data` folder that `export`s whatever data we need. Eleventy runs that file and adds the output to its global data object, making it available in your templates.
 

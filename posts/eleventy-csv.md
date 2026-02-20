@@ -38,7 +38,7 @@ Eleventy doesn't have a built-in way to do that. It has a concept of [global dat
 
 However, you can roll your own support for CSV or any other data format using [Javascript Data Files](https://www.11ty.dev/docs/data-js/). The idea is to put a Javascript file into the `_data` folder that `export`s whatever data we need. Eleventy runs that file and adds the output to its global data object, making it available in your templates.
 
-For example, if you have a CSV file called `foo.csv`, you can put the following Javascript file next to it::
+For example, if you have a CSV file called `foo.csv`, you can put the following Javascript file next to it:
 
 {% codetitle "_data/bar.js" %}
 

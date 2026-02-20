@@ -43,14 +43,12 @@ For example, if you have a CSV file called `foo.csv`, you can put the following 
 {% codetitle "_data/bar.js" %}
 
 ```js
-const parse = require('csv-parse/lib/sync')
-const fs = require('fs')
+import { parse } from 'csv-parse/lib/sync'
+import { fs } from 'fs'
 
-module.exports = function () {
+export default function () {
 	const input = fs.readFileSync('./values.csv')
 	const records = parse(input, { columns: true, skip_empty_lines: true })
-	console.log(`${records.length} records found.`)
-
 	return records
 }
 ```

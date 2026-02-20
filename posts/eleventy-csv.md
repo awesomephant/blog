@@ -16,7 +16,7 @@ Eleventy has built-in [support for custom data formats](https://www.11ty.dev/doc
 
 - Add the CSV file to the `_data` folder
 - Install [csv-parse](https://csv.js.org/parse/) using `npm install --save-dev csv-parse`
-- Add the following to your [eleventy config](https://www.11ty.dev/docs/config/):
+- Add the following to your [Eleventy config](https://www.11ty.dev/docs/config/):
 
 {% codetitle ".eleventy.js" %}
 
@@ -29,6 +29,8 @@ export default function (eleventyConfig) {
 +	})
 }
 ```
+
+This will add the data to Eleventy's [data cascade](https://www.11ty.dev/docs/data-cascade/) using the CSV's filename as the key.
 
 ## Background + alternate approach
 

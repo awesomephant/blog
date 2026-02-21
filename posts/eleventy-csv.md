@@ -14,7 +14,7 @@ thumb: ''
 
 Eleventy has built-in [support for custom data formats](https://www.11ty.dev/docs/data-custom/). To read data from a CSV file:
 
-- Add the CSV file to the `_data` folder
+- Add it to the `_data` folder
 - Install [csv-parse](https://csv.js.org/parse/) using `npm install --save-dev csv-parse`
 - Add the following to your [Eleventy config](https://www.11ty.dev/docs/config/):
 

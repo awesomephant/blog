@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to use CSV data with Eleventy
+title: Using CSV data with Eleventy
 date: 2021-02-06
 updated: 2026-02-20
 includesMath: false

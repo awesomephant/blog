@@ -4,6 +4,7 @@ date: 2026-02-24
 draft: false
 layout: post
 intro: '`@awesomephant/maplibre-arrows` is a maplibre-gl-js plugin for drawing vector arrows at geographic coordinates.'
+thumb: assets/maplibre-arrows.png
 ---
 
 <figure class="post-figure large">
@@ -55,7 +56,7 @@ I wrote a simple (~250 LOC) [maplibre-gl-js](https://maplibre.org/maplibre-gl-js
 
 I wanted to replicate the arrow graphics from this [NYT story](https://www.nytimes.com/interactive/2025/10/09/world/americas/drug-trafficking-venezuela.html) as an exercise, but maplibre-gl-js has no built-in way of doing that. The solution I eventually arrived at was to construct a [`GeoJSONSource`](https://maplibre.org/maplibre-gl-js/docs/API/classes/GeoJSONSource/) representing the arrow heads and tails as vector features, projecting them to map space and rendering them using two or more (depending on the number of unique arrow colours) `fill` and `line` [layers](https://maplibre.org/maplibre-style-spec/layers).
 
-It also seemed like a good (ie. small enough) project to wrap my head around the process of building, testing and publishing a piece of open-source software.
+This also also seemed like a good (ie. small enough) project to wrap my head around the process of building, testing and publishing a piece of open-source software, which I hadn't done outside of work. My strategy was to use as little tooling as possible, so I used `esbuild` for bundling, `tsc` for type declarations and Node's [built-in test runner](https://nodejs.org/api/test.html) for unit tests, and I cut releases manually using the `npm` CLI.
 
 There is [a proposal](https://github.com/maplibre/maplibre-style-spec/issues/789) to add `symbol-line-anchor` property to maplibre's symbol layer which would make this easier and more performant, but it hasn't seen much activity yet.
 

@@ -5,7 +5,7 @@
 	<meta name="robots" content="index, follow" />
 
 	<title>{% if title %}{{ title }} – Max Kohler {% else %}Max Kohler{% endif %}</title>
-	<meta name="description" content="{% if intro %}{{ intro | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="description" content="{% if intro %}{{ intro | strip_newlines | replace: '`', '' | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 	<link rel="stylesheet" href="{{"/main.css" | url }}">
 
@@ -14,7 +14,6 @@
 	{% endif %}
 
 	<meta property="fediverse:creator" content="@maxakohler" />
-
 
 	<meta property="og:url" content="{{ site.url }}{{ page.url | url }}" />
 	<meta property="og:type" content="article" />

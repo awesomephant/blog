@@ -57,6 +57,8 @@ I wanted to replicate the arrow graphics from this [NYT story](https://www.nytim
 
 It also seemed like a good (ie. small enough) project to wrap my head around the process of building, testing and publishing a piece of open-source software.
 
+There is [a proposal](https://github.com/maplibre/maplibre-style-spec/issues/789) to add `symbol-line-anchor` property to maplibre's symbol layer which would make this easier and more performant, but it hasn't seen much activity yet.
+
 ### Prior work
 
 - [This 2022 forum thread](https://community.retool.com/t/draw-a-simple-arrow-in-mapbox-from-origin-to-destination/13749)

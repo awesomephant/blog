@@ -3,7 +3,7 @@ title: Maplibre Arrows
 date: 2026-02-24
 draft: false
 layout: post
-intro: '`@awesomephant/maplibre-arrows` is a maplibre-gl-js plugin for drawing vector arrows at geographic coordinates.'
+intro: '`maplibre-arrows` is a maplibre-gl-js plugin for drawing vector arrows at geographic coordinates.'
 thumb: https://www.maxkohler.com/assets/maplibre-arrows.png
 ---
 
@@ -50,7 +50,7 @@ const arrows = new maplibreArrows(map, {
 
 ## TLDR
 
-I wrote a simple (~250 LOC) [maplibre-gl-js](https://maplibre.org/maplibre-gl-js/docs/) plugin to draw straight and/or curved arrows at geographic coordinates called [`@awesomephant/maplibre-arrows`](https://github.com/awesomephant/maplibre-arrows). It's available on [Github](https://github.com/awesomephant/maplibre-arrows) and [NPM](https://www.npmjs.com/package/@awesomephant/maplibre-arrows).
+I wrote a simple (~250 LOC) [maplibre-gl-js](https://maplibre.org/maplibre-gl-js/docs/) plugin to draw straight and/or curved arrows at geographic coordinates called [`maplibre-arrows`](https://www.npmjs.com/package/@awesomephant/maplibre-arrows). It's available on [Github](https://github.com/awesomephant/maplibre-arrows) and [NPM](https://www.npmjs.com/package/@awesomephant/maplibre-arrows).
 
 ## Background
 
@@ -63,4 +63,4 @@ There is [a proposal](https://github.com/maplibre/maplibre-style-spec/issues/789
 ### Prior work
 
 - [This 2022 forum thread](https://community.retool.com/t/draw-a-simple-arrow-in-mapbox-from-origin-to-destination/13749)
-- Another implementation of the same idea I did [for my job](https://static.datenhub.net/apps/components/main/index.html?path=/docs/maplibre-source-arrowsource--docs)
+- An earlier implementation I built [for my job](https://static.datenhub.net/apps/components/main/index.html?path=/docs/maplibre-source-arrowsource--docs)

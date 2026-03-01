@@ -2,7 +2,7 @@
 
 code {
 	font-family: var(--font-mono);
-	font-size: 0.85em;
+	font-size: 0.875em;
 	letter-spacing: 0;
 }
 
@@ -16,9 +16,6 @@ li > code {
 }
 
 pre[class*='language-'] {
-	border: 1px solid var(--black);
-	background-color: rgb(252, 252, 252);
-	padding: 0.5em;
 	letter-spacing: 0;
 	font-feature-settings: 'tnum' 1;
 	line-height: 1.125;
@@ -49,7 +46,7 @@ pre[class*='language-'] {
 }
 
 pre[class*='language-'] {
-	margin: 1rem 0;
+	margin: 1.25em 0;
 	margin-top: 1.5rem;
 	overflow-x: auto;
 	scrollbar-width: thin;
@@ -140,16 +137,17 @@ pre[class*='language-'] {
 }
 
 .inserted {
-	background-color: #bbe879;
+	background-color: #eff781;
 	&,
 	& * {
-		text-decoration: none;
+		color: #0a0a01 !important;
 	}
 }
 
 .token.italic {
 	font-style: italic;
 }
+
 .token.parameter {
 	color: rgb(172, 38, 5);
 }
@@ -161,13 +159,12 @@ pre[class*='language-'] {
 .prefix {
 	margin-left: -0.5em;
 	position: relative;
-	left: -0.5em;
+	left: 0.65em;
 	user-select: none;
 	background: transparent;
-	display: none;
-	text-decoration: none !important;
+	opacity: 0.5;
 	&.inserted {
-		color: #047b43;
+		color: #545506;
 	}
 }
 
@@ -180,6 +177,7 @@ p:has(.code__title) {
 	display: inline-block;
 	padding: 0.5em 0;
 	line-height: 1.4;
+	margin-top: 0.5em;
 	.path {
 		color: var(--gray-70);
 	}

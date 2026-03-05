@@ -8,7 +8,7 @@ thumb: https://www.maxkohler.com/assets/maplibre-arrows.png
 ---
 
 <figure class="post-figure large">
-	<div id="map" style="height: 700px"></div>
+	<div id="map" style="aspect-ratio: 3 / 2"></div>
 	<figcaption class="figure__source">
 		<p>© Maplibre contributors</p>
 	</figcaption>	

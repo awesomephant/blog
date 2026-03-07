@@ -63,4 +63,4 @@ There is [a proposal](https://github.com/maplibre/maplibre-style-spec/issues/789
 ### Prior work
 
 - [This 2022 forum thread](https://community.retool.com/t/draw-a-simple-arrow-in-mapbox-from-origin-to-destination/13749)
-- An earlier implementation I built [for my job](https://static.datenhub.net/apps/components/main/index.html?path=/docs/maplibre-source-arrowsource--docs)
+- An earlier implementation I built [for work](https://static.datenhub.net/apps/components/main/index.html?path=/docs/maplibre-source-arrowsource--docs)

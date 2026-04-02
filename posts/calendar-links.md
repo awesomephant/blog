@@ -13,7 +13,7 @@ thumb:
 
 ## TLDR
 
-Add-to calendar links let people add your event to their own calendar:
+Add-to calendar links are a HTML-only way to let people add your event to their own calendar.
 
 {% include "fig.liquid", src: "/assets/google-calendar.gif", caption: "", alt: "Add Event screen in Google Calendar", class: "" %}
 
@@ -21,7 +21,7 @@ Support varies between calendar apps:
 
 ### Google calendar
 
-Google [took down the documentation](https://web.archive.org/web/20120225150257/http://www.google.com/googlecalendar/event_publisher_guide_detail.html) for ATC link, but they do work.
+Google [took down the documentation](https://web.archive.org/web/20120225150257/http://www.google.com/googlecalendar/event_publisher_guide_detail.html) for ATC links, but they do work.
 
 The base URL is `calendar.google.com/calendar/render?action=TEMPLATE` followed by one or more query parameters for your event data:
 

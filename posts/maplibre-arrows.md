@@ -15,7 +15,7 @@ thumb: https://www.maxkohler.com/assets/maplibre-arrows.png
 </figure>
 
 <script defer src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
-<script defer src="https://unpkg.com/@awesomephant/maplibre-arrows@latest/dist/index.js"></script>
+<script defer src="https://unpkg.com/@awesomephant/maplibre-arrows@latest/dist/index.min.js"></script>
 
 <link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
 
@@ -50,7 +50,7 @@ const arrows = new maplibreArrows(map, {
 
 ## TLDR
 
-I wrote a simple (~250 LOC) [maplibre-gl-js](https://maplibre.org/maplibre-gl-js/docs/) plugin to draw straight and/or curved arrows at geographic coordinates called [`maplibre-arrows`](https://www.npmjs.com/package/@awesomephant/maplibre-arrows). It's available on [Github](https://github.com/awesomephant/maplibre-arrows) and [NPM](https://www.npmjs.com/package/@awesomephant/maplibre-arrows).
+I wrote a simple (~250 LOC) [maplibre-gl-js](https://maplibre.org/maplibre-gl-js/docs/) plugin to draw straight and/or curved arrows at geographic coordinates called [maplibre-arrows](https://www.npmjs.com/package/@awesomephant/maplibre-arrows). It's available on [Github](https://github.com/awesomephant/maplibre-arrows) and [NPM](https://www.npmjs.com/package/@awesomephant/maplibre-arrows).
 
 ## Background
 

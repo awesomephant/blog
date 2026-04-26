@@ -5,6 +5,7 @@ date: 2025-06-25
 tags: work
 category: Portfolio
 intro: Catalogue website for factual illustrator Lilly Gothe
+draft: true
 ---
 
 {% include "fig.liquid", src: "/assets/lillygothe-screen.mp4", class: "medium", alt: "Cropped, animated screenshot of lillygothe.com"%}

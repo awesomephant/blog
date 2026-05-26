@@ -5,12 +5,9 @@ date: 2020-12-06
 includesMath: false
 includesMusic: false
 is_featured: true
-intro: "The Utah Monolith and the American Landscape"
+intro: 'The Utah Monolith and the American Landscape'
 tags: post
-thumb: "https://maxkohler.com/assets/monolith/monolith-spot.png"
-hero:
-  src: /assets/monolith/monolith-spot.png
-  alt: "3d rendering of a silver monolith floating above a grassy field"
+thumb: 'https://maxkohler.com/assets/monolith/monolith-spot.png'
 ---
 
 {% leadin %}The Utah Monolith{% endleadin %} stood at 38°20'35.18" North, 109°39'58.32" West in Red Rock Country, Utah, on a piece of flat ground between two diverging rock faces. It was installed there by an unknown artist sometime in 2016 (that's when it appears in satellite images), discovered by wildlife officials on November 23, 2020, and removed ten days later by four unknown men.[^1]
@@ -119,18 +116,33 @@ But on the other hand, I think the monolith's appeal was never really about the 
 In this year of never-ending crisis, where any attempt to look more than a few days into the future seems utterly hopeless, and our movements have become small and repetetive, the Utah Monolith managed what many online art experiences struggled to do: For a moment, it led our gaze, and our mind away from the world immediately in front of us: up, toward the stars ★
 
 [^1]: Alan Yuhas / The New York Times (2020): _[A Weird Monolith Is Found in the Utah Desert](https://www.nytimes.com/2020/11/24/us/Utah-monolith-red-rock-country.html)_
+
 [^2]: John Berger (1972): _Ways of Seeing_. Penguin Books.
+
 [^3]: Utah Department of Public Safety (2020): _[DPS Aero Bureau Encounters Monolith in Red Rock Country](https://dpsnews.utah.gov/dps-aero-bureau-encounters-monolith-in-red-rock-country/)_
+
 [^4]: 3526, 3527, 3528, 3532, 3534, 3546, and monolith.jpg. I wonder what happened to the missing files in the sequence.
+
 [^5]: Christine Riding and Nigel Llewellyn (2013), ‘British Art and the Sublime’, in Nigel Llewellyn and Christine Riding (eds.), _[The Art of the Sublime](https://www.tate.org.uk/art/research-publications/the-sublime/christine-riding-and-nigel-llewellyn-british-art-and-the-sublime-r1109418)_, Tate Research Publication.
+
 [^6]: Reddit/DOTTheMath (2020): _[Help me find this obelisk in remote Utah wilderness](https://www.reddit.com/r/geoguessr/comments/jzw628/help_me_find_this_obelisk_in_remote_utah/gdfapzw/)_
+
 [^7]: Atlas Obscura / randalscott: _[Corona Satellite Calibration Targets](https://www.atlasobscura.com/places/corona-satellite-calibration-targets)_
+
 [^8]: Incidentally, you could see this as an argument against the idea that the Monolith is a sculpture by McKracken - [his are made of stainless steel](http://www.artnet.com/artists/john-mccracken/atum-RWkQgub1KfhuE0iRHMsQCA2).
+
 [^9]: Arthur C. Clarke (1948): _The Sentinel_, published 1951 as _Sentinel of Eternity_. Available on the [Internet Archive](https://archive.org/stream/10_Story_Fantasy_v01n01_1951-Spring_Tawrast-EXciter#page/n39/mode/2up)
+
 [^10]: Bruce Handy / Vanity Fair (2014): _[Weird, Unseen Images from the Making of 2001: A Space Odyssey](https://www.vanityfair.com/hollywood/2014/07/unseen-images-2011-space-odyssey-making)_
+
 [^11]: Jon Ronson / The Guardian (2004): _[Citizen Kubrick](https://www.theguardian.com/film/2004/mar/27/features.weekend)_
+
 [^12]: Paul Cooper / The Atlantic (2018): _[Europe Was Once Obsessed With Fake Dilapidated Buildings](https://www.theatlantic.com/science/archive/2018/04/fake-ruins-europe-trend/558293/)_"
+
 [^13]: Ana Cecilia Alvarez (2019) in Real Life Magazine: _[Look for America: How Land became scenery](https://reallifemag.com/look-for-america/)_
+
 [^14]: Amanda Holpuch / The Guardian (2020): _[Theories abound over mystery metal monolith found in Utah ](https://www.theguardian.com/us-news/2020/nov/24/monolith-utah-theories-what-is-it-mystery)_
+
 [^15]: Alexandra Mae Jones / CTV News (2020): _[Hiker drove six hours into Utah desert to see metal monolith before it vanished](https://www.ctvnews.ca/lifestyle/hiker-drove-six-hours-into-utah-desert-to-see-metal-monolith-before-it-vanished-1.5211323)_
+
 [^16]: Serge F. Kovaleski, Deborah Solomon and Zoe Rosenberg / The New York Times (2020): _[How a Mysterious Monolith Vanished Overnight (It Wasn’t Aliens)](https://www.nytimes.com/2020/12/01/arts/design/utah-monolith-removed-instagram.html)_

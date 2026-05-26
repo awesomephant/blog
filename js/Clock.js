@@ -20,7 +20,6 @@ export default class Clock {
 			container.querySelectorAll('.teaching .is-featured-container, .is-active .running__pace'),
 			container.querySelectorAll('.home__running .is-active .is-featured-container'),
 		]
-		console.log(this.cols[this.cols.length - 1])
 		this.time = 0
 		this.update()
 		this.render()
@@ -45,7 +44,7 @@ export default class Clock {
 				const step = (j / col.length) * 2 * Math.PI
 				const x = Math.sin((window.innerWidth / this.cols.length) * i * 5 + this.time.getDay())
 				const v = this.min + Math.sin(step + this.time.getHours() + x * 0.7) * -this.amplitude
-				el.style.setProperty('--bg', `hsl(210, 75%, ${v}%)`)
+				el.style.setProperty('--bg', `hsl(80, 75%, ${v}%)`)
 			})
 		})
 	}

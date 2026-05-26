@@ -7,14 +7,7 @@ tags: post
 publication: Scream Time
 thumb: https://maxkohler.com/assets/tate-bw.jpg
 canonical: https://maxakohler.substack.com/p/the-tate-modern-posted-my-job-application
-background: 'hsl(200, 75%, 97%)'
 ---
-
-<style>
-img {
-    mix-blend-mode: multiply;
-}
-</style>
 
 {% include "fig.liquid", src: "/assets/tate-bw.jpg", caption: "Dimitri Hon, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons (my edit)", alt: "Black and white photograph close-up of the Tate Modern, London", class: "large"%}
 

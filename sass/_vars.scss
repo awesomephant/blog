@@ -86,7 +86,7 @@ $br: 3px;
 	--padding-x: 0.5rem;
 	--padding: Min(5%, var(--ms-1));
 	--baseline: calc(var(--ms-0) * 1.45);
-	--secondary: rgb(226, 226, 226);
+	--secondary: rgb(246, 247, 243);
 
 	@include bp(m) {
 		--padding-x: 0.5ch;

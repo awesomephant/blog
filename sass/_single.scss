@@ -5,14 +5,13 @@
 }
 
 .single__header {
-	flex-flow: column;
-	display: flex;
 	border: 1px solid currentColor;
-	margin: 1.25rem;
+	padding: 1.25rem;
 	display: grid;
 	grid-template-columns: subgrid;
 	grid-column: 1 / 21;
 }
+
 .single__header-inner {
 	grid-column: 1 / 21;
 	@include vars.bp(m) {
@@ -26,7 +25,8 @@
 	max-width: 20em;
 
 	@include vars.bp(m) {
-		padding: 0.5em 0;
+		padding: 0.1em 0;
+		padding-bottom: 0.15em;
 	}
 
 	a {
@@ -42,7 +42,7 @@
 	@include vars.bp(m) {
 		border-top: 0;
 		grid-column: 7 / 14;
-		padding: 0.5em 0;
+		padding: 0;
 		margin-top: 4em;
 	}
 }

@@ -64,3 +64,4 @@ If you're a type designer, you can avoid the problem by setting the metrics corr
 
 - Thanks to [FontSquirrel and Neil on Stackoverflow](https://stackoverflow.com/questions/10044130/custom-fonts-with-different-vertical-metrics-between-oss), who sent me down this rabbit hole.
 - In case I ever need it, here is the [OpenType Spec](https://docs.microsoft.com/en-us/typography/opentype/spec/hhea).
+- [Vertical Metrics Explorer](https://vertical-metrics.netlify.app)

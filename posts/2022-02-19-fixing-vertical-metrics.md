@@ -2,7 +2,7 @@
 layout: post
 title: How to fix inconsistent vertical metrics in your web font
 date: 2022-02-19
-updated: 2025-09-08
+updated: 2026-05-25
 includesMath: false
 includesMusic: false
 tags: post

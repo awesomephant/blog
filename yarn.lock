@@ -1058,7 +1058,7 @@ __metadata:
     cross-env: "npm:^10.1.0"
     csv-parse: "npm:^6.1.0"
     html-minifier-terser: "npm:^7.2.0"
-    liquidjs: "npm:^10.25.7"
+    liquidjs: "npm:^10.26.0"
     markdown-it: "npm:^14.1.1"
     markdown-it-anchor: "npm:^9.2.0"
     markdown-it-footnote: "npm:^4.0.0"
@@ -2937,15 +2937,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"liquidjs@npm:^10.25.7":
-  version: 10.25.7
-  resolution: "liquidjs@npm:10.25.7"
+"liquidjs@npm:^10.26.0":
+  version: 10.26.0
+  resolution: "liquidjs@npm:10.26.0"
   dependencies:
     commander: "npm:^10.0.0"
   bin:
     liquid: bin/liquid.js
     liquidjs: bin/liquid.js
-  checksum: 10/6e4ef03bb24a808a3174120394fe03116ed8160c67db1a043bc012562dc179c00e30a9f6bc7733806c874eb8cc139ea7bff804525d13197cf506a88611c776aa
+  checksum: 10/98d87c0dfe282c4f47a8d8588924d7ad2b5f954b1c2bc4f5524e8bb1de5504ee19fad7cff3c07f2569fb2fd8290dcaf9af1b8b41e84f09ac7ae66d558e8e8a9c
   languageName: node
   linkType: hard
 

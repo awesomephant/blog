@@ -39,7 +39,7 @@ Social media apps are the most ubiquitous example. Just like habitual machine ga
 
 Video games employ [casino design techniques](https://www.nytimes.com/2018/04/24/business/loot-boxes-video-games.html) like intermittent rewards, audiovisual clues and habit-forming player rewards schemes to encourage repeat play and continous small-denomination spending.
 
-Dating apps (I’m told) have similar dynamics, encouraging users to swipe again and again for small, intermittent rewards (mediated by another company-controlled algorithm) and slowly extracting via subscriptions and extracting value over time via subscriptions and one-off payments. The average “payer”[^4] on Hinge spent around $30 per month in 2024, up 13% from 2023.[^5]
+Dating apps (I’m told) have similar dynamics, encouraging users to swipe again and again for small, intermittent rewards (mediated by another company-controlled algorithm) and slowly extracting value over time via subscriptions and one-off payments. The average “payer”[^4] on Hinge spent around $30 per month in 2024, up 13% from 2023.[^5]
 
 And it's not just consumer products: Gig economy companies use their information advantage and the same [psychological tricks](https://www.nytimes.com/interactive/2017/04/02/technology/uber-drivers-psychological-tricks.html) — _your next delivery trip could be a winner!_ — to “prod [workers] into working longer and harder” until they’re used up.
 

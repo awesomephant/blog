@@ -41,13 +41,13 @@ Video games employ [casino design techniques](https://www.nytimes.com/2018/04/24
 
 Dating apps (I’m told) have similar dynamics, encouraging users to swipe again and again for small, intermittent rewards (mediated by another company-controlled algorithm) and slowly extracting value over time via subscriptions and one-off payments. The average “payer”[^4] on Hinge spent around $30 per month in 2024, up 13% from 2023.[^5]
 
-And it's not just consumer products: Gig economy companies use their information advantage and the same [psychological tricks](https://www.nytimes.com/interactive/2017/04/02/technology/uber-drivers-psychological-tricks.html) — _your next delivery trip could be a winner!_ — to “prod [workers] into working longer and harder” until they’re used up.
+And it's not just consumer products: Gig economy companies use their information advantage and the same [psychological tricks](https://www.nytimes.com/interactive/2017/04/02/technology/uber-drivers-psychological-tricks.html) — _your next delivery trip could be a winner!_ — to “prod [workers] into working longer and harder”[^6] until they’re used up.
 
 Finally, gambling proper is also having a [well-documented renaissance](https://www.nytimes.com/2025/02/08/opinion/sports-betting-addiction.html), fuelled in large part by the legalisation of sports betting. One in five Americans has an [account with an online bookmaker](https://www.sbu.edu/news/news-items/2024/02/05/st.-bonaventure-siena-research-survey-reveals-almost-1-in-5-americans-have-an-online-sports-betting-account), including nearly 40% of working-age men. By Silver’s estimate, Americans wagered [nearly four percent](https://www.nytimes.com/2024/08/21/opinion/online-betting-gambling.html) of U.S. gross domestic product via smartphone apps, casinos, lotteries and other forms of legalised gambling in 2022 alone.
 
 ---
 
-In 2012, Dow Schüll described casino gamblers as “[resembling] the docile bodies of factory workers, soldiers, prisoners, or students”. However, unlike the 20th-century images of those figures, they “are not the self-conscious, self-censoring, vigilant subjects of disciplinary spaces; instead, they are uninhibited, self-abandoning, and immersed in tiny, private playing worlds”.[^6]
+In 2012, Dow Schüll described casino gamblers as “[resembling] the docile bodies of factory workers, soldiers, prisoners, or students”. However, unlike the 20th-century images of those figures, they “are not the self-conscious, self-censoring, vigilant subjects of disciplinary spaces; instead, they are uninhibited, self-abandoning, and immersed in tiny, private playing worlds”.[^7]
 
 A little over a decade later, it seems like that description could apply to just about anybody. The slot-machinification of so many daily affordances and the rapid spread of online gambling mark to me the outlines of a genuine social current whose description (more than its valorisation in later chapters) is On the Edge’s most valuable contribution.
 
@@ -63,4 +63,6 @@ A little over a decade later, it seems like that description could apply to just
 
 [^5]: Match Group (2024): _Annual Report_, p. 40.
 
-[^6]: Natasha Dow Schüll (2012): _Addiction by Design: Machine Gambling in Las Vegas_ (Princeton University Press)
+[^6]:  Noam Scheiber, Jon Huang (2017): _[How Uber Uses Psychological Tricks to Push Its Drivers’ Buttons](https://www.nytimes.com/interactive/2017/04/02/technology/uber-drivers-psychological-tricks.html)_
+
+[^7]: Natasha Dow Schüll (2012): _Addiction by Design: Machine Gambling in Las Vegas_ (Princeton University Press)

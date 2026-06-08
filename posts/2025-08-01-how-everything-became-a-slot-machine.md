@@ -15,7 +15,7 @@ img {
 }
 </style>
 
-The strongest portion of _On the Edge_[^1] is its opening section, where Silver (an expert gambler) explains, in detail, the mechanics of the Las Vegas casino business.[^2] In particular, he makes two interesting observations about slot machines.
+The strongest portion of _On the Edge_[^1] is its opening section where Silver, an expert gambler, explains the mechanics of the Las Vegas casino business.[^2] In particular, he makes two interesting observations about slot machines.
 
 One: they're not games of chance. The outcome of each spin is determined by a random number generator inside the machine the moment you press the button. The spinning reels and blinking lights you see are just an elaborate display of the already-determined result. Casino operators have precise control over how much money their machines are going to pay out, and in what rhythm, over the course of hundreds and thousands of spins.
 

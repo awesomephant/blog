@@ -168,7 +168,7 @@ But regardless of the precise implementation, I think that the idea that that an
 
 I'm especially interested in what a visual design tool would look like if it was built on the model of continuous typography. Tim Brown makes this point in Flexible Typesetting (2018), writing:[^9]
 
-> Your design tool is working against you. It is stuck in the traditional mindset of absolute measurements. This is precisely one reason why people very good at web design argue that designers should learn to write code. No mainstream design tools […] are completely appropriate for the practice of typesetting today.
+> Your design tool is working against you. It is stuck in the traditional mindset of absolute measurements. This is precisely one reason why people who are very good at web design argue that designers should learn to write code. No mainstream design tools […] are completely appropriate for the practice of typesetting today.
 
 To my knowledge this situation hasn't changed much since - so there's plenty of room for exploration. With better tools, continuous typography might become more than a way to _make the type look good on a phone_: a new method for visual expression in its own right.
 

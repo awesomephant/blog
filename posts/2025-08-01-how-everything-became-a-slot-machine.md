@@ -19,7 +19,7 @@ The strongest portion of _On the Edge_[^1] is its opening section where Silver, 
 
 One: they're not games of chance. The outcome of each spin is determined by a random number generator inside the machine the moment you press the button. The spinning reels and blinking lights you see are just an elaborate display of the already-determined result. Casino operators have precise control over how much money their machines are going to pay out, and in what rhythm, over the course of hundreds and thousands of spins.
 
-Two: they’re wildly profitable. On Las Vegas slots, players are expected to loose around $8 of every $100 wagered, eight times the equivalent figure on table games like Blackjack or Roulette. And unlike those games, slot machines operate at breakneck speed 24/7 and require no employees to deal cards, pay out wins and collect cash.
+Two: they’re wildly profitable. On Las Vegas slots, players are expected to loose around $8 of every $100 wagered, eight times the equivalent figure on table games like Blackjack or Roulette. And unlike those games, slot machines operate at full speed 24/7 and require no employees to deal cards, pay out wins and collect cash.
 
 {% include "fig.liquid", src: "/assets/slot-machines-spot.png", caption: "[US10789812B2](https://patents.google.com/patent/US10789812B2/)", alt: "Cropped patent drawing showing slot reels with numbers and a horse's head", class: "large"%}
 

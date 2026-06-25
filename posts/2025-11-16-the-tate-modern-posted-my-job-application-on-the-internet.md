@@ -27,7 +27,7 @@ There are dozens of touching stories about childhood visits to the Tate, dreams 
 
 Hundreds of referees from all walks of life are listed with names, phone numbers, and short missives sketching the applicant’s relation to them (“we used to work at a restaurant together”, “he is my flying instructor”, “he managed me for a year”). Most list one or two referees, I’m the only person to give four. One writer rendered the word _Tate_ in all-uppercase letters throughout their submission, perhaps as a sign of reverence.
 
-All together, the leaked applications (for one job alone) constitute about 150,000 words — a novel’s worth — of what JG Ballard termed “invisible literature”, that sprawling field of unrecognised narrative production encompassing “technical manuals, pharmaceutical company brochures, think-tank internal documents, PR company position papers”[^1], from which, [he suggested in 1971](https://www.jgballard.ca/non_fiction/jgb_fictions.html), emerges the “intact reality of our time”.
+All together, the leaked applications for one job alone constitute about 150,000 words — a novel’s worth — of what JG Ballard termed “invisible literature”: that sprawling field of unrecognised narrative production encompassing “technical manuals, pharmaceutical company brochures, think-tank internal documents, PR company position papers”[^1], from which, [he suggested in 1971](https://www.jgballard.ca/non_fiction/jgb_fictions.html), emerges the “intact reality of our time”.
 
 ---
 

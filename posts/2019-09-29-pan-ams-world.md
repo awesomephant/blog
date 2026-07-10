@@ -11,7 +11,7 @@ publication: Content Free
 
 {% include "fig.liquid", src: "/assets/geismar.jpg", caption: "Chermayeff & Geismar (1971): Poster from “PanAm’s World” Campaign.", alt: "A 1971 poster for PanAm shows men on horseback against a sunset. Text reads 'Argentina / PanAms World'.", source:  "[Eye Magazine](http://eyemagazine.com/feature/article/flight-of-the-imagination)", class: "small" %}
 
-When I was an undergraduate student, a relative gave me this big coffee table book about airline visual identities. It documents the visual output of the 20th century aviation industry in all its glory: Full-bleed Kodachrome photography overlaid with tightly-set Helvetica at [PanAm](http://www.eyemagazine.com/feature/article/flight-of-the-imagination). Colourful, bold illustrations and lettering, printed in stone lithography well into the 1950s at [Air France](https://image.jimcdn.com/app/cms/image/transf/none/path/s845a70f74d8b0138/image/i72f33aa726ac2f98/version/1545933097/image.jpg). The cool functionalism of HfG Ulm at [Lufthansa](http://ravenrow.org/exhibition/the_ulm_model/).
+When I was an undergraduate student, a relative gave me this big coffee table book about airline visual identities.[^1] It documents the visual output of the 20th century aviation industry in all its glory: Full-bleed Kodachrome photography overlaid with tightly-set Helvetica at [PanAm](http://www.eyemagazine.com/feature/article/flight-of-the-imagination). Colourful, bold illustrations and lettering, printed in stone lithography well into the 1950s at [Air France](https://image.jimcdn.com/app/cms/image/transf/none/path/s845a70f74d8b0138/image/i72f33aa726ac2f98/version/1545933097/image.jpg). The cool functionalism of HfG Ulm at [Lufthansa](http://ravenrow.org/exhibition/the_ulm_model/).
 
 I love looking at these images. But as I do so now, at a time when the climate crisis has (rightfully) become the subject of almost daily news coverage, I’m also acutely aware of the ruinous impact commercial aviation has on the world. It contributes around 2.5% to global CO2 emissions[, a figure which is rising sharply,](https://www.nytimes.com/2019/09/19/climate/air-travel-emissions.html) not to mention countless ways aircraft noise and pollution causes misery around the world, and the damage caused by its various supply chains.
 
@@ -25,7 +25,7 @@ This is where I’m beginning to think that something bigger has been lost here.
 
 ---
 
-The usual response to concerns about the environmental damage cause by graphic design are technological fixes: Printing with soy-based inks on recycled paper, using lighter typefaces to save on ink, or moving from print to digital: _Please consider the environment before printing this email_[^1].
+The usual response to concerns about the environmental damage cause by graphic design are technological fixes: Printing with soy-based inks on recycled paper, using lighter typefaces to save on ink, or moving from print to digital: _Please consider the environment before printing this email_[^2].
 
 These ideas are no doubt well-intentioned, but ultimately they're incremental improvements to a deeply broken system — equivalent to replacing petrol cars with electric ones, or plastic straws with cornstarch. At best, what these proposals achieve is shift _which_ natural recources we’re going to waste on consumerism.
 
@@ -39,12 +39,13 @@ The reason it’s so scary is that my entire understanding of economics, of how 
 
 Success in graphic design is measured following the same logic: Whoever gets to work with the largest print budgets, the biggest brands, whoever gets the most views, whoever shows their work in the most countries is the most succesful.
 
-But with every news story about a wild fire, heatwave, storm, or flood, that model looks more untenable. Smarter people than me are working on alternative models for design, and cultural production in general. In _Duty Free Art_[^2], Hito Steyerl writes:
+But with every news story about a wild fire, heatwave, storm, or flood, that model looks more untenable. Smarter people than me are working on alternative models for design, and cultural production in general. In _Duty Free Art_[^3], Hito Steyerl writes:
 
 > The contrary [to current ways of doing design] is a process that doesn’t grow via destruction, but very literally de-grows constructively. This type of construction is not creating inflation, but devolution. Not centralized competition but cooperative autonomy. Not fragmenting time and dividing people, but reducing expansion, inflation, consumption, dept, disruption, occupation, and death.
 
-Intellectually, I know that what she and others are proposing is true, necessary, and probably without alternative. But emotionally, I’m not ready to feel hopeful about that new form of design practice: I’m not done grieving the end of the old one.[^3]
+Intellectually, I know that what she and others are proposing is true, necessary, and probably without alternative. But emotionally, I’m not ready to feel hopeful about that new form of design practice: I’m not done grieving the end of the old one.[^4]
 
-[^1]: I’m not aware of any similar ideas for screen-based design, maybe because we tend to assume it’s cleaner by default? It isn’t: See datacenter emissions.
-[^2]: Hito Steyerl (2019): _Duty Free Art: Art in the Age of Planetary Civil War_, p. 18. Verso Books
-[^3]: This essay was first published on [Content Free](http://content-free.net/articles/panams-world).
+[^1]: M.C. Hühne (2015): *Airline Visual Identity 1945–1975*, Callisto Publishers
+[^2]: I’m not aware of any similar ideas for screen-based design, maybe because we tend to assume it’s cleaner by default? It isn’t: See datacenter emissions.
+[^3]: Hito Steyerl (2019): _Duty Free Art: Art in the Age of Planetary Civil War_, p. 18, Verso Books
+[^4]: This essay was first published on [Content Free](http://content-free.net/articles/panams-world).

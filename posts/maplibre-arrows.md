@@ -50,7 +50,7 @@ const arrows = new maplibreArrows(map, {
 
 ## TLDR
 
-I wrote a simple (~250 LOC) [maplibre-gl-js](https://maplibre.org/maplibre-gl-js/docs/) plugin to draw straight and/or curved arrows at geographic coordinates called [maplibre-arrows](https://www.npmjs.com/package/@awesomephant/maplibre-arrows). It's available on [Github](https://github.com/awesomephant/maplibre-arrows) and [NPM](https://www.npmjs.com/package/@awesomephant/maplibre-arrows).
+I wrote [maplibre-arrows](https://www.npmjs.com/package/@awesomephant/maplibre-arrows), a simple (~250 LOC) [maplibre-gl-js](https://maplibre.org/maplibre-gl-js/docs/) plugin to draw straight and/or curved arrows at geographic coordinates. It's available on [Github](https://github.com/awesomephant/maplibre-arrows) and [NPM](https://www.npmjs.com/package/@awesomephant/maplibre-arrows).
 
 ## Background
 

@@ -29,17 +29,15 @@ There are all kinds of methods to do this (Bringhurst fills a whole chapter with
 
 {% include "fig.liquid", src: "/assets/continuous-type/paragraph-static.svg", caption: "A block of text typeset with absolute values.", alt: "A paragraph is set in a serif typeface. Values for measure, font size, line height, etc. are shown in red.", source: "Sample text from *Flexible Typesetting* by Tim Brown.", class: "big" %}
 
-Take the font size, for instance: We want to set this so it gives the right voice to the piece of writing we're working with, but it also has to be appropriate to the typeface we've chosen, the size of the page, and it should result in a comfortable number of characters per line. Other adjustments follow from it: A change in type size might compel different spacing, a change in weight, hyphenation, and so on.
+Take the font size: We want to set this so it gives the right voice to the piece of writing we're working with, but it also has to be appropriate to the typeface we've chosen, the size of the page, and it should result in a comfortable number of characters per line. Other adjustments follow from it: A change in type size might compel different spacing, a change in weight, hyphenation, and so on.
 
-In print, you tweak these values until you arrive at a set of numbers that produces the visual expression you aimed for. And because you're working with a piece of paper of fixed dimensions and permanent ink, you can be fairly sure that the numbers you've established will stay intact throughout the production process, and land in the reader's hand just how you intended.
+In print, you tweak these values until you arrive at a set of numbers that produces the visual expression you want. And because you're working with a piece of paper of fixed dimensions and permanent ink, you can be fairly sure that the numbers you've established will stay intact throughout the production process, and land in the reader's hands just how you intended.
 
-But on the web, this method starts to fail. Unlike a paper sheet, the browser window your text will be viewed in is completely variable; it can take on any size and apsect ratio whatsoever. If we set our font size to a fixed number (`18px`, say), the relationship between it and the browser window will be different on every screen, and unpleasant on most.
+But on the web, things are less reliable. Unlike a paper sheet, the browser window your text will be viewed in is completely variable; it can take on any size and apsect ratio whatsoever. If we set our font size to a fixed number (`18px`, say), the relationship between it and the browser window will be different on every screen. Readers can also modify type size and colours through their browser or opertating system, or have your text translated into their own language on the fly. Your choice of typeface might well be overwritten by a user's preference or a failed network request, and even the text itself might change over time.
 
-And the size is of the browser window isn't the only variable in play: Readers can modify type size and colours through their browser or opertating system, or have your text translated into their own language on the fly. Your choice of typeface might well be overwritten by a user's preference or a failed network request, and even the text itself might change over time.
+The traditional guidelines of typography about line-lengths, spacing, harmonies, and so on still apply on the web; it's just that we're now trying to apply them in a context where many of their parameters have become variable. There are ways to lock down some of these parameters - there's a HTML snippet that prevents people from resizing your type, for example - but that seems to me to run counter to a central promise of the web as a medium: that it works for anyone, anywhere.
 
-The traditional guidelines of typography about line-lengths, spacing, harmonies, and so on still apply on the web; it's just that we're now trying to apply them in a context where many of their parameters have become variable. There are ways to lock down some of these parameters - there's a HTML snippet that prevents people from resizing your type, for instance - but that seems to me to run counter to the promise of the medium: that it works for anyone, anywhere.
-
-What we need is a way to make typographic decisions in a way that is relative to all of these variable parameters, but still gives us some control over the resulting visual expression. The construct that lets us do this - generate different outputs depending on a set of inputs with arbitrary granularity - is called a continuous function.
+What we need is a way to make typographic decisions in a way that is relative to all of these variable parameters, but still gives us some control over the resulting visual expression. The construct that lets us do this is called a continuous function.
 
 ## A continuous approach
 
@@ -53,7 +51,7 @@ p {
 
 The `16px` here is an absolute value. It's going to stay the same regardless of the size of the screen, the reader's preferences, and any other outside parameter. As a result, it might work fine on a tablet but will probably feel a little lost on a big desktop monitor, and uncomfortably large on a phone.
 
-But CSS gives us the tools to define the font size in a way that _does_ respond to outside parameters. For example, we could use the `vw` unit instead of pixels to define our font size:
+But CSS gives us the tools to define the font size in a way that does respond to outside parameters. For example, we could use the `vw` unit instead of pixels to define our font size:
 
 ```css
 p {
@@ -67,7 +65,7 @@ It produces a different font size for every screen size it encounters: On a scre
 
 {% include "fig.liquid", src: "/assets/continuous-type/function-simple.svg", caption: "If we define the font size defined as a continous function of the screen width, it forms a line.", alt: "A linear function is drawn on a coordinate system. X: Screen width, Y: Font size", class: "medium" %}
 
-I think this simple drawing represents a big shift in our approach to typography on the web. We're no longer placing a single point on the coordinate system (by defining a single, absolute value), but _a line_ containing an infinite number of points - our typographic intent has become dimensional.
+I think this simple drawing represents a big shift in our approach to typography on the web. We're no longer placing a single point on the coordinate system (by defining a single, absolute value), but a line containing an infinite number of points - our typographic intent has become dimensional.
 
 This idea doesn't just apply to font size, but every other aspect of our text block: Measure, letter-, line- and word spacing, indentations, weight, variable font parameters can all be defined as continuous functions of one or more input parameters. The typographer's work becomes the shaping of these functions: How steep are they? Do they have minimum and maximum values? Where are their inflection points? Are they smooth, jagged, symmetrical, cyclical, randomised? How do they relate to each other? By answering these questions one way or another, any desired visual expression can be achieved for every reader.
 
@@ -77,7 +75,7 @@ In the following section we'll look at ways this is already possible in CSS toda
 
 ### Slope
 
-{% include "fig.liquid", src: "/assets/continuous-type/function-slope.svg", caption: "Different numerical factors produce steeper and shallower curves.", alt: "4 linear functions of different slopes are drawn on a coordinate system.", class: "medium" %}
+{% include "fig.liquid", src: "/assets/continuous-type/function-slope.svg", caption: "Different numerical factors produce steeper and shallower curves.", alt: "four linear functions of different slopes are drawn on a coordinate system.", class: "medium" %}
 
 A basic way to manipulate our function is to define its slope. We do this by multiplying our input variable (`1vw` in our example) with a different numerical factor:
 
@@ -135,7 +133,7 @@ p {
 }
 ```
 
-Here we're saying: _The font size is equal to the width of the screen multiplied by 0.01, plus the reader's default font size multiplied by 0.85_. If we draw this function onto a coordinate system, its output values no longer form a line but a _plane_; our typographic intent has gained a second dimension.
+Here we're saying: _The font size is equal to the width of the screen multiplied by 0.01, plus the reader's default font size multiplied by 0.85_. If we draw this function onto a coordinate system, its output values no longer form a line but a plane; our typographic intent has gained a second dimension.
 
 There is no limit to the number of input parameters our functions can draw on. The reader's connection speed, whether they have dark mode enabled[^6], their reading distance, their preferred language, even the time of day at their location may all be useful parameters for multi-dimensional typographic systems.
 

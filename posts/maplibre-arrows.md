@@ -14,7 +14,7 @@ thumb: https://www.maxkohler.com/assets/maplibre-arrows.png
 	</figcaption>	
 </figure>
 
-<script defer src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+<script defer src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.mjs"></script>
 <script defer src="https://unpkg.com/@awesomephant/maplibre-arrows@latest/dist/index.min.js"></script>
 
 <link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />

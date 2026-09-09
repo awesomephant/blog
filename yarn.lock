@@ -997,7 +997,7 @@ __metadata:
     "@netlify/functions": "npm:^5.3.0"
     axios: "npm:^1.18.1"
     cross-env: "npm:^10.1.0"
-    csv-parse: "npm:^7.0.1"
+    csv-parse: "npm:^7.0.2"
     html-minifier-terser: "npm:^7.2.0"
     liquidjs: "npm:^10.27.2"
     markdown-it: "npm:^14.3.0"
@@ -1325,10 +1325,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csv-parse@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "csv-parse@npm:7.0.1"
-  checksum: 10/5c914f01181dbb381068b98e17b49361d853faa95db3e8e82bc96b6a0de5313ecc8325a77db35ff66644d7747099965ba3167ec21bd9ce4500edf21b5bdd49bf
+"csv-parse@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "csv-parse@npm:7.0.2"
+  checksum: 10/66158491d25b2070908c6d28130c1d439bec0e0d1ab3fad372973909e573bcc85a46ca317ae410f0178157f272112e3741b164aaf850d8241128c30ea2137670
   languageName: node
   linkType: hard
 

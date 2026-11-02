@@ -3,7 +3,7 @@ title: Maplibre Arrows
 date: 2026-02-24
 draft: false
 layout: post
-intro: '`maplibre-arrows` is a maplibre-gl-js plugin for drawing vector arrows at geographic coordinates.'
+intro: "`maplibre-arrows` is a maplibre-gl-js plugin for drawing vector arrows at geographic coordinates."
 thumb: https://www.maxkohler.com/assets/maplibre-arrows.png
 ---
 
@@ -14,20 +14,19 @@ thumb: https://www.maxkohler.com/assets/maplibre-arrows.png
 	</figcaption>	
 </figure>
 
-<script defer src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.mjs"></script>
 <script defer src="https://unpkg.com/@awesomephant/maplibre-arrows@latest/dist/index.min.js"></script>
 
-<link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
+<script type="module">
+import * as maplibregl from 'https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.mjs';
 
-<script>
 document.addEventListener("DOMContentLoaded", ()=>{
-  
+
 const map = new maplibregl.Map({
-	container: "map",
-	style: "https://demotiles.maplibre.org/style.json",
-	center: [-96, 34],
-	zoom: 3.3,
-	attributionControl: false
+container: "map",
+style: "https://demotiles.maplibre.org/style.json",
+center: [-96, 34],
+zoom: 3,
+attributionControl: false
 });
 
 const arrows = new maplibreArrows(map, {

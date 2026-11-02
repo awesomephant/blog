@@ -45,7 +45,10 @@ But with every news story about a wild fire, heatwave, storm, or flood, that mod
 
 Intellectually, I know that what she and others are proposing is true, necessary, and probably without alternative. But emotionally, I’m not ready to feel hopeful about that new form of design practice: I’m not done grieving the end of the old one.[^4]
 
-[^1]: M.C. Hühne (2015): *Airline Visual Identity 1945–1975*, Callisto Publishers
+[^1]: M.C. Hühne (2015): _Airline Visual Identity 1945–1975_, Callisto Publishers
+
 [^2]: I’m not aware of any similar ideas for screen-based design, maybe because we tend to assume it’s cleaner by default? It isn’t: See datacenter emissions.
+
 [^3]: Hito Steyerl (2019): _Duty Free Art: Art in the Age of Planetary Civil War_, p. 18, Verso Books
+
 [^4]: This essay was first published on [Content Free](http://content-free.net/articles/panams-world).

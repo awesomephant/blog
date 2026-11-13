@@ -15,7 +15,7 @@
     "build": "cross-env NODE_ENV=prod run-s 'build:*'"
   },
   "author": "Max Kohler",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "homepage": "/",
   "dependencies": {
     "@11ty/eleventy": "^3.1.6",
@@ -37,5 +37,8 @@
     "webpack": "^5.108.4",
     "webpack-cli": "^7.2.1"
   },
-  "packageManager": "yarn@4.16.0"
+  "packageManager": "yarn@4.16.0",
+  "devDependencies": {
+    "luxon": "^3.7.2"
+  }
 }

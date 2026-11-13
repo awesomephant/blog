@@ -34,7 +34,40 @@ class: home
     {% endfor %}
     {% endfor %}
 </section>
-<section class='home__posts' aria-shortcuts="W">
+
+<section class="home__writing">
+    <section class='home__credits' aria-shortcuts="E">
+      <h2 class="section__header"><span class="title">Credits</span></h2>
+      {% assign years = credits %}
+      {% for year in years %}
+      {% assign months = year.months  %}
+      <h3 style="--month-count: {{ months | size }}" class="home__year {% if forloop.last %}is-last{% endif %}">{{year.year}}</h3>
+      {% for month in months %}
+      <h4 class="home__month">{{ month.date | date: "%b" }}</h4>
+      <ol>
+        {% assign posts = month.posts %}
+        {% for post in posts %}
+        <li>
+            <a href="{{ post.data.url }}" class="home__item">
+                <span class="writing__title">
+                    {{ post.data.shortTitle | default: post.data.title}}
+                </span>
+                <span class="writing__publication">
+                    {{ post.data.publication }}
+                </span>
+                <span class="is-featured-container writing__featured">
+                    {% if post.data.is_featured %}
+                    <span class="is-featured"></span>
+                    {% endif %}
+                </span>
+            </a>
+        </li>
+        {% endfor %}
+      </ol>
+      {% endfor %}
+      {% endfor %}
+    </section>
+  <section class="home__posts">
     <h2 class="section__header"><span class="title">Writing</span></h2>
     {% assign years = collections.postsByMonth | reverse %}
     {% for year in years %}
@@ -64,6 +97,7 @@ class: home
     </ol>
     {% endfor %}
     {% endfor %}
+  </section>
 </section>
 
 <section class='home__misc'>

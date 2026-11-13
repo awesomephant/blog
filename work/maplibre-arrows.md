@@ -5,6 +5,7 @@ draft: false
 layout: post
 intro: "`maplibre-arrows` is a maplibre-gl-js plugin for drawing vector arrows at geographic coordinates."
 thumb: https://www.maxkohler.com/assets/maplibre-arrows.png
+category: Tool
 ---
 
 <figure class="post-figure large">

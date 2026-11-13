@@ -23,8 +23,8 @@ body {
   color: var(--color);
   display: grid;
   grid-template-columns: repeat(20, 1fr);
-  margin: 0 auto;
   align-items: flex-start;
+  margin: 0 auto;
 }
 
 ::selection {

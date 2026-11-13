@@ -3,7 +3,7 @@
 %home__section {
   display: grid;
   grid-template-columns: subgrid;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   border-right: 1px solid black;
   margin-bottom: -1px;
   ol,
@@ -26,7 +26,7 @@
   grid-template-columns: repeat(5, 1fr) 2.5ch;
   text-transform: uppercase;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   grid-column: 1 / 21;
   background: var(--secondary);
   @include vars.bp(l) {
